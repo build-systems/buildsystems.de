@@ -1,36 +1,30 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_PERMALINK } from "../consts";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 ---
 
 <BaseLayout
   title={SITE_TITLE}
   description={SITE_DESCRIPTION}
-  permalink={SITE_PERMALINK}>
+  heroImage={SITE_HEROIMAGE}>
   <div class="home-container">
     <div class="home-copy">
       <h1>BuildSystems Blog</h1>
       <p>
-        Welcome to <a
-          href="https://buildsystems.de/"
-          target="_blank"
-          rel="noopener"
-          >BuildSystems</a
-        > blog. This is the place where we will keep you informed about the latest news, regulations, fundings and everything
-        related to the real estate in Germany.
+        The place dedicated to understand the German real estate. Here we cover topics such as circularity, regulations and fundings.
       </p>
     </div>
 
     <div class="hero-image-container">
       <picture>
         <source
-          srcset="/public/coverRendering.webp"
+          srcset="/images/coverRendering.webp"
           media="(min-width: 600px)"
         />
         <img
           class="hero-image"
           alt="Rendering of a multi-story timber building"
-          src="/public/coverRendering.webp"
+          src="/images/coverRendering.webp"
         />
       </picture>
     </div>
@@ -71,7 +65,7 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_PERMALINK } from "../consts";
     display: block;
     min-height: 250px;
     & img {
-    border-radius: 2rem;
+      border-radius: 2rem;
     }
   }
 

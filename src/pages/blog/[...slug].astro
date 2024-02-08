@@ -1,26 +1,31 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import getPostData from '../../utils/getPostData';
+import { type CollectionEntry, getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { formatDate } from "../../utils/getPostData";
+import readingTime from "reading-time";
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob('../../content/blog/*.md');
-  console.log(posts);
-  return posts.map(post => ({
-    params: { slug: post.file.split('/').pop()!.split('.').shift() },
-    props: { post: post },
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
   }));
 }
 
-const { Content, frontmatter } = Astro.props.post;
-const { title, description, publishDate } = frontmatter;
-const { slug, readingTime } = getPostData(Astro.props.post);
-const permalink = `${Astro.site!.href}blog/${slug}`;
+type Props = CollectionEntry<"blog">;
+
+const post = Astro.props;
+const { Content } = await post.render();
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="blog">
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  heroImage={post.data.heroImage!}
+  current="blog">
   <header>
-    <p>{publishDate} ~ {readingTime}</p>
-    <h1>{title}</h1>
+    <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
+    <h1>{post.data.title}</h1>
     <hr />
   </header>
   <div class="container">

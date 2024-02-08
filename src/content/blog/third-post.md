@@ -1,9 +1,12 @@
 ---
-title: 'Third post'
-description: 'Lorem ipsum dolor sit amet'
-publishDate: 'Jul 15 2022'
-heroImage: '/public/blog-placeholder-2.jpg'
+title: Third post
+description: Third post description
+author: Daniel Locatelli
+publishDate: 2022-07-31
+heroImage: /images/coverRendering.webp
 ---
+
+![Third Post Hero image](/images/coverRendering.webp)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
