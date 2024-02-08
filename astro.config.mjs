@@ -5,8 +5,6 @@ import remarkGfm from 'remark-gfm';
 import remarkSmartypants from 'remark-smartypants';
 import rehypeExternalLinks from 'rehype-external-links';
 
-import netlify from "@astrojs/netlify";
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://blog.buildsystems.de/',
@@ -20,6 +18,4 @@ export default defineConfig({
       target: '_blank'
     }]]
   },
-  output: "server",
-  adapter: netlify()
 });
