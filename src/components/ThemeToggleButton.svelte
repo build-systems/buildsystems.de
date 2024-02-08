@@ -1,4 +1,4 @@
-<script type="module">
+<!-- <script type="module">
   const rootEl = typeof document !== "undefined" ? document.documentElement : null;
   const themes = ["light", "dark"];
   let theme = "";
@@ -61,4 +61,4 @@
       />
     </label>
   {/each}
-</div>
+</div> -->
