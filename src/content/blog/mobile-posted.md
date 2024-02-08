@@ -3,10 +3,10 @@ title: Mobile posted
 description: First post written on mobile
 author: Daniel Locatelli
 publishDate: 2024-02-08
-heroImage: https://buildsystems.de/plasmic/build_systems_webseite/images/desktopRenderingjpg.jpg
+heroImage: /images/coverSmall.jpg
 ---
 
-![Placeholder01](https://buildsystems.de/plasmic/build_systems_webseite/images/desktopRenderingjpg.jpg)
+![Cover BuildSystems](/images/coverSmall.jpg)
 
 ## First post written on mobile
 Here I am testing also basic *Markdown* sintax
