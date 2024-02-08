@@ -3,7 +3,7 @@ title: Mobile posted
 description: First post written on mobile
 author: Daniel Locatelli
 publishDate: 2024-02-08
-heroImage: /images/coverRendering.webp
+heroImage: https://buildsystems.de/plasmic/build_systems_webseite/images/desktopRenderingjpg.jpg
 ---
 
 ![Placeholder01](/images/coverRendering.webp)
