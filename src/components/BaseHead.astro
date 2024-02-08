@@ -17,7 +17,7 @@ const { title, description, image = '/images/coverRendering.webp' } = Astro.prop
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
@@ -45,7 +45,7 @@ const { title, description, image = '/images/coverRendering.webp' } = Astro.prop
 <ViewTransitions />
 
 <!-- This is intentionally inlined to avoid FOUC -->
-<script is:inline>
+<!-- <script is:inline>
   const root = document.documentElement
   const theme = localStorage.getItem('theme')
   if (
@@ -56,4 +56,4 @@ const { title, description, image = '/images/coverRendering.webp' } = Astro.prop
   } else {
     root.classList.remove('theme-dark')
   }
-</script>
+</script> -->
