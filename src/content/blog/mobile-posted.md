@@ -6,7 +6,7 @@ publishDate: 2024-02-08
 heroImage: https://buildsystems.de/plasmic/build_systems_webseite/images/desktopRenderingjpg.jpg
 ---
 
-![Placeholder01](/images/coverRendering.webp)
+![Placeholder01](https://buildsystems.de/plasmic/build_systems_webseite/images/desktopRenderingjpg.jpg)
 
 ## First post written on mobile
 Here I am testing also basic *Markdown* sintax
