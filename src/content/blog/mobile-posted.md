@@ -2,7 +2,7 @@
 title: Mobile posted
 description: First post written on mobile
 author: Daniel Locatelli
-publishDate: 2024-02-08
+publishDate: 2024-02-09
 heroImage: /images/coverSmall.jpg
 ---
 
