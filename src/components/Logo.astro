@@ -1,20 +1,61 @@
 <style>
-    img {
-      display: block;
-      width: 75px;
-    }
+  .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0.8rem 1rem;
+    z-index: 3;
+  }
   
-    @media screen and (max-width: 520px) {
-      img {
-        display: none;
-      }
-    }
-  </style>
-    <a href="/">
-    <svg class="icon" width="50" height="50">
-        <use xlink:href="/public/assets/icons.svg#bs-logo-round" />
-        <div class="sr-only">BuildSystems Logo</div>
-      </svg>
-  </a>
+  .logo-container {
+    display: flex;
+    font-size: 2.7rem;
+    user-select: none;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+  }
 
-  
+  .logo {
+    display: inline;
+  }
+
+  .logo-mono {
+    font-family: ABC Diatype Mono;
+    display: inline;
+  }
+
+  @media (max-width: 1280px) {
+    .header-container {
+      padding: 0.6rem 1rem;
+    }
+    .logo-container {
+      font-size: 1.9rem;
+    }
+  }
+
+  @media (max-width: 625px) {
+    .header-container {
+      padding: 0.6rem 5%;
+    }
+    .logo-container {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .header-container {
+      padding: 0.5rem 10px;
+    }
+    .logo-container {
+      font-size: 1.4rem;
+    }
+  }
+</style>
+
+<div class="header-container blend">
+  <h1 class="logo-container">
+    <div class="logo">Build</div>
+    <div class="logo-mono">Systems</div>
+  </h1>
+</div>

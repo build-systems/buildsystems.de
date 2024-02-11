@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399 295">
+  <g data-name="Komponente 28 – 10">
+    <text data-name="Gesetzliche Vorgaben" transform="translate(192 14)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-67.242" y="0">Gesetzliche Vorgaben</tspan>
+    </text>
+    <text data-name="Bedarf &amp; Nutzung" transform="translate(90 45)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-54.453" y="0">Bedarf &amp; Nutzung</tspan>
+    </text>
+    <text transform="translate(83.221 254.921)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-36.435" y="0">Ressourcen</tspan>
+    </text>
+    <text transform="translate(292 45)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-41.02" y="0">Zertifizierung</tspan>
+    </text>
+    <text data-name="EU Taxonomie" transform="translate(287.255 255.921)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-43.316" y="0">EU Taxonomie</tspan>
+    </text>
+    <text transform="translate(186 290)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-41.531" y="0">Lebenszyklus</tspan>
+    </text>
+    <text transform="translate(324 149.805)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="0" y="0">Föderungen</tspan>
+    </text>
+    <text transform="translate(48 149.805)" fill="#d9d9d9" font-size="14" font-family="ABCDiatype-Medium, ABC Diatype" font-weight="500" letter-spacing="-.01em">
+      <tspan x="-47.18" y="0">Energie</tspan>
+    </text>
+    <g data-name="Gruppe 384" fill="none" stroke="#d9d9d9" stroke-width="2">
+      <g data-name="Gruppe 331">
+        <path data-name="Linie 73" d="M65 147.452h242.211"/>
+        <path data-name="Linie 74" d="M186.106 26.346v242.211"/>
+      </g>
+      <g data-name="Gruppe 330">
+        <path data-name="Linie 75" d="M94.416 58.249l183.14 178.065"/>
+        <path data-name="Linie 76" d="M94.416 236.314l183.14-178.065"/>
+      </g>
+    </g>
+  </g>
+</svg>

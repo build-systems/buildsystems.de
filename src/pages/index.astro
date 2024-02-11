@@ -1,105 +1,312 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
+import coverRendering from "../assets/coverRendering.jpg";
+import bundesminLogo from "../assets/bmWiLogo20212.png";
+import bayArchKammerLogo from "../assets/baykaLogo.png";
+import dennaLogo from "../assets/dena.png";
+import energieEffExpLogo from "../assets/energieEffizienz.png";
+import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
+import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
+import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
+import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
 ---
 
 <BaseLayout
   title={SITE_TITLE}
   description={SITE_DESCRIPTION}
-  heroImage={SITE_HEROIMAGE}>
-  <div class="home-container">
-    <div class="home-copy">
-      <h1>BuildSystems Blog</h1>
-      <p>
-        The place dedicated to understand the German real estate. Here we cover topics such as circularity, regulations and fundings.
-      </p>
-    </div>
+  heroImage={SITE_HEROIMAGE}
+  current="">
+  <Image
+    class="hero-image"
+    src={coverRendering}
+    alt="Rendering of a multi-story timber building"
+  />
 
-    <div class="hero-image-container">
-      <picture>
-        <source
-          srcset="/images/coverRendering.webp"
-          media="(min-width: 600px)"
-        />
-        <img
-          class="hero-image"
+  <div class="copy copy-primary">
+    <p class="sticky">
+      ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
+    </p>
+  </div>
+
+  <div class="animation01">
+    <LottieAnimation
+      src="animations/01.json"
+      autoplay="visible"
+    />
+  </div>
+
+  <div class="copy copy-secondary">
+    <p>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</p>
+    <ul>
+      <li>Ihren ökologischen und sozialen Impact in der Gebäude&shy;entwicklung zu skalieren</li>
+      <li>Das Potential Ihrer Assets optimal auszunutzen</li>
+      <li>Ihr Portfolio langfristig innerhalb des Dekarbonisierungs&shy;pfads zu verorten</li>
+    </ul>
+    <p>
+      Wir helfen Ihnen, die entscheidenden technischen und sozio&shy;ökonomischen Maßnahmen zu wählen, damit Sie Ihre
+      Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
+    </p>
+  </div>
+  <div class="copy copy-primary">
+    <p class="sticky">
+      ist eine technologie&shy;gestützte Nachhaltigkeits&shy;beratung. Wir stellen sicher, dass Ihre
+      Projekt&shy;entwicklungen grün, zukunfts&shy;fähig sowie kalkulierbar und risikoarm sind.
+    </p>
+  </div>
+
+  <div class="animation02">
+    <LottieAnimation
+      src="animations/02.json"
+      autoplay="visible"
+    />
+  </div>
+
+  <p class="copy copy-secondary">
+    Unsere Nachhaltigkeitsfahrpläne – die Smart Sustainability Roadmaps – unterstützen die individuelle
+    Projektentwicklung in einer frühen Phase der Planung, Investitionsentscheidungen zu treffen, Projekte ganzheitlich
+    aufzugleisen und nachhaltige Wertstabilität zu schaffen. Stellen Sie die Entwicklung zum grünen Asset mit Blick auf
+    Reporting-Anforderungen und institutionelle Käufer sicher.
+  </p>
+
+  <div class="partner-container">
+    <h2>Unsere Partner</h2>
+    <div class="logos-container">
+      <Image
+        class="partner-logo"
+        src={bundesminLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <Image
+        class="partner-logo"
+        src={bayArchKammerLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <div class="dena-logo">
+        <Image
+          class="partner-logo"
+          src={dennaLogo}
           alt="Rendering of a multi-story timber building"
-          src="/images/coverRendering.webp"
         />
-      </picture>
+      </div>
+      <Image
+        class="partner-logo"
+        src={energieEffExpLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <Image
+        class="partner-logo"
+        src={tumVentLabLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <Image
+        class="partner-logo"
+        src={uliLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <Image
+        class="partner-logo"
+        src={bayInnovLogo}
+        alt="Rendering of a multi-story timber building"
+      />
+      <Image
+        class="partner-logo"
+        src={bayStaatsminWirtschaftLogo}
+        alt="Rendering of a multi-story timber building"
+      />
     </div>
   </div>
 </BaseLayout>
 
 <style>
-  .home-container {
-    align-items: center;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    margin: 2em 0;
-    min-height: 400px;
-  }
-
-  .home-copy {
-    flex: 1;
-    padding: 0 1em;
-  }
-
-  .home-copy h1 {
-    font-weight: 700;
-    margin-bottom: 0.5em;
-    line-height: 1.3;
-  }
-
-  .home-copy p {
-    font-size: 1.4em;
-  }
-
-  .hero-image-container {
-    margin: 0 1em;
-    text-align: center;
-  }
-
-  .hero-image-container picture {
-    display: block;
-    min-height: 250px;
-    & img {
-      border-radius: 2rem;
-    }
-  }
-
-  .caption {
-    font-size: 0.8em;
-    font-style: italic;
-    text-align: left;
-  }
-
   .hero-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 110%;
+    max-height: 110%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    z-index: 2;
+  }
+
+  .animation01 {
     width: 100%;
-    max-width: 550px;
-    margin-bottom: 1em;
+    padding-left: var(--left-padding-general);
+    padding-right: var(--right-padding-general);
   }
 
-  @media (max-width: 1200px) {
-    p {
-      font-size: 1.2em;
+  .animation02 {
+    margin-top: -2rem;
+    margin-bottom: -4rem;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  ul li::before {
+    content: "●"; /* Use a bullet point character as content */
+    display: inline-block;
+    margin-right: 0.2rem;
+  }
+
+  .partner-container {
+    background-color: var(--background-body);
+    padding-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+  }
+
+  .logos-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .partner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .dena-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(100px, 50%, 180px);
+  }
+
+  @media (max-width: 1280px) {
+    .copy {
+      padding-left: var(--left-padding-desktop);
+      padding-right: var(--right-padding-desktop);
     }
 
-    .hero-image {
-      max-width: 400px;
+    .copy-primary {
+      font-size: var(--primary-copy-size-desktop);
+      line-height: var(--primary-copy-line-height-desktop);
+      margin-top: 40svh;
+      min-height: 70svh;
+    }
+
+    .copy-secondary {
+      font-size: var(--secondary-copy-size-desktop);
+      line-height: var(--secondary-copy-line-height-desktop);
+      min-height: 30svh;
+    }
+
+    .sticky {
+      padding-top: var(--sticky-padding-desktop);
+    }
+
+    .animation01 {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .animation02 {
+      margin: 0;
+    }
+
+    .partner-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .logos-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .partner-logo {
+      width: clamp(200px, 50%, 500px);
     }
   }
 
-  @media (max-width: 800px) {
-    .home-container {
-      flex-direction: column;
+  @media (max-width: 625px) {
+    .copy-primary {
+      padding-left: var(--primary-left-padding-tablet);
+      padding-right: var(--primary-right-padding-tablet);
+      font-size: var(--primary-copy-size-tablet);
+      line-height: var(--primary-copy-line-height-tablet);
+      margin-top: 40svh;
+      min-height: 70svh;
     }
 
-    .home-copy {
-      flex: 0;
-      padding-bottom: 2em;
-      text-align: center;
+    .copy-secondary {
+      padding-left: var(--secondary-left-padding-tablet);
+      padding-right: var(--secondary-right-padding-tablet);
+      font-size: var(--secondary-copy-size-tablet);
+      line-height: var(--secondary-copy-line-height-tablet);
+      min-height: 30svh;
+    }
+
+    .animation01 {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .animation02 {
+      margin: 0;
+    }
+
+    .sticky {
+      padding-top: var(--sticky-padding-tablet);
+    }
+
+    .sticky::before {
+      content: "BuildSystems";
+      letter-spacing: 0.05rem;
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .copy {
+      padding-left: var(--left-padding-mobile);
+      padding-right: var(--right-padding-mobile);
+    }
+
+    .copy-primary {
+      font-size: var(--primary-copy-size-mobile);
+      line-height: var(--primary-copy-line-height-mobile);
+      margin-top: 40svh;
+      min-height: 70svh;
+    }
+
+    .sticky::before {
+      content: "BuildSystems";
+      letter-spacing: 0.05rem;
+      opacity: 0;
+    }
+
+    .copy-secondary {
+      font-size: var(--secondary-copy-size-mobile);
+      line-height: var(--secondary-copy-line-height-mobile);
+      min-height: 30svh;
+    }
+
+    .sticky {
+      padding-top: var(--sticky-padding-mobile);
+    }
+
+    .logos-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
 </style>

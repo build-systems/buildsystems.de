@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import coverRendering from "../assets/coverRendering.jpg";
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+
+const title = "BuildSystems | Services";
+const description =
+  "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
+const image = "/assets/services-option2.png";
+const current = "services";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  heroImage={image}
+  current={current}>
+  <div class="copy copy-secondary intro-breath">
+    <p>Wie viel Nachhaltig&shy;keit möchten bzw. sollten Sie planen und umsetzen?</p>
+    <p>
+      Wir stellen die relevanten Entscheidungs&shy;grundlagen bereit, damit Sie den effizientesten Entwicklungs&shy;pfad
+      wählen, wirkungs&shy;volle Maßnahmen einleiten und Stakeholder koordinieren können.
+    </p>
+  </div>
+
+  <div class="copy copy-primary">
+    <div class="sticky">
+      behält neben Bedarfen, Anfor&shy;derungen und Funktio&shy;nalität besonders Ihre Benefits im Blick.
+    </div>
+  </div>
+
+  <div class="copy image-text-grid">
+    <div class="animation01">
+      <LottieAnimation
+      src="animations/services.json"
+      autoplay="visible"
+    />
+    </div>
+    <div class="copy-tertiary">
+      <h3>Worauf Sie ein Auge haben sollten.</h3>
+      <p>
+        Wir identifizieren die wichtigsten Stellschrauben und zeigen auf, welche Kriterien zu vernachlässigen sind. Sie
+        erfassen die Klimawirkung Ihrer Entscheidungen umfänglich und schaffen Trade-offs in der Emissionsreduktion.
+      </p>
+      <p>
+        Unser systemischer Ansatz gewährleistet, dass Sie genau wissen, worauf Sie sich einlassen, welche Akteure im
+        weiteren Verlauf eingebunden werden müssen und welche Eigenschaften Ihr Vorhaben erfüllen muss.
+      </p>
+    </div>
+  </div>
+  <Image
+  class="hero-image"
+  src={coverRendering}
+  alt="Rendering of a multi-story timber building"
+/>
+</BaseLayout>
+
+<style>
+  .intro-breath {
+    height: 100svh;
+    align-content: center;
+  }
+
+  .image-text-grid {
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 90svh;
+    max-height: 100svh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 1) 30%,
+      rgba(0, 0, 0, 1) 90%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 0;
+  }
+</style>

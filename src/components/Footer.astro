@@ -1,51 +1,69 @@
 <footer>
-	&copy; {new Date().getFullYear()} BuildSystems GmbH. All rights reserved.
-	<div class="social-links">
-		<a
+  <address class="text">BuildSystems GmbH<br>Furtanger 4<br>D-82205 Gilching</address>
+  <div class="links">
+    <a
+      class="text"
+      href="/impressum">
+      <div>Impressum<br>Datenschutz&shy;erklärung</div>
+    </a>
+    <div class="social-links">
+      <a
         href="https://www.linkedin.com/company/build-systems-de/"
         target="_blank">
         <span class="sr-only">Follow BuildSystems on LinkedIn</span>
-        <svg
-          viewBox="0 0 32 32"
-          aria-hidden="true"
-          width="32"
-          height="32">
-          <path
-            fill="currentColor"
-            d="M29.6 0H2.4C1.76348 0 1.15303 0.252856 0.702944 0.702944C0.252856 1.15303 0 1.76348 0 2.4V29.6C0 30.2365 0.252856 30.847 0.702944 31.2971C1.15303 31.7471 1.76348 32 2.4 32H29.6C30.2365 32 30.847 31.7471 31.2971 31.2971C31.7471 30.847 32 30.2365 32 29.6V2.4C32 1.76348 31.7471 1.15303 31.2971 0.702944C30.847 0.252856 30.2365 0 29.6 0ZM9.6 27.2H4.8V12.8H9.6V27.2ZM7.2 10C6.64989 9.98428 6.11662 9.80679 5.6668 9.48972C5.21699 9.17265 4.87058 8.73006 4.67087 8.21724C4.47116 7.70442 4.427 7.14413 4.5439 6.60635C4.66081 6.06858 4.9336 5.57718 5.32818 5.19356C5.72277 4.80993 6.22165 4.55109 6.7625 4.44938C7.30336 4.34767 7.86219 4.40759 8.36918 4.62167C8.87617 4.83574 9.30883 5.19447 9.6131 5.65304C9.91738 6.1116 10.0798 6.64967 10.08 7.2C10.0674 7.95256 9.75734 8.66952 9.21768 9.19419C8.67802 9.71885 7.95262 10.0086 7.2 10ZM27.2 27.2H22.4V19.616C22.4 17.344 21.44 16.528 20.192 16.528C19.8261 16.5524 19.4686 16.6488 19.1401 16.8117C18.8115 16.9746 18.5184 17.2008 18.2776 17.4774C18.0367 17.7539 17.8529 18.0753 17.7366 18.4231C17.6203 18.7709 17.5739 19.1382 17.6 19.504C17.5921 19.5785 17.5921 19.6535 17.6 19.728V27.2H12.8V12.8H17.44V14.88C17.908 14.168 18.5511 13.5881 19.3075 13.1959C20.0639 12.8037 20.9084 12.6123 21.76 12.64C24.24 12.64 27.136 14.016 27.136 18.496L27.2 27.2Z"
-            fill="black"
-          ></path>
+        <svg class="icon">
+          <use xlink:href="/assets/icons.svg#linkedin"></use>
         </svg>
       </a>
-		<a href="https://github.com/build-systems" target="_blank">
-			<span class="sr-only">Check BuildSystems's GitHub repo</span>
-			<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/github"
-				><path
-					fill="currentColor"
-					d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-				></path></svg
-			>
-		</a>
-	</div>
+      <a
+        href="https://github.com/build-systems"
+        target="_blank">
+        <span class="sr-only">Check BuildSystems's GitHub repo</span>
+        <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+      </a>
+    </div>
+  </div>
 </footer>
 <style>
-	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: var(--text-secondary);
-		text-align: center;
-	}
-	.social-links {
-		display: flex;
-		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-	.social-links a {
-		text-decoration: none;
-		color: rgb(var(--gray));
-	}
-	.social-links a:hover {
-		color: rgb(var(--gray-dark));
-	}
+  footer {
+    position: relative;
+    display: flex;
+    background: var(--background-cards);
+    margin: 1rem;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    text-align: left;
+    z-index: 2;
+  }
+
+  address {
+    font-style: normal;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    line-height: 130%;
+    font-size: 0.9rem;
+    white-space: pre-line;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: start;
+    gap: 0.5em;
+  }
+
+  .icon {
+    width: 1rem;
+    aspect-ratio: 1/1;
+  }
+
+  a:has(.icon) {
+    max-height: 1rem;
+  }
 </style>

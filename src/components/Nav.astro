@@ -4,58 +4,84 @@ const { current = '' } = Astro.props;
 
 <style>
   nav {
-    align-items: center;
-    display: flex;
-    flex: 1;
-    font-family: var(--font-family-sans);
-    font-weight: 700;
-    justify-content: flex-end;
-    text-transform: uppercase;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px 5px;
-    display: block;
-    position: relative;
-    margin-left: 20px;
-    min-width: 70px;
-    text-align: center;
-  }
-
-  a:not(.selected) {
-    opacity: 0.7;
-  }
-
-  a::before {
-    content: '';
     position: absolute;
-    transition: transform .3s ease;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    top: 0;
+    right: 0;
+    padding: 0.8rem 1rem;
+    z-index: 3;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    width: 29px;
+    height: 29px;
+    background-color: var(--text-main);
+    border-radius: 50%;
+  }
+
+  .hamburger div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-height: 11px;
+    justify-content: space-between;
+  }
+
+  .line {
+    width: 50%;
     height: 2px;
-    background: var(--text-secondary);
-    transform: scaleX(0);
+    background-color: var(--background-cards);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
-  a:hover::before,
-  .selected::before {
-    transform: scaleX(1);
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 3px;
+
+    /* transform: translate(0, -500px); */
   }
 
-  .selected::before {
-    background: var(--primary-color);
+  .options a {
+    display: flex;
+    justify-content: center;
+    background: var(--text-main);
+    color: var(--background-body);
+    font-family: var(--font-family-sans);
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 1px 15px;
+    text-decoration: none;
+    height: 30px;
   }
-
-  /* .theme-toggle-container {
-    width: 75px;
-  } */
 </style>
 
 <nav>
-  <a class={current === "" ? "selected" : ""} href='/'>home</a>
-  <a class={current === "about" ? "selected" : ""} href='/about'>about</a>
-  <a class={current === "blog" ? "selected" : ""} href='/blog'>blog</a>
+  <div class="options">
+    <a href='/'>Start</a>
+    <a href='/services'>Services</a>
+    <a href='/personen'>Personen</a>
+    <a href='/blog'>Blog</a>
+  </div>
+  <!-- <div class="options">
+    <a class={current === "" ? "selected" : ""} href='/'>Start</a>
+    <a class={current === "services" ? "selected" : ""} href='/services'>Services</a>
+    <a class={current === "personen" ? "selected" : ""} href='/personen'>Personen</a>
+    <a class={current === "blog" ? "selected" : ""} href='/blog'>Blog</a>
+  </div> -->
+  <a class="hamburger">
+    <div>
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </a>
 </nav>
