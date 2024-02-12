@@ -12,6 +12,7 @@ import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
 import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
+import Button from "../components/Button.astro"
 ---
 
 <BaseLayout
@@ -49,7 +50,12 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
       Wir helfen Ihnen, die entscheidenden technischen und sozio&shy;ökonomischen Maßnahmen zu wählen, damit Sie Ihre
       Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
     </p>
+    <Button
+    text="→ Services"
+    link="/services"
+    ></Button>
   </div>
+
   <div class="msg msg-primary">
     <p class="sticky">
       ist eine technologie&shy;gestützte Nachhaltigkeits&shy;beratung. Wir stellen sicher, dass Ihre
@@ -149,25 +155,13 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
     padding-right: 10%;
   }
 
-  ul {
-    list-style-type: none;
-    padding-top: 0;
-    margin-top: 0;
-    padding-left: 0;
-  }
-
-  ul li::before {
-    content: "●"; /* Use a bullet point character as content */
-    display: inline-block;
-    margin-right: 0.2rem;
-  }
-
   .partner-container {
     background-color: var(--background-body);
     padding-top: 2rem;
     padding-left: 10%;
     padding-right: 10%;
     z-index: 1;
+    margin-bottom: 150px;
   }
 
   .logos-container {

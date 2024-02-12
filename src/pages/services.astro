@@ -3,12 +3,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import coverRendering from "../assets/coverRendering.jpg";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+import serviceAnimation from "../assets/serviceOptions.webp";
+import serviceBauteil from "../assets/serviceBauteil.webp";
 
 const title = "BuildSystems | Services";
 const description =
   "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
 const image = "/assets/services-option2.png";
 const current = "services";
+import Button from "../components/Button.astro"
+
 ---
 
 <BaseLayout
@@ -33,9 +37,9 @@ const current = "services";
   <div class="msg image-text-grid">
     <div class="animation01">
       <LottieAnimation
-      src="animations/services.json"
-      autoplay="visible"
-    />
+        src="animations/services.json"
+        autoplay="visible"
+      />
     </div>
     <div class="msg-tertiary">
       <h3>Worauf Sie ein Auge haben sollten.</h3>
@@ -47,17 +51,147 @@ const current = "services";
         Unser systemischer Ansatz gewährleistet, dass Sie genau wissen, worauf Sie sich einlassen, welche Akteure im
         weiteren Verlauf eingebunden werden müssen und welche Eigenschaften Ihr Vorhaben erfüllen muss.
       </p>
+      <Button
+      text="⭳ Sneak Peak Roadmap"
+      link="/downloads/BuildSystems_SneakPeakSSR.pdf"
+      openOnNewTab={true}
+      ></Button>
     </div>
   </div>
+
+  <div class="msg msg-primary">
+    <div class="sticky">
+      arbeitet mit dezidierten Benchmarks und Indikatoren, die klima-intelligent und bewährt sind.
+    </div>
+  </div>
+
+  <div class="msg image-text-grid">
+    <div class="msg-tertiary">
+      <h3>Wissen, was wirklich hilft!</h3>
+      <p>
+        Sie legen Zielvereinbarungen fest. Unsere Smart Sustainability Roadmaps vergleichen Szenarien zu Bedarfsplanung
+        und Energiebetrachtung und prüfen Planungsansätze hinsichtlich ihrer ESG-Performance. Wir legen die jeweiligen
+        Aussichten auf Zertifizierungen und Förderungen nachvollziehbar dar und zeigen Pfade zu Emissions- und
+        Kostenzielen auf.
+      </p>
+    </div>
+    <div class="">
+      <Image
+        class=""
+        src={serviceAnimation}
+        alt="Rendering of a multi-story timber building"
+      />
+    </div>
+  </div>
+
+  <div class="msg msg-primary">
+    <div class="sticky">
+      erstellt Vordimensionierungen zu Anlagentechnik, Konstruktionsmethoden, Materialwahl und
+      Wiederverwendungspotential.
+    </div>
+  </div>
+
+  <div class="msg image-text-grid">
+    <div class="">
+      <Image
+        class=""
+        src={serviceBauteil}
+        alt="Rendering of a multi-story timber building"
+      />
+    </div>
+    <div class="msg-tertiary">
+      <h3>Wo die Reise hingeht:</h3>
+      <p>
+        Sie möchten frühzeitig im Prozess die entscheidenden Weichen stellen und Umplanungen vermeiden? Durch integrale
+        Planung bilden wir technische Rahmenbedingungen bis zu einer Detailtiefe der Bauteilaufbauten ab. Wir übersetzen
+        Anforderungen und Benchmarks in realistische Umsetzungsstrategien – für heute und morgen.
+      </p>
+      <Button
+      text="⭳ Download Leistungen"
+      link="/downloads/BuildSystems_Leistungen.pdf"
+      openOnNewTab={true}
+      ></Button>
+    </div>
+  </div>
+
+  <div class="msg msg-primary">
+    <div class="sticky">steigert durch abgestimmte Prozesse baulichen Mehrwert.</div>
+  </div>
+
+  <div class="msg">
+    <table>
+      <tbody>
+        <tr>
+          <th scope="row"><h3>Entscheidungen treffen</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Legen Sie Ihren Nachhaltigkeitsfahrplan und entsprechende Erfolgskriterien für den weiteren
+                Planungsverlauf fest.
+              </li>
+              <li>Prüfen Sie anhand der Simulation von bau-, anlagen und energietechnischen Variantenstudien, die Wirkkraft
+                der gewählten Maßnahmen und optimieren Sie anhand nachvollziehbarer Benchmarks.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><h3>Verantwortbar handeln</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Vereinfachen Sie die Kommunikation mit anschaulichen Reports und verantworten Sie Entscheidungen und die
+                Mobilisierung von Finanzmitteln anhand eindeutiger Indikatoren.
+              </li>
+              <li>Stellen Sie die Machbarkeit mit einer integralen Herangehensweise sicher und minimieren Sie planerisches
+                Risiko.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th><h3>Sicher finanzieren</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Beherrschen Sie frühzeitig Kosten und Finanzbedarf. Gewährleisten Sie Konformität mit Förderkriterien durch Vordimensionierung und Real-Time-Bewertung.
+              </li>
+              <li>Stellen Sie durch Lebenszyklusorientierte Kostenbetrachtungen langfristige Wertstabilität sicher.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="action">
+    <h3>Sie haben weitere Fragen?</h3>
+    <Button
+      text="Schreiben Sie uns eine Mail!"
+      link="mailto:mail@buildsystems.de"
+      flex={true}
+      ></Button>
+      <Button
+      text="⭳ Download Leistungen"
+      link="/downloads/BuildSystems_Leistungen.pdf"
+      openOnNewTab={true}
+      flex={true}
+      ></Button>
+      <Button
+      text="⭳ Sneak Peak Roadmap"
+      link="/downloads/BuildSystems_SneakPeakSSR.pdf"
+      openOnNewTab={true}
+      flex={true}
+      ></Button>
+  </div>
   <Image
-  class="hero-image"
-  src={coverRendering}
-  alt="Rendering of a multi-story timber building"
-/>
+    class="hero-image"
+    src={coverRendering}
+    alt="Rendering of a multi-story timber building"
+  />
 </BaseLayout>
 
 <style>
   .intro-breath {
+    display: flex;
+    flex-wrap: wrap;
     height: 100svh;
     align-content: center;
   }
@@ -69,6 +203,37 @@ const current = "services";
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  table,
+  th,
+  td {
+    border: none;
+    font-family: var(--font-family-primary);
+  }
+
+  th {
+    white-space: nowrap;
+    text-align: start;
+    display: flex;
+  }
+
+  td {
+    padding-left: 5svw;
+    padding-right: 5svw;
+  }
+
+  .msg-table {
+    font-size: 1.3rem;
+    line-height: 1.45rem;
+  }
+
+  .action {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    transform: translate(0, 50svh);
+    z-index: 3;
+  }
+
   .hero-image {
     position: relative;
     bottom: 0;
@@ -77,13 +242,11 @@ const current = "services";
     min-height: 90svh;
     max-height: 100svh;
     object-fit: cover;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     mask-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0) 10%,
-      rgba(0, 0, 0, 1) 30%,
-      rgba(0, 0, 0, 1) 90%,
-      rgba(0, 0, 0, 0) 100%
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
     );
     z-index: 0;
   }

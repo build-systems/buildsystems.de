@@ -1,0 +1,49 @@
+---
+interface Props {
+  text: string;
+  link: string;
+  downloadName?: string;
+  openOnNewTab?: boolean;
+  flex?: boolean;
+}
+
+const { text, link, downloadName, openOnNewTab, flex } = Astro.props;
+
+var target = "_self";
+if (openOnNewTab) {
+  var target = "_blank";
+}
+
+---
+
+<a
+  href={link}
+  download={downloadName}
+  target={target}
+  >
+  <button class:list={[{ flex: flex }]}>{text}</button>
+</a>
+<style>
+  a {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .flex {
+    flex: 1;
+  }
+
+  button {
+    font-family: var(--font-family-primary);
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.3rem 0.8rem;
+  }
+
+  button:hover {
+    background-color: var(--background-body);
+    color: var(--text-main);
+    cursor: pointer;
+  }
+</style>

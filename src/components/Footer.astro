@@ -1,35 +1,43 @@
 <footer>
-  <address class="text">BuildSystems GmbH<br>Furtanger 4<br>D-82205 Gilching</address>
-  <div class="links">
-    <a
-      class="text"
-      href="/impressum">
-      <div>Impressum<br>Datenschutz&shy;erklärung</div>
-    </a>
-    <div class="social-links">
+  <div class="footer-container">
+    <address class="text">BuildSystems GmbH<br>Furtanger 4<br>D-82205 Gilching</address>
+    <div class="links">
       <a
-        href="https://www.linkedin.com/company/build-systems-de/"
-        target="_blank">
-        <span class="sr-only">Follow BuildSystems on LinkedIn</span>
-        <svg class="icon">
-          <use xlink:href="/assets/icons.svg#linkedin"></use>
-        </svg>
+        class="text"
+        href="/impressum">
+        <div>Impressum<br>Datenschutz&shy;erklärung</div>
       </a>
-      <a
-        href="https://github.com/build-systems"
-        target="_blank">
-        <span class="sr-only">Check BuildSystems's GitHub repo</span>
-        <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
-      </a>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/company/build-systems-de/"
+          target="_blank">
+          <span class="sr-only">Follow BuildSystems on LinkedIn</span>
+          <svg class="icon">
+            <use xlink:href="/assets/icons.svg#linkedin"></use>
+          </svg>
+        </a>
+        <a
+          href="https://github.com/build-systems"
+          target="_blank">
+          <span class="sr-only">Check BuildSystems's GitHub repo</span>
+          <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+        </a>
+      </div>
     </div>
   </div>
 </footer>
 <style>
   footer {
     position: relative;
+  }
+  
+  .footer-container {
+    width: 98svw;
+    position: absolute;
+    left: 1svw;
+    bottom: 1svw;
     display: flex;
     background: var(--background-cards);
-    margin: 1rem;
     padding: 1rem;
     gap: 2rem;
     border-radius: 1rem;

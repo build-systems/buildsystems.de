@@ -20,8 +20,8 @@ allPosts = allPosts.sort(
   description={description}
   heroImage={image}
   current="blog">
-  <div class="container">
-    <h1>BuildSystems Blog</h1>
+  <div class="blog-container">
+    <h2>BuildSystems Blog</h2>
     <p>
       The place dedicated to understand the German real estate. Here we cover topics such as circularity, regulations
       and fundings.
@@ -30,12 +30,12 @@ allPosts = allPosts.sort(
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <div>
+          <div class="items-container">
             {index !== 0 && <hr />}
             <div class="post-item">
-              <h2>
+              <h3>
                 <a href={href}>{post.data.title}</a>
-              </h2>
+              </h3>
               <p>{post.data.description}</p>
               <div class="post-item-footer">
                 <span class="post-item-date">— {formatDate(post.data.publishDate)}</span>
@@ -49,10 +49,31 @@ allPosts = allPosts.sort(
 </BaseLayout>
 
 <style>
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    padding-top: 10svh;
+    align-items: center;
+  }
+
+  .items-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .post-item {
+    flex: 1;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
   h2,
   .post-item-footer {
-    font-family: var(--font-family-sans);
-    font-weight: 700;
+    font-family: var(--font-family-primary);
+    font-weight: 500;
   }
 
   .post-item-date {
@@ -62,7 +83,8 @@ allPosts = allPosts.sort(
     margin-right: 16px;
   }
 
-  hr {
+  /* hr {
     margin: 60px auto;
-  }
+  } */
+  
 </style>
