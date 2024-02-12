@@ -18,36 +18,36 @@
 
   --left-padding-general: 315px;
   --right-padding-general: 10%;
-  --primary-copy-size-general: 2.7rem;
-  --primary-copy-line-height-general: 2.7rem;
-  --secondary-copy-size-general: 1.6rem;
-  --secondary-copy-line-height-general: 1.7rem;
+  --primary-msg-size-general: 2.7rem;
+  --primary-msg-line-height-general: 2.7rem;
+  --secondary-msg-size-general: 1.6rem;
+  --secondary-msg-line-height-general: 1.7rem;
   --sticky-padding-general: 1.05rem;
 
   --left-padding-desktop: 225px;
   --right-padding-desktop: 10%;
-  --primary-copy-size-desktop: 1.8rem;
-  --primary-copy-line-height-desktop: 2rem;
-  --secondary-copy-size-desktop: 1.25rem;
-  --secondary-copy-line-height-desktop: 1.3rem;
+  --primary-msg-size-desktop: 1.8rem;
+  --primary-msg-line-height-desktop: 2rem;
+  --secondary-msg-size-desktop: 1.25rem;
+  --secondary-msg-line-height-desktop: 1.3rem;
   --sticky-padding-desktop: 0.75rem;
 
   --primary-left-padding-tablet: 5%;
   --primary-right-padding-tablet: 5%;
   --secondary-left-padding-tablet: 5%;
   --secondary-right-padding-tablet: 5%;
-  --primary-copy-size-tablet: 1.6rem;
-  --primary-copy-line-height-tablet: 1.7rem;
-  --secondary-copy-size-tablet: 1rem;
-  --secondary-copy-line-height-tablet: 1rem;
+  --primary-msg-size-tablet: 1.6rem;
+  --primary-msg-line-height-tablet: 1.7rem;
+  --secondary-msg-size-tablet: 1rem;
+  --secondary-msg-line-height-tablet: 1rem;
   --sticky-padding-tablet: 0.7rem;
 
   --left-padding-mobile: 10px;
   --right-padding-mobile: 10%;
-  --primary-copy-size-mobile: 1.4rem;
-  --primary-copy-line-height-mobile: 1.45rem;
-  --secondary-copy-size-mobile: 1rem;
-  --secondary-copy-line-height-mobile: 1rem;
+  --primary-msg-size-mobile: 1.4rem;
+  --primary-msg-line-height-mobile: 1.45rem;
+  --secondary-msg-size-mobile: 1rem;
+  --secondary-msg-line-height-mobile: 1rem;
   --sticky-padding-mobile: 0.60rem;
 }
 
@@ -305,27 +305,27 @@ input[name="theme-toggle"] {
   mix-blend-mode: difference;
 }
 
-.copy {
+.msg {
   padding-left: var(--left-padding-general);
   padding-right: var(--right-padding-general);
   max-width: 100%;
   user-select: none;
 }
 
-.copy-primary {
-  font-size: var(--primary-copy-size-general);
-  line-height: var(--primary-copy-line-height-general);
+.msg-primary {
+  font-size: var(--primary-msg-size-general);
+  line-height: var(--primary-msg-line-height-general);
   margin-top: 40svh;
   min-height: 70svh;
 }
 
-.copy-secondary {
-  font-size: var(--secondary-copy-size-general);
-  line-height: var(--secondary-copy-line-height-general);
+.msg-secondary {
+  font-size: var(--secondary-msg-size-general);
+  line-height: var(--secondary-msg-line-height-general);
   min-height: 30svh;
 }
 
-.copy-tertiary {
+.msg-tertiary {
   font-size: 1.3rem;
   line-height: 1.3rem;
   min-height: 30svh;

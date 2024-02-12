@@ -25,7 +25,7 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
     alt="Rendering of a multi-story timber building"
   />
 
-  <div class="copy copy-primary">
+  <div class="msg msg-primary">
     <p class="sticky">
       ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
     </p>
@@ -38,7 +38,7 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
     />
   </div>
 
-  <div class="copy copy-secondary">
+  <div class="msg msg-secondary">
     <p>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</p>
     <ul>
       <li>Ihren ökologischen und sozialen Impact in der Gebäude&shy;entwicklung zu skalieren</li>
@@ -50,7 +50,7 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
       Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
     </p>
   </div>
-  <div class="copy copy-primary">
+  <div class="msg msg-primary">
     <p class="sticky">
       ist eine technologie&shy;gestützte Nachhaltigkeits&shy;beratung. Wir stellen sicher, dass Ihre
       Projekt&shy;entwicklungen grün, zukunfts&shy;fähig sowie kalkulierbar und risikoarm sind.
@@ -64,7 +64,7 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
     />
   </div>
 
-  <p class="copy copy-secondary">
+  <p class="msg msg-secondary">
     Unsere Nachhaltigkeitsfahrpläne – die Smart Sustainability Roadmaps – unterstützen die individuelle
     Projektentwicklung in einer frühen Phase der Planung, Investitionsentscheidungen zu treffen, Projekte ganzheitlich
     aufzugleisen und nachhaltige Wertstabilität zu schaffen. Stellen Sie die Entwicklung zum grünen Asset mit Blick auf
@@ -132,6 +132,7 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
     z-index: 2;
+    user-select: none;
   }
 
   .animation01 {
@@ -193,21 +194,21 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
   }
 
   @media (max-width: 1280px) {
-    .copy {
+    .msg {
       padding-left: var(--left-padding-desktop);
       padding-right: var(--right-padding-desktop);
     }
 
-    .copy-primary {
-      font-size: var(--primary-copy-size-desktop);
-      line-height: var(--primary-copy-line-height-desktop);
+    .msg-primary {
+      font-size: var(--primary-msg-size-desktop);
+      line-height: var(--primary-msg-line-height-desktop);
       margin-top: 40svh;
       min-height: 70svh;
     }
 
-    .copy-secondary {
-      font-size: var(--secondary-copy-size-desktop);
-      line-height: var(--secondary-copy-line-height-desktop);
+    .msg-secondary {
+      font-size: var(--secondary-msg-size-desktop);
+      line-height: var(--secondary-msg-line-height-desktop);
       min-height: 30svh;
     }
 
@@ -239,20 +240,20 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
   }
 
   @media (max-width: 625px) {
-    .copy-primary {
+    .msg-primary {
       padding-left: var(--primary-left-padding-tablet);
       padding-right: var(--primary-right-padding-tablet);
-      font-size: var(--primary-copy-size-tablet);
-      line-height: var(--primary-copy-line-height-tablet);
+      font-size: var(--primary-msg-size-tablet);
+      line-height: var(--primary-msg-line-height-tablet);
       margin-top: 40svh;
       min-height: 70svh;
     }
 
-    .copy-secondary {
+    .msg-secondary {
       padding-left: var(--secondary-left-padding-tablet);
       padding-right: var(--secondary-right-padding-tablet);
-      font-size: var(--secondary-copy-size-tablet);
-      line-height: var(--secondary-copy-line-height-tablet);
+      font-size: var(--secondary-msg-size-tablet);
+      line-height: var(--secondary-msg-line-height-tablet);
       min-height: 30svh;
     }
 
@@ -277,14 +278,14 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
   }
 
   @media (max-width: 420px) {
-    .copy {
+    .msg {
       padding-left: var(--left-padding-mobile);
       padding-right: var(--right-padding-mobile);
     }
 
-    .copy-primary {
-      font-size: var(--primary-copy-size-mobile);
-      line-height: var(--primary-copy-line-height-mobile);
+    .msg-primary {
+      font-size: var(--primary-msg-size-mobile);
+      line-height: var(--primary-msg-line-height-mobile);
       margin-top: 40svh;
       min-height: 70svh;
     }
@@ -295,9 +296,9 @@ import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeri
       opacity: 0;
     }
 
-    .copy-secondary {
-      font-size: var(--secondary-copy-size-mobile);
-      line-height: var(--secondary-copy-line-height-mobile);
+    .msg-secondary {
+      font-size: var(--secondary-msg-size-mobile);
+      line-height: var(--secondary-msg-line-height-mobile);
       min-height: 30svh;
     }
 
