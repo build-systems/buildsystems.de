@@ -21,9 +21,9 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     alt={name + "'s profile photo"}
   />
   <div class="text">
-    <h2>{name}</h2>
-    <h3>{title}</h3>
-    <h4>{description}</h4>
+    <h3>{name}</h3>
+    <h4>{title}</h4>
+    <h5>{description}</h5>
   </div>
 </div>
 
@@ -36,11 +36,55 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
   }
 
   .image {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
   }
 
   .text {
     margin-left: 2rem;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 1280px) {
+    .card {
+      padding: 1.5rem;
+      border-radius: 0.8rem;
+    }
+
+    .image {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .text {
+      margin-left: 0.8rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+    }
+
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 420px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+    .text {
+      margin: 1rem 0;
+      text-align: center;
+    }
   }
 </style>

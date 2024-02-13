@@ -128,23 +128,13 @@ import Button from "../components/Button.astro";
   </div>
 </BaseLayout>
 
-<script>
-  document.addEventListener("astro:after-swap", () => {
-    window.loadLottie("animation01");
-    window.loadLottie("animation02");
-  });
-  window.loadLottie("animation01");
-  window.loadLottie("animation02");
-</script>
-
 <style>
   .hero-image {
     position: relative;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 110%;
-    max-height: 110%;
+    min-height: 105svh;
+    /* max-height: 110%; */
     object-fit: cover;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
@@ -199,35 +189,13 @@ import Button from "../components/Button.astro";
   }
 
   @media (max-width: 1280px) {
-    .msg {
-      padding-left: var(--left-padding-desktop);
-      padding-right: var(--right-padding-desktop);
-    }
-
-    .msg-primary {
-      font-size: var(--primary-msg-size-desktop);
-      line-height: var(--primary-msg-line-height-desktop);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .msg-secondary {
-      font-size: var(--secondary-msg-size-desktop);
-      line-height: var(--secondary-msg-line-height-desktop);
-      min-height: 30svh;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-desktop);
-    }
-
     .animation01 {
-      padding-left: 5%;
+      padding-left: calc(var(--left-padding-desktop) - 40px);
       padding-right: 5%;
     }
 
     .animation02 {
-      margin: 0;
+      /* margin: 0; */
     }
 
     .partner-container {
@@ -235,84 +203,48 @@ import Button from "../components/Button.astro";
       padding-right: 5%;
     }
 
-    .logos-container {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
     .partner-logo {
       width: clamp(200px, 50%, 500px);
     }
   }
 
-  @media (max-width: 625px) {
-    .msg-primary {
-      padding-left: var(--primary-left-padding-tablet);
-      padding-right: var(--primary-right-padding-tablet);
-      font-size: var(--primary-msg-size-tablet);
-      line-height: var(--primary-msg-line-height-tablet);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .msg-secondary {
-      padding-left: var(--secondary-left-padding-tablet);
-      padding-right: var(--secondary-right-padding-tablet);
-      font-size: var(--secondary-msg-size-tablet);
-      line-height: var(--secondary-msg-line-height-tablet);
-      min-height: 30svh;
-    }
-
+  @media (max-width: 920px) {
     .animation01 {
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: var(--secondary-left-padding-tablet);
     }
 
     .animation02 {
-      margin: 0;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-tablet);
-    }
-
-    .sticky::before {
-      content: "BuildSystems";
-      letter-spacing: 0.05rem;
-      opacity: 0;
-    }
-  }
-
-  @media (max-width: 420px) {
-    .msg {
-      padding-left: var(--left-padding-mobile);
-      padding-right: var(--right-padding-mobile);
-    }
-
-    .msg-primary {
-      font-size: var(--primary-msg-size-mobile);
-      line-height: var(--primary-msg-line-height-mobile);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .sticky::before {
-      content: "BuildSystems";
-      letter-spacing: 0.05rem;
-      opacity: 0;
-    }
-
-    .msg-secondary {
-      font-size: var(--secondary-msg-size-mobile);
-      line-height: var(--secondary-msg-line-height-mobile);
-      min-height: 30svh;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-mobile);
+      padding-left: var(--secondary-left-padding-tablet);
+      padding-right: var(--secondary-right-padding-tablet);
+      width: 100%;
     }
 
     .logos-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .partner-logo {
+    width: 90%;
+  }
+
+  .dena-logo {
+    width: clamp(100px, 60%, 180px);
+  }
+  }
+
+  @media (max-width: 625px) {
+  .partner-logo {
+    width: 100%;
+  }
+  }
+
+  @media (max-width: 420px) {
+    .animation02 {
+      margin: 0;
+    }
+    .logos-container {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 4rem;
     }
   }
 </style>

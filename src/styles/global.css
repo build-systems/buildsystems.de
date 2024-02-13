@@ -24,13 +24,13 @@
   --secondary-msg-line-height-general: 1.7rem;
   --sticky-padding-general: 0.85rem;
 
-  --left-padding-desktop: 225px;
+  --left-padding-desktop: 215px;
   --right-padding-desktop: 10%;
   --primary-msg-size-desktop: 1.8rem;
-  --primary-msg-line-height-desktop: 2rem;
-  --secondary-msg-size-desktop: 1.25rem;
-  --secondary-msg-line-height-desktop: 1.3rem;
-  --sticky-padding-desktop: 0.75rem;
+  --primary-msg-line-height-desktop: 1.9rem;
+  --secondary-msg-size-desktop: 1.5rem;
+  --secondary-msg-line-height-desktop: 1.55rem;
+  --sticky-padding-desktop: 0.6rem;
 
   --primary-left-padding-tablet: 5%;
   --primary-right-padding-tablet: 5%;
@@ -38,17 +38,17 @@
   --secondary-right-padding-tablet: 5%;
   --primary-msg-size-tablet: 1.6rem;
   --primary-msg-line-height-tablet: 1.7rem;
-  --secondary-msg-size-tablet: 1rem;
-  --secondary-msg-line-height-tablet: 1rem;
-  --sticky-padding-tablet: 0.7rem;
+  --secondary-msg-size-tablet: 1.3rem;
+  --secondary-msg-line-height-tablet: 1.35rem;
+  --sticky-padding-tablet: 0.58rem;
 
   --left-padding-mobile: 10px;
   --right-padding-mobile: 10%;
-  --primary-msg-size-mobile: 1.4rem;
+  --primary-msg-size-mobile: 1.35rem;
   --primary-msg-line-height-mobile: 1.45rem;
-  --secondary-msg-size-mobile: 1rem;
-  --secondary-msg-line-height-mobile: 1rem;
-  --sticky-padding-mobile: 0.60rem;
+  --secondary-msg-size-mobile: 1.1rem;
+  --secondary-msg-line-height-mobile: 1.2rem;
+  --sticky-padding-mobile: 0.55rem;
 }
 
 :root.theme-dark {
@@ -323,6 +323,7 @@ input[name="theme-toggle"] {
 .msg {
   padding-left: var(--left-padding-general);
   padding-right: var(--right-padding-general);
+  align-self: start;
   /* max-width: calc(1400px + var(--left-padding-general) + var(--right-padding-general)); */
   user-select: none;
 }
@@ -331,7 +332,7 @@ input[name="theme-toggle"] {
   font-size: var(--primary-msg-size-general);
   margin-top: 40svh;
   min-height: 70svh;
-  align-self: start;
+  
 }
 
 .msg-secondary {
@@ -343,7 +344,6 @@ input[name="theme-toggle"] {
 .msg-tertiary {
   font-size: 1.3rem;
   line-height: 1.45rem;
-  min-height: 30svh;
 }
 
 .sticky {
@@ -378,7 +378,109 @@ input[name="theme-toggle"] {
 }
 
 @media (max-width: 1280px) {
+  .msg {
+    padding-left: var(--left-padding-desktop);
+    padding-right: var(--right-padding-desktop);
+  }
 
+  h2 {
+    font-size: var(--primary-msg-size-desktop);
+  }
+
+  .msg-primary {
+    font-size: var(--primary-msg-size-desktop);
+    line-height: var(--primary-msg-line-height-desktop);
+    margin-top: 15svh;
+    min-height: 30svh;
+  }
+
+  h3 {
+    font-size: var(--secondary-msg-size-desktop);
+  }
+
+  .msg-secondary {
+    font-size: var(--secondary-msg-size-desktop);
+    line-height: var(--secondary-msg-line-height-desktop);
+  }
+
+  .sticky {
+    padding-top: var(--sticky-padding-desktop);
+  }
+}
+
+@media (max-width: 625px) {
+  h2 {
+    font-size: var(--primary-msg-size-tablet);
+  }
+
+  .msg-primary {
+    padding-left: var(--primary-left-padding-tablet);
+    padding-right: var(--primary-right-padding-tablet);
+    font-size: var(--primary-msg-size-tablet);
+    line-height: var(--primary-msg-line-height-tablet);
+    margin-top: 40svh;
+    min-height: 70svh;
+  }
+
+  h3 {
+    font-size: var(--secondary-msg-size-tablet);
+  }
+
+  .msg-secondary {
+    padding-left: var(--secondary-left-padding-tablet);
+    padding-right: var(--secondary-right-padding-tablet);
+    font-size: var(--secondary-msg-size-tablet);
+    line-height: var(--secondary-msg-line-height-tablet);
+    min-height: 20svh;
+  }
+
+  .sticky {
+    padding-top: var(--sticky-padding-tablet);
+  }
+
+  .sticky::before {
+    content: "BuildSystems";
+    letter-spacing: 0.06rem;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .msg {
+    padding-left: var(--left-padding-mobile);
+    padding-right: var(--right-padding-mobile);
+  }
+
+  h2 {
+    font-size: var(--primary-msg-size-mobile);
+  }
+
+  .msg-primary {
+    font-size: var(--primary-msg-size-mobile);
+    line-height: var(--primary-msg-line-height-mobile);
+    margin-top: 30svh;
+    min-height: 60svh;
+  }
+
+  .sticky::before {
+    content: "BuildSystems";
+    letter-spacing: 0.08rem;
+    opacity: 0;
+  }
+
+  h3 {
+    font-size: var(--secondary-msg-size-mobile);
+  }
+
+  .msg-secondary {
+    font-size: var(--secondary-msg-size-mobile);
+    line-height: var(--secondary-msg-line-height-mobile);
+    min-height: 10svh;
+  }
+
+  .sticky {
+    padding-top: var(--sticky-padding-mobile);
+  }
 }
 
 

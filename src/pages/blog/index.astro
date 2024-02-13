@@ -21,11 +21,11 @@ allPosts = allPosts.sort(
   heroImage={image}
   current="blog">
   <div class="blog-container">
-    <h2>BuildSystems Blog</h2>
-    <p>
+    <h2>Blog</h2>
+    <h3 class="description">
       The place dedicated to understand the German real estate. Here we cover topics such as circularity, regulations
       and fundings.
-    </p>
+    </h3>
     {
       allPosts.map((post, index) => {
         const href = post.slug;
@@ -33,12 +33,17 @@ allPosts = allPosts.sort(
           <div class="items-container">
             {index !== 0 && <hr />}
             <div class="post-item">
-              <h3>
-                <a href={href}>{post.data.title}</a>
-              </h3>
-              <p>{post.data.description}</p>
-              <div class="post-item-footer">
-                <span class="post-item-date">— {formatDate(post.data.publishDate)}</span>
+              <div class="post-content">
+                <img src={post.data.heroImage} />
+                <div class="post-text">
+                  <h3>
+                    <a href={href}>{post.data.title}</a>
+                  </h3>
+                  <p>{post.data.description}</p>
+                  <div class="post-item-footer">
+                    <span class="post-item-date">— {formatDate(post.data.publishDate)}</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -53,17 +58,37 @@ allPosts = allPosts.sort(
     display: flex;
     flex-direction: column;
     min-height: 100svh;
-    padding-top: 10svh;
+    padding-top: 5svh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10svh;
     align-items: center;
+    max-width: 1400px;
+    & .description {
+      width: clamp(300px, 60%, 1400px);
+      text-align: center;
+      margin-bottom: 5svh;
+    }
   }
 
   .items-container {
     display: flex;
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   .post-item {
     flex: 1;
+  }
+
+  .post-content {
+    display: flex;
+    gap: 2rem;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 0.5rem;
   }
 
   h2 {
@@ -86,5 +111,4 @@ allPosts = allPosts.sort(
   /* hr {
     margin: 60px auto;
   } */
-  
 </style>

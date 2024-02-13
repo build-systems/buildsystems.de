@@ -1,43 +1,103 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro"
-import PersonenCard from "../components/PersonenCard.astro"
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PersonenCard from "../components/PersonenCard.astro";
 
-const title = "BuildSystems | Personen"
-const description = "Personen description"
-const image = ""
-const current = "personen"
+const title = "BuildSystems | Personen";
+const description = "Personen description";
+const image = "";
+const current = "personen";
+import WeitereFragen from "../components/weitereFragen.astro"
+
 ---
-
 
 <BaseLayout
   title={title}
   description={description}
   heroImage={image}
   current={current}>
+  <h3 class="msg msg-secondary intro-breath">
+    Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben Interdisziplinarität im Team: Jeder
+    bringt einen Baustein der ganzheitlichen Betrachtung mit ein. Gemeinsam erfassen wir ökologische Anforderungen auf
+    allen Ebenen und und betrachten die Gesamtwirkung der Maßnahmen zur Emissionsreduktion durch die sozioökonomische
+    Perspektive.
+  </h3>
 
-<h3 class="msg msg-secondary intro-breath">
-Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben Interdisziplinarität im Team: Jeder bringt einen Baustein der ganzheitlichen Betrachtung mit ein. Gemeinsam erfassen wir ökologische Anforderungen auf allen Ebenen und und betrachten die Gesamtwirkung der Maßnahmen zur Emissionsreduktion durch die sozioökonomische Perspektive.
-</h3>
+  <div class="msg msg-primary">
+    <h2 class="sticky">führt Kompetenzen, Prozesse und Tools zusammen.</h2>
+  </div>
 
-<div class="msg msg-primary">
-  <h2 class="sticky">führt Kompetenzen, Prozesse und Tools zusammen.</h2>
-</div>
+  <div class="cards-container">
+    <PersonenCard
+      imagePath="/src/assets/martin.png"
+      name="Martin Bittmann"
+      title="Dipl.-Ing. Architektur"
+      description="Architekt Bay. Architektenkammer, Energieeffizienz-Experte, DGNB Consultant, Nachhaltiges Bauen in Holz, Energetische Betrachtungen, Projektmanagement & -entwicklung"
+    />
+    <PersonenCard
+      imagePath="/src/assets/julia.png"
+      name="Julia Dorn"
+      title="M.Sc. Urban Design, B.Sc. Architektur"
+      description="DGNB Consultant, Urbane Transformation, Anforderungen EU Taxonomie und Nachhaltigkeitsreporting, Kommunikation, Akteursmanagement & Moderation"
+    />
+    <PersonenCard
+      imagePath="/src/assets/daniel.png"
+      name="Daniel Dieren"
+      title="M.Sc. Bauingenieur, M.Sc. Architektur"
+      description="Nachhaltiges Konstruieren, Ingenieurholzbau, Integrale Planung, Lebenszyklusbetrachtung"
+    />
+    <PersonenCard
+      imagePath="/src/assets/dani.png"
+      name="Daniel Locatelli"
+      title="M.Sc. ITECH, Dipl. Architektur"
+      description="Softwareentwicklung, Computational Design, Digitale Fabrikation, Entwicklung digitaler Tools und Workflows"
+    />
+    <PersonenCard
+      imagePath="/src/assets/uli.png"
+      name="Ulrich Kneisl"
+      title="Dipl. Architektur"
+      description="Sozial-ökologische Transformation im Wohnungsbau, Bauen im Bestand, Intersektionalität im gebauten Umfeld, Systemischen Ansätzen für die Bauwende"
+    />
+    <PersonenCard
+      imagePath="/src/assets/vinzenz.png"
+      name="Vinzenz Trimborn"
+      title="B.Sc. Wirtschaftsinformatik"
+      description="Softwareentwicklung, Digitale Planung, Implementierung digitale Workflows"
+    />
+    <PersonenCard
+      imagePath="/src/assets/andreas.png"
+      name="Andreas Thoma"
+      title="M.Sc. Architektur"
+      description="Advisor: Computational Design, Digitale Fabrikation, Parametrische Systeme"
+    />
+  </div>
 
-<div class="cards-container">
-  <PersonenCard
-  imagePath="/src/assets/martin.png"
-  name="Martin Bittmann"
-  title="Dipl.-Ing. Architektur"
-  description="Architekt Bay. Architektenkammer, Energieeffizienz-Experte, Nachhaltiges Bauen in Holz, Energetische Betrachtungen, Projektmanagement & -entwicklung"
-  ></PersonenCard>
-</div>
-
+  <WeitereFragen></WeitereFragen>
 </BaseLayout>
 
 <style>
   .cards-container {
-    margin-bottom: 15svh;
-    z-index: 3;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 2;
+  }
+  
+  .msg-primary{
+    margin-top: 0;
+  }
+  
+  @media (max-width: 1280px) {
+    .cards-container {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 
+  @media (max-width: 920px) {
+    .cards-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
 </style>

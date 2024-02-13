@@ -3,7 +3,7 @@ title: Markdown Style Guide
 description: Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
 author: Daniel Locatelli
 publishDate: 2022-07-01
-heroImage: /blog-placeholder-1.jpg
+heroImage: /images/coverSmall.jpg
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
