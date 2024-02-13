@@ -34,7 +34,9 @@ allPosts = allPosts.sort(
             {index !== 0 && <hr />}
             <div class="post-item">
               <div class="post-content">
-                <img src={post.data.heroImage} />
+                <div class="image-container">
+                  <img src={post.data.heroImage} />
+                </div>
                 <div class="post-text">
                   <h3>
                     <a href={href}>{post.data.title}</a>
@@ -86,9 +88,8 @@ allPosts = allPosts.sort(
     gap: 2rem;
   }
 
-  img {
+  .image-container {
     width: 200px;
-    aspect-ratio: 1 / 1;
     border-radius: 0.5rem;
   }
 
