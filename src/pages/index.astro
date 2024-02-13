@@ -12,7 +12,7 @@ import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
 import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
-import Button from "../components/Button.astro"
+import Button from "../components/Button.astro";
 ---
 
 <BaseLayout
@@ -34,6 +34,7 @@ import Button from "../components/Button.astro"
 
   <div class="animation01">
     <LottieAnimation
+      id="animation01"
       src="animations/01Mini.json"
       autoplay="visible"
     />
@@ -51,9 +52,9 @@ import Button from "../components/Button.astro"
       Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
     </p>
     <Button
-    text="→ Services"
-    link="/services"
-    ></Button>
+      text="→ Services"
+      link="/services"
+    />
   </div>
 
   <div class="msg msg-primary">
@@ -65,6 +66,7 @@ import Button from "../components/Button.astro"
 
   <div class="animation02">
     <LottieAnimation
+      id="animation02"
       src="animations/02Mini.json"
       autoplay="visible"
     />
@@ -125,6 +127,15 @@ import Button from "../components/Button.astro"
     </div>
   </div>
 </BaseLayout>
+
+<script>
+  document.addEventListener("astro:after-swap", () => {
+    window.loadLottie("animation01");
+    window.loadLottie("animation02");
+  });
+  window.loadLottie("animation01");
+  window.loadLottie("animation02");
+</script>
 
 <style>
   .hero-image {

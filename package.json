@@ -22,5 +22,9 @@
     "remark-gfm": "^4.0.0",
     "remark-smartypants": "^2.1.0",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0"
   }
 }
