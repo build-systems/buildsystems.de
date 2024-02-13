@@ -1,307 +1,253 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
-import LottieAnimation from "astro-integration-lottie/Lottie.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 import coverRendering from "../assets/coverRendering.jpg";
-import bundesminLogo from "../assets/bmWiLogo20212.png";
-import bayArchKammerLogo from "../assets/baykaLogo.png";
-import dennaLogo from "../assets/dena.png";
-import energieEffExpLogo from "../assets/energieEffizienz.png";
-import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
-import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
-import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
-import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+import serviceAnimation from "../assets/serviceOptions.webp";
+import serviceBauteil from "../assets/serviceBauteil.webp";
+
+const title = "BuildSystems | Services";
+const description =
+  "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
+const image = "/assets/services-option2.png";
+const current = "services";
 import Button from "../components/Button.astro"
+
 ---
 
 <BaseLayout
-  title={SITE_TITLE}
-  description={SITE_DESCRIPTION}
-  heroImage={SITE_HEROIMAGE}
-  current="">
+  title={title}
+  description={description}
+  heroImage={image}
+  current={current}>
+  <div class="msg msg-secondary intro-breath">
+    <h3>Wie viel Nachhaltig&shy;keit möchten bzw. sollten Sie planen und umsetzen?</h3>
+    <p>
+      Wir stellen die relevanten Entscheidungs&shy;grundlagen bereit, damit Sie den effizientesten Entwicklungs&shy;pfad
+      wählen, wirkungs&shy;volle Maßnahmen einleiten und Stakeholder koordinieren können.
+    </p>
+  </div>
+
+  <div class="msg msg-primary">
+    <h2 class="sticky">
+      behält neben Bedarfen, Anfor&shy;derungen und Funktio&shy;nalität besonders Ihre Benefits im Blick.
+    </h2>
+  </div>
+
+ 
+
+  <div class="msg image-text-grid">
+    <div class="animation01">
+      <LottieAnimation
+        src="public/animations/servicesMini.json"
+        autoplay="visible"
+      />
+    </div>
+    <div class="msg-tertiary">
+      <h3>Worauf Sie ein Auge haben sollten.</h3>
+      <p>
+        Wir identifizieren die wichtigsten Stellschrauben und zeigen auf, welche Kriterien zu vernachlässigen sind. Sie
+        erfassen die Klimawirkung Ihrer Entscheidungen umfänglich und schaffen Trade-offs in der Emissionsreduktion.
+      </p>
+      <p>
+        Unser systemischer Ansatz gewährleistet, dass Sie genau wissen, worauf Sie sich einlassen, welche Akteure im
+        weiteren Verlauf eingebunden werden müssen und welche Eigenschaften Ihr Vorhaben erfüllen muss.
+      </p>
+      <Button
+      text="⭳ Sneak Peak Roadmap"
+      link="/downloads/BuildSystems_SneakPeakSSR.pdf"
+      openOnNewTab={true}
+      ></Button>
+    </div>
+  </div>
+
+  <div class="msg msg-primary">
+    <h2 class="sticky">
+      arbeitet mit dezidierten Benchmarks und Indikatoren, die klima-intelligent und bewährt sind.
+    </h2>
+  </div>
+
+  <div class="msg image-text-grid">
+    <div class="msg-tertiary">
+      <h3>Wissen, was wirklich hilft!</h3>
+      <p>
+        Sie legen Zielvereinbarungen fest. Unsere Smart Sustainability Roadmaps vergleichen Szenarien zu Bedarfsplanung
+        und Energiebetrachtung und prüfen Planungsansätze hinsichtlich ihrer ESG-Performance. Wir legen die jeweiligen
+        Aussichten auf Zertifizierungen und Förderungen nachvollziehbar dar und zeigen Pfade zu Emissions- und
+        Kostenzielen auf.
+      </p>
+    </div>
+    <div class="">
+      <Image
+        class=""
+        src={serviceAnimation}
+        alt="Animation showing multiple options of components for the same project."
+      />
+    </div>
+  </div>
+
+  <div class="msg msg-primary">
+    <h2 class="sticky">
+      erstellt Vordimensionierungen zu Anlagentechnik, Konstruktionsmethoden, Materialwahl und
+      Wiederverwendungspotential.
+    </h2>
+  </div>
+
+  <div class="msg image-text-grid">
+    <div class="">
+      <Image
+        class=""
+        src={serviceBauteil}
+        alt="Animation of a wall section separating the materials from each-other"
+      />
+    </div>
+    <div class="msg-tertiary">
+      <h3>Wo die Reise hingeht:</h3>
+      <p>
+        Sie möchten frühzeitig im Prozess die entscheidenden Weichen stellen und Umplanungen vermeiden? Durch integrale
+        Planung bilden wir technische Rahmenbedingungen bis zu einer Detailtiefe der Bauteilaufbauten ab. Wir übersetzen
+        Anforderungen und Benchmarks in realistische Umsetzungsstrategien – für heute und morgen.
+      </p>
+      <Button
+      text="⭳ Download Leistungen"
+      link="/downloads/BuildSystems_Leistungen.pdf"
+      openOnNewTab={true}
+      ></Button>
+    </div>
+  </div>
+
+  <div class="msg msg-primary">
+    <h2 class="sticky">steigert durch abgestimmte Prozesse baulichen Mehrwert.</h2>
+  </div>
+
+  <div class="msg">
+    <table>
+      <tbody>
+        <tr>
+          <th scope="row"><h3>Entscheidungen treffen</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Legen Sie Ihren Nachhaltigkeitsfahrplan und entsprechende Erfolgskriterien für den weiteren
+                Planungsverlauf fest.
+              </li>
+              <li>Prüfen Sie anhand der Simulation von bau-, anlagen und energietechnischen Variantenstudien, die Wirkkraft
+                der gewählten Maßnahmen und optimieren Sie anhand nachvollziehbarer Benchmarks.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><h3>Verantwortbar handeln</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Vereinfachen Sie die Kommunikation mit anschaulichen Reports und verantworten Sie Entscheidungen und die
+                Mobilisierung von Finanzmitteln anhand eindeutiger Indikatoren.
+              </li>
+              <li>Stellen Sie die Machbarkeit mit einer integralen Herangehensweise sicher und minimieren Sie planerisches
+                Risiko.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th><h3>Sicher finanzieren</h3></th>
+          <td>
+            <ul class="msg-table">
+              <li>Beherrschen Sie frühzeitig Kosten und Finanzbedarf. Gewährleisten Sie Konformität mit Förderkriterien durch Vordimensionierung und Real-Time-Bewertung.
+              </li>
+              <li>Stellen Sie durch Lebenszyklusorientierte Kostenbetrachtungen langfristige Wertstabilität sicher.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="action">
+    <h3>Sie haben weitere Fragen?</h3>
+    <Button
+      text="Schreiben Sie uns eine Mail!"
+      link="mailto:mail@buildsystems.de"
+      flex={true}
+      ></Button>
+      <Button
+      text="⭳ Download Leistungen"
+      link="/downloads/BuildSystems_Leistungen.pdf"
+      openOnNewTab={true}
+      flex={true}
+      ></Button>
+      <Button
+      text="⭳ Sneak Peak Roadmap"
+      link="/downloads/BuildSystems_SneakPeakSSR.pdf"
+      openOnNewTab={true}
+      flex={true}
+      ></Button>
+  </div>
   <Image
     class="hero-image"
     src={coverRendering}
     alt="Rendering of a multi-story timber building"
   />
-
-  <div class="msg msg-primary">
-    <h2 class="sticky">
-      ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
-    </h2>
-  </div>
-
-  <div class="animation01">
-    <LottieAnimation
-      src="animations/01Mini.json"
-      autoplay="visible"
-    />
-  </div>
-
-  <div class="msg msg-secondary">
-    <h3>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</h3>
-    <ul>
-      <li>Ihren ökologischen und sozialen Impact in der Gebäude&shy;entwicklung zu skalieren</li>
-      <li>Das Potential Ihrer Assets optimal auszunutzen</li>
-      <li>Ihr Portfolio langfristig innerhalb des Dekarbonisierungs&shy;pfads zu verorten</li>
-    </ul>
-    <p>
-      Wir helfen Ihnen, die entscheidenden technischen und sozio&shy;ökonomischen Maßnahmen zu wählen, damit Sie Ihre
-      Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
-    </p>
-    <Button
-    text="→ Services"
-    link="/services"
-    ></Button>
-  </div>
-
-  <div class="msg msg-primary">
-    <h2 class="sticky">
-      ist eine technologie&shy;gestützte Nachhaltigkeits&shy;beratung. Wir stellen sicher, dass Ihre
-      Projekt&shy;entwicklungen grün, zukunfts&shy;fähig sowie kalkulierbar und risikoarm sind.
-    </h2>
-  </div>
-
-  <div class="animation02">
-    <LottieAnimation
-      src="animations/02Mini.json"
-      autoplay="visible"
-    />
-  </div>
-
-  <h3 class="msg msg-secondary">
-    Unsere Nachhaltigkeitsfahrpläne – die Smart Sustainability Roadmaps – unterstützen die individuelle
-    Projektentwicklung in einer frühen Phase der Planung, Investitionsentscheidungen zu treffen, Projekte ganzheitlich
-    aufzugleisen und nachhaltige Wertstabilität zu schaffen. Stellen Sie die Entwicklung zum grünen Asset mit Blick auf
-    Reporting-Anforderungen und institutionelle Käufer sicher.
-  </h3>
-
-  <div class="partner-container">
-    <h2>Unsere Partner</h2>
-    <div class="logos-container">
-      <Image
-        class="partner-logo"
-        src={bundesminLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayArchKammerLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <div class="dena-logo">
-        <Image
-          class="partner-logo"
-          src={dennaLogo}
-          alt="Rendering of a multi-story timber building"
-        />
-      </div>
-      <Image
-        class="partner-logo"
-        src={energieEffExpLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={tumVentLabLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={uliLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayInnovLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayStaatsminWirtschaftLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-    </div>
-  </div>
 </BaseLayout>
 
 <style>
-  .hero-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 110%;
-    max-height: 110%;
-    object-fit: cover;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
-    z-index: 2;
-    user-select: none;
-  }
-
   .animation01 {
     width: 100%;
-    padding-left: var(--left-padding-general);
-    padding-right: var(--right-padding-general);
+    /* height: 100%; */
   }
-
-  .animation02 {
-    margin-top: -2rem;
-    margin-bottom: -4rem;
-    width: 70%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .partner-container {
-    background-color: var(--background-body);
-    padding-top: 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-    margin-bottom: 15svh;
-  }
-
-  .logos-container {
+  
+  .image-text-grid {
     display: grid;
+    align-items: center;
     gap: 2rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .partner-logo {
+  table,
+  th,
+  td {
+    border: none;
+    font-family: var(--font-family-primary);
+  }
+
+  th {
+    white-space: nowrap;
+    text-align: start;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
   }
 
-  .dena-logo {
+  td {
+    padding-left: 5svw;
+    padding-right: 5svw;
+  }
+
+  .msg-table {
+    font-size: 1.3rem;
+    line-height: 1.45rem;
+  }
+
+  .action {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: clamp(100px, 50%, 180px);
+    flex-direction: column;
+    gap: 0.3rem;
+    transform: translate(0, 50svh);
+    z-index: 3;
   }
 
-  @media (max-width: 1280px) {
-    .msg {
-      padding-left: var(--left-padding-desktop);
-      padding-right: var(--right-padding-desktop);
-    }
-
-    .msg-primary {
-      font-size: var(--primary-msg-size-desktop);
-      line-height: var(--primary-msg-line-height-desktop);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .msg-secondary {
-      font-size: var(--secondary-msg-size-desktop);
-      line-height: var(--secondary-msg-line-height-desktop);
-      min-height: 30svh;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-desktop);
-    }
-
-    .animation01 {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .animation02 {
-      margin: 0;
-    }
-
-    .partner-container {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .logos-container {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .partner-logo {
-      width: clamp(200px, 50%, 500px);
-    }
-  }
-
-  @media (max-width: 625px) {
-    .msg-primary {
-      padding-left: var(--primary-left-padding-tablet);
-      padding-right: var(--primary-right-padding-tablet);
-      font-size: var(--primary-msg-size-tablet);
-      line-height: var(--primary-msg-line-height-tablet);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .msg-secondary {
-      padding-left: var(--secondary-left-padding-tablet);
-      padding-right: var(--secondary-right-padding-tablet);
-      font-size: var(--secondary-msg-size-tablet);
-      line-height: var(--secondary-msg-line-height-tablet);
-      min-height: 30svh;
-    }
-
-    .animation01 {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .animation02 {
-      margin: 0;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-tablet);
-    }
-
-    .sticky::before {
-      content: "BuildSystems";
-      letter-spacing: 0.05rem;
-      opacity: 0;
-    }
-  }
-
-  @media (max-width: 420px) {
-    .msg {
-      padding-left: var(--left-padding-mobile);
-      padding-right: var(--right-padding-mobile);
-    }
-
-    .msg-primary {
-      font-size: var(--primary-msg-size-mobile);
-      line-height: var(--primary-msg-line-height-mobile);
-      margin-top: 40svh;
-      min-height: 70svh;
-    }
-
-    .sticky::before {
-      content: "BuildSystems";
-      letter-spacing: 0.05rem;
-      opacity: 0;
-    }
-
-    .msg-secondary {
-      font-size: var(--secondary-msg-size-mobile);
-      line-height: var(--secondary-msg-line-height-mobile);
-      min-height: 30svh;
-    }
-
-    .sticky {
-      padding-top: var(--sticky-padding-mobile);
-    }
-
-    .logos-container {
-      grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
+  .hero-image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 90svh;
+    max-height: 100svh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+    z-index: 0;
   }
 </style>
