@@ -353,6 +353,13 @@ input[name="theme-toggle"] {
   padding-top: var(--sticky-padding-general);
 }
 
+.intro-breath {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100svh;
+  align-content: center;
+}
+
 .sr-only {
   border: 0;
   padding: 0;
