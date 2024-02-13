@@ -37,10 +37,12 @@ import Button from "../components/Button.astro"
  
 
   <div class="msg image-text-grid">
-    <div class="animation01">
+    <div class="animation03">
       <LottieAnimation
-        src="src/assets/services.json"
+        src="animations/services.json"
         autoplay="visible"
+        visibleThreshold={0.9}
+        player="full"
       />
     </div>
     <div class="msg-tertiary">
@@ -191,8 +193,9 @@ import Button from "../components/Button.astro"
 </BaseLayout>
 
 <style>
-  .animation01 {
+  .animation03 {
     width: 100%;
+    height: 300px;
     /* height: 100%; */
   }
   
