@@ -24,8 +24,10 @@ const { Content } = await post.render();
   heroImage={post.data.heroImage!}
   current="blog">
   <div class="container">
+<div class="title">
     <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
     <h1>{post.data.title}</h1>
+<\div>
     <hr />
     <article class="content">
       <Content />
@@ -35,22 +37,22 @@ const { Content } = await post.render();
 </BaseLayout>
 
 <style>
-  header {
+  title {
     text-align: center;
   }
 
-  header h1 {
+  title h1 {
     margin-bottom: 0.7em;
   }
 
-  header p {
+  title p {
     color: var(--text-secondary);
     text-transform: uppercase;
     font-family: var(--font-family-sans);
     font-weight: 600;
   }
 
-  header hr {
+  title hr {
     min-width: 100px;
     width: 30%;
   }
