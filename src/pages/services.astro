@@ -34,13 +34,15 @@ import Button from "../components/Button.astro"
     </h2>
   </div>
 
+  <div class="animation01">
+    <LottieAnimation
+      src="animations/servicesMini.json"
+      autoplay="visible"
+    />
+  </div>
+
   <div class="msg image-text-grid">
-    <div class="animation01">
-      <LottieAnimation
-        src="animations/servicesMini.json"
-        autoplay="visible"
-      />
-    </div>
+    
     <div class="msg-tertiary">
       <h3>Worauf Sie ein Auge haben sollten.</h3>
       <p>
@@ -191,7 +193,7 @@ import Button from "../components/Button.astro"
 <style>
   .animation01 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
   }
   
   .image-text-grid {
