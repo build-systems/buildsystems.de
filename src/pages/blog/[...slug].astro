@@ -46,9 +46,13 @@ const { Content } = await post.render();
 
   .title p {
     color: var(--text-secondary);
-    text-transform: uppercase;
     font-family: var(--font-family-secondary);
+    
+  }
+
+  .title p + p {
     margin-bottom: 0.7em;
+    text-transform: uppercase;
   }
 
   .container {
