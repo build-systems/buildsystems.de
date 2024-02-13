@@ -26,12 +26,12 @@ const { Content } = await post.render();
   <div class="container">
     <div class="title">
       <h1>{post.data.title}</h1>
+      <p>by {post.data.author}
       <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
     </div>
     <article class="content">
       <Content />
     </article>
-    <hr />
   </div>
 </BaseLayout>
 
