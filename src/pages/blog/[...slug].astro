@@ -24,11 +24,10 @@ const { Content } = await post.render();
   heroImage={post.data.heroImage!}
   current="blog">
   <div class="container">
-<div class="title">
-    <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
-    <h1>{post.data.title}</h1>
-</div>
-    <hr />
+    <div class="title">
+      <h1>{post.data.title}</h1>
+      <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
+    </div>
     <article class="content">
       <Content />
     </article>
