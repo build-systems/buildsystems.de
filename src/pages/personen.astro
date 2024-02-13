@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
+import PersonenCard from "../components/PersonenCard.astro"
 
 const title = "BuildSystems | Personen"
 const description = "Personen description"
@@ -14,12 +15,29 @@ const current = "personen"
   heroImage={image}
   current={current}>
 
-<div class="msg msg-secondary intro-breath">
+<h3 class="msg msg-secondary intro-breath">
 Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben Interdisziplinarität im Team: Jeder bringt einen Baustein der ganzheitlichen Betrachtung mit ein. Gemeinsam erfassen wir ökologische Anforderungen auf allen Ebenen und und betrachten die Gesamtwirkung der Maßnahmen zur Emissionsreduktion durch die sozioökonomische Perspektive.
-</div>
+</h3>
 
 <div class="msg msg-primary">
-  <div class="sticky">führt Kompetenzen, Prozesse und Tools zusammen.</div>
+  <h2 class="sticky">führt Kompetenzen, Prozesse und Tools zusammen.</h2>
+</div>
+
+<div class="cards-container">
+  <PersonenCard
+  imagePath="/src/assets/martin.png"
+  name="Martin Bittmann"
+  title="Dipl.-Ing. Architektur"
+  description="Architekt Bay. Architektenkammer, Energieeffizienz-Experte, Nachhaltiges Bauen in Holz, Energetische Betrachtungen, Projektmanagement & -entwicklung"
+  ></PersonenCard>
 </div>
 
 </BaseLayout>
+
+<style>
+  .cards-container {
+    margin-bottom: 15svh;
+    z-index: 3;
+  }
+
+</style>
