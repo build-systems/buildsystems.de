@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
-import coverRendering from "../assets/coverRendering.jpg";
+import heroRendering from "../assets/heroRendering.jpg";
 import bundesminLogo from "../assets/bmWiLogo20212.png";
 import bayArchKammerLogo from "../assets/baykaLogo.png";
 import dennaLogo from "../assets/dena.png";
@@ -13,6 +13,10 @@ import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
 import Button from "../components/Button.astro";
+import slide01 from "../assets/slideAnimation01.svg?raw";
+import slide02 from "../assets/slideAnimation02.svg?raw";
+import slide03 from "../assets/slideAnimation03.svg?raw";
+import slide04 from "../assets/slideAnimation04.svg?raw";
 ---
 
 <BaseLayout
@@ -22,9 +26,35 @@ import Button from "../components/Button.astro";
   current="">
   <Image
     class="hero-image"
-    src={coverRendering}
+    src={heroRendering}
     alt="Rendering of a multi-story timber building"
   />
+
+  <input
+    type="checkbox"
+    id="cover"
+    class="visuallyHidden"
+  />
+  <label
+    for="cover"
+    class="cover-background">
+    <div class="cover-content">
+      <div class="build-slot">
+        <Fragment set:html={slide01} />
+      </div>
+      <div class="systems-slot">
+        <div class="systems-svg">
+          <Fragment set:html={slide02} />
+        </div>
+        <div class="smart-svg">
+          <Fragment set:html={slide03} />
+        </div>
+        <div class="sustainable-svg">
+          <Fragment set:html={slide04} />
+        </div>
+      </div>
+    </div>
+  </label>
 
   <div class="msg msg-primary">
     <h2 class="sticky">
@@ -52,8 +82,9 @@ import Button from "../components/Button.astro";
       Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
     </p>
     <Button
-      text="→ Services"
+      text="Services"
       link="/services"
+      icon="redirect"
     />
   </div>
 
@@ -129,12 +160,136 @@ import Button from "../components/Button.astro";
 </BaseLayout>
 
 <style>
+  .cover-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-body);
+    z-index: 3;
+    transform-origin: top left;
+  }
+
+  .cover-content {
+    position: relative;
+    display: flex;
+    padding-left: 1svw;
+    flex: 1;
+    height: 16.7svw;
+    user-select: none;
+  }
+
+  .build-slot,
+  .systems-slot {
+    display: flex;
+  }
+
+  .systems-slot {
+    position: relative;
+    height: inherit;
+  }
+
+  @keyframes slide {
+    from {
+      opacity: 0;
+      transform: translateY(-140%);
+    }
+    10% {
+      opacity: 0;
+    }
+    48% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    52% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    80% {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideall {
+    from {
+      opacity: 0;
+      transform: translateY(-140%);
+    }
+    10% {
+      opacity: 0;
+    }
+    48% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    52% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    80% {
+      opacity: 0;
+    }
+    to {
+      opacity: 0;
+      transform: translateY(140%);
+    }
+  }
+
+  .systems-svg,
+  .smart-svg,
+  .sustainable-svg {
+    display: flex;
+    position: fixed;
+    height: inherit;
+    opacity: 0;
+  }
+
+  .systems-svg {
+    animation: 3s slide var(--bezier-animation) forwards;
+    animation-delay: 2s;
+  }
+
+  .smart-svg {
+    animation: 3s slideall var(--bezier-animation);
+    animation-delay: 1s;
+  }
+
+  .sustainable-svg {
+    animation: 3s slideall var(--bezier-animation);
+  }
+
+  @keyframes scale {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+      transform: scale(1);
+    }
+    90% {
+      opacity: 1;
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+      transform: scale(0.285) translateY(-34%);
+      padding-left: 4svw;
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  #cover:checked ~ .cover-background {
+    animation: 1s scale linear forwards;
+  }
+
   .hero-image {
     position: relative;
     top: 0;
     left: 0;
     min-height: 105svh;
-    /* max-height: 110%; */
     object-fit: cover;
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
@@ -224,27 +379,49 @@ import Button from "../components/Button.astro";
     }
 
     .partner-logo {
-    width: 90%;
-  }
+      width: 90%;
+    }
 
-  .dena-logo {
-    width: clamp(100px, 60%, 180px);
-  }
+    .dena-logo {
+      width: clamp(100px, 60%, 180px);
+    }
   }
 
   @media (max-width: 625px) {
-  .partner-logo {
-    width: 100%;
-  }
-  }
+    .partner-logo {
+      width: 100%;
+    }
 
-  @media (max-width: 420px) {
     .animation02 {
       margin: 0;
     }
+  }
+
+  @media (max-width: 420px) {
     .logos-container {
       grid-template-columns: repeat(1, minmax(0, 1fr));
       gap: 4rem;
+    }
+
+    @keyframes scale {
+      from {
+        background-color: rgba(0, 0, 0, 0);
+        transform: scale(1);
+      }
+      90% {
+        opacity: 1;
+      }
+      to {
+        background-color: rgba(0, 0, 0, 0);
+        transform: scale(0.515) translateY(-45.5%);
+        padding-left: 5svw;
+        opacity: 0;
+        display: none;
+      }
+    }
+
+    #cover:checked ~ .cover-background {
+      animation: 1s scale linear forwards;
     }
   }
 </style>

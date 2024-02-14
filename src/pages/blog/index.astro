@@ -4,9 +4,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../../utils/getPostData";
 
-const title = "Blog";
-const description = "Latest articles.";
-const image = `/images/coverRendering.webp`;
+const title = "BuildSystems | Blog";
+const description = "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
+const image = `/images/heroRendering.webp`;
 
 let allPosts: CollectionEntry<"blog">[] = await getCollection("blog");
 allPosts = allPosts.sort(

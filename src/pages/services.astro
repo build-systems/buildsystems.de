@@ -1,20 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
-import coverRendering from "../assets/coverRendering.jpg";
 // import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import serviceAnimation from "../assets/serviceOptions.webp";
 import serviceBauteil from "../assets/serviceBauteil.webp";
 import Button from "../components/Button.astro";
 import WeitereFragen from "../components/weitereFragen.astro";
-import servicePlaceholder from "../assets/services.svg"
+import servicePlaceholder from "../assets/services.svg";
 
 const title = "BuildSystems | Services";
 const description =
   "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
 const image = "/assets/services-option2.png";
 const current = "services";
-
 ---
 
 <BaseLayout
@@ -25,8 +23,8 @@ const current = "services";
   <div class="msg msg-secondary intro-breath">
     <p>Wie viel Nachhaltig&shy;keit möchten bzw. sollten Sie planen und umsetzen?</p>
     <p>
-      &emsp;&emsp;Wir stellen die relevanten Entscheidungs&shy;grundlagen bereit, damit Sie den effizientesten Entwicklungs&shy;pfad
-      wählen, wirkungs&shy;volle Maßnahmen einleiten und Stakeholder koordinieren können.
+      &emsp;&emsp;Wir stellen die relevanten Entscheidungs&shy;grundlagen bereit, damit Sie den effizientesten
+      Entwicklungs&shy;pfad wählen, wirkungs&shy;volle Maßnahmen einleiten und Stakeholder koordinieren können.
     </p>
   </div>
 
@@ -51,16 +49,19 @@ const current = "services";
     <div class="msg-tertiary">
       <h3>Worauf Sie ein Auge haben sollten.</h3>
       <p>
-        Wir identifizieren die wichtigsten Stells&shy;chrauben und zeigen auf, welche Kriterien zu vernachlässigen sind.Sie erfassen die Klimawirkung Ihrer Entscheidungen umfänglich und schaffen Trade-offs in der Emissionsreduktion.
+        Wir identifizieren die wichtigsten Stells&shy;chrauben und zeigen auf, welche Kriterien zu vernachlässigen
+        sind.Sie erfassen die Klimawirkung Ihrer Entscheidungen umfänglich und schaffen Trade-offs in der
+        Emissionsreduktion.
       </p>
       <p>
-        &emsp;&emsp;Unser systemischer Ansatz gewährleistet, dass Sie genau wissen, worauf Sie sich einlassen, welche Akteure im
-        weiteren Verlauf eingebunden werden müssen und welche Eigenschaften Ihr Vorhaben erfüllen muss.
+        &emsp;&emsp;Unser systemischer Ansatz gewährleistet, dass Sie genau wissen, worauf Sie sich einlassen, welche
+        Akteure im weiteren Verlauf eingebunden werden müssen und welche Eigenschaften Ihr Vorhaben erfüllen muss.
       </p>
       <Button
-        text="⭳ Sneak Peak Roadmap"
+        text="Sneak Peak Roadmap"
         link="/downloads/BuildSystems_SneakPeakSSR.pdf"
         openOnNewTab={true}
+        icon="download"
       />
     </div>
   </div>
@@ -109,9 +110,10 @@ const current = "services";
         übersetzen Anforderungen und Benchmarks in realistische Umsetzungs&shy;strategien – für heute und morgen.
       </p>
       <Button
-        text="⭳ Download Leistungen"
+        text="Download Leistungen"
         link="/downloads/BuildSystems_Leistungen.pdf"
         openOnNewTab={true}
+        icon="download"
       />
     </div>
   </div>
@@ -120,63 +122,49 @@ const current = "services";
     <h2 class="sticky">steigert durch abgestimmte Prozesse baulichen Mehrwert.</h2>
   </div>
 
-  <div class="msg table-container">
-    <table>
-      <tbody>
-        <tr>
-          <th scope="row"><h3>Entscheidungen treffen</h3></th>
-          <td>
-            <ul class="msg-table">
-              <li>
-                Legen Sie Ihren Nachhaltigkeits&shy;fahrplan und entsprechende Erfolgskriterien für den weiteren
-                Planungsverlauf fest.
-              </li>
-              <li>
-                Prüfen Sie anhand der Simulation von bau-, anlagen und energie&shy;technischen Variantenstudien, die
-                Wirkkraft der gewählten Maßnahmen und optimieren Sie anhand nachvollzieh&shy;barer Benchmarks.
-              </li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row"><h3>Verantwortbar handeln</h3></th>
-          <td>
-            <ul class="msg-table">
-              <li>
-                Vereinfachen Sie die Kommuni&shy;kation mit anschaulichen Reports und verantworten Sie Entscheidungen
-                und die Mobilisierung von Finanzmitteln anhand eindeutiger Indikatoren.
-              </li>
-              <li>
-                Stellen Sie die Machbarkeit mit einer integralen Herangehens&shy;weise sicher und minimieren Sie
-                planerisches Risiko.
-              </li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th><h3>Sicher finanzieren</h3></th>
-          <td>
-            <ul class="msg-table">
-              <li>
-                Beherrschen Sie frühzeitig Kosten und Finanzbedarf. Gewährleisten Sie Konformität mit Förderkriterien
-                durch Vordimen&shy;sionierung und Real-Time-Bewertung.
-              </li>
-              <li>
-                Stellen Sie durch Lebenszyklus&shy;orientierte Kosten&shy;betrachtungen langfristige Wert&shy;stabilität
-                sicher.
-              </li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="msg table-grid">
+    <h3>Entscheidungen treffen</h3>
+    <ul>
+      <li>
+        Legen Sie Ihren Nachhaltigkeits&shy;fahrplan und entsprechende Erfolgskriterien für den weiteren Planungsverlauf
+        fest.
+      </li>
+      <li>
+        Prüfen Sie anhand der Simulation von bau-, anlagen und energie&shy;technischen Variantenstudien, die Wirkkraft
+        der gewählten Maßnahmen und optimieren Sie anhand nachvollzieh&shy;barer Benchmarks.
+      </li>
+    </ul>
+    <h3>Verantwortbar handeln</h3>
+    <ul>
+      <li>
+        Vereinfachen Sie die Kommuni&shy;kation mit anschaulichen Reports und verantworten Sie Entscheidungen und die
+        Mobilisierung von Finanzmitteln anhand eindeutiger Indikatoren.
+      </li>
+      <li>
+        Stellen Sie die Machbarkeit mit einer integralen Herangehens&shy;weise sicher und minimieren Sie planerisches
+        Risiko.
+      </li>
+    </ul>
+    <h3>Sicher finanzieren</h3>
+    <ul>
+      <li>
+        Beherrschen Sie frühzeitig Kosten und Finanzbedarf. Gewährleisten Sie Konformität mit Förderkriterien durch
+        Vordimen&shy;sionierung und Real-Time-Bewertung.
+      </li>
+      <li>
+        Stellen Sie durch Lebenszyklus&shy;orientierte Kosten&shy;betrachtungen langfristige Wert&shy;stabilität sicher.
+      </li>
+    </ul>
   </div>
-
   <WeitereFragen />
 </BaseLayout>
 
 <style>
   p {
+    margin-top: 0;
+  }
+
+  p:has(~ p) {
     margin: 0;
     padding: 0;
   }
@@ -192,27 +180,21 @@ const current = "services";
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  table,
-  th,
-  td {
-    border: none;
-    font-family: var(--font-family-primary);
+  .table-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    & ul {
+      font-size: 1.3rem;
+      line-height: 1.45rem;
+    }
   }
 
-  th {
-    white-space: nowrap;
-    text-align: start;
-    display: flex;
-  }
-
-  td {
-    padding-left: 5svw;
-    padding-right: 5svw;
-  }
-
-  .msg-table {
-    font-size: 1.3rem;
-    line-height: 1.45rem;
+  @media (max-width: 1280px) {
+    .table-msg {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+    }
   }
 
   @media (max-width: 1100px) {
@@ -235,33 +217,30 @@ const current = "services";
       width: 60%;
       margin: -1rem;
     }
-
-    th {
-      white-space: wrap;
-    }
-
-    td {
-      padding-left: 0;
-      padding-right: 0;
+    .table-grid {
+      grid-template-columns: 1fr 3fr;
+      & ul {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+      }
     }
   }
 
-  @media (max-width: 1280px) {
-    .msg-table {
-      font-size: 1.2rem;
-      line-height: 1.3rem;
-    }
-  }
   @media (max-width: 920px) {
     .image-text-grid {
       padding-left: var(--primary-left-padding-tablet);
       padding-right: var(--primary-right-padding-tablet);
+      & p {
+        margin-bottom: 1rem;
+      }
     }
-    .table-container {
+    .table-grid {
+      grid-template-columns: 1fr;
       padding-left: var(--primary-left-padding-tablet);
       padding-right: var(--primary-right-padding-tablet);
-      & table {
-        margin: 0;
+      & h3 {
+        margin-top: 1rem;
+        margin-bottom: 0;
       }
     }
   }
@@ -280,16 +259,28 @@ const current = "services";
       width: 100%;
     }
 
-    .msg-table {
-      font-size: 1.1rem;
-      line-height: 1.2rem;
+    .table-grid {
+      & ul {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+      }
     }
   }
-  
+
   @media (max-width: 420px) {
-    .msg-table {
-      font-size: 1rem;
-      line-height: 1.1rem;
+    .image-text-grid {
+      p {
+        font-size: 1rem;
+        line-height: 1.05rem;
+      }
+    }
+    .table-grid {
+      padding-left: var(--left-padding-mobile);
+      padding-right: var(--right-padding-mobile);
+      & ul {
+        font-size: 1rem;
+        line-height: 1.1rem;
+      }
     }
   }
 </style>

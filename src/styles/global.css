@@ -1,12 +1,3 @@
-/* :root {
-	--background-body: #fff;
-	--text-main: #36393b;
-	--text-secondary: #6b6f72;
-	--primary-color: #548e9b;
-	--font-family-primary: Merriweather, serif;
-	--font-family-secondary: 'Fira Sans', sans-serif;
-  } */
-
 :root {
   --background-body: #222;
   --background-cards: #3c3c3c;
@@ -38,17 +29,19 @@
   --secondary-right-padding-tablet: 5%;
   --primary-msg-size-tablet: 1.6rem;
   --primary-msg-line-height-tablet: 1.7rem;
-  --secondary-msg-size-tablet: 1.3rem;
-  --secondary-msg-line-height-tablet: 1.35rem;
+  --secondary-msg-size-tablet: 1.5rem;
+  --secondary-msg-line-height-tablet: 1.55rem;
   --sticky-padding-tablet: 0.58rem;
 
   --left-padding-mobile: 10px;
   --right-padding-mobile: 10%;
   --primary-msg-size-mobile: 1.35rem;
   --primary-msg-line-height-mobile: 1.45rem;
-  --secondary-msg-size-mobile: 1.1rem;
-  --secondary-msg-line-height-mobile: 1.2rem;
+  --secondary-msg-size-mobile: 1.25rem;
+  --secondary-msg-line-height-mobile: 1.3rem;
   --sticky-padding-mobile: 0.55rem;
+
+  --bezier-animation: cubic-bezier(0.5, 0, 1, 0.7);
 }
 
 :root.theme-dark {
@@ -330,8 +323,8 @@ input[name="theme-toggle"] {
 
 .msg-primary {
   font-size: var(--primary-msg-size-general);
-  margin-top: 40svh;
-  min-height: 70svh;
+  margin-top: 20svh;
+  min-height: 60svh;
   
 }
 
@@ -357,6 +350,10 @@ input[name="theme-toggle"] {
   flex-wrap: wrap;
   height: 100svh;
   align-content: center;
+}
+
+.visuallyHidden {
+  display: none;
 }
 
 .sr-only {
@@ -391,7 +388,7 @@ input[name="theme-toggle"] {
     font-size: var(--primary-msg-size-desktop);
     line-height: var(--primary-msg-line-height-desktop);
     margin-top: 15svh;
-    min-height: 30svh;
+    min-height: 50svh;
   }
 
   h3 {

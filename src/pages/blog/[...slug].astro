@@ -19,16 +19,16 @@ const { Content } = await post.render();
 ---
 
 <BaseLayout
-  title={post.data.title}
+  title={"BuildSystems | " + post.data.title}
   description={post.data.description}
   heroImage={post.data.heroImage!}
   current="blog">
   <div class="container">
-    <div class="title">
-      <h1>{post.data.title}</h1>
-      <p>by {post.data.author}
+    <h1>{post.data.title}</h1>
+    <p>
+      by {post.data.author}
       <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
-    </div>
+    </p>
     <article class="content">
       <Content />
     </article>
@@ -36,27 +36,26 @@ const { Content } = await post.render();
 </BaseLayout>
 
 <style>
-  .title {
+  .container {
     text-align: center;
   }
 
-  .title h1 {
-    
-  }
-
-  .title p {
+  .container p {
     color: var(--text-secondary);
     font-family: var(--font-family-secondary);
-    
   }
 
-  .title p + p {
+  .container p + p {
     margin-bottom: 0.7em;
     text-transform: uppercase;
   }
 
   .container {
     margin-top: 10svh;
-    margin-bottom: 15svh;
+    margin-bottom: calc(6svh + 90px);
+  }
+
+  .content {
+    text-align: left;
   }
 </style>

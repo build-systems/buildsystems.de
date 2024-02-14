@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import coverRendering from "../assets/coverRendering.jpg";
+import heroRendering from "../assets/heroRendering.jpg";
 import Button from "../components/Button.astro";
 ---
 
@@ -12,21 +12,23 @@ import Button from "../components/Button.astro";
     flex={true}
   />
   <Button
-    text="⭳ Download Leistungen"
+    text=" Download Leistungen"
     link="/downloads/BuildSystems_Leistungen.pdf"
     openOnNewTab={true}
     flex={true}
+    icon="download"
   />
   <Button
-    text="⭳ Sneak Peak Roadmap"
+    text=" Sneak Peak Roadmap"
     link="/downloads/BuildSystems_SneakPeakSSR.pdf"
     openOnNewTab={true}
     flex={true}
+    icon="download"
   />
 </div>
 <Image
   class="hero-image"
-  src={coverRendering}
+  src={heroRendering}
   alt="Rendering of a multi-story timber building"
 />
 
