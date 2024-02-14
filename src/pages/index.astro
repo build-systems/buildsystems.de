@@ -40,17 +40,17 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     class="cover-background">
     <div class="cover-content">
       <div class="build-slot">
-        <Fragment set:html={slide01} />
+        <!--<Fragment set:html={slide01} />-->
       </div>
       <div class="systems-slot">
         <div class="systems-svg">
-          <Fragment set:html={slide02} />
+          <!--<Fragment set:html={slide02} />-->
         </div>
         <div class="smart-svg">
-          <Fragment set:html={slide03} />
+         <!-- <Fragment set:html={slide03} />-->
         </div>
         <div class="sustainable-svg">
-          <Fragment set:html={slide04} />
+          <!--<Fragment set:html={slide04} />-->
         </div>
       </div>
     </div>
@@ -160,7 +160,6 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
 </BaseLayout>
 
 <style>
-/*
   .cover-background {
     position: fixed;
     top: 0;
@@ -181,6 +180,10 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     flex: 1;
     height: 16.7svw;
     user-select: none;
+  }
+  
+  .build-slot {
+    content: "Build";
   }
 
   .build-slot,
@@ -252,16 +255,19 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
   }
 
   .systems-svg {
+    content: "Systems";
     animation: 3s slide var(--bezier-animation) forwards;
     animation-delay: 2s;
   }
 
   .smart-svg {
+    content: "Smart";
     animation: 3s slideall var(--bezier-animation);
     animation-delay: 1s;
   }
 
   .sustainable-svg {
+    content: "Sustainable";
     animation: 3s slideall var(--bezier-animation);
   }
 
@@ -285,7 +291,6 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
   #cover:checked ~ .cover-background {
     animation: 1s scale linear forwards;
   }
-*/
 
   .hero-image {
     position: relative;
