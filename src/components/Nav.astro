@@ -72,10 +72,6 @@ const { current = "" } = Astro.props;
     background-color:transparent;
   }
 
-  label:active {
-    background-color:transparent;
-  }
-
   .hamburger {
     display: flex;
     margin-left: 5px;
@@ -85,6 +81,7 @@ const { current = "" } = Astro.props;
 
   line {
     transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
     transform-origin: center;
   }
 
@@ -95,6 +92,7 @@ const { current = "" } = Astro.props;
 
   .checkbox:checked + label > .hamburger > svg > .line02 {
     transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
   }
 
   .options {
@@ -104,7 +102,9 @@ const { current = "" } = Astro.props;
     align-items: end;
     gap: 3px;
     transform: translate(0, -200px);
+    -webkit-transform: translate(0, -200px);
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
   }
 
   a {
@@ -128,7 +128,6 @@ const { current = "" } = Astro.props;
   .options:has(~ .checkbox:checked) {
     /* opacity: 1; */
     transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
   }
-
-  * {background:none;}
 </style>
