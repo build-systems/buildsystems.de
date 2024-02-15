@@ -13,10 +13,6 @@ import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
 import Button from "../components/Button.astro";
-import slide01 from "../assets/slideAnimation01.svg?raw";
-import slide02 from "../assets/slideAnimation02.svg?raw";
-import slide03 from "../assets/slideAnimation03.svg?raw";
-import slide04 from "../assets/slideAnimation04.svg?raw";
 ---
 
 <BaseLayout
@@ -30,13 +26,23 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     alt="Rendering of a multi-story timber building"
   />
 
-  <div aria-label="Animation: Build Sustainable, Build Smart, Build Systems. Click to close animation." class="cover-background">
-    <LottieAnimation
-      id="cover"
-      src="animations/buildsustainable-buildsmart-buildsystems.json"
-      autoplay="visible"
-    />
-  </div>
+  <input
+    type="checkbox"
+    id="cover"
+    class="cover-checkbox visuallyHidden"
+  />
+  <label
+    class="cover"
+    aria-label="Animation: Build Smart, Build Sustainable, Build Systems. Click to close animation."
+    for="cover">
+    <div class="lottie-container">
+      <LottieAnimation
+        id="lottieCover"
+        src="animations/buildsustainable-buildsmart-buildsystems.json"
+        autoplay="visible"
+      />
+    </div>
+  </label>
 
   <div class="msg msg-primary">
     <h2 class="sticky">
@@ -44,7 +50,9 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     </h2>
   </div>
 
-  <div aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten." class="animation01">
+  <div
+    aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
+    class="animation01">
     <LottieAnimation
       id="animation01"
       src="animations/oekologische-oekonomische-esg-konformitaet.json"
@@ -78,7 +86,9 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     </h2>
   </div>
 
-  <div aria-label="Animation: Smart Sustainability Roadmap" class="animation02">
+  <div
+    aria-label="Animation: Smart Sustainability Roadmap"
+    class="animation02">
     <LottieAnimation
       id="animation02"
       src="animations/02Mini.json"
@@ -96,51 +106,83 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
   <div class="partner-container">
     <h2>Unsere Partner</h2>
     <div class="logos-container">
-      <a href="https://www.bmwk.de/" target="_blank" class="partner-logo" aria-label="Link to bmwk.de">
+      <a
+        href="https://www.bmwk.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to bmwk.de">
         <Image
           class=""
           src={bundesminLogo}
           alt="Logo des Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland"
         />
       </a>
-      <a href="https://www.byak.de/" target="_blank" class="partner-logo" aria-label="Link to byak.de">
+      <a
+        href="https://www.byak.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to byak.de">
         <Image
           src={bayArchKammerLogo}
           alt="Logo des Bayerische Architektenkammer"
         />
       </a>
-      <a href="https://www.dena.de/" target="_blank" class="partner-logo" aria-label="Link to dena.de">
+      <a
+        href="https://www.dena.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to dena.de">
         <Image
           class="dena-logo"
           src={dennaLogo}
           alt="Logo des Deutsche Energie-Agentur GmbH"
         />
       </a>
-      <a href="https://www.energie-effizienz-experten.de/" target="_blank" class="partner-logo" aria-label="Link to energie-effizienz-experten.de">
+      <a
+        href="https://www.energie-effizienz-experten.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to energie-effizienz-experten.de">
         <Image
           src={energieEffExpLogo}
           alt="Logo des Energie Effizienz Experten"
         />
       </a>
-      <a href="https://www.tum-venture-labs.de/" target="_blank" class="partner-logo" aria-label="Link to tum-venture-labs.de">
+      <a
+        href="https://www.tum-venture-labs.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to tum-venture-labs.de">
         <Image
           src={tumVentLabLogo}
           alt="Logo des TUM Venture Labs"
         />
       </a>
-      <a href="https://germany.uli.org/" target="_blank" class="partner-logo" aria-label="Link to germany.uli.org">
+      <a
+        href="https://germany.uli.org/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to germany.uli.org">
         <Image
           src={uliLogo}
           alt="Logo des Urban Land Institute - ULI Germany / Austria / Switzerland"
         />
       </a>
-      <a href="https://www.bayern-innovativ.de/" target="_blank" class="partner-logo" aria-label="Link to bayern-innovativ.de">
+      <a
+        href="https://www.bayern-innovativ.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to bayern-innovativ.de">
         <Image
           src={bayInnovLogo}
           alt="Logo des Bayern Innovativ GmbH"
         />
       </a>
-      <a href="https://www.stmwi.bayern.de/" target="_blank" class="partner-logo" aria-label="Link to stmwi.bayern.de">
+      <a
+        href="https://www.stmwi.bayern.de/"
+        target="_blank"
+        class="partner-logo"
+        aria-label="Link to stmwi.bayern.de">
         <Image
           src={bayStaatsminWirtschaftLogo}
           alt="Logo des Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie"
@@ -151,14 +193,29 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
 </BaseLayout>
 
 <style>
-
-  .cover-background {
-    display: flex;
+  .cover {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100svh;
     background-color: var(--background-body);
     z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
   }
 
+  .lottie-container {
+    width: 100%;
+  }
+
+  .cover-checkbox:checked ~ .cover {
+    opacity: 0;
+  }
+  
   .hero-image {
     position: relative;
     top: 0;
@@ -276,27 +333,5 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
       grid-template-columns: repeat(1, minmax(0, 1fr));
       gap: 4rem;
     }
-/*
-    @keyframes scale {
-      from {
-        background-color: rgba(0, 0, 0, 0);
-        transform: scale(1);
-      }
-      90% {
-        opacity: 1;
-      }
-      to {
-        background-color: rgba(0, 0, 0, 0);
-        transform: scale(0.515) translateY(-45.5%);
-        padding-left: 5svw;
-        opacity: 0;
-        display: none;
-      }
-    }
-
-    #cover:checked ~ .cover-background {
-      animation: 1s scale linear forwards;
-    }
-    */
   }
 </style>
