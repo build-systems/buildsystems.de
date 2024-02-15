@@ -7,7 +7,7 @@
     padding: 0.8rem 1rem;
     z-index: 3;
   }
-  
+
   .logo-container {
     display: flex;
     font-size: 2.7rem;
@@ -23,6 +23,14 @@
   .logo-mono {
     font-family: var(--font-family-secondary);
     display: inline;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--text-main);
   }
 
   @media (max-width: 1280px) {
@@ -54,8 +62,12 @@
 </style>
 
 <div class="header-container blend">
-  <h1 class="logo-container">
-    <div class="logo">Build</div>
-    <div class="logo-mono">Systems</div>
-  </h1>
+  <a
+    href="/"
+    aria-label="BuildSystems logo. Redirects to homepage.">
+    <h1 class="logo-container">
+      <div class="logo">Build</div>
+      <div class="logo-mono">Systems</div>
+    </h1>
+  </a>
 </div>
