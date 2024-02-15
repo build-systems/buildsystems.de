@@ -204,16 +204,25 @@ import Button from "../components/Button.astro";
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1;
-    transition: all 0.2s ease-in-out;
   }
 
   .lottie-container {
     width: 100%;
   }
 
-  .cover-checkbox:checked ~ .cover {
+  @keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
     opacity: 0;
+    display: none;
+  }
+}
+
+  .cover-checkbox:checked ~ .cover {
+    animation: fadeout 0.15s forwards;
   }
   
   .hero-image {
