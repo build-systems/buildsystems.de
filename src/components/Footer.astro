@@ -1,25 +1,25 @@
 <footer>
   <div class="footer-container">
-    <address class="text">BuildSystems GmbH<br>Furtanger 4<br>D-82205 Gilching</address>
+    <address class="text">BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
     <div class="links">
       <a
         class="text"
         href="/impressum">
-        <div>Impressum<br>Datenschutz&shy;erklärung</div>
+        <div>Impressum<br />Datenschutz&shy;erklärung</div>
       </a>
       <div class="social-links">
         <a
           href="https://www.linkedin.com/company/build-systems-de/"
-          target="_blank">
-          <span class="sr-only">Follow BuildSystems on LinkedIn</span>
+          target="_blank"
+          aria-label="Follow BuildSystems on LinkedIn">
           <svg class="icon">
             <use xlink:href="/assets/icons.svg#linkedin"></use>
           </svg>
         </a>
         <a
           href="https://github.com/build-systems"
-          target="_blank">
-          <span class="sr-only">Check BuildSystems's GitHub repo</span>
+          target="_blank"
+          aria-label="Check BuildSystems's GitHub repo">
           <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
         </a>
       </div>
@@ -30,7 +30,7 @@
   footer {
     position: relative;
   }
-  
+
   .footer-container {
     width: 94svw;
     position: absolute;
@@ -69,6 +69,7 @@
   .icon {
     width: 1rem;
     aspect-ratio: 1/1;
+    fill: var(--text-secondary);
   }
 
   a:has(.icon) {

@@ -30,43 +30,24 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     alt="Rendering of a multi-story timber building"
   />
 
-<!--
-  <input
-    type="checkbox"
-    id="cover"
-    class="visuallyHidden"
-  />
-  <label
-    for="cover"
-    class="cover-background">
-    <div class="cover-content">
-      <div class="build-slot">
-        <Fragment set:html={slide01} />
-      </div>
-      <div class="systems-slot">
-        <div class="systems-svg">
-          <Fragment set:html={slide02} />
-        </div>
-        <div class="smart-svg">
-          <Fragment set:html={slide03} />
-        </div>
-        <div class="sustainable-svg">
-          <Fragment set:html={slide04} />
-        </div>
-      </div>
-    </div>
-  </label>
--->
+  <div aria-label="Animation: Build Sustainable, Build Smart, Build Systems. Click to close animation." class="cover-background">
+    <LottieAnimation
+      id="cover"
+      src="animations/buildsustainable-buildsmart-buildsystems.json"
+      autoplay="visible"
+    />
+  </div>
+
   <div class="msg msg-primary">
     <h2 class="sticky">
       ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
     </h2>
   </div>
 
-  <div class="animation01">
+  <div aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten." class="animation01">
     <LottieAnimation
       id="animation01"
-      src="animations/01Mini.json"
+      src="animations/oekologische-oekonomische-esg-konformitaet.json"
       autoplay="visible"
     />
   </div>
@@ -86,6 +67,7 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
       text="Services"
       link="/services"
       icon="redirect"
+      ariaLabel="Go to Services page"
     />
   </div>
 
@@ -96,7 +78,7 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     </h2>
   </div>
 
-  <div class="animation02">
+  <div aria-label="Animation: Smart Sustainability Roadmap" class="animation02">
     <LottieAnimation
       id="animation02"
       src="animations/02Mini.json"
@@ -114,186 +96,69 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
   <div class="partner-container">
     <h2>Unsere Partner</h2>
     <div class="logos-container">
-      <Image
-        class="partner-logo"
-        src={bundesminLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayArchKammerLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <div class="dena-logo">
+      <a href="https://www.bmwk.de/" target="_blank" class="partner-logo" aria-label="Link to bmwk.de">
         <Image
-          class="partner-logo"
-          src={dennaLogo}
-          alt="Rendering of a multi-story timber building"
+          class=""
+          src={bundesminLogo}
+          alt="Logo des Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland"
         />
-      </div>
-      <Image
-        class="partner-logo"
-        src={energieEffExpLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={tumVentLabLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={uliLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayInnovLogo}
-        alt="Rendering of a multi-story timber building"
-      />
-      <Image
-        class="partner-logo"
-        src={bayStaatsminWirtschaftLogo}
-        alt="Rendering of a multi-story timber building"
-      />
+      </a>
+      <a href="https://www.byak.de/" target="_blank" class="partner-logo" aria-label="Link to byak.de">
+        <Image
+          src={bayArchKammerLogo}
+          alt="Logo des Bayerische Architektenkammer"
+        />
+      </a>
+      <a href="https://www.dena.de/" target="_blank" class="partner-logo" aria-label="Link to dena.de">
+        <Image
+          class="dena-logo"
+          src={dennaLogo}
+          alt="Logo des Deutsche Energie-Agentur GmbH"
+        />
+      </a>
+      <a href="https://www.energie-effizienz-experten.de/" target="_blank" class="partner-logo" aria-label="Link to energie-effizienz-experten.de">
+        <Image
+          src={energieEffExpLogo}
+          alt="Logo des Energie Effizienz Experten"
+        />
+      </a>
+      <a href="https://www.tum-venture-labs.de/" target="_blank" class="partner-logo" aria-label="Link to tum-venture-labs.de">
+        <Image
+          src={tumVentLabLogo}
+          alt="Logo des TUM Venture Labs"
+        />
+      </a>
+      <a href="https://germany.uli.org/" target="_blank" class="partner-logo" aria-label="Link to germany.uli.org">
+        <Image
+          src={uliLogo}
+          alt="Logo des Urban Land Institute - ULI Germany / Austria / Switzerland"
+        />
+      </a>
+      <a href="https://www.bayern-innovativ.de/" target="_blank" class="partner-logo" aria-label="Link to bayern-innovativ.de">
+        <Image
+          src={bayInnovLogo}
+          alt="Logo des Bayern Innovativ GmbH"
+        />
+      </a>
+      <a href="https://www.stmwi.bayern.de/" target="_blank" class="partner-logo" aria-label="Link to stmwi.bayern.de">
+        <Image
+          src={bayStaatsminWirtschaftLogo}
+          alt="Logo des Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie"
+        />
+      </a>
     </div>
   </div>
 </BaseLayout>
 
 <style>
-/*
+
   .cover-background {
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
-    align-items: center;
-    height: 100%;
     width: 100%;
     background-color: var(--background-body);
     z-index: 3;
-    transform-origin: top left;
   }
 
-  .cover-content {
-    position: relative;
-    display: flex;
-    padding-left: 1svw;
-    flex: 1;
-    height: 16.7svw;
-    user-select: none;
-  }
-  
-  .build-slot {
-    content: "Build";
-  }
-
-  .build-slot,
-  .systems-slot {
-    display: flex;
-  }
-
-  .systems-slot {
-    position: relative;
-    height: inherit;
-  }
-
-  @keyframes slide {
-    from {
-      opacity: 0;
-      transform: translateY(-140%);
-    }
-    10% {
-      opacity: 0;
-    }
-    48% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    52% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    80% {
-      opacity: 1;
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  @keyframes slideall {
-    from {
-      opacity: 0;
-      transform: translateY(-140%);
-    }
-    10% {
-      opacity: 0;
-    }
-    48% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    52% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    80% {
-      opacity: 0;
-    }
-    to {
-      opacity: 0;
-      transform: translateY(140%);
-    }
-  }
-
-  .systems-svg,
-  .smart-svg,
-  .sustainable-svg {
-    display: flex;
-    position: fixed;
-    height: inherit;
-    opacity: 0;
-  }
-
-  .systems-svg {
-    content: "Systems";
-    animation: 3s slide var(--bezier-animation) forwards;
-    animation-delay: 2s;
-  }
-
-  .smart-svg {
-    content: "Smart";
-    animation: 3s slideall var(--bezier-animation);
-    animation-delay: 1s;
-  }
-
-  .sustainable-svg {
-    content: "Sustainable";
-    animation: 3s slideall var(--bezier-animation);
-  }
-
-  @keyframes scale {
-    from {
-      background-color: rgba(0, 0, 0, 0);
-      transform: scale(1);
-    }
-    90% {
-      opacity: 1;
-    }
-    to {
-      background-color: rgba(0, 0, 0, 0);
-      transform: scale(0.285) translateY(-34%);
-      padding-left: 4svw;
-      opacity: 0;
-      display: none;
-    }
-  }
-
-  #cover:checked ~ .cover-background {
-    animation: 1s scale linear forwards;
-  }
-*/
   .hero-image {
     position: relative;
     top: 0;
@@ -349,7 +214,7 @@ import slide04 from "../assets/slideAnimation04.svg?raw";
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(100px, 50%, 180px);
+    width: clamp(100px, 60%, 200px);
   }
 
   @media (max-width: 1280px) {

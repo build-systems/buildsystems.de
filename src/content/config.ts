@@ -7,8 +7,10 @@ export const collections = {
       title: z.string(),
       description: z.string(),
       author: z.string(),
-      publishDate: z.date(),
+      publishDate: z.coerce.date(),
+      updatedDate: z.coerce.date().optional(),
       heroImage: z.string().optional(),
+      tags: z.array(z.string()),
     }),
   }),
 };

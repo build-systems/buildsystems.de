@@ -28,6 +28,7 @@ import BaseHead from "../components/BaseHead.astro";
     .icon {
     width: 2rem;
     aspect-ratio: 1/1;
+    fill: var(--text-secondary);
   }
 
 </style>
@@ -40,13 +41,13 @@ import BaseHead from "../components/BaseHead.astro";
 </head>
 <body class="impressum-container">
 <button>
-    <a href="/">
+    <a aria-label="Close" href="/">
         <svg class="icon">
             <use xlink:href="/assets/icons.svg#close"></use>
         </svg>
     </a>
 </button>
-    <div class="column">Imprint
+<div class="column">Imprint
 
 Verantwortlich i.S.d. § 55 Abs. 2 RStV:
 <address>BuildSystems GmbH

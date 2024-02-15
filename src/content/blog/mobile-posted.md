@@ -3,10 +3,11 @@ title: Mobile posted
 description: First post written on mobile
 author: Daniel Locatelli
 publishDate: 2024-02-09
-heroImage: /images/heroSmall.jpg
+heroImage: /images/multistory-timber-building-lowres.jpg
+tags: ["markdown", "astro", "blog", "web development", "frontend"]
 ---
 
-![Cover BuildSystems](/images/heroSmall.jpg)
+![Cover BuildSystems](/images/multistory-timber-building-lowres.jpg)
 
 ## First post written on mobile
 Here I am testing also basic *Markdown* sintax

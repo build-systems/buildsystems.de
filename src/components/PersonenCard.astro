@@ -7,9 +7,10 @@ interface Props {
   title: string;
   description: string;
   imagePath: string;
+  linkedin?: string;
 }
 
-const { name, title, description, imagePath } = Astro.props;
+const { name, title, description, imagePath, linkedin } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/*.{jpeg,jpg,png,gif}");
 if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
 ---
@@ -24,12 +25,24 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     <h3>{name}</h3>
     <h4>{title}</h4>
     <h5>{description}</h5>
+    {
+      linkedin != undefined && (
+    <a
+      href={linkedin}
+      target="_blank"
+      aria-label={"Reach out to " + name + " on LinkedIn"}>
+      <svg class="icon">
+        <use xlink:href="/assets/icons.svg#linkedin"></use>
+      </svg>
+    </a>
+    )
+    }
   </div>
 </div>
 
 <style>
   .card {
-    padding: 2rem;
+    padding: 1rem 2rem;
     display: flex;
     background-color: var(--background-cards);
     border-radius: 1rem;
@@ -48,6 +61,12 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
   h3 {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .icon {
+    fill: var(--text-main);
+    width: 20px;
+    height: 20px;
   }
 
   @media (max-width: 1280px) {
@@ -70,11 +89,11 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     }
 
     h4 {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 
     h5 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   }
   @media (max-width: 420px) {
