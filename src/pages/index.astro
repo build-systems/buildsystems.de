@@ -214,15 +214,14 @@ import Button from "../components/Button.astro";
   from {
     opacity: 1;
   }
-
   to {
     opacity: 0;
-    display: none;
   }
 }
 
   .cover-checkbox:checked ~ .cover {
     animation: fadeout 0.15s forwards;
+    pointer-events: none;
   }
   
   .hero-image {
