@@ -1,6 +1,7 @@
 ---
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 
 interface Props {
   name: string;
@@ -16,9 +17,10 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
 ---
 
 <div class="card">
-  <Image
+  <Picture
     class="image"
     src={images[imagePath]()}
+    formats={["avif", "webp"]}
     alt={name + "'s profile photo"}
   />
   <div class="text">
@@ -52,6 +54,7 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
+    max-width: fit-content;
   }
 
   .text {
