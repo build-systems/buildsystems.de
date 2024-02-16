@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
-import heroRendering from "../assets/heroRendering.jpg";
+import heroRendering from "../assets/multistory-timber-building.jpg";
 import bundesminLogo from "../assets/bmWiLogo20212.png";
 import bayArchKammerLogo from "../assets/baykaLogo.png";
 import dennaLogo from "../assets/dena.png";
@@ -20,9 +20,10 @@ import Button from "../components/Button.astro";
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
-  <Image
+  <Picture
     class="hero-image"
     src={heroRendering}
+    formats={["avif", "webp"]}
     alt="Rendering of a multi-story timber building"
   />
 
@@ -91,7 +92,7 @@ import Button from "../components/Button.astro";
     class="animation02">
     <LottieAnimation
       id="animation02"
-      src="animations/02Mini.json"
+      src="animations/smart-sustainability-roadmap.json"
       autoplay="visible"
     />
   </div>
@@ -111,9 +112,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to bmwk.de">
-        <Image
-          class=""
+        <Picture
           src={bundesminLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland"
         />
       </a>
@@ -122,8 +123,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to byak.de">
-        <Image
+        <Picture
           src={bayArchKammerLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Bayerische Architektenkammer"
         />
       </a>
@@ -132,9 +134,10 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to dena.de">
-        <Image
+        <Picture
           class="dena-logo"
           src={dennaLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Deutsche Energie-Agentur GmbH"
         />
       </a>
@@ -143,8 +146,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to energie-effizienz-experten.de">
-        <Image
+        <Picture
           src={energieEffExpLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Energie Effizienz Experten"
         />
       </a>
@@ -153,8 +157,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to tum-venture-labs.de">
-        <Image
+        <Picture
           src={tumVentLabLogo}
+          formats={["avif", "webp"]}
           alt="Logo des TUM Venture Labs"
         />
       </a>
@@ -163,8 +168,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to germany.uli.org">
-        <Image
+        <Picture
           src={uliLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Urban Land Institute - ULI Germany / Austria / Switzerland"
         />
       </a>
@@ -173,8 +179,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to bayern-innovativ.de">
-        <Image
+        <Picture
           src={bayInnovLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Bayern Innovativ GmbH"
         />
       </a>
@@ -183,8 +190,9 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to stmwi.bayern.de">
-        <Image
+        <Picture
           src={bayStaatsminWirtschaftLogo}
+          formats={["avif", "webp"]}
           alt="Logo des Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie"
         />
       </a>
@@ -211,19 +219,20 @@ import Button from "../components/Button.astro";
   }
 
   @keyframes fadeout {
-  from {
-    opacity: 1;
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+      display: none;
+    }
   }
-  to {
-    opacity: 0;
-  }
-}
 
   .cover-checkbox:checked ~ .cover {
     animation: fadeout 0.15s forwards;
-    pointer-events: none;
   }
-  
+
   .hero-image {
     position: relative;
     top: 0;

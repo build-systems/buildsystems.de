@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 // import LottieAnimation from "astro-integration-lottie/Lottie.astro";
-import serviceAnimation from "../assets/serviceOptions.webp";
-import serviceBauteil from "../assets/serviceBauteil.webp";
+import serviceAnimation from "../assets/service-building-options.webp";
+import serviceBauteil from "../assets/services-component-exploding-optimized.webp";
 import Button from "../components/Button.astro";
 import WeitereFragen from "../components/weitereFragen.astro";
-import servicePlaceholder from "../assets/services.svg";
+import servicePlaceholder from "../assets/services-eight-topics-diagram.svg";
 
 const title = "BuildSystems | Services";
 const description =
@@ -36,8 +37,9 @@ const current = "services";
 
   <div class="msg image-text-grid">
     <div class="animation03">
-      <Image
+      <Picture
         src={servicePlaceholder}
+        formats={["avif", "webp"]}
         alt="Diagram: Gesetzliche Vorgaben, Zertifizierung, Förderungen, EU Taxonomie, Lebenszyklus, Ressourcen, Energie, Bedarf & Nutzung."
       />
       <!-- <LottieAnimation
@@ -82,8 +84,9 @@ const current = "services";
       </p>
     </div>
     <div class="animation04">
-      <Image
+      <Picture
         src={serviceAnimation}
+        formats={["avif", "webp"]}
         alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
       />
     </div>
