@@ -24,8 +24,8 @@ import Button from "../components/Button.astro";
   <Image
     class="hero-image"
     src={heroRendering}
-    widths={[240, 540, 1600, heroRendering.width]}
-    sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${heroRendering.width}px`}
+    widths={[240, 540, 720, 1024, heroRendering.width]}
+    sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 920px) 720px, (max-width: 1600px) 1024px, ${heroRendering.width}px`}
     alt="Rendering of a multi-story timber building"
   />
 
