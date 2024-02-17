@@ -12,7 +12,7 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
 import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
 import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
-import bayStaatsminWirtschaftLogo from "../assets/logoBayerischesStaatsministeriumWirtschaftLandesentwicklungUndEnergie.png";
+import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
 ---
 
@@ -117,34 +117,30 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to bmwk.de">
-        <Picture
-          src={bundesminLogo}
-          formats={["avif", "webp"]}
-          alt="Logo des Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland"
-        />
+        <svg>
+          <title>Logo des Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland</title>
+          <use xlink:href="/assets/partners.svg#bmwk"/>
+        </svg>
       </a>
       <a
         href="https://www.byak.de/"
         target="_blank"
         class="partner-logo"
         aria-label="Link to byak.de">
-        <Picture
-          src={bayArchKammerLogo}
-          formats={["avif", "webp"]}
-          alt="Logo des Bayerische Architektenkammer"
-        />
+        <svg>
+          <title>Logo des Bayerische Architektenkammer</title>
+          <use xlink:href="/assets/partners.svg#bay-arch"/>
+        </svg>
       </a>
       <a
         href="https://www.dena.de/"
         target="_blank"
         class="partner-logo"
         aria-label="Link to dena.de">
-        <Picture
-          class="dena-logo"
-          src={dennaLogo}
-          formats={["avif", "webp"]}
-          alt="Logo des Deutsche Energie-Agentur GmbH"
-        />
+        <svg class="dena-logo">
+          <title>Logo des Deutsche Energie-Agentur GmbH</title>
+          <use xlink:href="/assets/partners.svg#dena"/>
+        </svg>
       </a>
       <a
         href="https://www.energie-effizienz-experten.de/"
@@ -162,11 +158,10 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to tum-venture-labs.de">
-        <Picture
-          src={tumVentLabLogo}
-          formats={["avif", "webp"]}
-          alt="Logo des TUM Venture Labs"
-        />
+        <svg>
+          <title>Logo des TUM Venture Labs</title>
+          <use xlink:href="/assets/partners.svg#tum-venture-labs"/>
+        </svg>
       </a>
       <a
         href="https://germany.uli.org/"
@@ -184,11 +179,10 @@ import Button from "../components/Button.astro";
         target="_blank"
         class="partner-logo"
         aria-label="Link to bayern-innovativ.de">
-        <Picture
-          src={bayInnovLogo}
-          formats={["avif", "webp"]}
-          alt="Logo des Bayern Innovativ GmbH"
-        />
+        <svg>
+          <title>Logo des Bayern Innovativ GmbH</title>
+          <use xlink:href="/assets/partners.svg#bay-innovativ"/>
+        </svg>
       </a>
       <a
         href="https://www.stmwi.bayern.de/"
@@ -340,6 +334,10 @@ import Button from "../components/Button.astro";
     align-items: center;
     justify-content: center;
     width: clamp(100px, 60%, 200px);
+  }
+
+  .icon {
+    /* width: 200px; */
   }
 
   @media (max-width: 1280px) {
