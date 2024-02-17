@@ -36,13 +36,23 @@ import Button from "../components/Button.astro";
     class="cover"
     aria-label="Animation: Build Smart, Build Sustainable, Build Systems. Click to close animation."
     for="cover">
-    <div class="lottie-container">
-      <LottieAnimation
+    <div class="cover-text">
+      <div class="txt-build">Build</div>
+      <div class="systems-overflow">
+        <div class="systems-container">
+          <div class="txt-systems">Systems</div>
+          <div class="txt-sustainable">Sustainable</div>
+          <div class="txt-smart">Smart</div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="lottie-container">
+       <LottieAnimation
         id="lottieCover"
         src="animations/buildsustainable-buildsmart-buildsystems.json"
         autoplay="visible"
-      />
-    </div>
+      /> 
+    </div> -->
   </label>
 
   <div class="msg msg-primary">
@@ -216,6 +226,71 @@ import Button from "../components/Button.astro";
 
   .lottie-container {
     width: 100%;
+  }
+
+  .cover-text {
+    display: flex;
+    width: 100%;
+  }
+
+  .txt-build {
+    display: flex;
+    font-size: 11svw;
+    align-items: center;
+    justify-content: center;
+  }
+  .systems-overflow {
+    overflow: hidden;
+    height: 17svw;
+  }
+  
+  .systems-container {
+    font-family: var(--font-family-secondary);
+    position: relative;
+    font-size: 11svw;
+    flex: 1;
+    transform: translateY(-66%);
+  }
+
+  .txt-smart, .txt-sustainable, .txt-systems {
+    /* position: absolute;
+    left: 0; */
+    /* opacity: 0; */
+  }
+
+  @keyframes slidedown {
+    from {
+      opacity: 1;
+    }
+    43% {
+      transform: translateY(-33%)
+    }
+    57% {
+      transform: translateY(-33%)
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0)
+    }
+  }
+
+  .cover-checkbox ~ .cover .systems-container {
+    animation: slidedown 2.5s var(--bezier-animation) forwards;
+    animation-delay: 1s; */
+  }
+
+  .cover-checkbox ~ .cover .txt-smart {
+    /* animation: slidedown 3s var(--bezier-animation) infinite; */
+  }
+
+  .cover-checkbox ~ .cover .txt-sustainable {
+    /* animation: slidedown 3s var(--bezier-animation) infinite;
+    animation-delay: 1s; */
+  }
+
+  .cover-checkbox ~ .cover .txt-systems {
+    /* animation: slidedown 3s var(--bezier-animation) infinite;
+    animation-delay: 2s; */
   }
 
   @keyframes fadeout {

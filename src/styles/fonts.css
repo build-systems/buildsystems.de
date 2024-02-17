@@ -1,58 +1,21 @@
-/* latin */
-/* @font-face {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(/public/fonts/va9B4kDNxMZdWfMOD5VnLK3eRhf6Xl7Glw.woff2)
-      format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-  
-  @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(/public/fonts/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2)
-      format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-  
-  @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(/public/fonts/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6hPvhPQ.woff2)
-      format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  } */
-
   @font-face {
     font-family: "ABC Diatype";
     src:
       local("ABC Diatype"),
-      url("/public/fonts/ABCDiatype-Medium.woff2") format("woff2"),
-      url("/public/fonts/ABCDiatype-Medium.woff") format("woff"),
-      url("/public/fonts/ABCDiatype-Medium.otf") format("opentype");
+      url("/fonts/ABCDiatype-Medium.woff2") format("woff2"),
+      url("/fonts/ABCDiatype-Medium.woff") format("woff"),
+      url("/fonts/ABCDiatype-Medium.otf") format("opentype");
     font-weight: 500;
     font-display: swap;
   }
 
-@font-face {
+   @font-face {
     font-family: "ABC Diatype Mono";
     src:
       local("ABC Diatype Mono"),
-      url("/public/fonts/ABCDiatypeMono-Medium.woff2") format("woff2")
-      url("/public/fonts/ABCDiatypeMono-Medium.woff") format("woff"),
-      url("/public/fonts/ABCDiatypeMono-Medium.otf") format("opentype");
+      url("/fonts/ABCDiatypeMono-Medium.woff2") format("woff2"),
+      url("/fonts/ABCDiatypeMono-Medium.woff") format("woff"),
+      url("/fonts/ABCDiatypeMono-Medium.otf") format("opentype");
     font-weight: 500;
     font-display: swap;
   }

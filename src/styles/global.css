@@ -4,8 +4,8 @@
   --text-main: #d9d9d9;
   --text-secondary: #ccc;
   --primary-color: aquamarine;
-  --font-family-primary: ABC Diatype, Merriweather, serif;
-  --font-family-secondary: ABC Diatype Mono, "Fira Sans", sans-serif;
+  --font-family-primary: ABC Diatype, sans-serif,-apple-system, system-ui;
+  --font-family-secondary: ABC Diatype Mono, sans-serif, -apple-system, system-ui;
 
   --left-padding-general: 315px;
   --right-padding-general: 10%;
@@ -41,7 +41,7 @@
   --secondary-msg-line-height-mobile: 1.3rem;
   --sticky-padding-mobile: 0.55rem;
 
-  --bezier-animation: cubic-bezier(0.5, 0, 1, 0.7);
+  --bezier-animation: cubic-bezier(.8,0,.3,1.15);
 }
 
 :root.theme-dark {
