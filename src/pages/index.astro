@@ -252,12 +252,6 @@ import Button from "../components/Button.astro";
     transform: translateY(-66%);
   }
 
-  .txt-smart, .txt-sustainable, .txt-systems {
-    /* position: absolute;
-    left: 0; */
-    /* opacity: 0; */
-  }
-
   @keyframes slidedown {
     from {
       opacity: 1;
@@ -275,22 +269,8 @@ import Button from "../components/Button.astro";
   }
 
   .cover-checkbox ~ .cover .systems-container {
-    animation: slidedown 2.5s var(--bezier-animation) forwards;
-    animation-delay: 1s; */
-  }
-
-  .cover-checkbox ~ .cover .txt-smart {
-    /* animation: slidedown 3s var(--bezier-animation) infinite; */
-  }
-
-  .cover-checkbox ~ .cover .txt-sustainable {
-    /* animation: slidedown 3s var(--bezier-animation) infinite;
-    animation-delay: 1s; */
-  }
-
-  .cover-checkbox ~ .cover .txt-systems {
-    /* animation: slidedown 3s var(--bezier-animation) infinite;
-    animation-delay: 2s; */
+    animation: slidedown 2s var(--bezier-animation) forwards;
+    animation-delay: 0.8s; */
   }
 
   @keyframes fadeout {
@@ -304,8 +284,8 @@ import Button from "../components/Button.astro";
   }
 
   .cover-checkbox:checked ~ .cover {
-    animation: fadeout 0.15s forwards;
-    display: none;
+    animation: fadeout 0.2s forwards;
+    pointer-events: none;
   }
 
   .hero-image {

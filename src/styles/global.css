@@ -41,7 +41,7 @@
   --secondary-msg-line-height-mobile: 1.3rem;
   --sticky-padding-mobile: 0.55rem;
 
-  --bezier-animation: cubic-bezier(.8,0,.3,1.15);
+  --bezier-animation: cubic-bezier(.8,0,.3,1.05);
 }
 
 :root.theme-dark {
