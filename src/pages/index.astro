@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Picture } from "astro:assets";
+import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 import heroRendering from "../assets/multistory-timber-building.jpg";
@@ -20,10 +21,11 @@ import Button from "../components/Button.astro";
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
-  <Picture
+  <Image
     class="hero-image"
     src={heroRendering}
-    formats={["avif", "webp"]}
+    widths={[360, 720, 1600, heroRendering.width]}
+    sizes={`(max-width: 360px) 360px, (max-width: 720px) 720px, (max-width: 1600px) 1600px, ${heroRendering.width}px`}
     alt="Rendering of a multi-story timber building"
   />
 
@@ -46,13 +48,6 @@ import Button from "../components/Button.astro";
         </div>
       </div>
     </div>
-    <!-- <div class="lottie-container">
-       <LottieAnimation
-        id="lottieCover"
-        src="animations/buildsustainable-buildsmart-buildsystems.json"
-        autoplay="visible"
-      /> 
-    </div> -->
   </label>
 
   <div class="msg msg-primary">
@@ -217,6 +212,7 @@ import Button from "../components/Button.astro";
     left: 0;
     width: 100%;
     height: 100svh;
+    padding-left: 1svw;
     background-color: var(--background-body);
     z-index: 3;
     display: flex;

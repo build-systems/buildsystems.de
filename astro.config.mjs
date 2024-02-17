@@ -18,4 +18,7 @@ export default defineConfig({
       target: '_blank'
     }]]
   },
+  image: {
+    domains: ["astro.build"],
+  }
 });
