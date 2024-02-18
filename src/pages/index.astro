@@ -60,14 +60,9 @@ import ThreePillars from "../components/ThreePillars.astro"
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
     class="animation01">
-    <LottieAnimation
-      id="animation01"
-      src="animations/oekologische-oekonomische-esg-konformitaet.json"
-      autoplay="visible"
-    />
+    <ThreePillars></ThreePillars>
   </div>
-<!-- 
-  <ThreePillars></ThreePillars> -->
+
 
   <div class="msg msg-secondary">
     <h3>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</h3>
@@ -312,6 +307,8 @@ import ThreePillars from "../components/ThreePillars.astro"
 
   .animation01 {
     width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: var(--left-padding-general);
     padding-right: var(--right-padding-general);
   }
