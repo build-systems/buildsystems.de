@@ -58,7 +58,7 @@
 
   path {
     stroke-dasharray: 1367.1065673828125;
-    stroke-dashoffset: -1367.1065673828125;
+    stroke-dashoffset: 1367.1065673828125;
     animation: path 10s ease-in-out infinite;
   }
 
@@ -108,11 +108,11 @@
   @keyframes txt-one {
     from {
       opacity: 0;
-      transform: translateY(-25px)
+      /* transform: translateY(-25px) */
     }
     15% {
       opacity: 1;
-      transform: translateY(0)
+      /* transform: translateY(0) */
     }
     30% {
       opacity: 1;
@@ -125,11 +125,11 @@
     }
     75% {
       opacity: 1;
-      transform: translateY(0)
+      /* transform: translateY(0) */
     }
     80% {
       opacity: 0;
-      transform: translateY(25px)
+      /* transform: translateY(25px) */
     }
     85% {
       opacity: 0;
@@ -192,6 +192,9 @@
 
   .txt-three {
     opacity: 0;
+    -webkit-animation: txt-three 10s ease-in-out infinite;
+    -moz-animation: txt-three 10s ease-in-out infinite;
+    -o-animation: txt-three 10s ease-in-out infinite;
     animation: txt-three 10s ease-in-out infinite;
   }
   
@@ -230,6 +233,45 @@
       /* transform: translateY(0) */
     }
     to {
+      opacity: 0;
+      /* transform: translateY(25px) */
+    }
+  }
+  @-webkit-keyframes txt-three {
+    0% {
+      opacity: 0;
+    }
+    15% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+      /* transform: translateY(-25px) */
+    }
+    75% {
+      opacity: 1;
+      /* transform: translateY(0) */
+    }
+    80% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+      /* transform: translateY(0) */
+    }
+    100% {
       opacity: 0;
       /* transform: translateY(25px) */
     }
