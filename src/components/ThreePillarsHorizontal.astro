@@ -1,7 +1,6 @@
 <div class="animation-container">
   <svg
-    width="958"
-    height="243"
+    viewBox="0 0 958 243"
     fill="none"
     preserveAspectRatio="xMidYMax meet">
     <path
@@ -16,7 +15,8 @@
       stroke-width="2"
       stroke-miterlimit="10"
     ></path>
-    <foreignObject
+    <text x="10" y="50" font-family="Arial" font-size="20" fill="white">TEST</text>
+    <!-- <foreignObject
       x="61"
       y="87"
       width="120"
@@ -36,7 +36,7 @@
       width="150"
       height="90">
       <p class="txt-three-horizontal">Konformität<br />mit ESG und Förderrichtlinien gewährleisten</p>
-    </foreignObject>
+    </foreignObject> -->
 
     <style>
       p {
@@ -101,6 +101,14 @@
       stroke-dashoffset: 4101.0525;
     }
   }
+
+  text {
+    animation: txt-one-horizontal 10s ease-in-out infinite;
+  }
+  /* .txt-one-horizontal {
+    animation: txt-one-horizontal 10s ease-in-out infinite;
+  } */
+  
   @keyframes txt-one-horizontal {
     from {
       opacity: 0;
@@ -139,10 +147,6 @@
     to {
       opacity: 0;
     }
-  }
-
-  .txt-one-horizontal {
-    animation: txt-one-horizontal 10s ease-in-out infinite;
   }
 
   @keyframes txt-two-horizontal {
