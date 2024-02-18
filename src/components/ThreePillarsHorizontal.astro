@@ -68,39 +68,42 @@
     animation: path-horizontal 10s ease-in-out infinite;
   }
 
+  /* Because Safari does not accept negative values */
+  /* I had to calculate the lenght of the curves and add manually */
   @keyframes path-horizontal {
     from {
-      stroke-dashoffset: -1367.1065673828125;
+      /* I could also flip the path on Figma and start here from zero */
+      stroke-dashoffset: 1367.1065;
     }
     15% {
-      stroke-dashoffset: -990.1155;
+      stroke-dashoffset: 1744.0975;
     }
     30% {
-      stroke-dashoffset: -872.1155;
+      stroke-dashoffset: 1862.0975;
     }
     45% {
-      stroke-dashoffset: -495.1245;
+      stroke-dashoffset: 2239.0885;
     }
     60% {
-      stroke-dashoffset: -377.1245;
+      stroke-dashoffset: 2357.0885;
     }
     75% {
-      stroke-dashoffset: 0;
+      stroke-dashoffset: 2734.0795;
     }
     80% {
-      stroke-dashoffset: 377.1245;
+      stroke-dashoffset: 3111.0705;
     }
     85% {
-      stroke-dashoffset: 495.1245;
+      stroke-dashoffset: 3229.0705;
     }
     90% {
-      stroke-dashoffset: 872.1155;
+      stroke-dashoffset: 3606.0615;
     }
     95% {
-      stroke-dashoffset: 990.1155;
+      stroke-dashoffset: 3724.0615;
     }
     to {
-      stroke-dashoffset: 1367.1065673828125;
+      stroke-dashoffset: 4101.0525;
     }
   }
   @keyframes txt-one-horizontal {
