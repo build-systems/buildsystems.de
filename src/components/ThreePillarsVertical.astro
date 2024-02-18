@@ -192,7 +192,7 @@
 
   .txt-three {
     opacity: 0;
-    -webkit-animation: txt-three 10s ease-in-out infinite;
+    -webkit-animation: txt-three 10s infinite;
     -moz-animation: txt-three 10s ease-in-out infinite;
     -o-animation: txt-three 10s ease-in-out infinite;
     animation: txt-three 10s ease-in-out infinite;
@@ -237,6 +237,7 @@
       /* transform: translateY(25px) */
     }
   }
+
   @-webkit-keyframes txt-three {
     0% {
       opacity: 0;
@@ -275,6 +276,7 @@
       opacity: 0;
       /* transform: translateY(25px) */
     }
+    animation-timing-function: ease-in-out;
   }
 
 
