@@ -5,16 +5,12 @@ import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 import heroRendering from "../assets/multistory-timber-building.jpg";
-import bundesminLogo from "../assets/bmWiLogo20212.png";
-import bayArchKammerLogo from "../assets/baykaLogo.png";
-import dennaLogo from "../assets/dena.png";
 import energieEffExpLogo from "../assets/energieEffizienz.png";
-import tumVentLabLogo from "../assets/TumVentLabsLogo.png";
 import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
-import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
-import ThreePillars from "../components/ThreePillars.astro"
+import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
+import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 ---
 
 <BaseLayout
@@ -59,8 +55,13 @@ import ThreePillars from "../components/ThreePillars.astro"
 
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
-    class="animation01">
-    <ThreePillars></ThreePillars>
+    class="animation01 horizontal">
+    <ThreePillarsHorizontal></ThreePillarsHorizontal>
+  </div>
+  <div
+    aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
+    class="animation01 vertical">
+    <ThreePillarsVertical></ThreePillarsVertical>
   </div>
 
 
@@ -313,6 +314,10 @@ import ThreePillars from "../components/ThreePillars.astro"
     padding-right: var(--right-padding-general);
   }
 
+  .animation01.vertical {
+    display: none;
+  }
+
   .animation02 {
     margin-top: -2rem;
     margin-bottom: -4rem;
@@ -402,12 +407,21 @@ import ThreePillars from "../components/ThreePillars.astro"
   }
 
   @media (max-width: 625px) {
-    .partner-logo {
-      width: 100%;
+    .animation01.vertical {
+      display: block;
+      width: 50%;
+    }
+
+    .animation01.horizontal {
+      display: none;
     }
 
     .animation02 {
       margin: 0;
+    }
+
+    .partner-logo {
+      width: 100%;
     }
   }
 
