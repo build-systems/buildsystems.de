@@ -15,34 +15,24 @@
       stroke-width="2"
       stroke-miterlimit="10"
     ></path>
-    <text x="10" y="50" font-family="Arial" font-size="20" fill="white">TEST</text>
-    <!-- <foreignObject
-      x="61"
-      y="87"
-      width="120"
-      height="70">
-      <p class="txt-one-horizontal">Ökologische Bautätigkeit skalieren</p>
-    </foreignObject>
-    <foreignObject
-      x="393"
-      y="77"
-      width="172"
-      height="100">
-      <p class="txt-two-horizontal">Ökonomische Machbarkeit und Planungssicherheit garantieren</p>
-    </foreignObject>
-    <foreignObject
-      x="761.2"
-      y="76"
-      width="150"
-      height="90">
-      <p class="txt-three-horizontal">Konformität<br />mit ESG und Förderrichtlinien gewährleisten</p>
-    </foreignObject> -->
+    <text x="63.97" y="108"  font-size="20" class="txt-one-horizontal">Ökologische</text>
+    <text x="65.97" y="130" font-size="20" class="txt-one-horizontal">Bautätigkeit</text>
+    <text x="79.97" y="150"  font-size="20" class="txt-one-horizontal">skalieren</text>
+
+    <text x="417.34" y="100"  class="txt-two-horizontal">Ökonomische</text>
+    <text x="403.99" y="120"  class="txt-two-horizontal">Machbarkeit und</text>
+    <text x="393.96" y="140"  class="txt-two-horizontal">Planungssicherheit</text>
+    <text x="427.69" y="160" class="txt-two-horizontal">garantieren</text>
+    
+    <text x="784.31" y="100" class="txt-three-horizontal">Konformität</text>
+    <text x="781.02" y="120" class="txt-three-horizontal">mit ESG und</text>
+    <text x="763.12" y="140" class="txt-three-horizontal">Förderrichtlinien</text>
+    <text x="773.19" y="160" class="txt-three-horizontal">gewährleisten</text>
 
     <style>
-      p {
-        padding: 4px 0;
+      text {
         fill: white;
-        /* font-size: 20px; */
+        font-size: 20px;
         font-family: var(--font-family-primary);
         line-height: 100%;
         text-align: center;
@@ -102,21 +92,18 @@
     }
   }
 
-  text {
+    .txt-one-horizontal {
     animation: txt-one-horizontal 10s ease-in-out infinite;
   }
-  /* .txt-one-horizontal {
-    animation: txt-one-horizontal 10s ease-in-out infinite;
-  } */
   
   @keyframes txt-one-horizontal {
     from {
       opacity: 0;
-      /* transform: translateX(-25px); */
+      transform: translateX(-25px);
     }
     15% {
       opacity: 1;
-      /* transform: translateX(0); */
+      transform: translateX(0);
     }
     30% {
       opacity: 1;
@@ -129,11 +116,11 @@
     }
     75% {
       opacity: 1;
-      /* transform: translateX(0); */
+      transform: translateX(0);
     }
     80% {
       opacity: 0;
-      /* transform: translateX(25px); */
+      transform: translateX(25px);
     }
     85% {
       opacity: 0;
@@ -147,6 +134,10 @@
     to {
       opacity: 0;
     }
+  }
+
+  .txt-two-horizontal {
+    animation: txt-two-horizontal 10s ease-in-out infinite;
   }
 
   @keyframes txt-two-horizontal {
@@ -189,8 +180,8 @@
     }
   }
 
-  .txt-two-horizontal {
-    animation: txt-two-horizontal 10s ease-in-out infinite;
+  .txt-three-horizontal {
+    animation: txt-three-horizontal 10s ease-in-out infinite;
   }
 
   @keyframes txt-three-horizontal {
@@ -233,7 +224,5 @@
     }
   }
 
-  .txt-three-horizontal {
-    animation: txt-three-horizontal 10s ease-in-out infinite;
-  }
+
 </style>
