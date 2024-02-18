@@ -192,9 +192,9 @@
 
   .txt-three {
     opacity: 0;
-    -webkit-animation: txt-three 10s infinite;
+    /* -webkit-animation: txt-three 10s infinite;
     -moz-animation: txt-three 10s ease-in-out infinite;
-    -o-animation: txt-three 10s ease-in-out infinite;
+    -o-animation: txt-three 10s ease-in-out infinite; */
     animation: txt-three 10s ease-in-out infinite;
   }
   
@@ -202,77 +202,10 @@
     from {
       opacity: 0;
     }
-    15% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 0;
-      /* transform: translateY(-25px) */
-    }
-    75% {
-      opacity: 1;
-      /* transform: translateY(0) */
-    }
-    80% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    95% {
-      opacity: 1;
-      /* transform: translateY(0) */
-    }
     to {
-      opacity: 0;
+      opacity: 1;
       /* transform: translateY(25px) */
     }
-  }
-
-  @-webkit-keyframes txt-three {
-    0% {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 0;
-    }
-    75% {
-      opacity: 1;
-    }
-    80% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    95% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-    -webkit-animation-timing-function: linear;
   }
 
 
