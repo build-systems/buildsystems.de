@@ -14,6 +14,7 @@ import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
 import bayInnovLogo from "../assets/bayernInnovativLogoMitClaim.png";
 import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
+import ThreePillars from "../components/ThreePillars.astro"
 ---
 
 <BaseLayout
@@ -21,7 +22,7 @@ import Button from "../components/Button.astro";
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
-  <Image
+  <!-- <Image
     class="hero-image"
     src={heroRendering}
     widths={[450, 720, 920, 1600, heroRendering.width]}
@@ -48,23 +49,25 @@ import Button from "../components/Button.astro";
         </div>
       </div>
     </div>
-  </label>
+  </label> 
 
   <div class="msg msg-primary">
     <h2 class="sticky">
       ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
     </h2>
-  </div>
+  </div> -->
 
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
     class="animation01">
-    <LottieAnimation
+    <!-- <LottieAnimation
       id="animation01"
       src="animations/oekologische-oekonomische-esg-konformitaet.json"
       autoplay="visible"
-    />
+    /> -->
   </div>
+
+  <ThreePillars></ThreePillars>
 
   <div class="msg msg-secondary">
     <h3>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</h3>
