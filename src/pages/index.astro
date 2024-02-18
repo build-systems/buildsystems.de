@@ -22,7 +22,7 @@ import ThreePillars from "../components/ThreePillars.astro"
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
-  <!-- <Image
+  <Image
     class="hero-image"
     src={heroRendering}
     widths={[350, 700, 1000, 1600, heroRendering.width]}
@@ -39,35 +39,35 @@ import ThreePillars from "../components/ThreePillars.astro"
     class="cover"
     aria-label="Animation: Build Smart, Build Sustainable, Build Systems. Click to close animation."
     for="cover">
-    <div class="cover-text">
-      <div class="txt-build">Build</div>
+    <div aria-hidden="true" class="cover-text">
+      <div class="txt-build"></div>
       <div class="systems-overflow">
         <div class="systems-container">
-          <div class="txt-systems">Systems</div>
-          <div class="txt-sustainable">Sustainable</div>
-          <div class="txt-smart">Smart</div>
+          <div class="txt-systems"></div>
+          <div class="txt-sustainable"></div>
+          <div class="txt-smart"></div>
         </div>
       </div>
     </div>
-  </label> 
+  </label>
 
   <div class="msg msg-primary">
     <h2 class="sticky">
       ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
     </h2>
-  </div> -->
+  </div>
 
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
     class="animation01">
-    <!-- <LottieAnimation
+    <LottieAnimation
       id="animation01"
       src="animations/oekologische-oekonomische-esg-konformitaet.json"
       autoplay="visible"
-    /> -->
+    />
   </div>
-
-  <ThreePillars></ThreePillars>
+<!-- 
+  <ThreePillars></ThreePillars> -->
 
   <div class="msg msg-secondary">
     <h3>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</h3>
@@ -226,12 +226,29 @@ import ThreePillars from "../components/ThreePillars.astro"
     width: 100%;
   }
 
+  .txt-build::before {
+    content: "Build";
+  }
+
   .txt-build {
     display: flex;
     font-size: 11svw;
     align-items: center;
     justify-content: center;
   }
+
+  .txt-systems::before {
+    content: "Systems";
+  }
+
+  .txt-sustainable::before {
+    content: "Sustainable";
+  }
+
+  .txt-smart::before {
+    content: "Smart";
+  }
+
   .systems-overflow {
     overflow: hidden;
     height: 17svw;
