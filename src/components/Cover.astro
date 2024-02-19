@@ -309,3 +309,16 @@
     }
   }
 </style>
+
+<script>
+// JavaScript code to mark checkbox as checked on first scroll
+document.addEventListener('DOMContentLoaded', function() {
+    var checkboxChecked = false;
+
+    window.addEventListener('scroll', function() {
+        if (!checkboxChecked) {
+document.getElementById('cover').checked = true;
+checkboxChecked = true;
+        }
+    });
+});
