@@ -4,11 +4,11 @@ import remarkGfm from 'remark-gfm';
 import remarkSmartypants from 'remark-smartypants';
 import rehypeExternalLinks from 'rehype-external-links';
 import lottie from "astro-integration-lottie";
+import sitemap from '@astrojs/sitemap';
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://blog.buildsystems.de/',
-  integrations: [mdx(), lottie()],
+  site: 'https://buildsystems.de',
+  integrations: [mdx(), lottie(), sitemap()],
   markdown: {
     shikiConfig: {
       theme: 'nord'
