@@ -42,6 +42,8 @@
   --sticky-padding-mobile: 0.55rem;
 
   --bezier-animation: cubic-bezier(.8,0,.3,1.05);
+  --animation-time: 2.2s;
+  --animation-delay: 0.7s;
 }
 
 :root.theme-dark {

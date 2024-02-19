@@ -15,25 +15,76 @@
       stroke-width="2"
       stroke-miterlimit="10"
     ></path>
-    <text x="63.97" y="108" font-size="20" class="txt-one-horizontal">Ökologische</text>
-    <text x="65.97" y="130" font-size="20" class="txt-one-horizontal">Bautätigkeit</text>
-    <text x="79.97" y="150" font-size="20" class="txt-one-horizontal">skalieren</text>
-
-    <text x="417.34" y="100" class="txt-two-horizontal">Ökonomische</text>
-    <text x="403.99" y="120" class="txt-two-horizontal">Machbarkeit und</text>
-    <text x="393.96" y="140" class="txt-two-horizontal">Planungssicherheit</text>
-    <text x="427.69" y="160" class="txt-two-horizontal">garantieren</text>
-    
-    <text x="784.31" y="100" class="txt-three-horizontal">Konformität</text>
-    <text x="781.02" y="120" class="txt-three-horizontal">mit ESG und</text>
-    <text x="763.12" y="140" class="txt-three-horizontal">Förderrichtlinien</text>
-    <text x="773.19" y="160" class="txt-three-horizontal">gewährleisten</text>
-
+    <g class="txt-one-horizontal">
+      <text
+        x="63.97"
+        y="108"
+        font-size="20"
+        >Ökologische</text
+      >
+      <text
+        x="65.97"
+        y="130"
+        font-size="20"
+        >Bautätigkeit</text
+      >
+      <text
+        x="79.97"
+        y="150"
+        font-size="20"
+        >skalieren</text
+      >
+    </g>
+    <g class="txt-two-horizontal">
+      <text
+        x="417.34"
+        y="100"
+        >Ökonomische</text
+      >
+      <text
+        x="403.99"
+        y="120"
+        >Machbarkeit und</text
+      >
+      <text
+        x="393.96"
+        y="140"
+        >Planungssicherheit</text
+      >
+      <text
+        x="427.69"
+        y="160"
+        >garantieren</text
+      >
+    </g>
+    <g class="txt-three-horizontal">
+      <text
+        x="784.31"
+        y="100"
+        >Konformität</text
+      >
+      <text
+        x="781.02"
+        y="120"
+        >mit ESG und</text
+      >
+      <text
+        x="763.12"
+        y="140"
+        >Förderrichtlinien</text
+      >
+      <text
+        x="773.19"
+        y="160"
+        >gewährleisten</text
+      >
+    </g>
     <style>
       text {
         fill: white;
         font-size: 20px;
         font-family: var(--font-family-primary);
+        font-weight: 500;
         line-height: 100%;
         text-align: center;
       }
@@ -48,8 +99,8 @@
   }
 
   path {
-    stroke-dasharray: 1367.1065673828125;
-    stroke-dashoffset: 1367.1065673828125;
+    stroke-dasharray: 1367.1065;
+    stroke-dashoffset: 1367.1065;
     animation: path-horizontal 10s ease-in-out infinite;
   }
 
@@ -92,10 +143,11 @@
     }
   }
 
-    .txt-one-horizontal {
+  .txt-one-horizontal {
+    opacity: 0;
     animation: txt-one-horizontal 10s ease-in-out infinite;
   }
-  
+
   @keyframes txt-one-horizontal {
     from {
       opacity: 0;
@@ -105,15 +157,6 @@
       opacity: 1;
       transform: translateX(0);
     }
-    30% {
-      opacity: 1;
-    }
-    45% {
-      opacity: 1;
-    }
-    60% {
-      opacity: 1;
-    }
     75% {
       opacity: 1;
       transform: translateX(0);
@@ -121,32 +164,15 @@
     80% {
       opacity: 0;
       transform: translateX(25px);
-    }
-    85% {
-      opacity: 0;
-    }
-    90% {
-      opacity: 0;
-    }
-    95% {
-      opacity: 0;
-    }
-    to {
-      opacity: 0;
     }
   }
 
   .txt-two-horizontal {
+    opacity: 0;
     animation: txt-two-horizontal 10s ease-in-out infinite;
   }
 
   @keyframes txt-two-horizontal {
-    from {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
     30% {
       opacity: 0;
       transform: translateX(-25px);
@@ -155,15 +181,6 @@
       opacity: 1;
       transform: translateX(0);
     }
-    60% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    80% {
-      opacity: 1;
-    }
     85% {
       opacity: 1;
       transform: translateX(0);
@@ -171,32 +188,15 @@
     90% {
       opacity: 0;
       transform: translateX(25px);
-    }
-    95% {
-      opacity: 0;
-    }
-    to {
-      opacity: 0;
     }
   }
 
   .txt-three-horizontal {
+    opacity: 0;
     animation: txt-three-horizontal 10s ease-in-out infinite;
   }
 
   @keyframes txt-three-horizontal {
-    from {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
     60% {
       opacity: 0;
       transform: translateX(-25px);
@@ -204,15 +204,6 @@
     75% {
       opacity: 1;
       transform: translateX(0);
-    }
-    80% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
     }
     95% {
       opacity: 1;
@@ -223,6 +214,4 @@
       transform: translateX(25px);
     }
   }
-
-
 </style>

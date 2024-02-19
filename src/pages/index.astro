@@ -11,6 +11,7 @@ import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
+import Cover from "../components/Cover.astro"
 ---
 
 <BaseLayout
@@ -18,6 +19,9 @@ import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
+
+  <Cover></Cover>
+
   <Image
     class="hero-image"
     src={heroRendering}
@@ -25,27 +29,6 @@ import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
     sizes={`(max-width: 300px) 350px, (max-width: 600px) 700px, (max-width: 900px) 1000px, (max-width: 1400px) 1600px, ${heroRendering.width}px`}
     alt="Rendering of a multi-story timber building"
   />
-
-  <input
-    type="checkbox"
-    id="cover"
-    class="cover-checkbox visuallyHidden"
-  />
-  <label
-    class="cover"
-    aria-label="Animation: Build Smart, Build Sustainable, Build Systems. Click to close animation."
-    for="cover">
-    <div aria-hidden="true" class="cover-text">
-      <div class="txt-build"></div>
-      <div class="systems-overflow">
-        <div class="systems-container">
-          <div class="txt-systems"></div>
-          <div class="txt-sustainable"></div>
-          <div class="txt-smart"></div>
-        </div>
-      </div>
-    </div>
-  </label>
 
   <div class="msg msg-primary">
     <h2 class="sticky">
@@ -198,101 +181,6 @@ import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 </BaseLayout>
 
 <style>
-  .cover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100svh;
-    padding-left: 1svw;
-    background-color: var(--background-body);
-    z-index: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .lottie-container {
-    width: 100%;
-  }
-
-  .cover-text {
-    display: flex;
-    width: 100%;
-  }
-
-  .txt-build::before {
-    content: "Build";
-  }
-
-  .txt-build {
-    display: flex;
-    font-size: 11svw;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .txt-systems::before {
-    content: "Systems";
-  }
-
-  .txt-sustainable::before {
-    content: "Sustainable";
-  }
-
-  .txt-smart::before {
-    content: "Smart";
-  }
-
-  .systems-overflow {
-    overflow: hidden;
-    height: 17svw;
-  }
-  
-  .systems-container {
-    font-family: var(--font-family-secondary);
-    position: relative;
-    font-size: 11svw;
-    flex: 1;
-    transform: translateY(-66%);
-  }
-
-  @keyframes slidedown {
-    from {
-      opacity: 1;
-    }
-    43% {
-      transform: translateY(-33%)
-    }
-    57% {
-      transform: translateY(-33%)
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0)
-    }
-  }
-
-  .cover-checkbox ~ .cover .systems-container {
-    animation: slidedown 2s var(--bezier-animation) forwards;
-    animation-delay: 0.8s; */
-  }
-
-  @keyframes fadeout {
-    from {
-      opacity: 1;
-    }
-
-    to {
-      opacity: 0;
-    }
-  }
-
-  .cover-checkbox:checked ~ .cover {
-    animation: fadeout 0.2s forwards;
-    pointer-events: none;
-  }
-
   .hero-image {
     position: relative;
     top: 0;
@@ -357,18 +245,10 @@ import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
     width: clamp(100px, 60%, 200px);
   }
 
-  .icon {
-    /* width: 200px; */
-  }
-
   @media (max-width: 1280px) {
     .animation01 {
       padding-left: calc(var(--left-padding-desktop) - 40px);
       padding-right: 5%;
-    }
-
-    .animation02 {
-      /* margin: 0; */
     }
 
     .partner-container {

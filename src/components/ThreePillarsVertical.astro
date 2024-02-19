@@ -9,20 +9,23 @@
     <path
         d="M121.527 956.973C55.2527 956.973 1.52686 903.247 1.52686 836.973C1.52686 770.699 55.2527 716.973 121.527 716.973L121.527 598.987C55.2527 598.987 1.52687 545.261 1.52688 478.987C1.52688 412.712 55.2527 358.987 121.527 358.987L121.527 241C55.2527 241 1.52689 187.274 1.52689 121C1.52689 54.7253 55.2527 0.999509 121.527 0.999512"
         stroke="#D9D9D9" stroke-width="2" stroke-miterlimit="10" />
-        <text x="63.97" y="108"  font-size="20" class="txt-one">Ökologische</text>
-        <text x="65.97" y="130" font-size="20" class="txt-one">Bautätigkeit</text>
-        <text x="79.97" y="150"  font-size="20" class="txt-one">skalieren</text>
-    
-        <text x="59.58" y="460"  class="txt-two">Ökonomische</text>
-        <text x="46.1" y="480"  class="txt-two">Machbarkeit und</text>
-        <text x="35.68" y="500"  class="txt-two">Planungssicherheit</text>
-        <text x="70.19" y="520" class="txt-two">garantieren</text>
-        
-        <text x="68.53" y="816" class="txt-three">Konformität</text>
-        <text x="65.8" y="836" class="txt-three">mit ESG und</text>
-        <text x="47.68" y="856" class="txt-three">Förderrichtlinien</text>
-        <text x="58.19" y="876" class="txt-three">gewährleisten</text>
-
+        <g class="txt-one">
+          <text x="63.97" y="108"  font-size="20">Ökologische</text>
+          <text x="65.97" y="130" font-size="20">Bautätigkeit</text>
+          <text x="79.97" y="150"  font-size="20">skalieren</text>
+        </g>
+        <g class="txt-two">
+          <text x="59.58" y="460">Ökonomische</text>
+          <text x="46.1" y="480">Machbarkeit und</text>
+          <text x="35.68" y="500">Planungssicherheit</text>
+          <text x="70.19" y="520">garantieren</text>
+        </g>
+        <g class="txt-three">
+          <text x="68.53" y="816">Konformität</text>
+          <text x="65.8" y="836">mit ESG und</text>
+          <text x="47.68" y="856">Förderrichtlinien</text>
+          <text x="58.19" y="876">gewährleisten</text>
+        </g>
     <style>
       text {
         fill: white;
@@ -42,8 +45,8 @@
   }
 
   path {
-    stroke-dasharray: 1367.1065673828125;
-    stroke-dashoffset: 1367.1065673828125;
+    stroke-dasharray: 1367.1065;
+    stroke-dashoffset: 1367.1065;
     animation: path 10s ease-in-out infinite;
   }
 
@@ -97,15 +100,6 @@
       opacity: 1;
       transform: translateY(0)
     }
-    30% {
-      opacity: 1;
-    }
-    45% {
-      opacity: 1;
-    }
-    60% {
-      opacity: 1;
-    }
     75% {
       opacity: 1;
       transform: translateY(0)
@@ -114,31 +108,14 @@
       opacity: 0;
       transform: translateY(25px)
     }
-    85% {
-      opacity: 0;
-    }
-    90% {
-      opacity: 0;
-    }
-    95% {
-      opacity: 0;
-    }
-    to {
-      opacity: 0;
-    }
   }
 
   .txt-two {
+    opacity: 0;
     animation: txt-two 10s ease-in-out infinite;
   }
 
   @keyframes txt-two {
-    from {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
     30% {
       opacity: 0;
       transform: translateY(-25px)
@@ -147,15 +124,6 @@
       opacity: 1;
       transform: translateY(0)
     }
-    60% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    80% {
-      opacity: 1;
-    }
     85% {
       opacity: 1;
       transform: translateY(0)
@@ -163,12 +131,6 @@
     90% {
       opacity: 0;
       transform: translateY(25px)
-    }
-    95% {
-      opacity: 0;
-    }
-    to {
-      opacity: 0;
     }
   }
 
@@ -178,18 +140,6 @@
   }
   
   @keyframes txt-three {
-    from {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
     60% {
       opacity: 0;
       transform: translateY(-25px)
@@ -197,55 +147,6 @@
     75% {
       opacity: 1;
       transform: translateY(0)
-    }
-    80% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    95% {
-      opacity: 1;
-      transform: translateY(0)
-    }
-    to {
-      opacity: 0;
-      transform: translateY(25px)
-    }
-  }
-  
-  @keyframes txt-three {
-    from {
-      opacity: 0;
-    }
-    15% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 0;
-      transform: translateY(-25px)
-    }
-    75% {
-      opacity: 1;
-      transform: translateY(0)
-    }
-    80% {
-      opacity: 1;
-    }
-    85% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
     }
     95% {
       opacity: 1;
