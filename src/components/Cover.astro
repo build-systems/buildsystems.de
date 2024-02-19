@@ -34,13 +34,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.5s ease-out;
-    opacity: 1;
+    transition: all 0.5s ease-out;
   }
 
   .cover-checkbox:checked ~ .cover {
-    opacity: 0;
-    pointer-events: none;
+    display: none;
   }
 
   .cover-text {
