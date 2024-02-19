@@ -51,7 +51,6 @@
   .txt-build {
     display: flex;
     font-size: 11svw;
-    align-items: center;
     justify-content: center;
   }
 
@@ -113,8 +112,12 @@
     90% {
       opacity: 1;
     }
-    to {
+    99% {
       opacity: 0;
+      visibility: visible;
+    }
+    to {
+      visibility: hidden;
     }
   }
 
@@ -132,23 +135,6 @@
     }
   }
 
-  .systems-overflow {
-    animation: systems-overflow var(--animation-time) var(--bezier-animation) forwards;
-    animation-delay: var(--animation-delay);
-  }
-
-  @keyframes systems-overflow {
-    60% {
-      height: 17svw;
-    }
-    61% {
-      height: auto;
-    }
-    to {
-      height: auto;
-    }
-  }
-
   .txt-sustainable,
   .txt-smart {
     animation: block-none var(--animation-time) var(--bezier-animation) forwards;
@@ -157,10 +143,10 @@
 
   @keyframes block-none {
     60% {
-      display: none;
+      visibility: hidden;
     }
     to {
-      display: none;
+      visibility: hidden;
     }
   }
 
@@ -168,6 +154,7 @@
     animation: cover-text-fixed var(--animation-time) var(--bezier-animation) forwards;
     animation-delay: var(--animation-delay);
   }
+
   @keyframes cover-text-fixed {
     70% {
       top: 50%;
@@ -176,6 +163,144 @@
     to {
       top: 0;
       transform: translate(0, 0);
+    }
+  }
+
+  @media (max-width: 1280px) {
+    @keyframes cover-text-fixed {
+      70% {
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 0;
+      }
+      to {
+        top: 0;
+        transform: translate(0, 0);
+        padding: 0.6rem 1rem;
+      }
+    }
+
+    @keyframes systems-animation {
+      from {
+      }
+      25% {
+        transform: translateY(-33%);
+      }
+      35% {
+        transform: translateY(-33%);
+      }
+      60% {
+        transform: translateY(0);
+      }
+      70% {
+        font-size: 11svw;
+        transform: translateY(0);
+      }
+      to {
+        font-size: var(--primary-msg-size-desktop);
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes build-animation {
+      70% {
+        font-size: 11svw;
+      }
+      to {
+        font-size: var(--primary-msg-size-desktop);
+      }
+    }
+  }
+
+  @media (max-width: 625px) {
+    @keyframes cover-text-fixed {
+      70% {
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 0;
+      }
+      to {
+        top: 0;
+        transform: translate(0, 0);
+        padding: 0.6rem 5%;
+      }
+    }
+
+    @keyframes systems-animation {
+      from {
+      }
+      25% {
+        transform: translateY(-33%);
+      }
+      35% {
+        transform: translateY(-33%);
+      }
+      60% {
+        transform: translateY(0);
+      }
+      70% {
+        font-size: 11svw;
+        transform: translateY(0);
+      }
+      to {
+        font-size: 1.6rem;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes build-animation {
+      70% {
+        font-size: 11svw;
+      }
+      to {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  @media (max-width: 420px) {
+    @keyframes cover-text-fixed {
+      70% {
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 0;
+      }
+      to {
+        top: 0;
+        transform: translate(0, 0);
+        padding: 0.5rem 10px;
+      }
+    }
+
+    @keyframes systems-animation {
+      from {
+      }
+      25% {
+        transform: translateY(-33%);
+      }
+      35% {
+        transform: translateY(-33%);
+      }
+      60% {
+        transform: translateY(0);
+      }
+      70% {
+        font-size: 11svw;
+        transform: translateY(0);
+      }
+      to {
+        font-size: 1.4rem;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes build-animation {
+      70% {
+        font-size: 11svw;
+      }
+      to {
+        font-size: 1.4rem;
+      }
     }
   }
 </style>

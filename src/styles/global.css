@@ -43,6 +43,7 @@
 
   --bezier-animation: cubic-bezier(.8,0,.3,1.05);
   --animation-time: 2.2s;
+  /* --animation-time: 10s; */
   --animation-delay: 0.7s;
 }
 
