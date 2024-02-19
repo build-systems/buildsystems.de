@@ -41,10 +41,10 @@
   --secondary-msg-line-height-mobile: 1.3rem;
   --sticky-padding-mobile: 0.55rem;
 
-  --bezier-animation: cubic-bezier(.8,0,.3,1.05);
-  --animation-time: 2.2s;
+  --bezier-animation: cubic-bezier(0.8, 0, 0.3, 1);
+  --animation-time: 2s;
   /* --animation-time: 10s; */
-  --animation-delay: 0.7s;
+  --animation-delay: 0.5s;
 }
 
 :root.theme-dark {
