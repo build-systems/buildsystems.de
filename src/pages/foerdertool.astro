@@ -1,7 +1,8 @@
 ---
 import LandingLayout from "../layouts/LandingLayout.astro";
 import { Image } from "astro:assets";
-import heroImage from "../assets/heroimage-ipad-sanierung.png"
+import heroImage from "../assets/heroimage-ipad-sanierung.png";
+import Button from "../components/Button.astro";
 
 const title = "BuildSystems | Foerdertool";
 const description =
@@ -24,82 +25,42 @@ const current = "foerdertool";
     <div class="tool__text">
       <h1>Fördertool</h1>
       <h2>
-        Das Tool untersützt Sie bei der früh­zeitigen
-        Gegenüber­stellung von Kosten, Fördermittel­potentialen und Anforderungen.
+        Das Tool untersützt Sie bei der früh­zeitigen Gegenüber­stellung von Baukosten, Fördermittel­potentialen und
+        Nachhaltigkeits­anforderungen.
       </h2>
+      <p>
+        Vergleichen Sie verschiedene KfW-Förderprodukte in Bezug auf Anforderungen und finanziellen Vorteile durch
+        Tilgungs­zuschüsse und vergünstigte Zinsen.
+      </p>
       <div class="tool__text__buttons">
-        <button>
-          <a href="https://app.buildsystems.de/neubau">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 40 40"
-              fill="none"
-              class="icon">
-              <path
-                id="star"
-                stroke="white"
-                stroke-linejoin="round"
-                d="M20 15.011L21.5898 20.9157L27.4945 22.5055L21.5898 24.0953L20 30L18.4102 24.0953L12.5055 22.5055L18.4102 20.9157L20 15.011Z"
-              ></path>
-              <path
-                stroke="white"
-                stroke-linecap="square"
-                stroke-linejoin="round"
-                d="M6.5 35.5V17.1703L20 4.5L33.5 17.1703V35.5"
-              ></path>
-              <path
-                stroke="white"
-                stroke-linecap="round"
-                d="M0.5 35.5L39.5 35.5"
-              ></path>
-            </svg>
-            <span class="noselect">Neubau</span>
-          </a>
-        </button>
-        <button>
-          <a href="https://app.buildsystems.de/sanierung">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 40 40"
-              fill="none"
-              class="icon">
-              <path
-                id="hammer"
-                stroke="white"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M17.2552 16.9883L20.8313 20.5644L13.7043 27.6914L15.7674 29.7545L22.8944 22.6275L25.8953 25.6283L28.521 23.0026C27.1456 21.6272 25.7702 20.2518 24.3948 18.8764C21.2064 15.688 18.018 15.5004 14.4545 19.064"
-              ></path>
-              <path
-                stroke="white"
-                stroke-linecap="square"
-                stroke-linejoin="round"
-                d="M6.5 35.5V17.1703L20 4.5L33.5 17.1703V35.5"
-              ></path>
-              <path
-                stroke="white"
-                stroke-linecap="round"
-                d="M0.5 35.5L39.5 35.5"
-              ></path>
-            </svg>
-            <span class="noselect">Sanierung</span>
-          </a>
-        </button>
+        <Button
+          icon="redirect"
+          text="Neubau"
+          link="https://app.buildsystems.de/neubau"
+        />
+        <Button
+          icon="redirect"
+          text="Sanierung"
+          link="https://app.buildsystems.de/sanierung"
+        />
       </div>
+      <p class="tool__text__privacy">Wir sammeln keine Nutzungsdaten.</p>
     </div>
   </div>
 </LandingLayout>
 
 <style>
   .tool {
-    padding: 12svh 0 6svh 0;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     min-height: 100svh;
+    max-height: 100svh;
   }
 
   .tool__image {
-    /* background-color: salmon; */
+    object-fit: cover;
+    height: 100svh;
   }
 
   .tool__text {
@@ -109,107 +70,46 @@ const current = "foerdertool";
     align-items: start;
     justify-content: center;
     width: 100%;
-    padding: 0 0 0 3rem;
-    & h1 {
-      text-align: start;
-    }
-    & h2 {
-      font-size: 2rem;
-      text-align: start;
-    }
-    & p {
-      text-align: start;
-    }
+    padding: 0 8rem 0 4rem;
+  }
+
+  h1 {
+    font-family: var(--font-family-secondary);
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    text-align: start;
+    margin: 1rem 0;
+    line-height: 130%;
   }
 
   .tool__text__buttons {
     color: white;
     display: flex;
-    padding: 2rem 0;
-    gap: 1.5rem;
-    button {
-      color: inherit;
-      display: flex;
-      align-items: center;
-      width: 5.5rem;
-      height: 5.5rem;
-      background: var(--background-cards);
-      padding: 0;
-      border: none;
-      border-radius: var(--card-border-radius);
-      transition: background 0.1s ease-in-out;
-      &:hover {
-        background: #333;
-      }
-    }
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      color: inherit;
-      text-decoration: none;
-      .icon {
-        width: 2.5rem;
-        aspect-ratio: 1/1;
-      }
-    }
+    margin: 1rem 0;
+    gap: 2rem;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
   }
 
-  #star {
-    transform-origin: 20px 22.5px;
-    stroke: white;
-  }
-
-  #hammer {
-    transform-origin: 15.5px 28px;
-    stroke: white;
-  }
-
-  button:hover #star {
-    animation: star 650ms var(--bezier-animation-star) forwards;
-  }
-
-  button:hover #hammer {
-    animation: hammer 300ms var(--bezier-animation-star) forwards;
-  }
-
-  @keyframes star {
-    from {
-      opacity: 0;
-      fill: white;
-      transform: scale(0) rotate(-30deg);
-    }
-    50% {
-      opacity: 1;
-      fill: white;
-      transform: scale(1.4) rotate(45deg);
-    }
-    to {
-      opacity: 1;
-      fill: #333;
-      transform: scale(1) rotate(90deg);
-    }
-  }
-
-  @keyframes hammer {
-    from {
-      fill: white;
-      transform: rotate(0deg);
-    }
-    25% {
-      fill: white;
-      transform: rotate(-45deg);
-    }
-    75% {
-      fill: white;
-      transform: rotate(45deg);
-    }
-    to {
-      fill: #333;
-      transform: rotate(0);
-    }
+  .tool__text__privacy {
+    font-size: 0.9rem;
+    font-family: var(--font-alt);
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
   }
 </style>
