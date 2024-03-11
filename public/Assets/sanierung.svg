@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+    <path id="hammer" stroke="white" stroke-linecap="round" stroke-linejoin="round"
+        d="M17.2552 16.9883L20.8313 20.5644L13.7043 27.6914L15.7674 29.7545L22.8944 22.6275L25.8953 25.6283L28.521 23.0026C27.1456 21.6272 25.7702 20.2518 24.3948 18.8764C21.2064 15.688 18.018 15.5004 14.4545 19.064" />
+    <path stroke="white" stroke-linecap="square" stroke-linejoin="round"
+        d="M6.5 35.5V17.1703L20 4.5L33.5 17.1703V35.5" />
+    <path stroke="white" stroke-linecap="round" d="M0.5 35.5L39.5 35.5" />
+</svg>

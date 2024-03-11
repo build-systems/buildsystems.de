@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+    <path id="star" stroke="white" stroke-linejoin="round"
+        d="M20 15.011L21.5898 20.9157L27.4945 22.5055L21.5898 24.0953L20 30L18.4102 24.0953L12.5055 22.5055L18.4102 20.9157L20 15.011Z" />
+    <path stroke="white" stroke-linecap="square" stroke-linejoin="round"
+        d="M6.5 35.5V17.1703L20 4.5L33.5 17.1703V35.5" />
+    <path stroke="white" stroke-linecap="round" d="M0.5 35.5L39.5 35.5" />
+</svg>

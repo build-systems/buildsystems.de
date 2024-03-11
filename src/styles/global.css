@@ -6,6 +6,8 @@
   --primary-color: #d9d9d9;
   --font-family-primary: ABC Diatype, sans-serif,-apple-system, system-ui;
   --font-family-secondary: ABC Diatype Mono, sans-serif, -apple-system, system-ui;
+  --layout-padding: 1rem;
+  --card-border-radius: 0.5rem;
 
   --left-padding-general: 315px;
   --right-padding-general: 10%;
@@ -45,6 +47,8 @@
   --animation-time: 3.3s;
   /* --animation-time: 10s; */
   --animation-delay: 0.5s;
+
+  --bezier-animation-star: cubic-bezier(0, 0, 0.5, 1);
 }
 
 :root.theme-dark {
