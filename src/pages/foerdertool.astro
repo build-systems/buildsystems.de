@@ -25,7 +25,7 @@ const current = "foerdertool";
     <div class="tool__text">
       <h1>Fördertool</h1>
       <h2>
-        Das Tool untersützt Sie bei der früh­zeitigen Gegenüber­stellung von Baukosten, Fördermittel­potentialen und
+        Das Tool untersützt Sie bei der früh­zeitigen Gegenüber­stellung von Bau­kosten, Fördermittel­potentialen und
         Nachhaltigkeits­anforderungen.
       </h2>
       <p>
@@ -55,6 +55,7 @@ const current = "foerdertool";
     grid-template-columns: 1fr 1fr;
     min-height: 100svh;
     max-height: 100svh;
+    gap: 2rem;
   }
 
   .tool__image {
@@ -64,12 +65,11 @@ const current = "foerdertool";
 
   .tool__text {
     display: flex;
-    flex: 1;
+    position: relative;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    width: 100%;
-    padding: 0 8rem 0 4rem;
+    width: clamp(400px, 80%, 700px);
   }
 
   h1 {
@@ -105,6 +105,93 @@ const current = "foerdertool";
   }
 
   @media (max-width: 900px) {
+    .tool {
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(0, 65fr) minmax(0, 35fr);
+      align-items: start;
+      gap: 0;
+    }
+    .tool__image {
+      height: 65svh;
+    }
+    .tool__text {
+      height: 100%;
+      justify-content: space-around;
+      padding: 0 4svw;
+    }
+    h1,
+    h2,
+    p,
+    .tool__text__buttons {
+      margin: 0;
+    }
+    h1 {
+      position: absolute;
+      top: -4rem;
+      text-shadow: 1px 1px 3px #333;
+    }
+    .tool__text__buttons {
+      margin-bottom: 4rem;
+    }
+  }
+  @media (max-width: 600px) {
+    .tool {
+      grid-template-rows: minmax(0, 60fr) minmax(0, 40fr);
+    }
+    .tool__image {
+      height: 60svh;
+    }
+    .tool__text {
+      width: 100%;
+    }
+    .tool__text__buttons {
+      margin-bottom: 2rem;
+    }
+    h1 {
+      top: -3.5rem;
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+    }
+    p {
+    }
+  }
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
 
+  @media (max-width: 400px) {
+    .tool {
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(0, 50fr) minmax(0, 50fr);
+      align-items: start;
+      gap: 0;
+    }
+    .tool__image {
+      height: 50svh;
+    }
+    h1 {
+      top: -3rem;
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .tool__text__buttons {
+      gap: 1rem;
+    }
+    h1 {
+      top: -2rem;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
   }
 </style>
