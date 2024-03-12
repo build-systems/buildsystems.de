@@ -39,11 +39,13 @@ const current = "foerdertool";
         <Button
           icon="redirect"
           text="Neubau"
+          openOnNewTab={true}
           link="https://app.buildsystems.de/neubau"
-        />
-        <Button
+          />
+          <Button
           icon="redirect"
           text="Sanierung"
+          openOnNewTab={true}
           link="https://app.buildsystems.de/sanierung"
         />
       </div>
@@ -63,7 +65,7 @@ const current = "foerdertool";
     grid-template-columns: 1fr 1fr;
     min-height: 100svh;
     max-height: 100svh;
-    gap: 2rem;
+    gap: 4rem;
   }
 
   .tool__image {
