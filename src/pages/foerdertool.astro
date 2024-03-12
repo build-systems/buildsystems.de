@@ -52,6 +52,10 @@ const current = "foerdertool";
 </LandingLayout>
 
 <style>
+  body {
+    height: 100svh;
+  }
+
   .tool {
     display: grid;
     align-items: center;
@@ -110,16 +114,16 @@ const current = "foerdertool";
 
   @media (max-width: 900px) {
     .tool {
-      grid-template-columns: 1fr;
-      grid-template-rows: minmax(0, 65fr) minmax(0, 35fr);
+      display: flex;
+      flex-direction: column;
       align-items: start;
       gap: 0;
     }
     .tool__image {
-      height: 65svh;
+      height: 60svh;
     }
     .tool__text {
-      height: 100%;
+      height: 40svh;
       justify-content: space-around;
       padding: 0 4svw;
     }
@@ -139,13 +143,11 @@ const current = "foerdertool";
     }
   }
   @media (max-width: 600px) {
-    .tool {
-      grid-template-rows: minmax(0, 60fr) minmax(0, 40fr);
-    }
     .tool__image {
-      height: 60svh;
+      height: 50svh;
     }
     .tool__text {
+      height: 50svh;
       width: 100%;
     }
     .tool__text__buttons {
@@ -168,14 +170,11 @@ const current = "foerdertool";
   }
 
   @media (max-width: 400px) {
-    .tool {
-      grid-template-columns: 1fr;
-      grid-template-rows: minmax(0, 50fr) minmax(0, 50fr);
-      align-items: start;
-      gap: 0;
-    }
     .tool__image {
-      height: 50svh;
+      height: 40svh;
+    }
+    .tool__text {
+      height: 60svh;
     }
     h1 {
       top: -3rem;
