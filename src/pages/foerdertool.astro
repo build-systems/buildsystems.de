@@ -119,7 +119,7 @@ const current = "foerdertool";
       height: 60svh;
     }
     .tool__text {
-      flex: 1;
+      height: 40svh;
       justify-content: space-around;
       padding: 0 4svw;
     }
@@ -134,13 +134,20 @@ const current = "foerdertool";
       top: -4rem;
       text-shadow: 1px 1px 3px #333;
     }
+    .tool__text__buttons {
+      margin-bottom: 4rem;
+    }
   }
   @media (max-width: 600px) {
     .tool__image {
       height: 50svh;
     }
     .tool__text {
+      height: 50svh;
       width: 100%;
+    }
+    .tool__text__buttons {
+      margin-bottom: 2rem;
     }
     h1 {
       top: -3.5rem;
@@ -161,6 +168,9 @@ const current = "foerdertool";
   @media (max-width: 400px) {
     .tool__image {
       height: 40svh;
+    }
+    .tool__text {
+      height: 60svh;
     }
     h1 {
       top: -3rem;
