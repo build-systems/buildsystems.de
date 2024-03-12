@@ -110,16 +110,16 @@ const current = "foerdertool";
 
   @media (max-width: 900px) {
     .tool {
-      display: flex;
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(0, 65fr) minmax(0, 35fr);
       align-items: start;
       gap: 0;
     }
     .tool__image {
-      height: 60svh;
+      height: 65svh;
     }
     .tool__text {
-      height: 40svh;
+      height: 100%;
       justify-content: space-around;
       padding: 0 4svw;
     }
@@ -139,11 +139,13 @@ const current = "foerdertool";
     }
   }
   @media (max-width: 600px) {
+    .tool {
+      grid-template-rows: minmax(0, 60fr) minmax(0, 40fr);
+    }
     .tool__image {
-      height: 50svh;
+      height: 60svh;
     }
     .tool__text {
-      height: 50svh;
       width: 100%;
     }
     .tool__text__buttons {
@@ -166,11 +168,14 @@ const current = "foerdertool";
   }
 
   @media (max-width: 400px) {
-    .tool__image {
-      height: 40svh;
+    .tool {
+      grid-template-columns: 1fr;
+      grid-template-rows: minmax(0, 50fr) minmax(0, 50fr);
+      align-items: start;
+      gap: 0;
     }
-    .tool__text {
-      height: 60svh;
+    .tool__image {
+      height: 50svh;
     }
     h1 {
       top: -3rem;
