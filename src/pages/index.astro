@@ -11,7 +11,8 @@ import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
-import Cover from "../components/Cover.astro"
+import Cover from "../components/Cover.astro";
+import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 ---
 
 <BaseLayout
@@ -19,8 +20,7 @@ import Cover from "../components/Cover.astro"
   description={SITE_DESCRIPTION}
   heroImage={SITE_HEROIMAGE}
   current="">
-
-  <Cover></Cover>
+  <Cover />
 
   <Image
     class="hero-image"
@@ -33,45 +33,64 @@ import Cover from "../components/Cover.astro"
 
   <div class="msg msg-primary">
     <h2 class="sticky">
-      ermöglicht es, den Nachhaltigkeits&shy;anforderungen von morgen ökonomisch und technisch gerecht zu werden.
+      arbeitet mit Projektentwickler:innen, Bestandshaltern und Generalunternehmen, um gemeinsam zukunftsfähige
+      Immobilienprojekte zu realisieren.
     </h2>
+  </div>
+  <div class="msg msg-secondary">
+    <p>
+      Die Bauwende stellt eine unserer größten Herausforderungen dar, jedoch ist sie auch mit immensen Wachstumschancen
+      verbunden. Wir unterstützen sie bei der Strategieentwicklung und -implementierung. Individuell auf Ihre
+      Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren Potentiale und optimieren Prozesse durch smarte
+      Digitalisierungsmaßnahmen. Dabei treiben wir besonders die Dekarbonisierung des Sektors voran und ebnen den Weg zu
+      relevanten Fördermitteln. So machen sich Ihre Green Assets langfristig bezahlt!
+    </p>
   </div>
 
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
     class="animation01 horizontal">
-    <ThreePillarsHorizontal></ThreePillarsHorizontal>
+    <ThreePillarsHorizontal />
   </div>
   <div
     aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
     class="animation01 vertical">
-    <ThreePillarsVertical></ThreePillarsVertical>
-  </div>
-
-  <div class="msg msg-secondary">
-    <h3>Impact Intelligence steht für eine hohe Performance in drei Bereichen:</h3>
-    <ul>
-      <li>Ihren ökologischen und sozialen Impact in der Gebäude&shy;entwicklung zu skalieren</li>
-      <li>Das Potential Ihrer Assets optimal auszunutzen</li>
-      <li>Ihr Portfolio langfristig innerhalb des Dekarbonisierungs&shy;pfads zu verorten</li>
-    </ul>
-    <p>
-      Wir helfen Ihnen, die entscheidenden technischen und sozio&shy;ökonomischen Maßnahmen zu wählen, damit Sie Ihre
-      Nachhaltigkeits&shy;ansprüche sicher und effizient erreichen.
-    </p>
-    <Button
-      text="Services"
-      link="/services"
-      icon="redirect"
-      ariaLabel="Go to Services page"
-    />
+    <ThreePillarsVertical />
   </div>
 
   <div class="msg msg-primary">
     <h2 class="sticky">
-      ist eine technologie&shy;gestützte Nachhaltigkeits&shy;beratung. Wir stellen sicher, dass Ihre
-      Projekt&shy;entwicklungen grün, zukunfts&shy;fähig sowie kalkulierbar und risikoarm sind.
+      ist eine technologiegestützte Nachhaltigkeitsberatung. Wir stellen sicher, dass Ihre Immobilien grün,
+      zukunftsfähig und risikoarm sind.
     </h2>
+  </div>
+  <div class="msg">
+    <BuildCarousel />
+  </div>
+  <div class="msg msg-primary">
+    <div class="sticky">
+      <h2>
+        stellt Leistungspakete maßgeschneidert zusammen und entspricht so Ihrem individuellen Bedarf. Schema F gibt es
+        bei uns nicht. Dabei behalten wir immer das große Ganze im Blick.
+      </h2>
+      <Button
+        text="Services"
+        link="/services"
+        icon="redirect"
+        ariaLabel="Go to Services page"
+      />
+    </div>
+  </div>
+
+  <div class="msg msg-secondary">
+    <p class="sticky">
+      Wir unterstützen Sie bei der Entwicklung von Dekarbonisierungsstrategien für Ihr Unternehmen und erschließen
+      Potenziale der Umweltentlastung ganzheitlich. Darüber hinaus bieten wir Energie- und Fördermittelberatung sowie
+      Umnutzungskonzepte für die Revitalisierung von Bestandsgebäuden. Wir begleiten Sie mit fachplanerischen Leistungen
+      und Beratung zur Nachhaltigkeitssteuerung innerhalb Ihres Planungsprozesses.  Daten sind der Schlüssel zu einer
+      besseren Emissionsbilanz. Deshalb beraten wir sie toolunabhängig im interdisziplinären Team aus Nachhaltigkeits-
+      und Softwarespezialisten bei der Digitalisierung Ihres Portfolios und der Abwicklung Ihrer Carbon Due Diligence.
+    </p>
   </div>
 
   <div
@@ -84,12 +103,54 @@ import Cover from "../components/Cover.astro"
     />
   </div>
 
-  <h3 class="msg msg-secondary">
-    Unsere Nachhaltigkeitsfahrpläne – die Smart Sustainability Roadmaps – unterstützen die individuelle
-    Projektentwicklung in einer frühen Phase der Planung, Investitionsentscheidungen zu treffen, Projekte ganzheitlich
-    aufzugleisen und nachhaltige Wertstabilität zu schaffen. Stellen Sie die Entwicklung zum grünen Asset mit Blick auf
-    Reporting-Anforderungen und institutionelle Käufer sicher.
-  </h3>
+  <div class="msg msg-primary">
+    <div class="sticky">
+      <h2>
+        entwickelt digitale Anwendungen ebenso wie Nachhaltigkeitsfahrpläne. Digitalisierung geht bei uns Hand in Hand
+        mit kreativen Lösungsansätzen zu aktuellen Herausforderungen in der Baubranche.
+      </h2>
+      <Button
+        text="Referenzen"
+        link="/referenzen"
+        icon="redirect"
+        ariaLabel="Go to Referenzen page"
+      />
+    </div>
+  </div>
+  <div class="msg msg-secondary">
+    <p>
+      Unsere Projekte bilden einen Querschnitt durch Forschungs­arbeiten, und Wissens­transferformaten sowie durch
+      Beratungs- und Planungs­leistungen. Dabei ist die Dekarbonisierung unserer gebauten Umwelt das verbindende Element
+      all unserer Projekte, denn sie ist zur Erreichung der globalen Klimaziele unumgänglich. Der Fokus unserer Arbeit
+      liegt stets darauf, jene Vorteile, die über die Verringerung von Emissionen hinausgehen, für unsere jeweiligen
+      Kunden heraus­zuarbeiten und so die Wertbeständigkeit von Immobilien und Entwicklungen zu gewährleisten.
+    </p>
+  </div>
+
+  <div class="msg msg-primary">
+    <div class="sticky">
+      <h2>
+        hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und gibt Orientierung auf unbekanntem
+        Terrain. Veränderung wird aktiv im Team gestaltet.
+      </h2>
+      <Button
+        text="Referenzen"
+        link="/referenzen"
+        icon="redirect"
+        ariaLabel="Go to Referenzen page"
+      />
+    </div>
+  </div>
+  <div class="msg msg-secondary">
+    <p class="sticky">
+      Wir haben unseren Fit For Future Ansatz als ein Weiterbildungsformat rund um die Herausforderungen nachhaltiger
+      Projektentwicklung und unternehmensstrategische Dekarbonisierung konzipiert. In analogen Modulen lernen die
+      Teilnehmenden, worauf es bei der Entwicklung von zukunftsfähigen, lebenswerten und gemischten Projekten in urbanen
+      Gebieten ankommt und wie Unternehmen diese Ansätze auf Unternehmensebene verankern. Managen Sie in Zukunft die
+      verschiedenen Stellschrauben der Nachhaltigkeit ganzheitlich und verstehen Sie, welche Maßnahmen tatsächlich einen
+      positiven Impact schaffen.
+    </p>
+  </div>
 
   <div class="partner-container">
     <h2>Unsere Partner</h2>
@@ -100,7 +161,7 @@ import Cover from "../components/Cover.astro"
         class="partner-logo"
         aria-label="Link führt zu bmwk.de - Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland">
         <svg role="img">
-          <use xlink:href="/assets/partners.svg#bmwk"/>
+          <use xlink:href="/assets/partners.svg#bmwk"></use>
         </svg>
       </a>
       <a
@@ -109,7 +170,7 @@ import Cover from "../components/Cover.astro"
         class="partner-logo"
         aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
         <svg role="img">
-          <use xlink:href="/assets/partners.svg#bay-arch"/>
+          <use xlink:href="/assets/partners.svg#bay-arch"></use>
         </svg>
       </a>
       <a
@@ -117,8 +178,10 @@ import Cover from "../components/Cover.astro"
         target="_blank"
         class="partner-logo"
         aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
-        <svg class="dena-logo" role="img">
-          <use xlink:href="/assets/partners.svg#dena"/>
+        <svg
+          class="dena-logo"
+          role="img">
+          <use xlink:href="/assets/partners.svg#dena"></use>
         </svg>
       </a>
       <a
@@ -138,7 +201,7 @@ import Cover from "../components/Cover.astro"
         class="partner-logo"
         aria-label="Link führt zu tum-venture-labs.de - TUM Venture Labs">
         <svg role="img">
-          <use xlink:href="/assets/partners.svg#tum-venture-labs"/>
+          <use xlink:href="/assets/partners.svg#tum-venture-labs"></use>
         </svg>
       </a>
       <a
@@ -158,7 +221,7 @@ import Cover from "../components/Cover.astro"
         class="partner-logo"
         aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
         <svg role="img">
-          <use xlink:href="/assets/partners.svg#bay-innovativ"/>
+          <use xlink:href="/assets/partners.svg#bay-innovativ"></use>
         </svg>
       </a>
       <a
