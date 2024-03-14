@@ -1,26 +1,60 @@
 <footer>
   <div class="footer-container">
-    <address class="text">BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
-    <div class="links">
-      <a
-        class="text"
-        href="/impressum">
-        <div>Impressum<br />Datenschutz&shy;erklärung</div>
-      </a>
-      <div class="social-links">
+    <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
+    <div class="footer-content">
+      <div class="address-contact">
+        <address class="text">BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
+        <div class="links">
+          <div>Kontakt</div>
+          <address>mail@buildsystems.de</address>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/company/build-systems-de/"
+              target="_blank"
+              aria-label="Follow BuildSystems on LinkedIn">
+              <svg class="icon">
+                <use xlink:href="/assets/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a
+              href="https://github.com/build-systems"
+              target="_blank"
+              aria-label="Check BuildSystems's GitHub repo">
+              <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="internal-links">
         <a
-          href="https://www.linkedin.com/company/build-systems-de/"
-          target="_blank"
-          aria-label="Follow BuildSystems on LinkedIn">
-          <svg class="icon">
-            <use xlink:href="/assets/icons.svg#linkedin"></use>
-          </svg>
+          class="text"
+          href="/"
+          aria-label="Go to the homepage">
+          <div>Homepage</div>
         </a>
         <a
-          href="https://github.com/build-systems"
-          target="_blank"
-          aria-label="Check BuildSystems's GitHub repo">
-          <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+          class="text"
+          href="/services"
+          aria-label="Go to the services page">
+          <div>Services</div>
+        </a>
+        <a
+          class="text"
+          href="/personen"
+          aria-label="Go to the personen page">
+          <div>Personen</div>
+        </a>
+        <a
+          class="text"
+          href="/tool"
+          aria-label="Go to the tool page">
+          <div>Tool</div>
+        </a>
+        <a
+          class="text"
+          href="/impressum"
+          aria-label="Go to the impressum page">
+          <div>Impressum<br />Datenschutz&shy;erklärung</div>
         </a>
       </div>
     </div>
@@ -29,20 +63,28 @@
 <style>
   footer {
     position: relative;
+    background: var(--background-cards);
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+    z-index: 2;
   }
 
-  .footer-container {
-    width: 94svw;
-    position: absolute;
-    left: 3svw;
-    bottom: 3svh;
+  h2 {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .footer-content {
     display: flex;
-    background: var(--background-cards);
-    padding: 1rem;
-    gap: 2rem;
-    border-radius: 0.6rem;
+    gap: clamp(0.5rem, 3svw, 4rem);
+  }
+
+  .address-contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    z-index: 2;
   }
 
   address {
@@ -74,5 +116,12 @@
 
   a:has(.icon) {
     max-height: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    footer {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
   }
 </style>
