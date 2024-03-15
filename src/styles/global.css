@@ -330,8 +330,8 @@ input[name="theme-toggle"] {
 
 .msg-primary {
   font-size: var(--primary-msg-size-general);
-  margin-top: 20svh;
-  min-height: 60svh;
+  margin-top: 35svh;
+  min-height: 80svh;
 }
 
 .msg-secondary {
