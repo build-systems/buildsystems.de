@@ -1,12 +1,19 @@
+---
+import { Picture } from "astro:assets";
+import energieEffExpLogo from "../assets/energieEffizienz.png";
+---
+
 <footer>
-  <div class="footer-container">
-    <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
-    <div class="footer-content">
-      <div class="address-contact">
-        <address class="text">BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
-        <div class="links">
-          <div>Kontakt</div>
-          <address>mail@buildsystems.de</address>
+  <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
+  <div class="footer-content">
+    <section
+      class="address-contact"
+      aria-label="Kontakt, linkedIn and GitHub">
+      <address>BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
+      <div class="links">
+        <div>Kontakt</div>
+        <address>
+          <a href="mailto:mail@buildsystems.de">mail@buildsystems.de</a>
           <div class="social-links">
             <a
               href="https://www.linkedin.com/company/build-systems-de/"
@@ -23,41 +30,82 @@
               <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
             </a>
           </div>
-        </div>
+        </address>
       </div>
-      <div class="internal-links">
+    </section>
+    <nav>
+      <a href="/"> Homepage</a>
+      <a href="/services"> Services</a>
+      <a href="/personen"> Personen</a>
+      <a href="/tool"> Tool</a>
+      <a href="/impressum">
+        Impressum<br />Datenschutz&shy;erklärung
+      </a>
+    </nav>
+    <section
+      class="unsere-partner"
+      aria-label="Unsere Partner">
+      <h3>Wir sind Teil von</h3>
+      <div class="logos-container">
         <a
-          class="text"
-          href="/"
-          aria-label="Go to the homepage">
-          <div>Homepage</div>
+          href="https://www.byak.de/"
+          target="_blank"
+          class="partner-logo"
+          title="Bayerische Architektenkammer"
+          aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
+          <img
+            src="/assets/bayerische-architektenkammer-logo.svg"
+            alt="Bayerische Architektenkammer logo"
+          />
         </a>
         <a
-          class="text"
-          href="/services"
-          aria-label="Go to the services page">
-          <div>Services</div>
+          href="https://www.dena.de/"
+          target="_blank"
+          class="partner-logo"
+          title="Deutsche Energie-Agentur GmbH"
+          aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
+          <img
+            class="dena-logo"
+            src="/assets/dena-logo.svg"
+            alt="dena logo"
+          />
         </a>
         <a
-          class="text"
-          href="/personen"
-          aria-label="Go to the personen page">
-          <div>Personen</div>
+          href="https://www.energie-effizienz-experten.de/"
+          target="_blank"
+          class="partner-logo"
+          title="Energie Effizienz Experten"
+          aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
+          <img
+            src="/assets/energie-effizienz-experten-logo.svg"
+            alt="Energie Effizienz Experten logo"
+          />
         </a>
         <a
-          class="text"
-          href="/tool"
-          aria-label="Go to the tool page">
-          <div>Tool</div>
+          href="https://www.bayern-innovativ.de/"
+          target="_blank"
+          class="partner-logo"
+          title="Bayern Innovativ GmbH"
+          aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
+          <img
+            src="/assets/bayern-innovativ-logo.svg"
+            alt="Bayern Innovativ logo"
+          />
         </a>
         <a
-          class="text"
-          href="/impressum"
-          aria-label="Go to the impressum page">
-          <div>Impressum<br />Datenschutz&shy;erklärung</div>
+          href="https://www.dgnb.de/"
+          target="_blank"
+          class="partner-logo"
+          title="Deutsche Gesellschaft für Nachhaltiges Bauen"
+          aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen">
+          <img
+            class="dgnb-logo"
+            src="/assets/dgnb-logo.svg"
+            alt="DGNB logo"
+          />
         </a>
       </div>
-    </div>
+    </section>
   </div>
 </footer>
 <style>
@@ -65,7 +113,7 @@
     position: relative;
     background: var(--background-cards);
     margin: 1rem;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     border-radius: 0.6rem;
     z-index: 2;
   }
@@ -75,9 +123,15 @@
     padding: 0;
   }
 
+  h3 {
+    margin: 0.5rem 0;
+  }
+
   .footer-content {
     display: flex;
-    gap: clamp(0.5rem, 3svw, 4rem);
+    flex-wrap: wrap;
+    column-gap: clamp(0.5rem, 5svw, 5rem);
+    row-gap: clamp(0.5rem, 5svh, 2rem);
   }
 
   .address-contact {
@@ -92,19 +146,25 @@
     vertical-align: top;
     display: flex;
     flex-direction: column;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
   }
 
-  .text {
-    line-height: 130%;
-    font-size: 0.9rem;
+  a {
+    text-decoration: none;
+    display: flex;
+  }
+
+  nav {
+    line-height: 120%;
+    min-width: max-content;
+    font-size: 1rem;
     white-space: pre-line;
     text-align: left;
-    text-decoration: none;
   }
 
   .social-links {
     display: flex;
-    justify-content: start;
     gap: 0.5em;
   }
 
@@ -114,14 +174,63 @@
     fill: var(--text-secondary);
   }
 
-  a:has(.icon) {
-    max-height: 1rem;
+  .unsere-partner {
+    flex: 1 1 500px;
   }
 
-  @media (max-width: 400px) {
-    footer {
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
+  .logos-container {
+    display: grid;
+    justify-content: center;
+    column-gap: clamp(0.5rem, 4%, 4rem);
+    row-gap: clamp(0.5rem, 10%, 4rem);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
+
+  .partner-logo {
+    display: flex;
+    min-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+
+  .dena-logo {
+    width: clamp(100px, 80%, 300px);
+  }
+
+  .dgnb-logo {
+    width: clamp(100px, 90%, 300px);
+  }
+
+  @media (max-width: 920px) {
+    /* .dena-logo {
+      width: clamp(100px, 65%, 180px);
+    } */
+  }
+
+  @media (max-width: 625px) {
+    h3 {
+      padding-bottom: 1rem;
+    }
+    .logos-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 3rem;
+    }
+    .partner-logo {
+      width: auto;
+      min-width: auto;
+      flex: 0 1 200px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    footer {
+      margin: 0.5rem;
+    }
   }
 </style>

@@ -50,6 +50,9 @@
   --animation-delay: 0.5s;
 
   --bezier-animation-star: cubic-bezier(0, 0, 0.5, 1);
+
+  /* --dgnb-bw-gradient4: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(178,179,180,1) 60%, rgba(176,176,176,1) 70%, rgba(139,139,139,1) 100%); */
+  /* --dgnb-bw-gradient4: red; */
 }
 
 :root.theme-dark {
