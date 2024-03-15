@@ -1,0 +1,169 @@
+---
+import { Picture } from "astro:assets";
+import energieEffExpLogo from "../assets/energieEffizienz.png";
+import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
+import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
+---
+
+<section
+  class="partner-container"
+  aria-label="Our partners">
+  <h2>Unsere Partner</h2>
+  <div class="logos-container">
+    <a
+      href="https://www.bmwk.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu bmwk.de - Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland">
+      <svg role="img">
+        <use xlink:href="/assets/partners.svg#bmwk"></use>
+      </svg>
+    </a>
+    <a
+      href="https://www.byak.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
+      <svg role="img">
+        <use xlink:href="/assets/partners.svg#bay-arch"></use>
+      </svg>
+    </a>
+    <a
+      href="https://www.dena.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
+      <svg
+        class="dena-logo"
+        role="img">
+        <use xlink:href="/assets/partners.svg#dena"></use>
+      </svg>
+    </a>
+    <a
+      href="https://www.energie-effizienz-experten.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
+      <Picture
+        src={energieEffExpLogo}
+        formats={["avif", "webp"]}
+        alt=""
+      />
+    </a>
+    <a
+      href="https://www.tum-venture-labs.de/teams/build-systems/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu tum-venture-labs.de - TUM Venture Labs">
+      <svg role="img">
+        <use xlink:href="/assets/partners.svg#tum-venture-labs"></use>
+      </svg>
+    </a>
+    <a
+      href="https://germany.uli.org/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu germany.uli.org - Urban Land Institute (ULI) Germany / Austria / Switzerland">
+      <Picture
+        src={uliLogo}
+        formats={["avif", "webp"]}
+        alt=""
+      />
+    </a>
+    <a
+      href="https://www.bayern-innovativ.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
+      <svg role="img">
+        <use xlink:href="/assets/partners.svg#bay-innovativ"></use>
+      </svg>
+    </a>
+    <a
+      href="https://www.stmwi.bayern.de/"
+      target="_blank"
+      class="partner-logo"
+      aria-label="Link führt zu stmwi.bayern.de - Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie">
+      <Picture
+        src={bayStaatsminWirtschaftLogo}
+        formats={["avif", "webp"]}
+        alt=""
+      />
+    </a>
+  </div>
+</section>
+
+<style>
+  .partner-container {
+    background-color: var(--background-body);
+    padding-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+  }
+
+  .logos-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .partner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  svg {
+    width: 100%;
+  }
+
+  .dena-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(100px, 65%, 200px);
+  }
+
+  @media (max-width: 1280px) {
+    .partner-container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .partner-logo {
+      width: clamp(200px, 50%, 500px);
+    }
+  }
+
+  @media (max-width: 920px) {
+    .logos-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .partner-logo {
+      width: 90%;
+    }
+
+    .dena-logo {
+      width: clamp(100px, 65%, 180px);
+    }
+  }
+
+  @media (max-width: 625px) {
+    .partner-logo {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .logos-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 3rem;
+    }
+  }
+</style>

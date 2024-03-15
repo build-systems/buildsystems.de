@@ -1,18 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Picture } from "astro:assets";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 import heroRendering from "../assets/multistory-timber-building.jpg";
-import energieEffExpLogo from "../assets/energieEffizienz.png";
-import uliLogo from "../assets/uli_LogoHorizontal1805X168.png";
-import bayStaatsminWirtschaftLogo from "../assets/bay-staat-wle.png";
 import Button from "../components/Button.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 import Cover from "../components/Cover.astro";
 import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
+import PartnersSection from "../components/PartnersSection.astro";
 ---
 
 <BaseLayout
@@ -33,7 +30,7 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 
   <div class="msg msg-primary">
     <h2 class="sticky">
-      arbeitet mit Projektentwickler:innen, Bestandshaltern und Generalunternehmen, um gemeinsam zukunftsfähige
+      arbeitet mit Projekt­entwickler:innen, Bestandshaltern und Generalunternehmen, um gemeinsam zukunftsfähige
       Immobilienprojekte zu realisieren.
     </h2>
   </div>
@@ -60,30 +57,28 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 
   <div class="msg msg-primary">
     <h2 class="sticky">
-      ist eine technologiegestützte Nachhaltigkeitsberatung. Wir stellen sicher, dass Ihre Immobilien grün,
-      zukunftsfähig und risikoarm sind.
+      ist eine technologie­gestützte Nach­haltigkeits­beratung. Wir stellen sicher, dass Ihre Immobilien grün,
+      zukunfts­fähig und risikoarm sind.
     </h2>
   </div>
-  <div class="msg">
+  <div class="carousel-container">
     <BuildCarousel />
   </div>
   <div class="msg msg-primary">
-    <div class="sticky">
-      <h2>
-        stellt Leistungspakete maßgeschneidert zusammen und entspricht so Ihrem individuellen Bedarf. Schema F gibt es
-        bei uns nicht. Dabei behalten wir immer das große Ganze im Blick.
-      </h2>
+    <h2 class="sticky">
+      stellt Leistungspakete maßgeschneidert zusammen und entspricht so Ihrem individuellen Bedarf. Schema F gibt es bei
+      uns nicht. Dabei behalten wir immer das große Ganze im Blick.
       <Button
         text="Services"
         link="/services"
         icon="redirect"
         ariaLabel="Go to Services page"
       />
-    </div>
+    </h2>
   </div>
 
   <div class="msg msg-secondary">
-    <p class="sticky">
+    <p>
       Wir unterstützen Sie bei der Entwicklung von Dekarbonisierungsstrategien für Ihr Unternehmen und erschließen
       Potenziale der Umweltentlastung ganzheitlich. Darüber hinaus bieten wir Energie- und Fördermittelberatung sowie
       Umnutzungskonzepte für die Revitalisierung von Bestandsgebäuden. Wir begleiten Sie mit fachplanerischen Leistungen
@@ -104,18 +99,16 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
   </div>
 
   <div class="msg msg-primary">
-    <div class="sticky">
-      <h2>
-        entwickelt digitale Anwendungen ebenso wie Nachhaltigkeitsfahrpläne. Digitalisierung geht bei uns Hand in Hand
-        mit kreativen Lösungsansätzen zu aktuellen Herausforderungen in der Baubranche.
-      </h2>
+    <h2 class="sticky">
+      entwickelt digitale Anwendungen ebenso wie Nachhaltigkeitsfahrpläne. Digitalisierung geht bei uns Hand in Hand mit
+      kreativen Lösungsansätzen zu aktuellen Herausforderungen in der Baubranche.
       <Button
         text="Referenzen"
         link="/referenzen"
         icon="redirect"
         ariaLabel="Go to Referenzen page"
       />
-    </div>
+    </h2>
   </div>
   <div class="msg msg-secondary">
     <p>
@@ -128,21 +121,19 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
   </div>
 
   <div class="msg msg-primary">
-    <div class="sticky">
-      <h2>
-        hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und gibt Orientierung auf unbekanntem
-        Terrain. Veränderung wird aktiv im Team gestaltet.
-      </h2>
+    <h2 class="sticky">
+      hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und gibt Orientierung auf unbekanntem
+      Terrain. Veränderung wird aktiv im Team gestaltet.
       <Button
         text="Referenzen"
         link="/referenzen"
         icon="redirect"
         ariaLabel="Go to Referenzen page"
       />
-    </div>
+    </h2>
   </div>
   <div class="msg msg-secondary">
-    <p class="sticky">
+    <p>
       Wir haben unseren Fit For Future Ansatz als ein Weiterbildungsformat rund um die Herausforderungen nachhaltiger
       Projektentwicklung und unternehmensstrategische Dekarbonisierung konzipiert. In analogen Modulen lernen die
       Teilnehmenden, worauf es bei der Entwicklung von zukunftsfähigen, lebenswerten und gemischten Projekten in urbanen
@@ -151,92 +142,7 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
       positiven Impact schaffen.
     </p>
   </div>
-
-  <div class="partner-container">
-    <h2>Unsere Partner</h2>
-    <div class="logos-container">
-      <a
-        href="https://www.bmwk.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu bmwk.de - Bundesministerium für Wirtschaft und Klimaschutz der Bundesrepublik Deutschland">
-        <svg role="img">
-          <use xlink:href="/assets/partners.svg#bmwk"></use>
-        </svg>
-      </a>
-      <a
-        href="https://www.byak.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
-        <svg role="img">
-          <use xlink:href="/assets/partners.svg#bay-arch"></use>
-        </svg>
-      </a>
-      <a
-        href="https://www.dena.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
-        <svg
-          class="dena-logo"
-          role="img">
-          <use xlink:href="/assets/partners.svg#dena"></use>
-        </svg>
-      </a>
-      <a
-        href="https://www.energie-effizienz-experten.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
-        <Picture
-          src={energieEffExpLogo}
-          formats={["avif", "webp"]}
-          alt=""
-        />
-      </a>
-      <a
-        href="https://www.tum-venture-labs.de/teams/build-systems/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu tum-venture-labs.de - TUM Venture Labs">
-        <svg role="img">
-          <use xlink:href="/assets/partners.svg#tum-venture-labs"></use>
-        </svg>
-      </a>
-      <a
-        href="https://germany.uli.org/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu germany.uli.org - Urban Land Institute (ULI) Germany / Austria / Switzerland">
-        <Picture
-          src={uliLogo}
-          formats={["avif", "webp"]}
-          alt=""
-        />
-      </a>
-      <a
-        href="https://www.bayern-innovativ.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
-        <svg role="img">
-          <use xlink:href="/assets/partners.svg#bay-innovativ"></use>
-        </svg>
-      </a>
-      <a
-        href="https://www.stmwi.bayern.de/"
-        target="_blank"
-        class="partner-logo"
-        aria-label="Link führt zu stmwi.bayern.de - Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie">
-        <Picture
-          src={bayStaatsminWirtschaftLogo}
-          formats={["avif", "webp"]}
-          alt=""
-        />
-      </a>
-    </div>
-  </div>
+  <PartnersSection />
 </BaseLayout>
 
 <style>
@@ -264,6 +170,12 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
     display: none;
   }
 
+  .carousel-container {
+    width: 100%;
+    padding-left: var(--left-padding-general);
+    padding-right: var(--right-padding-general);
+  }
+
   .animation02 {
     margin-top: -2rem;
     margin-bottom: -4rem;
@@ -272,42 +184,16 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
     padding-right: 10%;
   }
 
-  .partner-container {
-    background-color: var(--background-body);
-    padding-top: 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-    margin-bottom: 15svh;
-  }
-
-  .logos-container {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-
-  .partner-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-  }
-
-  .dena-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: clamp(100px, 60%, 200px);
-  }
 
   @media (max-width: 1280px) {
     .animation01 {
       padding-left: calc(var(--left-padding-desktop) - 40px);
       padding-right: 5%;
+    }
+
+    .carousel-container {
+      padding-left: var(--left-padding-desktop);
+      padding-right: var(--right-padding-desktop);
     }
 
     .partner-container {
@@ -323,6 +209,11 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
   @media (max-width: 920px) {
     .animation01 {
       padding-left: var(--secondary-left-padding-tablet);
+    }
+
+    .carousel-container {
+      padding-left: var(--secondary-left-padding-tablet);
+      padding-right: var(--secondary-right-padding-tablet);
     }
 
     .animation02 {
@@ -354,6 +245,11 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
       display: none;
     }
 
+    .carousel-container {
+      padding-left: var(--secondary-left-padding-tablet);
+      padding-right: var(--secondary-right-padding-tablet);
+    }
+
     .animation02 {
       margin: 0;
     }
@@ -367,6 +263,11 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
     .logos-container {
       grid-template-columns: repeat(1, minmax(0, 1fr));
       gap: 4rem;
+    }
+
+    .carousel-container {
+      padding-left: var(--left-padding-mobile);
+      padding-right: var(--right-padding-mobile);
     }
   }
 </style>

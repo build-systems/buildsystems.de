@@ -4,11 +4,10 @@
   --text-main: #d9d9d9;
   --text-secondary: #ccc;
   --primary-color: #d9d9d9;
-  --font-family-primary: ABC Diatype, sans-serif,-apple-system, system-ui;
+  --font-family-primary: ABC Diatype, sans-serif, -apple-system, system-ui;
   --font-family-secondary: ABC Diatype Mono, sans-serif, -apple-system, system-ui;
-  --font-alt: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  --font-alt: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --layout-padding: 1rem;
   --card-border-radius: 0.5rem;
 
@@ -165,7 +164,6 @@ ul li::before {
   margin-right: 0.2rem;
 }
 
-
 a {
   color: inherit;
   transition: color linear 0.15s;
@@ -178,8 +176,12 @@ a:hover {
 p a {
   text-decoration: none;
   box-shadow: inset 0 -0.12em 0 var(--primary-color);
-  -webkit-transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition:
+    box-shadow 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  transition:
+    box-shadow 0.2s ease-in-out,
+    color 0.2s ease-in-out;
 }
 
 p a:hover {
@@ -282,7 +284,9 @@ td {
 
 .theme-toggle > label:focus-within {
   outline: 2px solid transparent;
-  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
+  box-shadow:
+    0 0 0 0.08em var(--theme-accent),
+    0 0 0 0.12em white;
 }
 
 .theme-toggle > label {
@@ -318,7 +322,6 @@ input[name="theme-toggle"] {
   padding-left: var(--left-padding-general);
   padding-right: var(--right-padding-general);
   align-self: start;
-  /* max-width: calc(1400px + var(--left-padding-general) + var(--right-padding-general)); */
   user-select: none;
 }
 
@@ -326,7 +329,6 @@ input[name="theme-toggle"] {
   font-size: var(--primary-msg-size-general);
   margin-top: 20svh;
   min-height: 60svh;
-  
 }
 
 .msg-secondary {
@@ -346,6 +348,9 @@ input[name="theme-toggle"] {
   padding-top: var(--sticky-padding-general);
   h2 {
     margin-top: 0;
+  }
+  a {
+    padding-top: var(--sticky-padding-general);
   }
 }
 
@@ -406,6 +411,9 @@ input[name="theme-toggle"] {
 
   .sticky {
     padding-top: var(--sticky-padding-desktop);
+    a {
+      padding-top: var(--sticky-padding-desktop);
+    }
   }
 }
 
@@ -437,6 +445,9 @@ input[name="theme-toggle"] {
 
   .sticky {
     padding-top: var(--sticky-padding-tablet);
+    a {
+      padding-top: var(--sticky-padding-tablet);
+    }
   }
 
   .sticky::before {
@@ -481,7 +492,8 @@ input[name="theme-toggle"] {
 
   .sticky {
     padding-top: var(--sticky-padding-mobile);
+    a {
+      padding-top: var(--sticky-padding-mobile);
+    }
   }
 }
-
-

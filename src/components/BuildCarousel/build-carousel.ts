@@ -40,13 +40,13 @@ var carouselMiddle = document.querySelector(".middle") as HTMLElement;
 // Function to handle hover
 async function animateOnce() {
   try {
-    carouselTop.style.animation = "top-animation 1s ease-in-out forwards";
-    carouselMiddle.style.animation = "middle-animation 1s ease-in-out forwards";
+    carouselTop.style.animation = "top-animation 1.6s ease-in-out forwards";
+    carouselMiddle.style.animation = "middle-animation 1.6s ease-in-out forwards";
     setTimeout(() => {
       nextButton.removeEventListener("mouseenter", animateOnce);
       carouselTop.style.animation = "";
       carouselMiddle.style.animation = "";
-    }, 1500);
+    }, 1600);
   } catch (e) {
     console.error("e", e);
   }
