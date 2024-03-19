@@ -8,12 +8,12 @@ interface Props {
   link: string;
   downloadName?: string;
   openOnNewTab?: boolean;
-  flex?: boolean;
+  widthFitContent?: boolean;
   icon?: "download" | "redirect";
   ariaLabel?: string;
 }
 
-const { text, link, downloadName, openOnNewTab, flex, icon, ariaLabel } = Astro.props;
+const { text, link, downloadName, openOnNewTab, widthFitContent, icon, ariaLabel } = Astro.props;
 
 var target = "_self";
 if (openOnNewTab) {
@@ -27,8 +27,9 @@ if (openOnNewTab) {
   download={downloadName}
   target={target}
   aria-label={ariaLabel}
+  class:list={[{ widthFitContent: widthFitContent }]}
   >
-  <button class:list={[{ flex: flex }]}
+  <button
     >{
       icon != undefined && (
         <svg class="icon">
@@ -43,15 +44,17 @@ if (openOnNewTab) {
     display: flex;
     text-decoration: none;
   }
-
-  .flex {
-    flex: 1;
-  }
-
+  
+  .widthFitContent {
+    width: fit-content;
+  } 
+  
   button {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
+    text-align: start;
     font-family: var(--font-family-primary);
     font-size: 1rem;
     border-radius: 0.3rem;
@@ -75,5 +78,16 @@ if (openOnNewTab) {
     background-color: var(--background-body);
     color: var(--text-main);
     cursor: pointer;
+  }
+
+  @media (max-width: 420px) {
+    button {
+      font-size: 0.9rem;
+    }
+
+    .icon {
+    height: 12px;
+    width: 12px;
+  }
   }
 </style>

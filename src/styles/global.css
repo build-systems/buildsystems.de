@@ -51,8 +51,6 @@
 
   --bezier-animation-star: cubic-bezier(0, 0, 0.5, 1);
 
-  /* --dgnb-bw-gradient4: linear-gradient(90deg, rgba(2,0,36,1) 30%, rgba(178,179,180,1) 60%, rgba(176,176,176,1) 70%, rgba(139,139,139,1) 100%); */
-  /* --dgnb-bw-gradient4: red; */
 }
 
 :root.theme-dark {
@@ -65,6 +63,10 @@
 html {
   /* overflow-y: scroll; */
   scroll-behavior: smooth;
+}
+
+.green {
+  color: #24B54A;
 }
 
 ::-webkit-scrollbar {
@@ -399,8 +401,8 @@ input[name="theme-toggle"] {
   .msg-primary {
     font-size: var(--primary-msg-size-desktop);
     line-height: var(--primary-msg-line-height-desktop);
-    margin-top: 15svh;
-    min-height: 50svh;
+    margin-top: 20svh;
+    min-height: 70svh;
   }
 
   h3 {

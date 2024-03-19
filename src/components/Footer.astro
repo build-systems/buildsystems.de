@@ -1,116 +1,165 @@
 ---
-import { Picture } from "astro:assets";
-import energieEffExpLogo from "../assets/energieEffizienz.png";
+import Button from "./Button.astro";
+import { Image } from "astro:assets";
+import heroRendering from "../assets/multistory-timber-building.jpg";
 ---
 
-<footer>
-  <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
-  <div class="footer-content">
-    <section
-      class="address-contact"
-      aria-label="Kontakt, linkedIn and GitHub">
-      <address>BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
-      <div class="links">
-        <div>Kontakt</div>
-        <address>
-          <a href="mailto:mail@buildsystems.de">mail@buildsystems.de</a>
-          <div class="social-links">
-            <a
-              href="https://www.linkedin.com/company/build-systems-de/"
-              target="_blank"
-              aria-label="Follow BuildSystems on LinkedIn">
-              <svg class="icon">
-                <use xlink:href="/assets/icons.svg#linkedin"></use>
-              </svg>
-            </a>
-            <a
-              href="https://github.com/build-systems"
-              target="_blank"
-              aria-label="Check BuildSystems's GitHub repo">
-              <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
-            </a>
-          </div>
-        </address>
-      </div>
-    </section>
-    <nav>
-      <a href="/"> Homepage</a>
-      <a href="/services"> Services</a>
-      <a href="/personen"> Personen</a>
-      <a href="/tool"> Tool</a>
-      <a href="/impressum">
-        Impressum<br />Datenschutz&shy;erklärung
-      </a>
-    </nav>
-    <section
-      class="unsere-partner"
-      aria-label="Unsere Partner">
-      <h3>Wir sind Teil von</h3>
-      <div class="logos-container">
-        <a
-          href="https://www.byak.de/"
-          target="_blank"
-          class="partner-logo"
-          title="Bayerische Architektenkammer"
-          aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
-          <img
-            src="/assets/bayerische-architektenkammer-logo.svg"
-            alt="Bayerische Architektenkammer logo"
-          />
-        </a>
-        <a
-          href="https://www.dena.de/"
-          target="_blank"
-          class="partner-logo"
-          title="Deutsche Energie-Agentur GmbH"
-          aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
-          <img
-            class="dena-logo"
-            src="/assets/dena-logo.svg"
-            alt="dena logo"
-          />
-        </a>
-        <a
-          href="https://www.energie-effizienz-experten.de/"
-          target="_blank"
-          class="partner-logo"
-          title="Energie Effizienz Experten"
-          aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
-          <img
-            src="/assets/energie-effizienz-experten-logo.svg"
-            alt="Energie Effizienz Experten logo"
-          />
-        </a>
-        <a
-          href="https://www.bayern-innovativ.de/"
-          target="_blank"
-          class="partner-logo"
-          title="Bayern Innovativ GmbH"
-          aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
-          <img
-            src="/assets/bayern-innovativ-logo.svg"
-            alt="Bayern Innovativ logo"
-          />
-        </a>
-        <a
-          href="https://www.dgnb.de/"
-          target="_blank"
-          class="partner-logo"
-          title="Deutsche Gesellschaft für Nachhaltiges Bauen"
-          aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen">
-          <img
-            class="dgnb-logo"
-            src="/assets/dgnb-logo.svg"
-            alt="DGNB logo"
-          />
-        </a>
-      </div>
-    </section>
+<div class="footer-container">
+  <Image
+    class="hero-image"
+    src={heroRendering}
+    alt="Rendering of a multi-story timber building"
+  />
+  <div class="action">
+    <h3>Sie haben weitere Fragen?</h3>
+    <Button
+      text="Schreiben Sie uns eine Mail!"
+      link="mailto:mail@buildsystems.de"
+    />
   </div>
-</footer>
+  <footer>
+    <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
+    <div class="footer-content">
+      <section
+        class="address-contact"
+        aria-label="Kontakt, linkedIn and GitHub">
+        <address>BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
+        <div class="links">
+          <div>Kontakt</div>
+          <address>
+            <a href="mailto:mail@buildsystems.de">mail@buildsystems.de</a>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/company/build-systems-de/"
+                target="_blank"
+                aria-label="Follow BuildSystems on LinkedIn">
+                <svg class="icon">
+                  <use xlink:href="/assets/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+              <a
+                href="https://github.com/build-systems"
+                target="_blank"
+                aria-label="Check BuildSystems's GitHub repo">
+                <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+              </a>
+            </div>
+          </address>
+        </div>
+      </section>
+      <nav>
+        <a href="/"> Homepage</a>
+        <a href="/services"> Services</a>
+        <a href="/personen"> Personen</a>
+        <a href="/tool"> Tool</a>
+        <a href="/impressum">
+          Impressum<br />Datenschutz­erklärung
+        </a>
+      </nav>
+      <section
+        class="unsere-partner"
+        aria-label="Unsere Partner">
+        <h3>Wir sind Teil von</h3>
+        <div class="logos-container">
+          <a
+            href="https://www.byak.de/"
+            target="_blank"
+            class="partner-logo"
+            title="Bayerische Architektenkammer"
+            aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
+            <img
+              src="/assets/bayerische-architektenkammer-logo.svg"
+              alt="Bayerische Architektenkammer logo"
+            />
+          </a>
+          <a
+            href="https://www.dena.de/"
+            target="_blank"
+            class="partner-logo"
+            title="Deutsche Energie-Agentur GmbH"
+            aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
+            <img
+              class="dena-logo"
+              src="/assets/dena-logo.svg"
+              alt="dena logo"
+            />
+          </a>
+          <a
+            href="https://www.energie-effizienz-experten.de/"
+            target="_blank"
+            class="partner-logo"
+            title="Energie Effizienz Experten"
+            aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
+            <img
+              src="/assets/energie-effizienz-experten-logo.svg"
+              alt="Energie Effizienz Experten logo"
+            />
+          </a>
+          <a
+            href="https://www.bayern-innovativ.de/"
+            target="_blank"
+            class="partner-logo"
+            title="Bayern Innovativ GmbH"
+            aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
+            <img
+              src="/assets/bayern-innovativ-logo.svg"
+              alt="Bayern Innovativ logo"
+            />
+          </a>
+          <a
+            href="https://www.dgnb.de/"
+            target="_blank"
+            class="partner-logo"
+            title="Deutsche Gesellschaft für Nachhaltiges Bauen"
+            aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen">
+            <img
+              class="dgnb-logo"
+              src="/assets/dgnb-logo.svg"
+              alt="DGNB logo"
+            />
+          </a>
+        </div>
+      </section>
+    </div>
+  </footer>
+</div>
+
 <style>
+  .footer-container {
+    margin-top: 50svh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: max-content;
+  }
+
+  .hero-image {
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 90svh;
+    max-height: 100svh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    z-index: 1;
+  }
+
+  .action {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 0.3rem;
+    z-index: 3;
+    margin-bottom: 10svh;
+  }
+
   footer {
     position: relative;
+    bottom: 0;
     background: var(--background-cards);
     margin: 4rem 1rem 1rem 1rem;
     padding: 2rem 2rem;
@@ -124,14 +173,14 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
   }
 
   h3 {
-    margin: 0.5rem 0;
+    margin-bottom: 1rem;
   }
 
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-    column-gap: clamp(0.5rem, 5svw, 5rem);
-    row-gap: clamp(0.5rem, 5svh, 2rem);
+    column-gap: clamp(0.5rem, 4svw, 5rem);
+    row-gap: clamp(0.5rem, 4svh, 2rem);
   }
 
   .address-contact {
@@ -148,6 +197,8 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
     flex-direction: column;
     font-size: 1rem;
     padding-bottom: 0.5rem;
+    line-height: 120%;
+    gap: 0.5rem;
   }
 
   a {
@@ -157,7 +208,7 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
 
   nav {
     line-height: 120%;
-    min-width: max-content;
+    min-width: min-content;
     font-size: 1rem;
     white-space: pre-line;
     text-align: left;
@@ -192,23 +243,35 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
     width: 100%;
     align-items: center;
     justify-content: center;
-    img {
-      width: 100%;
-    }
   }
 
   .dena-logo {
-    width: clamp(100px, 80%, 300px);
+    width: clamp(30px, 75%, 300px);
   }
 
   .dgnb-logo {
     width: clamp(100px, 90%, 300px);
   }
 
+  @media (max-width: 1024px) {
+    .logos-container {
+      column-gap: clamp(0.5rem, 2%, 4rem);
+      row-gap: clamp(0.5rem, 5%, 4rem);
+    }
+  }
+
   @media (max-width: 625px) {
+    .hero-image {
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 180svh;
+      max-height: 180svh;
+    }
+
     h3 {
       padding-bottom: 1rem;
     }
+
     .logos-container {
       display: flex;
       flex-wrap: wrap;
@@ -218,13 +281,18 @@ import energieEffExpLogo from "../assets/energieEffizienz.png";
     .partner-logo {
       width: auto;
       min-width: auto;
-      flex: 0 1 200px;
+      flex: 0 1 150px;
     }
   }
 
   @media (max-width: 420px) {
     footer {
       margin: 2rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .hero-image {
+      min-height: 200svh;
+      max-height: 200svh;
     }
   }
 </style>
