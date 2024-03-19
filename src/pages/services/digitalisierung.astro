@@ -1,0 +1,124 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+import serviceAnimation from "../assets/service-building-options.webp";
+import Button from "../../components/Button.astro";
+
+const title = "BuildSystems | Services";
+const description =
+  "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
+const image = "/images/services-smart-sustainability-roadmap.png";
+const current = "services";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  heroImage={image}
+  current={current}>
+  <div class="msg msg-primary">
+    <h2
+      class="sticky"
+      id="digitalisierung">
+      ebnet den Weg zur <span class="font-secondary green">Di­gi­ta­li­sie­rung</span> durch softwar­ege­stütz­tes Con­sul­ting.
+      Dafür verbin­den wir exis­tier­ende Praxis mit inno­va­tiven Prozes­sen und Tools.
+    </h2>
+  </div>
+
+  <div class="msg image-text-grid">
+    <div class="msg-tertiary">
+        <h3>Digitalisierungsstrategien Portfolio</h3>
+      <p>
+        Mit unserem Fokus auf Nach­haltigkeit und Innovation unterstützen wir Sie dabei, Ihre Immobilien und Prozesse
+        digital zu trans­for­mie­ren und Ihre Effizienz zu steigern. Digi­ta­li­sie­rung und die daten­gestützte
+        Auswertung Ihres Im­mo­bi­li­en­por­to­li­os sind der Schlüssel zu einer zukunfts­fähigen Verwaltung und
+        Optimierung Ihrer Objekte. Wir sind Ihr Partner für eine nach­haltige Im­mo­bi­li­en­stra­te­gie, die Ressourcen
+        schont und langfristige Werte schafft. Lassen Sie uns gemeinsam die Chancen der Di­gi­ta­li­sie­rung nutzen und
+        Ihre Immobilien mit dem Blick auf die Anfor­de­rungen durch ESG und De­kar­bo­ni­sie­rung für eine erfolgreiche
+        Zukunft rüsten.
+      </p>
+    </div>
+    <div class="extra-topics">
+      <Button
+        text="Portfoliodigitalisierung"
+        link="/services/digitalisierung#portfoliodigitalisierung"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+        widthFitContent={true}
+      />
+      <br />
+      <Button
+        text="Digitale Carbon Due Diligence"
+        link="/services/digitalisierung#digitale-carbon-due-diligence"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Digitale Carbon Due Diligence of Digitalisierung section at digitalisierung page"
+        widthFitContent={true}
+      />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .font-secondary {
+    font-family: var(--font-family-secondary);
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  p:has(~ p) {
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-text-grid {
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .extra-topics {
+    height: 100%;
+  }
+
+  @media (max-width: 1280px) {
+    .table-msg {
+      font-size: 1.2rem;
+      line-height: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .image-text-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .image-text-grid {
+      padding-left: var(--primary-left-padding-tablet);
+      padding-right: var(--primary-right-padding-tablet);
+      & p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 625px) {
+  }
+
+  @media (max-width: 420px) {
+    .image-text-grid {
+      p {
+        font-size: 1rem;
+        line-height: 1.05rem;
+      }
+    }
+  }
+</style>
