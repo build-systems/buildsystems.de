@@ -1,5 +1,4 @@
 ---
-
 // import type { ImageMetadata } from "astro";
 // import { Image } from "astro:assets";
 
@@ -9,17 +8,17 @@ interface Props {
   downloadName?: string;
   openOnNewTab?: boolean;
   widthFitContent?: boolean;
+  justifyCenter?: boolean;
   icon?: "download" | "redirect";
   ariaLabel?: string;
 }
 
-const { text, link, downloadName, openOnNewTab, widthFitContent, icon, ariaLabel } = Astro.props;
+const { text, link, downloadName, openOnNewTab, widthFitContent, justifyCenter, icon, ariaLabel } = Astro.props;
 
 var target = "_self";
 if (openOnNewTab) {
   var target = "_blank";
 }
-
 ---
 
 <a
@@ -27,9 +26,9 @@ if (openOnNewTab) {
   download={downloadName}
   target={target}
   aria-label={ariaLabel}
-  class:list={[{ widthFitContent: widthFitContent }]}
-  >
+  class:list={[{ widthFitContent: widthFitContent }]}>
   <button
+  class:list={[{ justifyCenter: justifyCenter }]}
     >{
       icon != undefined && (
         <svg class="icon">
@@ -44,16 +43,19 @@ if (openOnNewTab) {
     display: flex;
     text-decoration: none;
   }
-  
+
   .widthFitContent {
     width: fit-content;
-  } 
-  
+  }
+
+  .justifyCenter {
+    justify-content: center;
+  }
+
   button {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
     text-align: start;
     font-family: var(--font-family-primary);
     font-size: 1rem;
@@ -65,13 +67,15 @@ if (openOnNewTab) {
 
   .icon {
     margin-right: 0.5rem;
+    min-height: 14px;
     height: 14px;
+    min-width: 14px;
     width: 14px;
     fill: var(--background-body);
   }
 
   button:hover .icon {
-    fill: var(--text-main)
+    fill: var(--text-main);
   }
 
   button:hover {
@@ -86,8 +90,10 @@ if (openOnNewTab) {
     }
 
     .icon {
-    height: 12px;
-    width: 12px;
-  }
+      min-height: 12px;
+      height: 12px;
+      min-width: 12px;
+      width: 12px;
+    }
   }
 </style>

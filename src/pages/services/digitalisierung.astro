@@ -1,15 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
-import LottieAnimation from "astro-integration-lottie/Lottie.astro";
-import serviceAnimation from "../assets/service-building-options.webp";
+import serviceAnimation from "../../assets/service-building-options.webp";
 import Button from "../../components/Button.astro";
 
-const title = "BuildSystems | Services";
+const title = "BuildSystems | Digitalisierung";
 const description =
-  "Wir stellen die relevanten Entscheidungsgrundlagen bereit, damit Sie den effizientesten Entwicklungspfad wählen, wirkungsvolle  Maßnahmen einleiten und Stakeholder koordinieren können.";
+  "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
 const image = "/images/services-smart-sustainability-roadmap.png";
-const current = "services";
+const current = "services/digitalisierung";
 ---
 
 <BaseLayout
@@ -18,107 +17,164 @@ const current = "services";
   heroImage={image}
   current={current}>
   <div class="msg msg-primary">
-    <h2
-      class="sticky"
-      id="digitalisierung">
-      ebnet den Weg zur <span class="font-secondary green">Di­gi­ta­li­sie­rung</span> durch softwar­ege­stütz­tes Con­sul­ting.
+    <h2 class="sticky">
+      ebnet den Weg zur <span class="font-secondary green">Digi­ta­li­sie­rung</span> durch softwar­ege­stütz­tes Con­sul­ting.
       Dafür verbin­den wir exis­tier­ende Praxis mit inno­va­tiven Prozes­sen und Tools.
     </h2>
   </div>
 
-  <div class="msg image-text-grid">
-    <div class="msg-tertiary">
-        <h3>Digitalisierungsstrategien Portfolio</h3>
-      <p>
-        Mit unserem Fokus auf Nach­haltigkeit und Innovation unterstützen wir Sie dabei, Ihre Immobilien und Prozesse
-        digital zu trans­for­mie­ren und Ihre Effizienz zu steigern. Digi­ta­li­sie­rung und die daten­gestützte
-        Auswertung Ihres Im­mo­bi­li­en­por­to­li­os sind der Schlüssel zu einer zukunfts­fähigen Verwaltung und
-        Optimierung Ihrer Objekte. Wir sind Ihr Partner für eine nach­haltige Im­mo­bi­li­en­stra­te­gie, die Ressourcen
-        schont und langfristige Werte schafft. Lassen Sie uns gemeinsam die Chancen der Di­gi­ta­li­sie­rung nutzen und
-        Ihre Immobilien mit dem Blick auf die Anfor­de­rungen durch ESG und De­kar­bo­ni­sie­rung für eine erfolgreiche
-        Zukunft rüsten.
-      </p>
+  <div
+    class="msg"
+    id="portfoliodigitalisierung">
+    <h2>Digitalisierungsstrategien Portfolio</h2>
+    <div class="image-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Unser Angebot richtet sich an Assethalter und -manager sowie Family Offices, die ihr Portfolio digitalisieren
+          und für Reporting­anforderungen vorbereiten möchten. Mit Immobilien­kenntnissen und Daten-Expertise unterstützen
+          wir sie dabei, die Daten ihres Portfolios gewinnbringend im Nachhaltig­keits­mangament einzusetzen. Stellen Sie
+          so sicher, dass Sie Risiken effizient quantifizieren, datenbasierte Entscheidungen zur Dekarbonisierung
+          treffen und sich als Vorreiter bei zukünftigen Arbeit­nehmenden positionieren.
+        </p>
+      </div>
+      <div class="extra-topics">
+        <Button
+          text="Identifizierung von Prozesslücken und Bedürfnisklärung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Konzeptionierung von Workflows und Schnittstellen"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Beratung zu  Vor- und Nachteilen existierender Software-Tools"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Unterstützung bei der Implementierung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Vertretung Ihrer Interessen gegenüber dem Softwareanbieter"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Entwicklung und Implementierung von individuellen Low-Code-Apps"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Erstellung und Integration von Dashboards und Cockpits"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+      </div>
     </div>
-    <div class="extra-topics">
-      <Button
-        text="Portfoliodigitalisierung"
-        link="/services/digitalisierung#portfoliodigitalisierung"
-        openOnNewTab={true}
-        icon="redirect"
-        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
-        widthFitContent={true}
-      />
-      <br />
-      <Button
-        text="Digitale Carbon Due Diligence"
-        link="/services/digitalisierung#digitale-carbon-due-diligence"
-        openOnNewTab={true}
-        icon="redirect"
-        ariaLabel="Go to Digitale Carbon Due Diligence of Digitalisierung section at digitalisierung page"
-        widthFitContent={true}
-      />
+  </div>
+  <div class="options-animation">
+    <Image
+      src={serviceAnimation}
+      alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
+    />
+  </div>
+  <div
+    class="msg"
+    id="digitale-carbon-due-diligence">
+    <h2>Digitalisierungsstrategien Carbon Due Diligence</h2>
+    <div class="image-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Als Planende, Gene­ral­über­neh­mer oder Projekt­ent­wick­ler ist es für Sie wichtig, eine Carbon Due
+          Diligence durchzuführen, um frühzeitig sicher­zu­stel­len, dass Sie den Anfor­de­rungen von Förderungen oder
+          Zerti­fi­zie­rungs­sys­temen entsprechen? Es steht fest, je früher in der Planung die relevanten
+          Ent­schei­dungen getroffen werden, desto leichter lassen sich später teure Fehl- oder Umplanungen vermeiden.
+          Für eine frühe und belastbare Abwicklung der Carbon Due Dilligences ist es dabei jedoch unum­gäng­lich,
+          effiziente Prozesse ebenso wie eine verlässliche Da­tengrund­lage zur Verfügung zu haben.
+        </p>
+        <p>
+          Schätzen Sie mit BuildSystems die Emissions­werte Ihres Projekts von Anfang an daten­basiert ein und nutzen Sie
+          diese bei der Entschei­dungs­findung.
+        </p>
+      </div>
+      <div class="extra-topics">
+        <Button
+          text="Analyse der grundlegenden Datenstrukturen"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Analyse der grundlegenden Workflows zur Ökobilanzierung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Identifizierung von Prozesslücken"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Konzeptionierung Ihres Carbon Due Diligence Prozesses "
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Bereitstellung einer wachsenden Datenbank"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Beratung zu existierenden Software-Tools"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Unterstützung bei der Auswahl und Implementierung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <br />
+        <Button
+          text="Trainings zur Steigerung der Fachkompetenz Ihres Teams bei der Auswertung von Ergebnissen"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+      </div>
     </div>
   </div>
 </BaseLayout>
 
 <style>
-  .font-secondary {
-    font-family: var(--font-family-secondary);
-  }
 
-  p {
-    margin-top: 0;
-  }
-
-  p:has(~ p) {
-    margin: 0;
-    padding: 0;
-  }
-
-  .image-text-grid {
-    display: grid;
-    align-items: center;
-    gap: 2rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .extra-topics {
-    height: 100%;
-  }
-
-  @media (max-width: 1280px) {
-    .table-msg {
-      font-size: 1.2rem;
-      line-height: 1.3rem;
-    }
-  }
-
-  @media (max-width: 1100px) {
-    .image-text-grid {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
-  @media (max-width: 920px) {
-    .image-text-grid {
-      padding-left: var(--primary-left-padding-tablet);
-      padding-right: var(--primary-right-padding-tablet);
-      & p {
-        margin-bottom: 1rem;
-      }
-    }
-  }
-
-  @media (max-width: 625px) {
-  }
-
-  @media (max-width: 420px) {
-    .image-text-grid {
-      p {
-        font-size: 1rem;
-        line-height: 1.05rem;
-      }
-    }
-  }
 </style>
