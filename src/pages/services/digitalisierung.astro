@@ -16,7 +16,7 @@ const current = "services/digitalisierung";
   description={description}
   heroImage={image}
   current={current}>
-  <div class="msg msg-primary">
+  <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
       ebnet den Weg zur <span class="font-secondary green">Digi­ta­li­sie­rung</span> durch softwar­ege­stütz­tes Con­sul­ting.
       Dafür verbin­den wir exis­tier­ende Praxis mit inno­va­tiven Prozes­sen und Tools.
@@ -24,17 +24,17 @@ const current = "services/digitalisierung";
   </div>
 
   <div
-    class="msg"
+    class="frame"
     id="portfoliodigitalisierung">
     <h2>Digitalisierungsstrategien Portfolio</h2>
     <div class="image-text-grid">
       <div class="msg-tertiary">
         <p>
           Unser Angebot richtet sich an Assethalter und -manager sowie Family Offices, die ihr Portfolio digitalisieren
-          und für Reporting­anforderungen vorbereiten möchten. Mit Immobilien­kenntnissen und Daten-Expertise unterstützen
-          wir sie dabei, die Daten ihres Portfolios gewinnbringend im Nachhaltig­keits­mangament einzusetzen. Stellen Sie
-          so sicher, dass Sie Risiken effizient quantifizieren, datenbasierte Entscheidungen zur Dekarbonisierung
-          treffen und sich als Vorreiter bei zukünftigen Arbeit­nehmenden positionieren.
+          und für Reporting­anforderungen vorbereiten möchten. Mit Immobilien­kenntnissen und Daten-Expertise
+          unterstützen wir sie dabei, die Daten ihres Portfolios gewinnbringend im Nachhaltig­keits­mangament
+          einzusetzen. Stellen Sie so sicher, dass Sie Risiken effizient quantifizieren, datenbasierte Entscheidungen
+          zur Dekarbonisierung treffen und sich als Vorreiter bei zukünftigen Arbeit­nehmenden positionieren.
         </p>
       </div>
       <div class="extra-topics">
@@ -83,14 +83,14 @@ const current = "services/digitalisierung";
       </div>
     </div>
   </div>
-  <div class="options-animation">
+  <div class="frame options-animation">
     <Image
       src={serviceAnimation}
       alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
     />
   </div>
   <div
-    class="msg"
+    class="frame"
     id="digitale-carbon-due-diligence">
     <h2>Digitalisierungsstrategien Carbon Due Diligence</h2>
     <div class="image-text-grid">
@@ -104,8 +104,8 @@ const current = "services/digitalisierung";
           effiziente Prozesse ebenso wie eine verlässliche Da­tengrund­lage zur Verfügung zu haben.
         </p>
         <p>
-          Schätzen Sie mit BuildSystems die Emissions­werte Ihres Projekts von Anfang an daten­basiert ein und nutzen Sie
-          diese bei der Entschei­dungs­findung.
+          Schätzen Sie mit BuildSystems die Emissions­werte Ihres Projekts von Anfang an daten­basiert ein und nutzen
+          Sie diese bei der Entschei­dungs­findung.
         </p>
       </div>
       <div class="extra-topics">
@@ -163,5 +163,20 @@ const current = "services/digitalisierung";
 </BaseLayout>
 
 <style>
+  .options-animation {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
 
+  @media (max-width: 920px) {
+    .options-animation {
+      padding-left: var(--secondary-left-padding-tablet);
+      padding-right: var(--secondary-right-padding-tablet);
+      width: 100%;
+    }
+  }
 </style>

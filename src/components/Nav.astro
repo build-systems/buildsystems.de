@@ -7,21 +7,31 @@ const { current = "" } = Astro.props;
     <a
       aria-label="Go to homepage"
       href="/"
+      data-astro-prefetch
       >Homepage</a
     >
     <a
       aria-label="Go to services page"
       href="/services"
+      data-astro-prefetch
       >Services</a
+    >
+    <a
+      aria-label="Go to services page"
+      href="/workshop"
+      data-astro-prefetch
+      >Workshop</a
     >
     <a
       aria-label="Go to personen page"
       href="/personen"
+      data-astro-prefetch
       >Personen</a
     >
     <a
       aria-label="Go to tool page"
       href="/foerdertool"
+      data-astro-prefetch
       >Tool</a
     >
     <!-- <a aria-label="Go to blog page" href="/blog">Blog</a> -->
@@ -119,8 +129,8 @@ const { current = "" } = Astro.props;
     flex-direction: column;
     align-items: end;
     gap: 3px;
-    transform: translate(-5px, -200px);
-    -webkit-transform: translate(-5px, -200px);
+    transform: translate(-5px, -250px);
+    -webkit-transform: translate(-5px, -250px);
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
   }
