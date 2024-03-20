@@ -19,6 +19,7 @@ export default defineConfig({
     }]]
   },
   image: {
-    domains: ["astro.build"],
-  }
+    domains: ["astro.build"], //domains in wich astro can perform remote image optimization
+  },
+  prefetch: true
 });

@@ -1,0 +1,223 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Button from "../../components/Button.astro";
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+
+const title = "BuildSystems | Revitalisierung";
+const description =
+  "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
+const image = "/images/services-smart-sustainability-roadmap.png";
+const current = "services/revitalisierung";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  heroImage={image}
+  current={current}>
+  <div class="msg msg-primary">
+    <h2 class="sticky">
+      transformiert <span class="font-secondary green">bestehende Immobilien</span> zu ressourcen­schonenden und mehrwert­stiftenden
+      Lebens­räumen, die langfristig wertstabil und förderfähig sind.
+    </h2>
+  </div>
+  <div
+    class="msg"
+    id="sanierungsfahrplaene-und-energieberataung">
+    <h2>Energie­beratung und Individuelle Sanierungs­fahrpläne</h2>
+    <div class="image-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Ihre Immobilie zeigt erhöhte Energie­verbrauchs­daten, sodass der Betrieb mit Blick auf aktuelle Energiepreise
+          nicht wirt­schaft­lich ist? BuildSystems unterstützt Sie dabei, die notwendigen Maßnahmen zu identifizieren
+          und zudem die günstigen Förder­konditionen auszu­schöpfen. Dafür entwickeln wir ein energetisches
+          Gesamt­konzept unter Berück­sichtigung der Effizienz und Wirt­schaftlichkeit ver­schiede­ner Maßnahmen. So
+          können Sie mit einem guten Gewissen zukunfts­weisende Entscheidungen für Ihre Immobilie treffen.
+        </p>
+      </div>
+      <div class="extra-topics">
+        <Button
+          text="Erstevaluierung Ihres Projektes und ggf. Bestandsaufnahme vor Ort"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Erstellung einer Potenzialanalyse"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Erstellung eines Energieberatungsberichts oder Sanierungsfahrplans (dieser ist zu 50 % förderfähig)"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Wirtschaftlichkeitsbetrachtung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Bewertung von Einsparpotentialen im Betrieb"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Identifizierung von Förderpotentialen (Bafa, KfW)"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Beratung hinsichtlich serieller Sanierung, erneuerbarer Energien und Zertifizierungen"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="animation-eight-topics-container msg">
+    <div class="animation-eight-topics">
+      <LottieAnimation
+        id="animation-eight-topics"
+        src="/animations/services-eight-topics-diagram-small.json"
+        autoplay="visible"
+      />
+    </div>
+  </div>
+
+  <div
+    class="msg"
+    id="repositionierungskonzepte">
+    <h2>Repositionierung, Aus- und Umbau­konzepte</h2>
+    <div class="image-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Auf Ihrem Grundstück befinden sich Nach­verdichtungs­potenziale oder Sie könnten Ihre Immobilie aufstocken?
+          Ihr Gebäude entspricht in seiner Funktionalität nicht mehr den heutigen Anfor­derun­gen und es droht ein
+          Wertverlust durch Stranding? Denken Sie Sanierung und Repostio­nierung zusammen und schöpfen dabei das volle
+          Förder­potential aus! Wir begleiten Sie bei der Entscheidungs­findung durch die ökonomische Einordnung
+          durchdachter Varianten. Dabei stehen immer die tech­ni­sche Machbarkeit und der tatsäch­liche Bedarf zusammen
+          mit Nachhal­tig­keit im Fokus.
+        </p>
+      </div>
+      <div class="extra-topics">
+        <Button
+          text="Erstevaluierung, ggf. Bestandsaufnahme vor Ort"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Erstellung einer Bedarfsplanung"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Erarbeitung Umnutzungs- und Nachverdichtungskonzepte"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Baurechtschaffung mit Blick auf entsprechende Fördermittel und energetische Effizienz"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Erstellung statischer Machbarkeitsstudien zur Gebäudesubstanz"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Fachplanung, von der Zielfindungsphase über die Vor- und Entwurfsplanung bis zur Genehmigungsplanung, Lph 1-4"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="msg msg-primary"
+    id="foerdermittelberatung">
+    <h2>Fördermittelberatung</h2>
+    <div class="image-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          In Zeiten steigender Baupreise und hoher Zinssätze werden Förderungen wie die der KfW oder Bafa stetig
+          attraktiver – zumal diese gerade bei gewerblichen Entwick­lungen mit mehreren Wohnein­heiten beson­ders
+          wirkungsvoll sind. BuildSystems zeigt auf, welche Nachhal­tig­keits­stu­fe für Ihr Projekt die lukrativste
+          Lösung darstellt. Bei Bedarf berück­sich­tigen wir auch regionale Fördersysteme wie z.B. die FKG
+          Förderung München.
+        </p>
+        <p>
+          Sie möchten verschiedene KfW-Förderprodukte in Bezug auf Anfor­de­rungen und finanziellen Vorteile durch
+          Tilgungs­zuschüsse und vergünstigte Zinsen vergleichen? Werfen Sie einen Blick in unseren
+          Fördermittel-Kalkulator!
+        </p>
+        <Button
+          text="Fördertool"
+          link="/foerdertool"
+          openOnNewTab={true}
+          icon="redirect"
+          widthFitContent={true}
+        />
+      </div>
+      <div class="extra-topics">
+        <Button
+          text="Erste Übersicht mit dem Fördermittel-Kalkulator"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Überprüfung der Möglichkeiten vor Ort"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+        <Button
+          text="Beantragung der Fördermittel"
+          link="/"
+          openOnNewTab={true}
+          icon="redirect"
+        />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+<style>
+  .animation-eight-topics-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .animation-eight-topics {
+    height: clamp(300px, 90svh, 600px);
+    width: clamp(300px, 90svw, 600px);
+  }
+
+  @media (max-width: 920px) {
+    .animation-eight-topics {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 625px) {
+    .animation-eight-topics-container {
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
+    }
+  }
+</style>

@@ -26,7 +26,8 @@ if (openOnNewTab) {
   download={downloadName}
   target={target}
   aria-label={ariaLabel}
-  class:list={[{ widthFitContent: widthFitContent }]}>
+  class:list={[{ widthFitContent: widthFitContent }]}
+  data-astro-prefetch>
   <button
   class:list={[{ justifyCenter: justifyCenter }]}
     >{
@@ -42,6 +43,7 @@ if (openOnNewTab) {
   a {
     display: flex;
     text-decoration: none;
+    margin-bottom: 0.8rem;
   }
 
   .widthFitContent {
