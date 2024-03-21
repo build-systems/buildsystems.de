@@ -69,6 +69,11 @@ allPosts = allPosts.sort(
     padding: 1.5rem;
     gap: 0.5rem;
     justify-content: space-between;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.01);
   }
 
   h3 {
@@ -98,5 +103,12 @@ allPosts = allPosts.sort(
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;
+  }
+
+  @media (max-width: 625px) {
+    .blog-container {
+    display: flex;
+    flex-direction: column;
+  }
   }
 </style>
