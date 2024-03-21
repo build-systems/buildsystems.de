@@ -409,6 +409,13 @@ input[name="theme-toggle"] {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.list-text-grid {
+  display: grid;
+  align-items: start;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .table-grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -419,8 +426,14 @@ input[name="theme-toggle"] {
   }
 }
 
-.extra-topics {
+.list-pill {
   height: 100%;
+  li {
+    background-color: var(--background-cards);
+    margin-bottom: 0.25rem;
+    padding: 0.75rem;
+    border-radius: var(--card-border-radius);
+  }
 }
 
 @media (max-width: 1280px) {

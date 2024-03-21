@@ -1,12 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import Button from "../../components/Button.astro";
 
-const title = "BuildSystems | Revitalisierung";
+const title = "BuildSystems | Nachhaltigkeitsplanung";
 const description =
   "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
 const image = "/images/services-smart-sustainability-roadmap.png";
-const current = "services/revitalisierung";
+const current = "services/nachhaltigkeitsplanung";
 ---
 
 <BaseLayout
@@ -24,7 +23,7 @@ const current = "services/revitalisierung";
     class="frame"
     id="carbon-due-diligence">
     <h2>Carbon Due Diligence</h2>
-    <div class="image-text-grid">
+    <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
           Messen und Reporten: Inzwischen setzen Reporting­anforderungen sowie Förder­programme klare Benchmarks bei
@@ -39,44 +38,14 @@ const current = "services/revitalisierung";
           CO2-Besteuerung abzuwenden.
         </p>
       </div>
-      <div class="extra-topics">
-        <Button
-          text="Bedürfnisklärung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Durchführung einer Wesentlichkeitsanalyse"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Durchführung von Ökobilanzierungen und Bewertung von Varianten"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erarbeitung von Handlungsempfehlungen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Identifizierungen von KPIs für die weitere Planung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erstellung eines Pflichtenhelfts für Planungsbeteiligte"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-      </div>
+      <ul class="list-pill">
+        <li>Bedürfnisklärung</li>
+        <li>Durchführung einer Wesentlichkeitsanalyse</li>
+        <li>Durchführung von Ökobilanzierungen und Bewertung von Varianten</li>
+        <li>Erarbeitung von Handlungsempfehlungen</li>
+        <li>Identifizierungen von KPIs für die weitere Planung</li>
+        <li>Erstellung eines Pflichtenhelfts für Planungsbeteiligte</li>
+      </ul>
     </div>
   </div>
   <div class="frame animation05-container">
@@ -105,7 +74,7 @@ const current = "services/revitalisierung";
     class="frame"
     id="sparingspartner-nachhaltigkeit">
     <h2>Ihr Sparringspartner zu Nachhaltigkeitsfragen</h2>
-    <div class="image-text-grid">
+    <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
           Sie wünschen sich einen Partner, der Sie langfristig und auf Augenhöhe zu verschiedenen Nachhaltigkeits­themen
@@ -118,14 +87,21 @@ const current = "services/revitalisierung";
           Sie da – bei laufenden Projekten, zu Projektstart oder bei unternehmens­internen Transformations­prozessen.
         </p>
       </div>
-      <div class="extra-topics"></div>
+      <ul class="list-pill">
+        <li>Content</li>
+        <li>Content</li>
+        <li>Content</li>
+        <li>Content</li>
+        <li>Content</li>
+        <li>Content</li>
+      </ul>
     </div>
   </div>
   <div
-    class="frame primary-font-size primary-height primary-margin-top"
+    class="frame primary-margin-top"
     id="planungsbegleitende-leistungen">
     <h2>Nachhaltigkeitsplanung</h2>
-    <div class="image-text-grid">
+    <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
           Konstruieren und Planen: Sie möchten mit Ihrem Projekt aktiv zur Umwelt­entlastung beitragen und ein Exempel
@@ -141,44 +117,14 @@ const current = "services/revitalisierung";
           Entscheidungen.
         </p>
       </div>
-      <div class="extra-topics">
-        <Button
-          text="Erstellung von Konzepten zu Rückbaubarkeit und Wiederverwendung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erarbeitung von Konzepten zur Reduktion grauer Emissionen, z.B. durch nachwachsende Rohstoffe"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Durchführung von Ökobilanzierungen und Lebenszykluskostenbetrachtungen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erstellung von Machbarkeitsstudien und Bauteilkatalogen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erstellung eines Pflichtenhefts für Planungsbeteiligte"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Dokumentation für Zertifizierung und Förderanträge"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-      </div>
+      <ul class="list-pill">
+        <li>Erstellung von Konzepten zu Rückbaubarkeit und Wiederverwendung</li>
+        <li>Erarbeitung von Konzepten zur Reduktion grauer Emissionen, z.B. durch nachwachsende Rohstoffe</li>
+        <li>Durchführung von Ökobilanzierungen und Lebenszykluskostenbetrachtungen</li>
+        <li>Erstellung von Machbarkeitsstudien und Bauteilkatalogen</li>
+        <li>Erstellung eines Pflichtenhefts für Planungsbeteiligte</li>
+        <li>Dokumentation für Zertifizierung und Förderanträge</li>
+      </ul>
     </div>
   </div>
 </BaseLayout>

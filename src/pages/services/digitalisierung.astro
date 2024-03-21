@@ -27,7 +27,7 @@ const current = "services/digitalisierung";
     class="frame"
     id="portfoliodigitalisierung">
     <h2>Digitalisierungsstrategien Portfolio</h2>
-    <div class="image-text-grid">
+    <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
           Unser Angebot richtet sich an Assethalter und -manager sowie Family Offices, die ihr Portfolio digitalisieren
@@ -37,50 +37,15 @@ const current = "services/digitalisierung";
           zur Dekarbonisierung treffen und sich als Vorreiter bei zukünftigen Arbeit­nehmenden positionieren.
         </p>
       </div>
-      <div class="extra-topics">
-        <Button
-          text="Identifizierung von Prozesslücken und Bedürfnisklärung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Konzeptionierung von Workflows und Schnittstellen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Beratung zu  Vor- und Nachteilen existierender Software-Tools"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Unterstützung bei der Implementierung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Vertretung Ihrer Interessen gegenüber dem Softwareanbieter"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Entwicklung und Implementierung von individuellen Low-Code-Apps"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Erstellung und Integration von Dashboards und Cockpits"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-      </div>
+      <ul class="list-pill">
+        <li>Identifizierung von Prozesslücken und Bedürfnisklärung</li>
+        <li>Konzeptionierung von Workflows und Schnittstellen</li>
+        <li>Beratung zu Vor- und Nachteilen existierender Software-Tools</li>
+        <li>Unterstützung bei der Implementierung</li>
+        <li>Vertretung Ihrer Interessen gegenüber dem Softwareanbieter</li>
+        <li>Entwicklung und Implementierung von individuellen Low-Code-Apps</li>
+        <li>Erstellung und Integration von Dashboards und Cockpits</li>
+      </ul>
     </div>
   </div>
   <div class="frame options-animation">
@@ -93,7 +58,7 @@ const current = "services/digitalisierung";
     class="frame"
     id="digitale-carbon-due-diligence">
     <h2>Digitalisierungsstrategien Carbon Due Diligence</h2>
-    <div class="image-text-grid">
+    <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
           Als Planende, Gene­ral­über­neh­mer oder Projekt­ent­wick­ler ist es für Sie wichtig, eine Carbon Due
@@ -108,56 +73,16 @@ const current = "services/digitalisierung";
           Sie diese bei der Entschei­dungs­findung.
         </p>
       </div>
-      <div class="extra-topics">
-        <Button
-          text="Analyse der grundlegenden Datenstrukturen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Analyse der grundlegenden Workflows zur Ökobilanzierung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Identifizierung von Prozesslücken"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Konzeptionierung Ihres Carbon Due Diligence Prozesses "
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Bereitstellung einer wachsenden Datenbank"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Beratung zu existierenden Software-Tools"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Unterstützung bei der Auswahl und Implementierung"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-        <Button
-          text="Trainings zur Steigerung der Fachkompetenz Ihres Teams bei der Auswertung von Ergebnissen"
-          link="/"
-          openOnNewTab={true}
-          icon="redirect"
-        />
-      </div>
+      <ul class="list-pill">
+        <li>Analyse der grundlegenden Datenstrukturen</li>
+        <li>Analyse der grundlegenden Workflows zur Ökobilanzierung</li>
+        <li>Identifizierung von Prozesslücken</li>
+        <li>Konzeptionierung Ihres Carbon Due Diligence Prozesses</li>
+        <li>Bereitstellung einer wachsenden Datenbank</li>
+        <li>Beratung zu existierenden Software-Tools</li>
+        <li>Unterstützung bei der Auswahl und Implementierung</li>
+        <li>Trainings zur Steigerung der Fachkompetenz Ihres Teams bei der Auswertung von Ergebnissen</li>
+      </ul>
     </div>
   </div>
 </BaseLayout>
@@ -166,9 +91,9 @@ const current = "services/digitalisierung";
   .options-animation {
     display: flex;
     justify-content: center;
+    width: 100%;
     img {
-      width: 80%;
-      height: 80%;
+      width: clamp(100px, 50%, 600px);
     }
   }
 
