@@ -271,15 +271,19 @@ td {
   padding: 0.4em 0.8em;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 42em;
-  width: 100%;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.content h1 {
-  font-size: 3em;
-  margin: 1em 0;
+.content p img {
+  border-radius: var(--card-border-radius);
+}
+
+.content p {
+  hyphens: auto;
+  width: clamp(200px, 100%, 700px)
 }
 
 .theme-toggle {
@@ -445,6 +449,10 @@ input[name="theme-toggle"] {
   .table-msg {
     font-size: 1.2rem;
     line-height: 1.3rem;
+  }
+
+  h1 {
+    font-size: var(--primary-msg-size-desktop);
   }
 
   h2 {

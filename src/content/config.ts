@@ -10,6 +10,7 @@ export const collections = {
       publishDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
       heroImage: z.string().optional(),
+      category: z.string(),
       tags: z.array(z.string()),
     }),
   }),

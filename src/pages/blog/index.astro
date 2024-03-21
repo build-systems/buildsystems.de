@@ -3,9 +3,11 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../../utils/getPostData";
+import readingTime from "reading-time";
 
 const title = "BuildSystems | Blog";
-const description = "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
+const description =
+  "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
 const image = `/images/heroRendering.webp`;
 
 let allPosts: CollectionEntry<"blog">[] = await getCollection("blog");
@@ -20,35 +22,30 @@ allPosts = allPosts.sort(
   description={description}
   heroImage={image}
   current="blog">
-  <div class="blog-container">
-    <h2>Blog</h2>
-    <h3 class="description">
-      The place dedicated to understand the German real estate. Here we cover topics such as circularity, regulations
-      and fundings.
-    </h3>
+  <div class="frame primary-font-size primary-height primary-margin-top">
+    <h2 class="sticky">
+      ist stets auf dem aktuellen Stand der <span class="font-secondary green">Branchentrends</span>. Auf unserem Blog
+      teilen wir spannende Insights und laden Sie ein, mitzulesen, wie Sie von den Innovationen in der Baubranche
+      profitieren können.
+    </h2>
+  </div>
+  <div class="frame blog-container">
     {
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <div class="items-container">
-            <!-- {index !== 0 && <hr />} -->
-            <div class="post-item">
-              <div class="post-content">
-                <div class="image-container">
-                  <img src={post.data.heroImage} />
-                </div>
-                <div class="post-text">
-                  <h3>
-                    <a href={href}>{post.data.title}</a>
-                  </h3>
-                  <p>{post.data.description}</p>
-                  <div class="post-item-footer">
-                    <span class="post-item-date">— {formatDate(post.data.publishDate)}</span>
-                  </div>
-                </div>
+          <a href={href}>
+            <div class="card">
+              <div>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.description}</p>
+                <p class="post-item-date">— {formatDate(post.data.publishDate)}</p>
+              </div>
+              <div class="image-container">
+                <img src={post.data.heroImage} />
               </div>
             </div>
-          </div>
+          </a>
         );
       })
     }
@@ -57,50 +54,43 @@ allPosts = allPosts.sort(
 
 <style>
   .blog-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2rem;
+    padding-top: 5svh;
+    margin-bottom: 10svh;
+  }
+
+  .card {
     display: flex;
     flex-direction: column;
-    min-height: 100svh;
-    padding-top: 5svh;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 10svh;
-    align-items: center;
-    max-width: 1400px;
-    & .description {
-      width: clamp(300px, 60%, 1400px);
-      text-align: center;
-      margin-bottom: 5svh;
-    }
+    background-color: var(--background-cards);
+    border-radius: var(--card-border-radius);
+    padding: 1.5rem;
+    gap: 0.5rem;
+    justify-content: space-between;
   }
 
-  .items-container {
-    display: flex;
-    width: 100%;
-    margin-bottom: 2rem;
+  h3 {
+    margin-bottom: 1rem;
   }
 
-  .post-item {
-    flex: 1;
+  a {
+    text-decoration: none;
   }
 
-  .post-content {
-    display: flex;
-    gap: 2rem;
+  p {
+    margin-bottom: 1rem;
   }
 
   .image-container {
-    width: 200px;
-    border-radius: 0.5rem;
   }
 
-  h2 {
-    font-size: 3rem;
-  }
-
-  h2,
-  .post-item-footer {
-    font-family: var(--font-family-primary);
-    font-weight: 500;
+  img {
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: var(--card-border-radius);
   }
 
   .post-item-date {
@@ -109,8 +99,4 @@ allPosts = allPosts.sort(
     text-transform: uppercase;
     margin-right: 16px;
   }
-
-  /* hr {
-    margin: 60px auto;
-  } */
 </style>

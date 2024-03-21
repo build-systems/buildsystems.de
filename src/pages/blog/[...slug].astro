@@ -23,12 +23,9 @@ const { Content } = await post.render();
   description={post.data.description}
   heroImage={post.data.heroImage!}
   current="blog">
-  <div class="container">
-    <h1>{post.data.title}</h1>
-    <p>
-      by {post.data.author}
-      <p>{formatDate(post.data.publishDate)} ~ {readingTime(post.body).text}</p>
-    </p>
+  <div class="frame post">
+    <h2>{post.data.title}</h2>
+    <p>by {post.data.author} 🞄 {formatDate(post.data.publishDate)} 🞄 ~ {readingTime(post.body).text}</p>
     <article class="content">
       <Content />
     </article>
@@ -36,26 +33,20 @@ const { Content } = await post.render();
 </BaseLayout>
 
 <style>
-  .container {
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15svh;
+  }
+
+  h2 {
     text-align: center;
   }
-
-  .container p {
-    color: var(--text-secondary);
-    font-family: var(--font-family-secondary);
-  }
-
-  .container p + p {
-    margin-bottom: 0.7em;
-    text-transform: uppercase;
-  }
-
-  .container {
-    margin-top: 10svh;
-    margin-bottom: calc(6svh + 90px);
-  }
-
-  .content {
-    text-align: left;
+  @media (max-width: 625px) {
+    .post {
+      margin-top: 10svh;
+    }
   }
 </style>
