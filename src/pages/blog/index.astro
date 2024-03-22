@@ -33,7 +33,7 @@ allPosts = allPosts.sort(
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <a href={href}>
+          <a href={href} class="card-link">
             <div class="card">
               <div class="card-text">
                 <h3 class="title">{post.data.title}</h3>
@@ -65,7 +65,12 @@ allPosts = allPosts.sort(
     margin-bottom: 10svh;
   }
 
+  .card-link {
+    display: flex;
+  }
+
   .card {
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: var(--background-cards);
@@ -77,10 +82,10 @@ allPosts = allPosts.sort(
       filter 0.2s,
       transform 0.2s;
     will-change: transform;
-    box-shadow:;
   }
 
   .card-text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     .title {
@@ -102,6 +107,11 @@ allPosts = allPosts.sort(
     border-radius: 2rem;
     width: fit-content;
     padding: 0 1rem;
+  }
+
+  .description {
+    flex: 1;
+    /* height: 100%; */
   }
 
   .card:hover {
