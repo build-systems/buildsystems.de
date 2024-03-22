@@ -3,12 +3,10 @@ title: “How to handle the E in ESG” – ein Beitrag von Julia Dorn im KPMG B
 description: How to handle the E in ESG? – Ein Überblick über Herausforderungen und existierende Tools im KPMG Bulletin
 author: Julia Dorn
 publishDate: 2024-03-01
-heroImage: /images/how-to-handle-the-e-in-esg-01.png
+heroImage: /images/how-to-handle-the-e-in-esg-cover.jpg
 category: News
 tags: ["Bauwende", "Dekarbonisierung", "Digitalisierung", "Net Zero", "NextGen"]
 ---
-
-![Seite 01 How to Handle the E in ESG](/images/how-to-handle-the-e-in-esg-01.png)
 
 𝗞𝗣𝗠𝗚 𝗕𝘂𝗹𝗹𝗲𝘁𝗶𝗻 𝗠𝗔𝗧 𝗦𝗼𝗻𝗱𝗲𝗿𝗮𝘂𝘀𝗴𝗮𝗯𝗲
 

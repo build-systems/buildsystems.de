@@ -20,6 +20,7 @@ allPosts = allPosts.sort(
   title={title}
   description={description}
   heroImage={image}
+  transition={true}
   current="blog">
   <div class="frame primary-font-size blog-height primary-margin-top">
     <h2 class="sticky">
@@ -31,7 +32,7 @@ allPosts = allPosts.sort(
   <div class="frame blog-container">
     {
       allPosts.map((post, index) => {
-        const href = post.slug;
+        const href = "blog/" + post.slug;
         return (
           <a
             href={href}

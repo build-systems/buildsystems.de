@@ -8,8 +8,6 @@ category: Projekt
 tags: ["Dekarbonisierung", "Revitalisierung", "Sanierung", "Wohnungsbau"]
 ---
 
-![Projekt 01](/images/neue-werte-durch-eine-revitalisierung-in-solingen-schaffen-01.jpg)
-
 Das Grundstück in Solingen ist Teil eines größeren Portfolios, das nun vor den Herausforderungen der Dekarbonisierung, der ganzheitlichen Aufwertung und der Sicherung der Zukunftsfähigkeit steht. 
 
 Die besondere Herausforderung liegt in der hohen Komplexität der einzelnen Gebäude, die an unterschiedlichen Standorten Herausforderungen zur langfristigen Nutzbarkeit, energetischer Sanierung und Attraktivität lösen müssen. 

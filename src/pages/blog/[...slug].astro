@@ -4,6 +4,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData";
 import readingTime from "reading-time";
 
+
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
   return posts.map((post) => ({
@@ -17,11 +18,11 @@ type Props = CollectionEntry<"blog">;
 const post = Astro.props;
 const { Content } = await post.render();
 ---
-
 <BaseLayout
   title={"BuildSystems | " + post.data.title}
   description={post.data.description}
   heroImage={post.data.heroImage!}
+  transition={true}
   current="blog">
   <div class="frame post">
     <h2>{post.data.title}</h2>
@@ -46,6 +47,12 @@ const { Content } = await post.render();
     text-align: center;
     text-wrap: balance;
   }
+
+  img {
+    width: clamp(200px, 100%, 700px);
+    border-radius: var(--card-border-radius);
+  }
+  
   @media (max-width: 625px) {
     .post {
       margin-top: 10svh;

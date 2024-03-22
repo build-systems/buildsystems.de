@@ -8,8 +8,6 @@ category: Events
 tags: ["Dekarbonisierung", "Fit for Future", "Stadt der Zukunft"]
 ---
 
-![InnovationCrew SustainableCityMashUp](/images/cities-in-transition-von-muc-book.jpg)
-
 Die Stadtgestaltung der Zukunft ist disziplinübergreifend und innovativ!
 
 [Sustainable City Mash-Up!](https://www.mucbook.de/sustainable-city-mash-up/) von [MUNICH NEXT LEVEL](https://www.mucbook.de/author/munich-next-level/) macht vor, wie es geht und bringt in einem spannenden Format alle relevanten Aspekte der urbanen Transformation zusammen: Mobilität, Grüne Infrastruktur, Wohnen, Beteiligung, Zirkularität, Digitalisierung und Klimaresilienz. Denn die Dekarbonisierung schaffen wir nur gemeinsam! [MUC BOOK](https://www.mucbook.de/) zeigt damit einmal mehr, wie lokales “Stadt Machen” funktioniert und wie man Leute zusammenbringt, die gemeinsam ein nachhaltiges München vorranbringen möchten. 

@@ -8,8 +8,6 @@ category: News
 tags: ["Digitalisierung", "Fördermittel", "Revitalisierung"]
 ---
 
-![BuildSystems Fördertool](/images/heroimage-ipad-sanierung-public.jpg)
-
 🌳 Welche Nachhaltigkeitsanforderungen muss ich mit meinem Gebäude erreichen, um möglichst günstige KfW-Förderkonditionen zu erreichen?
 
 Das Fördertool von BuildSystems gibt darauf eine Antwort!

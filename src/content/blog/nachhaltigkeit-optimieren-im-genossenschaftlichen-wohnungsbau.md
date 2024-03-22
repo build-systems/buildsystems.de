@@ -10,12 +10,10 @@ tags: ["Bauwende", "Fördermittel", "Dekarbonisierung", "Holzbau", "Zirkularitä
 
 BuildSystems ermöglicht es, den nachhaltigkeitsanforderungen von morgen gerecht zu werden
 
-![Cover of Smart Sustainability Roadmap](/images/smart-sustainability-roadmap-01.jpg)
+![Smart Sustainability Roadmap example 01](/images/smart-sustainability-roadmap-02.jpg)
 
-![Cover of Smart Sustainability Roadmap](/images/smart-sustainability-roadmap-02.jpg)
+![Smart Sustainability Roadmap example 02](/images/smart-sustainability-roadmap-03.jpg)
 
-![Cover of Smart Sustainability Roadmap](/images/smart-sustainability-roadmap-03.jpg)
+![Smart Sustainability Roadmap example 03](/images/smart-sustainability-roadmap-04.jpg)
 
-![Cover of Smart Sustainability Roadmap](/images/smart-sustainability-roadmap-04.jpg)
-
-![Cover of Smart Sustainability Roadmap](/images/smart-sustainability-roadmap-05.jpg)
+![Smart Sustainability Roadmap example 04](/images/smart-sustainability-roadmap-05.jpg)

@@ -8,8 +8,6 @@ category: News
 tags: ["Bauwende", "Beratung", "Dekarbonisierung", "Holzbau", "Zirkularität", "Ökobilanzierung"]
 ---
 
-![Photo of Martin Bittmann by Julia Dorn](/images/martin-bittmann-buildsystems-full.jpg)
-
 Martin Bittmann ist seit Anfang 2024 freier Berater der BEN, der Beratungsstelle Energieeffizienz und Nachhaltigkeit der [bayerische Architektenkammer](https://www.byak.de/planen-und-bauen/beratungsstelle-energieeffizienz-und-nachhaltigkeit.html).
 
 Die Beratungsstelle bietet eine fachübergreifende, neutrale und unabhängige Beratung zu allen zentralen Themen der Energieeffizienz und Nachhaltigkeit, vorrangig zur bestehenden Gebäudesubstanz, zu Neubauprojekten und zu städtebaulichen Konzepten. Die Beratungsstelle ist für alle offen, die sich tiefer mit dem Thema Nachhaltigkeit in der Planung und im Bauen auseinandersetzten möchten, und unterstützt bei konkreten Herausforderungen innerhalb verschiedener Projekte. So werden nicht nur Planende und private Bauherren, sonder auch Kommunen oder andere verwaltungstechnische Institutionen bis hin zum bayerischen Staatsministerium für Wohnen, Bau und Verkehr unterstützt. Die Zusammensetzung der Berater:innen bildet ein breites Spektrum an Expertise ab, sodass alle Fragestellungen ganzheitlich bearbeitet werden können. 

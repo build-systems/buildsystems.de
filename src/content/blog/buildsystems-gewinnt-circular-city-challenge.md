@@ -8,8 +8,6 @@ category: News
 tags: ["Bauwende", "Stadt der Zukunft", "Zirkularität"]
 ---
 
-![circular-city-challenge.jpeg](/images/buildsystems-gewinnt-circular-city-challenge.jpg)
-
 Zum zweiten Mal suchte die [Circular City Challenge](https://www.circular-city-challenge.com/) nach innovativen Lösungen im Bereich Circular Economy und trieb so die urbane Transformation zu Klimaneutralität oder sogar Klimapositivität durch Kreislaufwirtschaft in der Stadt, im Bezirk oder im Quartier voran. Die Lösung von BuildSystems wurde im Bereich “Gebaute Umwelt” zusammen mit Concular, Re:unit und Fraunhofer IPK von den Städtepartnern München, Stuttgart und Wien für die nächste Phase der Challenge, die Implementierung ausgewählt. 
 
 ♻️ Der Übergang zu einer Circular Economy ist der Schlüssel, um Städten dabei zu helfen, ihre Klimaziele zu erreichen und eine nachhaltige Zukunft sicherzustellen. Die kommunale Verwaltung spielt dabei eine entscheidende Rolle bei der Förderung zirkulärer Prinzipien im Bauwesen. Sie kann Anreize schaffen, indem beispielsweise Planungs- und Bauregeln angepasst werden, um den Einsatz recycelter Materialien zu erleichtern. Darüber hinaus kann bei der Vergabe von öffentlichen Aufträgen, die den Einsatz zirkulärer Baupraktiken vorgeschrieben werden. Durch diese Maßnahmen können Kommunen eine Vorreiterrolle bei der Schaffung nachhaltiger und zukunftsfähiger Städte einnehmen.
