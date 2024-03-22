@@ -25,7 +25,7 @@ allPosts = allPosts.sort(
     <h2 class="sticky">
       ist stets auf dem aktuellen Stand der <span class="font-secondary green">Branchentrends</span>. Auf unserem Blog
       teilen wir spannende Insights und laden Sie ein, mitzulesen, wie Sie von den Innovationen in der Baubranche
-      profitieren können.
+      profitieren können.
     </h2>
   </div>
   <div class="frame blog-container">
@@ -33,7 +33,9 @@ allPosts = allPosts.sort(
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <a href={href} class="card-link">
+          <a
+            href={href}
+            class="card-link">
             <div class="card">
               <div class="card-text">
                 <h3 class="title">{post.data.title}</h3>
@@ -59,7 +61,7 @@ allPosts = allPosts.sort(
 
   .blog-container {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
     padding-top: 5svh;
     margin-bottom: 10svh;
@@ -88,6 +90,9 @@ allPosts = allPosts.sort(
     flex: 1;
     display: flex;
     flex-direction: column;
+    hyphens: auto;
+    /* min char count / min char count before break / min char count after break */
+    hyphenate-limit-chars: 12 4 4;
     .title {
       order: 2;
     }
@@ -111,7 +116,6 @@ allPosts = allPosts.sort(
 
   .description {
     flex: 1;
-    /* height: 100%; */
   }
 
   .card:hover {
@@ -150,7 +154,21 @@ allPosts = allPosts.sort(
     margin-right: 16px;
   }
 
-  @media (max-width: 625px) {
+  @media (max-width: 1280px) {
+    .blog-height {
+      min-height: 60svh;
+    }
+
+    .blog-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 920px) {
+    .blog-height {
+      min-height: 45svh;
+    }
+
     .blog-container {
       display: flex;
       flex-direction: column;
