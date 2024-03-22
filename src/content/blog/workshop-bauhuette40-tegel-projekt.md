@@ -8,10 +8,13 @@ category: Events
 tags: ["Holzbau", "Indikatoren", "Zirkularität", "Ökobilanzierung"]
 ---
 
+![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-01.jpg)
 
 🌱💼 Klimaschutz und Nachhaltigkeit können nur in  Verbindung mit der Bezahlbarkeit von Bauen und Wohnen sozialverträglich und wirksam zukunftsfähig verfolgt werden. Um den Einsatz nachhaltiger Bauweisen  zu fördern, gewinnen Methoden zur Bewertung der Gebäudekonstruktion zunehmend an Bedeutung.
 
-Daniel Dieren von BuildSystems leitete die Werkstatt der [Bauhütte 4.0](https://www.bauhuette40.com/). In der Diskussion mit Expert:innen wurden alternative Bewertungsmechanismen untersucht, die die Verwendung von nachwachsenden Rohstoffen priorisieren.  Die wachsenden Anforderungen der EU-Taxonomie, der EU-Gebäuderichtlinie und der Nachhaltigkeitsberichterstattung ([LEVELS](https://environment.ec.europa.eu/topics/circular-economy/levels_en)), sowie auf nationaler Ebene durch die Weiterentwicklung der GEG und BEG, führen zwangsläufig zu einer frühzeitigen Bewertung oder Bilanzierung geplanter Immobilien. Neue Bewertungsansätze zur Nachhaltigkeit von Baukonstruktionen müssen sowohl den ökologischen Anforderungen zur Dekarbonisierung des Gebäudesektors gerecht werden, als auch die wirtschaftliche Umsetzbarkeit sicherstellen.  Im Rahmen des Workshops wurden mögliche Ansätze für die nächste Iteration von Bewertungssysteme identifiziert. 
+Daniel Dieren von BuildSystems leitete die Werkstatt der [Bauhütte 4.0](https://www.bauhuette40.com/). In der Diskussion mit Expert:innen wurden alternative Bewertungsmechanismen untersucht, die die Verwendung von nachwachsenden Rohstoffen priorisieren.  Die wachsenden Anforderungen der EU-Taxonomie, der EU-Gebäuderichtlinie und der Nachhaltigkeitsberichterstattung ([LEVELS](https://environment.ec.europa.eu/topics/circular-economy/levels_en)), sowie auf nationaler Ebene durch die Weiterentwicklung der GEG und BEG, führen zwangsläufig zu einer frühzeitigen Bewertung oder Bilanzierung geplanter Immobilien. Neue Bewertungsansätze zur Nachhaltigkeit von Baukonstruktionen müssen sowohl den ökologischen Anforderungen zur Dekarbonisierung des Gebäudesektors gerecht werden, als auch die wirtschaftliche Umsetzbarkeit sicherstellen.  Im Rahmen des Workshops wurden mögliche Ansätze für die nächste Iteration von Bewertungssysteme identifiziert.
+
+![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-02.jpg)
 
 Hier sind einige wichtige Erkenntnisse aus unserem Workshop:
 
@@ -23,10 +26,6 @@ Hier sind einige wichtige Erkenntnisse aus unserem Workshop:
 
 Im Austausch mit den Teilnehmenden von CHORA conscious city, Brandschutz Akademie Berlin, Technische Universität Berlin, Scharabi Architekten, drmm studio, Knippers Helbig Ingenieure, Tegel Projekt GmbH, Timbatec Holzbauingenieure, Fraunhofer- Institut PK, Niil Architekten, PSD Bank, Berliner Sparkassen, Sauerbruch Hutton, Playze Timber GmbH und Deimel Oelschläger Architekten ergab sich eine rege Diskussion und wichtige Insights. 
 
-Die Ergebnisse werden nun bei der Prozessgestaltung zur Vergabe des [Schumacher Quartiers](https://schumacher-quartier.de/) der [Tegel Projekt GmbH](https://tegelprojekt.de/) verwendet. 
-
-![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-01.jpg)
-
-![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-02.jpg)
+Die Ergebnisse werden nun bei der Prozessgestaltung zur Vergabe des [Schumacher Quartiers](https://schumacher-quartier.de/) der [Tegel Projekt GmbH](https://tegelprojekt.de/) verwendet.
 
 ![Workshop mit Bauhütte 4.0 und Tegel Projekt GmbH](/images/workshop-bauhuette40-tegel-projekt-03.jpg)
