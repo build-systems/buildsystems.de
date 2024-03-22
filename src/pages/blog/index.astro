@@ -32,7 +32,7 @@ allPosts = allPosts.sort(
   <div class="frame blog-container">
     {
       allPosts.map((post, index) => {
-        const href = "blog/" + post.slug;
+        const href = post.slug;
         return (
           <a
             href={href}
