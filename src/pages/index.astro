@@ -9,6 +9,7 @@ import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 import Cover from "../components/Cover.astro";
 import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
+import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 ---
 
 <BaseLayout
@@ -61,7 +62,7 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
     </h2>
   </div>
   <div class="carousel-container">
-    <BuildCarousel client:visible={{ rootMargin: "200px" }} />
+    <BuildCarousel />
   </div>
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
@@ -123,6 +124,7 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
     </p>
   </div>
   <div class="frame primary-margin-top">
+    <BlogCarousel />
   </div>
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
