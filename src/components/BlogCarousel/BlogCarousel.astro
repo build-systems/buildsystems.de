@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../../utils/getPostData";
+
+const title = "BuildSystems | Blog";
+const description =
+  "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
+const image = `/images/heroRendering.webp`;
+
+let allPosts: CollectionEntry<"blog">[] = await getCollection("blog");
+allPosts = allPosts.sort(
+  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
+    b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+
+<div class="blog-carousel">
+    TEST
+</div>
+
+<script src="./blog-carousel.ts"></script>

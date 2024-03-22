@@ -1,6 +1,6 @@
 ---
 title: Workshop mit Bauhütte 4.0 und Tegel Projekt GmbH
-description: BuildSystems leitete den Workshop der Bauhütte 4.0 zur Bewertung der Nachhaltigkeit von Bauprojekten
+description: BuildSystems leitete den Workshop der Bauhütte 4.0 zur Bewertung der Nachhaltigkeit von Bauprojekten.
 author: Julia Dorn
 publishDate: 2024-02-22
 heroImage: /images/workshop-bauhuette40-tegel-projekt-01.jpg

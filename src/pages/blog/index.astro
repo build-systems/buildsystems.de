@@ -44,7 +44,7 @@ allPosts = allPosts.sort(
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
               <div>
-                <img src={post.data.heroImage} />
+                <img transition:name={post.slug} src={post.data.heroImage} />
               </div>
             </div>
           </a>

@@ -278,6 +278,13 @@ td {
 
 .content p img {
   border-radius: var(--card-border-radius);
+  /* aspect-ratio: 12/8; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.content a:hover {
+  color: var(--background-body);
 }
 
 .content p {

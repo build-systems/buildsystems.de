@@ -26,6 +26,7 @@ const { Content } = await post.render();
   <div class="frame post">
     <h2>{post.data.title}</h2>
     <p>by {post.data.author} 🞄 {formatDate(post.data.publishDate)} 🞄 ~ {readingTime(post.body).text}</p>
+    <img transition:name={post.slug} src={post.data.heroImage}>
     <article class="content">
       <Content />
     </article>
@@ -38,7 +39,7 @@ const { Content } = await post.render();
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15svh;
+    margin-top: 10svh;
   }
 
   h2 {
