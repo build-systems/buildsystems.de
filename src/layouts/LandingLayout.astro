@@ -7,9 +7,10 @@ export interface Props {
   description: string;
   heroImage: string;
   current: string;
+  transition?: boolean;
 }
 
-const { title, description, heroImage, current } = Astro.props;
+const { title, description, heroImage, current, transition } = Astro.props;
 ---
 
 <html lang="de">
@@ -36,6 +37,7 @@ const { title, description, heroImage, current } = Astro.props;
       title={title}
       description={description}
       image={heroImage}
+      transition={transition}
     />
   </head>
   <body>

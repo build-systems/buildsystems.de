@@ -10,7 +10,7 @@ tags: ["Digitalisierung", "Fördermittel", "Revitalisierung"]
 
 🌳 Welche Nachhaltigkeitsanforderungen muss ich mit meinem Gebäude erreichen, um möglichst günstige KfW-Förderkonditionen zu erreichen?
 
-Das Fördertool von BuildSystems gibt darauf eine Antwort!
+Das [Fördertool](/foerdertool) von BuildSystems gibt darauf eine Antwort!
 
 🏆 Die Berechnung von KfW Fördermitteln wird zunehmend unübersichtlicher, je komplexer die jeweiligen Anforderungen zusammengesetzt sind.
 
