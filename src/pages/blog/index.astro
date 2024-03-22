@@ -45,7 +45,10 @@ allPosts = allPosts.sort(
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
               <div>
-                <img transition:name={post.slug} src={post.data.heroImage} />
+                <img
+                  transition:name={post.slug}
+                  src={post.data.heroImage}
+                />
               </div>
             </div>
           </a>
@@ -91,12 +94,29 @@ allPosts = allPosts.sort(
     flex: 1;
     display: flex;
     flex-direction: column;
-    hyphens: auto;
-    /* min char count / min char count before break / min char count after break */
-    -webkit-hyphenate-limit-lines: 13;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-lines: 2;
     -webkit-hyphenate-limit-after: 5;
-    -webkit-hyphenate-limit-before: 5;
-    hyphenate-limit-chars: 13 5 5;
+    -webkit-hyphenate-limit-before: 7;
+    -webkit-hyphenate-limit-chars: 13 5 7;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 13 5 7;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars:  13 5 7;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    hyphenate-limit-chars: 13 5 7;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
     .title {
       text-wrap: balance;
       order: 2;
