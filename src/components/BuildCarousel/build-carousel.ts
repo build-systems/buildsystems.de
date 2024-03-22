@@ -12,7 +12,7 @@ buttons.forEach((button) => {
           if (newIndex < 0) newIndex = slides.children.length - 1;
           if (newIndex >= slides.children.length) newIndex = 0;
           // Change active slide
-          const newSlide = slides.children[newIndex] as HTMLElement;
+          const newSlide = slides.children[newIndex] as HTMLElement; 
           newSlide.dataset.active = "true";
           delete (activeSlide as HTMLElement).dataset.active;
           // Remove styles
@@ -44,7 +44,7 @@ async function animateOnce() {
     carouselTop.style.animation = "top-animation 1.8s ease-in-out forwards";
     carouselMiddle.style.animation = "middle-animation 1.8s ease-in-out forwards";
     setTimeout(() => {
-      // nextButton.removeEventListener("mouseenter", animateOnce);
+      nextButton.removeEventListener("mouseenter", animateOnce);
       carouselTop.style.animation = "";
       carouselMiddle.style.animation = "";
     }, 1800);
@@ -56,13 +56,13 @@ async function animateOnce() {
 // Options to use on the IntersectionObserver
 const options = {
   root: null,
-  rootMargin: "0px", // Offset
-  threshold: 1, // 1 means when 100% of the caroulse is visible
+  rootMargin: '0px', // Offset
+  threshold: 1 // 1 means when 100% of the caroulse is visible
 };
 
 // Observer to activate animation when carousel is on view
 const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach((entry) => {
+  entries.forEach(entry => {
     if (entry.isIntersecting) {
       animateOnce();
       observer.unobserve(entry.target); // Unobserve the target once it's in view
@@ -71,5 +71,5 @@ const observer = new IntersectionObserver((entries, observer) => {
 }, options);
 
 // Start observing the carousel
-const carouselElement = document.querySelector(".carousel-container") as HTMLElement;
+const carouselElement = document.querySelector('.carousel-container') as HTMLElement;
 observer.observe(carouselElement);
