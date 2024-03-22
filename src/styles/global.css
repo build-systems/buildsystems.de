@@ -529,6 +529,12 @@ input[name="theme-toggle"] {
       margin-bottom: 0;
     }
   }
+
+  .list-text-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 @media (max-width: 625px) {
