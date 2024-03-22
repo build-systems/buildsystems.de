@@ -93,6 +93,9 @@ allPosts = allPosts.sort(
     flex-direction: column;
     hyphens: auto;
     /* min char count / min char count before break / min char count after break */
+    -webkit-hyphenate-limit-lines: 13;
+    -webkit-hyphenate-limit-after: 5;
+    -webkit-hyphenate-limit-before: 5;
     hyphenate-limit-chars: 13 5 5;
     .title {
       text-wrap: balance;
