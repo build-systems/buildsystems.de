@@ -25,8 +25,8 @@ Im Austausch mit den Teilnehmenden von CHORA conscious city, Brandschutz Akademi
 
 Die Ergebnisse werden nun bei der Prozessgestaltung zur Vergabe des [Schumacher Quartiers](https://schumacher-quartier.de/) der [Tegel Projekt GmbH](https://tegelprojekt.de/) verwendet. 
 
-![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](workshop-bauhuette40-tegel-projekt-01.jpg)
+![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-01.jpg)
 
-![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](workshop-bauhuette40-tegel-projekt-02.jpg)
+![Bewertung der Nachhaltigkeit von Konst ruktionen im Holzbau_Bauhutte © Raquel Gómez Delgado](/images/workshop-bauhuette40-tegel-projekt-02.jpg)
 
-![Workshop mit Bauhütte 4.0 und Tegel Projekt GmbH](workshop-bauhuette40-tegel-projekt-03.jpg)
+![Workshop mit Bauhütte 4.0 und Tegel Projekt GmbH](/images/workshop-bauhuette40-tegel-projekt-03.jpg)
