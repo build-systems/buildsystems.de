@@ -15,9 +15,198 @@ allPosts = allPosts.sort(
 );
 ---
 
-
-<div class="blog-carousel">
-    TEST
-</div>
+<section class="frame primary-margin-top container-blog-carousel">
+  <div class="blog-carousel">
+    <div class="arrow-left">
+      <svg class="icon">
+        <use xlink:href="/assets/icons.svg#arrow-left" />
+      </svg>
+    </div>
+    <div class="arrow-right"></div>
+    {
+      allPosts.map((post, index) => {
+        const href = post.slug;
+        return (
+          <a href={href} id={"slide-" + index} class="card-link">
+            <div class="card">
+              <div class="card-text">
+                <h3 class="title">{post.data.title}</h3>
+                <p class="category">{post.data.category}</p>
+                <p class="description">{post.data.description}</p>
+                <p class="date">— {formatDate(post.data.publishDate)}</p>
+              </div>
+              <div>
+                <img transition:name={post.slug} src={post.data.heroImage} />
+              </div>
+            </div>
+          </a>
+        );
+      })
+    }
+  </div>
+</section>
 
 <script src="./blog-carousel.ts"></script>
+<style>
+  .container-blog-carousel {
+    width: 100%;
+  }
+
+  .blog-carousel {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0 0.5rem 0.5rem;
+    margin: 0 auto;
+  }
+
+  .icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .arrow-left {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50px;
+    background-color: var(--primary-color);
+    z-index: 1;
+    border-radius: 50%;
+  }
+
+  .blog-carousel::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  .blog-carousel::-webkit-scrollbar-button {
+    width: 2px;
+    height: 2px;
+  }
+
+  .card-link {
+    flex: 1 0 23rem;
+    scroll-snap-align: start;
+    display: flex;
+    overflow-y: visible;
+  }
+
+  .card {
+    overflow-y: visible;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-cards);
+    border-radius: var(--card-border-radius);
+    padding: 2rem 1.5rem;
+    gap: 0.5rem;
+    justify-content: space-between;
+    transition:
+      filter 0.2s,
+      transform 0.2s;
+    will-change: transform;
+  }
+
+  .card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-after: 5;
+    -webkit-hyphenate-limit-before: 7;
+    -webkit-hyphenate-limit-chars: 13 5 7;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 12 4 4;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 12 4 4;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    hyphenate-limit-chars: 12 4 4;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+    .title {
+      text-wrap: balance;
+      order: 2;
+    }
+    .category {
+      order: 1;
+    }
+    .description {
+      order: 3;
+    }
+    .date {
+      order: 4;
+    }
+  }
+
+  .category {
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    width: fit-content;
+    padding: 0 1rem;
+  }
+
+  .description {
+    flex: 1;
+  }
+
+  .card:hover {
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 1));
+    transform: translate3d(0, -5px, 0);
+    h3 {
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    aspect-ratio: 12/8;
+    object-fit: cover;
+    object-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: var(--card-border-radius);
+  }
+
+  .date {
+    color: var(--text-secondary);
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 16px;
+  }
+
+  @media (max-width: 1280px) {
+  }
+
+  @media (max-width: 920px) {
+  }
+</style>
