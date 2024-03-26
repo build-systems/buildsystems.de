@@ -27,10 +27,8 @@
   --secondary-msg-line-height-desktop: 1.55rem;
   --sticky-padding-desktop: 0.6rem;
 
-  --primary-left-padding-tablet: 5%;
-  --primary-right-padding-tablet: 5%;
-  --secondary-left-padding-tablet: 5%;
-  --secondary-right-padding-tablet: 5%;
+  --left-padding-tablet: 5%;
+  --right-padding-tablet: 5%;
   --primary-msg-size-tablet: 1.6rem;
   --primary-msg-line-height-tablet: 1.7rem;
   --secondary-msg-size-tablet: 1.5rem;
@@ -59,7 +57,12 @@
   --primary-color: aquamarine;
 }
 
-html {
+html, body {
+  scroll-behavior: smooth;
+  -webkit-user-drag: none;
+}
+
+html:focus-within {
   scroll-behavior: smooth;
 }
 
@@ -342,8 +345,8 @@ input[name="theme-toggle"] {
 }
 
 .frame {
-  padding-left: var(--left-padding-general);
-  padding-right: var(--right-padding-general);
+  margin-left: var(--left-padding-general);
+  margin-right: var(--right-padding-general);
   align-self: start;
   user-select: none;
 }
@@ -472,8 +475,8 @@ input[name="theme-toggle"] {
 
 @media (max-width: 1280px) {
   .frame {
-    padding-left: var(--left-padding-desktop);
-    padding-right: var(--right-padding-desktop);
+    margin-left: var(--left-padding-desktop);
+    margin-right: var(--right-padding-desktop);
   }
 
   .table-msg {
@@ -536,8 +539,8 @@ input[name="theme-toggle"] {
 
 @media (max-width: 920px) {
   .image-text-grid {
-    padding-left: var(--primary-left-padding-tablet);
-    padding-right: var(--primary-right-padding-tablet);
+    padding-left: var(--left-padding-tablet);
+    padding-right: var(--right-padding-tablet);
     & p {
       margin-bottom: 1rem;
     }
@@ -545,8 +548,8 @@ input[name="theme-toggle"] {
 
   .table-grid {
     grid-template-columns: 1fr;
-    padding-left: var(--primary-left-padding-tablet);
-    padding-right: var(--primary-right-padding-tablet);
+    padding-left: var(--left-padding-tablet);
+    padding-right: var(--right-padding-tablet);
     & h3 {
       margin-top: 1rem;
       margin-bottom: 0;
@@ -566,8 +569,8 @@ input[name="theme-toggle"] {
   }
 
   .frame {
-    padding-left: var(--primary-left-padding-tablet);
-    padding-right: var(--primary-right-padding-tablet);
+    margin-left: var(--left-padding-tablet);
+    margin-right: var(--right-padding-tablet);
   }
 
   .primary-font-size {
@@ -588,10 +591,10 @@ input[name="theme-toggle"] {
   }
 
   .msg-secondary {
-    padding-left: var(--secondary-left-padding-tablet);
-    padding-right: var(--secondary-right-padding-tablet);
-    font-size: var(--secondary-msg-size-tablet);
-    line-height: var(--secondary-msg-line-height-tablet);
+    padding-left: var(--left-padding-tablet);
+    padding-right: var(--right-padding-tablet);
+    font-size: var(--primary-msg-size-tablet);
+    line-height: var(--primary-msg-line-height-tablet);
     min-height: 20svh;
   }
 
@@ -619,8 +622,8 @@ input[name="theme-toggle"] {
 
 @media (max-width: 420px) {
   .frame {
-    padding-left: var(--left-padding-mobile);
-    padding-right: var(--right-padding-mobile);
+    margin-left: var(--left-padding-mobile);
+    margin-right: var(--right-padding-mobile);
   }
 
   h2 {

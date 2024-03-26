@@ -16,18 +16,22 @@ allPosts = allPosts.sort(
 ---
 
 <section class="frame primary-margin-top container-blog-carousel">
+  <button class="btn-prev" aria-label="Previous blog post card">
+    <svg class="icon">
+      <use xlink:href="/assets/icons.svg#arrow-left"></use>
+    </svg>
+  </button>
+  <button class="btn-next" aria-label="Next blog post card">
+    <svg class="icon">
+      <use xlink:href="/assets/icons.svg#arrow-right"></use>
+    </svg>
+  </button>
   <div class="blog-carousel">
-    <div class="arrow-left">
-      <svg class="icon">
-        <use xlink:href="/assets/icons.svg#arrow-left" />
-      </svg>
-    </div>
-    <div class="arrow-right"></div>
     {
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <a href={href} id={"slide-" + index} class="card-link">
+          <a draggable="false" href={href} class="card-link">
             <div class="card">
               <div class="card-text">
                 <h3 class="title">{post.data.title}</h3>
@@ -49,58 +53,81 @@ allPosts = allPosts.sort(
 <script src="./blog-carousel.ts"></script>
 <style>
   .container-blog-carousel {
-    width: 100%;
+    position: relative;
+    max-width: calc(
+      100% - var(--left-padding-general) - var(--right-padding-general)
+    );
   }
 
   .blog-carousel {
-    position: relative;
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scroll-padding: 0 0.5rem;
     scroll-behavior: smooth;
-    gap: 1rem;
-    padding: 1rem 0 0.5rem 0.5rem;
-    margin: 0 auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .blog-carousel.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
   }
 
   .icon {
-    width: 48px;
-    height: 48px;
+    width: 42px;
+    height: 42px;
   }
 
-  .arrow-left {
+  .btn-prev,
+  .btn-next {
     position: absolute;
+    top: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 50px;
-    top: 50%;
-    left: 50px;
+    height: 42px;
+    width: 42px;
     background-color: var(--primary-color);
+    opacity: 0.1;
+    transition: opacity 0.15s ease-in-out;
     z-index: 1;
     border-radius: 50%;
   }
 
-  .blog-carousel::-webkit-scrollbar {
-    width: 2px;
-    height: 2px;
+  .blog-carousel:hover .btn-prev,
+  .blog-carousel:hover .btn-next {
+    opacity: 0.5;
   }
 
-  .blog-carousel::-webkit-scrollbar-button {
-    width: 2px;
-    height: 2px;
+  .btn-prev:hover,
+  .btn-next:hover {
+    opacity: 1;
+  }
+
+  .btn-prev {
+    left: -50px;
+  }
+
+  .btn-next {
+    right: -50px;
   }
 
   .card-link {
-    flex: 1 0 23rem;
+    margin: 2rem 0.5rem;
+    flex: 1 0 25rem;
     scroll-snap-align: start;
     display: flex;
-    overflow-y: visible;
   }
 
   .card {
-    overflow-y: visible;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -205,8 +232,35 @@ allPosts = allPosts.sort(
   }
 
   @media (max-width: 1280px) {
+    .container-blog-carousel {
+      max-width: calc(
+        100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+      );
+    }
   }
 
   @media (max-width: 920px) {
+    .container-blog-carousel {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 625px) {
+    .btn-prev,
+    .btn-next {
+      display: none;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .card-link {
+      flex-basis: calc(100% - (var(--right-padding-tablet) * 4));
+    }
+  }
+
+  @media (max-width: 420px) {
+    .card-link {
+      flex-basis: calc(100% - (var(--right-padding-mobile) * 6));
+    }
   }
 </style>
