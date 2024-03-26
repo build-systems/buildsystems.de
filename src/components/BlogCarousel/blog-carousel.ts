@@ -33,15 +33,6 @@ slider.addEventListener("mouseenter", (event) => {
 function onMouseDown(e: MouseEvent) {
   slider.style.scrollSnapType = "none";
   slider.style.scrollBehavior = "auto";
-  allLinks.forEach((element: HTMLElement) => {
-    element.style.cursor = "grabbing";
-    element.style.pointerEvents = "none";
-  });
-  setTimeout(function () {
-    allLinks.forEach((element: HTMLElement) => {
-      element.style.pointerEvents = "auto";
-    });
-  }, 100);
   isDown = true;
   slider.classList.add("active");
   startX = e.pageX - slider.offsetLeft;
@@ -51,6 +42,15 @@ function onMouseDown(e: MouseEvent) {
 
 // Function to handle mouse move event
 function onMouseMove(e: MouseEvent) {
+allLinks.forEach((element: HTMLElement) => {
+    element.style.cursor = "grabbing";
+    element.style.pointerEvents = "none";
+  });
+  setTimeout(function () {
+    allLinks.forEach((element: HTMLElement) => {
+      element.style.pointerEvents = "auto";
+    });
+  }, 100);
   if (!isDown) return;
   e.preventDefault();
   const x = e.pageX - slider.offsetLeft;
