@@ -35,9 +35,15 @@ function onMouseDown(e: MouseEvent) {
   slider.style.scrollBehavior = "auto";
   allLinks.forEach((element: HTMLElement) => {
     element.style.cursor = "grabbing";
+    element.style.pointerEvents = "none";
   });
+  setTimeout(function () {
+    allLinks.forEach((element: HTMLElement) => {
+      element.style.pointerEvents = "auto";
+    });
+  }, 100);
   isDown = true;
-  slider.classList.add('active');
+  slider.classList.add("active");
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
   cancelMomentumTracking();
@@ -57,7 +63,7 @@ function onMouseMove(e: MouseEvent) {
 // Function to handle mouse up event
 function onMouseUp(e: MouseEvent) {
   isDown = false;
-  slider.classList.remove('active');
+  slider.classList.remove("active");
   beginMomentumTracking();
   setTimeout(function () {
     slider.style.scrollSnapType = "x mandatory";
@@ -70,7 +76,7 @@ function onMouseUp(e: MouseEvent) {
 
 slider.addEventListener("mouseleave", () => {
   isDown = false;
-  slider.classList.remove('active');
+  slider.classList.remove("active");
 });
 
 // Momentum
