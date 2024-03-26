@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import serviceAnimation from "../assets/service-building-options.webp";
 import Button from "../components/Button.astro";
+import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 
 const title = "BuildSystems | Services";
 const description =
@@ -255,6 +256,7 @@ const current = "services";
       />
     </div>
   </div>
+  <BlogCarousel />
 </BaseLayout>
 
 <style>

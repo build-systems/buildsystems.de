@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import serviceAnimation from "../../assets/service-building-options.webp";
+import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 
 const title = "BuildSystems | Digitalisierung";
 const description =
@@ -84,6 +85,7 @@ const current = "services/digitalisierung";
       </ul>
     </div>
   </div>
+  <BlogCarousel />
 </BaseLayout>
 
 <style>
