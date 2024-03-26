@@ -29,7 +29,7 @@ allPosts = allPosts.sort(
   <div class="blog-carousel">
     {
       allPosts.map((post, index) => {
-        const href = post.slug;
+        const href = "blog/" + post.slug;
         return (
           <a draggable="false" href={href} class="card-link">
             <div class="card">
