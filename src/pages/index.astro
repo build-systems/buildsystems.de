@@ -160,6 +160,23 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
       tatsächlich einen positiven Impact schaffen.
     </p>
   </div>
+  <div class="frame workshop-cards">
+    <img
+      class="svg-action-card"
+      src="/assets/action-card-qualitaetsprofil.svg"
+      alt="dena logo"
+    />
+    <img
+      class="svg-action-card"
+      src="/assets/action-card-emissionsprofil.svg"
+      alt="dena logo"
+    />
+    <img
+      class="svg-action-card"
+      src="/assets/action-card-zirkularitaetsprofil.svg"
+      alt="dena logo"
+    />
+  </div>
 </BaseLayout>
 
 <style>
@@ -208,6 +225,19 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
     width: 70%;
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .workshop-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+
+  .svg-action-card {
+    width: clamp(80px, 70svw, 300px);
+    justify-self: center;
   }
 
   @media (max-width: 1280px) {
