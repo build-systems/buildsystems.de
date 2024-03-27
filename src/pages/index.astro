@@ -31,7 +31,9 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
-      arbeitet mit Projektentwickler:innen, Bestandshaltern und Generalunternehmen, um gemeinsam zukunftsfähige Immobilienprojekte zu realisieren.
+      arbeitet mit Projektentwickler:innen, Bestandshaltern und
+      Generalunternehmen, um gemeinsam zukunftsfähige Immobilienprojekte zu
+      realisieren.
     </h2>
   </div>
   <div class="frame msg-secondary">
@@ -62,7 +64,8 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
-      ist eine technologiegestützte Nachhaltigkeitsberatung. Wir stellen sicher, dass Ihre Immobilien grün, zukunftsfähig und risikoarm sind.
+      ist eine technologiegestützte Nachhaltigkeitsberatung. Wir stellen sicher,
+      dass Ihre Immobilien grün, zukunftsfähig und risikoarm sind.
     </h2>
   </div>
   <div class="carousel-container">
@@ -164,17 +167,17 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
     <img
       class="svg-action-card"
       src="/assets/action-card-qualitaetsprofil.svg"
-      alt="dena logo"
+      alt="Action Card Qualitätsprofil"
     />
     <img
       class="svg-action-card"
       src="/assets/action-card-emissionsprofil.svg"
-      alt="dena logo"
+      alt="Action Card Emissionsprofil"
     />
     <img
       class="svg-action-card"
       src="/assets/action-card-zirkularitaetsprofil.svg"
-      alt="dena logo"
+      alt="Action Card Zirkularitätsprofil"
     />
   </div>
 </BaseLayout>
@@ -228,15 +231,17 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
   }
 
   .workshop-cards {
+    width: calc(
+      100% - var(--left-padding-general) - var(--right-padding-general)
+    );
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1rem;
     margin-top: 4rem;
   }
 
   .svg-action-card {
-    width: clamp(80px, 70svw, 300px);
+    width: clamp(80px, 20svw, 300px);
     justify-self: center;
   }
 
@@ -250,22 +255,40 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
       padding-left: var(--left-padding-desktop);
       padding-right: var(--right-padding-desktop);
     }
+
+    .workshop-cards {
+      width: calc(
+        100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+      );
+    }
   }
 
   @media (max-width: 920px) {
     .animation01 {
-      padding-left: var(--secondary-left-padding-tablet);
+      padding-left: var(--left-padding-tablet);
     }
 
     .carousel-container {
-      padding-left: var(--secondary-left-padding-tablet);
-      padding-right: var(--secondary-right-padding-tablet);
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
     }
 
     .animation02 {
-      padding-left: var(--secondary-left-padding-tablet);
-      padding-right: var(--secondary-right-padding-tablet);
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
       width: 100%;
+    }
+
+    .workshop-cards {
+      width: calc(
+        100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+      );
+      margin-left: var(--left-padding-tablet);
+      margin-right: var(--right-padding-tablet);
+    }
+
+    .svg-action-card {
+      width: clamp(80px, 26svw, 300px);
     }
   }
 
@@ -280,12 +303,16 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
     }
 
     .carousel-container {
-      padding-left: var(--secondary-left-padding-tablet);
-      padding-right: var(--secondary-right-padding-tablet);
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
     }
 
     .animation02 {
       margin: 0;
+    }
+
+    .svg-action-card {
+      width: clamp(80px, 28svw, 300px);
     }
   }
 
@@ -293,6 +320,19 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
     .carousel-container {
       padding-left: var(--left-padding-mobile);
       padding-right: var(--right-padding-mobile);
+    }
+
+    .workshop-cards {
+      width: calc(
+        100% - var(--left-padding-mobile) - var(--right-padding-mobile)
+      );
+      margin-left: var(--left-padding-mobile);
+      margin-right: var(--right-padding-mobile);
+      margin-top: 2rem;
+    }
+
+    .svg-action-card {
+      width: clamp(80px, 30svw, 300px);
     }
   }
 </style>

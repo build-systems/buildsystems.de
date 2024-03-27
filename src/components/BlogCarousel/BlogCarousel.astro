@@ -41,7 +41,11 @@ allPosts = allPosts.sort(
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
               <div>
-                <Image transition:name={post.slug} src={post.data.cover} alt={post.data.coverAlt} />
+                <Image
+                  transition:name={post.slug}
+                  src={post.data.cover}
+                  alt={post.data.coverAlt}
+                />
               </div>
             </div>
           </a>
@@ -240,21 +244,32 @@ allPosts = allPosts.sort(
     }
   }
 
-  @media (max-width: 920px) {
+  @media (max-width: 750px) {
     .container-blog-carousel {
-      max-width: 100%;
+      max-width: calc(
+        100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+      );
+      margin-left: var(--left-padding-tablet);
+      margin-right: var(--right-padding-tablet);
     }
-  }
-
-  @media (max-width: 625px) {
-      .card:hover {
-    filter: none;
-    transform: none;
-  }
 
     .btn-prev,
     .btn-next {
       display: none;
+    }
+
+    .card:hover {
+      filter: none;
+      transform: none;
+    }
+  }
+  @media (max-width: 625px) {
+    .container-blog-carousel {
+      max-width: calc(
+        100% - var(--left-padding-mobile) - var(--right-padding-mobile)
+      );
+      margin-left: var(--left-padding-mobile);
+      margin-right: var(--right-padding-mobile);
     }
   }
 
