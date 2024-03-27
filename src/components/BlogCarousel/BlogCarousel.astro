@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../../utils/getPostData";
+import { Image } from "astro:assets";
 
 const title = "BuildSystems | Blog";
 const description =
@@ -40,7 +41,7 @@ allPosts = allPosts.sort(
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
               <div>
-                <img transition:name={post.slug} src={post.data.heroImage} />
+                <Image transition:name={post.slug} src={post.data.cover} alt={post.data.coverAlt} />
               </div>
             </div>
           </a>

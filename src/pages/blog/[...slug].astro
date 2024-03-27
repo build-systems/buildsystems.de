@@ -3,7 +3,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData";
 import readingTime from "reading-time";
-
+import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -21,13 +21,13 @@ const { Content } = await post.render();
 <BaseLayout
   title={"BuildSystems | " + post.data.title}
   description={post.data.description}
-  heroImage={post.data.heroImage!}
+  heroImage={post.data.coverPublic!}
   transition={true}
   current="blog">
   <div class="frame post">
     <h2>{post.data.title}</h2>
-    <p>by {post.data.author} 🞄 {formatDate(post.data.publishDate)} 🞄 ~ {readingTime(post.body).text}</p>
-    <img transition:name={post.slug} src={post.data.heroImage}>
+    <p>by {post.data.author} | {formatDate(post.data.publishDate)} | ~ {readingTime(post.body).text}</p>
+    <Image transition:name={post.slug} src={post.data.cover} alt={post.data.coverAlt} />
     <article class="content">
       <Content />
     </article>

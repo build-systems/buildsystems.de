@@ -86,6 +86,16 @@ html:focus-within {
   background: var(--primary-color);
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: var(--background-body);
+  background: var(--primary-color);
+}
+
+::selection {
+  color: var(--background-body);
+  background: var(--primary-color);
+}
+
 @supports (scrollbar-gutter: stable) {
   html {
     overflow-y: auto;
@@ -348,7 +358,7 @@ input[name="theme-toggle"] {
   margin-left: var(--left-padding-general);
   margin-right: var(--right-padding-general);
   align-self: start;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .primary-font-size {

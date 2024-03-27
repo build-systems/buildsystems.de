@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../../utils/getPostData";
+import { Image, Picture } from "astro:assets";
 
 const title = "BuildSystems | Blog";
 const description =
@@ -21,11 +22,14 @@ allPosts = allPosts.sort(
   description={description}
   heroImage={image}
   transition={true}
-  current="blog">
+  current="blog"
+>
   <div class="frame primary-font-size blog-height primary-margin-top">
     <h2 class="sticky">
-      ist stets auf dem aktuellen Stand der <span class="font-secondary green">Branchentrends</span>. Auf unserem Blog
-      teilen wir spannende Insights und laden Sie ein, mitzulesen, wie Sie von den Innovationen in der Baubranche
+      ist stets auf dem aktuellen Stand der <span class="font-secondary green"
+        >Branchentrends</span
+      >. Auf unserem Blog teilen wir spannende Insights und laden Sie ein,
+      mitzulesen, wie Sie von den Innovationen in der Baubranche
       profitieren können.
     </h2>
   </div>
@@ -34,9 +38,7 @@ allPosts = allPosts.sort(
       allPosts.map((post, index) => {
         const href = post.slug;
         return (
-          <a
-            href={href}
-            class="card-link">
+          <a href={href} class="card-link">
             <div class="card">
               <div class="card-text">
                 <h3 class="title">{post.data.title}</h3>
@@ -45,9 +47,12 @@ allPosts = allPosts.sort(
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
               <div>
-                <img
+                <Picture
+                  class="cover"
                   transition:name={post.slug}
-                  src={post.data.heroImage}
+                  src={post.data.cover}
+                  formats={["avif", "webp"]}
+                  alt={post.data.coverAlt}
                 />
               </div>
             </div>
@@ -108,7 +113,7 @@ allPosts = allPosts.sort(
     -moz-hyphenate-limit-last: always;
     -moz-hyphenate-limit-zone: 8%;
     -ms-hyphens: auto;
-    -ms-hyphenate-limit-chars:  12 4 4;
+    -ms-hyphenate-limit-chars: 12 4 4;
     -ms-hyphenate-limit-lines: 2;
     -ms-hyphenate-limit-last: always;
     -ms-hyphenate-limit-zone: 8%;
@@ -163,13 +168,14 @@ allPosts = allPosts.sort(
     margin-bottom: 1rem;
   }
 
-  img {
+  .cover {
     aspect-ratio: 12/8;
     object-fit: cover;
     object-position: center;
     min-height: 100%;
     min-width: 100%;
     border-radius: var(--card-border-radius);
+    background-color: #222;
   }
 
   .date {

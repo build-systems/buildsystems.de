@@ -25,7 +25,6 @@ let scrollLeft: number;
 slider.addEventListener("mouseenter", (event) => {
   // Add event listeners for mouse down, move, and up
   slider.addEventListener("mousedown", onMouseDown);
-  slider.addEventListener("mousemove", onMouseMove);
   slider.addEventListener("mouseup", onMouseUp);
 });
 
@@ -38,6 +37,7 @@ function onMouseDown(e: MouseEvent) {
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
   cancelMomentumTracking();
+  slider.addEventListener("mousemove", onMouseMove);
 }
 
 // Function to handle mouse move event
@@ -72,6 +72,7 @@ function onMouseUp(e: MouseEvent) {
       element.style.cursor = "pointer";
     });
   }, 1000);
+  slider.removeEventListener("mousemove", onMouseMove);
 }
 
 slider.addEventListener("mouseleave", () => {
