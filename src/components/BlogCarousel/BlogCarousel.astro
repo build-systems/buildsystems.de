@@ -45,6 +45,8 @@ allPosts = allPosts.sort(
                   transition:name={post.slug}
                   src={post.data.cover}
                   alt={post.data.coverAlt}
+                  widths={[350, 700]}
+                  sizes={`(max-width: 350px) 350px, (max-width: 700px) 700px`}
                 />
               </div>
             </div>

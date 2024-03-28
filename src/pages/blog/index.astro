@@ -42,7 +42,7 @@ allPosts = allPosts.sort(
             <div class="card">
               <div class="card-text">
                 <h3 class="title">{post.data.title}</h3>
-                <p class="category">{post.data.category}</p>
+                <!-- <p class="category">{post.data.category}</p> -->
                 <p class="description">{post.data.description}</p>
                 <p class="date">— {formatDate(post.data.publishDate)}</p>
               </div>
@@ -53,6 +53,8 @@ allPosts = allPosts.sort(
                   src={post.data.cover}
                   formats={["avif", "webp"]}
                   alt={post.data.coverAlt}
+                  widths={[400]}
+                  sizes={`(max-width: 400px) 400px`}
                 />
               </div>
             </div>
@@ -138,10 +140,10 @@ allPosts = allPosts.sort(
   }
 
   .category {
-    border: 1px solid var(--primary-color);
+    /* border: 1px solid var(--primary-color); */
     border-radius: 2rem;
     width: fit-content;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
 
   .description {
