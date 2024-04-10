@@ -18,7 +18,7 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
   getNumberOfPages(),
 ]);
 
-const title = "BuildSystems | Blog";
+const title = "BuildSystems | Posts";
 const description =
   "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
 const image = `/images/heroRendering.webp`;
@@ -29,7 +29,7 @@ const image = `/images/heroRendering.webp`;
   description={description}
   heroImage={image}
   transition={true}
-  current="blog"
+  current="posts"
 >
   <div class="frame primary-font-size blog-height primary-margin-top">
     <h2 class="sticky">
@@ -49,7 +49,9 @@ const image = `/images/heroRendering.webp`;
           <a href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <h3 class="title">{post.Title}</h3>
+                <h3 class="title">
+                  {post.Title} transition:name={post.Slug + "-title"}
+                </h3>
                 <p class="description">{post.Excerpt}</p>
                 <p class="date">— {post.Date}</p>
               </div>
@@ -57,7 +59,7 @@ const image = `/images/heroRendering.webp`;
                 {post.FeaturedImage && (
                   <img
                     class="cover"
-                    transition:name={post.FeaturedImage.Url as string}
+                    transition:name={post.Slug + "-image"}
                     src={post.FeaturedImage.Url as string}
                     alt="Alt text for cover"
                     sizes={`(max-width: 400px) 400px`}

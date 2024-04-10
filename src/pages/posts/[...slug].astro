@@ -1,5 +1,5 @@
 ---
-import * as interfaces from "../../lib/interfaces.ts";
+import * as interfaces from "../../lib/interfaces.js";
 import {
   getPosts,
   getAllPosts,
@@ -10,12 +10,12 @@ import {
   getAllTags,
   getAllBlocksByBlockId,
   downloadFile,
-} from "../../lib/notion/client.ts";
+} from "../../lib/notion/client.js";
 import {
   getPostLink,
   filePath,
   extractTargetBlocks,
-} from "../../lib/blog-helpers.ts";
+} from "../../lib/blog-helpers.js";
 import Layout from "../../layouts/NotionLayout.astro";
 import PostDate from "../../components/Notion/PostDate.astro";
 import PostTags from "../../components/Notion/PostTags.astro";
@@ -104,14 +104,18 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
   transition={true}
   current="blog"
 >
-  <div class="frame post">
-    <h2>{post.Title}</h2>
+  <div class="post">
+    <h2>{post.Slug + "-title"}</h2>
     <!-- <p>
       by {post.data.author} | {formatDate(post.data.publishDate)} | ~ {
         readingTime(post.body).text
       }
     </p> -->
-    <img transition:name={post.Slug} src={ogImage} alt="Alt text here" />
+    <img
+      transition:name={post.Slug + "-image"}
+      src={ogImage}
+      alt="Alt text here"
+    />
     <article class="content">
       <PostBody blocks={blocks} />
     </article>

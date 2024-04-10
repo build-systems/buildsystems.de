@@ -4,62 +4,27 @@ const { current = "" } = Astro.props;
 
 <nav>
   <div class="options">
-    <a
-      aria-label="Go to Homepage"
-      href="/"
-      data-astro-prefetch
-      >Homepage</a
-    >
-    <a
-      aria-label="Go to Services page"
-      href="/services"
-      data-astro-prefetch
+    <a aria-label="Go to Homepage" href="/" data-astro-prefetch>Homepage</a>
+    <a aria-label="Go to Services page" href="/services" data-astro-prefetch
       >Services</a
     >
-    <a
-      aria-label="Go to Workshop page"
-      href="/workshop"
-      data-astro-prefetch
+    <a aria-label="Go to Workshop page" href="/workshop" data-astro-prefetch
       >Workshop</a
     >
-    <a
-      aria-label="Go to Personen page"
-      href="/personen"
-      data-astro-prefetch
+    <a aria-label="Go to Personen page" href="/personen" data-astro-prefetch
       >Personen</a
     >
-    <a
-      aria-label="Go to Blog page"
-      href="/blog"
-      data-astro-prefetch
-      >Blog</a
-    >
-    <a
-      aria-label="Go to Tool page"
-      href="/foerdertool"
-      data-astro-prefetch
+    <a aria-label="Go to Blog page" href="/posts" data-astro-prefetch>Blog</a>
+    <a aria-label="Go to Tool page" href="/foerdertool" data-astro-prefetch
       >Tool</a
     >
     <!-- <a aria-label="Go to blog page" href="/blog">Blog</a> -->
   </div>
-  <input
-    type="checkbox"
-    id="menu"
-    class="checkbox visuallyHidden"
-  />
+  <input type="checkbox" id="menu" class="checkbox visuallyHidden" />
   <label for="menu">
-    <div
-      aria-label="Hamburguer menu"
-      class="hamburger">
-      <svg
-        width="36"
-        height="36">
-        <circle
-          cx="18"
-          cy="18"
-          r="17"
-          fill="#D9D9D9"
-        ></circle>
+    <div aria-label="Hamburguer menu" class="hamburger">
+      <svg width="36" height="36">
+        <circle cx="18" cy="18" r="17" fill="#D9D9D9"></circle>
         <line
           x1="10"
           y1="13"
@@ -67,8 +32,7 @@ const { current = "" } = Astro.props;
           y2="13"
           stroke="#222"
           stroke-width="2"
-          class="line01"
-        ></line>
+          class="line01"></line>
         <line
           x1="10"
           y1="18"
@@ -76,8 +40,7 @@ const { current = "" } = Astro.props;
           y2="18"
           stroke="#222"
           stroke-width="2"
-          class="line02"
-        ></line>
+          class="line02"></line>
         <line
           x1="10"
           y1="23"
@@ -85,8 +48,7 @@ const { current = "" } = Astro.props;
           y2="23"
           stroke="#222"
           stroke-width="2"
-          class="line03"
-        ></line>
+          class="line03"></line>
       </svg>
     </div>
   </label>
