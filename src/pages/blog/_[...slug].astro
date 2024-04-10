@@ -1,35 +1,119 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
+import * as interfaces from "../../lib/interfaces.ts";
+import {
+  getPosts,
+  getAllPosts,
+  getRankedPosts,
+  getPostBySlug,
+  getPostsByTag,
+  getBlock,
+  getAllTags,
+  getAllBlocksByBlockId,
+  downloadFile,
+} from "../../lib/notion/client.ts";
+import {
+  getPostLink,
+  filePath,
+  extractTargetBlocks,
+} from "../../lib/blog-helpers.ts";
+import Layout from "../../layouts/NotionLayout.astro";
+import PostDate from "../../components/Notion/PostDate.astro";
+import PostTags from "../../components/Notion/PostTags.astro";
+import PostTitle from "../../components/Notion/PostTitle.astro";
+import PostBody from "../../components/Notion/PostBody.astro";
+import PostRelativeLink from "../../components/Notion/PostRelativeLink.astro";
+import BlogPostsLink from "../../components/Notion/BlogPostsLink.astro";
+import BlogTagsLink from "../../components/Notion/BlogTagsLink.astro";
+import styles from "../../styles/blog.module.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { formatDate } from "../../utils/getPostData";
-import readingTime from "reading-time";
-import { Image } from "astro:assets";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: post,
+  const posts = await getAllPosts();
+  return posts.map((post: interfaces.Post) => ({
+    params: { slug: post.Slug },
   }));
 }
 
-type Props = CollectionEntry<"blog">;
+const { slug } = Astro.params;
 
-const post = Astro.props;
-const { Content } = await post.render();
+const post = await getPostBySlug(slug);
+if (!post) {
+  throw new Error("Post not found. slug: ${slug}");
+}
+
+const [blocks, allPosts, rankedPosts, recentPosts, tags, postsHavingSameTag] =
+  await Promise.all([
+    getAllBlocksByBlockId(post.PageId),
+    getAllPosts(),
+    getRankedPosts(),
+    getPosts(5),
+    getAllTags(),
+    getPostsByTag(post.Tags[0]?.name, 6),
+  ]);
+
+const fileAtacchedBlocks = extractTargetBlocks("image", blocks)
+  .concat(extractTargetBlocks("file", blocks))
+  .filter((block) => {
+    if (!block) {
+      return false;
+    }
+    const imageOrFile = block.Image || block.File;
+    return imageOrFile && imageOrFile.File && imageOrFile.File.Url;
+  });
+
+// Download files
+await Promise.all(
+  fileAtacchedBlocks
+    .map(async (block) => {
+      const expiryTime = (block.Image || block.File)!.File!.ExpiryTime;
+      if (Date.parse(expiryTime!) > Date.now()) {
+        return Promise.resolve(block);
+      }
+      return getBlock(block.Id);
+    })
+    .map((promise) =>
+      promise.then((block) => {
+        let url!: URL;
+        try {
+          url = new URL((block.Image || block.File)!.File!.Url);
+        } catch (err) {
+          console.log("Invalid file URL");
+          return Promise.reject();
+        }
+        return Promise.resolve(url);
+      })
+    )
+    .map((promise) => promise.then(downloadFile))
+);
+
+const currentPostIndex = allPosts.findIndex((post) => post.Slug === slug);
+const prevPost = allPosts[currentPostIndex + 1];
+const nextPost = allPosts[currentPostIndex - 1];
+
+let ogImage = "";
+if (post.FeaturedImage && post.FeaturedImage.Url) {
+  ogImage = new URL(filePath(new URL(post.FeaturedImage.Url)), Astro.site)
+    .pathname;
+}
 ---
+
 <BaseLayout
-  title={"BuildSystems | " + post.data.title}
-  description={post.data.description}
-  heroImage={post.data.coverPublic!}
+  title={"BuildSystems | " + post.Title}
+  description={post.Excerpt}
+  heroImage={ogImage}
   transition={true}
-  current="blog">
+  current="blog"
+>
   <div class="frame post">
-    <h2>{post.data.title}</h2>
-    <p>by {post.data.author} | {formatDate(post.data.publishDate)} | ~ {readingTime(post.body).text}</p>
-    <Image transition:name={post.slug} src={post.data.cover} alt={post.data.coverAlt} />
+    <h2>{post.Title}</h2>
+    <!-- <p>
+      by {post.data.author} | {formatDate(post.data.publishDate)} | ~ {
+        readingTime(post.body).text
+      }
+    </p> -->
+    <img transition:name={post.Slug} src={ogImage} alt="Alt text here" />
     <article class="content">
-      <Content />
+      <PostBody blocks={blocks} />
     </article>
   </div>
 </BaseLayout>
@@ -52,7 +136,7 @@ const { Content } = await post.render();
     width: clamp(200px, 100%, 700px);
     border-radius: var(--card-border-radius);
   }
-  
+
   @media (max-width: 625px) {
     .post {
       margin-top: 10svh;

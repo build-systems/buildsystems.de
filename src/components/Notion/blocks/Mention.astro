@@ -1,19 +1,25 @@
 ---
-import { Post } from '../../lib/interfaces.ts'
-import { getPostByPageId } from '../../lib/notion/client'
-import { getPostLink } from '../../lib/blog-helpers.ts'
-import '../../styles/notion-color.css'
-import arrow from '../../images/icon-arrow-link.svg'
+import {
+  type Post,
+  type Emoji,
+  type FileObject,
+} from "../../../lib/interfaces.ts";
+import { getPostByPageId } from "../../../lib/notion/client";
+import { getPostLink } from "../../../lib/blog-helpers.ts";
+import "../../styles/notion-color.css";
+import arrow from "../../images/icon-arrow-link.svg";
 
 export interface Props {
-  pageId: string
+  pageId: string;
 }
 
-const { pageId } = Astro.props
+type PossiblyPost = Post | null;
 
-let post: Post = null
+const { pageId } = Astro.props;
+
+let post: PossiblyPost = null;
 if (pageId) {
-  post = await getPostByPageId(pageId)
+  post = await getPostByPageId(pageId);
 }
 ---
 
@@ -22,18 +28,22 @@ if (pageId) {
     <a href={getPostLink(post.Slug)} class="link">
       <>
         <span class="icon">
-          {post.Icon && post.Icon.Type === 'emoji' ? (
-            post.Icon.Emoji
-          ) : post.Icon && post.Icon.Type === 'external' ? (
+          {post.Icon && post.Icon.Type === "emoji" ? (
+            (post.Icon as Emoji).Emoji
+          ) : post.Icon && post.Icon.Type === "external" ? (
             <img
-              src={post.Icon.Url}
+              src={(post.Icon as FileObject).Url}
               class="notion-icon"
               alt="Post title icon in a page link"
             />
           ) : (
-            '📄'
+            "📄"
           )}
-          <img src={arrow.src} class="icon-link" alt="Arrow icon of a page link" />
+          <img
+            src={arrow.src}
+            class="icon-link"
+            alt="Arrow icon of a page link"
+          />
         </span>
         <span class="text">{post.Title}</span>
       </>
@@ -42,7 +52,11 @@ if (pageId) {
     <a class="link">
       <span class="icon">
         🚫
-        <img src={arrow.src} class="icon-link" alt="Arrow icon of a page link" />
+        <img
+          src={arrow.src}
+          class="icon-link"
+          alt="Arrow icon of a page link"
+        />
       </span>
       <span class="text not-found">Post not found</span>
     </a>

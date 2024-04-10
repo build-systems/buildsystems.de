@@ -1,30 +1,40 @@
 ---
-import * as interfaces from '../../lib/interfaces.ts'
-import { snakeToKebab } from '../../lib/style-helpers.ts'
-import RichText from './RichText.astro'
-import NotionBlocks from '../NotionBlocks.astro'
-import '../../styles/notion-color.css'
+import {
+  type Block,
+  type BulletedListItem,
+  type RichText,
+  type List,
+} from "../../../lib/interfaces.ts";
+import { snakeToKebab } from "../../../lib/style-helpers.ts";
+import NotionRichText from "./RichText.astro";
+import NotionBlocks from "../NotionBlocks.astro";
+import "../../styles/notion-color.css";
 
 export interface Props {
-  block: interfaces.Block
-  headings: interfaces.Block[]
+  block: Block;
+  headings: Block[];
 }
 
-const { block, headings } = Astro.props
+const { block, headings } = Astro.props;
+
+const blockList: List = {
+  Type: block.Type,
+  ListItems: [block],
+};
 ---
 
 <ul>
   {
-    block.ListItems.filter(
-      (b: interfaces.Block) => b.Type === 'bulleted_list_item'
-    ).map((b: interfaces.Block) => (
-      <li class={snakeToKebab(b.BulletedListItem.Color)}>
-        {b.BulletedListItem.RichTexts.map((richText: interfaces.RichText) => (
-          <RichText richText={richText} />
+    blockList.ListItems.filter(
+      (b: Block) => b.Type === "bulleted_list_item"
+    ).map((b: Block) => (
+      <li class={snakeToKebab(b.BulletedListItem!.Color)}>
+        {b.BulletedListItem!.RichTexts.map((richText: RichText) => (
+          <NotionRichText richText={richText} />
         ))}
         {b.HasChildren && (
           <NotionBlocks
-            blocks={b.BulletedListItem.Children}
+            blocks={(b.BulletedListItem as BulletedListItem).Children!}
             headings={headings}
           />
         )}

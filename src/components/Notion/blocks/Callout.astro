@@ -1,38 +1,47 @@
 ---
-import * as interfaces from '../../lib/interfaces.ts'
-import { snakeToKebab } from '../../lib/style-helpers.ts'
-import RichText from './RichText.astro'
-import NotionBlocks from '../NotionBlocks.astro'
+import {
+  type Block,
+  type RichText,
+  type Callout,
+  type Emoji,
+  type FileObject,
+} from "../../../lib/interfaces.ts";
+import { snakeToKebab } from "../../../lib/style-helpers.ts";
+import NotionRichText from "./RichText.astro";
+import NotionBlocks from "../NotionBlocks.astro";
 
 export interface Props {
-  block: interfaces.Block
-  headings: interfaces.Block[]
+  block: Block;
+  headings: Block[];
 }
 
-const { block, headings } = Astro.props
+const { block, headings } = Astro.props;
 ---
 
-<div class={`callout ${snakeToKebab(block.Callout.Color)}`}>
+<div class={`callout ${snakeToKebab(block.Callout!.Color)}`}>
   {
-    block.Callout.Icon && (
+    block.Callout!.Icon && (
       <div class="icon">
-        {block.Callout.Icon.Type === 'emoji' ? (
-          block.Callout.Icon.Emoji
-        ) : block.Callout.Icon.Type === 'external' ? (
-          <img src={block.Callout.Icon.Url} alt="Icon in a callout block" />
+        {block.Callout!.Icon.Type === "emoji" ? (
+          (block.Callout!.Icon as Emoji).Emoji
+        ) : block.Callout!.Icon.Type === "external" ? (
+          <img
+            src={(block.Callout!.Icon as FileObject).Url}
+            alt="Icon in a callout block"
+          />
         ) : null}
       </div>
     )
   }
   <div>
     {
-      block.Callout.RichTexts.map((richText: interfaces.RichText) => (
-        <RichText richText={richText} />
+      block.Callout!.RichTexts.map((richText: RichText) => (
+        <NotionRichText richText={richText} />
       ))
     }
     {
-      block.Callout.Children && (
-        <NotionBlocks blocks={block.Callout.Children} headings={headings} />
+      block.Callout!.Children && (
+        <NotionBlocks blocks={block.Callout!.Children} headings={headings} />
       )
     }
   </div>

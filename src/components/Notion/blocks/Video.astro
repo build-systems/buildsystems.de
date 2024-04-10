@@ -1,28 +1,31 @@
 ---
-import * as interfaces from '../../lib/interfaces.ts'
-import { isYouTubeURL, parseYouTubeVideoId } from '../../lib/blog-helpers.ts'
-import Caption from './Caption.astro'
+import * as interfaces from "../../../lib/interfaces.ts";
+import {
+  isYouTubeURL,
+  parseYouTubeVideoId,
+} from "../../../lib/blog-helpers.ts";
+import Caption from "./Caption.astro";
 
 export interface Props {
-  block: interfaces.Block
+  block: interfaces.Block;
 }
 
-const { block } = Astro.props
+const { block } = Astro.props;
 
-let url: URL
+let url: URL;
 try {
-  url = new URL(block.Video.External?.Url)
+  url = new URL(block.Video!.External?.Url!);
 } catch (err) {
-  console.log(err)
+  console.log(err);
 }
 ---
 
 <div class="video">
   <div>
     {
-      isYouTubeURL(url) && (
+      isYouTubeURL(url!) && (
         <iframe
-          src={`https://www.youtube.com/embed/${parseYouTubeVideoId(url)}`}
+          src={`https://www.youtube.com/embed/${parseYouTubeVideoId(url!)}`}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -31,7 +34,7 @@ try {
       )
     }
   </div>
-  <Caption richTexts={block.Video.Caption} />
+  <Caption richTexts={block.Video!.Caption} />
 </div>
 
 <style>
