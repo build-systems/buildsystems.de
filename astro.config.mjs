@@ -1,25 +1,35 @@
-import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
-import remarkGfm from 'remark-gfm';
-import remarkSmartypants from 'remark-smartypants';
-import rehypeExternalLinks from 'rehype-external-links';
+import { defineConfig } from "astro/config";
+import mdx from "@astrojs/mdx";
+import remarkGfm from "remark-gfm";
+import remarkSmartypants from "remark-smartypants";
+import rehypeExternalLinks from "rehype-external-links";
 import lottie from "astro-integration-lottie";
-import sitemap from '@astrojs/sitemap';
+import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: 'https://buildsystems.de',
+  site: "https://buildsystems.de",
   integrations: [mdx(), lottie(), sitemap()],
   markdown: {
     shikiConfig: {
-      theme: 'nord'
+      theme: "nord",
     },
     remarkPlugins: [remarkGfm, remarkSmartypants],
-    rehypePlugins: [[rehypeExternalLinks, {
-      target: '_blank'
-    }]]
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          target: "_blank",
+        },
+      ],
+    ],
   },
   image: {
-    domains: ["astro.build"], //domains in wich astro can perform remote image optimization
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.amazonaws.com",
+      },
+    ],
   },
-  prefetch: true
+  prefetch: true,
 });
