@@ -54,11 +54,11 @@ const image = `/images/heroRendering.webp`;
                 <p class="date">— {post.Date}</p>
               </div>
               <div>
-                {post.Cover && (
+                {post.FeaturedImage && (
                   <img
                     class="cover"
-                    transition:name={post.Cover.Url as string}
-                    src={post.Cover.Url as string}
+                    transition:name={post.FeaturedImage.Url as string}
+                    src={post.FeaturedImage.Url as string}
                     alt="Alt text for cover"
                     sizes={`(max-width: 400px) 400px`}
                   />
