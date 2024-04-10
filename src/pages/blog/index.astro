@@ -1,20 +1,27 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import type { CollectionEntry } from "astro:content";
-import { formatDate } from "../../utils/getPostData";
+import { formatDate } from "../../utils/getPostData.ts";
 import { Image, Picture } from "astro:assets";
+
+import { NUMBER_OF_POSTS_PER_PAGE } from "../../server-constants.ts";
+import {
+  getPosts,
+  getRankedPosts,
+  getAllTags,
+  getNumberOfPages,
+} from "../../lib/notion/client.ts";
+
+const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
+  getPosts(NUMBER_OF_POSTS_PER_PAGE),
+  getRankedPosts(),
+  getAllTags(),
+  getNumberOfPages(),
+]);
 
 const title = "BuildSystems | Blog";
 const description =
   "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
 const image = `/images/heroRendering.webp`;
-
-let allPosts: CollectionEntry<"blog">[] = await getCollection("blog");
-allPosts = allPosts.sort(
-  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
-);
 ---
 
 <BaseLayout
@@ -34,26 +41,24 @@ allPosts = allPosts.sort(
     </h2>
   </div>
   <div class="frame blog-container">
+    <!-- <p class="category">{post.data.category}</p> -->
     {
-      allPosts.map((post, index) => {
-        const href = post.slug;
+      posts.map((post, index) => {
+        const href = post.Slug;
         return (
           <a href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <h3 class="title">{post.data.title}</h3>
-                <!-- <p class="category">{post.data.category}</p> -->
-                <p class="description">{post.data.description}</p>
-                <p class="date">— {formatDate(post.data.publishDate)}</p>
+                <h3 class="title">{post.Title}</h3>
+                <p class="description">{post.Excerpt}</p>
+                <p class="date">— {post.Date}</p>
               </div>
               <div>
-                <Picture
+                <img
                   class="cover"
-                  transition:name={post.slug}
-                  src={post.data.cover}
-                  formats={["avif", "webp"]}
-                  alt={post.data.coverAlt}
-                  widths={[400]}
+                  transition:name={post.Cover!.Url as string}
+                  src={post.Cover!.Url as string}
+                  alt="Alt text for cover"
                   sizes={`(max-width: 400px) 400px`}
                 />
               </div>
