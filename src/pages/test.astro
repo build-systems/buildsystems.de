@@ -45,13 +45,13 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
         ))
       )
     }
-    <footer>
+    <!-- <footer>
       <Pagination currentPage={1} numberOfPages={numberOfPages} />
-    </footer>
+    </footer> -->
   </div>
 
-  <div slot="aside" class={styles.aside}>
+  <!-- <div slot="aside" class={styles.aside}>
     <BlogPostsLink heading="Recommended" posts={rankedPosts} />
     <BlogTagsLink heading="Categories" tags={tags} />
-  </div>
+  </div> -->
 </NotionLayout>
