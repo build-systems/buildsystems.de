@@ -54,13 +54,15 @@ const image = `/images/heroRendering.webp`;
                 <p class="date">— {post.Date}</p>
               </div>
               <div>
-                <img
-                  class="cover"
-                  transition:name={post.Cover!.Url as string}
-                  src={post.Cover!.Url as string}
-                  alt="Alt text for cover"
-                  sizes={`(max-width: 400px) 400px`}
-                />
+                {post.Cover && (
+                  <img
+                    class="cover"
+                    transition:name={post.Cover.Url as string}
+                    src={post.Cover.Url as string}
+                    alt="Alt text for cover"
+                    sizes={`(max-width: 400px) 400px`}
+                  />
+                )}
               </div>
             </div>
           </a>
