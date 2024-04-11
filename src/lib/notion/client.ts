@@ -395,7 +395,12 @@ export async function downloadFile(url: URL) {
     return Promise.resolve();
   }
 
-  const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
+  // const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
+  // if (!fs.existsSync(dir)) {
+  //   fs.mkdirSync(dir);
+  // }
+
+  const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }

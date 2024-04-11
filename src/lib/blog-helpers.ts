@@ -15,6 +15,11 @@ export const filePath = (url: URL): string => {
   return pathJoin(BASE_PATH, `/notion/${dir}/${filename}`);
 };
 
+export const imagePath = (url: URL): string => {
+  const [dir, filename] = url.pathname.split("/").slice(-2);
+  return pathJoin(BASE_PATH, `/src/assets/notion/${dir}/${filename}`);
+};
+
 export const extractTargetBlocks = (
   blockType: string,
   blocks: Block[]

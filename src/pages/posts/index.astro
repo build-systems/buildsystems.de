@@ -57,12 +57,12 @@ const image = `/images/heroRendering.webp`;
               </div>
               <div>
                 {post.FeaturedImage && (
-                  <Image
+                  <img
                     class="cover"
                     transition:name={post.Slug + "-image"}
                     src={post.FeaturedImage.Url}
                     alt="Alt text for cover"
-                    inferSize
+                    width="400px"
                   />
                 )}
               </div>
