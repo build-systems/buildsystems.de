@@ -10,10 +10,13 @@ export interface Props {
 
 const { block } = Astro.props;
 
+// Download image first
+
 let image = "";
 if (block.Image!.External) {
   image = block.Image!.External.Url;
 } else if (block.Image!.File) {
+  // Download here
   image = filePath(new URL(block.Image!.File.Url));
 }
 ---
