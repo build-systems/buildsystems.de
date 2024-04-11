@@ -9,7 +9,9 @@ export interface Props {
 const { blocks } = Astro.props;
 ---
 
-<NotionBlocks blocks={blocks} isRoot={true} />
+<div class="post-body">
+  <NotionBlocks blocks={blocks} isRoot={true} />
+</div>
 
 <style>
   .post-body {
