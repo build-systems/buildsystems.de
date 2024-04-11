@@ -3,20 +3,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
 import { Image, Picture } from "astro:assets";
 
-import { NUMBER_OF_POSTS_PER_PAGE } from "../../server-constants.ts";
-import {
-  getPosts,
-  getRankedPosts,
-  getAllTags,
-  getNumberOfPages,
-} from "../../lib/notion/client.ts";
+import { getAllPosts } from "../../lib/notion/client.ts";
 
-const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
-  getPosts(NUMBER_OF_POSTS_PER_PAGE),
-  getRankedPosts(),
-  getAllTags(),
-  getNumberOfPages(),
-]);
+const posts = await getAllPosts();
 
 const title = "BuildSystems | Posts";
 const description =
