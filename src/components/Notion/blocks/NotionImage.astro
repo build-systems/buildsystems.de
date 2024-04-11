@@ -59,11 +59,11 @@ if (block.Image!.File) {
 
 <figure class="image">
   {
-    block.Image!.File && (
+    url! && (
       <div>
         <div>
-          {ENABLE_LIGHTBOX ? (
-            <a data-fslightbox href={image} data-type="image">
+          {block.Image!.File ? (
+            <a data-fslightbox href={url!.href} data-type="image">
               <Image
                 src={image}
                 alt="Image in a image block"
