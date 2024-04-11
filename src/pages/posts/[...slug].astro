@@ -117,7 +117,7 @@ console.dir(image);
   transition={true}
   current="blog"
 >
-  <div slot="main" class={styles.main}>
+  <div class={styles.main}>
     <div class="post">
       <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
       <!-- <p>
@@ -137,7 +137,7 @@ console.dir(image);
         )
       }
       <!-- <article class:list={[styles.post, "content"]}> -->
-      <article class={styles.post}>
+      <article class:list={[styles.post, "content"]}>
         <PostBody blocks={blocks} />
       </article>
     </div>
