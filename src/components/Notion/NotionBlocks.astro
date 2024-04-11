@@ -10,7 +10,7 @@ import Heading1 from "./blocks/Heading1.astro";
 import Heading2 from "./blocks/Heading2.astro";
 import Heading3 from "./blocks/Heading3.astro";
 import TableOfContents from "./blocks/TableOfContents.astro";
-import Image from "./blocks/Image.astro";
+import NotionImage from "./blocks/NotionImage.astro";
 import Video from "./blocks/Video.astro";
 import Code from "./blocks/Code.astro";
 import Quote from "./blocks/Quote.astro";
@@ -114,6 +114,8 @@ const bookmarkURLs = blocks
   .filter((url: URL) => url && !isTweetURL(url) && !isAmazonURL(url));
 
 const bookmarkURLMap = await buildURLToHTMLMap(bookmarkURLs);
+
+console.log("------Notion Block------");
 ---
 
 {
@@ -130,7 +132,7 @@ const bookmarkURLMap = await buildURLToHTMLMap(bookmarkURLs);
       case "table_of_contents":
         return <TableOfContents block={block} headings={headings} />;
       case "image":
-        return <Image block={block} />;
+        return <NotionImage block={block} />;
       case "video":
         return <Video block={block} />;
       case "code":

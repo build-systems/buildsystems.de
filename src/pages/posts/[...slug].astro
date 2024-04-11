@@ -99,10 +99,10 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
 
 const url = new URL(post.FeaturedImage?.Url!);
 const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-console.log("\nimagename = " + imagename);
+console.log("\nimagename Slug = " + imagename);
 const imagenamesimple = imagename.split(".")[0];
-console.log("\nimagenamesimple = " + imagenamesimple);
-const images = await Astro.glob("../../assets/notion/**/*.{png,jpg,jpeg}");
+console.log("\nimagenamesimple Slug = " + imagenamesimple);
+const images = await Astro.glob("/src/assets/notion/**/*.{png,jpg,jpeg}");
 console.dir(images);
 const image = images.find((item) =>
   item.default.src.includes(imagenamesimple)
@@ -126,7 +126,7 @@ console.dir(image);
     </p> -->
     {
       image && (
-        <Picture
+        <Image
           src={image}
           alt="Alt text here"
           transition:name={post.Slug + "-image"}

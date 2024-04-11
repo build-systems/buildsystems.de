@@ -385,8 +385,8 @@ export async function downloadFile(url: URL) {
       timeout: REQUEST_TIMEOUT_MS,
       responseType: "stream",
     });
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
 
@@ -418,8 +418,8 @@ export async function downloadFile(url: URL) {
   }
   try {
     return pipeline(stream, new ExifTransformer(), writeStream);
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    console.log("\nError while downloading file\n" + error);
     writeStream.end();
     return Promise.resolve();
   }
