@@ -26,7 +26,7 @@ import BlogPostsLink from "../../components/Notion/BlogPostsLink.astro";
 import BlogTagsLink from "../../components/Notion/BlogTagsLink.astro";
 import styles from "../../styles/blog.module.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import { Image, Picture } from "astro:assets";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -97,16 +97,17 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
     .pathname;
 }
 
-const url = post.FeaturedImage?.Url;
-console.log("url = " + url);
-const dir = "src/assets/notion/" + url!.split("/").slice(-2)[0];
-console.log("dir = " + dir);
-const imagename = decodeURIComponent(url!.split("/").slice(-1)[0]);
-console.log("imagename = " + imagename);
-const imagepath = `${dir}/${imagename}`;
-console.log("imagepath = " + imagepath);
+const url = new URL(post.FeaturedImage?.Url!);
+const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+console.log("\nimagename = " + imagename);
+const imagenamesimple = imagename.split(".")[0];
+console.log("\nimagenamesimple = " + imagenamesimple);
 const images = await Astro.glob("../../assets/notion/**/*");
-const image = images.find((post) => post.file.includes(imagepath))![0];
+console.dir(images);
+const image = images.find((item) =>
+  item.default.src.includes(imagenamesimple)
+)!.default;
+console.dir(image);
 ---
 
 <BaseLayout
@@ -123,7 +124,7 @@ const image = images.find((post) => post.file.includes(imagepath))![0];
         readingTime(post.body).text
       }
     </p> -->
-    <Image
+    <Picture
       src={image}
       alt="Alt text here"
       transition:name={post.Slug + "-image"}

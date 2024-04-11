@@ -43,7 +43,7 @@ export default defineConfig({
     CoverImageDownloader(),
     // CustomIconDownloader(),
     FeaturedImageDownloader(),
-    PublicNotionCopier(),
+    // PublicNotionCopier(),
   ],
   prefetch: true,
 });
