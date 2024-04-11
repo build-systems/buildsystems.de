@@ -46,8 +46,8 @@ const image = `/images/heroRendering.webp`;
           <a href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <h3 class="title">
-                  {post.Title} transition:name={post.Slug + "-title"}
+                <h3 class="title" transition:name={post.Slug + "-title"}>
+                  {post.Title}
                 </h3>
                 <p class="description">{post.Excerpt}</p>
                 <p class="date">— {post.Date}</p>

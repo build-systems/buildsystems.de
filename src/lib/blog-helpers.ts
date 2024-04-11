@@ -10,9 +10,13 @@ import type {
 } from "./interfaces";
 import { pathJoin } from "./utils";
 
+// export const filePath = (url: URL): string => {
+//   const [dir, filename] = url.pathname.split("/").slice(-2);
+//   return pathJoin(BASE_PATH, `/notion/${dir}/${filename}`);
+// };
 export const filePath = (url: URL): string => {
   const [dir, filename] = url.pathname.split("/").slice(-2);
-  return pathJoin(BASE_PATH, `/notion/${dir}/${filename}`);
+  return pathJoin(BASE_PATH, `/src/assets/notion/${dir}/${filename}`);
 };
 
 export const extractTargetBlocks = (
