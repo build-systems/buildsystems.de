@@ -99,11 +99,10 @@ if (post.FeaturedImage && post.FeaturedImage.Url) {
 
 const url = post.FeaturedImage?.Url;
 const dir = "./src/assets/notion/" + url!.split("/").slice(-2)[0];
-const filename = decodeURIComponent(url!.split("/").slice(-1)[0]);
-const filepath = `${dir}/${filename}`;
-const image = await Astro.glob(filepath).then((files) => {
-  return files.map((file) => file.default)[0];
-});
+const imagename = decodeURIComponent(url!.split("/").slice(-1)[0]);
+const imagepath = `${dir}/${imagename}`;
+const images = await Astro.glob("../../assets/notion/**/*");
+const image = images.find((post) => post.file.includes(imagepath))!;
 ---
 
 <BaseLayout
