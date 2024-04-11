@@ -3,10 +3,20 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
 import { Image, Picture } from "astro:assets";
 
-import { getAllPosts } from "../../lib/notion/client.ts";
-import { filePath } from "../../lib/blog-helpers";
+import { NUMBER_OF_POSTS_PER_PAGE } from "../../server-constants.ts";
+import {
+  getPosts,
+  getRankedPosts,
+  getAllTags,
+  getNumberOfPages,
+} from "../../lib/notion/client.ts";
 
-const posts = await getAllPosts();
+const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
+  getPosts(NUMBER_OF_POSTS_PER_PAGE),
+  getRankedPosts(),
+  getAllTags(),
+  getNumberOfPages(),
+]);
 
 const title = "BuildSystems | Posts";
 const description =
@@ -34,13 +44,6 @@ const image = `/images/heroRendering.webp`;
     <!-- <p class="category">{post.data.category}</p> -->
     {
       posts.map((post, index) => {
-        let ogImage = "";
-        if (post.FeaturedImage && post.FeaturedImage.Url) {
-          ogImage = new URL(
-            filePath(new URL(post.FeaturedImage.Url)),
-            Astro.site
-          ).pathname;
-        }
         const href = post.Slug;
         return (
           <a href={href} class="card-link">
@@ -54,12 +57,12 @@ const image = `/images/heroRendering.webp`;
               </div>
               <div>
                 {post.FeaturedImage && (
-                  <img
+                  <Image
                     class="cover"
                     transition:name={post.Slug + "-image"}
-                    src={ogImage}
+                    src={post.FeaturedImage.Url}
                     alt="Alt text for cover"
-                    sizes={`(max-width: 400px) 400px`}
+                    inferSize
                   />
                 )}
               </div>
