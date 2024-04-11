@@ -4,6 +4,7 @@ import { formatDate } from "../../utils/getPostData.ts";
 import { Image, Picture } from "astro:assets";
 
 import { getAllPosts } from "../../lib/notion/client.ts";
+import { filePath } from "../../lib/blog-helpers";
 
 const posts = await getAllPosts();
 
@@ -33,6 +34,13 @@ const image = `/images/heroRendering.webp`;
     <!-- <p class="category">{post.data.category}</p> -->
     {
       posts.map((post, index) => {
+        let ogImage = "";
+        if (post.FeaturedImage && post.FeaturedImage.Url) {
+          ogImage = new URL(
+            filePath(new URL(post.FeaturedImage.Url)),
+            Astro.site
+          ).pathname;
+        }
         const href = post.Slug;
         return (
           <a href={href} class="card-link">
@@ -49,7 +57,7 @@ const image = `/images/heroRendering.webp`;
                   <img
                     class="cover"
                     transition:name={post.Slug + "-image"}
-                    src={post.FeaturedImage.Url as string}
+                    src={ogImage}
                     alt="Alt text for cover"
                     sizes={`(max-width: 400px) 400px`}
                   />
