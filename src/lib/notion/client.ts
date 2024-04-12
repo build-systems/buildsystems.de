@@ -425,6 +425,50 @@ export async function downloadFile(url: URL) {
   }
 }
 
+export async function downloadPublicFile(url: URL) {
+  let res!: AxiosResponse;
+  try {
+    res = await axios({
+      method: "get",
+      url: url.toString(),
+      timeout: REQUEST_TIMEOUT_MS,
+      responseType: "stream",
+    });
+  } catch (error) {
+    console.log("\nError requesting image\n" + error);
+    return Promise.resolve();
+  }
+
+  if (!res || res.status != 200) {
+    console.log(res);
+    return Promise.resolve();
+  }
+
+  const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  }
+
+  const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  const filepath = `${dir}/${filename}`;
+
+  const writeStream = createWriteStream(filepath);
+  const rotate = sharp().rotate();
+
+  let stream = res.data;
+
+  if (res.headers["content-type"] === "image/jpeg") {
+    stream = stream.pipe(rotate);
+  }
+  try {
+    return pipeline(stream, new ExifTransformer(), writeStream);
+  } catch (error) {
+    console.log("\nError while downloading file\n" + error);
+    writeStream.end();
+    return Promise.resolve();
+  }
+}
+
 export async function getDatabase(): Promise<Database> {
   if (dbCache !== null) {
     return Promise.resolve(dbCache);
@@ -961,18 +1005,18 @@ function _buildPost(pageObject: responses.PageObject): Post {
     };
   }
 
-  let featuredImage: FileObject | null = null;
-  if (prop.FeaturedImage.files && prop.FeaturedImage.files.length > 0) {
-    if (prop.FeaturedImage.files[0].external) {
-      featuredImage = {
-        Type: prop.FeaturedImage.type,
-        Url: prop.FeaturedImage.files[0].external.url,
+  let coverImage: FileObject | null = null;
+  if (prop.CoverImage.files && prop.CoverImage.files.length > 0) {
+    if (prop.CoverImage.files[0].external) {
+      coverImage = {
+        Type: prop.CoverImage.type,
+        Url: prop.CoverImage.files[0].external.url,
       };
-    } else if (prop.FeaturedImage.files[0].file) {
-      featuredImage = {
-        Type: prop.FeaturedImage.type,
-        Url: prop.FeaturedImage.files[0].file.url,
-        ExpiryTime: prop.FeaturedImage.files[0].file.expiry_time,
+    } else if (prop.CoverImage.files[0].file) {
+      coverImage = {
+        Type: prop.CoverImage.type,
+        Url: prop.CoverImage.files[0].file.url,
+        ExpiryTime: prop.CoverImage.files[0].file.expiry_time,
       };
     }
   }
@@ -984,6 +1028,9 @@ function _buildPost(pageObject: responses.PageObject): Post {
       : "",
     Icon: icon,
     Cover: cover,
+    CoverAlt: prop.CoverAlt.rich_text
+      ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
+      : "",
     Slug: prop.Slug.rich_text
       ? prop.Slug.rich_text.map((richText) => richText.plain_text).join("")
       : "",
@@ -995,7 +1042,7 @@ function _buildPost(pageObject: responses.PageObject): Post {
             .map((richText) => richText.plain_text)
             .join("")
         : "",
-    FeaturedImage: featuredImage,
+    PublicImage: coverImage,
     Rank: prop.Rank.number ? prop.Rank.number : 0,
   };
 

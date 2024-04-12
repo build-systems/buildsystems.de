@@ -10,11 +10,12 @@ export interface Post {
   Title: string;
   Icon: FileObject | Emoji | null;
   Cover: FileObject | null;
+  CoverAlt: string;
   Slug: string;
   PublishDate: string;
   Tags: SelectProperty[];
   Description: string;
-  FeaturedImage: FileObject | null;
+  PublicImage: FileObject | null;
   Rank: number;
 }
 

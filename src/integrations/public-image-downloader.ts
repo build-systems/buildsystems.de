@@ -1,5 +1,5 @@
 import type { AstroIntegration } from "astro";
-import { getAllPosts, downloadFile } from "../lib/notion/client";
+import { getAllPosts, downloadPublicFile } from "../lib/notion/client";
 
 export default (): AstroIntegration => ({
   name: "featured-image-downloader",
@@ -9,19 +9,19 @@ export default (): AstroIntegration => ({
 
       await Promise.all(
         posts.map((post) => {
-          if (!post.FeaturedImage || !post.FeaturedImage.Url) {
+          if (!post.PublicImage || !post.PublicImage.Url) {
             return Promise.resolve();
           }
 
           let url!: URL;
           try {
-            url = new URL(post.FeaturedImage.Url);
-          } catch (err) {
-            console.log("Invalid FeaturedImage URL");
+            url = new URL(post.PublicImage.Url);
+          } catch (error) {
+            console.log("Invalid PublicImage URL\n" + error);
             return Promise.resolve();
           }
 
-          return downloadFile(url);
+          return downloadPublicFile(url);
         })
       );
     },

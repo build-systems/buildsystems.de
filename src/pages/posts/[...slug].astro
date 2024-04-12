@@ -92,12 +92,12 @@ const prevPost = allPosts[currentPostIndex + 1];
 const nextPost = allPosts[currentPostIndex - 1];
 
 let ogImage = "";
-if (post.FeaturedImage && post.FeaturedImage.Url) {
-  ogImage = new URL(filePath(new URL(post.FeaturedImage.Url)), Astro.site)
+if (post.PublicImage && post.PublicImage.Url) {
+  ogImage = new URL(filePath(new URL(post.PublicImage.Url)), Astro.site)
     .pathname;
 }
 
-const url = new URL(post.FeaturedImage?.Url!);
+const url = new URL(post.PublicImage?.Url!);
 const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
 console.log("\nimagename Slug = " + imagename);
 const imagenamesimple = imagename.split(".")[0];
