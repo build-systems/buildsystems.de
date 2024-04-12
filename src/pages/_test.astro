@@ -12,7 +12,7 @@ import PostDate from "../components/Notion/PostDate.astro";
 import PostTags from "../components/Notion/PostTags.astro";
 import PostTitle from "../components/Notion/PostTitle.astro";
 import PostFeaturedImage from "../components/Notion/PostFeaturedImage.astro";
-import PostExcerpt from "../components/Notion/PostExcerpt.astro";
+import PostDescription from "../components/Notion/PostDescription.astro";
 import ReadMoreLink from "../components/Notion/ReadMoreLink.astro";
 import Pagination from "../components/Notion/Pagination.astro";
 import BlogPostsLink from "../components/Notion/BlogPostsLink.astro";
@@ -39,7 +39,7 @@ const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
             <PostTags post={post} />
             <PostTitle post={post} />
             <PostFeaturedImage post={post} />
-            <PostExcerpt post={post} />
+            <PostDescription post={post} />
             <ReadMoreLink post={post} />
           </div>
         ))

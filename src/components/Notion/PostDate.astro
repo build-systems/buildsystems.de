@@ -10,7 +10,7 @@ const { post } = Astro.props;
 ---
 
 <div class="post-date">
-  {post.Date ? getDateStr(post.Date) : ""}
+  {post.PublishDate ? getDateStr(post.PublishDate) : ""}
 </div>
 
 <style>

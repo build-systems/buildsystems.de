@@ -80,7 +80,7 @@ export async function getAllPosts(): Promise<Post[]> {
           },
         },
         {
-          property: "Date",
+          property: "PublishDate",
           date: {
             on_or_before: new Date().toISOString(),
           },
@@ -89,7 +89,7 @@ export async function getAllPosts(): Promise<Post[]> {
     },
     sorts: [
       {
-        property: "Date",
+        property: "PublishDate",
         direction: "descending",
       },
     ],
@@ -928,7 +928,7 @@ function _validPageObject(pageObject: responses.PageObject): boolean {
     prop.Page.title.length > 0 &&
     !!prop.Slug.rich_text &&
     prop.Slug.rich_text.length > 0 &&
-    !!prop.Date.date
+    !!prop.PublishDate.date
   );
 }
 
@@ -987,11 +987,13 @@ function _buildPost(pageObject: responses.PageObject): Post {
     Slug: prop.Slug.rich_text
       ? prop.Slug.rich_text.map((richText) => richText.plain_text).join("")
       : "",
-    Date: prop.Date.date ? prop.Date.date.start : "",
+    PublishDate: prop.PublishDate.date ? prop.PublishDate.date.start : "",
     Tags: prop.Tags.multi_select ? prop.Tags.multi_select : [],
-    Excerpt:
-      prop.Excerpt.rich_text && prop.Excerpt.rich_text.length > 0
-        ? prop.Excerpt.rich_text.map((richText) => richText.plain_text).join("")
+    Description:
+      prop.Description.rich_text && prop.Description.rich_text.length > 0
+        ? prop.Description.rich_text
+            .map((richText) => richText.plain_text)
+            .join("")
         : "",
     FeaturedImage: featuredImage,
     Rank: prop.Rank.number ? prop.Rank.number : 0,

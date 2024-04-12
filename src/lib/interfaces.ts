@@ -11,9 +11,9 @@ export interface Post {
   Icon: FileObject | Emoji | null;
   Cover: FileObject | null;
   Slug: string;
-  Date: string;
+  PublishDate: string;
   Tags: SelectProperty[];
-  Excerpt: string;
+  Description: string;
   FeaturedImage: FileObject | null;
   Rank: number;
 }
