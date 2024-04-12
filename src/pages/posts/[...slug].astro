@@ -91,13 +91,13 @@ const currentPostIndex = allPosts.findIndex((post) => post.Slug === slug);
 const prevPost = allPosts[currentPostIndex + 1];
 const nextPost = allPosts[currentPostIndex - 1];
 
-let ogImage = "";
+let publicImage = "";
 if (post.PublicImage && post.PublicImage.Url) {
-  ogImage = new URL(filePath(new URL(post.PublicImage.Url)), Astro.site)
+  publicImage = new URL(filePath(new URL(post.PublicImage.Url)), Astro.site)
     .pathname;
 }
 
-const url = new URL(post.PublicImage?.Url!);
+const url = new URL(post.Cover?.Url!);
 const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
 console.log("\nimagename Slug = " + imagename);
 const imagenamesimple = imagename.split(".")[0];
@@ -113,7 +113,7 @@ console.dir(image);
 <BaseLayout
   title={"BuildSystems | " + post.Title}
   description={post.Description}
-  heroImage={ogImage}
+  heroImage={publicImage}
   transition={true}
   current="blog"
 >
