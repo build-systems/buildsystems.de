@@ -1005,20 +1005,24 @@ function _buildPost(pageObject: responses.PageObject): Post {
     };
   }
 
-  let coverImage: FileObject | null = null;
-  if (prop.CoverImage.files && prop.CoverImage.files.length > 0) {
-    if (prop.CoverImage.files[0].external) {
-      coverImage = {
-        Type: prop.CoverImage.type,
-        Url: prop.CoverImage.files[0].external.url,
-      };
-    } else if (prop.CoverImage.files[0].file) {
-      coverImage = {
-        Type: prop.CoverImage.type,
-        Url: prop.CoverImage.files[0].file.url,
-        ExpiryTime: prop.CoverImage.files[0].file.expiry_time,
-      };
+  let publicImage: FileObject | null = null;
+  try {
+    if (prop.PublicImage.files && prop.PublicImage.files.length > 0) {
+      if (prop.PublicImage.files[0].external) {
+        publicImage = {
+          Type: prop.PublicImage.type,
+          Url: prop.PublicImage.files[0].external.url,
+        };
+      } else if (prop.PublicImage.files[0].file) {
+        publicImage = {
+          Type: prop.PublicImage.type,
+          Url: prop.PublicImage.files[0].file.url,
+          ExpiryTime: prop.PublicImage.files[0].file.expiry_time,
+        };
+      }
     }
+  } catch (error) {
+    console.log("\nError while getting public image\n" + error);
   }
 
   const post: Post = {
@@ -1042,7 +1046,7 @@ function _buildPost(pageObject: responses.PageObject): Post {
             .map((richText) => richText.plain_text)
             .join("")
         : "",
-    PublicImage: coverImage,
+    PublicImage: publicImage,
     Rank: prop.Rank.number ? prop.Rank.number : 0,
   };
 
