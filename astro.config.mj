@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import { CUSTOM_DOMAIN, BASE_PATH } from "./src/server-constants";
 import CoverImageDownloader from "./src/integrations/cover-image-downloader";
 // import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
-import FeaturedImageDownloader from "./src/integrations/featured-image-downloader";
+import PublicImageDownloader from "./src/integrations/public-image-downloader";
 import PublicNotionCopier from "./src/integrations/public-notion-copier";
 
 import lottie from "astro-integration-lottie";
@@ -42,7 +42,7 @@ export default defineConfig({
     sitemap(),
     CoverImageDownloader(),
     // CustomIconDownloader(),
-    FeaturedImageDownloader(),
+    PublicImageDownloader(),
     // PublicNotionCopier(),
   ],
   prefetch: true,
