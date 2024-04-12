@@ -377,6 +377,7 @@ export async function getAllTags(): Promise<SelectProperty[]> {
 }
 
 export async function downloadFile(url: URL) {
+  console.log("\n===== Starting File Download =====");
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -400,13 +401,23 @@ export async function downloadFile(url: URL) {
   //   fs.mkdirSync(dir);
   // }
 
+  console.log("\nGetting folder path...");
   const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
+  console.log("Folder path is: " + dir);
+  console.log("\nChecking if folder exists...");
   if (!fs.existsSync(dir)) {
+    console.log("\nIt still does not exists. Creating it...");
     fs.mkdirSync(dir);
+    console.log("\nFolder created.");
+  } else {
+    console.log("\nFolder already exists.");
   }
 
+  console.log("\nGetting file name now");
   const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  console.log("File name is: " + filename);
   const filepath = `${dir}/${filename}`;
+  console.log("Full file path is: " + filepath);
 
   const writeStream = createWriteStream(filepath);
   const rotate = sharp().rotate();
@@ -417,6 +428,7 @@ export async function downloadFile(url: URL) {
     stream = stream.pipe(rotate);
   }
   try {
+    console.log("\nDownloading file now");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);
@@ -444,13 +456,21 @@ export async function downloadPublicFile(url: URL) {
     return Promise.resolve();
   }
 
+  console.log("\nGetting folder path...");
   const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
+  console.log("Folder path is: " + dir);
+  console.log("\nIt still does not exists. Creating it...");
   if (!fs.existsSync(dir)) {
+    console.log("\nFolder created.");
     fs.mkdirSync(dir);
+    console.log("\nFolder already exists.");
   }
 
+  console.log("\nGetting file name now");
   const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  console.log("File name is: " + filename);
   const filepath = `${dir}/${filename}`;
+  console.log("Full file path is: " + filepath);
 
   const writeStream = createWriteStream(filepath);
   const rotate = sharp().rotate();
@@ -461,6 +481,7 @@ export async function downloadPublicFile(url: URL) {
     stream = stream.pipe(rotate);
   }
   try {
+    console.log("\nDownloading file now");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);

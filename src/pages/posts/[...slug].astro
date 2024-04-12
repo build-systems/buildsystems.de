@@ -1,4 +1,8 @@
 ---
+function downloadPublicImage(url: URL) {
+  throw new Error("Function not implemented.");
+}
+
 import * as interfaces from "../../lib/interfaces.js";
 import {
   getPosts,
@@ -39,7 +43,7 @@ const { slug } = Astro.params;
 
 const post = await getPostBySlug(slug);
 if (!post) {
-  throw new Error("Post not found. slug: ${slug}");
+  throw new Error(`Post not found. slug: ${slug}`);
 }
 
 const [blocks, allPosts, rankedPosts, recentPosts, tags, postsHavingSameTag] =
@@ -62,7 +66,7 @@ const fileAtacchedBlocks = extractTargetBlocks("image", blocks)
     return imageOrFile && imageOrFile.File && imageOrFile.File.Url;
   });
 
-// Download files
+// Download files in the body
 await Promise.all(
   fileAtacchedBlocks
     .map(async (block) => {
@@ -87,27 +91,65 @@ await Promise.all(
     .map((promise) => promise.then(downloadFile))
 );
 
-const currentPostIndex = allPosts.findIndex((post) => post.Slug === slug);
-const prevPost = allPosts[currentPostIndex + 1];
-const nextPost = allPosts[currentPostIndex - 1];
+// if (post.Cover) {
+//   console.log("\nTrying to download the cover");
+//   // Check if expiryTime exists and is valid
+//   const url = new URL(post.Cover.Url);
+//   try {
+//     // Download the file
+//     await downloadFile(url);
 
+//     // Now you can use the downloaded file
+//   } catch (err) {
+//     console.log("Invalid file or URL");
+//   }
+// }
+
+// if (post.PublicImage) {
+//   console.log("\nTrying to download the public image");
+//   // Check if expiryTime exists and is valid
+//   const url = new URL(post.PublicImage.Url);
+//   try {
+//     // Download the file
+//     downloadPublicImage(url);
+
+//     // Now you can use the downloaded file
+//   } catch (err) {
+//     console.log("Invalid file or URL");
+//   }
+// }
+
+// Download the public image
 let publicImage = "";
 if (post.PublicImage && post.PublicImage.Url) {
   publicImage = new URL(filePath(new URL(post.PublicImage.Url)), Astro.site)
     .pathname;
 }
 
-const url = new URL(post.Cover?.Url!);
-const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-console.log("\nimagename Slug = " + imagename);
-const imagenamesimple = imagename.split(".")[0];
-console.log("\nimagenamesimple Slug = " + imagenamesimple);
-const images = await Astro.glob("/src/assets/notion/**/*.{png,jpg,jpeg}");
-console.dir(images);
-const image = images.find((item) =>
-  item.default.src.includes(imagenamesimple)
-)!.default;
-console.dir(image);
+// Check if the block exists
+let image: any;
+if (post.Cover) {
+  const url = new URL(post.Cover.Url);
+
+  const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  console.log("\nimagename Slug = " + imagename);
+
+  const imagenamesimple = imagename.split(".")[0];
+  console.log("\nimagenamesimple Slug = " + imagenamesimple);
+
+  const images = await Astro.glob(
+    "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
+  );
+
+  console.dir(images);
+
+  image = images.find((item) =>
+    item.default.src.includes(imagenamesimple)
+  )!.default;
+} else {
+  // Block is null or undefined
+  console.log("Block is null or undefined");
+}
 ---
 
 <BaseLayout
