@@ -1,15 +1,10 @@
-<input
-  type="checkbox"
-  id="cover"
-  class="cover-checkbox visuallyHidden"
-/>
+<input type="checkbox" id="cover" class="cover-checkbox visuallyHidden" />
 <label
   class="cover"
   aria-label="Animation: Build Smart, Build Sustainable, Build Systems. Click to close animation."
-  for="cover">
-  <div
-    aria-hidden="true"
-    class="cover-text">
+  for="cover"
+>
+  <div aria-hidden="true" class="cover-text">
     <div class="txt-build"></div>
     <div class="systems-overflow">
       <div class="systems-container">
@@ -45,7 +40,7 @@
     display: flex;
     position: fixed;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate3D(0, -50%, 0);
     width: 100svw;
   }
 
@@ -81,8 +76,9 @@
     position: relative;
     font-size: 11svw;
     flex: 1;
-    transform: translateY(-66%);
-    animation: systems-animation var(--animation-time) var(--bezier-animation) forwards;
+    transform: translate3D(0, -66%, 0);
+    animation: systems-animation var(--animation-time) var(--bezier-animation)
+      forwards;
     animation-delay: var(--animation-delay);
   }
 
@@ -90,21 +86,21 @@
     from {
     }
     25% {
-      transform: translateY(-33%);
+      transform: translate3D(0, -33%, 0);
     }
     35% {
-      transform: translateY(-33%);
+      transform: translate3D(0, -33%, 0);
     }
     60% {
-      transform: translateY(0);
+      transform: translate3D(0, 0, 0);
     }
     70% {
       font-size: 11svw;
-      transform: translateY(0);
+      transform: translate3D(0, 0, 0);
     }
     to {
       font-size: 2.7rem;
-      transform: translateY(0);
+      transform: translate3D(0, 0, 0);
     }
   }
 
@@ -128,7 +124,8 @@
   }
 
   .txt-build {
-    animation: build-animation var(--animation-time) var(--bezier-animation) forwards;
+    animation: build-animation var(--animation-time) var(--bezier-animation)
+      forwards;
     animation-delay: var(--animation-delay);
   }
 
@@ -157,18 +154,19 @@
   }
 
   .cover-text {
-    animation: cover-text-fixed var(--animation-time) var(--bezier-animation) forwards;
+    animation: cover-text-fixed var(--animation-time) var(--bezier-animation)
+      forwards;
     animation-delay: var(--animation-delay);
   }
 
   @keyframes cover-text-fixed {
     70% {
       top: 50%;
-      transform: translate(0, -50%);
+      transform: translate3D(0, -50%, 0);
     }
     to {
       top: 0;
-      transform: translate(0, 0);
+      transform: translate3D(0, 0, 0);
     }
   }
 
@@ -176,12 +174,12 @@
     @keyframes cover-text-fixed {
       70% {
         top: 50%;
-        transform: translate(0, -50%);
+        transform: translate3D(0, -50%, 0);
         padding: 0;
       }
       to {
         top: 0;
-        transform: translate(0, 0);
+        transform: translate3D(0, 0, 0);
         padding: 0.6rem 1rem;
       }
     }
@@ -190,21 +188,21 @@
       from {
       }
       25% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       35% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       60% {
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       70% {
         font-size: 11svw;
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       to {
         font-size: var(--primary-msg-size-desktop);
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
     }
 
@@ -222,12 +220,12 @@
     @keyframes cover-text-fixed {
       70% {
         top: 50%;
-        transform: translate(0, -50%);
+        transform: translate3D(0, -50%, 0);
         padding: 0;
       }
       to {
         top: 0;
-        transform: translate(0, 0);
+        transform: translate3D(0, 0, 0);
         padding: 0.6rem 5%;
       }
     }
@@ -236,21 +234,21 @@
       from {
       }
       25% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       35% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       60% {
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       70% {
         font-size: 11svw;
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       to {
         font-size: 1.6rem;
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
     }
 
@@ -268,12 +266,12 @@
     @keyframes cover-text-fixed {
       70% {
         top: 50%;
-        transform: translate(0, -50%);
+        transform: translate3D(0, -50%, 0);
         padding: 0;
       }
       to {
         top: 0;
-        transform: translate(0, 0);
+        transform: translate3D(0, 0, 0);
         padding: 0.5rem 10px;
       }
     }
@@ -282,21 +280,21 @@
       from {
       }
       25% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       35% {
-        transform: translateY(-33%);
+        transform: translate3D(0, -33%, 0);
       }
       60% {
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       70% {
         font-size: 11svw;
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
       to {
         font-size: 1.4rem;
-        transform: translateY(0);
+        transform: translate3D(0, 0, 0);
       }
     }
 
@@ -312,14 +310,15 @@
 </style>
 
 <script>
-// JavaScript code to mark checkbox as checked on first scroll
-document.addEventListener('DOMContentLoaded', function() {
+  // JavaScript code to mark checkbox as checked on first scroll
+  document.addEventListener("DOMContentLoaded", function () {
     var checkboxChecked = false;
 
-    window.addEventListener('scroll', function() {
-        if (!checkboxChecked) {
-document.getElementById('cover').checked = true;
-checkboxChecked = true;
-        }
+    window.addEventListener("scroll", function () {
+      if (!checkboxChecked) {
+        document.getElementById("cover")!.checked = true;
+        checkboxChecked = true;
+      }
     });
-});
+  });
+</script>
