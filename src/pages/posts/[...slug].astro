@@ -96,11 +96,11 @@ await Promise.all(
 let publicImage = "";
 if (post.Cover) {
   const coverUrl = new URL(post.Cover!.Url);
-  const dir = "./public/notion/" + coverUrl.pathname.split("/").slice(-2)[0];
+  const dir = "/notion/" + coverUrl.pathname.split("/").slice(-2)[0];
   const filename = decodeURIComponent(
     coverUrl.pathname.split("/").slice(-1)[0]
   );
-  publicImage = `${dir}/${filename}`;
+  publicImage = `${Astro.site}/${dir}/${filename}`;
 }
 
 // Get images
