@@ -74,9 +74,9 @@ export async function getAllPosts(): Promise<Post[]> {
     filter: {
       and: [
         {
-          property: "Published",
-          checkbox: {
-            equals: true,
+          property: "Status",
+          status: {
+            equals: "Live",
           },
         },
         {

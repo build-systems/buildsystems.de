@@ -23,6 +23,7 @@ export interface RetrieveBlockChildren {
 export interface PropertyFilterObject {
   property: string;
 
+  status?: StatusFilterCondition;
   checkbox?: CheckboxFilterCondition;
 
   date?: DateFilterCondition;
@@ -35,6 +36,9 @@ export interface CompoundFilterObject {
   or?: PropertyFilterObject[];
 }
 
+export interface StatusFilterCondition {
+  equals?: "Not started" | "Draft" | "Needs revision" | "Live";
+}
 export interface CheckboxFilterCondition {
   equals?: boolean;
   does_not_equal?: boolean;
