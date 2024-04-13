@@ -13,7 +13,7 @@ import {
 import { importCoverImage } from "../../lib/blog-helpers";
 
 const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
-  getPosts(NUMBER_OF_POSTS_PER_PAGE),
+  getPosts(),
   getRankedPosts(),
   getAllTags(),
   getNumberOfPages(),
@@ -64,12 +64,13 @@ const images = await Astro.glob(
               </div>
               <div>
                 {image && (
-                  <img
+                  <Image
                     class="cover"
                     transition:name={post.Slug + "-image"}
                     src={image}
                     alt="Alt text for cover"
-                    width="400px"
+                    widths={[400]}
+                    sizes={"(max-width: 400px) 400px"}
                   />
                 )}
               </div>
