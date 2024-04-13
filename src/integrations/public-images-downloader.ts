@@ -1,27 +1,27 @@
 import type { AstroIntegration } from "astro";
-import { getAllPosts, downloadPublicFile } from "../lib/notion/client";
+import { getAllPosts, downloadPublicImage } from "../lib/notion/client";
 
 export default (): AstroIntegration => ({
-  name: "featured-image-downloader",
+  name: "cover-image-downloader",
   hooks: {
     "astro:build:start": async () => {
       const posts = await getAllPosts();
 
       await Promise.all(
         posts.map((post) => {
-          if (!post.PublicImage || !post.PublicImage.Url) {
+          if (!post.Cover || !post.Cover.Url) {
             return Promise.resolve();
           }
 
           let url!: URL;
           try {
-            url = new URL(post.PublicImage.Url);
+            url = new URL(post.Cover.Url);
           } catch (error) {
-            console.log("Invalid PublicImage URL\n" + error);
+            console.log("Invalid cover image URL\n" + error);
             return Promise.resolve();
           }
 
-          return downloadPublicFile(url);
+          return downloadPublicImage(url);
         })
       );
     },

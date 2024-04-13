@@ -17,7 +17,7 @@ export default (): AstroIntegration => ({
           try {
             url = new URL(post.Cover.Url);
           } catch (error) {
-            console.log("Invalid PublicImage URL\n" + error);
+            console.log("Invalid cover image URL\n" + error);
             return Promise.resolve();
           }
 

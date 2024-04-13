@@ -396,11 +396,6 @@ export async function downloadFile(url: URL) {
     return Promise.resolve();
   }
 
-  // const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
-  // if (!fs.existsSync(dir)) {
-  //   fs.mkdirSync(dir);
-  // }
-
   console.log("\nGetting folder path...");
   const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
   console.log("Folder path is: " + dir);
@@ -437,7 +432,8 @@ export async function downloadFile(url: URL) {
   }
 }
 
-export async function downloadPublicFile(url: URL) {
+export async function downloadPublicImage(url: URL) {
+  console.log("\n===== Starting Public Image Download =====");
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -473,12 +469,14 @@ export async function downloadPublicFile(url: URL) {
   console.log("Full file path is: " + filepath);
 
   const writeStream = createWriteStream(filepath);
-  const rotate = sharp().rotate();
+  // const rotate = sharp().rotate();
 
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(rotate);
+    stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
+  } else {
+    stream = stream.pipe(sharp().resize({ width: 800 }));
   }
   try {
     console.log("\nDownloading file now");
