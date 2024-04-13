@@ -94,9 +94,12 @@ await Promise.all(
 
 // Public image
 let publicImage = "";
-if (post.PublicImage && post.PublicImage.Url) {
-  publicImage = new URL(filePath(new URL(post.PublicImage.Url)), Astro.site)
-    .pathname;
+if (post.Cover) {
+  const coverUrl = new URL(post.Cover!.Url);
+  const imagename = decodeURIComponent(
+    coverUrl.pathname.split("/").slice(-1)[0]
+  );
+  publicImage = `/notion/${imagename}`;
 }
 
 // Get images
