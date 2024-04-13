@@ -10,6 +10,7 @@ import {
   getAllTags,
   getNumberOfPages,
 } from "../../lib/notion/client.ts";
+import { importCoverImage } from "../../lib/blog-helpers";
 
 const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
   getPosts(NUMBER_OF_POSTS_PER_PAGE),
@@ -22,6 +23,11 @@ const title = "BuildSystems | Posts";
 const description =
   "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
 const image = `/images/heroRendering.webp`;
+
+// Get images
+const images = await Astro.glob(
+  "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
+);
 ---
 
 <BaseLayout
@@ -44,6 +50,7 @@ const image = `/images/heroRendering.webp`;
     <!-- <p class="category">{post.data.category}</p> -->
     {
       posts.map((post, index) => {
+        const image = importCoverImage(post, images);
         const href = post.Slug;
         return (
           <a href={href} class="card-link">
@@ -56,11 +63,11 @@ const image = `/images/heroRendering.webp`;
                 <p class="date">— {post.PublishDate}</p>
               </div>
               <div>
-                {post.PublicImage && (
+                {image && (
                   <img
                     class="cover"
                     transition:name={post.Slug + "-image"}
-                    src={post.PublicImage.Url}
+                    src={image}
                     alt="Alt text for cover"
                     width="400px"
                   />

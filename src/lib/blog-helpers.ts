@@ -7,6 +7,7 @@ import type {
   Heading3,
   RichText,
   Column,
+  Post,
 } from "./interfaces";
 import { pathJoin } from "./utils";
 
@@ -295,4 +296,24 @@ export const parseYouTubeVideoId = (url: URL): string => {
   }
 
   return "";
+};
+
+export const importCoverImage = (post: Post, images: any): any => {
+  if (post.Cover) {
+    const url = new URL(post.Cover!.Url);
+
+    const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+    // console.log("\nimagename Slug = " + imagename);
+
+    const imagenamesimple = imagename.split(".")[0];
+
+    // console.dir(images);
+
+    return images.find((item: any) =>
+      item.default.src.includes(imagenamesimple)
+    )!.default;
+  } else {
+    // Block is null or undefined
+    console.log("Block is null or undefined");
+  }
 };
