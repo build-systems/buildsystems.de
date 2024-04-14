@@ -1,0 +1,229 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { formatDate } from "../../utils/getPostData.ts";
+import { Image, Picture } from "astro:assets";
+
+import {
+  getAllPosts,
+  // getAllTags,
+  // getNumberOfPages,
+} from "../../lib/notion/client.ts";
+import { importCoverImage } from "../../lib/blog-helpers.ts";
+
+// const [posts, tags, numberOfPages] = await Promise.all([
+//   getPosts(),
+//   getAllTags(),
+//   getNumberOfPages(),
+// ]);
+const posts = await getAllPosts();
+
+const title = "BuildSystems | Posts";
+const description =
+  "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
+const publicImage = `/images/heroRendering.webp`;
+
+// Get images
+const images = await Astro.glob(
+  "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
+);
+// console.dir(posts);
+// console.dir(images);
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  heroImage={publicImage}
+  transition={true}
+  current="posts"
+>
+  <div class="frame primary-font-size blog-height primary-margin-top">
+    <h2 class="sticky">
+      ist stets auf dem aktuellen Stand der <span class="font-secondary green"
+        >Branchentrends</span
+      >. Auf unserem Blog teilen wir spannende Insights und laden Sie ein,
+      mitzulesen, wie Sie von den Innovationen in der Baubranche
+      profitieren können.
+    </h2>
+  </div>
+  <div class="frame blog-container">
+    <!-- <p class="category">{post.data.category}</p> -->
+    {
+      posts.map((post, index) => {
+        const image = importCoverImage(post, images);
+        const href = post.Slug;
+        return (
+          <a href={href} class="card-link">
+            <div class="card">
+              <div class="card-text">
+                <h3 class="title" transition:name={post.Slug + "-title"}>
+                  {post.Title}
+                </h3>
+                <p class="description">{post.Description}</p>
+                <p class="date">— {post.PublishDate}</p>
+              </div>
+              <div>
+                {image && (
+                  <Image
+                    class="cover"
+                    transition:name={post.Slug + "-image"}
+                    src={image}
+                    alt={post.CoverAlt}
+                    widths={[300, 400, 500]}
+                    sizes={
+                      "(max-width: 300px) 300px, (max-width: 400px) 400px, (max-width: 500px) 500px"
+                    }
+                  />
+                )}
+              </div>
+            </div>
+          </a>
+        );
+      })
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .blog-height {
+    min-height: 45svh;
+  }
+
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    padding-top: 5svh;
+    margin-bottom: 10svh;
+  }
+
+  .card-link {
+    display: flex;
+  }
+
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-cards);
+    border-radius: var(--card-border-radius);
+    padding: 2rem 1.5rem;
+    gap: 0.5rem;
+    justify-content: space-between;
+    transition:
+      filter 0.2s,
+      transform 0.2s;
+    will-change: transform;
+  }
+
+  .card-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-after: 5;
+    -webkit-hyphenate-limit-before: 7;
+    -webkit-hyphenate-limit-chars: 13 5 7;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 12 4 4;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 12 4 4;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+    hyphens: auto;
+    hyphenate-limit-chars: 12 4 4;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+    .title {
+      text-wrap: balance;
+      order: 2;
+    }
+    .category {
+      order: 1;
+    }
+    .description {
+      order: 3;
+    }
+    .date {
+      order: 4;
+    }
+  }
+
+  .category {
+    /* border: 1px solid var(--primary-color); */
+    border-radius: 2rem;
+    width: fit-content;
+    /* padding: 0 1rem; */
+  }
+
+  .description {
+    flex: 1;
+  }
+
+  .card:hover {
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 1));
+    transform: translate3d(0, -5px, 0);
+    h3 {
+      text-decoration: underline;
+    }
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .cover {
+    aspect-ratio: 12/8;
+    object-fit: cover;
+    object-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: var(--card-border-radius);
+    background-color: #222;
+  }
+
+  .date {
+    color: var(--text-secondary);
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 16px;
+  }
+
+  @media (max-width: 1280px) {
+    .blog-height {
+      min-height: 60svh;
+    }
+
+    .blog-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 920px) {
+    .blog-height {
+      min-height: 45svh;
+    }
+
+    .blog-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>

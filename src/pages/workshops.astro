@@ -1,0 +1,257 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Button from "../components/Button.astro";
+import { Image } from "astro:assets";
+import actionCardMobilitaetsprofil from "../assets/action-cards-mobilitaetsprofil.png";
+import actionCardBlauGruenProfil from "../assets/action-cards-blau-gruen-profil.png";
+import actionCardsQualitaetSolarZirkularitaet from "../assets/action-cards-qualitaet-solar-zirkularitaet.png";
+import actionCardsFlexibilitaetKlimarisiko from "../assets/action-cards-flexibilitaet-klimarisiko.png";
+import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+
+const title = "BuildSystems | Revitalisierung";
+const description =
+  "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
+const image = "/images/services-smart-sustainability-roadmap.png";
+const current = "services/revitalisierung";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  heroImage={image}
+  current={current}>
+  <div class="frame primary-font-size primary-height primary-margin-top">
+    <h2 class="sticky">
+      erschließt Chancen in Ihrem Team. Stellen Sie sich der Veränderung und eröffnen Sie Transformations­räume.
+      Gemeinsam gehen wir in unseren Workshops den Weg zu <span class="font-secondary green">Fit For Future</span>.
+    </h2>
+  </div>
+  <div class="frame msg-secondary">
+    <p>
+      Sie und Ihr Team wollen verstehen, wie Sie die aktuellen Herausforderungen um ESG, Dekarbonisierung und
+      Zirkularität in der Baubranche zu Chancen verwandeln? In umfangreichen Workshops stellen wir die Weichen für Ihren
+      Weg in die Zukunft. Gerne besprechen wir mit Ihnen im Vorhinein Fokuspunkte und Umfang und legen ein individuelles
+      Angebot entsprechend Ihren Vorstellungen.
+    </p>
+  </div>
+  <div class="frame primary-margin-top image-text-grid">
+    <Image
+      class="cover"
+      src={actionCardMobilitaetsprofil}
+      alt="One workshop participant holds the action card Mobilitaetsprofil while another points to a urban plan sketch"
+    />
+    <div class="msg-tertiary">
+      <h2>Fit for Future – Green Buildings</h2>
+      <p>
+        Emissionen, Energie, Wasser, Nutzung & Bedarf, Mobilität, Grünraum und Förderungen sind Teil nachhaltiger
+        Stadt­entwicklung. Doch wie kann man all diese Aspekte innerhalb eines Projekts zusammen­führen und auch noch
+        möglichst optimieren?
+      </p>
+      <p>
+        Gemeinsam mit Ihrem Team erarbeiten wir Schritt für Schritt die Potenziale Ihrer Immobilien und prüfen die
+        Sinnhaftigkeit, sowie den Impact jeder einzelnen Stell­schraube. Dabei erläutern wir Konzepte sowie konkrete
+        Maßnahmen und zeigen Konsequenzen auf. Anstelle DGNB Kataloge zu wälzen, wird Ihr Team spielerisch
+        Zusammen­hänge begreifen, Nachhaltigkeits­konzepte anwenden und Impact bewerten können. Praxisnah wird Ihr Team
+        ein ganzheitliches und funktionie­rendes Entwicklungs­konzept der Zukunft erstellen.
+      </p>
+      <Button
+        text="buchen"
+        link="mailto:mail@buildsystems.de"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+        widthFitContent={true}
+      />
+    </div>
+  </div>
+  <div class="frame primary-margin-top image-text-grid flipped-content">
+    <div class="msg-tertiary">
+      <h2>Fit for Future – Strategische Transformation</h2>
+      <p>
+        Mach­en Sie Ihr Unter­nehm­en und Ihre Teams fit für die Zu­kunft und stärk­en Sie Ihre Stel­lung als
+        attrak­tiver Arbeitgeber!
+      </p>
+      <p>
+        Ent­decken Sie mit uns die Schlüssel­rolle, die Sie heute in Ihrem Tätig­keits­feld ein­nehmen, und
+        visuali­sieren Sie Ihre zukünf­tige Posi­tion­ier­ung. Analy­sie­ren Sie mit unseren Ex­per­ten
+        unter­neh­merische Risiken und Unsicher­heiten. Set­zen Sie sich dabei in­ten­siv mit Ihren Kom­pe­ten­zen und
+        dem trans­for­mat­iven Poten­zial Ihrer Prozesse aus­ein­ander und er­schlie­ßen Sie Wach­stums­chan­cen durch
+        klare Umwelt­entlas­tungs­strategien.
+      </p>
+      <p>
+        Wir geben Nach­haltig­keits­manager:innen und Pro­jekt­verant­wort­lichen die argu­mentativen Werk­zeuge an die
+        Hand, um die Not­wendig­keit einer Trans­formation gegen­über Ihrem Manage­ment über­zeug­end zu präsen­tieren.
+        Lei­ten Sie so die maß­geb­lichen Schritte ein, um lang­fristig zukunfts­fähig zu agieren und zu wirtschaften.
+      </p>
+      <div>
+        <Button
+          text="buchen"
+          link="mailto:mail@buildsystems.de"
+          openOnNewTab={true}
+          icon="redirect"
+          ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+          widthFitContent={true}
+        />
+      </div>
+    </div>
+    <img
+      class="svg-action-card"
+      src="/assets/action-card-emissionsprofil.svg"
+      alt="dena logo"
+    />
+  </div>
+  <div class="frame primary-font-size primary-height primary-margin-top">
+    <h2 class="sticky">
+      schafft <span class="font-secondary green">Wissenstransfer</span> durch interaktive Workshops. So bleibt Ihr Team am
+      Puls der Zeit.
+    </h2>
+  </div>
+  <div class="frame msg-secondary">
+    <p>
+      Sie wünschen sich einen hürdenlosen Einstieg in die aktuellen Themen, die sich rund um Nachhaltigkeit und Bauwende
+      ranken? Mit unseren Wissenstransferformaten bieten wir nicht nur Inhalte, sondern gehen auf Ihre Vorkenntnisse ein
+      und starten den Austausch als Sparringspartner auf Augenhöhe.
+    </p>
+  </div>
+
+  <div class="frame primary-margin-top image-text-grid">
+    <Image
+      class="cover"
+      src={actionCardBlauGruenProfil}
+      alt="Action card Blau-Gruen-Profil"
+    />
+    <div class="msg-tertiary">
+      <h2>Einstieg ins nachhaltige Bauen</h2>
+      <p>
+        Begriffe wie EU-Taxonomie oder CSRD begegnen Ihnen immer öfter im Alltag. Sie und Ihr Team wollen verstehen, wie
+        Sie die aktuellen Herausforderungen in der Baubranche zu Chancen verwandeln. Die kurze Antwort hier ist
+        “nachhaltige Baumaßnahmen.” Früher waren diese lediglich ein netter Zusatz, heute gelten sie als zukunftsfite
+        Sparmaßnahmen.
+      </p>
+      <p>
+        In unserem XY-Stunden Workshop besprechen wir die Entwicklung von Regulatorik und wie sich verschiedene
+        Dekarbonisierungspfade auf die Profitabilität Ihres Unternehmens auswirken können. Nach diesem Tag wird Ihr Team
+        graue und operative Emissionen verstehen  und wie durch nachhaltige Maßnahmen gegengesteuert werden kann.
+      </p>
+      <p>
+        Dauer: XY Stunden
+        <br />
+        Art: Persönlich oder digital
+        <br />
+        Für X-Y Personen
+        <br />
+        Investition: XY Euro exkl. USt
+      </p>
+      <Button
+        text="buchen"
+        link="mailto:mail@buildsystems.de"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+        widthFitContent={true}
+      />
+    </div>
+  </div>
+  <div class="frame primary-margin-top image-text-grid flipped-content">
+    <div class="msg-tertiary">
+      <h2>Sanierungs- und Neubau­förderungen</h2>
+      <p>
+        2024 zahlen sich Investitionen in nachhaltige Baumaßnahmen gleich dreimal aus! Wer nachhaltig baut, macht nicht
+        nur das Asset Portfolio zukunftsfit, sondern sichert sich zeitgleich günstigere Kreditkonditionen. Außerdem
+        werden viele nachhaltige Maßnahmen richtig gut gefördert. Buchen Sie unseren Workshop und verschaffen Sie sich
+        einen Überblick über die aktuelle Förderlandschaft und wie Sie durch schlaue Entscheidungen zusätzlich
+        profitieren können.
+      </p>
+      <p>
+        Dauer: XY Stunden
+        <br />
+        Art: Persönlich oder digital
+        <br />
+        Für X-Y Personen
+        <br />
+        Investition: XY Euro exkl. USt
+      </p>
+      <Button
+        text="buchen"
+        link="mailto:mail@buildsystems.de"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+        widthFitContent={true}
+      />
+    </div>
+    <Image
+      class="cover"
+      id="cover"
+      src={actionCardsQualitaetSolarZirkularitaet}
+      alt="Three action cards: Qualitaetsprofil Solarprofil Zirkularitaetsprofil"
+    />
+  </div>
+  <!-- new -->
+  <div class="frame primary-margin-top image-text-grid flipped-content">
+    <Image
+      class="cover"
+      id="cover"
+      src={actionCardsFlexibilitaetKlimarisiko}
+      alt="Three action cards: Qualitaetsprofil Solarprofil Zirkularitaetsprofil"
+    />
+    <div class="msg-tertiary">
+      <h2>Einstieg ins kreislauffähige Bauen</h2>
+      <p>
+        Die Trendprognose sagt ganz klar: Zirkuläres Bauen ist im Kommen! Buchen Sie unseren Workshop um zu erfahren,
+        welche Chancen und Potentiale Kreislaufwirtschaft am Bau bietet. Gemeinsam beleuchten wir aktuelle
+        Herausforderungen, untersuchen die Bedeutung grauer und operativer Emissionen und brainstormen mit Hilfe unserer
+        Action Cards welche Aspekte und Möglichkeiten Sie haben, Ihr Portfolio zukunftsfit zu gestalten.
+      </p>
+      <p>
+        Dauer: XY Stunden
+        <br />
+        Art: Persönlich oder digital
+        <br />
+        Für X-Y Personen
+        <br />
+        Investition: XY Euro exkl. USt
+      </p>
+      <Button
+        text="buchen"
+        link="mailto:mail@buildsystems.de"
+        openOnNewTab={true}
+        icon="redirect"
+        ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
+        widthFitContent={true}
+      />
+    </div>
+  </div>
+  <BlogCarousel />
+</BaseLayout>
+<style>
+  h2 {
+    margin-top: 0;
+  }
+
+  .cover {
+    object-fit: cover;
+    border-radius: var(--card-border-radius);
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .svg-action-card {
+    width: clamp(80px, 70svw, 300px);
+    justify-self: center;
+  }
+
+  @media (max-width: 1100px) {
+    .action-card {
+      max-height: 400px;
+    }
+
+    .flipped-content div {
+      order: 2;
+    }
+
+    .flipped-content img {
+      order: 1;
+    }
+  }
+</style>

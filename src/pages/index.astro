@@ -10,6 +10,8 @@ import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 import Cover from "../components/Cover.astro";
 import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+import bsTeam from "../assets/buildsystems-team.jpg";
+import PlusExpand from "../components/PlusExpand.astro";
 ---
 
 <BaseLayout
@@ -31,21 +33,16 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
-      arbeitet mit Projektentwickler:innen, Bestandshaltern und
-      Generalunternehmen, um gemeinsam zukunftsfähige Immobilienprojekte zu
-      realisieren.
+      gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
+      klimafreundliche Gebäude.
     </h2>
   </div>
   <div class="frame msg-secondary">
     <p>
-      Die Bauwende stellt eine unserer größten Heraus­forderungen dar, jedoch
-      ist sie auch mit immensen Wachstums­chancen verbunden. Wir unterstützen
-      sie bei der Strategie­entwicklung und -implementierung. Individuell auf
-      Ihre Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren
-      Potentiale und optimieren Prozesse durch smarte
-      Digitalisierungs­maßnahmen. Dabei treiben wir besonders die
-      Dekarbo­nisierung des Sektors voran und ebnen den Weg zu relevanten
-      Fördermitteln. So machen sich Ihre Green Assets langfristig bezahlt!
+      Gemeinsam mit Projektentwickler:innen, Bestandshaltern und
+      Stadtverwaltungen realisieren wir zukunftsfähige Immobilien und treiben
+      die nachhaltige Bauwende voran. Dabei geht Innovation bei uns Hand in Hand
+      mit kreativen Lösungsansätzen.
     </p>
   </div>
 
@@ -63,22 +60,61 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
   </div>
 
   <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
-      ist eine technologiegestützte Nachhaltigkeitsberatung. Wir stellen sicher,
-      dass Ihre Immobilien grün, zukunftsfähig und risikoarm sind.
-    </h2>
+    <div class="sticky">
+      <h2 class="">
+        ist als technologiegestützte Nachhaltigkeitsberatung Ihr
+        Sparringspartner auf dem Weg zur Klimaneutralität – mit
+        interdisziplinärer Kompetenz und einem ganzheitlichen Ansatz.
+      </h2>
+      <PlusExpand>Here goes the extra text</PlusExpand>
+    </div>
   </div>
+  <div class="frame image-text-grid">
+    <div class="options-animation">
+      <Image class="image" src={bsTeam} alt="BuildSystems team working" />
+    </div>
+    <div
+      aria-label="Animation: Smart Sustainability Roadmap"
+      class="animation02"
+    >
+      <LottieAnimation
+        id="animation02"
+        src="animations/smart-sustainability-roadmap.json"
+        autoplay="visible"
+      />
+    </div>
+  </div>
+
+  <div class="frame primary-font-size primary-height primary-margin-top">
+    <div class="sticky">
+      <h2 class="">
+        stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
+        Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
+      </h2>
+      <div class="read-more">
+        <span>+</span>
+        <span
+          ><Button
+            text="Services"
+            link="/services"
+            icon="redirect"
+            widthFitContent
+          /></span
+        >
+      </div>
+    </div>
+  </div>
+
   <div class="carousel-container">
     <BuildCarousel />
   </div>
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
-      stellt Leis­tungs­pa­ke­te maß­ge­schn­ei­dert zu­sam­men und ent­spricht
-      so Ihrem indi­vi­du­ellen Be­darf. Sche­ma F gibt es bei uns nicht. Da­bei
-      be­hal­ten wir im­mer das große Gan­ze im Blick.
+      erarbeitet mit langfristig durchdachten Dekarbonisierungsstrategien und
+      Entwicklungsszenarien den effizientesten Weg für Sie von Braun zu Grün.
       <Button
-        text="Services"
-        link="/services"
+        text="Our Work"
+        link="/ourwork"
         icon="redirect"
         ariaLabel="Go to Services page"
         widthFitContent={true}
@@ -86,83 +122,28 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
     </h2>
   </div>
 
-  <div class="frame msg-secondary">
-    <p>
-      Wir unterstützen Sie bei der Entwicklung von Dekarbonisierungs­strategien
-      für Ihr Unternehmen und erschließen Potenziale der Umwelt­entlastung
-      ganzheitlich. Darüber hinaus bieten wir Energie- und Fördermittel­beratung
-      sowie Umnutzungs­konzepte für die Revitalisierung von Bestands­gebäuden.
-      Wir begleiten Sie mit fach­planerischen Leistungen und Beratung zur
-      Nachhaltigkeits­steuerung innerhalb Ihres Planungs­prozesses.  Daten sind
-      der Schlüssel zu einer besseren Emissions­bilanz. Deshalb beraten wir sie
-      tool­unabhängig im inter­disziplinären Team aus Nachhaltigkeits- und
-      Softwar­espezialisten bei der Digitalisierung Ihres Portfolios und der
-      Abwicklung Ihrer Carbon Due Diligence.
-    </p>
+  <!-- <BlogCarousel /> -->
+  <div class="frame primary-font-size primary-height primary-margin-top">
+    <div class="sticky">
+      <h2>
+        hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und
+        gibt Orientierung auf unbekanntem Terrain. Veränderung wird aktiv im
+        Team gestaltet.
+      </h2>
+      <div class="read-more">
+        <span>+</span>
+        <span
+          ><Button
+            text="Workshops"
+            link="/workshops"
+            icon="redirect"
+            widthFitContent
+          /></span
+        >
+      </div>
+    </div>
   </div>
 
-  <div aria-label="Animation: Smart Sustainability Roadmap" class="animation02">
-    <LottieAnimation
-      id="animation02"
-      src="animations/smart-sustainability-roadmap.json"
-      autoplay="visible"
-    />
-  </div>
-
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
-      entwickelt digitale Anwendungen ebenso wie Nach­haltigkeits­fahrpläne.
-      Digitalisierung geht bei uns Hand in Hand mit kreativen Lösungs­ansätzen
-      zu aktuellen Heraus­forderungen in der Baubranche.
-      <Button
-        text="Referenzen"
-        link="/referenzen"
-        icon="redirect"
-        ariaLabel="Go to Referenzen page"
-        widthFitContent={true}
-      />
-    </h2>
-  </div>
-  <div class="frame msg-secondary">
-    <p>
-      Unsere Projekte bilden einen Querschnitt durch Forschungs­arbeiten, und
-      Wissens­transfer­formaten sowie durch Beratungs- und Planungs­leistungen.
-      Dabei ist die Dekarbo­nisierung unserer gebauten Umwelt das verbindende
-      Element all unserer Projekte, denn sie ist zur Erreichung der globalen
-      Klimaziele unumgänglich. Der Fokus unserer Arbeit liegt stets darauf, jene
-      Vorteile, die über die Verringerung von Emissionen hinausgehen, für unsere
-      jeweiligen Kunden heraus­zuarbeiten und so die Wert­beständig­keit von
-      Immobilien und Entwicklungen zu gewährleisten.
-    </p>
-  </div>
-  <BlogCarousel />
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
-      hilft, Heraus­forderungen des nach­halti­gen Bau­ens bes­ser zu ver­stehen
-      und gibt Ori­en­tie­rung auf un­bekann­tem Ter­rain. Ver­än­de­rung wird
-      ak­tiv im Team gestaltet.
-      <Button
-        text="Referenzen"
-        link="/referenzen"
-        icon="redirect"
-        ariaLabel="Go to Referenzen page"
-        widthFitContent={true}
-      />
-    </h2>
-  </div>
-  <div class="frame msg-secondary">
-    <p>
-      Wir haben unseren Fit For Future Ansatz als ein Weiter­bildungs­format
-      rund um die Herausforderungen nachhaltiger Projekt­entwicklung und
-      unternehmens­strategische Dekarbo­nisierung konzipiert. In analogen
-      Modulen lernen die Teilnehmenden, worauf es bei der Entwicklung von
-      zukunftsfähigen, lebenswerten und gemischten Projekten in urbanen Gebieten
-      ankommt und wie Unternehmen diese Ansätze auf Unternehmens­ebene
-      verankern. Managen Sie in Zukunft die verschiedenen Stells­chrauben der
-      Nach­haltigkeit ganzheitlich und verstehen Sie, welche Maßnahmen
-      tatsächlich einen positiven Impact schaffen.
-    </p>
-  </div>
   <div class="frame workshop-cards">
     <img
       class="svg-action-card"
@@ -225,9 +206,7 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
   .animation02 {
     margin-top: -2rem;
     margin-bottom: -4rem;
-    width: 70%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
   }
 
   .workshop-cards {
@@ -243,6 +222,10 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
   .svg-action-card {
     width: clamp(80px, 20svw, 300px);
     justify-self: center;
+  }
+
+  .image {
+    border-radius: var(--card-border-radius);
   }
 
   @media (max-width: 1280px) {
