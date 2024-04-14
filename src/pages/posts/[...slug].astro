@@ -7,7 +7,6 @@ import * as interfaces from "../../lib/interfaces.js";
 import {
   getPosts,
   getAllPosts,
-  getRankedPosts,
   getPostBySlug,
   getPostsByTag,
   getBlock,
@@ -47,11 +46,10 @@ if (!post) {
   throw new Error(`Post not found. slug: ${slug}`);
 }
 
-const [blocks, allPosts, rankedPosts, recentPosts, tags, postsHavingSameTag] =
+const [blocks, allPosts, recentPosts, tags, postsHavingSameTag] =
   await Promise.all([
     getAllBlocksByBlockId(post.PageId),
     getAllPosts(),
-    getRankedPosts(),
     getPosts(5),
     getAllTags(),
     getPostsByTag(post.Tags[0]?.name, 6),

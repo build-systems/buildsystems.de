@@ -301,6 +301,7 @@ export const parseYouTubeVideoId = (url: URL): string => {
 export const importCoverImage = (post: Post, images: any): any => {
   if (post.Cover) {
     const url = new URL(post.Cover!.Url);
+    // console.log("\nurl = " + url);
 
     const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
     // console.log("\nimagename Slug = " + imagename);

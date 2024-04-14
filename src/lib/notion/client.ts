@@ -69,6 +69,7 @@ export async function getAllPosts(): Promise<Post[]> {
     return Promise.resolve(postsCache);
   }
 
+  console.log("===== Getting all posts =====");
   const params: requestParams.QueryDatabase = {
     database_id: DATABASE_ID,
     filter: {
@@ -117,8 +118,8 @@ export async function getAllPosts(): Promise<Post[]> {
         retries: numberOfRetry,
       }
     );
-
     results = results.concat(res.results);
+    console.dir(JSON.stringify(results));
 
     if (!res.has_more) {
       break;
@@ -138,20 +139,20 @@ export async function getPosts(pageSize = 10): Promise<Post[]> {
   return allPosts.slice(0, pageSize);
 }
 
-export async function getRankedPosts(pageSize = 10): Promise<Post[]> {
-  const allPosts = await getAllPosts();
-  return allPosts
-    .filter((post) => !!post.Rank)
-    .sort((a, b) => {
-      if (a.Rank > b.Rank) {
-        return -1;
-      } else if (a.Rank === b.Rank) {
-        return 0;
-      }
-      return 1;
-    })
-    .slice(0, pageSize);
-}
+// export async function getRankedPosts(pageSize = 10): Promise<Post[]> {
+//   const allPosts = await getAllPosts();
+//   return allPosts
+//     .filter((post) => !!post.Rank)
+//     .sort((a, b) => {
+//       if (a.Rank > b.Rank) {
+//         return -1;
+//       } else if (a.Rank === b.Rank) {
+//         return 0;
+//       }
+//       return 1;
+//     })
+//     .slice(0, pageSize);
+// }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   const allPosts = await getAllPosts();
@@ -541,7 +542,7 @@ export async function getDatabase(): Promise<Database> {
   if (res.cover) {
     cover = {
       Type: res.cover.type,
-      Url: res.cover.external?.url || res.cover?.file?.url || "",
+      Url: res.cover.external?.url || res.cover.file?.url || "",
     };
   }
 
@@ -987,8 +988,8 @@ async function _getSyncedBlockChildren(block: Block): Promise<Block[]> {
 function _validPageObject(pageObject: responses.PageObject): boolean {
   const prop = pageObject.properties;
   return (
-    !!prop.Page.title &&
-    prop.Page.title.length > 0 &&
+    !!prop.Title.title &&
+    prop.Title.title.length > 0 &&
     !!prop.Slug.rich_text &&
     prop.Slug.rich_text.length > 0 &&
     !!prop.PublishDate.date
@@ -1020,34 +1021,36 @@ function _buildPost(pageObject: responses.PageObject): Post {
   if (pageObject.cover) {
     cover = {
       Type: pageObject.cover.type,
-      Url: pageObject.cover.external?.url || "",
+      Url: pageObject.cover.external?.url || pageObject.cover.file?.url || "",
     };
   }
 
-  let publicImage: FileObject | null = null;
-  try {
-    if (prop.PublicImage.files && prop.PublicImage.files.length > 0) {
-      if (prop.PublicImage.files[0].external) {
-        publicImage = {
-          Type: prop.PublicImage.type,
-          Url: prop.PublicImage.files[0].external.url,
-        };
-      } else if (prop.PublicImage.files[0].file) {
-        publicImage = {
-          Type: prop.PublicImage.type,
-          Url: prop.PublicImage.files[0].file.url,
-          ExpiryTime: prop.PublicImage.files[0].file.expiry_time,
-        };
-      }
-    }
-  } catch (error) {
-    console.log("\nError while getting public image\n" + error);
-  }
+  // // I removed this field. Now the cover is the public.
+  // // It is converted to 800px in width
+  // let publicImage: FileObject | null = null;
+  // try {
+  //   if (prop.PublicImage.files && prop.PublicImage.files.length > 0) {
+  //     if (prop.PublicImage.files[0].external) {
+  //       publicImage = {
+  //         Type: prop.PublicImage.type,
+  //         Url: prop.PublicImage.files[0].external.url,
+  //       };
+  //     } else if (prop.PublicImage.files[0].file) {
+  //       publicImage = {
+  //         Type: prop.PublicImage.type,
+  //         Url: prop.PublicImage.files[0].file.url,
+  //         ExpiryTime: prop.PublicImage.files[0].file.expiry_time,
+  //       };
+  //     }
+  //   }
+  // } catch (error) {
+  //   console.log("\nError while getting public image\n" + error);
+  // }
 
   const post: Post = {
     PageId: pageObject.id,
-    Title: prop.Page.title
-      ? prop.Page.title.map((richText) => richText.plain_text).join("")
+    Title: prop.Title.title
+      ? prop.Title.title.map((richText) => richText.plain_text).join("")
       : "",
     Icon: icon,
     Cover: cover,
@@ -1065,8 +1068,8 @@ function _buildPost(pageObject: responses.PageObject): Post {
             .map((richText) => richText.plain_text)
             .join("")
         : "",
-    PublicImage: publicImage,
-    Rank: prop.Rank.number ? prop.Rank.number : 0,
+    // PublicImage: publicImage,
+    // Rank: prop.Rank.number ? prop.Rank.number : 0,
   };
 
   return post;

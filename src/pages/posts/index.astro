@@ -3,37 +3,37 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
 import { Image, Picture } from "astro:assets";
 
-import { NUMBER_OF_POSTS_PER_PAGE } from "../../server-constants.ts";
 import {
-  getPosts,
-  getRankedPosts,
-  getAllTags,
-  getNumberOfPages,
+  getAllPosts,
+  // getAllTags,
+  // getNumberOfPages,
 } from "../../lib/notion/client.ts";
-import { importCoverImage } from "../../lib/blog-helpers";
+import { importCoverImage } from "../../lib/blog-helpers.ts";
 
-const [posts, rankedPosts, tags, numberOfPages] = await Promise.all([
-  getPosts(),
-  getRankedPosts(),
-  getAllTags(),
-  getNumberOfPages(),
-]);
+// const [posts, tags, numberOfPages] = await Promise.all([
+//   getPosts(),
+//   getAllTags(),
+//   getNumberOfPages(),
+// ]);
+const [posts] = await Promise.all([getAllPosts()]);
 
 const title = "BuildSystems | Posts";
 const description =
   "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
-const image = `/images/heroRendering.webp`;
+const publicImage = `/images/heroRendering.webp`;
 
 // Get images
 const images = await Astro.glob(
   "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
 );
+console.dir(posts);
+console.dir(images);
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  heroImage={image}
+  heroImage={publicImage}
   transition={true}
   current="posts"
 >
@@ -51,6 +51,7 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
+        console.log(post.Slug);
         const href = post.Slug;
         return (
           <a href={href} class="card-link">

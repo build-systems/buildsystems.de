@@ -31,9 +31,14 @@ export interface RetrieveBlockChildrenResponse {
 }
 
 // common interfaces
+// User
+// https://developers.notion.com/reference/user
 interface UserObject {
   object: string;
   id: string;
+  type?: string;
+  name?: string;
+  avatar_url?: string;
 }
 
 interface FileObject {
@@ -53,7 +58,7 @@ interface External {
 }
 
 export interface Emoji {
-  type: string;
+  type: "emoji";
   emoji: string;
 }
 
@@ -133,7 +138,7 @@ interface DatabaseObject {
   title: RichTextObject[];
   description: RichTextObject[];
   icon: FileObject | Emoji | null;
-  cover: FileObject;
+  cover: FileObject | null;
   properties: DatabaseProperties;
   parent: Parent;
   url: string;
@@ -234,15 +239,16 @@ export interface PageObject {
   object: string;
   id: string;
   created_time: string;
-  created_by: UserObject;
   last_edited_time: string;
+  created_by: UserObject;
   last_edited_by: UserObject;
-  archived: boolean;
+  cover: FileObject | null;
   icon: FileObject | Emoji | null;
-  cover: FileObject;
-  properties: PageProperties;
   parent: Parent;
+  archived: boolean;
+  properties: PageProperties;
   url: string;
+  public_url: string | null;
 }
 
 interface PageProperties {
