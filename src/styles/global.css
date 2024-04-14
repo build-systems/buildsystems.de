@@ -5,9 +5,11 @@
   --text-secondary: #ccc;
   --primary-color: #d9d9d9;
   --font-family-primary: ABC Diatype, sans-serif, -apple-system, system-ui;
-  --font-family-secondary: ABC Diatype Mono, sans-serif, -apple-system, system-ui;
-  --font-alt: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-secondary: ABC Diatype Mono, sans-serif, -apple-system,
+    system-ui;
+  --font-alt: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   --layout-padding: 1rem;
   --card-border-radius: 0.5rem;
 
@@ -57,7 +59,8 @@
   --primary-color: aquamarine;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   -webkit-user-drag: none;
 }
@@ -86,7 +89,8 @@ html:focus-within {
   background: var(--primary-color);
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: var(--background-body);
   background: var(--primary-color);
 }
@@ -205,12 +209,12 @@ p a {
     color 0.2s ease-in-out;
   transition:
     box-shadow 0.2s ease-in-out,
-    color 0.2s ease-in-out;
+    color 0.1s ease-in-out;
 }
 
 p a:hover {
   box-shadow: inset 0 -1.5em 0 var(--primary-color);
-  color: var(--text-main);
+  color: var(--background-body);
 }
 
 img {
@@ -287,7 +291,7 @@ td {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .content p img {
@@ -297,13 +301,9 @@ td {
   object-position: center;
 }
 
-.content a:hover {
-  color: var(--background-body);
-}
-
 .content p {
   hyphens: auto;
-  width: clamp(200px, 100%, 700px)
+  width: clamp(200px, 100%, 700px);
 }
 
 .theme-toggle {
@@ -396,28 +396,28 @@ input[name="theme-toggle"] {
     padding-top: var(--sticky-padding-general);
   }
   -webkit-hyphens: auto;
-    -webkit-hyphenate-limit-lines: 2;
-    -webkit-hyphenate-limit-after: 5;
-    -webkit-hyphenate-limit-before: 7;
-    -webkit-hyphenate-limit-chars: 13 5 7;
-    -webkit-hyphenate-limit-lines: 2;
-    -webkit-hyphenate-limit-last: always;
-    -webkit-hyphenate-limit-zone: 8%;
-    -moz-hyphens: auto;
-    -moz-hyphenate-limit-chars: 12 4 4;
-    -moz-hyphenate-limit-lines: 2;
-    -moz-hyphenate-limit-last: always;
-    -moz-hyphenate-limit-zone: 8%;
-    -ms-hyphens: auto;
-    -ms-hyphenate-limit-chars:  12 4 4;
-    -ms-hyphenate-limit-lines: 2;
-    -ms-hyphenate-limit-last: always;
-    -ms-hyphenate-limit-zone: 8%;
-    hyphens: auto;
-    hyphenate-limit-chars: 12 4 4;
-    hyphenate-limit-lines: 2;
-    hyphenate-limit-last: always;
-    hyphenate-limit-zone: 8%;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-after: 5;
+  -webkit-hyphenate-limit-before: 7;
+  -webkit-hyphenate-limit-chars: 13 5 7;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-last: always;
+  -webkit-hyphenate-limit-zone: 8%;
+  -moz-hyphens: auto;
+  -moz-hyphenate-limit-chars: 12 4 4;
+  -moz-hyphenate-limit-lines: 2;
+  -moz-hyphenate-limit-last: always;
+  -moz-hyphenate-limit-zone: 8%;
+  -ms-hyphens: auto;
+  -ms-hyphenate-limit-chars: 12 4 4;
+  -ms-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-last: always;
+  -ms-hyphenate-limit-zone: 8%;
+  hyphens: auto;
+  hyphenate-limit-chars: 12 4 4;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
 }
 
 .intro-breath {

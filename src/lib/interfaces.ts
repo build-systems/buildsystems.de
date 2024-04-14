@@ -8,13 +8,15 @@ export interface Database {
 export interface Post {
   PageId: string;
   Title: string;
+  Description: string;
+  Authors: SelectProperty[];
+  Category: string;
   Icon: FileObject | Emoji | null;
   Cover: FileObject | null;
   CoverAlt: string;
   Slug: string;
   PublishDate: string;
   Tags: SelectProperty[];
-  Description: string;
   // PublicImage: FileObject | null;
   // Rank: number;
 }

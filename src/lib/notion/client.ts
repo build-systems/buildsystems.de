@@ -119,7 +119,7 @@ export async function getAllPosts(): Promise<Post[]> {
       }
     );
     results = results.concat(res.results);
-    console.dir(JSON.stringify(results));
+    // console.dir(JSON.stringify(results));
 
     if (!res.has_more) {
       break;
@@ -1027,6 +1027,7 @@ function _buildPost(pageObject: responses.PageObject): Post {
 
   // // I removed this field. Now the cover is the public.
   // // It is converted to 800px in width
+
   // let publicImage: FileObject | null = null;
   // try {
   //   if (prop.PublicImage.files && prop.PublicImage.files.length > 0) {
@@ -1052,6 +1053,8 @@ function _buildPost(pageObject: responses.PageObject): Post {
     Title: prop.Title.title
       ? prop.Title.title.map((richText) => richText.plain_text).join("")
       : "",
+    Authors: prop.Authors.multi_select ? prop.Authors.multi_select : [],
+    Category: prop.Category.select ? prop.Category.select.name : "",
     Icon: icon,
     Cover: cover,
     CoverAlt: prop.CoverAlt.rich_text

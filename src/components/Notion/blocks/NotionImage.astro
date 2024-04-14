@@ -39,18 +39,18 @@ let image: any;
 if (block.Image!.File) {
   try {
     const images = await Astro.glob("/src/assets/notion/**/*.{png,jpg,jpeg}");
-    console.dir(images);
+    // console.dir(images);
 
     const imagename = decodeURIComponent(url!.pathname.split("/").slice(-1)[0]);
-    console.log("\nimagename NotionImage = " + imagename);
+    // console.log("\nimagename NotionImage = " + imagename);
 
     const imagenamesimple = imagename.split(".")[0];
-    console.log("\nimagenamesimple NotionImage = " + imagenamesimple);
+    // console.log("\nimagenamesimple NotionImage = " + imagenamesimple);
 
     image = images.find((item) =>
       item.default.src.includes(imagenamesimple)
     )!.default;
-    console.dir(image);
+    // console.dir(image);
   } catch (error) {
     console.log("\nError while getting image for astro component: " + error);
   }

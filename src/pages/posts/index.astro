@@ -26,8 +26,8 @@ const publicImage = `/images/heroRendering.webp`;
 const images = await Astro.glob(
   "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
 );
-console.dir(posts);
-console.dir(images);
+// console.dir(posts);
+// console.dir(images);
 ---
 
 <BaseLayout
@@ -51,7 +51,6 @@ console.dir(images);
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        console.log(post.Slug);
         const href = post.Slug;
         return (
           <a href={href} class="card-link">
@@ -70,8 +69,10 @@ console.dir(images);
                     transition:name={post.Slug + "-image"}
                     src={image}
                     alt="Alt text for cover"
-                    widths={[400]}
-                    sizes={"(max-width: 400px) 400px"}
+                    widths={[300, 400, 500]}
+                    sizes={
+                      "(max-width: 300px) 300px, (max-width: 400px) 400px, (max-width: 500px) 500px"
+                    }
                   />
                 )}
               </div>
