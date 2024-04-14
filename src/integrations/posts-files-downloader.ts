@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 import {
   getAllPosts,
   downloadFile,
-  downloadPublicImage,
+  downloadPublicFile as downloadPublicFile,
   getAllBlocksByBlockId,
   getBlock,
 } from "../lib/notion/client";
@@ -29,7 +29,7 @@ export default (): AstroIntegration => ({
             return Promise.resolve();
           }
 
-          return downloadFile(url), downloadPublicImage(url);
+          return downloadFile(url), downloadPublicFile(url);
         })
       );
 
@@ -37,19 +37,18 @@ export default (): AstroIntegration => ({
         posts.map(async (post) => {
           const blocks = await getAllBlocksByBlockId(post.PageId);
 
-          const imageAtacchedBlocks = extractTargetBlocks(
-            "image",
-            blocks
-          ).filter((block) => {
-            if (!block) {
-              return false;
-            }
-            const imageBlock = block.Image;
-            return imageBlock && imageBlock.File && imageBlock.File.Url;
-          });
+          const fileAtacchedBlocks = extractTargetBlocks("image", blocks)
+            .concat(extractTargetBlocks("file", blocks))
+            .filter((block) => {
+              if (!block) {
+                return false;
+              }
+              const imageOrFile = block.Image || block.File;
+              return imageOrFile && imageOrFile.File && imageOrFile.File.Url;
+            });
 
           await Promise.all(
-            imageAtacchedBlocks
+            fileAtacchedBlocks
               .map(async (block) => {
                 const expiryTime = (block.Image || block.File)!.File!
                   .ExpiryTime;
@@ -67,10 +66,21 @@ export default (): AstroIntegration => ({
                     console.log("Invalid file URL");
                     return Promise.reject();
                   }
-                  return Promise.resolve(url);
+                  return Promise.resolve({
+                    url,
+                    type: block.Image ? "image" : "file",
+                  });
                 })
               )
-              .map((promise) => promise.then(downloadFile))
+              .map((promise) =>
+                promise.then(({ url, type }) => {
+                  if (type === "image") {
+                    return downloadFile(url);
+                  } else {
+                    return downloadPublicFile(url);
+                  }
+                })
+              )
           );
         })
       );

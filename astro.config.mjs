@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 import { CUSTOM_DOMAIN, BASE_PATH } from "./src/server-constants";
-import IndexPostImageDownloader from "./src/integrations/index-post-cover-image-downloader";
-import PostsImagesDownloader from "./src/integrations/posts-images-downloader";
+import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image-downloader";
+import PostsImagesDownloader from "./src/integrations/posts-files-downloader";
 import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
 
 import lottie from "astro-integration-lottie";

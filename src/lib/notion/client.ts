@@ -433,7 +433,7 @@ export async function downloadFile(url: URL) {
   }
 }
 
-export async function downloadPublicImage(url: URL) {
+export async function downloadPublicFile(url: URL) {
   console.log("\n===== Starting Public Image Download =====");
   let res!: AxiosResponse;
   try {

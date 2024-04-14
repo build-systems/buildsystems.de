@@ -1,32 +1,17 @@
 ---
 import * as interfaces from "../../lib/interfaces.js";
 import {
-  getPosts,
   getAllPosts,
   getPostBySlug,
   getPostsByTag,
-  getBlock,
   getAllTags,
   getAllBlocksByBlockId,
-  downloadFile,
 } from "../../lib/notion/client.js";
-import {
-  getPostLink,
-  filePath,
-  extractTargetBlocks,
-  importCoverImage,
-} from "../../lib/blog-helpers.js";
-import Layout from "../../layouts/NotionLayout.astro";
-import PostDate from "../../components/Notion/PostPublishDate.astro";
-import PostTags from "../../components/Notion/PostTags.astro";
-import PostTitle from "../../components/Notion/PostTitle.astro";
+import { importCoverImage } from "../../lib/blog-helpers.js";
 import PostBody from "../../components/Notion/PostBody.astro";
-import PostRelativeLink from "../../components/Notion/PostRelativeLink.astro";
-import BlogPostsLink from "../../components/Notion/BlogPostsLink.astro";
-import BlogTagsLink from "../../components/Notion/BlogTagsLink.astro";
 import styles from "../../styles/blog.module.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image, Picture } from "astro:assets";
+import { Image } from "astro:assets";
 import { formatDate } from "../../utils/getPostData";
 import Button from "../../components/Button.astro";
 
@@ -44,12 +29,7 @@ if (!post) {
   throw new Error(`Post not found. slug: ${slug}`);
 }
 
-const [blocks, allPosts, tags, postsHavingSameTag] = await Promise.all([
-  getAllBlocksByBlockId(post.PageId),
-  getAllPosts(),
-  getAllTags(),
-  getPostsByTag(post.Tags[0]?.name, 6),
-]);
+const [blocks] = await Promise.all([getAllBlocksByBlockId(post.PageId)]);
 
 // Public image
 let publicImage = "";
@@ -128,7 +108,6 @@ const authors = post.Authors;
       width: 100svw;
       height: 70svh;
       object-fit: cover;
-      border-radius: var(--card-border-radius);
     }
 
     button {
