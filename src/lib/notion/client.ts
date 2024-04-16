@@ -69,7 +69,7 @@ export async function getAllPosts(): Promise<Post[]> {
     return Promise.resolve(postsCache);
   }
 
-  console.log("===== Getting all posts =====");
+  console.log("\n===== Getting all posts =====");
   const params: requestParams.QueryDatabase = {
     database_id: DATABASE_ID,
     filter: {
@@ -377,8 +377,16 @@ export async function getAllTags(): Promise<SelectProperty[]> {
     );
 }
 
+async function checkFileExists(file: fs.PathLike) {
+  try {
+    await fs.promises.access(file, fs.constants.F_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 export async function downloadFile(url: URL) {
-  console.log("\n===== Starting File Download =====");
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -391,29 +399,34 @@ export async function downloadFile(url: URL) {
     console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
+  console.log("\n===== Starting File Download =====");
 
   if (!res || res.status != 200) {
     console.log(res);
     return Promise.resolve();
   }
 
-  console.log("\nGetting folder path...");
+  // console.log("1 - Getting folder path...");
   const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
-  console.log("Folder path is: " + dir);
-  console.log("\nChecking if folder exists...");
+  // console.log("2 - Folder path is: " + dir);
+  // console.log("3 - Checking if folder exists...");
   if (!fs.existsSync(dir)) {
-    console.log("\nIt still does not exists. Creating it...");
     fs.mkdirSync(dir);
-    console.log("\nFolder created.");
+    // console.log("4 - It did not exists, folder was created.");
   } else {
-    console.log("\nFolder already exists.");
+    // console.log("4 - Folder already exists.");
   }
 
-  console.log("\nGetting file name now");
+  // console.log("5 - Getting file name");
   const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-  console.log("File name is: " + filename);
+  // console.log("6 - File name is: " + filename);
   const filepath = `${dir}/${filename}`;
-  console.log("Full file path is: " + filepath);
+  // console.log("7 - Full file path is: " + filepath);
+
+  if (fs.existsSync(filepath)) {
+    console.log(`File already exists:\n${filepath}`);
+    return;
+  }
 
   const writeStream = createWriteStream(filepath);
   const rotate = sharp().rotate();
@@ -424,7 +437,7 @@ export async function downloadFile(url: URL) {
     stream = stream.pipe(rotate);
   }
   try {
-    console.log("\nDownloading file now");
+    console.log(`Downloading file:\n${filepath}`);
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);
@@ -434,7 +447,6 @@ export async function downloadFile(url: URL) {
 }
 
 export async function downloadPublicFile(url: URL) {
-  console.log("\n===== Starting Public Image Download =====");
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -447,30 +459,37 @@ export async function downloadPublicFile(url: URL) {
     console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
+  console.log("\n===== Starting Public Image Download =====");
 
   if (!res || res.status != 200) {
     console.log(res);
     return Promise.resolve();
   }
 
-  console.log("\nGetting folder path...");
+  // console.log("1 - Getting folder path...");
   const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
-  console.log("Folder path is: " + dir);
-  console.log("\nIt still does not exists. Creating it...");
+  // console.log("2 - Folder path is: " + dir);
+  // console.log("3 - Checking if folder exists...");
   if (!fs.existsSync(dir)) {
-    console.log("\nFolder created.");
     fs.mkdirSync(dir);
-    console.log("\nFolder already exists.");
+    // console.log("4 - It did not exists, folder was created.");
+  } else {
+    // console.log("4 - Folder already exists.");
   }
 
-  console.log("\nGetting file name now");
+  // console.log("5 - Getting file name");
   const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-  console.log("File name is: " + filename);
+  // console.log("6 - File name is: " + filename);
   const filepath = `${dir}/${filename}`;
-  console.log("Full file path is: " + filepath);
+  // console.log("7 - Full file path is: " + filepath);
+
+  if (fs.existsSync(filepath)) {
+    // console.log("8 - File already exists.");
+    console.log(`File already exists:\n${filepath}`);
+    return;
+  }
 
   const writeStream = createWriteStream(filepath);
-  // const rotate = sharp().rotate();
 
   let stream = res.data;
 
@@ -480,7 +499,8 @@ export async function downloadPublicFile(url: URL) {
     stream = stream.pipe(sharp().resize({ width: 800 }));
   }
   try {
-    console.log("\nDownloading file now");
+    console.log(`Downloading file:\n${filepath}`);
+    // console.log("8 - Downloading file");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);

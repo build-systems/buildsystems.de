@@ -5,7 +5,11 @@ import { getAllPosts } from "../../lib/notion/client";
 import { importCoverImage } from "../../lib/blog-helpers";
 import type { Post } from "../../lib/interfaces";
 
-const posts = await getAllPosts();
+interface Props {
+  posts: Post[];
+}
+
+const { posts } = Astro.props;
 
 const images = await Astro.glob(
   "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
@@ -27,7 +31,7 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        const href = Astro.site + "/ourwork/" + post.Slug;
+        const href = Astro.site + "ourwork/" + post.Slug;
         return (
           <a draggable="false" href={href} class="card-link">
             <div class="card">

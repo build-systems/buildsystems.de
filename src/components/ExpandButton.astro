@@ -1,0 +1,63 @@
+---
+import Button from "./Button.astro";
+
+export interface Props {
+  buttonText: string;
+  buttonLink: string;
+  id: string;
+}
+
+const { buttonText, buttonLink, id } = Astro.props;
+---
+
+<div>
+  <div class="read-more">
+    <button class="plus-minus" id={"expand-button-" + id}>+</button><span
+      ><Button
+        text={buttonText}
+        link={buttonLink}
+        icon="redirect"
+        widthFitContent
+      /></span
+    >
+  </div>
+  <p id={"more-text-" + id} class="more-text">
+    <slot />
+  </p>
+</div>
+
+<style>
+  .read-more {
+    display: flex;
+  }
+
+  .more-text {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.15s;
+  }
+
+  .plus-minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1.8rem;
+    background-color: var(--text-main);
+    color: var(--background-body);
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .plus-minus:hover {
+    background-color: var(--background-body);
+    color: var(--text-main);
+  }
+</style>

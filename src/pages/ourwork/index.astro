@@ -1,20 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
-import { Image, Picture } from "astro:assets";
+import { Image } from "astro:assets";
 
-import {
-  getAllPosts,
-  // getAllTags,
-  // getNumberOfPages,
-} from "../../lib/notion/client.ts";
+import { getAllPosts } from "../../lib/notion/client.ts";
 import { importCoverImage } from "../../lib/blog-helpers.ts";
 
-// const [posts, tags, numberOfPages] = await Promise.all([
-//   getPosts(),
-//   getAllTags(),
-//   getNumberOfPages(),
-// ]);
 const posts = await getAllPosts();
 
 const title = "BuildSystems | Posts";
@@ -51,33 +42,35 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        const href = post.Slug;
+        const href = Astro.url + "/" + post.Slug;
         return (
-          <a href={href} class="card-link">
-            <div class="card">
-              <div class="card-text">
-                <h3 class="title" transition:name={post.Slug + "-title"}>
-                  {post.Title}
-                </h3>
-                <p class="description">{post.Description}</p>
-                <p class="date">— {post.PublishDate}</p>
+          <>
+            <a href={href} class="card-link" data-astro-prefetch>
+              <div class="card">
+                <div class="card-text">
+                  <h3 class="title" transition:name={post.Slug + "-title"}>
+                    {post.Title}
+                  </h3>
+                  <p class="description">{post.Description}</p>
+                  <p class="date">— {post.PublishDate}</p>
+                </div>
+                <div>
+                  {image && (
+                    <Image
+                      class="cover"
+                      transition:name={post.Slug + "-image"}
+                      src={image}
+                      alt={post.CoverAlt}
+                      widths={[300, 400, 500]}
+                      sizes={
+                        "(max-width: 300px) 300px, (max-width: 400px) 400px, (max-width: 500px) 500px"
+                      }
+                    />
+                  )}
+                </div>
               </div>
-              <div>
-                {image && (
-                  <Image
-                    class="cover"
-                    transition:name={post.Slug + "-image"}
-                    src={image}
-                    alt={post.CoverAlt}
-                    widths={[300, 400, 500]}
-                    sizes={
-                      "(max-width: 300px) 300px, (max-width: 400px) 400px, (max-width: 500px) 500px"
-                    }
-                  />
-                )}
-              </div>
-            </div>
-          </a>
+            </a>
+          </>
         );
       })
     }

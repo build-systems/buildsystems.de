@@ -184,11 +184,14 @@ ul {
   padding-top: 0;
   margin-top: 0;
   padding-left: 0;
+  /* list-style-position: outside; */
 }
 
 ul li::before {
   content: "●"; /* Use a bullet point character as content */
   display: inline-block;
+  position: absolute;
+  transform: translateX(-1.4rem);
   margin-right: 0.2rem;
 }
 
@@ -481,6 +484,7 @@ input[name="theme-toggle"] {
     margin-bottom: 0.25rem;
     padding: 0.75rem;
     border-radius: var(--card-border-radius);
+    padding-left: 2rem;
   }
 }
 
