@@ -52,7 +52,7 @@ const images = await Astro.glob(
                     {post.Title}
                   </h3>
                   <p class="description">{post.Description}</p>
-                  <p class="date">— {post.PublishDate}</p>
+                  <p class="date">{formatDate(new Date(post.PublishDate))}</p>
                 </div>
                 <div>
                   {image && (

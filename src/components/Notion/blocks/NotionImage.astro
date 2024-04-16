@@ -49,7 +49,6 @@ if (block.Image!.File) {
 ---
 
 <figure class="image">
-  {console.log(imageExtension!)}
   {
     // if it has valid url, is a downloaded file and is not svg
     url! && block.Image!.File && imageExtension! !== "svg" && (
@@ -102,5 +101,6 @@ if (block.Image!.File) {
   .image > div > div img {
     display: block;
     max-width: 100%;
+    border-radius: var(--card-border-radius);
   }
 </style>

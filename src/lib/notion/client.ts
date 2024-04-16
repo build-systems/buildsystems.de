@@ -580,6 +580,8 @@ export async function getDatabase(): Promise<Database> {
 }
 
 function _buildBlock(blockObject: responses.BlockObject): Block {
+  // console.dir(blockObject);
+
   const block: Block = {
     Id: blockObject.id,
     Type: blockObject.type,
@@ -628,6 +630,7 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       break;
     case "bulleted_list_item":
       if (blockObject.bulleted_list_item) {
+        // console.dir(blockObject.bulleted_list_item.rich_text);
         const bulletedListItem: BulletedListItem = {
           RichTexts:
             blockObject.bulleted_list_item.rich_text.map(_buildRichText),
@@ -858,7 +861,6 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       }
       break;
   }
-
   return block;
 }
 

@@ -12,6 +12,9 @@ import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import bsTeam from "../assets/buildsystems-team.jpg";
 import ExpandButton from "../components/ExpandButton.astro";
+import { getAllPosts } from "../lib/notion/client";
+
+const posts = await getAllPosts();
 ---
 
 <BaseLayout
@@ -130,7 +133,7 @@ import ExpandButton from "../components/ExpandButton.astro";
     </ExpandButton>
   </div>
 
-  <!-- <BlogCarousel /> -->
+  <BlogCarousel posts={posts} />
   <div class="frame primary-font-size primary-height primary-margin-top">
     <div class="sticky">
       <h2>

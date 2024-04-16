@@ -77,14 +77,13 @@ const authors = post.Authors;
     <Button text={post.Category} link="/" />
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
     <p>
-      by
       {
         authors.map((author) => {
           return <span>{author.name}</span>;
         })
-      },
-      {formatDate(new Date(post.PublishDate))}
+      }
     </p>
+    <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} />
   </article>
 
@@ -114,6 +113,11 @@ const authors = post.Authors;
     h2 {
       text-align: start;
       text-wrap: balance;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 1.2rem;
     }
 
     img {
