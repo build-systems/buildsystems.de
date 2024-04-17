@@ -14,7 +14,8 @@ const { buttonText, buttonLink, id } = Astro.props;
   <div class="read-more">
     <button class="plus-minus" id={"expand-button-" + id}
       ><svg class="icon">
-        <use xlink:href="/assets/icons.svg#plus"></use>
+        <use class="plus" xlink:href="/assets/icons.svg#plus"></use>
+        <use class="minus hidden" xlink:href="/assets/icons.svg#minus"></use>
       </svg>
     </button>
     <span
@@ -46,6 +47,10 @@ const { buttonText, buttonLink, id } = Astro.props;
     transition: all ease-in-out 0.15s;
   }
 
+  .height-max-content {
+    height: max-content;
+  }
+
   .plus-minus {
     background: none;
     display: flex;
@@ -73,6 +78,10 @@ const { buttonText, buttonLink, id } = Astro.props;
 
   .icon:hover {
     fill: var(--text-main);
+  }
+
+  .hidden {
+    display: none;
   }
 
   @media (max-width: 1280px) {

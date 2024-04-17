@@ -191,16 +191,13 @@ const posts = await getAllPosts();
   textsExpandButtons.forEach((text, i) => {
     const button = document.getElementById("expand-button-0" + (i + 1))!;
     const svgElement = button.querySelector("svg");
-    const useElement = svgElement?.querySelector("use");
+    const minusElement = svgElement?.querySelector(".minus");
+    const plusElement = svgElement?.querySelector(".plus");
 
     button.addEventListener("click", () => {
-      if (text.style.height === "max-content") {
-        text.style.height = "1px";
-        useElement?.setAttribute("xlink:href", "/assets/icons.svg#plus");
-      } else {
-        text.style.height = "max-content";
-        useElement?.setAttribute("xlink:href", "/assets/icons.svg#minus");
-      }
+      minusElement?.classList.toggle("hidden");
+      plusElement?.classList.toggle("hidden");
+      text.classList.toggle("height-max-content");
     });
   });
 </script>
