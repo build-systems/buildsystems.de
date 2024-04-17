@@ -1,0 +1,38 @@
+---
+import { type Post } from "../../lib/interfaces.ts";
+import { filePath } from "../../lib/blog-helpers.ts";
+
+export interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+
+let image = "";
+if (post.Cover && post.Cover.Url) {
+  if (import.meta.env.DEV) {
+    image = post.Cover.Url;
+  } else {
+    image = filePath(new URL(post.Cover.Url));
+  }
+}
+---
+
+{
+  image && (
+    <div class="post-cover-image">
+      <img src={image} alt={post.CoverAlt} />
+    </div>
+  )
+}
+
+<style>
+  .post-public-image {
+    padding: 0.6rem 0 0.2rem;
+  }
+  .post-featured-image img {
+    display: block;
+    max-width: 100%;
+    max-height: 20rem;
+  }
+</style>

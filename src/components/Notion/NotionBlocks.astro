@@ -1,0 +1,176 @@
+---
+import { type Block, type List } from "../../lib/interfaces.ts";
+import {
+  isTweetURL,
+  isAmazonURL,
+  buildURLToHTMLMap,
+} from "../../lib/blog-helpers.ts";
+import Paragraph from "./blocks/Paragraph.astro";
+import Heading1 from "./blocks/Heading1.astro";
+import Heading2 from "./blocks/Heading2.astro";
+import Heading3 from "./blocks/Heading3.astro";
+import TableOfContents from "./blocks/TableOfContents.astro";
+import NotionImage from "./blocks/NotionImage.astro";
+import Video from "./blocks/Video.astro";
+import Code from "./blocks/Code.astro";
+import Quote from "./blocks/Quote.astro";
+import Equation from "./blocks/Equation.astro";
+import Callout from "./blocks/Callout.astro";
+import Embed from "./blocks/Embed.astro";
+import Bookmark from "./blocks/Bookmark.astro";
+import Divider from "./blocks/Divider.astro";
+import Table from "./blocks/Table.astro";
+import ColumnList from "./blocks/ColumnList.astro";
+import BulletedListItems from "./blocks/BulletedListItems.astro";
+import NumberedListItems from "./blocks/NumberedListItems.astro";
+import ToDo from "./blocks/ToDo.astro";
+import SyncedBlock from "./blocks/SyncedBlock.astro";
+import Toggle from "./blocks/Toggle.astro";
+import File from "./blocks/File.astro";
+import LinkToPage from "./blocks/LinkToPage.astro";
+
+export interface Props {
+  blocks: Block[];
+  isRoot?: boolean;
+  level?: number;
+  headings?: Block[];
+}
+
+const {
+  blocks: rawBlocks,
+  isRoot = false,
+  level = 1,
+  headings: rawHeadings = [],
+} = Astro.props;
+
+const blocks = rawBlocks.reduce((arr, block: Block, i: number) => {
+  const isBulletedListItem = block.Type === "bulleted_list_item";
+  const isNumberedListItem = block.Type === "numbered_list_item";
+  const isToDo = block.Type === "to_do";
+
+  if (!isBulletedListItem && !isNumberedListItem && !isToDo) {
+    return arr.concat(block);
+  }
+
+  let listType = "";
+  if (isBulletedListItem) {
+    listType = "bulleted_list";
+  } else if (isNumberedListItem) {
+    listType = "numbered_list";
+  } else {
+    listType = "to_do_list";
+  }
+
+  if (i === 0) {
+    const list: List = {
+      Type: listType,
+      ListItems: [block],
+    };
+    return arr.concat(list);
+  }
+
+  const prevList: List = {
+    Type: block.Type,
+    ListItems: arr[arr.length - 1],
+  };
+
+  if (
+    (isBulletedListItem && prevList.Type !== "bulleted_list") ||
+    (isNumberedListItem && prevList.Type !== "numbered_list") ||
+    (isToDo && prevList.Type !== "to_do_list")
+  ) {
+    const list: List = {
+      Type: listType,
+      ListItems: [block],
+    };
+    return arr.concat(list);
+  }
+
+  prevList.ListItems.push(block);
+
+  return arr;
+}, []);
+
+let headings = rawHeadings;
+if (isRoot) {
+  headings = blocks.filter((b: Block) =>
+    ["heading_1", "heading_2", "heading_3"].includes(b.Type)
+  );
+}
+
+const bookmarkURLs = blocks
+  .filter((b: Block) => ["bookmark", "link_preview", "embed"].includes(b.Type))
+  .map((b: Block) => {
+    const urlString = (b.Bookmark || b.LinkPreview || b.Embed)!.Url;
+
+    let url: URL;
+    try {
+      url = new URL(urlString);
+    } catch (err) {
+      console.log(err);
+    }
+    return url!;
+  })
+  .filter((url: URL) => url && !isTweetURL(url) && !isAmazonURL(url));
+
+const bookmarkURLMap = await buildURLToHTMLMap(bookmarkURLs);
+
+console.log("\n===== Assembling Notion blocks =====");
+---
+
+{
+  blocks.map((block: Block) => {
+    switch (block.Type) {
+      case "paragraph":
+        return <Paragraph block={block} headings={headings} />;
+      case "heading_1":
+        return <Heading1 block={block} headings={headings} />;
+      case "heading_2":
+        return <Heading2 block={block} headings={headings} />;
+      case "heading_3":
+        return <Heading3 block={block} headings={headings} />;
+      case "table_of_contents":
+        return <TableOfContents block={block} headings={headings} />;
+      case "image":
+        return <NotionImage block={block} />;
+      case "video":
+        return <Video block={block} />;
+      case "code":
+        return <Code block={block} />;
+      case "quote":
+        return <Quote block={block} headings={headings} />;
+      case "equation":
+        return <Equation block={block} />;
+      case "callout":
+        return <Callout block={block} headings={headings} />;
+      case "embed":
+        return <Embed block={block} urlMap={bookmarkURLMap} />;
+      case "bookmark":
+      case "link_preview":
+        return <Bookmark block={block} urlMap={bookmarkURLMap} />;
+      case "divider":
+        return <Divider />;
+      case "table":
+        return <Table block={block} />;
+      case "column_list":
+        return <ColumnList block={block} headings={headings} />;
+      case "bulleted_list":
+        return <BulletedListItems block={block} headings={headings} />;
+      case "numbered_list":
+        return (
+          <NumberedListItems block={block} level={level} headings={headings} />
+        );
+      case "to_do_list":
+        return <ToDo block={block} headings={headings} />;
+      case "synced_block":
+        return <SyncedBlock block={block} headings={headings} />;
+      case "toggle":
+        return <Toggle block={block} headings={headings} />;
+      case "file":
+        return <File block={block} />;
+      case "link_to_page":
+        return <LinkToPage block={block} />;
+    }
+    return null;
+  })
+}

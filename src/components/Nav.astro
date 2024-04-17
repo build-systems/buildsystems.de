@@ -4,62 +4,27 @@ const { current = "" } = Astro.props;
 
 <nav>
   <div class="options">
-    <a
-      aria-label="Go to Homepage"
-      href="/"
-      data-astro-prefetch
-      >Homepage</a
-    >
-    <a
-      aria-label="Go to Services page"
-      href="/services"
-      data-astro-prefetch
+    <a aria-label="Go to Homepage" href="/" data-astro-prefetch>Home</a>
+    <a aria-label="Go to Services page" href="/services" data-astro-prefetch
       >Services</a
     >
-    <a
-      aria-label="Go to Workshop page"
-      href="/workshop"
-      data-astro-prefetch
+    <a aria-label="Go to Workshops page" href="/workshops" data-astro-prefetch
       >Workshop</a
     >
-    <a
-      aria-label="Go to Personen page"
-      href="/personen"
-      data-astro-prefetch
-      >Personen</a
+    <a aria-label="Go to Team page" href="/team" data-astro-prefetch>Team</a>
+    <a aria-label="Go to Our Work page" href="/ourwork" data-astro-prefetch
+      >Our Work</a
     >
-    <a
-      aria-label="Go to Blog page"
-      href="/blog"
-      data-astro-prefetch
-      >Blog</a
-    >
-    <a
-      aria-label="Go to Tool page"
-      href="/foerdertool"
-      data-astro-prefetch
-      >Tool</a
+    <a aria-label="Go to Toolbox page" href="/toolbox" data-astro-prefetch
+      >Toolbox</a
     >
     <!-- <a aria-label="Go to blog page" href="/blog">Blog</a> -->
   </div>
-  <input
-    type="checkbox"
-    id="menu"
-    class="checkbox visuallyHidden"
-  />
+  <input type="checkbox" id="menu" class="checkbox visuallyHidden" />
   <label for="menu">
-    <div
-      aria-label="Hamburguer menu"
-      class="hamburger">
-      <svg
-        width="36"
-        height="36">
-        <circle
-          cx="18"
-          cy="18"
-          r="17"
-          fill="#D9D9D9"
-        ></circle>
+    <div aria-label="Hamburguer menu" class="hamburger">
+      <svg width="36" height="36">
+        <circle cx="18" cy="18" r="17" fill="#D9D9D9"></circle>
         <line
           x1="10"
           y1="13"
@@ -67,8 +32,7 @@ const { current = "" } = Astro.props;
           y2="13"
           stroke="#222"
           stroke-width="2"
-          class="line01"
-        ></line>
+          class="line01"></line>
         <line
           x1="10"
           y1="18"
@@ -76,8 +40,7 @@ const { current = "" } = Astro.props;
           y2="18"
           stroke="#222"
           stroke-width="2"
-          class="line02"
-        ></line>
+          class="line02"></line>
         <line
           x1="10"
           y1="23"
@@ -85,8 +48,7 @@ const { current = "" } = Astro.props;
           y2="23"
           stroke="#222"
           stroke-width="2"
-          class="line03"
-        ></line>
+          class="line03"></line>
       </svg>
     </div>
   </label>
@@ -105,12 +67,17 @@ const { current = "" } = Astro.props;
   label {
     border-radius: 50%;
     height: 36px;
+    outline-radius: 50%;
   }
 
   .hamburger {
     display: flex;
     margin-left: 0;
     cursor: pointer;
+    outline-radius: 50%;
+    svg {
+      outline-radius: 50%;
+    }
   }
 
   line {
@@ -144,7 +111,7 @@ const { current = "" } = Astro.props;
   a {
     counter-increment: option;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     background: var(--text-main);
     color: var(--background-body);
     font-family: var(--font-family-secondary);
@@ -153,6 +120,7 @@ const { current = "" } = Astro.props;
     padding: 4px 15px;
     text-decoration: none;
     height: 36px;
+    width: 100%;
   }
 
   .options:has(~ .checkbox:checked) {

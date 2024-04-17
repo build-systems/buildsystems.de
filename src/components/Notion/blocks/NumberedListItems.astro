@@ -1,0 +1,53 @@
+---
+import {
+  type Block,
+  type RichText,
+  type List,
+} from "../../../lib/interfaces.ts";
+import { snakeToKebab } from "../../../lib/style-helpers.ts";
+import NotionRichText from "./RichText.astro";
+import NotionBlocks from "../NotionBlocks.astro";
+import "../../../styles/notion-color.css";
+
+export interface Props {
+  block: Block;
+  level: number;
+  headings: Block[];
+}
+
+const { block, level, headings } = Astro.props;
+
+const listTypes = ["i", "1", "a"];
+
+const blockList: List = {
+  Type: block.Type,
+  ListItems: [block],
+};
+---
+
+<ol type!={listTypes[level % 3]}>
+  {
+    blockList.ListItems.filter(
+      (b: Block) => b.Type === "numbered_list_item"
+    ).map((b: Block) => (
+      <li class={snakeToKebab(b.NumberedListItem!.Color)}>
+        {b.NumberedListItem!.RichTexts.map((richText: RichText) => (
+          <NotionRichText richText={richText} />
+        ))}
+        {b.HasChildren && (
+          <NotionBlocks
+            blocks={b.NumberedListItem!.Children!}
+            level={level + 1}
+            headings={headings}
+          />
+        )}
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  ol {
+    font-size: 1rem;
+  }
+</style>

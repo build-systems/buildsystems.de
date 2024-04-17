@@ -1,0 +1,46 @@
+---
+import {
+  type Block,
+  type BulletedListItem,
+  type RichText,
+  type List,
+} from "../../../lib/interfaces.ts";
+import { snakeToKebab } from "../../../lib/style-helpers.ts";
+import NotionRichText from "./RichText.astro";
+import NotionBlocks from "../NotionBlocks.astro";
+import "../../../styles/notion-color.css";
+
+export interface Props {
+  block: List;
+  headings: Block[];
+}
+
+const { block, headings } = Astro.props;
+---
+
+<ul class="list-pill">
+  {
+    block.ListItems.filter((b: Block) => b.Type === "bulleted_list_item").map(
+      (b: Block) => (
+        <li class={snakeToKebab(b.BulletedListItem!.Color)}>
+          {b.BulletedListItem!.RichTexts.map((richText: RichText) => (
+            <NotionRichText richText={richText} />
+          ))}
+          {b.HasChildren && (
+            <NotionBlocks
+              blocks={b.BulletedListItem!.Children!}
+              headings={headings}
+            />
+          )}
+        </li>
+      )
+    )
+  }
+</ul>
+
+<style>
+  ul {
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+  }
+</style>

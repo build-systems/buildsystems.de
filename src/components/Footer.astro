@@ -5,122 +5,143 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
 ---
 
 <div class="footer-container">
-  <div class="image-container">
+  <!-- <div class="image-container">
     <Image
       class="hero-image"
       src={heroRendering}
       alt="Rendering of a multi-story timber building"
     />
-  </div>
-  <div class="action">
-    <h3>Sie haben weitere Fragen?</h3>
-    <Button
-      text="Schreiben Sie uns eine Mail!"
-      link="mailto:mail@buildsystems.de"
-      justifyCenter={true}
-    />
-  </div>
+  </div> -->
   <footer>
-    <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
     <div class="footer-content">
-      <section
-        class="address-contact"
-        aria-label="Kontakt, linkedIn and GitHub">
-        <address>BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching</address>
-        <div class="links">
-          <div>Kontakt</div>
-          <address>
-            <a href="mailto:mail@buildsystems.de">mail@buildsystems.de</a>
-            <div class="social-links">
-              <a
-                href="https://www.linkedin.com/company/build-systems-de/"
-                target="_blank"
-                aria-label="Follow BuildSystems on LinkedIn">
-                <svg class="icon">
-                  <use xlink:href="/assets/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-              <a
-                href="https://github.com/build-systems"
-                target="_blank"
-                aria-label="Check BuildSystems's GitHub repo">
-                <svg class="icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
-              </a>
-            </div>
-          </address>
+      <div class="left-block-wrapper">
+        <div class="left-block">
+          <div class="address-nav">
+            <section
+              class="address-contact"
+              aria-label="Kontakt, linkedIn and GitHub"
+            >
+              <div class="action">
+                <h3>Sie haben weitere Fragen?</h3>
+                <Button
+                  text="Schreiben Sie uns eine Mail!"
+                  link="mailto:mail@buildsystems.de"
+                  justifyCenter={true}
+                />
+              </div>
+              <div class="address-phrase">
+                Wir freuen uns auf den Austausch mit Ihnen!
+              </div>
+              <div class="links">
+                <address>
+                  <div class="social-links">
+                    <a
+                      href="https://www.linkedin.com/company/build-systems-de/"
+                      target="_blank"
+                      aria-label="Follow BuildSystems on LinkedIn"
+                    >
+                      <svg class="icon">
+                        <use xlink:href="/assets/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://github.com/build-systems"
+                      target="_blank"
+                      aria-label="Check BuildSystems's GitHub repo"
+                    >
+                      <svg class="icon"
+                        ><use xlink:href="/assets/icons.svg#github"></use></svg
+                      >
+                    </a>
+                  </div>
+                </address>
+              </div>
+              <address>
+                BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching
+              </address>
+            </section>
+          </div>
         </div>
-      </section>
+      </div>
       <nav>
-        <a href="/"> Homepage</a>
+        <a href="/"> Home</a>
         <a href="/services"> Services</a>
-        <a href="/personen"> Personen</a>
-        <a href="/tool"> Tool</a>
-        <a href="/impressum">
-          Impressum<br />Datenschutz­erklärung
-        </a>
+        <a href="/workshops"> Workshops</a>
+        <a href="/team"> Team</a>
+        <a href="/ourwork"> Our Work</a>
+        <a href="/toolbox"> Toolbox</a>
+        <a href="/impressum" class="impressum">
+          Impressum Datenschutzerklärung</a
+        >
       </nav>
-      <section
-        class="unsere-partner"
-        aria-label="Unsere Partner">
-        <h3>Wir sind Teil von</h3>
-        <div class="logos-container">
-          <a
-            href="https://www.byak.de/"
-            target="_blank"
-            class="partner-logo"
-            title="Bayerische Architektenkammer"
-            aria-label="Link führt zu byak.de - Bayerische Architektenkammer">
-            <img
-              src="/assets/bayerische-architektenkammer-logo.svg"
-              alt="Bayerische Architektenkammer logo"
-            />
-          </a>
-          <a
-            href="https://www.dena.de/"
-            target="_blank"
-            class="partner-logo"
-            title="Deutsche Energie-Agentur GmbH"
-            aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH">
-            <img
-              class="dena-logo"
-              src="/assets/dena-logo.svg"
-              alt="dena logo"
-            />
-          </a>
-          <a
-            href="https://www.energie-effizienz-experten.de/"
-            target="_blank"
-            class="partner-logo"
-            title="Energie Effizienz Experten"
-            aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten">
-            <img
-              src="/assets/energie-effizienz-experten-logo.svg"
-              alt="Energie Effizienz Experten logo"
-            />
-          </a>
-          <a
-            href="https://www.bayern-innovativ.de/"
-            target="_blank"
-            class="partner-logo"
-            title="Bayern Innovativ GmbH"
-            aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH">
-            <img
-              src="/assets/bayern-innovativ-logo.svg"
-              alt="Bayern Innovativ logo"
-            />
-          </a>
-          <a
-            href="https://www.dgnb.de/"
-            target="_blank"
-            class="partner-logo"
-            title="Deutsche Gesellschaft für Nachhaltiges Bauen"
-            aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen">
-            <img
-              class="dgnb-logo"
-              src="/assets/dgnb-logo.svg"
-              alt="DGNB logo"
-            />
-          </a>
+      <section class="unsere-partner" aria-label="Unsere Partner">
+        <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
+        <div class="phrase-logo-wrapper">
+          <p>Wir sind Teil von</p>
+          <div class="logos-container">
+            <a
+              href="https://www.byak.de/"
+              target="_blank"
+              class="partner-logo"
+              title="Bayerische Architektenkammer"
+              aria-label="Link führt zu byak.de - Bayerische Architektenkammer"
+            >
+              <img
+                src="/assets/bayerische-architektenkammer-logo.svg"
+                alt="Bayerische Architektenkammer logo"
+              />
+            </a>
+            <a
+              href="https://www.dena.de/"
+              target="_blank"
+              class="partner-logo"
+              title="Deutsche Energie-Agentur GmbH"
+              aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH"
+            >
+              <img
+                class="dena-logo"
+                src="/assets/dena-logo.svg"
+                alt="dena logo"
+              />
+            </a>
+            <a
+              href="https://www.energie-effizienz-experten.de/"
+              target="_blank"
+              class="partner-logo"
+              title="Energie Effizienz Experten"
+              aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten"
+            >
+              <img
+                src="/assets/energie-effizienz-experten-logo.svg"
+                alt="Energie Effizienz Experten logo"
+              />
+            </a>
+            <a
+              href="https://www.bayern-innovativ.de/"
+              target="_blank"
+              class="partner-logo"
+              title="Bayern Innovativ GmbH"
+              aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH"
+            >
+              <img
+                src="/assets/bayern-innovativ-logo.svg"
+                alt="Bayern Innovativ logo"
+              />
+            </a>
+            <a
+              href="https://www.dgnb.de/"
+              target="_blank"
+              class="partner-logo"
+              title="Deutsche Gesellschaft für Nachhaltiges Bauen"
+              aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen"
+            >
+              <img
+                class="dgnb-logo"
+                src="/assets/dgnb-logo.svg"
+                alt="DGNB logo"
+              />
+            </a>
+          </div>
         </div>
       </section>
     </div>
@@ -129,7 +150,7 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
 
 <style>
   .footer-container {
-    margin-top: 10svh;
+    margin-top: 20svh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -146,7 +167,11 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
   .hero-image {
     min-height: 50%;
     object-fit: cover;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     z-index: 1;
   }
@@ -157,16 +182,17 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
     width: fit-content;
     gap: 0.3rem;
     z-index: 3;
-    margin: 10svh 0;
     h3 {
       color: white;
     }
   }
 
   footer {
-    bottom: 0;
+    display: flex;
+    flex: 1 0;
+    width: calc(100% - 2rem);
     background: var(--background-cards);
-    margin: 4rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
     padding: 2rem 2rem;
     border-radius: 0.6rem;
     z-index: 2;
@@ -177,11 +203,24 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
     padding: 0;
   }
 
+  h3 {
+    font-size: 1.4rem;
+  }
+
   .footer-content {
     display: flex;
+    flex: 1 0;
     flex-wrap: wrap;
-    column-gap: clamp(0.5rem, 4svw, 5rem);
+    /* column-gap: clamp(0.5rem, 4svw, 5rem); */
     row-gap: clamp(0.5rem, 4svh, 2rem);
+    justify-content: space-between;
+  }
+
+  .address-phrase {
+    /* width: fit-content; */
+    line-height: 1;
+    text-wrap: balance;
+    padding: 1rem 0;
   }
 
   .address-contact {
@@ -189,6 +228,7 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
     display: flex;
     flex-direction: column;
     text-align: left;
+    gap: 1rem;
   }
 
   address {
@@ -197,7 +237,6 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
     display: flex;
     flex-direction: column;
     font-size: 1rem;
-    padding-bottom: 0.5rem;
     line-height: 120%;
     gap: 0.5rem;
   }
@@ -205,14 +244,26 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
   a {
     text-decoration: none;
     display: flex;
+    margin-bottom: 0;
   }
 
   nav {
+    /* flex: 1; */
     line-height: 120%;
     min-width: min-content;
     font-size: 1rem;
     white-space: pre-line;
     text-align: left;
+    align-content: end;
+  }
+
+  .impressum {
+    padding-top: 0.25rem;
+    width: min-content;
+  }
+
+  .links {
+    padding-bottom: 1rem;
   }
 
   .social-links {
@@ -227,7 +278,9 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
   }
 
   .unsere-partner {
-    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .logos-container {
@@ -240,10 +293,9 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
 
   .partner-logo {
     display: flex;
-    min-width: 100%;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    max-width: 150px;
   }
 
   .dena-logo {
@@ -252,6 +304,20 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
 
   .dgnb-logo {
     width: clamp(100px, 90%, 300px);
+  }
+
+  .left-block-wrapper {
+    display: flex;
+  }
+  .left-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .address-nav {
+    display: flex;
+    justify-content: space-between;
   }
 
   @media (max-width: 1024px) {

@@ -1,22 +1,22 @@
 ---
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
 import { formatDate } from "../../utils/getPostData";
 import { Image } from "astro:assets";
+import { getAllPosts } from "../../lib/notion/client";
+import { importCoverImage } from "../../lib/blog-helpers";
+import type { Post } from "../../lib/interfaces";
 
-const title = "BuildSystems | Blog";
-const description =
-  "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
-const image = `/images/heroRendering.webp`;
+interface Props {
+  posts: Post[];
+}
 
-let allPosts: CollectionEntry<"blog">[] = await getCollection("blog");
-allPosts = allPosts.sort(
-  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+const { posts } = Astro.props;
+
+const images = await Astro.glob(
+  "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
 );
 ---
 
-<section class="frame primary-margin-top container-blog-carousel">
+<section class="frame container-blog-carousel">
   <button class="btn-prev" aria-label="Previous blog post card">
     <svg class="icon">
       <use xlink:href="/assets/icons.svg#arrow-left"></use>
@@ -29,22 +29,25 @@ allPosts = allPosts.sort(
   </button>
   <div class="blog-carousel">
     {
-      allPosts.map((post, index) => {
-        const href = "blog/" + post.slug;
+      posts.map((post, index) => {
+        const image = importCoverImage(post, images);
+        const href = Astro.site + "ourwork/" + post.Slug;
         return (
           <a draggable="false" href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <h3 class="title">{post.data.title}</h3>
-                <p class="category">{post.data.category}</p>
-                <p class="description">{post.data.description}</p>
-                <p class="date">— {formatDate(post.data.publishDate)}</p>
+                <h3 class="title" transition:name={post.Slug + "-title"}>
+                  {post.Title}
+                </h3>
+                <p class="category">{post.Category}</p>
+                <p class="description">{post.Description}</p>
+                <p class="date">— {formatDate(new Date(post.PublishDate))}</p>
               </div>
               <div>
                 <Image
-                  transition:name={post.slug}
-                  src={post.data.cover}
-                  alt={post.data.coverAlt}
+                  transition:name={post.Slug + "-image"}
+                  src={image}
+                  alt={post.CoverAlt}
                   widths={[350, 700]}
                   sizes={`(max-width: 350px) 350px, (max-width: 700px) 700px`}
                 />

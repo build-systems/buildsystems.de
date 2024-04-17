@@ -1,35 +1,47 @@
 import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
-import remarkGfm from "remark-gfm";
-import remarkSmartypants from "remark-smartypants";
-import rehypeExternalLinks from "rehype-external-links";
+import { CUSTOM_DOMAIN, BASE_PATH } from "./src/server-constants";
+import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image-downloader";
+import PostsImagesDownloader from "./src/integrations/posts-files-downloader";
+import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
+
 import lottie from "astro-integration-lottie";
 import sitemap from "@astrojs/sitemap";
 
+const getSite = function () {
+  if (CUSTOM_DOMAIN) {
+    return new URL(BASE_PATH, `https://${CUSTOM_DOMAIN}`).toString();
+  }
+
+  if (process.env.VERCEL && process.env.VERCEL_URL) {
+    return new URL(BASE_PATH, `https://${process.env.VERCEL_URL}`).toString();
+  }
+
+  if (process.env.CF_PAGES) {
+    if (process.env.CF_PAGES_BRANCH !== "main") {
+      return new URL(BASE_PATH, process.env.CF_PAGES_URL).toString();
+    }
+
+    return new URL(
+      BASE_PATH,
+      `https://${new URL(process.env.CF_PAGES_URL).host
+        .split(".")
+        .slice(1)
+        .join(".")}`
+    ).toString();
+  }
+
+  return new URL(BASE_PATH, "http://localhost:4321").toString();
+};
+
 export default defineConfig({
-  site: "https://buildsystems.de",
-  integrations: [mdx(), lottie(), sitemap()],
-  markdown: {
-    shikiConfig: {
-      theme: "nord",
-    },
-    remarkPlugins: [remarkGfm, remarkSmartypants],
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-        },
-      ],
-    ],
-  },
-  image: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**.amazonaws.com",
-      },
-    ],
-  },
+  site: getSite(),
+  base: BASE_PATH,
+  integrations: [
+    lottie(),
+    sitemap(),
+    IndexPostImageDownloader(),
+    PostsImagesDownloader(),
+    // CustomIconDownloader(),
+  ],
   prefetch: true,
 });

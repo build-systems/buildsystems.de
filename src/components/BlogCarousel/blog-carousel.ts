@@ -42,7 +42,7 @@ function onMouseDown(e: MouseEvent) {
 
 // Function to handle mouse move event
 function onMouseMove(e: MouseEvent) {
-allLinks.forEach((element: HTMLElement) => {
+  allLinks.forEach((element: HTMLElement) => {
     element.style.cursor = "grabbing";
     element.style.pointerEvents = "none";
   });

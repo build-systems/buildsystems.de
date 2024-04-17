@@ -15,26 +15,36 @@ const current = "services/digitalisierung";
   title={title}
   description={description}
   heroImage={image}
-  current={current}>
+  current={current}
+>
   <div class="frame primary-font-size primary-height primary-margin-top">
     <h2 class="sticky">
-      ebnet den Weg zur <span class="font-secondary green">Digi­ta­li­sie­rung</span> durch softwar­ege­stütz­tes Con­sul­ting.
-      Dafür verbin­den wir exis­tier­ende Praxis mit inno­va­tiven Prozes­sen und Tools.
+      ebnet den Weg zur <span class="font-secondary green"
+        >Digi­ta­li­sie­rung</span
+      > durch softwar­ege­stütz­tes Con­sul­ting. Dafür verbin­den wir exis­tier­ende
+      Praxis mit inno­va­tiven Prozes­sen und Tools.
     </h2>
   </div>
-
-  <div
-    class="frame"
-    id="portfoliodigitalisierung">
+  <div class="main-image">
+    <Image
+      src={serviceAnimation}
+      alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
+    />
+  </div>
+  <div class="frame" id="portfoliodigitalisierung">
     <h2>Digitalisierungsstrategien Portfolio</h2>
     <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
-          Unser Angebot richtet sich an Assethalter und -manager sowie Family Offices, die ihr Portfolio digitalisieren
-          und für Reporting­anforderungen vorbereiten möchten. Mit Immobilien­kenntnissen und Daten-Expertise
-          unterstützen wir sie dabei, die Daten ihres Portfolios gewinnbringend im Nachhaltig­keits­mangament
-          einzusetzen. Stellen Sie so sicher, dass Sie Risiken effizient quantifizieren, datenbasierte Entscheidungen
-          zur Dekarbonisierung treffen und sich als Vorreiter bei zukünftigen Arbeit­nehmenden positionieren.
+          Unser Angebot richtet sich an Assethalter und -manager sowie Family
+          Offices, die ihr Portfolio digitalisieren und für
+          Reporting­anforderungen vorbereiten möchten. Mit
+          Immobilien­kenntnissen und Daten-Expertise unterstützen wir sie dabei,
+          die Daten ihres Portfolios gewinnbringend im
+          Nachhaltig­keits­mangament einzusetzen. Stellen Sie so sicher, dass
+          Sie Risiken effizient quantifizieren, datenbasierte Entscheidungen zur
+          Dekarbonisierung treffen und sich als Vorreiter bei zukünftigen
+          Arbeit­nehmenden positionieren.
         </p>
       </div>
       <ul class="list-pill">
@@ -48,29 +58,26 @@ const current = "services/digitalisierung";
       </ul>
     </div>
   </div>
-  <div class="frame options-animation">
-    <Image
-      src={serviceAnimation}
-      alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
-    />
-  </div>
-  <div
-    class="frame"
-    id="digitale-carbon-due-diligence">
+  <div class="frame primary-margin-top" id="digitale-carbon-due-diligence">
     <h2>Digitalisierungsstrategien Carbon Due Diligence</h2>
     <div class="list-text-grid">
       <div class="msg-tertiary">
         <p>
-          Als Planende, Gene­ral­über­neh­mer oder Projekt­ent­wick­ler ist es für Sie wichtig, eine Carbon Due
-          Diligence durchzuführen, um frühzeitig sicher­zu­stel­len, dass Sie den Anfor­de­rungen von Förderungen oder
-          Zerti­fi­zie­rungs­sys­temen entsprechen? Es steht fest, je früher in der Planung die relevanten
-          Ent­schei­dungen getroffen werden, desto leichter lassen sich später teure Fehl- oder Umplanungen vermeiden.
-          Für eine frühe und belastbare Abwicklung der Carbon Due Dilligences ist es dabei jedoch unum­gäng­lich,
-          effiziente Prozesse ebenso wie eine verlässliche Da­tengrund­lage zur Verfügung zu haben.
+          Als Planende, Gene­ral­über­neh­mer oder Projekt­ent­wick­ler ist es
+          für Sie wichtig, eine Carbon Due Diligence durchzuführen, um
+          frühzeitig sicher­zu­stel­len, dass Sie den Anfor­de­rungen von
+          Förderungen oder Zerti­fi­zie­rungs­sys­temen entsprechen? Es steht
+          fest, je früher in der Planung die relevanten Ent­schei­dungen
+          getroffen werden, desto leichter lassen sich später teure Fehl- oder
+          Umplanungen vermeiden. Für eine frühe und belastbare Abwicklung der
+          Carbon Due Dilligences ist es dabei jedoch unum­gäng­lich, effiziente
+          Prozesse ebenso wie eine verlässliche Da­tengrund­lage zur Verfügung
+          zu haben.
         </p>
         <p>
-          Schätzen Sie mit BuildSystems die Emissions­werte Ihres Projekts von Anfang an daten­basiert ein und nutzen
-          Sie diese bei der Entschei­dungs­findung.
+          Schätzen Sie mit BuildSystems die Emissions­werte Ihres Projekts von
+          Anfang an daten­basiert ein und nutzen Sie diese bei
+          der Entschei­dungs­findung.
         </p>
       </div>
       <ul class="list-pill">
@@ -81,25 +88,29 @@ const current = "services/digitalisierung";
         <li>Bereitstellung einer wachsenden Datenbank</li>
         <li>Beratung zu existierenden Software-Tools</li>
         <li>Unterstützung bei der Auswahl und Implementierung</li>
-        <li>Trainings zur Steigerung der Fachkompetenz Ihres Teams bei der Auswertung von Ergebnissen</li>
+        <li>
+          Trainings zur Steigerung der Fachkompetenz Ihres Teams bei der
+          Auswertung von Ergebnissen
+        </li>
       </ul>
     </div>
   </div>
-  <BlogCarousel />
+  <!-- <BlogCarousel /> -->
 </BaseLayout>
 
 <style>
-  .options-animation {
+  .main-image {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 8rem 0;
     img {
       width: clamp(100px, 50%, 600px);
     }
   }
 
   @media (max-width: 920px) {
-    .options-animation {
+    .main-image {
       padding-left: var(--secondary-left-padding-tablet);
       padding-right: var(--secondary-right-padding-tablet);
       width: 100%;
