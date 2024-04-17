@@ -397,7 +397,7 @@ input[name="theme-toggle"] {
   a {
     padding-top: var(--sticky-padding-general);
   }
-  -webkit-hyphens: auto;
+  /* -webkit-hyphens: auto;
   -webkit-hyphenate-limit-lines: 2;
   -webkit-hyphenate-limit-after: 5;
   -webkit-hyphenate-limit-before: 7;
@@ -419,7 +419,8 @@ input[name="theme-toggle"] {
   hyphenate-limit-chars: 12 4 4;
   hyphenate-limit-lines: 2;
   hyphenate-limit-last: always;
-  hyphenate-limit-zone: 8%;
+  hyphenate-limit-zone: 8%; */
+  text-wrap: pretty;
 }
 
 .intro-breath {
