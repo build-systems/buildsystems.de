@@ -27,9 +27,9 @@ const { buttonText, buttonLink, id } = Astro.props;
       /></span
     >
   </div>
-  <p id={"more-text-" + id} class="more-text">
+  <div id={"more-text-" + id} class="more-text">
     <slot />
-  </p>
+  </div>
 </div>
 
 <style>

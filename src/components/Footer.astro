@@ -332,6 +332,11 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
       margin-top: 10svh;
     }
 
+    footer {
+      width: calc(100% - (var(--left-padding-mobile) * 2));
+      margin-bottom: var(--left-padding-mobile);
+    }
+
     .logos-container {
       display: flex;
       flex-wrap: wrap;
@@ -347,7 +352,7 @@ import heroRendering from "../assets/multistory-timber-building.jpg";
 
   @media (max-width: 420px) {
     footer {
-      margin: 2rem 0.5rem 0.5rem 0.5rem;
+      /* margin: 2rem 0.5rem 0.5rem 0.5rem; */
     }
   }
 </style>

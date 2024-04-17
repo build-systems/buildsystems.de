@@ -36,11 +36,14 @@ const images = await Astro.glob(
     </h3>
   </div> -->
   <div class="frame primary-height primary-margin-top">
-    <h2 class="sticky">
-      ist Transparenz besonders wichtig. Deshalb teilen wir wichtige Insights
-      aus kreativen Strategien und holistischen Projekten, die zukunftsgerechte
-      und nachhaltige Entwicklungen auf den Weg gebracht haben.
-    </h2>
+    <div class="sticky">
+      <h2>
+        ist Transparenz besonders wichtig. Deshalb teilen wir wichtige Insights
+        aus kreativen Strategien und holistischen Projekten, die
+        zukunftsgerechte und nachhaltige Entwicklungen auf den Weg gebracht
+        haben.
+      </h2>
+    </div>
   </div>
   <div class="frame blog-container">
     <!-- <p class="category">{post.data.category}</p> -->
@@ -222,6 +225,13 @@ const images = await Astro.glob(
     .blog-container {
       display: flex;
       flex-direction: column;
+    }
+  }
+
+  @media (max-width: 625px) {
+    .blog-container {
+      margin-bottom: 0;
+      gap: var(--left-padding-mobile);
     }
   }
 </style>

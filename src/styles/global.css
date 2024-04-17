@@ -33,16 +33,16 @@
   --right-padding-tablet: 5%;
   --primary-msg-size-tablet: 1.6rem;
   --primary-msg-line-height-tablet: 1.7rem;
-  --secondary-msg-size-tablet: 1.5rem;
-  --secondary-msg-line-height-tablet: 1.55rem;
+  --secondary-msg-size-tablet: 1.3rem;
+  --secondary-msg-line-height-tablet: 1.45rem;
   --sticky-padding-tablet: 0.58rem;
 
   --left-padding-mobile: 10px;
   --right-padding-mobile: 10px;
   --primary-msg-size-mobile: 1.35rem;
   --primary-msg-line-height-mobile: 1.45rem;
-  --secondary-msg-size-mobile: 1.25rem;
-  --secondary-msg-line-height-mobile: 1.3rem;
+  --secondary-msg-size-mobile: 1.1rem;
+  --secondary-msg-line-height-mobile: 1.2rem;
   --sticky-padding-mobile: 0.55rem;
 
   --bezier-animation: cubic-bezier(0.8, 0, 0.3, 1);
@@ -390,7 +390,6 @@ input[name="theme-toggle"] {
 .sticky {
   position: sticky;
   top: 0;
-  padding-bottom: 1rem;
   padding-top: var(--sticky-padding-general);
   h2 {
     margin-top: 0;
@@ -555,8 +554,8 @@ input[name="theme-toggle"] {
 
 @media (max-width: 920px) {
   .image-text-grid {
-    padding-left: var(--left-padding-tablet);
-    padding-right: var(--right-padding-tablet);
+    /* padding-left: var(--left-padding-tablet); */
+    /* padding-right: var(--right-padding-tablet); */
     & p {
       margin-bottom: 1rem;
     }
@@ -595,11 +594,11 @@ input[name="theme-toggle"] {
   }
 
   .primary-height {
-    min-height: 70svh;
+    min-height: 60svh;
   }
 
   .primary-margin-top {
-    margin-top: 40svh;
+    margin-top: 30svh;
   }
 
   h3 {
@@ -607,8 +606,8 @@ input[name="theme-toggle"] {
   }
 
   .msg-secondary {
-    padding-left: var(--left-padding-tablet);
-    padding-right: var(--right-padding-tablet);
+    /* padding-left: var(--left-padding-tablet); */
+    /* padding-right: var(--right-padding-tablet); */
     font-size: var(--primary-msg-size-tablet);
     line-height: var(--primary-msg-line-height-tablet);
     min-height: 20svh;
@@ -652,11 +651,11 @@ input[name="theme-toggle"] {
   }
 
   .primary-height {
-    min-height: 60svh;
+    min-height: 70svh;
   }
 
   .primary-margin-top {
-    margin-top: 30svh;
+    margin-top: 15svh;
   }
 
   .primary-margin-bottom {

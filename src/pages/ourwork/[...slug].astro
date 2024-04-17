@@ -7,7 +7,6 @@ import {
 } from "../../lib/notion/client.js";
 import { importCoverImage } from "../../lib/blog-helpers.js";
 import PostBody from "../../components/Notion/PostBody.astro";
-import styles from "../../styles/blog.module.css";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import { formatDate } from "../../utils/getPostData.js";
@@ -59,7 +58,7 @@ const authors = post.Authors;
   transition={true}
   current="blog"
 >
-  <div class={styles.main}>
+  <div>
     {
       image && (
         <Image
@@ -73,7 +72,7 @@ const authors = post.Authors;
       )
     }
   </div>
-  <article class:list={[styles.post, "post", "frame"]}>
+  <article class:list={["post", "frame"]}>
     <Button text={post.Category} link="/" />
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
     <p>
@@ -132,7 +131,7 @@ const authors = post.Authors;
 
     @media (max-width: 625px) {
       .post {
-        margin-top: 10svh;
+        margin-top: 5svh;
       }
     }
   </style>

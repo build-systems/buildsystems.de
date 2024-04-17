@@ -55,6 +55,7 @@ const { current = "" } = Astro.props;
 </nav>
 
 <script>
+  // Hide hamburguer when scrolling down. Show when scrolling up.
   const navElement = document.querySelector("nav");
 
   window.onscroll = () => {
