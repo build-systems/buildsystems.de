@@ -33,11 +33,15 @@ const posts = await getAllPosts();
     loading="eager"
   />
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
-      gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
-      klimafreundliche Gebäude.
-    </h2>
+  <div
+    class="frame primary-font-size primary-height primary-margin-top primary-margin-bottom"
+  >
+    <div class="sticky">
+      <h2>
+        gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
+        klimafreundliche Gebäude.
+      </h2>
+    </div>
   </div>
   <div class="frame msg-secondary">
     <p>
@@ -61,9 +65,11 @@ const posts = await getAllPosts();
     <ThreePillarsVertical />
   </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
+  <div
+    class="frame primary-font-size primary-height primary-margin-top primary-margin-bottom"
+  >
     <div class="sticky">
-      <h2 class="">
+      <h2>
         ist als technologiegestützte Nachhaltigkeitsberatung Ihr
         Sparringspartner auf dem Weg zur Klimaneutralität – mit
         interdisziplinärer Kompetenz und einem ganzheitlichen Ansatz.
@@ -326,6 +332,7 @@ const posts = await getAllPosts();
 
     .animation02 {
       margin: 0;
+      padding: 0;
     }
 
     .svg-action-card {
@@ -340,6 +347,8 @@ const posts = await getAllPosts();
     }
 
     .workshop-cards {
+      flex-direction: column;
+      gap: 1rem;
       width: calc(
         100% - var(--left-padding-mobile) - var(--right-padding-mobile)
       );
@@ -349,7 +358,7 @@ const posts = await getAllPosts();
     }
 
     .svg-action-card {
-      width: clamp(80px, 30svw, 300px);
+      width: clamp(80px, 60svw, 300px);
     }
   }
 </style>

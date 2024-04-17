@@ -621,7 +621,7 @@ input[name="theme-toggle"] {
     }
   }
 
-  .sticky::before {
+  .sticky h2::before {
     content: "BuildSystems";
     letter-spacing: 0.06rem;
     opacity: 0;
@@ -658,7 +658,11 @@ input[name="theme-toggle"] {
     margin-top: 30svh;
   }
 
-  .sticky::before {
+  .primary-margin-bottom {
+    margin-bottom: 3svh;
+  }
+
+  .sticky h2::before {
     content: "BuildSystems";
     letter-spacing: 0.08rem;
     opacity: 0;

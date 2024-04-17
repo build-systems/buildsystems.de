@@ -2,7 +2,6 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
 import { Image } from "astro:assets";
-
 import { getAllPosts } from "../../lib/notion/client.ts";
 import { importCoverImage } from "../../lib/blog-helpers.ts";
 
@@ -17,8 +16,6 @@ const publicImage = `/images/heroRendering.webp`;
 const images = await Astro.glob(
   "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
 );
-// console.dir(posts);
-// console.dir(images);
 ---
 
 <BaseLayout
