@@ -190,13 +190,16 @@ const posts = await getAllPosts();
 
   textsExpandButtons.forEach((text, i) => {
     const button = document.getElementById("expand-button-0" + (i + 1))!;
+    const svgElement = button.querySelector("svg");
+    const useElement = svgElement?.querySelector("use");
+
     button.addEventListener("click", () => {
       if (text.style.height === "max-content") {
         text.style.height = "1px";
-        button.innerHTML = "+";
+        useElement?.setAttribute("xlink:href", "/assets/icons.svg#plus");
       } else {
         text.style.height = "max-content";
-        button.innerHTML = "−";
+        useElement?.setAttribute("xlink:href", "/assets/icons.svg#minus");
       }
     });
   });

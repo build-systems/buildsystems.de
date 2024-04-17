@@ -12,7 +12,12 @@ const { buttonText, buttonLink, id } = Astro.props;
 
 <div>
   <div class="read-more">
-    <button class="plus-minus" id={"expand-button-" + id}>+</button><span
+    <button class="plus-minus" id={"expand-button-" + id}
+      ><svg class="icon">
+        <use xlink:href="/assets/icons.svg#plus"></use>
+      </svg>
+    </button>
+    <span
       ><Button
         text={buttonText}
         link={buttonLink}
@@ -29,6 +34,7 @@ const { buttonText, buttonLink, id } = Astro.props;
 <style>
   .read-more {
     display: flex;
+    align-items: center;
   }
 
   .more-text {
@@ -41,15 +47,15 @@ const { buttonText, buttonLink, id } = Astro.props;
   }
 
   .plus-minus {
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.7rem;
-    height: 1.7rem;
-    font-size: 1.6rem;
     background-color: var(--text-main);
-    color: var(--background-body);
     border-radius: 50%;
+    aspect-ratio: 1/1;
+    height: 26px;
+    padding: 0;
     margin-right: 1rem;
     cursor: pointer;
     border: 0;
@@ -57,7 +63,16 @@ const { buttonText, buttonLink, id } = Astro.props;
 
   .plus-minus:hover {
     background-color: var(--background-body);
-    color: var(--text-main);
+  }
+
+  .icon {
+    height: 26px;
+    width: 26px;
+    fill: var(--background-body);
+  }
+
+  .icon:hover {
+    fill: var(--text-main);
   }
 
   @media (max-width: 1280px) {
