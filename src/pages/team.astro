@@ -19,19 +19,21 @@ const posts = await getAllPosts();
   heroImage={image}
   current={current}
 >
-  <h3 class="frame msg-secondary intro-breath">
-    Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben
-    Interdisziplinarität im Team: Jeder bringt einen Baustein der ganzheitlichen
-    Betrachtung mit ein. Gemeinsam erfassen wir ökologische Anforderungen auf
-    allen Ebenen und und betrachten die Gesamtwirkung der Maßnahmen zur
-    Emissionsreduktion durch die sozioökonomische Perspektive.
-  </h3>
+  <div class="frame msg-secondary primary-margin-top">
+    <h3>
+      Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben
+      Interdisziplinarität im Team: Jeder bringt einen Baustein der
+      ganzheitlichen Betrachtung mit ein. Gemeinsam erfassen wir ökologische
+      Anforderungen auf allen Ebenen und und betrachten die Gesamtwirkung der
+      Maßnahmen zur Emissionsreduktion durch die sozioökonomische Perspektive.
+    </h3>
+  </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
+  <div class="frame primary-height primary-margin-top">
     <h2 class="sticky">führt Kompetenzen, Prozesse und Tools zusammen.</h2>
   </div>
 
-  <div class="cards-container">
+  <div class="frame cards-container">
     <PersonenCard
       imagePath="/src/assets/martin-bittmann.png"
       name="Martin Bittmann"
@@ -43,14 +45,14 @@ const posts = await getAllPosts();
       imagePath="/src/assets/julia-dorn.png"
       name="Julia Dorn"
       title="M.Sc. Urban Design, B.Sc. Architektur"
-      description="DGNB Consultant, Urbane Transformation, Anforderungen EU Taxonomie und Nachhaltigkeitsreporting, Kommunikation, Akteursmanagement & Moderation"
+      description="DGNB Consultant und ESG Manager, Urbane Transformation, EU Taxonomie und Nachhaltigkeitsreporting, Kommunikation, Akteursmanagement & Moderation"
       linkedin="https://www.linkedin.com/in/julia-j-dorn/"
     />
     <PersonenCard
       imagePath="/src/assets/daniel-dieren.jpg"
       name="Daniel Dieren"
       title="M.Sc. Bauingenieur, M.Sc. Architektur"
-      description="Nachhaltiges Konstruieren, Ingenieurholzbau, Integrale Planung, Lebenszyklusbetrachtung"
+      description="Energieeffizienzexperte, Nachhaltiges Konstruieren, Ingenieurholzbau, Integrale Planung, Dekarbonisierung, LCA/LCC, Zirkuläres Bauen"
       linkedin="https://www.linkedin.com/in/daniel-dieren-48a765116/"
     />
     <PersonenCard
@@ -75,11 +77,11 @@ const posts = await getAllPosts();
       linkedin="https://www.linkedin.com/in/ulrich-kneisl-292a60130/"
     />
     <PersonenCard
-      imagePath="/src/assets/vinzenz-trimborn.png"
-      name="Vinzenz Trimborn"
-      title="B.Sc. Wirtschaftsinformatik"
-      description="Advisor: Softwareentwicklung, Digitale Planung, Implementierung digitale Workflows"
-      linkedin="https://www.linkedin.com/in/vinzenz-trimborn/"
+      imagePath="/src/assets/katrin-schwarz.png"
+      name="Katrin Schwarz"
+      title="Dipl. Ing. Architektur"
+      description="Advisor: DGNB Consultant und ESG Manager, Energieeffizienzexpertin, Immobilien-Projektentwicklerin (EBS), ESG Reporting, Taxonomie-Konformität, Klimarisikoanalyse, Dekarbonisierung, Nachhaltige Projektentwicklung und Projektsteuerung"
+      linkedin="https://www.linkedin.com/in/katrin-schwarz-b57b0322b/"
     />
     <PersonenCard
       imagePath="/src/assets/andreas-thoma.png"
@@ -97,13 +99,10 @@ const posts = await getAllPosts();
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
     z-index: 2;
-  }
-
-  .msg-primary {
-    margin-top: 0;
+    margin-bottom: 20svh;
   }
 
   @media (max-width: 1280px) {

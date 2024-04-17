@@ -4,7 +4,6 @@ import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
 import heroRendering from "../assets/multistory-timber-building.jpg";
-import Button from "../components/Button.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 import Cover from "../components/Cover.astro";
@@ -99,7 +98,7 @@ const posts = await getAllPosts();
     <div class="sticky">
       <h2 class="">
         stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
-        Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
+        Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
       </h2>
       <ExpandButton buttonText="Services" buttonLink="/services" id="02">
         Die Bauwende stellt eine der größten Herausforderungen dar, jedoch ist
@@ -136,6 +135,7 @@ const posts = await getAllPosts();
   </div>
 
   <BlogCarousel posts={posts} />
+
   <div class="frame primary-font-size primary-height primary-margin-top">
     <div class="sticky">
       <h2>
@@ -234,6 +234,7 @@ const posts = await getAllPosts();
     width: 100%;
     padding-left: var(--left-padding-general);
     padding-right: var(--right-padding-general);
+    margin-top: 5svh;
   }
 
   .animation02 {
