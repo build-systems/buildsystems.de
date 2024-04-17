@@ -61,6 +61,7 @@ const { current = "" } = Astro.props;
   window.onscroll = () => {
     const direction = window.scrollY > prevY ? "down" : "up";
     // Do something based on the scroll direction
+    prevY = window.scrollY;
     if (navElement) {
       if (window.scrollY === 0) {
         return (navElement.style.opacity = "1");
@@ -71,7 +72,6 @@ const { current = "" } = Astro.props;
         return (navElement.style.opacity = "1");
       }
     }
-    prevY = window.scrollY;
   };
 
   let prevY = window.scrollY; // Store previous scroll position
