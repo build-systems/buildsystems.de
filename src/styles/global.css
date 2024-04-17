@@ -298,7 +298,6 @@ td {
 
 .content p img {
   border-radius: var(--card-border-radius);
-  /* aspect-ratio: 12/8; */
   object-fit: cover;
   object-position: center;
 }
@@ -382,6 +381,7 @@ input[name="theme-toggle"] {
 }
 
 .msg-tertiary {
+  margin-top: 1rem;
   font-size: 1.3rem;
   line-height: 1.45rem;
   max-height: fit-content;
@@ -633,6 +633,11 @@ input[name="theme-toggle"] {
       line-height: 1.2rem;
     }
   }
+
+  .list-pill {
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+  }
 }
 
 @media (max-width: 420px) {
@@ -651,11 +656,11 @@ input[name="theme-toggle"] {
   }
 
   .primary-height {
-    min-height: 70svh;
+    min-height: 60svh;
   }
 
   .primary-margin-top {
-    margin-top: 15svh;
+    margin-top: 30svh;
   }
 
   .primary-margin-bottom {
@@ -687,7 +692,7 @@ input[name="theme-toggle"] {
 
   .image-text-grid {
     p {
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.05rem;
     }
   }

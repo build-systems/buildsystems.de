@@ -77,8 +77,12 @@ const authors = post.Authors;
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
     <p>
       {
-        authors.map((author) => {
-          return <span>{author.name}</span>;
+        authors.map((author, i) => {
+          if (i === 0) {
+            return <span>{author.name}</span>;
+          } else {
+            return <span> + {author.name}</span>;
+          }
         })
       }
     </p>
@@ -116,7 +120,7 @@ const authors = post.Authors;
 
     p {
       margin-bottom: 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     img {
@@ -132,6 +136,11 @@ const authors = post.Authors;
     @media (max-width: 625px) {
       .post {
         margin-top: 5svh;
+      }
+
+      img {
+        height: 55svh;
+        object-fit: cover;
       }
     }
   </style>
