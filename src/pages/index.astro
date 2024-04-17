@@ -256,7 +256,6 @@ const posts = await getAllPosts();
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 4rem;
   }
 
   .svg-action-card {
@@ -335,8 +334,13 @@ const posts = await getAllPosts();
       padding: 0;
     }
 
+    .workshop-cards {
+      flex-direction: column;
+      gap: 3rem;
+    }
+
     .svg-action-card {
-      width: clamp(80px, 28svw, 300px);
+      width: clamp(80px, 60svw, 300px);
     }
   }
 
@@ -347,8 +351,6 @@ const posts = await getAllPosts();
     }
 
     .workshop-cards {
-      flex-direction: column;
-      gap: 1rem;
       width: calc(
         100% - var(--left-padding-mobile) - var(--right-padding-mobile)
       );
@@ -358,7 +360,7 @@ const posts = await getAllPosts();
     }
 
     .svg-action-card {
-      width: clamp(80px, 60svw, 300px);
+      width: clamp(80px, 70svw, 300px);
     }
   }
 </style>

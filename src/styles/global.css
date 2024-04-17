@@ -390,6 +390,7 @@ input[name="theme-toggle"] {
 .sticky {
   position: sticky;
   top: 0;
+  padding-bottom: 1rem;
   padding-top: var(--sticky-padding-general);
   h2 {
     margin-top: 0;

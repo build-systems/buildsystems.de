@@ -54,6 +54,25 @@ const { current = "" } = Astro.props;
   </label>
 </nav>
 
+<script>
+  const navElement = document.querySelector("nav");
+
+  window.onscroll = () => {
+    const direction = window.scrollY > prevY ? "down" : "up";
+    // Do something based on the scroll direction
+    if (navElement) {
+      if (direction === "down") {
+        navElement.style.opacity = "0";
+      } else {
+        navElement.style.opacity = "1";
+      }
+    }
+    prevY = window.scrollY;
+  };
+
+  let prevY = window.scrollY; // Store previous scroll position
+</script>
+
 <style>
   nav {
     position: fixed;
@@ -62,6 +81,7 @@ const { current = "" } = Astro.props;
     right: 0;
     padding: 0.8rem 1rem;
     z-index: 4;
+    transition: opacity 0.2s ease-in-out;
   }
 
   label {
