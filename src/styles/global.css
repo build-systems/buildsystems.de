@@ -359,6 +359,7 @@ input[name="theme-toggle"] {
   margin-left: var(--left-padding-general);
   margin-right: var(--right-padding-general);
   align-self: start;
+  padding-bottom: 1rem;
   /* user-select: none; */
 }
 
