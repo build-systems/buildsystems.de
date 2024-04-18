@@ -119,21 +119,21 @@ const images = await Astro.glob(
     flex: 1;
     display: flex;
     flex-direction: column;
-    .title {
-      text-wrap: balance;
-      order: 2;
-    }
-    .category {
-      order: 1;
-    }
-    .description {
-      order: 3;
-      font-size: 1rem;
-      line-height: 1.1rem;
-    }
-    .date {
-      order: 4;
-    }
+  }
+  .card-text .title {
+    text-wrap: balance;
+    order: 2;
+  }
+  .card-text .category {
+    order: 1;
+  }
+  .card-text .description {
+    order: 3;
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+  .card-text .date {
+    order: 4;
   }
 
   .category {
