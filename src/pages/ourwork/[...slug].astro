@@ -1,20 +1,24 @@
 ---
-import * as interfaces from "../../lib/notion-interfaces.js";
+import type { Post } from "../../lib/notion-interfaces";
 import {
   getAllPosts,
   getPostBySlug,
   getAllBlocksByBlockId,
 } from "../../lib/notion/client.js";
-import { importCoverImage } from "../../lib/blog-helpers.js";
+import {
+  importCoverImage,
+  removePostFromPosts,
+} from "../../lib/blog-helpers.js";
 import PostBody from "../../components/Notion/PostBody.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import { formatDate } from "../../utils/getPostData.js";
 import Button from "../../components/Button.astro";
+import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
-  return posts.map((post: interfaces.Post) => ({
+  return posts.map((post: Post) => ({
     params: { slug: post.Slug },
   }));
 }
@@ -49,6 +53,10 @@ const image = importCoverImage(post, images);
 
 // Authors
 const authors = post.Authors;
+
+let posts = await getAllPosts();
+
+posts = removePostFromPosts(posts, post);
 ---
 
 <BaseLayout
@@ -88,59 +96,59 @@ const authors = post.Authors;
     <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} />
   </article>
+  <BlogCarousel posts={posts} />
+</BaseLayout>
+<style>
+  .cover-image {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 90%,
+      rgba(0, 0, 0, 0)
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 90%,
+      rgba(0, 0, 0, 0)
+    );
+  }
 
-  <style>
-    .cover-image {
-      -webkit-mask-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1) 90%,
-        rgba(0, 0, 0, 0)
-      );
-      mask-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1) 90%,
-        rgba(0, 0, 0, 0)
-      );
-    }
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 68rem;
+  }
 
+  h2 {
+    text-align: start;
+    text-wrap: balance;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  img {
+    width: 100svw;
+    height: 100svh;
+    object-fit: cover;
+  }
+
+  button {
+    background-color: var(--background-body);
+  }
+
+  @media (max-width: 625px) {
     .post {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      justify-content: center;
-      margin-top: 2rem;
-      max-width: 68rem;
-    }
-
-    h2 {
-      text-align: start;
-      text-wrap: balance;
-    }
-
-    p {
-      margin-bottom: 0;
-      font-size: 1rem;
+      margin-top: 5svh;
     }
 
     img {
-      width: 100svw;
-      height: 100svh;
+      height: 55svh;
       object-fit: cover;
     }
-
-    button {
-      background-color: var(--background-body);
-    }
-
-    @media (max-width: 625px) {
-      .post {
-        margin-top: 5svh;
-      }
-
-      img {
-        height: 55svh;
-        object-fit: cover;
-      }
-    }
-  </style>
-</BaseLayout>
+  }
+</style>

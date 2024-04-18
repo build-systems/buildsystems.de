@@ -318,3 +318,11 @@ export const importCoverImage = (post: Post, images: any): any => {
     console.log("Block is null or undefined");
   }
 };
+
+export function removePostFromPosts(posts: Post[], post: Post) {
+  // Use filter() to create a new array containing only elements that pass the test
+  return posts.filter(function (currentPost) {
+    // Return true to keep the element, false to remove it
+    return currentPost.PageId !== post.PageId;
+  });
+}
