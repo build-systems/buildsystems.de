@@ -3,22 +3,27 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Button from "../../components/Button.astro";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import { getAllPosts } from "../../lib/notion/client";
+import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Revitalisierung";
 const description =
   "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
 const image = "/images/services-smart-sustainability-roadmap.png";
+
+const posts = await getAllPosts();
 ---
 
 <BaseLayout title={title} description={description} heroImage={image}>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
+  <StickyLogoMessage>
+    <h2>
       transformiert <span class="font-secondary green"
         >bestehende Immobilien</span
       > zu ressourcen­schonenden und mehrwert­stiftenden Lebens­räumen, die langfristig
       wertstabil und förderfähig sind.
     </h2>
-  </div>
+  </StickyLogoMessage>
+
   <div class="animation-eight-topics-container">
     <div class="animation-eight-topics">
       <LottieAnimation
@@ -130,7 +135,7 @@ const image = "/images/services-smart-sustainability-roadmap.png";
       </ul>
     </div>
   </div>
-  <!-- <BlogCarousel /> -->
+  <BlogCarousel posts={posts} />
 </BaseLayout>
 <style>
   .animation-eight-topics-container {

@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import serviceAnimation from "../assets/service-building-options.webp";
 import Button from "../components/Button.astro";
+import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Services";
 const description =
@@ -22,16 +23,15 @@ const image = "/images/services-smart-sustainability-roadmap.png";
       Sektors voran und ebnen den Weg zu Net Zero.
     </h3>
   </div>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2 id="digitalisierung">
-        ebnet den Weg zur <span class="font-secondary green"
-          >Digi­ta­li­sie­rung</span
-        > durch softwar­ege­stütz­tes Con­sul­ting. Dafür verbin­den wir exis­tier­ende
-        Praxis mit inno­va­tiven Prozes­sen und Tools.
-      </h2>
-    </div>
-  </div>
+
+  <StickyLogoMessage>
+    <h2>
+      ebnet den Weg zur <span class="font-secondary green"
+        >Digi­ta­li­sie­rung</span
+      > durch softwar­ege­stütz­tes Con­sul­ting. Dafür verbin­den wir exis­tier­ende
+      Praxis mit inno­va­tiven Prozes­sen und Tools.
+    </h2>
+  </StickyLogoMessage>
 
   <div class="frame image-text-grid">
     <div class="options-animation">
@@ -74,16 +74,15 @@ const image = "/images/services-smart-sustainability-roadmap.png";
     </div>
   </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        be­glei­tet Sie zur Klima­neutra­lität. Ob operative und graue
-        Emis­sionen oder Zirkula­rität, wir erarbeiten ge­mein­sam mit Ihnen
-        Ziele der <span class="font-secondary green">Dekar­bo­ni­sie­rung</span>
-        und er­schlie­ßen Handlungsräume.
-      </h2>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      be­glei­tet Sie zur Klima­neutra­lität. Ob operative und graue Emis­sionen
+      oder Zirkula­rität, wir erarbeiten ge­mein­sam mit Ihnen Ziele der <span
+        class="font-secondary green">Dekar­bo­ni­sie­rung</span
+      >
+      und er­schlie­ßen Handlungsräume.
+    </h2>
+  </StickyLogoMessage>
 
   <div class="frame image-text-grid">
     <div class="msg-tertiary">
@@ -137,16 +136,14 @@ const image = "/images/services-smart-sustainability-roadmap.png";
     </div>
   </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        trans­for­miert <span class="font-secodary green"
-          >beste­hende Immo­bi­lien</span
-        > zu res­sour­cen­schon­en­den und mehr­wert­stif­ten­den Le­bens­räu­men,
-        die lang­fris­tig wert­sta­bil und förder­fähig sind.
-      </h2>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      trans­for­miert <span class="font-secodary green"
+        >beste­hende Immo­bi­lien</span
+      > zu res­sour­cen­schon­en­den und mehr­wert­stif­ten­den Le­bens­räu­men,
+      die lang­fris­tig wert­sta­bil und förder­fähig sind.
+    </h2>
+  </StickyLogoMessage>
 
   <div class="frame image-text-grid">
     <div class="animation03">
@@ -202,16 +199,14 @@ const image = "/images/services-smart-sustainability-roadmap.png";
     </div>
   </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        steuert und op­ti­miert die Wirksam­keit Ihrer <span
-          class="font-secondary green">Nachhal­tigkeits­planung</span
-        >. Um­welt­ent­las­tung und ökono­mische Mach­bar­keit gehen dabei Hand
-        in Hand.
-      </h2>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      steuert und op­ti­miert die Wirksam­keit Ihrer <span
+        class="font-secondary green">Nachhal­tigkeits­planung</span
+      >. Um­welt­ent­las­tung und ökono­mische Mach­bar­keit gehen dabei Hand
+      in Hand.
+    </h2>
+  </StickyLogoMessage>
 
   <div class="frame image-text-grid">
     <div class="animation05">

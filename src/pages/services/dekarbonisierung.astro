@@ -1,22 +1,27 @@
 ---
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAllPosts } from "../../lib/notion/client";
 
 const title = "BuildSystems | Dekarbonisierung";
 const description =
   "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
 const image = "/images/services-smart-sustainability-roadmap.png";
+
+const posts = await getAllPosts();
 ---
 
 <BaseLayout title={title} description={description} heroImage={image}>
-  <div class="frame primary-font-size primary-height primary-margin-top">
+  <StickyLogoMessage>
     <h2 class="sticky">
       begleitet Sie zur Klima­neutralität. Ob operative und graue Emissionen
       oder Zirkularität, wir erarbeiten gemeinsam mit Ihnen Ziele der <span
         class="font-secondary green">Dekarbonisierung</span
       > und erschließen Handlungsräume.
     </h2>
-  </div>
+  </StickyLogoMessage>
+
   <div class="main-image">
     <img src="/public/assets/crrem-analyse.svg" alt="" />
   </div>
@@ -124,7 +129,7 @@ const image = "/images/services-smart-sustainability-roadmap.png";
       </ul>
     </div>
   </div>
-  <!-- <BlogCarousel /> -->
+  <BlogCarousel posts={posts} />
 </BaseLayout>
 
 <style>

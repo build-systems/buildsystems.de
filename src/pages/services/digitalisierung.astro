@@ -3,22 +3,27 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import serviceAnimation from "../../assets/service-building-options.webp";
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import { getAllPosts } from "../../lib/notion/client";
+import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Digitalisierung";
 const description =
   "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
 const image = "/images/services-smart-sustainability-roadmap.png";
+
+const posts = await getAllPosts();
 ---
 
 <BaseLayout title={title} description={description} heroImage={image}>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <h2 class="sticky">
+  <StickyLogoMessage>
+    <h2>
       ebnet den Weg zur <span class="font-secondary green"
         >Digi­ta­li­sie­rung</span
       > durch softwar­ege­stütz­tes Con­sul­ting. Dafür verbin­den wir exis­tier­ende
       Praxis mit inno­va­tiven Prozes­sen und Tools.
     </h2>
-  </div>
+  </StickyLogoMessage>
+
   <div class="main-image">
     <Image
       src={serviceAnimation}
@@ -89,7 +94,7 @@ const image = "/images/services-smart-sustainability-roadmap.png";
       </ul>
     </div>
   </div>
-  <!-- <BlogCarousel /> -->
+  <BlogCarousel posts={posts} />
 </BaseLayout>
 
 <style>

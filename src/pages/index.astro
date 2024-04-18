@@ -12,6 +12,7 @@ import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import bsTeam from "../assets/buildsystems-team.jpg";
 import ExpandButton from "../components/ExpandButton.astro";
 import { getAllPosts } from "../lib/notion/client";
+import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const posts = await getAllPosts();
 ---
@@ -32,16 +33,12 @@ const posts = await getAllPosts();
     loading="eager"
   />
 
-  <div
-    class="frame primary-font-size primary-height primary-margin-top primary-margin-bottom"
-  >
-    <div class="sticky">
-      <h2>
-        gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
-        klimafreundliche Gebäude.
-      </h2>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
+      klimafreundliche Gebäude.
+    </h2>
+  </StickyLogoMessage>
   <div class="frame msg-secondary">
     <h3>
       Gemeinsam mit Projektentwickler:innen, Bestandshaltern und
@@ -64,26 +61,22 @@ const posts = await getAllPosts();
     <ThreePillarsVertical />
   </div>
 
-  <div
-    class="frame primary-font-size primary-height primary-margin-top primary-margin-bottom"
-  >
-    <div class="sticky">
-      <h2>
-        ist als technologiegestützte Nachhaltigkeitsberatung Ihr
-        Sparringspartner auf dem Weg zur Klimaneutralität – mit
-        interdisziplinärer Kompetenz und einem ganzheitlichen Ansatz.
-      </h2>
-      <ExpandButton buttonText="Team" buttonLink="/team" id="01">
-        Wir erschließen Potenziale der Umweltentlastung ganzheitlich. Das
-        bedeutet, wir beraten Sie toolunabhängig im interdisziplinären Team aus
-        Nachhaltigkeits- und Softwarespezialisten. Dabei entwickeln wir
-        nutzungsspezifische digitale Applikationen ebenso wie
-        Nachhaltigkeitsfahrpläne, entwerfen Umnutzungs- und
-        Revitalisierungskonzepte für Bestandsgebäude und begleiten Sie mit
-        fachplanerischen Leistungen.
-      </ExpandButton>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      ist als technologiegestützte Nachhaltigkeitsberatung Ihr Sparringspartner
+      auf dem Weg zur Klimaneutralität – mit interdisziplinärer Kompetenz und
+      einem ganzheitlichen Ansatz.
+    </h2>
+    <ExpandButton buttonText="Team" buttonLink="/team" id="01">
+      Wir erschließen Potenziale der Umweltentlastung ganzheitlich. Das
+      bedeutet, wir beraten Sie toolunabhängig im interdisziplinären Team aus
+      Nachhaltigkeits- und Softwarespezialisten. Dabei entwickeln wir
+      nutzungsspezifische digitale Applikationen ebenso wie
+      Nachhaltigkeitsfahrpläne, entwerfen Umnutzungs- und
+      Revitalisierungskonzepte für Bestandsgebäude und begleiten Sie mit
+      fachplanerischen Leistungen.
+    </ExpandButton>
+  </StickyLogoMessage>
   <div class="frame image-text-grid">
     <div class="options-animation">
       <Image class="image" src={bsTeam} alt="BuildSystems team working" />
@@ -100,68 +93,63 @@ const posts = await getAllPosts();
     </div>
   </div>
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2 class="">
-        stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
-        Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
-      </h2>
-      <ExpandButton buttonText="Services" buttonLink="/services" id="02">
-        Die Bauwende stellt eine der größten Herausforderungen dar, jedoch ist
-        sie auch mit immensen Wachstumschancen verbunden. Wir unterstützen sie
-        bei der Strategieentwicklung und -implementierung. Individuell auf Ihre
-        Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren Potentiale
-        und optimieren Prozesse. Dabei treiben wir stetig die Dekarbonisierung
-        des Sektors voran und ebnen den Weg zu relevanten Fördermitteln. So
-        machen sich Ihre Green Assets langfristig bezahlt!
-      </ExpandButton>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
+      Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
+    </h2>
+    <ExpandButton buttonText="Services" buttonLink="/services" id="02">
+      Die Bauwende stellt eine der größten Herausforderungen dar, jedoch ist sie
+      auch mit immensen Wachstumschancen verbunden. Wir unterstützen sie bei der
+      Strategieentwicklung und -implementierung. Individuell auf Ihre
+      Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren Potentiale
+      und optimieren Prozesse. Dabei treiben wir stetig die Dekarbonisierung des
+      Sektors voran und ebnen den Weg zu relevanten Fördermitteln. So machen
+      sich Ihre Green Assets langfristig bezahlt!
+    </ExpandButton>
+  </StickyLogoMessage>
 
   <div class="carousel-container">
     <BuildCarousel />
   </div>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        erarbeitet mit langfristig durchdachten Dekarbonisierungsstrategien und
-        Entwicklungsszenarien den effizientesten Weg für Sie von Braun zu Grün.
-      </h2>
-      <ExpandButton buttonText="Our Work" buttonLink="/ourwork" id="03">
-        Unsere Arbeit bildet einen Querschnitt durch Forschung und
-        Wissenstransferformate sowie Beratungs- und Planungsleistungen. Dabei
-        ist die Dekarbonisierung unserer gebauten Umwelt das verbindende Element
-        all unserer Projekte, denn sie ist zur Erreichung der globalen
-        Klimaziele unumgänglich. Der Fokus unserer Arbeit liegt stets darauf,
-        jene Vorteile, die über die Verringerung von Emissionen hinausgehen, für
-        unsere jeweiligen Kunden herauszuarbeiten und so die Wertbeständigkeit
-        von Immobilien und Entwicklungen zu gewährleisten.
-      </ExpandButton>
-    </div>
-  </div>
+
+  <StickyLogoMessage>
+    <h2>
+      erarbeitet mit langfristig durchdachten Dekarbonisierungsstrategien und
+      Entwicklungsszenarien den effizientesten Weg für Sie von Braun zu Grün.
+    </h2>
+    <ExpandButton buttonText="Our Work" buttonLink="/ourwork" id="03">
+      Unsere Arbeit bildet einen Querschnitt durch Forschung und
+      Wissenstransferformate sowie Beratungs- und Planungsleistungen. Dabei ist
+      die Dekarbonisierung unserer gebauten Umwelt das verbindende Element all
+      unserer Projekte, denn sie ist zur Erreichung der globalen Klimaziele
+      unumgänglich. Der Fokus unserer Arbeit liegt stets darauf, jene Vorteile,
+      die über die Verringerung von Emissionen hinausgehen, für unsere
+      jeweiligen Kunden herauszuarbeiten und so die Wertbeständigkeit von
+      Immobilien und Entwicklungen zu gewährleisten.
+    </ExpandButton>
+  </StickyLogoMessage>
 
   <BlogCarousel posts={posts} />
 
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und
-        gibt Orientierung auf unbekanntem Terrain. Veränderung wird aktiv im
-        Team gestaltet.
-      </h2>
-      <ExpandButton buttonText="Workshops" buttonLink="/workshops" id="04">
-        Wir haben unseren Fit For Future Ansatz als ein Weiterbildungsformat
-        rund um die Herausforderungen nachhaltiger Projektentwicklung und
-        unternehmensstrategischer Dekarbonisierung konzipiert. In analogen
-        Modulen lernen die Teilnehmenden, worauf es bei der Entwicklung von
-        zukunftsfähigen, lebenswerten und gemischten Quartieren und Gebäuden
-        ankommt und wie Unternehmen diese Ansätze auf Unternehmensebene
-        verankern. Managen Sie in Zukunft die verschiedenen Stellschrauben der
-        Nachhaltigkeit ganzheitlich und verstehen Sie, welche Maßnahmen
-        tatsächlich einen positiven Impact schaffen.
-      </ExpandButton>
-    </div>
-  </div>
+  <StickyLogoMessage>
+    <h2>
+      hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und
+      gibt Orientierung auf unbekanntem Terrain. Veränderung wird aktiv im Team
+      gestaltet.
+    </h2>
+    <ExpandButton buttonText="Workshops" buttonLink="/workshops" id="04">
+      Wir haben unseren Fit For Future Ansatz als ein Weiterbildungsformat rund
+      um die Herausforderungen nachhaltiger Projektentwicklung und
+      unternehmensstrategischer Dekarbonisierung konzipiert. In analogen Modulen
+      lernen die Teilnehmenden, worauf es bei der Entwicklung von
+      zukunftsfähigen, lebenswerten und gemischten Quartieren und Gebäuden
+      ankommt und wie Unternehmen diese Ansätze auf Unternehmensebene verankern.
+      Managen Sie in Zukunft die verschiedenen Stellschrauben der Nachhaltigkeit
+      ganzheitlich und verstehen Sie, welche Maßnahmen tatsächlich einen
+      positiven Impact schaffen.
+    </ExpandButton>
+  </StickyLogoMessage>
 
   <div class="frame workshop-cards">
     <img

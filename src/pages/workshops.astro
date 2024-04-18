@@ -8,6 +8,7 @@ import actionCardsQualitaetSolarZirkularitaet from "../assets/action-cards-quali
 import actionCardsFlexibilitaetKlimarisiko from "../assets/action-cards-flexibilitaet-klimarisiko.png";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../lib/notion/client";
+import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Workshops";
 const description =
@@ -28,17 +29,17 @@ const posts = await getAllPosts();
       Ihren Vorstellungen.
     </p>
   </div>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        erschließt Chancen in Ihrem Team. Stellen Sie sich der Veränderung und
-        eröffnen Sie Transformations­räume. Gemeinsam gehen wir in unseren
-        Workshops den Weg zu <span class="font-secondary green"
-          >Fit For Future</span
-        >.
-      </h2>
-    </div>
-  </div>
+
+  <StickyLogoMessage>
+    <h2>
+      erschließt Chancen in Ihrem Team. Stellen Sie sich der Veränderung und
+      eröffnen Sie Transformations­räume. Gemeinsam gehen wir in unseren
+      Workshops den Weg zu <span class="font-secondary green"
+        >Fit For Future</span
+      >.
+    </h2>
+  </StickyLogoMessage>
+
   <div class="frame image-text-grid">
     <Image
       class="cover"
@@ -73,6 +74,7 @@ const posts = await getAllPosts();
       />
     </div>
   </div>
+
   <div class="frame image-text-grid flipped-content">
     <div class="msg-tertiary">
       <h2>Fit for Future – Strategische Transformation</h2>
@@ -203,7 +205,6 @@ const posts = await getAllPosts();
       alt="Three action cards: Qualitaetsprofil Solarprofil Zirkularitaetsprofil"
     />
   </div>
-  <!-- new -->
   <div class="frame image-text-grid flipped-content">
     <Image
       class="cover"
