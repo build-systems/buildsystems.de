@@ -44,6 +44,15 @@ const { block, headings } = Astro.props;
     margin-bottom: 0.25rem;
   }
 
+  li {
+    background-color: #3c3c3c;
+    background-color: var(--background-cards);
+    margin-bottom: 0.25rem;
+    padding: 0.75rem;
+    border-radius: var(--card-border-radius);
+    padding-left: 2rem;
+  }
+
   @media (max-width: 625px) {
     ul {
       font-size: 0.9rem;
