@@ -4,6 +4,7 @@ import { formatDate } from "../../utils/getPostData.ts";
 import { Image } from "astro:assets";
 import { getAllPosts } from "../../lib/notion/client.ts";
 import { importCoverImage } from "../../lib/blog-helpers.ts";
+import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 
 const posts = await getAllPosts();
 
@@ -24,16 +25,24 @@ const images = await Astro.glob(
   heroImage={publicImage}
   transition={true}
 >
-  <div class="frame primary-height primary-margin-top">
-    <div class="sticky">
-      <h2>
-        ist Transparenz besonders wichtig. Deshalb teilen wir wichtige Insights
-        aus kreativen Strategien und holistischen Projekten, die
-        zukunftsgerechte und nachhaltige Entwicklungen auf den Weg gebracht
-        haben.
-      </h2>
-    </div>
+  <div class="frame msg-secondary primary-margin-top">
+    <h3>
+      Die Fragen der Bauwende sind vielerorts gleich, die jeweilige Umsetzung
+      ist jedoch immer spezifisch. Unsere Arbeit baut auf Interdisziplinarität,
+      Erfahrung und digitale Prozesse. Gemeinsam mit unseren Kund:innen und
+      Partner:innen zeigen wir, wie nachhaltige Transformation gelingen kann.
+      Dabei lernen wir voneinander und betrachten Projekte aus verschiedenen
+      Perspektiven.
+    </h3>
   </div>
+  <StickyLogoMessage>
+    <h2>
+      arbeitet zwischen Forschung, öffentlicher Wissensbildung und einer
+      ganzheitlichen Beratung und Planung. Damit bewegen wir uns zwischen
+      strategischer Begleitung, Planungsleistungen und der Überführung von
+      Wissen und Ergebnissen in die digitale Welt.
+    </h2>
+  </StickyLogoMessage>
   <div class="frame blog-container">
     {
       posts.map((post, index) => {
