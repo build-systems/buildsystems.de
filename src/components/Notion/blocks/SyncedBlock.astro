@@ -1,6 +1,6 @@
 ---
 import NotionBlocks from "../NotionBlocks.astro";
-import * as interfaces from "../../../lib/interfaces";
+import * as interfaces from "../../../lib/notion-interfaces";
 
 export interface Props {
   block: interfaces.Block;
@@ -11,3 +11,4 @@ const { block, headings } = Astro.props;
 ---
 
 <NotionBlocks blocks={block.SyncedBlock!.Children!} headings={headings} />
+../../../lib/notion-interfaces

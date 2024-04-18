@@ -8,7 +8,7 @@ import type {
   RichText,
   Column,
   Post,
-} from "./interfaces";
+} from "./notion-interfaces";
 import { pathJoin } from "./utils";
 
 export const filePath = (url: URL): string => {

@@ -3,7 +3,7 @@ import { formatDate } from "../../utils/getPostData";
 import { Image } from "astro:assets";
 import { getAllPosts } from "../../lib/notion/client";
 import { importCoverImage } from "../../lib/blog-helpers";
-import type { Post } from "../../lib/interfaces";
+import type { Post } from "../../lib/notion-interfaces";
 
 interface Props {
   posts: Post[];
@@ -290,3 +290,4 @@ const images = await Astro.glob(
     }
   }
 </style>
+../../lib/notion-interfaces

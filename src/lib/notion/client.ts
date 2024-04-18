@@ -51,7 +51,7 @@ import type {
   LinkToPage,
   Mention,
   Reference,
-} from "../interfaces";
+} from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
 

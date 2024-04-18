@@ -13,7 +13,7 @@
   --layout-padding: 1rem;
   --card-border-radius: 0.5rem;
 
-  --left-padding-general: 315px;
+  --left-padding-general: 305px;
   --right-padding-general: 10%;
   --primary-msg-size-general: 2.65rem;
   --primary-msg-line-height-general: 2.7rem;
@@ -21,7 +21,7 @@
   --secondary-msg-line-height-general: 1.7rem;
   --sticky-padding-general: 0.85rem;
 
-  --left-padding-desktop: 215px;
+  --left-padding-desktop: 210px;
   --right-padding-desktop: 10%;
   --primary-msg-size-desktop: 1.8rem;
   --primary-msg-line-height-desktop: 1.9rem;

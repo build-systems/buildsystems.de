@@ -1,5 +1,5 @@
 ---
-import * as interfaces from "../../../lib/interfaces.ts";
+import * as interfaces from "../../../lib/notion-interfaces.ts";
 import Mention from "./Mention.astro";
 
 export interface Props {
@@ -12,3 +12,4 @@ const { block } = Astro.props;
 <p>
   <Mention pageId={block.LinkToPage!.PageId} />
 </p>
+../../../lib/notion-interfaces.ts

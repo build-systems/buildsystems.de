@@ -9,7 +9,7 @@ import {
 import "../styles/syntax-coloring.css";
 import SearchModal from "../components/Notion/SearchModal.astro";
 import SearchButton from "../components/Notion/SearchButton.astro";
-import { type Emoji, type FileObject } from "../lib/interfaces.ts";
+import { type Emoji, type FileObject } from "../lib/notion-interfaces.ts";
 
 export interface Props {
   title?: string;
@@ -457,3 +457,4 @@ if (database.Icon && database.Icon!.Type === "file") {
     min-height: 0.9rem;
   }
 </style>
+../lib/notion-interfaces.ts
