@@ -316,7 +316,10 @@
 
     window.addEventListener("scroll", function () {
       if (!checkboxChecked) {
-        document.getElementById("cover")!.checked = true;
+        const coverElement = document.getElementById(
+          "cover"
+        )! as HTMLInputElement;
+        coverElement.checked = true;
         checkboxChecked = true;
       }
     });

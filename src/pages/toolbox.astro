@@ -4,20 +4,18 @@ import { Image } from "astro:assets";
 import heroImage from "../assets/heroimage-ipad-sanierung.png";
 import Button from "../components/Button.astro";
 
-const title = "BuildSystems | Fördertool";
+const title = "BuildSystems | Toolbox";
 const description =
   "Unser Tool unterstützt Sie bei der früh­zeitigen Gegenüber­stellung von Bau­kosten, Fördermittel­potentialen und Nachhaltigkeits­anforderungen.";
 const image = "/images/heroimage-ipad-sanierung-public.jpg";
-const current = "foerdertool";
 ---
 
 <LandingLayout
   title={title}
   description={description}
   heroImage={image}
-  current={current}
   transition={true}
-  >
+>
   <div class="tool">
     <Image
       class="tool__image"
@@ -31,12 +29,13 @@ const current = "foerdertool";
     <div class="tool__text">
       <h1>Fördertool</h1>
       <h2>
-        Unser Tool unterstützt Sie bei der früh­zeitigen Gegenüber­stellung von Bau­kosten, Fördermittel­potentialen und
-        Nachhaltigkeits­anforderungen.
+        Unser Tool unterstützt Sie bei der früh­zeitigen Gegenüber­stellung von
+        Bau­kosten, Fördermittel­potentialen und Nachhaltigkeits­anforderungen.
       </h2>
       <p>
-        Vergleichen Sie verschiedene KfW-Förderprodukte in Bezug auf Anforderungen und finanzielle Vorteile durch
-        Tilgungs­zuschüsse und vergünstigte Zinsen.
+        Vergleichen Sie verschiedene KfW-Förderprodukte in Bezug auf
+        Anforderungen und finanzielle Vorteile durch Tilgungs­zuschüsse und
+        vergünstigte Zinsen.
       </p>
       <div class="tool__text__buttons">
         <Button
@@ -44,8 +43,8 @@ const current = "foerdertool";
           text="Neubau"
           openOnNewTab={true}
           link="https://app.buildsystems.de/neubau"
-          />
-          <Button
+        />
+        <Button
           icon="redirect"
           text="Sanierung"
           openOnNewTab={true}

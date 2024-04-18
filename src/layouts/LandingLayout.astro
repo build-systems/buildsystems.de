@@ -6,11 +6,10 @@ export interface Props {
   title: string;
   description: string;
   heroImage: string;
-  current: string;
   transition?: boolean;
 }
 
-const { title, description, heroImage, current, transition } = Astro.props;
+const { title, description, heroImage, transition } = Astro.props;
 ---
 
 <html lang="de">
@@ -29,10 +28,7 @@ const { title, description, heroImage, current, transition } = Astro.props;
       type="font/woff2"
       crossorigin
     />
-    <link
-      rel="sitemap"
-      href="/sitemap-index.xml"
-    />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <BaseHead
       title={title}
       description={description}
@@ -41,7 +37,7 @@ const { title, description, heroImage, current, transition } = Astro.props;
     />
   </head>
   <body>
-    <Header current={current} />
+    <Header />
 
     <main>
       <slot />

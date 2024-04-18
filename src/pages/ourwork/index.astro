@@ -7,7 +7,7 @@ import { importCoverImage } from "../../lib/blog-helpers.ts";
 
 const posts = await getAllPosts();
 
-const title = "BuildSystems | Posts";
+const title = "BuildSystems | Our Work";
 const description =
   "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
 const publicImage = `/images/heroRendering.webp`;
@@ -23,18 +23,7 @@ const images = await Astro.glob(
   description={description}
   heroImage={publicImage}
   transition={true}
-  current="posts"
 >
-  <!-- <div class="frame msg-secondary primary-margin-top">
-    <h3>
-      Die Fragen der Bauwende sind vielerorts gleich, die jeweilige Umsetzung
-      ist jedoch immer spezifisch. Unsere Arbeit baut auf Interdisziplinarität,
-      Erfahrung und digitale Prozesse. Gemeinsam mit unseren Kund:innen und
-      Partner:innen zeigen wir, wie nachhaltige Transformation gelingen kann.
-      Dabei lernen wir voneinander und betrachten Projekte aus verschiedenen
-      Perspektiven.
-    </h3>
-  </div> -->
   <div class="frame primary-height primary-margin-top">
     <div class="sticky">
       <h2>

@@ -4,21 +4,15 @@ import PersonenCard from "../components/PersonenCard.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../lib/notion/client";
 
-const title = "BuildSystems | Personen";
+const title = "BuildSystems | Team";
 const description =
   "Erfassen wir ökologische Anforderungen auf allen Ebenen und und betrachten die Gesamtwirkung der Maßnahmen zur Emissionsreduktion durch die sozioökonomische Perspektive.";
 const image = "/images/buildsystems-team.jpg";
-const current = "personen";
 
 const posts = await getAllPosts();
 ---
 
-<BaseLayout
-  title={title}
-  description={description}
-  heroImage={image}
-  current={current}
->
+<BaseLayout title={title} description={description} heroImage={image}>
   <div class="frame msg-secondary primary-margin-top">
     <h3>
       Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben
