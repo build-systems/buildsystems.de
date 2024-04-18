@@ -9,7 +9,7 @@ export default (): AstroIntegration => ({
   name: "cover-image-downloader",
   hooks: {
     "astro:build:start": async () => {
-      console.log("\nStarting downloading cover image");
+      // console.log("\nStarting downloading cover image");
       const database = await getDatabase();
 
       if (!database.Cover || database.Cover.Type !== "file") {
@@ -24,7 +24,7 @@ export default (): AstroIntegration => ({
         console.log("Invalid Cover image URL");
         return Promise.resolve();
       }
-      console.log("\nDownloading cover image");
+      // console.log("\nDownloading cover image");
       return downloadFile(url), downloadPublicFile(url);
     },
   },

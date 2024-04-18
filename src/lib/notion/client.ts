@@ -119,7 +119,7 @@ export async function getAllPosts(): Promise<Post[]> {
       }
     );
     results = results.concat(res.results);
-    // console.dir(JSON.stringify(results));
+    // console.dir(results);
 
     if (!res.has_more) {
       break;
@@ -581,7 +581,6 @@ export async function getDatabase(): Promise<Database> {
 
 function _buildBlock(blockObject: responses.BlockObject): Block {
   // console.dir(blockObject);
-
   const block: Block = {
     Id: blockObject.id,
     Type: blockObject.type,
@@ -630,7 +629,6 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       break;
     case "bulleted_list_item":
       if (blockObject.bulleted_list_item) {
-        // console.dir(blockObject.bulleted_list_item.rich_text);
         const bulletedListItem: BulletedListItem = {
           RichTexts:
             blockObject.bulleted_list_item.rich_text.map(_buildRichText),
@@ -675,6 +673,8 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       }
       break;
     case "image":
+      // console.log("\n===== Image In =====");
+      // console.dir(blockObject);
       if (blockObject.image) {
         const image: Image = {
           Caption: blockObject.image.caption?.map(_buildRichText) || [],
@@ -696,9 +696,13 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
           };
         }
         block.Image = image;
+        // console.log("\n===== Image Out =====");
+        // console.dir(block.Image);
       }
       break;
     case "file":
+      // console.log("\n===== File In =====");
+      // console.dir(blockObject);
       if (blockObject.file) {
         const file: File = {
           Caption: blockObject.file.caption?.map(_buildRichText) || [],
@@ -714,6 +718,8 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
           };
         }
         block.File = file;
+        // console.log("\n===== File Out =====");
+        // console.dir(block.File);
       }
       break;
     case "code":
@@ -859,6 +865,11 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
         };
         block.LinkToPage = linkToPage;
       }
+      break;
+    case "pdf":
+      // console.dir(blockObject);
+      // To do... copy from file
+      // Download pdf to public folder in posts-files-downloader.ts
       break;
   }
   return block;
@@ -1049,6 +1060,9 @@ function _buildPost(pageObject: responses.PageObject): Post {
 
   // // I removed this field. Now the cover is the public.
   // // It is converted to 800px in width
+
+  // // I left this commented code here just in case we add an alternative Phone Cover (vertical)
+  // // We could have a Files & Media property in Notion and use this to get the image
 
   // let publicImage: FileObject | null = null;
   // try {

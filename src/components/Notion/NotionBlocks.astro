@@ -167,6 +167,7 @@ console.log("\n===== Assembling Notion blocks =====");
       case "toggle":
         return <Toggle block={block} headings={headings} />;
       case "file":
+        console.dir(block);
         return <File block={block} />;
       case "link_to_page":
         return <LinkToPage block={block} />;

@@ -55,26 +55,47 @@ const { current = "" } = Astro.props;
 </nav>
 
 <script>
-  // Hide hamburguer when scrolling down. Show when scrolling up.
-  const navElement = document.querySelector("nav");
+  // init + astro:after-swap
+  // This is a life-cycle hook to make the script work with view transitions
+  function init() {
+    // Hide hamburguer when scrolling down. Show when scrolling up.
+    const navElement = document.querySelector("nav");
 
-  window.onscroll = () => {
-    const direction = window.scrollY > prevY ? "down" : "up";
-    // Do something based on the scroll direction
-    prevY = window.scrollY;
-    if (navElement) {
-      if (window.scrollY === 0) {
-        return (navElement.style.opacity = "1");
+    window.onscroll = () => {
+      const direction = window.scrollY > prevY ? "down" : "up";
+      // Do something based on the scroll direction
+      prevY = window.scrollY;
+      if (navElement) {
+        if (window.scrollY <= 0) {
+          return (navElement.style.opacity = "1");
+        }
+        if (direction === "down") {
+          return (navElement.style.opacity = "0");
+        } else {
+          return (navElement.style.opacity = "1");
+        }
       }
-      if (direction === "down") {
-        return (navElement.style.opacity = "0");
-      } else {
-        return (navElement.style.opacity = "1");
-      }
-    }
-  };
+    };
 
-  let prevY = window.scrollY; // Store previous scroll position
+    let prevY = window.scrollY; // Store previous scroll position
+
+    // Clean up by destroying instances and removing event listeners
+    document.addEventListener(
+      "astro:before-swap",
+      () => {
+        if (navElement) {
+          navElement.style.opacity = "1";
+        }
+      },
+      { once: true }
+    );
+  }
+
+  // Initialize on first load
+  init();
+
+  // Re-initialize after swapping pages
+  document.addEventListener("astro:after-swap", init);
 </script>
 
 <style>

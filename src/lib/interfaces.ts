@@ -17,8 +17,6 @@ export interface Post {
   Slug: string;
   PublishDate: string;
   Tags: SelectProperty[];
-  // PublicImage: FileObject | null;
-  // Rank: number;
 }
 
 export interface Block {
