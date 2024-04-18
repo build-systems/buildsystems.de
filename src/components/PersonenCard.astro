@@ -11,8 +11,13 @@ interface Props {
 }
 
 const { name, title, description, imagePath, linkedin } = Astro.props;
-const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/*.{jpeg,jpg,png,gif}");
-if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/*.{jpeg,jpg,png,gif}"
+);
+if (!images[imagePath])
+  throw new Error(
+    `"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`
+  );
 ---
 
 <div class="card">
@@ -28,15 +33,16 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     <h5>{description}</h5>
     {
       linkedin != undefined && (
-    <a
-      href={linkedin}
-      target="_blank"
-      aria-label={"Reach out to " + name + " on LinkedIn"}>
-      <svg class="icon">
-        <use xlink:href="/assets/icons.svg#linkedin"></use>
-      </svg>
-    </a>
-    )
+        <a
+          href={linkedin}
+          target="_blank"
+          aria-label={"Reach out to " + name + " on LinkedIn"}
+        >
+          <svg class="icon">
+            <use xlink:href="/assets/icons.svg#linkedin" />
+          </svg>
+        </a>
+      )
     }
   </div>
 </div>
@@ -105,7 +111,7 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
     }
     .text {
       margin: 1rem 0;
-      text-align: center;
+      text-align: start;
     }
   }
 </style>
