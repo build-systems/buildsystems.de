@@ -6,7 +6,7 @@
     display: flex;
     padding: 0.8rem 1rem;
     z-index: 4;
-    color: #FAFAFA;
+    color: #fafafa;
   }
 
   .logo-container {
@@ -45,27 +45,25 @@
 
   @media (max-width: 625px) {
     .header-container {
-      padding: 0.6rem 5%;
+      padding: var(--sticky-padding-mobile) 5%;
     }
     .logo-container {
-      font-size: 1.6rem;
+      font-size: var(--primary-msg-size-tablet);
     }
   }
 
   @media (max-width: 420px) {
     .header-container {
-      padding: 0.5rem 10px;
+      padding: var(--sticky-padding-mobile) 10px;
     }
     .logo-container {
-      font-size: 1.4rem;
+      font-size: var(--primary-msg-size-mobile);
     }
   }
 </style>
 
 <div class="header-container blend">
-  <a
-    href="/"
-    aria-label="BuildSystems logo. Redirects to homepage.">
+  <a href="/" aria-label="BuildSystems logo. Redirects to homepage.">
     <h1 class="logo-container">
       <div class="logo">Build</div>
       <div class="logo-mono">Systems</div>

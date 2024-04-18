@@ -35,11 +35,11 @@
   --primary-msg-line-height-tablet: 1.7rem;
   --secondary-msg-size-tablet: 1.3rem;
   --secondary-msg-line-height-tablet: 1.45rem;
-  --sticky-padding-tablet: 0.58rem;
+  --sticky-padding-tablet: 0.6rem;
 
   --left-padding-mobile: 10px;
   --right-padding-mobile: 10px;
-  --primary-msg-size-mobile: 1.35rem;
+  --primary-msg-size-mobile: 1.3rem;
   --primary-msg-line-height-mobile: 1.45rem;
   --secondary-msg-size-mobile: 1.1rem;
   --secondary-msg-line-height-mobile: 1.2rem;
@@ -625,7 +625,7 @@ input[name="theme-toggle"] {
 
   .sticky h2::before {
     content: "BuildSystems";
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.05rem;
     opacity: 0;
   }
 
@@ -670,8 +670,8 @@ input[name="theme-toggle"] {
   }
 
   .sticky h2::before {
+    letter-spacing: 0.04rem;
     content: "BuildSystems";
-    letter-spacing: 0.08rem;
     opacity: 0;
   }
 
