@@ -149,11 +149,9 @@ const posts = await getAllPosts();
     margin: 8rem 0;
   }
 
-  .animation05 {
-    img {
-      width: clamp(300px, 80svw, 500px);
-      aspect-ratio: 1 / 1;
-    }
+  .animation05 img {
+    width: clamp(300px, 80svw, 500px);
+    aspect-ratio: 1 / 1;
   }
 
   @media (max-width: 1100px) {
@@ -163,10 +161,8 @@ const posts = await getAllPosts();
   }
 
   @media (max-width: 920px) {
-    .animation05 {
-      img {
-        width: 100%;
-      }
+    .animation05 img {
+      width: 100%;
     }
   }
 

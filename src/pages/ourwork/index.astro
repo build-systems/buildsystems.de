@@ -175,9 +175,10 @@ const images = await Astro.glob(
   .card:hover {
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 1));
     transform: translate3d(0, -5px, 0);
-    h3 {
-      text-decoration: underline;
-    }
+  }
+
+  .card:hover h3 {
+    text-decoration: underline;
   }
 
   h3 {
