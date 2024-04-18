@@ -35,7 +35,6 @@ const images = await Astro.glob(
     </div>
   </div>
   <div class="frame blog-container">
-    <!-- <p class="category">{post.data.category}</p> -->
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
@@ -45,6 +44,7 @@ const images = await Astro.glob(
             <a href={href} class="card-link" data-astro-prefetch>
               <div class="card">
                 <div class="card-text">
+                  <div class="category">{post.Category}</div>
                   <h3 class="title" transition:name={post.Slug + "-title"}>
                     {post.Title}
                   </h3>
@@ -110,6 +110,34 @@ const images = await Astro.glob(
     flex: 1;
     display: flex;
     flex-direction: column;
+    .title {
+      text-wrap: balance;
+      order: 2;
+    }
+    .category {
+      order: 1;
+    }
+    .description {
+      order: 3;
+      font-size: 1rem;
+      line-height: 1.1rem;
+    }
+    .date {
+      order: 4;
+    }
+  }
+
+  .category {
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.8rem;
+    margin-bottom: 1rem;
+    color: var(--background-body);
+    background-color: var(--text-main);
+  }
+
+  .description {
+    flex: 1;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-lines: 2;
     -webkit-hyphenate-limit-after: 5;
@@ -133,30 +161,6 @@ const images = await Astro.glob(
     hyphenate-limit-lines: 2;
     hyphenate-limit-last: always;
     hyphenate-limit-zone: 8%;
-    .title {
-      text-wrap: balance;
-      order: 2;
-    }
-    .category {
-      order: 1;
-    }
-    .description {
-      order: 3;
-    }
-    .date {
-      order: 4;
-    }
-  }
-
-  .category {
-    /* border: 1px solid var(--primary-color); */
-    border-radius: 2rem;
-    width: fit-content;
-    /* padding: 0 1rem; */
-  }
-
-  .description {
-    flex: 1;
   }
 
   .card:hover {
