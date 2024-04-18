@@ -74,7 +74,7 @@ const authors = post.Authors;
   <article class:list={["post", "frame"]}>
     <Button text={post.Category} link="/" />
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
-    <p>
+    <!-- <p>
       {
         authors.map((author, i) => {
           if (i === 0) {
@@ -84,7 +84,7 @@ const authors = post.Authors;
           }
         })
       }
-    </p>
+    </p> -->
     <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} />
   </article>
@@ -144,4 +144,3 @@ const authors = post.Authors;
     }
   </style>
 </BaseLayout>
-../../lib/notion-interfaces.js
