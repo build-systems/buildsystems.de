@@ -6,12 +6,19 @@ export interface Props {
 }
 
 const { richTexts } = Astro.props;
+
+// Ignores the first line, which should be an ALT text
+let caption: string;
+if (richTexts.length > 0 && richTexts[0].Text!.Content) {
+  const multilineString = richTexts[0].Text!.Content;
+  caption = multilineString.split("\n").slice(1).join("\n");
+}
 ---
 
 {
-  richTexts.length > 0 && richTexts[0].Text!.Content && (
+  caption! && (
     <div class="caption">
-      <div>{richTexts[0].Text!.Content}</div>
+      <div>{caption}</div>
     </div>
   )
 }
@@ -21,7 +28,7 @@ const { richTexts } = Astro.props;
     display: flex;
     margin-top: 0.3rem;
     font-size: 0.9rem;
-    color: var(--accents-3);
+    /* color: var(--accents-3); */
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.4;
