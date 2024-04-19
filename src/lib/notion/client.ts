@@ -673,8 +673,8 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       }
       break;
     case "image":
-      console.log("\n===== Image In =====");
-      console.dir(blockObject);
+      // console.log("\n===== Image In =====");
+      // console.dir(blockObject);
       if (blockObject.image) {
         const image: Image = {
           Caption: blockObject.image.caption?.map(_buildRichText) || [],
@@ -696,8 +696,8 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
           };
         }
         block.Image = image;
-        console.log("\n===== Image Out =====");
-        console.dir(block.Image.Caption);
+        // console.log("\n===== Image Out =====");
+        // console.dir(block.Image.Caption);
       }
       break;
     case "file":

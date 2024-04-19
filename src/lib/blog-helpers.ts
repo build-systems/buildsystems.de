@@ -326,3 +326,11 @@ export function removePostFromPosts(posts: Post[], post: Post) {
     return currentPost.PageId !== post.PageId;
   });
 }
+
+// export function filterPostsByTags(posts: Post[], post: Post) {}
+
+export function filterPostsByTags(posts: Post[], post: Post) {
+  return posts.filter((p) =>
+    post.Tags.some((tag) => p.Tags.some((pTag) => pTag.name === tag.name))
+  );
+}

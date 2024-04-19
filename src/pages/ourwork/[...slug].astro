@@ -6,6 +6,7 @@ import {
   getAllBlocksByBlockId,
 } from "../../lib/notion/client.js";
 import {
+  filterPostsByTags,
   importCoverImage,
   removePostFromPosts,
 } from "../../lib/blog-helpers.js";
@@ -56,7 +57,11 @@ const authors = post.Authors;
 
 let posts = await getAllPosts();
 
+// Remove the current post from the list
 posts = removePostFromPosts(posts, post);
+
+// Filter by tag
+posts = filterPostsByTags(posts, post);
 ---
 
 <BaseLayout

@@ -85,7 +85,7 @@ if (block.Image && block.Image.Caption[0]) {
     url! && block.Image!.File && imageExtension! === "svg" && (
       <div>
         <div>
-          <Image src={image} alt="test" />
+          <Image src={image} alt={altText} />
         </div>
         <Caption richTexts={block.Image!.Caption} />
       </div>
@@ -95,7 +95,7 @@ if (block.Image && block.Image.Caption[0]) {
     url! && block.Image!.External && (
       <div>
         <div>
-          <Image src={url!.href} alt="Image in a image block" inferSize />
+          <Image src={url!.href} alt={altText} inferSize />
         </div>
         <Caption richTexts={block.Image!.Caption} />
       </div>
