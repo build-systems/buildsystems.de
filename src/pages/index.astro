@@ -18,6 +18,9 @@ import bsTeam from "../assets/buildsystems-team.jpg";
 import ExpandButton from "../components/ExpandButton.astro";
 import { getAllPosts } from "../lib/notion/client";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
+import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
+import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
 
 const posts = await getAllPosts();
 ---
@@ -158,19 +161,19 @@ const posts = await getAllPosts();
   </StickyLogoMessage>
 
   <div class="frame workshop-cards">
-    <img
+    <Image
       class="svg-action-card"
-      src="/assets/action-card-qualitaetsprofil.svg"
+      src={cardQualitaetsprofil}
       alt="Action Card Qualitätsprofil"
     />
-    <img
+    <Image
       class="svg-action-card"
-      src="/assets/action-card-emissionsprofil.svg"
+      src={cardEmissionsprofil}
       alt="Action Card Emissionsprofil"
     />
-    <img
+    <Image
       class="svg-action-card"
-      src="/assets/action-card-zirkularitaetsprofil.svg"
+      src={cardZirkularitaetsprofil}
       alt="Action Card Zirkularitätsprofil"
     />
   </div>
