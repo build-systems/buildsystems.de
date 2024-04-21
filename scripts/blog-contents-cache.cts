@@ -26,7 +26,7 @@ const getAllPages = async () => {
     },
   };
 
-  let results = [];
+  let results: any[] = [];
   while (true) {
     const res = await notion.databases.query(params);
 

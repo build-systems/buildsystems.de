@@ -7,7 +7,7 @@ const notion = new Client({ auth: process.env.NOTION_API_SECRET });
 const requestDuration = 300;
 
 const retry = (maxRetries, fn) => {
-  return fn().catch(function (err) {
+  return fn().catch(function (err: any) {
     if (maxRetries <= 0) {
       throw err;
     }
@@ -15,10 +15,10 @@ const retry = (maxRetries, fn) => {
   });
 };
 
-const retrieveAndWriteBlockChildren = async (blockId) => {
+const retrieveAndWriteBlockChildren = async (blockId: string) => {
   const params = { block_id: blockId };
 
-  let results = [];
+  let results: any[] = [];
 
   while (true) {
     // For Notion API Requests limits
@@ -58,7 +58,7 @@ const retrieveAndWriteBlockChildren = async (blockId) => {
   });
 };
 
-const retrieveAndWriteBlock = async (blockId) => {
+const retrieveAndWriteBlock = async (blockId: string) => {
   const params = { block_id: blockId };
 
   // For Notion API Requests limits

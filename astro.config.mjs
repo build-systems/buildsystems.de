@@ -12,15 +12,13 @@ const getSite = function () {
     return new URL(BASE_PATH, `https://${CUSTOM_DOMAIN}`).toString();
   }
 
-  if (process.env.VERCEL && process.env.VERCEL_URL) {
-    return new URL(BASE_PATH, `https://${process.env.VERCEL_URL}`).toString();
-  }
-
-  if (process.env.CF_PAGES) {
+  if (process.env.CF_PAGES && CF_PAGES_BRANCH !== "main") {
     if (process.env.CF_PAGES_BRANCH !== "main") {
       return new URL(BASE_PATH, process.env.CF_PAGES_URL).toString();
     }
 
+    // This one is only usefull if there's not proper registered domain
+    // It is when the site is only on CF pages
     return new URL(
       BASE_PATH,
       `https://${new URL(process.env.CF_PAGES_URL).host
@@ -35,10 +33,10 @@ const getSite = function () {
 
 export default defineConfig({
   site: getSite(),
-  trailingSlash: "always",
   base: BASE_PATH,
   redirects: {
     "/personen": "/team",
+    "foerdertool/": "/toolbox",
   },
   integrations: [
     lottie(),
