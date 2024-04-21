@@ -132,4 +132,4 @@ function init() {
 init();
 
 // Re-initialize after swapping pages
-document.addEventListener("astro:page-load", init);
+document.addEventListener("astro:after-swap", init);
