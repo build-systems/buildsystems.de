@@ -487,7 +487,7 @@ export async function downloadPublicFile(url: URL) {
   const fileNameConverted = fileName + ".jpg";
   // console.log("7 - File name with jpg extensions is: " + fileNameConverted);
 
-  const filepath = `${dir}/${fileNameConverted}`;
+  const filepath = `${dir}/${fileNameExtension}`;
   // console.log("8 - Full file path is: " + filepath);
 
   if (fs.existsSync(filepath)) {
@@ -501,9 +501,9 @@ export async function downloadPublicFile(url: URL) {
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(sharp().rotate());
+    stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
   } else {
-    stream = stream.pipe(sharp().rotate().jpeg());
+    stream = stream.pipe(sharp().resize({ width: 800 }));
   }
   try {
     console.log(`Downloading file:\n${filepath}`);
