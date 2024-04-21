@@ -5,9 +5,10 @@ export interface Props {
   buttonText: string;
   buttonLink: string;
   id: string;
+  ariaLabel: string;
 }
 
-const { buttonText, buttonLink, id } = Astro.props;
+const { buttonText, buttonLink, id, ariaLabel } = Astro.props;
 ---
 
 <div>
@@ -23,6 +24,7 @@ const { buttonText, buttonLink, id } = Astro.props;
         text={buttonText}
         link={buttonLink}
         icon="redirect"
+        ariaLabel={ariaLabel}
         widthFitContent
       /></span
     >

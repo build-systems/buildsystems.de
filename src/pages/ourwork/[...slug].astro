@@ -86,17 +86,6 @@ posts = filterPostsByTags(posts, post);
   <article class:list={["post", "frame"]}>
     <Button text={post.Category} link="/" />
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
-    <!-- <p>
-      {
-        authors.map((author, i) => {
-          if (i === 0) {
-            return <span>{author.name}</span>;
-          } else {
-            return <span> + {author.name}</span>;
-          }
-        })
-      }
-    </p> -->
     <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} />
   </article>
