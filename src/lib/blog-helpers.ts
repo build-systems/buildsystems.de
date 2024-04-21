@@ -334,3 +334,12 @@ export function filterPostsByTags(posts: Post[], post: Post) {
     post.Tags.some((tag) => p.Tags.some((pTag) => pTag.name === tag.name))
   );
 }
+
+export function returnImageNameAsJpg(url: URL) {
+  const fileNameExtension = decodeURIComponent(
+    url.pathname.split("/").slice(-1)[0]
+  );
+  const fileName = fileNameExtension.split(".")[0];
+  const fileNameConverted = fileName + ".jpg";
+  return fileNameConverted;
+}

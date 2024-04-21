@@ -54,6 +54,7 @@ import type {
 } from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
+import { returnImageNameAsJpg } from "../blog-helpers";
 
 const client = new Client({
   auth: NOTION_API_SECRET,
@@ -478,13 +479,14 @@ export async function downloadPublicFile(url: URL) {
   }
 
   // console.log("5 - Getting file name");
-  const fileNameExtension = decodeURIComponent(
-    url.pathname.split("/").slice(-1)[0]
-  );
+  // const fileNameExtension = decodeURIComponent(
+  //   url.pathname.split("/").slice(-1)[0]
+  // );
   // console.log("6 - File name with extension is: " + fileNameExtension);
 
-  const fileName = fileNameExtension.split(".")[0];
-  const fileNameConverted = fileName + ".jpg";
+  // const fileName = fileNameExtension.split(".")[0];
+  // const fileNameConverted = fileName + ".jpg";
+  const fileNameConverted = returnImageNameAsJpg(url);
   // console.log("7 - File name with jpg extensions is: " + fileNameConverted);
 
   const filepath = `${dir}/${fileNameConverted}`;
@@ -503,7 +505,9 @@ export async function downloadPublicFile(url: URL) {
   if (res.headers["content-type"] === "image/jpeg") {
     stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
   } else {
-    stream = stream.pipe(sharp().resize({ width: 800 }).jpeg());
+    stream = stream.pipe(
+      sharp().resize({ width: 800 }).jpeg().flatten({ background: "#222" })
+    );
   }
   try {
     console.log(`Downloading file:\n${filepath}`);

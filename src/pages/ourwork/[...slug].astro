@@ -9,6 +9,7 @@ import {
   filterPostsByTags,
   importCoverImage,
   removePostFromPosts,
+  returnImageNameAsJpg,
 } from "../../lib/blog-helpers.js";
 import PostBody from "../../components/Notion/PostBody.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
@@ -38,11 +39,12 @@ let publicImage = "";
 if (post.Cover) {
   const coverUrl = new URL(post.Cover!.Url);
   const dir = "notion/" + coverUrl.pathname.split("/").slice(-2)[0];
-  const fileNameExtension = decodeURIComponent(
-    coverUrl.pathname.split("/").slice(-1)[0]
-  );
-  const fileName = fileNameExtension.split(".")[0];
-  const fileNameConverted = fileName + ".jpg";
+  // const fileNameExtension = decodeURIComponent(
+  //   coverUrl.pathname.split("/").slice(-1)[0]
+  // );
+  // const fileName = fileNameExtension.split(".")[0];
+  // const fileNameConverted = fileName + ".jpg";
+  const fileNameConverted = returnImageNameAsJpg(coverUrl);
   publicImage = `${Astro.site}${dir}/${fileNameConverted}`;
 }
 if (true) {
