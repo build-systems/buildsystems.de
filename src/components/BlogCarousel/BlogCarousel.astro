@@ -30,7 +30,7 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        const href = Astro.site + "ourwork/" + post.Slug;
+        const href = "https://buildsystems.de/ourwork/" + post.Slug;
         return (
           <a draggable="false" href={href} class="card-link">
             <div class="card">
