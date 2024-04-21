@@ -481,15 +481,17 @@ export async function downloadPublicFile(url: URL) {
   const fileNameExtension = decodeURIComponent(
     url.pathname.split("/").slice(-1)[0]
   );
-  // console.log("6 - File name is: " + filename);
+  // console.log("6 - File name with extension is: " + fileNameExtension);
+
   const fileName = fileNameExtension.split(".")[0];
   const fileNameConverted = fileName + ".jpg";
+  // console.log("7 - File name with jpg extensions is: " + fileNameConverted);
 
   const filepath = `${dir}/${fileNameConverted}`;
-  // console.log("7 - Full file path is: " + filepath);
+  // console.log("8 - Full file path is: " + filepath);
 
   if (fs.existsSync(filepath)) {
-    // console.log("8 - File already exists.");
+    // console.log("9 - File already exists.");
     console.log(`File already exists:\n${filepath}`);
     return;
   }
@@ -499,13 +501,13 @@ export async function downloadPublicFile(url: URL) {
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
+    stream = stream.pipe(sharp().resize({ width: 800 }));
   } else {
-    stream = stream.pipe(sharp().resize({ width: 800 }).rotate().jpeg());
+    stream = stream.pipe(sharp().jpeg().resize({ width: 800 }));
   }
   try {
     console.log(`Downloading file:\n${filepath}`);
-    // console.log("8 - Downloading file");
+    // console.log("9 - Downloading file");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);
