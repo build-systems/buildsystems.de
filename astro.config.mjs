@@ -39,7 +39,6 @@ export default defineConfig({
   base: BASE_PATH,
   redirects: {
     "/personen": "/team",
-    "/blog/[...slug]": "/articles/[...slug]",
   },
   integrations: [
     lottie(),

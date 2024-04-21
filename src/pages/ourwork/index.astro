@@ -47,7 +47,6 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        // const href = "https://buildsystems.de/ourwork/" + post.Slug;
         const href = getPostLink(post.Slug);
         return (
           <>
