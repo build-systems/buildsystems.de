@@ -463,7 +463,7 @@ input[name="theme-toggle"] {
   height: 100%;
 }
 
-li {
+.list-pill li {
   background-color: var(--background-cards);
   margin-bottom: 0.25rem;
   padding: 0.75rem;
