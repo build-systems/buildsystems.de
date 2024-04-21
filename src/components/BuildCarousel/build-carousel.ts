@@ -90,4 +90,4 @@ function buildCarousel() {
 }
 
 buildCarousel();
-document.addEventListener("astro:beforeload", buildCarousel);
+document.addEventListener("astro:page-load", buildCarousel);
