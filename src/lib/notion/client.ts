@@ -501,9 +501,9 @@ export async function downloadPublicFile(url: URL) {
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(sharp().resize({ width: 800 }));
+    stream = stream.pipe(sharp().rotate());
   } else {
-    stream = stream.pipe(sharp().jpeg().resize({ width: 800 }));
+    stream = stream.pipe(sharp().rotate().jpeg());
   }
   try {
     console.log(`Downloading file:\n${filepath}`);
