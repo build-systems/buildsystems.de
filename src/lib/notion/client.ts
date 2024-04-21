@@ -478,15 +478,7 @@ export async function downloadPublicFile(url: URL) {
     // console.log("4 - Folder already exists.");
   }
 
-  // console.log("5 - Getting file name");
-  // const fileNameExtension = decodeURIComponent(
-  //   url.pathname.split("/").slice(-1)[0]
-  // );
-  // console.log("6 - File name with extension is: " + fileNameExtension);
-
-  // const fileName = fileNameExtension.split(".")[0];
-  // const fileNameConverted = fileName + ".jpg";
-  const fileNameConverted = returnImageNameAsJpg(url);
+  const fileNameConverted = returnImageNameAsJpg(url); // 5 and 6 where refactored to this function
   // console.log("7 - File name with jpg extensions is: " + fileNameConverted);
 
   const filepath = `${dir}/${fileNameConverted}`;
@@ -506,7 +498,7 @@ export async function downloadPublicFile(url: URL) {
     stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
   } else {
     stream = stream.pipe(
-      sharp().resize({ width: 800 }).jpeg().flatten({ background: "#222" })
+      sharp().resize({ width: 800 }).jpeg().flatten({ background: "#222222" })
     );
   }
   try {
