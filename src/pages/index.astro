@@ -119,7 +119,7 @@ const posts = await getAllPosts();
   </StickyLogoMessage>
 
   <div class="carousel-container">
-    <BuildCarousel />
+    <BuildCarousel client:visible />
   </div>
 
   <StickyLogoMessage>
@@ -139,7 +139,7 @@ const posts = await getAllPosts();
     </ExpandButton>
   </StickyLogoMessage>
 
-  <BlogCarousel posts={posts} />
+  <BlogCarousel posts={posts} client:visible />
 
   <StickyLogoMessage>
     <h2>
