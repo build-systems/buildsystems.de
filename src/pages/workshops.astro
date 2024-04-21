@@ -12,13 +12,19 @@ import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Workshops";
 const description =
-  "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
-const image = "/images/services-smart-sustainability-roadmap.png";
+  "Sie und Ihr Team wollen verstehen, wie Sie die aktuellen Herausforderungen um ESG, Dekarbonisierung und Zirkularität in der Baubranche zu Chancen verwandeln? In umfangreichen Workshops stellen wir die Weichen für Ihren Weg in die Zukunft. Gerne besprechen wir mit Ihnen im Vorhinein Fokuspunkte und Umfang und erstellen ein individuelles Angebot entsprechend Ihren Vorstellungen.";
+const image = "/images/action-cards-mobilitaetsprofil.jpg";
+const imageAlt = "Action card Mobilitaetsprofil";
 
 const posts = await getAllPosts();
 ---
 
-<BaseLayout title={title} description={description} heroImage={image}>
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  imageAlt={imageAlt}
+>
   <div class="frame msg-secondary primary-margin-top">
     <h3>
       Sie und Ihr Team wollen verstehen, wie Sie die aktuellen Herausforderungen

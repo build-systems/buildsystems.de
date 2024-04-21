@@ -5,13 +5,13 @@ import { Image } from "astro:assets";
 import { getAllPosts } from "../../lib/notion/client.ts";
 import { getPostLink, importCoverImage } from "../../lib/blog-helpers.ts";
 import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import { SITE_HEROIMAGE, SITE_HEROIMAGEALT } from "../../consts";
 
 const posts = await getAllPosts();
 
 const title = "BuildSystems | Our Work";
 const description =
-  "The place to stay informed about the latest news, regulations, fundings and everything related to the real estate in Germany!";
-const publicImage = `/images/heroRendering.webp`;
+  "Die Fragen der Bauwende sind vielerorts gleich, die jeweilige Umsetzung ist jedoch immer spezifisch. Unsere Arbeit baut auf Interdisziplinarität, Erfahrung und digitale Prozesse. Gemeinsam mit unseren Kund:innen und Partner:innen zeigen wir, wie nachhaltige Transformation gelingen kann. Dabei lernen wir voneinander und betrachten Projekte aus verschiedenen Perspektiven.";
 
 // Get images
 const images = await Astro.glob(
@@ -22,7 +22,8 @@ const images = await Astro.glob(
 <BaseLayout
   title={title}
   description={description}
-  heroImage={publicImage}
+  image={SITE_HEROIMAGE}
+  imageAlt={SITE_HEROIMAGEALT}
   transition={true}
 >
   <div class="frame msg-secondary primary-margin-top">

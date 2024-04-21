@@ -2,7 +2,12 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_HEROIMAGE } from "../consts";
+import {
+  SITE_TITLE,
+  SITE_DESCRIPTION,
+  SITE_HEROIMAGE,
+  SITE_HEROIMAGEALT,
+} from "../consts";
 import heroRendering from "../assets/multistory-timber-building.jpg";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
@@ -20,14 +25,15 @@ const posts = await getAllPosts();
 <BaseLayout
   title={SITE_TITLE}
   description={SITE_DESCRIPTION}
-  heroImage={SITE_HEROIMAGE}
+  image={SITE_HEROIMAGE}
+  imageAlt={SITE_HEROIMAGEALT}
 >
   <Cover />
 
   <Image
     class="hero-image"
     src={heroRendering}
-    alt="Rendering of a multi-story timber building"
+    alt={SITE_HEROIMAGEALT}
     widths={[300, 700, 1000, 1280, 1400, 1600, heroRendering.width]}
     sizes={`(max-width: 300px) 300px, (max-width: 700px) 700px, (max-width: 1000px) 1000px, (max-width: 1280px) 1280px, (max-width: 1400px) 1400px, (max-width: 1600px) 1600px, ${heroRendering.width}px`}
     loading="eager"

@@ -1,20 +1,26 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
-import serviceAnimation from "../../assets/service-building-options.webp";
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
+import { Image } from "astro:assets";
+import serviceAnimation from "../../assets/service-building-options.webp";
 import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Digitalisierung";
 const description =
   "BuildSystems ebnet den Weg zur Digitalisierung durch softwaregestütztes Consulting. Dafür verbinden wir existierende Praxis mit innovativen Prozessen und Tools.";
-const image = "/images/services-smart-sustainability-roadmap.png";
+const image = "/images/digitalisierung-building-options.jpg";
+const imageAlt = "Optimization of building designs";
 
 const posts = await getAllPosts();
 ---
 
-<BaseLayout title={title} description={description} heroImage={image}>
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  imageAlt={imageAlt}
+>
   <StickyLogoMessage>
     <h2>
       ebnet den Weg zur <span class="font-secondary green"

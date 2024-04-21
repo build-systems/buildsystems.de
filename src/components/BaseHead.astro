@@ -3,17 +3,19 @@
 import { ViewTransitions } from "astro:transitions";
 import "../styles/fonts.css";
 import "../styles/global.css";
+import { SITE_HEROIMAGE, SITE_HEROIMAGEALT } from "../consts";
 
 interface Props {
   title: string;
   description: string;
   image: string;
+  imageAlt: string;
   transition?: boolean;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image, transition } = Astro.props;
+const { title, description, image, imageAlt, transition } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -33,9 +35,13 @@ const { title, description, image, transition } = Astro.props;
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={Astro.url} />
+<meta property="og:site_name" content="BuildSystems" />
+<meta property="og:locale" content="de-DE" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={image} />
+<meta property="og:image:url" content={image || SITE_HEROIMAGE} />
+<meta property="og:image:secure_url" content={image || SITE_HEROIMAGE} />
+<meta property="og:image:alt" content={imageAlt || SITE_HEROIMAGEALT} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />

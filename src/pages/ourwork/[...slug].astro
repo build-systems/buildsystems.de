@@ -55,6 +55,7 @@ const image = importCoverImage(post, images);
 // Authors
 const authors = post.Authors;
 
+// Get all posts available
 let posts = await getAllPosts();
 
 // Remove the current post from the list
@@ -67,7 +68,8 @@ posts = filterPostsByTags(posts, post);
 <BaseLayout
   title={"BuildSystems | " + post.Title}
   description={post.Description}
-  heroImage={publicImage}
+  image={publicImage}
+  imageAlt={post.CoverAlt}
   transition={true}
 >
   {

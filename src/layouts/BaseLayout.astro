@@ -7,11 +7,12 @@ import "../styles/syntax-coloring.css";
 export interface Props {
   title: string;
   description: string;
-  heroImage: string;
+  image: string;
+  imageAlt: string;
   transition?: boolean;
 }
 
-const { title, description, heroImage, transition } = Astro.props;
+const { title, description, image, imageAlt, transition } = Astro.props;
 ---
 
 <html lang="de">
@@ -34,7 +35,8 @@ const { title, description, heroImage, transition } = Astro.props;
     <BaseHead
       title={title}
       description={description}
-      image={heroImage}
+      image={image}
+      imageAlt={imageAlt}
       transition={transition}
     />
   </head>
