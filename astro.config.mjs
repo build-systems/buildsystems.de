@@ -36,6 +36,10 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
+  redirects: {
+    "/personen": "/team",
+    "/blog/[...slug]": "/articles/[...slug]",
+  },
   integrations: [
     lottie(),
     sitemap(),
