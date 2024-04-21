@@ -37,11 +37,17 @@ const [blocks] = await Promise.all([getAllBlocksByBlockId(post.PageId)]);
 let publicImage = "";
 if (post.Cover) {
   const coverUrl = new URL(post.Cover!.Url);
-  const dir = "/notion/" + coverUrl.pathname.split("/").slice(-2)[0];
+  const dir = "notion/" + coverUrl.pathname.split("/").slice(-2)[0];
   const filename = decodeURIComponent(
     coverUrl.pathname.split("/").slice(-1)[0]
   );
-  publicImage = `${Astro.site}/${dir}/${filename}`;
+  publicImage = `${Astro.site}${dir}/${filename}`;
+}
+if (true) {
+  // if (post.Slug === "cities-in-transition-von-muc-book") {
+  console.log("\n===== Image =====");
+  console.log("URL is: " + post.Cover!.Url);
+  console.log("File path is: " + publicImage);
 }
 
 // Get images
