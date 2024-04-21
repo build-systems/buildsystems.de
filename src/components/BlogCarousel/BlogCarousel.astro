@@ -1,7 +1,7 @@
 ---
 import { formatDate } from "../../utils/getPostData";
 import { Image } from "astro:assets";
-import { importCoverImage } from "../../lib/blog-helpers";
+import { getPostLink, importCoverImage } from "../../lib/blog-helpers";
 import type { Post } from "../../lib/notion-interfaces";
 
 interface Props {
@@ -30,7 +30,7 @@ const images = await Astro.glob(
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
-        const href = "https://buildsystems.de/ourwork/" + post.Slug;
+        const href = getPostLink(post.Slug);
         return (
           <a draggable="false" href={href} class="card-link">
             <div class="card">

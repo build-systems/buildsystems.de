@@ -35,6 +35,7 @@ const getSite = function () {
 
 export default defineConfig({
   site: getSite(),
+  trailingSlash: "always",
   base: BASE_PATH,
   redirects: {
     "/personen": "/team",

@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { formatDate } from "../../utils/getPostData.ts";
 import { Image } from "astro:assets";
 import { getAllPosts } from "../../lib/notion/client.ts";
-import { importCoverImage } from "../../lib/blog-helpers.ts";
+import { getPostLink, importCoverImage } from "../../lib/blog-helpers.ts";
 import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 
 const posts = await getAllPosts();
@@ -48,7 +48,7 @@ const images = await Astro.glob(
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
         // const href = "https://buildsystems.de/ourwork/" + post.Slug;
-        const href = Astro.url + "/" + post.Slug;
+        const href = getPostLink(post.Slug);
         return (
           <>
             <a href={href} class="card-link" data-astro-prefetch>
