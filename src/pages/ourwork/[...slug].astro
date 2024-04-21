@@ -38,10 +38,12 @@ let publicImage = "";
 if (post.Cover) {
   const coverUrl = new URL(post.Cover!.Url);
   const dir = "notion/" + coverUrl.pathname.split("/").slice(-2)[0];
-  const filename = decodeURIComponent(
+  const fileNameExtension = decodeURIComponent(
     coverUrl.pathname.split("/").slice(-1)[0]
   );
-  publicImage = `${Astro.site}${dir}/${filename}`;
+  const fileName = fileNameExtension.split(".")[0];
+  const fileNameConverted = fileName + ".jpg";
+  publicImage = `${Astro.site}${dir}/${fileNameConverted}`;
 }
 if (true) {
   // if (post.Slug === "cities-in-transition-von-muc-book") {
