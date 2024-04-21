@@ -478,9 +478,14 @@ export async function downloadPublicFile(url: URL) {
   }
 
   // console.log("5 - Getting file name");
-  const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  const fileNameExtension = decodeURIComponent(
+    url.pathname.split("/").slice(-1)[0]
+  );
   // console.log("6 - File name is: " + filename);
-  const filepath = `${dir}/${filename}`;
+  const fileName = fileNameExtension.split(".")[0];
+  const fileNameConverted = fileName + ".jpg";
+
+  const filepath = `${dir}/${fileNameConverted}`;
   // console.log("7 - Full file path is: " + filepath);
 
   if (fs.existsSync(filepath)) {
@@ -494,9 +499,9 @@ export async function downloadPublicFile(url: URL) {
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
+    stream = stream.pipe(sharp().resize({ width: 1200 }).rotate());
   } else {
-    stream = stream.pipe(sharp().resize({ width: 800 }));
+    stream = stream.pipe(sharp().resize({ width: 1200 }).rotate().jpeg());
   }
   try {
     console.log(`Downloading file:\n${filepath}`);
