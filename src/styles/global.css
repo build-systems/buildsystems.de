@@ -78,7 +78,7 @@ html:focus-within {
 }
 
 ::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.8rem;
 }
 
 ::-webkit-scrollbar-track {
