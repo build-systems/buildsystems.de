@@ -8,9 +8,10 @@ interface Props {
   description: string;
   imagePath: string;
   linkedin?: string;
+  email?: string;
 }
 
-const { name, title, description, imagePath, linkedin } = Astro.props;
+const { name, title, description, imagePath, linkedin, email } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/*.{jpeg,jpg,png,gif}"
 );
@@ -31,19 +32,34 @@ if (!images[imagePath])
     <h3>{name}</h3>
     <h4>{title}</h4>
     <h5>{description}</h5>
-    {
-      linkedin != undefined && (
-        <a
-          href={linkedin}
-          target="_blank"
-          aria-label={"Reach out to " + name + " on LinkedIn"}
-        >
-          <svg class="icon">
-            <use xlink:href="/assets/icons.svg#linkedin" />
-          </svg>
-        </a>
-      )
-    }
+    <div>
+      {
+        linkedin != undefined && (
+          <a
+            href={linkedin}
+            target="_blank"
+            aria-label={"Reach out to " + name + " on LinkedIn"}
+          >
+            <svg class="icon">
+              <use xlink:href="/assets/icons.svg#linkedin" />
+            </svg>
+          </a>
+        )
+      }
+      {
+        email != undefined && (
+          <a
+            href={"mailto:" + email}
+            target="_blank"
+            aria-label={"Send an email to " + name}
+          >
+            <svg class="icon">
+              <use xlink:href="/assets/icons.svg#email" />
+            </svg>
+          </a>
+        )
+      }
+    </div>
   </div>
 </div>
 
@@ -75,6 +91,15 @@ if (!images[imagePath])
     fill: var(--text-main);
     width: 18px;
     height: 18px;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a + a {
+    margin-left: 0.5rem;
   }
 
   @media (max-width: 1280px) {

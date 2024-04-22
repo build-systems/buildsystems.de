@@ -1,9 +1,9 @@
 ---
+import Anchor from "../components/Anchor.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import serviceAnimation from "../assets/service-building-options.webp";
-import Button from "../components/Button.astro";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Services";
@@ -60,7 +60,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         Zukunft rüsten.
       </p>
       <div class="button-list">
-        <Button
+        <Anchor
           text="Portfoliodigitalisierung"
           link="/services/digitalisierung#portfoliodigitalisierung"
           openOnNewTab={false}
@@ -68,7 +68,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Portfoliodigitalisierung section at Digitalisierung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="Digitale Carbon Due Diligence"
           link="/services/digitalisierung#digitale-carbon-due-diligence"
           openOnNewTab={false}
@@ -111,7 +111,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         Nach­haltigkeit, Energie­effizienz und Digitalisierung.
       </p>
       <div class="button-list">
-        <Button
+        <Anchor
           text="Strategieentwicklung ESG und Dekarbonisierung"
           link="/services/dekarbonisierung#strategieentwicklung-esg-und-dekarbonisierung"
           openOnNewTab={false}
@@ -119,7 +119,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Strategieentwicklung ESG und Dekarbonisierung section at Dekarbonisierung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="Portfoliodekarbonisierung"
           link="/services/dekarbonisierung#portfoliodekarbonisierung"
           openOnNewTab={false}
@@ -127,7 +127,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Portfoliodekarbonisierung section at Dekarbonisierung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="CRREM Analyse"
           link="/services/dekarbonisierung#portfoliodekarbonisierung"
           openOnNewTab={false}
@@ -177,7 +177,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         Förderungen und Impact auf.
       </p>
       <div class="button-list">
-        <Button
+        <Anchor
           text="Fördermittel- und Energieberataung"
           link="/services/revitalisierung#energieberatung-und-individuelle-sanierungsfahrplaene"
           openOnNewTab={false}
@@ -185,7 +185,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Fördermittelberatung section at revitalisierung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="Repositionierungskonzepte"
           link="/services/revitalisierung#repositionierungskonzepte"
           openOnNewTab={false}
@@ -193,7 +193,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Repositionierungskonzepte section at revitalisierung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="Objektplanung"
           link="/services/revitalisierung#repositionierungskonzepte"
           openOnNewTab={false}
@@ -250,7 +250,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         Umwelt leisten.
       </p>
       <div class="button-list">
-        <Button
+        <Anchor
           text="Carbon Due Diligence"
           link="/services/nachhaltigkeitsplanung#carbon-due-diligence"
           openOnNewTab={false}
@@ -258,7 +258,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Carbon Due Diligence section at Nachhaltigkeitsplanung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="Planungsbegleitende Leistungen"
           link="/services/nachhaltigkeitsplanung#planungsbegleitende-leistungen"
           openOnNewTab={false}
@@ -266,7 +266,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
           ariaLabel="Go to Planungsbegleitende Leistungen section at Nachhaltigkeitsplanung page"
           widthFitContent={true}
         />
-        <Button
+        <Anchor
           text="ESG und DGNB Consulting"
           link="/services/nachhaltigkeitsplanung#dgnb-consulting"
           openOnNewTab={false}

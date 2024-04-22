@@ -1,8 +1,8 @@
 ---
-import LandingLayout from "../layouts/LandingLayout.astro";
-import { Image } from "astro:assets";
+import Anchor from "../components/Anchor.astro";
 import coverImage from "../assets/heroimage-ipad-sanierung.png";
-import Button from "../components/Button.astro";
+import { Image } from "astro:assets";
+import LandingLayout from "../layouts/LandingLayout.astro";
 
 const title = "BuildSystems | Toolbox";
 const description =
@@ -41,13 +41,13 @@ const imageAlt =
         vergünstigte Zinsen.
       </p>
       <div class="tool__text__buttons">
-        <Button
+        <Anchor
           icon="redirect"
           text="Neubau"
           openOnNewTab={true}
           link="https://app.buildsystems.de/neubau"
         />
-        <Button
+        <Anchor
           icon="redirect"
           text="Sanierung"
           openOnNewTab={true}

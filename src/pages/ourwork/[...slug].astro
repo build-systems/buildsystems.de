@@ -1,5 +1,11 @@
 ---
+import Anchor from "../../components/Anchor.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import { formatDate } from "../../utils/getPostData.js";
+import { Image } from "astro:assets";
 import type { Post } from "../../lib/notion-interfaces";
+import PostBody from "../../components/Notion/PostBody.astro";
 import {
   getAllPosts,
   getPostBySlug,
@@ -11,12 +17,6 @@ import {
   removePostFromPosts,
   returnImageNameAsJpg,
 } from "../../lib/blog-helpers.js";
-import PostBody from "../../components/Notion/PostBody.astro";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
-import { formatDate } from "../../utils/getPostData.js";
-import Button from "../../components/Button.astro";
-import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -84,7 +84,7 @@ posts = filterPostsByTags(posts, post);
     )
   }
   <article class:list={["post", "frame"]}>
-    <Button text={post.Category} link="/" />
+    <Anchor text={post.Category} link="/" />
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
     <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} />

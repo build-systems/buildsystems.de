@@ -1,22 +1,14 @@
 ---
-import Button from "./Button.astro";
+import Button from "./Anchor.astro";
 import { Image } from "astro:assets";
-import heroRendering from "../assets/multistory-timber-building.jpg";
-import dgnbLogo from "../assets/dgnb-logo.svg";
-import bayernInnovativLogo from "../assets/bayern-innovativ-logo.svg";
-import energieEffizienzExpertenLogo from "../assets/energie-effizienz-experten-logo.svg";
-import denaLogo from "../assets/dena-logo.svg";
-import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkammer-logo.svg";
+import logoBayerischeArchitektenkammer from "../assets/bayerische-architektenkammer-logo.svg";
+import logoBayernInnovativ from "../assets/bayern-innovativ-logo.svg";
+import logoDena from "../assets/dena-logo.svg";
+import logoDgnb from "../assets/dgnb-logo.svg";
+import logoEnergieEffizienzExperten from "../assets/energie-effizienz-experten-logo.svg";
 ---
 
 <div class="footer-container">
-  <!-- <div class="image-container">
-    <Image
-      class="hero-image"
-      src={heroRendering}
-      alt="Rendering of a multi-story timber building"
-    />
-  </div> -->
   <footer>
     <div class="footer-content">
       <div class="left-block-wrapper">
@@ -92,7 +84,7 @@ import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkam
               aria-label="Link führt zu byak.de - Bayerische Architektenkammer"
             >
               <Image
-                src={bayerischeArchitektenkammerLogo}
+                src={logoBayerischeArchitektenkammer}
                 alt="Bayerische Architektenkammer logo"
               />
             </a>
@@ -103,7 +95,7 @@ import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkam
               title="Deutsche Energie-Agentur GmbH"
               aria-label="Link führt zu dena.de - Deutsche Energie-Agentur GmbH"
             >
-              <Image class="dena-logo" src={denaLogo} alt="dena logo" />
+              <Image class="dena-logo" src={logoDena} alt="dena logo" />
             </a>
             <a
               href="https://www.energie-effizienz-experten.de/"
@@ -113,7 +105,7 @@ import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkam
               aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten"
             >
               <Image
-                src={energieEffizienzExpertenLogo}
+                src={logoEnergieEffizienzExperten}
                 alt="Energie Effizienz Experten logo"
               />
             </a>
@@ -124,7 +116,7 @@ import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkam
               title="Bayern Innovativ GmbH"
               aria-label="Link führt zu bayern-innovativ.de - Bayern Innovativ GmbH"
             >
-              <Image src={bayernInnovativLogo} alt="Bayern Innovativ logo" />
+              <Image src={logoBayernInnovativ} alt="Bayern Innovativ logo" />
             </a>
             <a
               href="https://www.dgnb.de/"
@@ -133,7 +125,7 @@ import bayerischeArchitektenkammerLogo from "../assets/bayerische-architektenkam
               title="Deutsche Gesellschaft für Nachhaltiges Bauen"
               aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen"
             >
-              <Image class="dgnb-logo" src={dgnbLogo} alt="DGNB logo" />
+              <Image class="dgnb-logo" src={logoDgnb} alt="DGNB logo" />
             </a>
           </div>
         </div>

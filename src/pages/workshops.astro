@@ -1,13 +1,13 @@
 ---
+import Anchor from "../components/Anchor.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Button from "../components/Button.astro";
-import { Image } from "astro:assets";
+import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import actionCardMobilitaetsprofil from "../assets/action-cards-mobilitaetsprofil.png";
 import actionCardBlauGruenProfil from "../assets/action-cards-blau-gruen-profil.png";
 import actionCardsQualitaetSolarZirkularitaet from "../assets/action-cards-qualitaet-solar-zirkularitaet.png";
 import actionCardsFlexibilitaetKlimarisiko from "../assets/action-cards-flexibilitaet-klimarisiko.png";
-import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../lib/notion/client";
+import { Image } from "astro:assets";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Workshops";
@@ -70,7 +70,7 @@ const posts = await getAllPosts();
         wird Ihr Team ein ganzheitliches und funktionie­rendes
         Entwicklungs­konzept der Zukunft erstellen.
       </p>
-      <Button
+      <Anchor
         text="Kontakt aufnehmen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -106,7 +106,7 @@ const posts = await getAllPosts();
         und zu wirtschaften.
       </p>
       <div>
-        <Button
+        <Anchor
           text="Kontakt aufnehmen"
           link="mailto:mail@buildsystems.de"
           openOnNewTab={true}
@@ -163,7 +163,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 750 Euro exkl. USt
       </p>
-      <Button
+      <Anchor
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -194,7 +194,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 750 Euro exkl. USt
       </p>
-      <Button
+      <Anchor
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -237,7 +237,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 950 Euro exkl. USt
       </p>
-      <Button
+      <Anchor
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}

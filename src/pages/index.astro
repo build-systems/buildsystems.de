@@ -1,5 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+import bsTeam from "../assets/buildsystems-team.jpg";
+import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
+import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
+import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
+import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
+import Cover from "../components/Cover.astro";
+import ExpandButton from "../components/ExpandButton.astro";
+import { getAllPosts } from "../lib/notion/client";
+import heroRendering from "../assets/multistory-timber-building.jpg";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import {
@@ -8,19 +18,9 @@ import {
   SITE_HEROIMAGE,
   SITE_HEROIMAGEALT,
 } from "../consts";
-import heroRendering from "../assets/multistory-timber-building.jpg";
+import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
-import Cover from "../components/Cover.astro";
-import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
-import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
-import bsTeam from "../assets/buildsystems-team.jpg";
-import ExpandButton from "../components/ExpandButton.astro";
-import { getAllPosts } from "../lib/notion/client";
-import StickyLogoMessage from "../components/StickyLogoMessage.astro";
-import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
-import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
-import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
 
 const posts = await getAllPosts();
 ---

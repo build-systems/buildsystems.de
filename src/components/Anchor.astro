@@ -32,26 +32,21 @@ if (openOnNewTab) {
   download={downloadName}
   target={target}
   aria-label={ariaLabel}
-  class:list={[{ widthFitContent: widthFitContent }]}
+  class:list={[
+    { widthFitContent: widthFitContent },
+    { justifyCenter: justifyCenter },
+  ]}
   data-astro-prefetch
 >
-  <button class:list={[{ justifyCenter: justifyCenter }]}
-    >{
-      icon != undefined && (
-        <svg class="icon">
-          <use xlink:href={"/assets/icons.svg#" + icon} />
-        </svg>
-      )
-    }{text}</button
-  >
+  {
+    icon != undefined && (
+      <svg class="icon">
+        <use xlink:href={"/assets/icons.svg#" + icon} />
+      </svg>
+    )
+  }{text}
 </a>
 <style>
-  a {
-    display: flex;
-    text-decoration: none;
-    padding: 0;
-  }
-
   .widthFitContent {
     width: fit-content;
   }
@@ -60,8 +55,9 @@ if (openOnNewTab) {
     justify-content: center;
   }
 
-  button {
+  a {
     display: flex;
+    text-decoration: none;
     flex: 1;
     align-items: center;
     text-align: start;
@@ -72,6 +68,7 @@ if (openOnNewTab) {
     padding: 0.2rem 0.8rem;
     color: var(--background-body);
     background-color: var(--text-main);
+    transition: all 0.01s ease-in-out;
   }
 
   .icon {
@@ -83,18 +80,18 @@ if (openOnNewTab) {
     fill: var(--background-body);
   }
 
-  button:hover .icon {
+  a:hover .icon {
     fill: var(--text-main);
   }
 
-  button:hover {
+  a:hover {
     background-color: var(--background-body);
     color: var(--text-main);
     cursor: pointer;
   }
 
   @media (max-width: 420px) {
-    button {
+    a {
       font-size: 0.9rem;
     }
 

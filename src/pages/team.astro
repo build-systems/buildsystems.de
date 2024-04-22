@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import PersonenCard from "../components/PersonenCard.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../lib/notion/client";
+import PersonenCard from "../components/PersonenCard.astro";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 
 const title = "BuildSystems | Team";
@@ -40,6 +40,7 @@ const posts = await getAllPosts();
       title="Dipl.-Ing. Architekt"
       description="Berater der Bay. Architektenkammer (BEN), Energieeffizienz-Experte, DGNB Consultant, Nachhaltiges Bauen, Energetische Betrachtungen, Projektmanagement & -entwicklung"
       linkedin="https://www.linkedin.com/in/martin-bittmann/"
+      email="martin.bittmann@buildsystems.de"
     />
     <PersonenCard
       imagePath="/src/assets/julia-dorn.png"
@@ -47,6 +48,7 @@ const posts = await getAllPosts();
       title="M.Sc. Urban Design, B.Sc. Architektur"
       description="DGNB Consultant und ESG Manager, Urbane Transformation, EU Taxonomie und Nachhaltigkeitsreporting, Kommunikation, Akteursmanagement & Moderation"
       linkedin="https://www.linkedin.com/in/julia-j-dorn/"
+      email="julia.dorn@buildsystems.de"
     />
     <PersonenCard
       imagePath="/src/assets/daniel-dieren.jpg"
@@ -54,20 +56,15 @@ const posts = await getAllPosts();
       title="M.Sc. Bauingenieur, M.Sc. Architektur"
       description="Energieeffizienz-Experte, Nachhaltiges Konstruieren, Ingenieurholzbau, Integrale Planung, Dekarbonisierung, LCA/LCC, Zirkuläres Bauen"
       linkedin="https://www.linkedin.com/in/daniel-dieren-48a765116/"
+      email="daniel.dieren@buildsystems.de"
     />
     <PersonenCard
       imagePath="/src/assets/daniel-locatelli.png"
       name="Daniel Locatelli"
       title="M.Sc. ITECH, Dipl. Architektur"
-      description="Fullstack softwareentwicklung, Computational Design, Entwicklung digitaler Tools und Workflows"
+      description="Fullstack softwareentwicklung, Backend database management, Computational Design, Entwicklung digitaler Tools und Workflows"
       linkedin="https://www.linkedin.com/in/daniel-locatelli/"
-    />
-    <PersonenCard
-      imagePath="/src/assets/tunca-beril.jpeg"
-      name="Tunca Beril Basaran"
-      title="B.Sc. Regional Planning, B.Sc. Sociology, M.Sc. Urban Design"
-      description="Zirkuläre Systeme und Urban Mining, Workshops und Strategieentwicklung, Social Impact zukunftsfähiges Bauen"
-      linkedin="https://www.linkedin.com/in/tunca-beril-basaran-a3580a147"
+      email="daniel.locatelli@buildsystems.de"
     />
     <PersonenCard
       imagePath="/src/assets/ulrich-kneisl.png"
@@ -75,13 +72,15 @@ const posts = await getAllPosts();
       title="M.A. Architektur"
       description="Sozial-ökologische Transformation im Wohnungsbau, Bauen im Bestand, Intersektionalität im gebauten Umfeld, Systemische Ansätze für die Bauwende"
       linkedin="https://www.linkedin.com/in/ulrich-kneisl-292a60130/"
+      email="ulrich.kneisl@buildsystems.de"
     />
     <PersonenCard
-      imagePath="/src/assets/katrin-schwarz.png"
-      name="Katrin Schwarz"
-      title="Dipl. Ing. Architektur"
-      description="Advisor: Immobilien-Projektentwicklerin (EBS), ESG Reporting, Taxonomie-Konformität, Klimarisikoanalyse, Nachhaltige Projektentwicklung und Projektsteuerung"
-      linkedin="https://www.linkedin.com/in/katrin-schwarz-b57b0322b/"
+      imagePath="/src/assets/tunca-beril.jpeg"
+      name="Tunca Beril Basaran"
+      title="B.Sc. Regional Planning, B.Sc. Sociology, M.Sc. Urban Design"
+      description="Zirkuläre Systeme und Urban Mining, Workshops und Strategieentwicklung, Social Impact zukunftsfähiges Bauen"
+      linkedin="https://www.linkedin.com/in/tunca-beril-basaran-a3580a147"
+      email="tunca.b.basaran@buildsystems.de"
     />
     <PersonenCard
       imagePath="/src/assets/andreas-thoma.png"
@@ -89,6 +88,14 @@ const posts = await getAllPosts();
       title="M.Sc. Architektur"
       description="Advisor: Prozessoptimierung, Computational Design, Digitale Fabrikation, Parametrische Systeme"
       linkedin="https://www.linkedin.com/in/andreas-thoma/"
+      email="andreas.thoma@urbanscaletimber.com"
+    />
+    <PersonenCard
+      imagePath="/src/assets/katrin-schwarz.png"
+      name="Katrin Schwarz"
+      title="Dipl. Ing. Architektur"
+      description="Advisor: Immobilien-Projektentwicklerin (EBS), ESG Reporting, Taxonomie-Konformität, Klimarisikoanalyse, Nachhaltige Projektentwicklung und Projektsteuerung"
+      linkedin="https://www.linkedin.com/in/katrin-schwarz-b57b0322b/"
     />
   </div>
   <BlogCarousel posts={posts} />
