@@ -54,7 +54,7 @@ import type {
 } from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
-import { returnImageNameAsJpg } from "../blog-helpers";
+import { addSlugToName, returnImageNameAsJpg } from "../blog-helpers";
 
 const client = new Client({
   auth: NOTION_API_SECRET,
@@ -70,7 +70,7 @@ export async function getAllPosts(): Promise<Post[]> {
     return Promise.resolve(postsCache);
   }
 
-  console.log("\n===== Getting all posts =====");
+  // console.log("\n===== Getting all posts =====");
   const params: requestParams.QueryDatabase = {
     database_id: DATABASE_ID,
     filter: {
@@ -387,7 +387,7 @@ async function checkFileExists(file: fs.PathLike) {
   }
 }
 
-export async function downloadFile(url: URL) {
+export async function downloadFile(url: URL, slug: string) {
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -400,7 +400,7 @@ export async function downloadFile(url: URL) {
     console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
-  console.log("\n===== Starting File Download =====");
+  // console.log("\n===== Starting File Download =====");
 
   if (!res || res.status != 200) {
     console.log(res);
@@ -419,13 +419,17 @@ export async function downloadFile(url: URL) {
   }
 
   // console.log("5 - Getting file name");
-  const filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  let filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  if (!filename.includes(slug)) {
+    filename = slug + "_" + filename;
+  }
   // console.log("6 - File name is: " + filename);
+
   const filepath = `${dir}/${filename}`;
   // console.log("7 - Full file path is: " + filepath);
 
   if (fs.existsSync(filepath)) {
-    console.log(`File already exists:\n${filepath}`);
+    // console.log(`File already exists:\n${filepath}`);
     return;
   }
 
@@ -438,7 +442,7 @@ export async function downloadFile(url: URL) {
     stream = stream.pipe(rotate);
   }
   try {
-    console.log(`Downloading file:\n${filepath}`);
+    // console.log(`Downloading file:\n${filepath}`);
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);
@@ -447,7 +451,7 @@ export async function downloadFile(url: URL) {
   }
 }
 
-export async function downloadPublicFile(url: URL) {
+export async function downloadPublicImage(url: URL, slug: string) {
   let res!: AxiosResponse;
   try {
     res = await axios({
@@ -460,33 +464,28 @@ export async function downloadPublicFile(url: URL) {
     console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
-  console.log("\n===== Starting Public Image Download =====");
+  // console.log("\n===== Starting Public Image Download =====");
 
   if (!res || res.status != 200) {
     console.log(res);
     return Promise.resolve();
   }
 
-  // console.log("1 - Getting folder path...");
   const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
-  // console.log("2 - Folder path is: " + dir);
-  // console.log("3 - Checking if folder exists...");
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
-    // console.log("4 - It did not exists, folder was created.");
   } else {
-    // console.log("4 - Folder already exists.");
   }
 
-  const fileNameConverted = returnImageNameAsJpg(url); // 5 and 6 where refactored to this function
-  // console.log("7 - File name with jpg extensions is: " + fileNameConverted);
+  // Changing file extension
+  const fileNameConverted = returnImageNameAsJpg(url);
 
-  const filepath = `${dir}/${fileNameConverted}`;
-  // console.log("8 - Full file path is: " + filepath);
+  // One of the places I add the slug to the image name
+  const fileNameWithSlug = addSlugToName(fileNameConverted, slug);
+
+  const filepath = `${dir}/${fileNameWithSlug}`;
 
   if (fs.existsSync(filepath)) {
-    // console.log("9 - File already exists.");
-    console.log(`File already exists:\n${filepath}`);
     return;
   }
 
@@ -502,7 +501,7 @@ export async function downloadPublicFile(url: URL) {
     );
   }
   try {
-    console.log(`Downloading file:\n${filepath}`);
+    // console.log(`Downloading file:\n${filepath}`);
     // console.log("9 - Downloading file");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
@@ -583,11 +582,11 @@ export async function getDatabase(): Promise<Database> {
 }
 
 function _buildBlock(blockObject: responses.BlockObject): Block {
-  // console.dir(blockObject);
   const block: Block = {
     Id: blockObject.id,
     Type: blockObject.type,
     HasChildren: blockObject.has_children,
+    ParentId: blockObject.parent.page_id,
   };
 
   switch (blockObject.type) {
@@ -873,6 +872,27 @@ function _buildBlock(blockObject: responses.BlockObject): Block {
       // console.dir(blockObject);
       // To do... copy from file
       // Download pdf to public folder in posts-files-downloader.ts
+
+      // console.log("\n===== File In =====");
+      // console.dir(blockObject);
+      if (blockObject.pdf) {
+        const file: File = {
+          Caption: blockObject.pdf.caption?.map(_buildRichText) || [],
+          Type: blockObject.pdf.type,
+        };
+        if (blockObject.pdf.type === "external" && blockObject.pdf.external) {
+          file.External = { Url: blockObject.pdf.external.url };
+        } else if (blockObject.pdf.type === "file" && blockObject.pdf.file) {
+          file.File = {
+            Type: blockObject.pdf.type,
+            Url: blockObject.pdf.file.url,
+            ExpiryTime: blockObject.pdf.file.expiry_time,
+          };
+        }
+        block.File = file;
+        // console.log("\n===== File Out =====");
+        // console.dir(block);
+      }
       break;
   }
   return block;

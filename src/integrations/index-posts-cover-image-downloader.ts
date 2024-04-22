@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 import {
   getDatabase,
   downloadFile,
-  downloadPublicFile as downloadPublicFile,
+  downloadPublicImage,
 } from "../lib/notion/client";
 
 export default (): AstroIntegration => ({
@@ -25,7 +25,7 @@ export default (): AstroIntegration => ({
         return Promise.resolve();
       }
       // console.log("\nDownloading cover image");
-      return downloadFile(url), downloadPublicFile(url);
+      return downloadFile(url), downloadPublicImage(url);
     },
   },
 });

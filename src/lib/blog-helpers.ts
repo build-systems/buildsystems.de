@@ -301,14 +301,17 @@ export const parseYouTubeVideoId = (url: URL): string => {
 export const importCoverImage = (post: Post, images: any): any => {
   if (post.Cover) {
     const url = new URL(post.Cover!.Url);
-    // console.log("\nurl = " + url);
 
-    const imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-    // console.log("\nimagename Slug = " + imagename);
+    const slug = post.Slug;
+
+    let imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+
+    // One of the places I add the slug to the image name
+    if (!imagename.includes(slug)) {
+      imagename = slug + "_" + imagename;
+    }
 
     const imagenamesimple = imagename.split(".")[0];
-
-    // console.dir(images);
 
     return images.find((item: any) =>
       item.default.src.includes(imagenamesimple)
@@ -342,4 +345,13 @@ export function returnImageNameAsJpg(url: URL) {
   const fileName = fileNameExtension.split(".")[0];
   const fileNameConverted = fileName + ".jpg";
   return fileNameConverted;
+}
+
+export function addSlugToName(name: string, slug: string): string {
+  if (!name.includes(slug)) {
+    const newName = slug + "_" + name;
+    return newName;
+  } else {
+    return "";
+  }
 }

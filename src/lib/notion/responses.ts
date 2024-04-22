@@ -63,9 +63,10 @@ export interface Emoji {
 }
 
 interface Parent {
-  type: string;
+  type: "database_id" | "page_id" | "block_id";
   database_id?: string;
   page_id?: string;
+  block_id?: string;
 }
 
 export interface RichTextObject {
@@ -321,13 +322,13 @@ interface RollupProperty {
 export interface BlockObject {
   object: string;
   id: string;
+  parent: Parent;
   created_time: string;
   created_by: UserObject;
   last_edited_by: UserObject;
   has_children: boolean;
   archived: boolean;
   type: string;
-
   paragraph?: Paragraph;
   heading_1?: Heading;
   heading_2?: Heading;

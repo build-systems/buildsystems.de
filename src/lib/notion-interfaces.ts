@@ -23,7 +23,7 @@ export interface Block {
   Id: string;
   Type: string;
   HasChildren: boolean;
-
+  ParentId?: string;
   Paragraph?: Paragraph;
   Heading1?: Heading1;
   Heading2?: Heading2;
