@@ -24,8 +24,12 @@ export default (): AstroIntegration => ({
         console.log("Invalid Cover image URL");
         return Promise.resolve();
       }
+
       // console.log("\nDownloading cover image");
-      return downloadFile(url), downloadPublicImage(url);
+      return (
+        downloadFile(url, "database-cover"),
+        downloadPublicImage(url, "database-cover")
+      );
     },
   },
 });

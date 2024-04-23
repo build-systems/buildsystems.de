@@ -53,13 +53,13 @@ export default (): AstroIntegration => ({
           }
 
           const blocks = await getAllBlocksByBlockId(post.PageId);
-          console.log("\n===== Checking blocks =====");
-          console.dir(blocks);
+          // console.log("\n===== Checking blocks =====");
+          // console.dir(blocks);
           const fileAtacchedBlocks = extractTargetBlocks("image", blocks)
             .concat(extractTargetBlocks("file", blocks))
             .filter((block) => {
-              console.log("\n===== Checking fileAtacchedBlocks =====");
-              console.dir(block);
+              // console.log("\n===== Checking fileAtacchedBlocks =====");
+              // console.dir(block);
               if (!block) {
                 return false;
               }

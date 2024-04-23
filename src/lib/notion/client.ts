@@ -407,29 +407,27 @@ export async function downloadFile(url: URL, slug: string) {
     return Promise.resolve();
   }
 
-  // console.log("1 - Getting folder path...");
+  console.log("1 - Getting folder path...");
   const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
-  // console.log("2 - Folder path is: " + dir);
-  // console.log("3 - Checking if folder exists...");
+  console.log("2 - Folder path is: " + dir);
+  console.log("3 - Checking if folder exists...");
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
-    // console.log("4 - It did not exists, folder was created.");
+    console.log("4 - It did not exists, folder was created.");
   } else {
-    // console.log("4 - Folder already exists.");
+    console.log("4 - Folder already exists.");
   }
 
-  // console.log("5 - Getting file name");
-  let filename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-  if (!filename.includes(slug)) {
-    filename = slug + "_" + filename;
-  }
-  // console.log("6 - File name is: " + filename);
+  console.log("5 - Getting file name");
+  const fileName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  const fileNameWithSlug = addSlugToName(fileName, slug);
+  console.log("6 - File name is: " + fileName);
 
-  const filepath = `${dir}/${filename}`;
-  // console.log("7 - Full file path is: " + filepath);
+  const filepath = `${dir}/${fileNameWithSlug}`;
+  console.log("7 - Full file path is: " + filepath);
 
   if (fs.existsSync(filepath)) {
-    // console.log(`File already exists:\n${filepath}`);
+    console.log(`File already exists:\n${filepath}`);
     return;
   }
 
@@ -442,7 +440,7 @@ export async function downloadFile(url: URL, slug: string) {
     stream = stream.pipe(rotate);
   }
   try {
-    // console.log(`Downloading file:\n${filepath}`);
+    console.log(`Downloading file:\n${filepath}`);
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);

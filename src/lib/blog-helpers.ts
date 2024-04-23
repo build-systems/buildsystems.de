@@ -304,17 +304,16 @@ export const importCoverImage = (post: Post, images: any): any => {
 
     const slug = post.Slug;
 
-    let imagename = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+    const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
 
-    // One of the places I add the slug to the image name
-    if (!imagename.includes(slug)) {
-      imagename = slug + "_" + imagename;
-    }
+    const imageNameSimple = imageName.split(".")[0];
 
-    const imagenamesimple = imagename.split(".")[0];
-
+    const imageNameWithSlug = addSlugToName(imageNameSimple, slug);
+    console.log("\n" + imageNameWithSlug);
+    console.log("\n=====");
+    console.dir(images);
     return images.find((item: any) =>
-      item.default.src.includes(imagenamesimple)
+      item.default.src.includes(imageNameWithSlug)
     )!.default;
   } else {
     // Block is null or undefined
@@ -348,10 +347,14 @@ export function returnImageNameAsJpg(url: URL) {
 }
 
 export function addSlugToName(name: string, slug: string): string {
+  console.log("=== addSlugToName ===");
+  console.log("name is: " + name);
+  console.log("slug is: " + slug);
   if (!name.includes(slug)) {
     const newName = slug + "_" + name;
+    console.log("newName is: " + newName);
     return newName;
   } else {
-    return "";
+    return name;
   }
 }

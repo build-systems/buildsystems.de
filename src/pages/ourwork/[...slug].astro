@@ -12,6 +12,7 @@ import {
   getAllBlocksByBlockId,
 } from "../../lib/notion/client.js";
 import {
+  addSlugToName,
   filterPostsByTags,
   importCoverImage,
   removePostFromPosts,
@@ -39,11 +40,9 @@ let publicImage = "";
 if (post.Cover) {
   const coverUrl = new URL(post.Cover!.Url);
   const dir = "notion/" + coverUrl.pathname.split("/").slice(-2)[0];
-  let fileNameConverted = returnImageNameAsJpg(coverUrl);
-  if (!fileNameConverted.includes(slug)) {
-    fileNameConverted = slug + "_" + fileNameConverted;
-  }
-  publicImage = `${Astro.site}${dir}/${fileNameConverted}`;
+  const fileNameConverted = returnImageNameAsJpg(coverUrl);
+  const fileNameWithSlug = addSlugToName(fileNameConverted, slug);
+  publicImage = `${Astro.site}${dir}/${fileNameWithSlug}`;
 }
 
 // Get images
