@@ -3,12 +3,14 @@ import { ENABLE_LIGHTBOX } from "../../../server-constants.ts";
 import { type Block } from "../../../lib/notion-interfaces.ts";
 import Caption from "./Caption.astro";
 import { Image } from "astro:assets";
+import { addSlugToName } from "../../../lib/blog-helpers";
 
 export interface Props {
   block: Block;
+  slug: string;
 }
 
-const { block } = Astro.props;
+const { block, slug } = Astro.props;
 
 let url: URL;
 try {
@@ -23,26 +25,25 @@ try {
 
 let image: any;
 let imageExtension: string;
+// Getting images dynamically with import.meta.glob()
+// It only accepts string literals
+// https://docs.astro.build/en/recipes/dynamically-importing-images/
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+);
 if (block.Image!.File) {
   try {
-    const images = await Astro.glob(
-      "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp,svg}"
-    );
-    // console.dir(images);
+    const dir = "/src/assets/notion/" + url!.pathname.split("/").slice(-2)[0];
+    const imageName = decodeURIComponent(url!.pathname.split("/").slice(-1)[0]);
+    imageExtension = imageName.split(".")[1];
 
-    const imagename = decodeURIComponent(url!.pathname.split("/").slice(-1)[0]);
-    // console.log("\nimagename NotionImage = " + imagename);
-
-    const imagenamesimple = imagename.split(".")[0];
-    // console.log("\nimagenamesimple NotionImage = " + imagenamesimple);
-    imageExtension = imagename.split(".")[1];
-
-    image = images.find((item) =>
-      item.default.src.includes(imagenamesimple)
-    )!.default;
-    // console.dir(image);
+    const imageNameWithSlug = addSlugToName(imageName, slug);
+    const imagePath = `${dir}/${imageNameWithSlug}`;
+    console.log(imagePath);
+    console.dir(images[imagePath]);
+    image = await images[imagePath]();
   } catch (error) {
-    console.log("\nError while getting image for astro component: " + error);
+    console.log("\nError while getting image for astro component: \n" + error);
   }
 }
 

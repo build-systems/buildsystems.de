@@ -10,8 +10,12 @@ interface Props {
 
 const { posts } = Astro.props;
 
-const images = await Astro.glob(
-  "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
+// const images = await Astro.glob(
+//   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+// );
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 ---
 

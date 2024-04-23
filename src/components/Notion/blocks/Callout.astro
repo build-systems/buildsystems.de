@@ -13,9 +13,10 @@ import NotionBlocks from "../NotionBlocks.astro";
 export interface Props {
   block: Block;
   headings: Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
 <div class={`callout ${snakeToKebab(block.Callout!.Color)}`}>
@@ -41,7 +42,11 @@ const { block, headings } = Astro.props;
     }
     {
       block.Callout!.Children && (
-        <NotionBlocks blocks={block.Callout!.Children} headings={headings} />
+        <NotionBlocks
+          blocks={block.Callout!.Children}
+          headings={headings}
+          slug={slug}
+        />
       )
     }
   </div>

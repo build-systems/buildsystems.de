@@ -298,29 +298,26 @@ export const parseYouTubeVideoId = (url: URL): string => {
   return "";
 };
 
-export const importCoverImage = (post: Post, images: any): any => {
+export const importCoverImage = async (post: Post, images: any) => {
   if (post.Cover) {
     const url = new URL(post.Cover!.Url);
 
     const slug = post.Slug;
 
+    const dir = "/src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
     const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
 
-    const imageNameSimple = imageName.split(".")[0];
+    const imageNameWithSlug = addSlugToName(imageName, slug);
+    const imagePath = `${dir}/${imageNameWithSlug}`;
+    // console.log(imagePath);
+    // console.dir(images[imagePath]);
 
-    const imageNameWithSlug = addSlugToName(imageNameSimple, slug);
-    console.log("\n" + imageNameWithSlug);
-    console.log("\n=====");
-    // console.dir(images);
-    const image = images.find((item: any) =>
-      item.default.src.includes(imageNameWithSlug)
-    ).default;
-    if (image) {
-      console.dir(image);
+    try {
+      const image = (await images[imagePath]()).default;
       return image;
-    } else {
+    } catch (error) {
       // Block is null or undefined
-      console.log("Block is null or undefined");
+      console.log("Error getting image: \n" + error);
       return;
     }
   } else {
@@ -356,9 +353,10 @@ export function returnImageNameAsJpg(url: URL) {
 }
 
 export function addSlugToName(name: string, slug: string): string {
-  console.log("=== addSlugToName ===");
+  console.log("===== addSlugToName =====");
   console.log("name is: " + name);
   console.log("slug is: " + slug);
+
   if (!name.includes(slug)) {
     const newName = slug + "_" + name;
     console.log("newName is: " + newName);

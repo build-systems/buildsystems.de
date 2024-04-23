@@ -4,13 +4,14 @@ import NotionBlocks from "./NotionBlocks.astro";
 
 export interface Props {
   blocks: Block[];
+  slug: string;
 }
 
-const { blocks } = Astro.props;
+const { blocks, slug } = Astro.props;
 ---
 
 <div class="post-body">
-  <NotionBlocks blocks={blocks} isRoot={true} />
+  <NotionBlocks blocks={blocks} slug={slug} isRoot={true} />
 </div>
 
 <style>

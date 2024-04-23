@@ -13,9 +13,10 @@ export interface Props {
   block: Block;
   level: number;
   headings: Block[];
+  slug: string;
 }
 
-const { block, level, headings } = Astro.props;
+const { block, level, headings, slug } = Astro.props;
 
 const listTypes = ["i", "1", "a"];
 
@@ -39,6 +40,7 @@ const blockList: List = {
             blocks={b.NumberedListItem!.Children!}
             level={level + 1}
             headings={headings}
+            slug={slug}
           />
         )}
       </li>
