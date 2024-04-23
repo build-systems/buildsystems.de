@@ -309,8 +309,6 @@ export const importCoverImage = async (post: Post, images: any) => {
 
     const imageNameWithSlug = addSlugToName(imageName, slug);
     const imagePath = `${dir}/${imageNameWithSlug}`;
-    // console.log(imagePath);
-    // console.dir(images[imagePath]);
 
     try {
       const image = (await images[imagePath]()).default;
