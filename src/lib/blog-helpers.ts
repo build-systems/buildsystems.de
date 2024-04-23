@@ -353,13 +353,13 @@ export function returnImageNameAsJpg(url: URL) {
 }
 
 export function addSlugToName(name: string, slug: string): string {
-  console.log("===== addSlugToName =====");
-  console.log("name is: " + name);
-  console.log("slug is: " + slug);
+  // console.log("===== addSlugToName =====");
+  // console.log("name is: " + name);
+  // console.log("slug is: " + slug);
 
   if (!name.includes(slug)) {
     const newName = slug + "_" + name;
-    console.log("newName is: " + newName);
+    // console.log("newName is: " + newName);
     return newName;
   } else {
     return name;

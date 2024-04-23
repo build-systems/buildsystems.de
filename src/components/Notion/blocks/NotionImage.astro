@@ -36,12 +36,14 @@ if (block.Image!.File) {
     const dir = "/src/assets/notion/" + url!.pathname.split("/").slice(-2)[0];
     const imageName = decodeURIComponent(url!.pathname.split("/").slice(-1)[0]);
     imageExtension = imageName.split(".")[1];
-
     const imageNameWithSlug = addSlugToName(imageName, slug);
     const imagePath = `${dir}/${imageNameWithSlug}`;
-    console.log(imagePath);
-    console.dir(images[imagePath]);
-    image = await images[imagePath]();
+    // console.log(imagePath);
+    await images[imagePath]().then((result) => {
+      image = result.default;
+      // console.log(imagePath);
+      // console.dir(image);
+    });
   } catch (error) {
     console.log("\nError while getting image for astro component: \n" + error);
   }
@@ -102,7 +104,6 @@ if (block.Image && block.Image.Caption[0]) {
     )
   }
 </figure>
-
 <style>
   .image {
     display: flex;
