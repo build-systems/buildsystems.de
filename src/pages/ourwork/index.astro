@@ -13,7 +13,6 @@ const title = "BuildSystems | Our Work";
 const description =
   "BuildSystems baut auf Interdisziplinarität, Erfahrung und digitale Prozesse. Gemeinsam mit unseren Kund:innen und Partner:innen zeigen wir, wie nachhaltige Transformation im Immobiliensektor gelingen kann.";
 
-// Get images
 const images = await Astro.glob(
   "/src/assets/notion/**/*.{png,jpg,jpeg,avif,webp}"
 );
@@ -46,7 +45,8 @@ const images = await Astro.glob(
   </StickyLogoMessage>
   <div class="frame blog-container">
     {
-      posts.map((post, index) => {
+      posts.map(async (post, index) => {
+        // Get images
         const image = importCoverImage(post, images);
         const href = getPostLink(post.Slug);
         return (

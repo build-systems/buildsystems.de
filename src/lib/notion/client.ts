@@ -420,8 +420,9 @@ export async function downloadFile(url: URL, slug: string) {
 
   console.log("5 - Getting file name");
   const fileName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  console.log("5 - File name is: " + fileName);
   const fileNameWithSlug = addSlugToName(fileName, slug);
-  console.log("6 - File name is: " + fileName);
+  console.log("6 - File name with slug is: " + fileNameWithSlug);
 
   const filepath = `${dir}/${fileNameWithSlug}`;
   console.log("7 - Full file path is: " + filepath);

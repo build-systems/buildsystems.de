@@ -311,13 +311,22 @@ export const importCoverImage = (post: Post, images: any): any => {
     const imageNameWithSlug = addSlugToName(imageNameSimple, slug);
     console.log("\n" + imageNameWithSlug);
     console.log("\n=====");
-    console.dir(images);
-    return images.find((item: any) =>
+    // console.dir(images);
+    const image = images.find((item: any) =>
       item.default.src.includes(imageNameWithSlug)
-    )!.default;
+    ).default;
+    if (image) {
+      console.dir(image);
+      return image;
+    } else {
+      // Block is null or undefined
+      console.log("Block is null or undefined");
+      return;
+    }
   } else {
     // Block is null or undefined
     console.log("Block is null or undefined");
+    return;
   }
 };
 
