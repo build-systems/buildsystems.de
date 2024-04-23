@@ -8,9 +8,10 @@ import "../../../styles/notion-color.css";
 export interface Props {
   block: interfaces.Block;
   headings: interfaces.Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
 <details class={`toggle ${snakeToKebab(block.Toggle!.Color)}`}>
@@ -22,7 +23,11 @@ const { block, headings } = Astro.props;
     }
   </summary>
   <div>
-    <NotionBlocks blocks={block.Toggle!.Children} headings={headings} />
+    <NotionBlocks
+      blocks={block.Toggle!.Children}
+      headings={headings}
+      slug={slug}
+    />
   </div>
 </details>
 

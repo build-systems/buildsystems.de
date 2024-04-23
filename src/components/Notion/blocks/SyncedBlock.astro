@@ -5,9 +5,14 @@ import * as interfaces from "../../../lib/notion-interfaces";
 export interface Props {
   block: interfaces.Block;
   headings: interfaces.Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
-<NotionBlocks blocks={block.SyncedBlock!.Children!} headings={headings} />
+<NotionBlocks
+  blocks={block.SyncedBlock!.Children!}
+  headings={headings}
+  slug={slug}
+/>

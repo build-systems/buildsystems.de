@@ -6,6 +6,7 @@ import { getAllPosts } from "../../lib/notion/client.ts";
 import { getPostLink, importCoverImage } from "../../lib/blog-helpers.ts";
 import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
 import { SITE_HEROIMAGE, SITE_HEROIMAGEALT } from "../../consts";
+import type { ImageMetadata } from "astro";
 
 const posts = await getAllPosts();
 
@@ -13,8 +14,10 @@ const title = "BuildSystems | Our Work";
 const description =
   "BuildSystems baut auf Interdisziplinarität, Erfahrung und digitale Prozesse. Gemeinsam mit unseren Kund:innen und Partner:innen zeigen wir, wie nachhaltige Transformation im Immobiliensektor gelingen kann.";
 
-// Get images
-const images = await Astro.glob(
+// Getting images dynamically with import.meta.glob()
+// It only accepts string literals
+// https://docs.astro.build/en/recipes/dynamically-importing-images/
+const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 ---
@@ -47,6 +50,7 @@ const images = await Astro.glob(
   <div class="frame blog-container">
     {
       posts.map((post, index) => {
+        // Get images
         const image = importCoverImage(post, images);
 
         const href = getPostLink(post.Slug);

@@ -36,7 +36,13 @@ export default defineConfig({
   base: BASE_PATH,
   redirects: {
     "/personen": "/team",
-    "foerdertool/": "/toolbox",
+    "/foerdertool": "/toolbox",
+    "/ourwork/energieberatung-wohnkomplex":
+      "/ourwork/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
+    "/ourwork/cities-in-transition-von-muc-book":
+      "/ourwork/buildsystems-bei-cities-in-transition-von-muc-book",
+    "/ourwork/bauforum-von-holcim-2023":
+      "/ourwork/buildsystems-auf-dem-bauforum-von-holcim-2023",
   },
   integrations: [
     lottie(),

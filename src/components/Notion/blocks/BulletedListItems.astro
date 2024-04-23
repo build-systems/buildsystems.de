@@ -13,9 +13,10 @@ import "../../../styles/notion-color.css";
 export interface Props {
   block: List;
   headings: Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
 <ul class="list-pill">
@@ -30,6 +31,7 @@ const { block, headings } = Astro.props;
             <NotionBlocks
               blocks={b.BulletedListItem!.Children!}
               headings={headings}
+              slug={slug}
             />
           )}
         </li>

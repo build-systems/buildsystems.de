@@ -2,7 +2,7 @@ import type { AstroIntegration } from "astro";
 import {
   getAllPosts,
   downloadFile,
-  downloadPublicFile as downloadPublicFile,
+  downloadPublicImage,
   getAllBlocksByBlockId,
   getBlock,
 } from "../lib/notion/client";
@@ -29,23 +29,46 @@ export default (): AstroIntegration => ({
             return Promise.resolve();
           }
 
-          return downloadFile(url), downloadPublicFile(url);
+          let slug!: string;
+          try {
+            slug = post.Slug;
+          } catch (error) {
+            console.log("Could not find post slug\n" + error);
+            return Promise.resolve();
+          }
+
+          return downloadFile(url, slug), downloadPublicImage(url, slug);
         })
       );
 
+      // Download blocks content
       await Promise.all(
         posts.map(async (post) => {
-          const blocks = await getAllBlocksByBlockId(post.PageId);
+          let slug!: string;
+          try {
+            slug = post.Slug;
+          } catch (error) {
+            console.log("Could not find post slug\n" + error);
+            return Promise.resolve();
+          }
 
+          const blocks = await getAllBlocksByBlockId(post.PageId);
+          // console.log("\n===== Checking blocks =====");
+          // console.dir(blocks);
           const fileAtacchedBlocks = extractTargetBlocks("image", blocks)
             .concat(extractTargetBlocks("file", blocks))
             .filter((block) => {
+              // console.log("\n===== Checking fileAtacchedBlocks =====");
+              // console.dir(block);
               if (!block) {
                 return false;
               }
               const imageOrFile = block.Image || block.File;
               return imageOrFile && imageOrFile.File && imageOrFile.File.Url;
             });
+
+          // console.log("\n===== Checking fileAtacchedBlocks =====");
+          // console.dir(fileAtacchedBlocks);
 
           await Promise.all(
             fileAtacchedBlocks
@@ -60,6 +83,10 @@ export default (): AstroIntegration => ({
               .map((promise) =>
                 promise.then((block) => {
                   let url!: URL;
+                  // console.log(
+                  //   "\n===== Checking files after expiryTime part ====="
+                  // );
+                  // console.dir(block);
                   try {
                     url = new URL((block.Image || block.File)!.File!.Url);
                   } catch (err) {
@@ -75,10 +102,11 @@ export default (): AstroIntegration => ({
               .map((promise) =>
                 promise.then(({ url, type }) => {
                   if (type === "image") {
-                    return downloadFile(url);
-                  } else {
-                    return downloadPublicFile(url);
+                    return downloadFile(url, slug);
                   }
+                  // else {
+                  //   return downloadPublicImage(url, slug);
+                  // }
                 })
               )
           );

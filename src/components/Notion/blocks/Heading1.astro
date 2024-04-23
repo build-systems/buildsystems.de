@@ -7,9 +7,10 @@ import NotionBlocks from "../NotionBlocks.astro";
 export interface Props {
   block: interfaces.Block;
   headings: interfaces.Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 
 const id = buildHeadingId(block.Heading1!);
 ---
@@ -28,7 +29,11 @@ const id = buildHeadingId(block.Heading1!);
       </summary>
       <div>
         {block.Heading1!.Children && (
-          <NotionBlocks blocks={block.Heading1!.Children} headings={headings} />
+          <NotionBlocks
+            blocks={block.Heading1!.Children}
+            headings={headings}
+            slug={slug}
+          />
         )}
       </div>
     </details>

@@ -8,9 +8,10 @@ import "../../../styles/notion-color.css";
 export interface Props {
   block: interfaces.Block;
   headings: interfaces.Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
 <p class={snakeToKebab(block.Paragraph!.Color)}>
@@ -21,7 +22,11 @@ const { block, headings } = Astro.props;
   }
   {
     block.Paragraph!.Children && (
-      <NotionBlocks blocks={block.Paragraph!.Children} headings={headings} />
+      <NotionBlocks
+        blocks={block.Paragraph!.Children}
+        headings={headings}
+        slug={slug}
+      />
     )
   }
 </p>

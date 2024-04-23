@@ -78,7 +78,7 @@ html:focus-within {
 }
 
 ::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.8rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -392,11 +392,15 @@ input[name="theme-toggle"] {
   position: sticky;
   top: 0;
   padding-top: var(--sticky-padding-general);
-  text-wrap: balance;
 }
 
 .sticky h2 {
   margin-top: 0;
+  text-wrap: balance;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 .sticky a {
@@ -561,8 +565,12 @@ input[name="theme-toggle"] {
 }
 
 @media (max-width: 625px) {
-  h2 {
+  .sticky h2 {
     font-size: var(--primary-msg-size-tablet);
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
 
   .frame {
@@ -625,7 +633,7 @@ input[name="theme-toggle"] {
     margin-right: var(--right-padding-mobile);
   }
 
-  h2 {
+  .sticky h2 {
     font-size: var(--primary-msg-size-mobile);
   }
 

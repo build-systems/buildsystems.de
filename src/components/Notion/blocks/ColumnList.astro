@@ -5,16 +5,21 @@ import NotionBlocks from "../NotionBlocks.astro";
 export interface Props {
   block: interfaces.Block;
   headings: interfaces.Block[];
+  slug: string;
 }
 
-const { block, headings } = Astro.props;
+const { block, headings, slug } = Astro.props;
 ---
 
 <div class="column-list">
   {
     block.ColumnList!.Columns.map((column: interfaces.Column) => (
       <div>
-        <NotionBlocks blocks={column.Children} headings={headings} />
+        <NotionBlocks
+          blocks={column.Children}
+          headings={headings}
+          slug={slug}
+        />
       </div>
     ))
   }
