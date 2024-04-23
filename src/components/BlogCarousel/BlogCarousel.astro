@@ -10,9 +10,9 @@ interface Props {
 
 const { posts } = Astro.props;
 
-const images = await Astro.glob(
-  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
-);
+// const images = await Astro.glob(
+//   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+// );
 ---
 
 <section class="frame container-blog-carousel">
@@ -26,7 +26,7 @@ const images = await Astro.glob(
       <use xlink:href="/assets/icons.svg#arrow-right"></use>
     </svg>
   </button>
-  <div class="blog-carousel">
+  <!-- <div class="blog-carousel">
     {
       posts.map((post, index) => {
         const image = importCoverImage(post, images);
@@ -56,7 +56,7 @@ const images = await Astro.glob(
         );
       })
     }
-  </div>
+  </div> -->
 </section>
 
 <style>

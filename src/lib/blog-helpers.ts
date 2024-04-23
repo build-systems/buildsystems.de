@@ -309,13 +309,16 @@ export const importCoverImage = (post: Post, images: any): any => {
     const imagenamesimple = imagename.split(".")[0];
 
     // console.dir(images);
+    console.log(imagenamesimple);
 
-    return images.find((item: any) =>
-      item.default.src.includes(imagenamesimple)
-    )!.default;
-  } else {
-    // Block is null or undefined
-    console.log("Block is null or undefined");
+    try {
+      return images.find((item: any) =>
+        item.default.src.includes(imagenamesimple)
+      )!.default;
+    } catch (error) {
+      // Block is null or undefined
+      console.log("\nBlock is null or undefined:\n" + error);
+    }
   }
 };
 
