@@ -10,18 +10,14 @@ function init() {
     const scrollLeftHandler = () => {
       slider.scrollBy(-400, 0);
     };
-    if (buttonPrevious) {
-      buttonPrevious.addEventListener("click", scrollLeftHandler);
-    }
+    buttonPrevious.addEventListener("click", scrollLeftHandler);
 
     // Next
     const buttonNext = document.querySelector(".btn-next") as HTMLElement;
     const scrollRightHandler = () => {
       slider.scrollBy(400, 0);
     };
-    if (buttonNext) {
-      buttonNext.addEventListener("click", scrollRightHandler);
-    }
+    buttonNext.addEventListener("click", scrollRightHandler);
 
     // Mouse click and drag to scroll
     // Variables to store mouse position
