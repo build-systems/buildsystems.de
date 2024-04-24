@@ -19,6 +19,20 @@ export interface Post {
   Tags: SelectProperty[];
 }
 
+export interface Person {
+  PageId: string;
+  Icon: FileObject | Emoji | null;
+  Name: string;
+  Title: string;
+  Description: string;
+  Linkedin: URL;
+  Email: string;
+  Cover: FileObject | null;
+  CoverAlt: string;
+  Photo: FileObject | null;
+  Team: boolean;
+}
+
 export interface Block {
   Id: string;
   Type: string;

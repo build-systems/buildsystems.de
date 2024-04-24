@@ -9,6 +9,7 @@ import {
   DATABASE_ID,
   NUMBER_OF_POSTS_PER_PAGE,
   REQUEST_TIMEOUT_MS,
+  PEOPLE_DB_ID,
 } from "../../server-constants";
 import type * as responses from "./responses";
 import type * as requestParams from "./request-params";
@@ -51,6 +52,7 @@ import type {
   LinkToPage,
   Mention,
   Reference,
+  Person,
 } from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
@@ -135,25 +137,60 @@ export async function getAllPosts(): Promise<Post[]> {
   return postsCache;
 }
 
+let peopleCache: Person[] | null = null;
+
+export async function getAllPeople(): Promise<Person[]> {
+  if (peopleCache !== null) {
+    return Promise.resolve(peopleCache);
+  }
+
+  // console.log("\n===== Getting all posts =====");
+  const params: requestParams.QueryDatabase = {
+    database_id: PEOPLE_DB_ID,
+    page_size: 100,
+  };
+
+  let results: responses.PageObject[] = [];
+  while (true) {
+    const res = await retry(
+      async (bail) => {
+        try {
+          return (await client.databases.query(
+            params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+          )) as responses.QueryDatabaseResponse;
+        } catch (error: unknown) {
+          if (error instanceof APIResponseError) {
+            if (error.status && error.status >= 400 && error.status < 500) {
+              bail(error);
+            }
+          }
+          throw error;
+        }
+      },
+      {
+        retries: numberOfRetry,
+      }
+    );
+    results = results.concat(res.results);
+    // console.dir(results);
+
+    if (!res.has_more) {
+      break;
+    }
+
+    params["start_cursor"] = res.next_cursor as string;
+  }
+
+  peopleCache = results
+    .filter((pageObject) => _validPersonObject(pageObject))
+    .map((pageObject) => _buildPerson(pageObject));
+  return peopleCache;
+}
+
 export async function getPosts(pageSize = 10): Promise<Post[]> {
   const allPosts = await getAllPosts();
   return allPosts.slice(0, pageSize);
 }
-
-// export async function getRankedPosts(pageSize = 10): Promise<Post[]> {
-//   const allPosts = await getAllPosts();
-//   return allPosts
-//     .filter((post) => !!post.Rank)
-//     .sort((a, b) => {
-//       if (a.Rank > b.Rank) {
-//         return -1;
-//       } else if (a.Rank === b.Rank) {
-//         return 0;
-//       }
-//       return 1;
-//     })
-//     .slice(0, pageSize);
-// }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   const allPosts = await getAllPosts();
@@ -1052,6 +1089,16 @@ function _validPageObject(pageObject: responses.PageObject): boolean {
   );
 }
 
+function _validPersonObject(pageObject: responses.PageObject): boolean {
+  const prop = pageObject.properties;
+  return (
+    !!prop.Name.title &&
+    prop.Name.title.length > 0 &&
+    !!prop.Title.rich_text &&
+    prop.Title.rich_text.length > 0
+  );
+}
+
 function _buildPost(pageObject: responses.PageObject): Post {
   const prop = pageObject.properties;
 
@@ -1135,6 +1182,86 @@ function _buildPost(pageObject: responses.PageObject): Post {
   };
 
   return post;
+}
+function _buildPerson(pageObject: responses.PageObject): Person {
+  const prop = pageObject.properties;
+
+  let icon: FileObject | Emoji | null = null;
+  if (pageObject.icon) {
+    if (pageObject.icon.type === "emoji" && "emoji" in pageObject.icon) {
+      icon = {
+        Type: pageObject.icon.type,
+        Emoji: pageObject.icon.emoji,
+      };
+    } else if (
+      pageObject.icon.type === "external" &&
+      "external" in pageObject.icon
+    ) {
+      icon = {
+        Type: pageObject.icon.type,
+        Url: pageObject.icon.external?.url || "",
+      };
+    }
+  }
+
+  let cover: FileObject | null = null;
+  if (pageObject.cover) {
+    cover = {
+      Type: pageObject.cover.type,
+      Url: pageObject.cover.external?.url || pageObject.cover.file?.url || "",
+    };
+  }
+
+  let photo: FileObject | null = null;
+  try {
+    if (prop.Photo.files && prop.Photo.files.length > 0) {
+      if (prop.Photo.files[0].external) {
+        photo = {
+          Type: prop.Photo.type,
+          Url: prop.Photo.files[0].external.url,
+        };
+      } else if (prop.Photo.files[0].file) {
+        photo = {
+          Type: prop.Photo.files[0].type,
+          Url: prop.Photo.files[0].file.url,
+          ExpiryTime: prop.Photo.files[0].file.expiry_time,
+        };
+      }
+    }
+  } catch (error) {
+    console.log("\nError while getting a person's photo\n" + error);
+  }
+
+  const person: Person = {
+    PageId: pageObject.id,
+    Icon: icon,
+    Name: prop.Name.title // Name of person, Title of page
+      ? prop.Name.title.map((richText) => richText.plain_text).join("")
+      : "",
+    Title: prop.Title.rich_text // Title of person (example: Prof., M.Sc., etc.)
+      ? prop.Title.rich_text.map((richText) => richText.plain_text).join("")
+      : "",
+    Description:
+      prop.Description.rich_text && prop.Description.rich_text.length > 0
+        ? prop.Description.rich_text
+            .map((richText) => richText.plain_text)
+            .join("")
+        : "",
+    Linkedin:
+      prop.Linkedin.url && prop.Linkedin.url.length > 0
+        ? new URL(prop.Linkedin.url)
+        : new URL(""),
+    Email:
+      prop.Email.email && prop.Email.email.length > 0 ? prop.Email.email : "",
+    Photo: photo,
+    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Cover: cover,
+    CoverAlt: prop.CoverAlt.rich_text
+      ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
+      : "",
+  };
+
+  return person;
 }
 
 function _buildRichText(richTextObject: responses.RichTextObject): RichText {

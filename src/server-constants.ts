@@ -2,6 +2,8 @@ export const NOTION_API_SECRET =
   import.meta.env.NOTION_API_SECRET || process.env.NOTION_API_SECRET || "";
 export const DATABASE_ID =
   import.meta.env.DATABASE_ID || process.env.DATABASE_ID || "";
+export const PEOPLE_DB_ID =
+  import.meta.env.PEOPLE_DB_ID || process.env.PEOPLE_DB_ID || "";
 
 export const CUSTOM_DOMAIN =
   import.meta.env.CUSTOM_DOMAIN ||

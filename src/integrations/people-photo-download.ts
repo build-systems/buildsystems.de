@@ -9,7 +9,7 @@ import {
 import { extractTargetBlocks } from "../lib/blog-helpers";
 
 export default (): AstroIntegration => ({
-  name: "posts-files-downloader",
+  name: "posts-image-downloader",
   hooks: {
     "astro:build:start": async () => {
       const posts = await getAllPosts();
