@@ -6,9 +6,10 @@ import { getPersonPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
   person: Person;
+  showDescription?: boolean;
 }
 
-const { person } = Astro.props;
+const { person, showDescription = true } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
