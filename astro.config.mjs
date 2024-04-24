@@ -37,7 +37,6 @@ export default defineConfig({
   base: BASE_PATH,
   redirects: {
     "/personen": "/team",
-    "/foerdertool": "/toolbox",
     "/ourwork/energieberatung-wohnkomplex":
       "/ourwork/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
     "/ourwork/cities-in-transition-von-muc-book":
