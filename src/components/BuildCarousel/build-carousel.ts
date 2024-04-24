@@ -1,10 +1,10 @@
 function buildCarousel() {
-  const buttons = document.querySelectorAll("[data-carousel-button]")!;
+  const button = document.getElementById("button-build-carousel");
 
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
+  if (button) {
+    const buttonPress = () => {
       if (button instanceof HTMLElement) {
-        const offset = button.dataset!.carouselButton === "next" ? 1 : -1;
+        const offset = 1;
         const slides = button
           .closest("[data-carousel]")!
           .querySelector("[data-slides]");
@@ -24,7 +24,7 @@ function buildCarousel() {
               ?.querySelector(".middle")! as HTMLElement;
             const activeBottomCarousel = activeSlide
               .querySelector("h3")
-              ?.querySelector(".middle")! as HTMLElement;
+              ?.querySelector(".bottom")! as HTMLElement;
             activeMiddleCarousel.style.transform = "";
             activeMiddleCarousel.style.animation = "";
             activeBottomCarousel.style.animation = "";
@@ -44,50 +44,60 @@ function buildCarousel() {
           }
         }
       }
-    });
-  });
+      // event.stopPropagation();
+      // event.preventDefault();
+    };
+    button.addEventListener("click", buttonPress);
 
-  var carouselTop = document.querySelector(".top") as HTMLElement;
-  var carouselMiddle = document.querySelector(".middle") as HTMLElement;
+    var carouselTop = document.querySelector(".top") as HTMLElement;
+    var carouselMiddle = document.querySelector(".middle") as HTMLElement;
 
-  // Animation function
-  async function animateOnce() {
-    try {
-      carouselTop.style.animation = "top-animation 1.8s ease-in-out forwards";
-      carouselMiddle.style.animation =
-        "middle-animation 1.8s ease-in-out forwards";
-      setTimeout(() => {
-        carouselTop.style.animation = "";
-        carouselMiddle.style.animation = "";
-      }, 1800);
-    } catch (e) {
-      console.error("e", e);
-    }
-  }
-
-  // Options to use on the IntersectionObserver
-  const options = {
-    root: null,
-    rootMargin: "0px", // Offset
-    threshold: 1, // 1 means when 100% of the caroulse is visible
-  };
-
-  // Observer to activate animation when carousel is on view
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        animateOnce();
-        observer.unobserve(entry.target); // Unobserve the target once it's in view
+    if (carouselTop && carouselMiddle) {
+      // Animation function
+      async function animateOnce() {
+        try {
+          carouselTop.style.animation =
+            "top-animation 1.8s ease-in-out forwards";
+          carouselMiddle.style.animation =
+            "middle-animation 1.8s ease-in-out forwards";
+          setTimeout(() => {
+            carouselTop.style.animation = "";
+            carouselMiddle.style.animation = "";
+          }, 1800);
+        } catch (e) {
+          console.error("e", e);
+        }
       }
-    });
-  }, options);
 
-  // Start observing the carousel
-  const carouselElement = document.querySelector(
-    ".carousel-container"
-  ) as HTMLElement;
-  observer.observe(carouselElement);
+      // Options to use on the IntersectionObserver
+      const options = {
+        root: null,
+        rootMargin: "0px", // Offset
+        threshold: 1, // 1 means when 100% of the caroulse is visible
+      };
+
+      // Observer to activate animation when carousel is on view
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateOnce();
+            observer.unobserve(entry.target); // Unobserve the target once it's in view
+          }
+        });
+      }, options);
+
+      // Start observing the carousel
+      const carouselElement = document.querySelector(
+        ".carousel-container"
+      ) as HTMLElement;
+      observer.observe(carouselElement);
+    }
+
+    // Clean up by destroying instances and removing event listeners
+    document.addEventListener("astro:before-swap", () => {
+      button.removeEventListener("click", buttonPress);
+    });
+  }
 }
 
-buildCarousel();
 document.addEventListener("astro:page-load", buildCarousel);
