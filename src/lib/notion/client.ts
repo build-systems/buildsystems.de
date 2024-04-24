@@ -1210,7 +1210,7 @@ function _buildPerson(pageObject: responses.PageObject): Person {
     console.log("\nError while getting a person's photo\n" + error);
   }
 
-  console.log(prop.LinkedIn.url);
+  // console.log(prop.LinkedIn.url);
   const person: Person = {
     PageId: pageObject.id,
     Icon: icon,
