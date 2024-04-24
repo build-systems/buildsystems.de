@@ -103,7 +103,13 @@ posts = filterPostsByTags(posts, post);
     <div class="cards-container">
       {
         matchingPeople.map((person, index) => {
-          return <PersonenCard person={person} />;
+          return (
+            <PersonenCard
+              person={person}
+              showDescription={false}
+              sizeImage={98}
+            />
+          );
         })
       }
     </div>

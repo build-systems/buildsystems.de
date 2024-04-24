@@ -7,9 +7,10 @@ import { getPersonPhotoPath } from "../lib/blog-helpers";
 interface Props {
   person: Person;
   showDescription?: boolean;
+  sizeImage?: number;
 }
 
-const { person, showDescription = true } = Astro.props;
+const { person, showDescription = true, sizeImage = 140 } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
@@ -35,11 +36,13 @@ const email = person.Email;
     src={images[imagePath]()}
     formats={["avif", "webp"]}
     alt={name + "'s profile photo"}
+    width={sizeImage}
+    height={sizeImage}
   />
   <div class="text">
     <h3>{name}</h3>
     <h4>{title}</h4>
-    <h5>{description}</h5>
+    {showDescription && <h5>{description}</h5>}
     <div>
       {
         linkedin != undefined && linkedin.pathname.length > 0 && (
@@ -74,14 +77,16 @@ const email = person.Email;
 <style>
   .card {
     padding: 1rem 2rem;
+    align-items: center;
     display: flex;
     background-color: var(--background-cards);
     border-radius: 1rem;
   }
 
   .image {
-    width: 9rem;
-    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     max-width: fit-content;
   }
