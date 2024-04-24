@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import { CUSTOM_DOMAIN, BASE_PATH } from "./src/server-constants";
 import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image-downloader";
 import PostsFilesDownloader from "./src/integrations/posts-files-downloader";
+import PeoplePhotoDownloader from "./src/integrations/people-photo-download";
 import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
 
 import lottie from "astro-integration-lottie";
@@ -49,6 +50,7 @@ export default defineConfig({
     sitemap(),
     IndexPostImageDownloader(),
     PostsFilesDownloader(),
+    PeoplePhotoDownloader(),
     // CustomIconDownloader(),
   ],
   prefetch: true,

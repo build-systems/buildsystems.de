@@ -25,7 +25,7 @@ export interface Person {
   Name: string;
   Title: string;
   Description: string;
-  Linkedin: URL;
+  LinkedIn: URL;
   Email: string;
   Cover: FileObject | null;
   CoverAlt: string;

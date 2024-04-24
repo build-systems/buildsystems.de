@@ -166,8 +166,8 @@ h6 {
 ol,
 ul {
   padding-left: 2rem;
-  -webkit-padding-start: 5%;
-  -webkit-padding-end: 5%;
+  /* -webkit-padding-start: 5%;
+  -webkit-padding-end: 5%; */
 }
 
 li p {

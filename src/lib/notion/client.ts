@@ -72,7 +72,7 @@ export async function getAllPosts(): Promise<Post[]> {
     return Promise.resolve(postsCache);
   }
 
-  // console.log("\n===== Getting all posts =====");
+  console.log("\n===== Getting all posts =====");
   const params: requestParams.QueryDatabase = {
     database_id: DATABASE_ID,
     filter: {
@@ -144,10 +144,16 @@ export async function getAllPeople(): Promise<Person[]> {
     return Promise.resolve(peopleCache);
   }
 
-  // console.log("\n===== Getting all posts =====");
+  console.log("\n===== Getting all people =====");
   const params: requestParams.QueryDatabase = {
     database_id: PEOPLE_DB_ID,
     page_size: 100,
+    sorts: [
+      {
+        property: "Order",
+        direction: "ascending",
+      },
+    ],
   };
 
   let results: responses.PageObject[] = [];
@@ -172,7 +178,7 @@ export async function getAllPeople(): Promise<Person[]> {
       }
     );
     results = results.concat(res.results);
-    // console.dir(results);
+    console.dir(results);
 
     if (!res.has_more) {
       break;
@@ -1128,32 +1134,6 @@ function _buildPost(pageObject: responses.PageObject): Post {
     };
   }
 
-  // // I removed this field. Now the cover is the public.
-  // // It is converted to 800px in width
-
-  // // I left this commented code here just in case we add an alternative Phone Cover (vertical)
-  // // We could have a Files & Media property in Notion and use this to get the image
-
-  // let publicImage: FileObject | null = null;
-  // try {
-  //   if (prop.PublicImage.files && prop.PublicImage.files.length > 0) {
-  //     if (prop.PublicImage.files[0].external) {
-  //       publicImage = {
-  //         Type: prop.PublicImage.type,
-  //         Url: prop.PublicImage.files[0].external.url,
-  //       };
-  //     } else if (prop.PublicImage.files[0].file) {
-  //       publicImage = {
-  //         Type: prop.PublicImage.type,
-  //         Url: prop.PublicImage.files[0].file.url,
-  //         ExpiryTime: prop.PublicImage.files[0].file.expiry_time,
-  //       };
-  //     }
-  //   }
-  // } catch (error) {
-  //   console.log("\nError while getting public image\n" + error);
-  // }
-
   const post: Post = {
     PageId: pageObject.id,
     Title: prop.Title.title
@@ -1177,8 +1157,6 @@ function _buildPost(pageObject: responses.PageObject): Post {
             .map((richText) => richText.plain_text)
             .join("")
         : "",
-    // PublicImage: publicImage,
-    // Rank: prop.Rank.number ? prop.Rank.number : 0,
   };
 
   return post;
@@ -1232,6 +1210,7 @@ function _buildPerson(pageObject: responses.PageObject): Person {
     console.log("\nError while getting a person's photo\n" + error);
   }
 
+  console.log(prop.LinkedIn.url);
   const person: Person = {
     PageId: pageObject.id,
     Icon: icon,
@@ -1247,9 +1226,9 @@ function _buildPerson(pageObject: responses.PageObject): Person {
             .map((richText) => richText.plain_text)
             .join("")
         : "",
-    Linkedin:
-      prop.Linkedin.url && prop.Linkedin.url.length > 0
-        ? new URL(prop.Linkedin.url)
+    LinkedIn:
+      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+        ? new URL(prop.LinkedIn.url)
         : new URL(""),
     Email:
       prop.Email.email && prop.Email.email.length > 0 ? prop.Email.email : "",

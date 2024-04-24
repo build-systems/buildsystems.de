@@ -10,6 +10,7 @@ import {
   getAllPosts,
   getPostBySlug,
   getAllBlocksByBlockId,
+  getAllPeople,
 } from "../../lib/notion/client.js";
 import {
   addSlugToName,
@@ -18,6 +19,7 @@ import {
   removePostFromPosts,
   returnImageNameAsJpg,
 } from "../../lib/blog-helpers.js";
+import PersonenCard from "../../components/PersonenCard.astro";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -57,6 +59,12 @@ const image = await importCoverImage(post, images);
 
 // Authors
 const authors = post.Authors;
+const people = await getAllPeople();
+
+// Get objects from 'people' array that have matching 'Name' property with 'authors' array
+const matchingPeople = people.filter((person) =>
+  authors.map((author) => author.name).includes(person.Name)
+);
 
 // Get all posts available
 let posts = await getAllPosts();
@@ -92,6 +100,13 @@ posts = filterPostsByTags(posts, post);
     <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
     <p>{formatDate(new Date(post.PublishDate))}</p>
     <PostBody blocks={blocks} slug={slug} />
+    <div class="cards-container">
+      {
+        matchingPeople.map((person, index) => {
+          return <PersonenCard person={person} />;
+        })
+      }
+    </div>
   </article>
   <BlogCarousel posts={posts} />
 </BaseLayout>
@@ -136,6 +151,25 @@ posts = filterPostsByTags(posts, post);
 
   button {
     background-color: var(--background-body);
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    z-index: 2;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 920px) {
+    .cards-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .frame {
+      margin-left: var(--left-padding-tablet);
+      margin-right: var(--right-padding-tablet);
+    }
   }
 
   @media (max-width: 625px) {
