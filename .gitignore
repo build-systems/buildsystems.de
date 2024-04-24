@@ -21,3 +21,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# Notion images
+public/notion/
+src/assets/notion/
