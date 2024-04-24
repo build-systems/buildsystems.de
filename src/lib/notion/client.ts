@@ -144,7 +144,7 @@ export async function getAllPeople(): Promise<Person[]> {
     return Promise.resolve(peopleCache);
   }
 
-  console.log("\n===== Getting all people =====");
+  // console.log("\n===== Getting all people =====");
   const params: requestParams.QueryDatabase = {
     database_id: PEOPLE_DB_ID,
     page_size: 100,
@@ -178,7 +178,7 @@ export async function getAllPeople(): Promise<Person[]> {
       }
     );
     results = results.concat(res.results);
-    console.dir(results);
+    // console.dir(results);
 
     if (!res.has_more) {
       break;
