@@ -55,6 +55,7 @@ const { block, headings, slug } = Astro.props;
 <style>
   .callout {
     display: flex;
+    align-items: center;
     margin: 0.4rem auto;
     padding: 16px 12px;
     width: 100%;
@@ -65,11 +66,12 @@ const { block, headings, slug } = Astro.props;
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
-    background: rgba(235, 236, 237, 0.6);
+    background: var(--background-cards);
   }
   .callout > div {
+    vertical-align: middle;
     margin: 0;
-    line-height: 1.5rem;
+    line-height: 12px;
   }
   .callout > div.icon {
     margin-right: 0.7rem;
