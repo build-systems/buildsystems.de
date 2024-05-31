@@ -1,6 +1,6 @@
 import type { AstroIntegration } from "astro";
 import type { FileObject } from "../lib/notion-interfaces";
-import { getDatabase, downloadFile } from "../lib/notion/client";
+import { getDatabase, downloadImage } from "../lib/notion/client";
 
 export default (): AstroIntegration => ({
   name: "custom-icon-downloader",
@@ -22,7 +22,7 @@ export default (): AstroIntegration => ({
         return Promise.resolve();
       }
 
-      return downloadFile(url, "");
+      return downloadImage(url, "");
     },
   },
 });

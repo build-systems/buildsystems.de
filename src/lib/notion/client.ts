@@ -430,7 +430,7 @@ async function checkFileExists(file: fs.PathLike) {
   }
 }
 
-export async function downloadFile(url: URL, slug: string) {
+export async function downloadImage(url: URL, slug: string) {
   let res!: AxiosResponse;
   try {
     res = await axios({

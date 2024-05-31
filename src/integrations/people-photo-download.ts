@@ -1,5 +1,5 @@
 import type { AstroIntegration } from "astro";
-import { downloadFile, getAllPeople } from "../lib/notion/client";
+import { downloadImage, getAllPeople } from "../lib/notion/client";
 
 export default (): AstroIntegration => ({
   name: "people-photo-downloader",
@@ -22,7 +22,7 @@ export default (): AstroIntegration => ({
             return Promise.resolve();
           }
 
-          return downloadFile(url, "");
+          return downloadImage(url, "");
         })
       );
     },

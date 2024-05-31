@@ -1,7 +1,7 @@
 import type { AstroIntegration } from "astro";
 import {
   getDatabase,
-  downloadFile,
+  downloadImage,
   downloadPublicImage,
 } from "../lib/notion/client";
 
@@ -27,7 +27,7 @@ export default (): AstroIntegration => ({
 
       // console.log("\nDownloading cover image");
       return (
-        downloadFile(url, "database-cover"),
+        downloadImage(url, "database-cover"),
         downloadPublicImage(url, "database-cover")
       );
     },

@@ -1,12 +1,48 @@
 import type { AstroIntegration } from "astro";
 import {
   getAllPosts,
-  downloadFile,
+  downloadImage,
   downloadPublicImage,
   getAllBlocksByBlockId,
   getBlock,
 } from "../lib/notion/client";
 import { extractTargetBlocks } from "../lib/blog-helpers";
+import type { Database } from "../lib/notion-interfaces";
+
+// https://developers.notion.com/reference/request-limits
+// This is not working yet, re-do the processQueue
+// First it is not really working with time
+// Secondly if file already exists, it should not count
+const MAX_REQUESTS_PER_SECOND = 3;
+
+const downloadQueue: any[] = [];
+
+// Function to process the queue
+const processQueue = async () => {
+  while (downloadQueue.length > 0) {
+    const startTime = Date.now();
+    const tasks = [];
+
+    for (let i = 0; i < downloadQueue.length; i++) {
+      const timeSinceStart = Date.now() - startTime;
+      if (timeSinceStart < 1000 && tasks.length < MAX_REQUESTS_PER_SECOND) {
+        tasks.push(downloadQueue.shift()());
+      } else {
+        break;
+      }
+    }
+
+    // Wait until remaining time in the second elapses (if any)
+    if (tasks.length > 0) {
+      await new Promise((resolve) =>
+        setTimeout(resolve, 1000 - (Date.now() - startTime))
+      );
+    }
+
+    // Execute tasks concurrently
+    await Promise.all(tasks);
+  }
+};
 
 export default (): AstroIntegration => ({
   name: "posts-files-downloader",
@@ -37,7 +73,11 @@ export default (): AstroIntegration => ({
             return Promise.resolve();
           }
 
-          return downloadFile(url, slug), downloadPublicImage(url, slug);
+          // Add the download task to the queue
+          downloadQueue.push(async () => {
+            await downloadImage(url, slug);
+            await downloadPublicImage(url, slug);
+          });
         })
       );
 
@@ -102,16 +142,19 @@ export default (): AstroIntegration => ({
               .map((promise) =>
                 promise.then(({ url, type }) => {
                   if (type === "image") {
-                    return downloadFile(url, slug);
+                    // Add the download task to the queue
+                    downloadQueue.push(async () => {
+                      await downloadImage(url, slug);
+                    });
                   }
-                  // else {
-                  //   return downloadPublicImage(url, slug);
-                  // }
                 })
               )
           );
         })
       );
+
+      // Process any remaining tasks in the queue
+      await processQueue();
     },
   },
 });
