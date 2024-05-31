@@ -39,8 +39,7 @@ const { title, description, image, imageAlt, transition } = Astro.props;
 <meta property="og:locale" content="de-DE" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image:url" content={image || SITE_HEROIMAGE} />
-<meta property="og:image:secure_url" content={image || SITE_HEROIMAGE} />
+<meta property="og:image" content={image || SITE_HEROIMAGE} />
 <meta property="og:image:alt" content={imageAlt || SITE_HEROIMAGEALT} />
 
 <!-- Twitter -->
