@@ -37,10 +37,11 @@ const { title, description, image, imageAlt, transition } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:site_name" content="BuildSystems" />
 <meta property="og:locale" content="de-DE" />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={image || SITE_HEROIMAGE} />
+<meta name="title" property="og:title" content={title} />
+<meta name="description" property="og:description" content={description} />
+<meta name="image" property="og:image" content={image || SITE_HEROIMAGE} />
 <meta property="og:image:alt" content={imageAlt || SITE_HEROIMAGEALT} />
+<meta name="author" content="BuildSystems" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
