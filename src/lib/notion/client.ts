@@ -537,10 +537,10 @@ export async function downloadPublicImage(url: URL, slug: string) {
   let stream = res.data;
 
   if (res.headers["content-type"] === "image/jpeg") {
-    stream = stream.pipe(sharp().resize({ width: 800 }).rotate());
+    stream = stream.pipe(sharp().resize({ width: 1200 }).rotate());
   } else {
     stream = stream.pipe(
-      sharp().resize({ width: 800 }).jpeg().flatten({ background: "#222222" })
+      sharp().resize({ width: 1200 }).jpeg().flatten({ background: "#222222" })
     );
   }
   try {
