@@ -63,6 +63,13 @@ if (block.Image && block.Image.Caption[0]) {
 } else {
   altText = block.Type;
 }
+
+if (block.Image!.External) {
+  console.log("block.Image!.External");
+}
+if (block.Image!.File) {
+  console.log("block.Image!.File");
+}
 ---
 
 <figure class="image">
@@ -83,7 +90,7 @@ if (block.Image && block.Image.Caption[0]) {
     )
   }
   {
-    // if it has valid url, is a downloaded file and is not svg
+    // if it has valid url, is a downloaded file and is svg
     url! && block.Image!.File && imageExtension! === "svg" && (
       <div>
         <div>

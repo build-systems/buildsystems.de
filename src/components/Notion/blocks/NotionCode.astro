@@ -15,6 +15,8 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-yaml";
 import * as interfaces from "../../../lib/notion-interfaces";
 import Caption from "./Caption.astro";
+import { notionLangToShiki } from "../../../lib/utils";
+import { Code } from "astro:components";
 
 export interface Props {
   block: interfaces.Block;
@@ -27,9 +29,8 @@ const code = block
     (richText: interfaces.RichText) => richText.Text!.Content
   )
   .join("");
-const language = block.Code!.Language.toLowerCase();
-const grammer =
-  Prism.languages[language.toLowerCase()] || Prism.languages.javascript;
+const notionLanguage = block.Code!.Language.toLowerCase();
+const language = notionLangToShiki(notionLanguage);
 ---
 
 <div class="code">
@@ -39,14 +40,11 @@ const grammer =
       language === 'mermaid' ? (
         <pre class="mermaid">{code}</pre>
       ) : (
-        <>
-          <div>
+          <><><><><><><><><><><><><><div>
             <button class="copy" data-code={code} data-done-text="Copied!">
               Copy
             </button>
-          </div>
-          <pre><code set:html={Prism.highlight(code, grammer, language)} /></pre>
-        </>
+          </div><Code code={code} lang={language} /></></></></></></></></></></></></></>
       )
     }
   </div>
@@ -83,7 +81,7 @@ const grammer =
     margin-bottom: 0.6rem;
   }
   .code > div {
-    background: rgb(247, 246, 243);
+    /* background: rgb(247, 246, 243); */
     border-radius: var(--radius);
   }
   .code > div div {
