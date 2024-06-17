@@ -36,15 +36,17 @@ const language = notionLangToShiki(notionLanguage);
 <div class="code">
   <div>
     {
-      /* prettier-ignore */
-      language === 'mermaid' ? (
+      language === "mermaid" ? (
         <pre class="mermaid">{code}</pre>
       ) : (
-          <><><><><><><><><><><><><><div>
+        <>
+          <div>
             <button class="copy" data-code={code} data-done-text="Copied!">
               Copy
             </button>
-          </div><Code code={code} lang={language} /></></></></></></></></></></></></></>
+          </div>
+          <Code code={code} lang={language} />
+        </>
       )
     }
   </div>
@@ -53,7 +55,14 @@ const language = notionLangToShiki(notionLanguage);
 
 <script>
   import mermaid from "mermaid";
-  mermaid.initialize({ startOnLoad: true, theme: "neutral" });
+  mermaid.initialize({ startOnLoad: false, theme: "dark" });
+  function init() {
+    mermaid.run();
+  }
+
+  init();
+
+  document.addEventListener("astro:page-load", init);
 </script>
 
 <script>
