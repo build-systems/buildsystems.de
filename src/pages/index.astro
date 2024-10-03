@@ -21,6 +21,7 @@ import {
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
+import Anchor from "../components/Anchor.astro";
 
 const posts = await getAllPosts();
 ---
@@ -57,6 +58,13 @@ const posts = await getAllPosts();
       Bauwende voran. Dabei geht Innovation bei uns Hand in Hand mit kreativen
       Lösungsansätzen.
     </h3>
+    <Anchor
+      icon="redirect"
+      text="Erstgespräch vereinbaren"
+      openOnNewTab={true}
+      link="mailto:mail@buildsystems.de"
+      widthFitContent={true}
+    />
   </div>
 
   <div
