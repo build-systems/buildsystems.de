@@ -20,7 +20,10 @@ const imagePath = getPersonPhotoPath(person);
 
 if (!images[imagePath])
   throw new Error(
-    `"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"`
+    `"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"`,
+    {
+      cause: "Make sure to run build so the images are downloaded from Notion.",
+    }
   );
 
 const name = person.Name;
@@ -36,8 +39,9 @@ const email = person.Email;
     src={images[imagePath]()}
     formats={["avif", "webp"]}
     alt={name + "'s profile photo"}
-    width={sizeImage}
-    height={sizeImage}
+    widths={[200, 500]}
+    sizes={`(max-width: 200px) 200px, (max-width: 500px) 500px`}
+    style=`width: ${sizeImage}px; height: ${sizeImage}px;`
   />
   <div class="text">
     <h3>{name}</h3>

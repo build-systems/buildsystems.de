@@ -1,0 +1,182 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import { getAllPosts } from "../../lib/notion/client";
+import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+
+const title = "BuildSystems | Nachhaltigkeitsplanung";
+const description =
+  "BuildSystems steuert und optimiert die Wirksamkeit Ihrer Nachhaltigkeitsplanung. Umweltentlastung und ökonomische Machbarkeit gehen dabei Hand in Hand.";
+const image = "/images/nachhaltigkeitsplanung-component-exploding.jpg";
+const imageAlt =
+  "Timber wall deconstructing and exposing its interior components";
+
+const posts = await getAllPosts();
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  imageAlt={imageAlt}
+>
+  <StickyLogoMessage>
+    <h2>
+      steuert und optimiert die Wirksamkeit Ihrer <span
+        class="font-secondary green">Nachhaltigkeitsplanung</span
+      >. Umweltentlastung und ökonomische Machbarkeit gehen dabei Hand in Hand.
+    </h2>
+  </StickyLogoMessage>
+
+  <div class="animation05-container">
+    <div class="animation05">
+      <img
+        src="/animations/services-component-exploding.webp"
+        srcset="/animations/services-component-exploding-250w.webp 250w,
+          /animations/services-component-exploding-350w.webp 350w,
+          /animations/services-component-exploding-450w.webp 450w,
+          /animations/services-component-exploding-550w.webp 550w,
+          /animations/services-component-exploding.webp 720w"
+        sizes="
+          (max-width: 280px) 250px,
+          (max-width: 400px) 350px,
+          (max-width: 720px) 450px,
+          (max-width: 920px) 550px,
+          720px
+        "
+        alt="Animation of a wall section, with the materials separating from each-other."
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </div>
+  <div class="frame" id="carbon-due-diligence">
+    <h2>Carbon Due Diligence</h2>
+    <div class="list-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Messen und Reporten: Inzwischen setzen Reporting­anforderungen sowie
+          Förder­programme klare Benchmarks bei Emissionen und sind zusätzlich
+          an Zertifizierungen wie QNG geknüpft. BuildSystems zeigt auf, welcher
+          wirt­schaft­liche Mehrwert an Ihre potentielle
+          Umwelt­entlastung geknüpft ist.
+        </p>
+        <p>
+          Für eine voraus­schauende Planung ist es sinnvoll, die
+          Umwelt­ver­träg­lich­keit Ihres Projektes so früh wie möglich zu
+          verifizieren und die Performance in den taxonomie-relavanten Bereichen
+          Klimaschutz, Klima­anpassung und Kreislaufwirtschaft zu
+          quantifizieren. So können Sie gegeben­enfalls Planungsziele anpassen,
+          um später kostenintensive Umplanungen zu vermeiden oder gravierende
+          Konsequenzen durch eine potentielle CO2-Besteuerung abzuwenden.
+        </p>
+      </div>
+      <ul class="list-pill">
+        <li>Bedürfnisklärung</li>
+        <li>Durchführung einer Wesentlichkeitsanalyse</li>
+        <li>Durchführung von Ökobilanzierungen und Bewertung von Varianten</li>
+        <li>Erarbeitung von Handlungsempfehlungen</li>
+        <li>Identifizierungen von KPIs für die weitere Planung</li>
+        <li>Erstellung eines Pflichtenhelfts für Planungsbeteiligte</li>
+      </ul>
+    </div>
+  </div>
+  <div class="frame primary-margin-top" id="sparingspartner-nachhaltigkeit">
+    <h2>ESG und DGNB Consulting</h2>
+    <div class="list-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Sie wünschen sich einen Partner, der Sie langfristig und auf Augenhöhe
+          zu verschiedenen Nachhaltigkeitsthemen zu Ihrem (wachsenden) Portfolio
+          und Projekten berät? Gerne stehen wir Ihnen persönlich oder digital
+          zur Seite und besprechen Ihre Anliegen.
+        </p>
+        <p>
+          Geht es um Fragen zum Anforderungsdschungel von QNG, DGNB oder KfW
+          oder zur “Moving Target” von ESG? Unsere DGNB Consultants, ESG Manager
+          und Energieeffizienzexperten unterstützen Sie bei Ihren Fragen. Wir
+          sind für Sie da – bei laufenden Projekten, zu Projektstart oder bei
+          unternehmensinternen Transformationsprozessen.
+        </p>
+      </div>
+      <ul class="list-pill">
+        <li>Beratung zu bestehenden Zertifizierungssystemen</li>
+        <li>ESG Verifikation nach DGNB</li>
+        <li>ESG Reporting</li>
+        <li>Klimarisikoanalyse</li>
+        <li>Bewertung der Taxonomie-Konformität</li>
+      </ul>
+    </div>
+  </div>
+  <div class="frame primary-margin-top" id="planungsbegleitende-leistungen">
+    <h2>Nachhaltigkeitsplanung</h2>
+    <div class="list-text-grid">
+      <div class="msg-tertiary">
+        <p>
+          Konstruieren und Planen: Sie möchten mit Ihrem Projekt aktiv zur
+          Umwelt­entlastung beitragen und ein Exempel setzen? BuildSystems
+          begleitet den Prozess als kompetente Fachplanung und Beratung und
+          stellt mit Ihnen gemeinsam sicher, dass optimale Ergebnisse sowie
+          Zertifizierungen erreicht werden.
+        </p>
+        <p>
+          Häufig stehen Planungs­teams vor ungekannten Heraus­forderungen in den
+          Feldern: Nachhaltigkeits­zerti­fi­zie­rung, Ökobilanz,
+          Lebenszykluskosten, Rückbau­barkeit und Recycling­fähigkeit? Dabei
+          stellen diese nicht nur ein notwendiges Übel auf dem Weg zur
+          Zertifizierung dar, sondern tragen aktiv dazu bei, die
+          Zukunfts­fähigkeit Ihrer Entwicklung zu garantieren. Erarbeiten Sie
+          mit uns gemeinsam die Machbarkeit unter­schied­li­cher Stell­schrauben
+          der Nach­haltig­keit und treffen Sie impact-getriebene Entscheidungen.
+        </p>
+      </div>
+      <ul class="list-pill">
+        <li>Erstellung von Konzepten zu Rückbaubarkeit und Wiederverwendung</li>
+        <li>
+          Erarbeitung von Konzepten zur Reduktion grauer Emissionen, z.B. durch
+          nachwachsende Rohstoffe
+        </li>
+        <li>
+          Durchführung von Ökobilanzierungen und Lebenszykluskostenbetrachtungen
+        </li>
+        <li>Erstellung von Machbarkeitsstudien und Bauteilkatalogen</li>
+        <li>Erstellung eines Pflichtenhefts für Planungsbeteiligte</li>
+        <li>Dokumentation für Zertifizierung und Förderanträge</li>
+      </ul>
+    </div>
+  </div>
+  <BlogCarousel posts={posts} />
+</BaseLayout>
+<style>
+  .animation05-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 8rem 0;
+  }
+
+  .animation05 img {
+    width: clamp(300px, 80svw, 500px);
+    aspect-ratio: 1 / 1;
+  }
+
+  @media (max-width: 1100px) {
+    .animation05 {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .animation05 img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 625px) {
+    .animation05-container {
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
+    }
+  }
+</style>

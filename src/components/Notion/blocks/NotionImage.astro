@@ -1,5 +1,4 @@
 ---
-import { ENABLE_LIGHTBOX } from "../../../server-constants.ts";
 import { type Block } from "../../../lib/notion-interfaces.ts";
 import Caption from "./Caption.astro";
 import { Image } from "astro:assets";
@@ -45,7 +44,11 @@ if (block.Image!.File) {
       image = result.default;
     });
   } catch (error) {
-    console.log("\nError while getting image for astro component: \n" + error);
+    console.log(
+      "\nError while getting image for astro component: \n" +
+        error +
+        "\n Make sure to run build so the images are downloaded from Notion."
+    );
   }
 }
 
