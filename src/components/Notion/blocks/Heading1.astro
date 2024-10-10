@@ -3,6 +3,7 @@ import * as interfaces from "../../../lib/notion-interfaces.ts";
 import { buildHeadingId } from "../../../lib/blog-helpers.ts";
 import RichText from "./RichText.astro";
 import NotionBlocks from "../NotionBlocks.astro";
+import { Image } from "astro:assets";
 
 export interface Props {
   block: interfaces.Block;
@@ -18,14 +19,17 @@ const id = buildHeadingId(block.Heading1!);
 {
   block.Heading1!.IsToggleable ? (
     <details class="toggle">
-      <summary>
-        <a href={`#${id}`} id={id}>
-          <h3>
-            {block.Heading1!.RichTexts.map((richText: interfaces.RichText) => (
-              <RichText richText={richText} />
-            ))}
-          </h3>
+      <summary class="heading__anchor">
+        <a href={`#${id}`} id={id} class="anchor__icon">
+          <svg class="icon">
+            <use xlink:href={"/assets/icons.svg#anchor"} />
+          </svg>
         </a>
+        <h3>
+          {block.Heading1!.RichTexts.map((richText: interfaces.RichText) => (
+            <RichText richText={richText} />
+          ))}
+        </h3>
       </summary>
       <div>
         {block.Heading1!.Children && (
@@ -38,13 +42,18 @@ const id = buildHeadingId(block.Heading1!);
       </div>
     </details>
   ) : (
-    <a href={`#${id}`} id={id}>
+    <div class="heading__anchor">
+      <a href={`#${id}`} id={id} class="anchor__icon">
+        <svg class="icon">
+          <use xlink:href={"/assets/icons.svg#anchor"} />
+        </svg>
+      </a>
       <h3>
         {block.Heading1!.RichTexts.map((richText: interfaces.RichText) => (
           <RichText richText={richText} />
         ))}
       </h3>
-    </a>
+    </div>
   )
 }
 
@@ -58,6 +67,32 @@ const id = buildHeadingId(block.Heading1!);
     h3 {
       font-size: 1.3rem;
     }
+  }
+
+  .heading__anchor {
+    display: flex;
+    position: relative;
+  }
+
+  .anchor__icon {
+    opacity: 0;
+    position: absolute;
+    left: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6em;
+    padding-right: 1rem;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    fill: var(--primary-color);
+  }
+
+  div:hover .anchor__icon {
+    opacity: 1;
   }
 
   .toggle {
