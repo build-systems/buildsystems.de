@@ -36,7 +36,8 @@ export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
   redirects: {
-    "/personen": "/team",
+    "/personen": "/about",
+    "/team": "/about",
     "/ourwork/energieberatung-wohnkomplex":
       "/ourwork/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
     "/ourwork/cities-in-transition-von-muc-book":
