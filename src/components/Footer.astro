@@ -10,7 +10,7 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
 
 <div class="footer-container">
   <footer>
-    <div class="footer-content">
+    <div class="flex grow flex-wrap lg:space-x-6 space-x-2 justify-between">
       <div class="left-block-wrapper">
         <div class="left-block">
           <div class="address-nav">
@@ -71,61 +71,81 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
           Impressum Datenschutzerklärung</a
         >
       </nav>
-      <section class="unsere-partner" aria-label="Unsere Partner">
+      <section
+        class="flex flex-col justify-between grow"
+        aria-label="Unsere Partner"
+      >
         <h2>Let’s BuildSmart­Sustainable­Systems!</h2>
-        <div class="phrase-logo-wrapper">
+        <div class="flex flex-col gap-2">
           <p>Wir sind Teil von</p>
-          <div class="logos-container">
+          <div
+            class="flex sm:flex-row flex-col justify-between items-end w-full grow gap-12 sm:gap-4 lg:gap-8"
+          >
             <a
               href="https://www.byak.de/"
               target="_blank"
-              class="partner-logo"
               title="Bayerische Architektenkammer"
               aria-label="Link führt zu byak.de - Bayerische Architektenkammer"
+              class="w-full sm:w-auto"
             >
               <Image
                 src={logoBayerischeArchitektenkammer}
+                class="w-56 sm:w-24 md:w-28 lg:w-36"
                 alt="Bayerische Architektenkammer logo"
               />
             </a>
             <a
               href="https://www.energie-effizienz-experten.de/"
               target="_blank"
-              class="partner-logo"
               title="Energie Effizienz Experten"
               aria-label="Link führt zu energie-effizienz-experten.de - Energie Effizienz Experten"
+              class="w-full sm:w-auto"
             >
               <Image
                 src={logoEnergieEffizienzExperten}
+                class="w-56 sm:w-24 md:w-28 lg:w-36"
                 alt="Energie Effizienz Experten logo"
               />
             </a>
             <a
               href="https://www.dgnb.de/"
               target="_blank"
-              class="partner-logo"
               title="Deutsche Gesellschaft für Nachhaltiges Bauen"
               aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen"
+              class="w-full sm:w-auto"
             >
-              <Image class="dgnb-logo" src={logoDgnb} alt="DGNB logo" />
+              <Image
+                class="dgnb-logo"
+                src={logoDgnb}
+                alt="DGNB logo"
+                class="w-56 sm:w-20 md:w-24 lg:w-32"
+              />
             </a>
             <a
               href="https://www.lbiev.de/"
               target="_blank"
-              class="lbiev-logo"
               title="LBI Fördervereins"
               aria-label="Link führt zu lbiev.de - LBI Fördervereins"
+              class="w-full sm:w-auto"
             >
-              <Image src={logoLbiev} alt="LBI Fördervereins logo" />
+              <Image
+                src={logoLbiev}
+                alt="LBI Fördervereins logo"
+                class="w-52 sm:w-20 md:w-24 lg:w-28"
+              />
             </a>
             <a
               href="https://www.bundesstiftung-baukultur.de/"
               target="_blank"
-              class="bb-logo"
               title="Bundesstiftung Baukultur"
               aria-label="Link führt zu bundesstiftung-baukultur.de/ - Bundesstiftung Baukultur"
+              class="w-full sm:w-auto"
             >
-              <Image src={logoBBaukultur} alt="Bundesstiftung Baukultur logo" />
+              <Image
+                src={logoBBaukultur}
+                alt="Bundesstiftung Baukultur logo"
+                class="w-60 sm:w-36 md:w-40 lg:w-44"
+              />
             </a>
           </div>
         </div>
@@ -194,15 +214,6 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
     font-size: 1.4rem;
   }
 
-  .footer-content {
-    display: flex;
-    flex: 1 0;
-    flex-wrap: wrap;
-    /* column-gap: clamp(0.5rem, 4svw, 5rem); */
-    row-gap: clamp(0.5rem, 4svh, 2rem);
-    justify-content: space-between;
-  }
-
   .address-phrase {
     /* width: fit-content; */
     line-height: 1;
@@ -268,36 +279,6 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  .logos-container {
-    display: grid;
-    justify-content: center;
-    column-gap: clamp(0.5rem, 4%, 4rem);
-    row-gap: clamp(0.5rem, 10%, 4rem);
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .partner-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 120px;
-  }
-
-  .lbiev-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 120px;
-  }
-
-  .bb-logo {
-    width: clamp(30px, 75%, 300px);
-  }
-
-  .dgnb-logo {
-    width: clamp(100px, 90%, 300px);
   }
 
   .left-block-wrapper {

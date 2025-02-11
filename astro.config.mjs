@@ -3,6 +3,7 @@ import { CUSTOM_DOMAIN, BASE_PATH } from "./src/server-constants";
 import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image-downloader";
 import PostsFilesDownloader from "./src/integrations/posts-files-downloader";
 import PeoplePhotoDownloader from "./src/integrations/people-photo-download";
+import OrganizationsPhotoDownloader from "./src/integrations/organizations-photo-download.ts";
 import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -26,7 +27,7 @@ const getSite = function () {
       `https://${new URL(process.env.CF_PAGES_URL).host
         .split(".")
         .slice(1)
-        .join(".")}`
+        .join(".")}`,
     ).toString();
   }
 
@@ -51,8 +52,9 @@ export default defineConfig({
     sitemap(),
     IndexPostImageDownloader(),
     PostsFilesDownloader(),
-    PeoplePhotoDownloader(),
     // CustomIconDownloader(),
+    PeoplePhotoDownloader(),
+    OrganizationsPhotoDownloader(),
   ],
   prefetch: true,
   vite: {

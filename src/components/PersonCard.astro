@@ -1,22 +1,22 @@
 ---
 import type { ImageMetadata } from "astro";
 import { Picture } from "astro:assets";
-import type { Person } from "../lib/notion-interfaces";
+import type { PersonCard } from "../lib/notion-interfaces";
 import { getPersonPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
-  person: Person;
+  item: PersonCard;
   showDescription?: boolean;
   sizeImage?: number;
 }
 
-const { person, showDescription = true, sizeImage = 140 } = Astro.props;
+const { item, showDescription = true, sizeImage = 140 } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getPersonPhotoPath(person);
+const imagePath = getPersonPhotoPath(item);
 
 if (!images[imagePath])
   throw new Error(
@@ -26,14 +26,16 @@ if (!images[imagePath])
     }
   );
 
-const name = person.Name;
-const title = person.Title;
-const description = person.Description;
-const linkedin = person.LinkedIn;
-const email = person.Email;
+const name = item.Name;
+const title = item.Title;
+const description = item.Description;
+const linkedin = item.LinkedIn;
+const email = item.Email;
 ---
 
-<div class="card">
+<div
+  class="flex flex-col items-center rounded-lg bg-[var(--background-cards)] p-6 sm:flex-row sm:items-start lg:rounded-xl lg:px-8 lg:py-4"
+>
   <Picture
     class="image"
     src={images[imagePath]()}
@@ -47,7 +49,7 @@ const email = person.Email;
     <h3>{name}</h3>
     <h4>{title}</h4>
     {showDescription && <h5>{description}</h5>}
-    <div>
+    <div class="flex">
       {
         linkedin != undefined && linkedin.pathname.length > 0 && (
           <a
@@ -102,6 +104,10 @@ const email = person.Email;
   h3 {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.2rem;
   }
 
   .icon {

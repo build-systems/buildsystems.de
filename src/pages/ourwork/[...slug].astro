@@ -19,7 +19,7 @@ import {
   removePostFromPosts,
   returnImageNameAsJpg,
 } from "../../lib/blog-helpers.js";
-import PersonenCard from "../../components/PersonenCard.astro";
+import PersonCard from "../../components/PersonCard.astro";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -104,11 +104,7 @@ posts = filterPostsByTags(posts, post);
       {
         matchingPeople.map((person, index) => {
           return (
-            <PersonenCard
-              person={person}
-              showDescription={false}
-              sizeImage={98}
-            />
+            <PersonCard item={person} showDescription={false} sizeImage={98} />
           );
         })
       }

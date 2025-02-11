@@ -1,7 +1,7 @@
 {
   "name": "build-systems-website",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -57,6 +57,7 @@
     "@types/metascraper-title": "^5.14.5",
     "@types/prismjs": "^1.26.5",
     "prettier": "^3.5.0",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   }
 }

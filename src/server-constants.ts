@@ -4,6 +4,8 @@ export const DATABASE_ID =
   import.meta.env.DATABASE_ID || process.env.DATABASE_ID || "";
 export const PEOPLE_DB_ID =
   import.meta.env.PEOPLE_DB_ID || process.env.PEOPLE_DB_ID || "";
+export const ORGANIZATIONS_DB_ID =
+  import.meta.env.ORGANIZATIONS_DB_ID || process.env.ORGANIZATIONS_DB_ID || "";
 
 export const CUSTOM_DOMAIN =
   import.meta.env.CUSTOM_DOMAIN ||
@@ -14,7 +16,7 @@ export const BASE_PATH =
 
 export const REQUEST_TIMEOUT_MS = parseInt(
   import.meta.env.REQUEST_TIMEOUT_MS || "10000",
-  10
+  10,
 );
 
 export const NUMBER_OF_POSTS_PER_PAGE = 10;

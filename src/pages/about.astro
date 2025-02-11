@@ -1,9 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
-import { getAllPeople, getAllPosts } from "../lib/notion/client";
-import PersonenCard from "../components/PersonenCard.astro";
+import {
+  getAllOrganizations,
+  getAllPeople,
+  getAllPosts,
+} from "../lib/notion/client";
+import PersonCard from "../components/PersonCard.astro";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import OrganizationCard from "../components/OrganizationCard.astro";
 
 const title = "BuildSystems | Team";
 const description =
@@ -12,6 +17,8 @@ const image = "/images/buildsystems-team-steiermark.jpg";
 const imageAlt = "BuildSystems team working";
 
 const people = await getAllPeople();
+
+const organizations = await getAllOrganizations();
 
 const posts = await getAllPosts();
 ---
@@ -37,8 +44,16 @@ const posts = await getAllPosts();
 
   <div class="frame cards-container">
     {
-      people.map((person, index) => {
-        return <PersonenCard person={person} />;
+      people.map((person) => {
+        return <PersonCard item={person} />;
+      })
+    }
+  </div>
+
+  <div class="frame flex grow flex-wrap gap-2">
+    {
+      organizations.map((organization) => {
+        return <OrganizationCard item={organization} />;
       })
     }
   </div>

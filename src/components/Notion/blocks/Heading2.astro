@@ -14,39 +14,38 @@ const { block, headings, slug } = Astro.props;
 
 const id = buildHeadingId(block.Heading2!);
 ---
-
-{
-  block.Heading2!.IsToggleable ? (
-    <details class="toggle">
-      <summary class="heading__anchor">
+  {
+    block.Heading2!.IsToggleable ? (
+      <details class="toggle">
+        <summary class="heading__anchor">
+          <!-- <a href={`#${id}`} id={id} class="anchor__icon"><svg class="icon"><use xlink:href={"/assets/icons.svg#anchor"} /></svg></a> -->
+          <h4>
+            {block.Heading2!.RichTexts.map((richText: interfaces.RichText) => (
+              <RichText richText={richText} />
+            ))}
+          </h4>
+        </summary>
+        <div>
+          {block.Heading2!.Children && (
+            <NotionBlocks
+              blocks={block.Heading2!.Children}
+              headings={headings}
+              slug={slug}
+            />
+          )}
+        </div>
+      </details>
+    ) : (
+      <div class="heading__anchor">
         <!-- <a href={`#${id}`} id={id} class="anchor__icon"><svg class="icon"><use xlink:href={"/assets/icons.svg#anchor"} /></svg></a> -->
         <h4>
           {block.Heading2!.RichTexts.map((richText: interfaces.RichText) => (
             <RichText richText={richText} />
           ))}
         </h4>
-      </summary>
-      <div>
-        {block.Heading2!.Children && (
-          <NotionBlocks
-            blocks={block.Heading2!.Children}
-            headings={headings}
-            slug={slug}
-          />
-        )}
       </div>
-    </details>
-  ) : (
-    <div class="heading__anchor">
-      <!-- <a href={`#${id}`} id={id} class="anchor__icon"><svg class="icon"><use xlink:href={"/assets/icons.svg#anchor"} /></svg></a> -->
-      <h4>
-        {block.Heading2!.RichTexts.map((richText: interfaces.RichText) => (
-          <RichText richText={richText} />
-        ))}
-      </h4>
-    </div>
-  )
-}
+    )
+  }
 
 <style>
   h4 {
@@ -88,10 +87,6 @@ const id = buildHeadingId(block.Heading2!);
     width: 20px;
     fill: var(--primary-color);
   }
-  @media (max-width: 640px) {
-    height: 18px;
-    width: 18px;
-  }
 
   div:hover .anchor__icon {
     opacity: 1;
@@ -100,6 +95,7 @@ const id = buildHeadingId(block.Heading2!);
   .toggle {
     margin: 1.6rem 0 0;
   }
+
   @media (max-width: 640px) {
     .toggle {
       margin: 1.2rem 0 0;

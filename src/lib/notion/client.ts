@@ -10,6 +10,7 @@ import {
   NUMBER_OF_POSTS_PER_PAGE,
   REQUEST_TIMEOUT_MS,
   PEOPLE_DB_ID,
+  ORGANIZATIONS_DB_ID,
 } from "../../server-constants";
 import type * as responses from "./responses";
 import type * as requestParams from "./request-params";
@@ -52,7 +53,8 @@ import type {
   LinkToPage,
   Mention,
   Reference,
-  Person,
+  PersonCard,
+  OrganizationCard,
 } from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
@@ -106,7 +108,7 @@ export async function getAllPosts(): Promise<Post[]> {
       async (bail) => {
         try {
           return (await client.databases.query(
-            params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+            params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
           )) as responses.QueryDatabaseResponse;
         } catch (error: unknown) {
           if (error instanceof APIResponseError) {
@@ -119,7 +121,7 @@ export async function getAllPosts(): Promise<Post[]> {
       },
       {
         retries: numberOfRetry,
-      }
+      },
     );
     results = results.concat(res.results);
     // console.dir(results);
@@ -137,9 +139,9 @@ export async function getAllPosts(): Promise<Post[]> {
   return postsCache;
 }
 
-let peopleCache: Person[] | null = null;
+let peopleCache: PersonCard[] | null = null;
 
-export async function getAllPeople(): Promise<Person[]> {
+export async function getAllPeople(): Promise<PersonCard[]> {
   if (peopleCache !== null) {
     return Promise.resolve(peopleCache);
   }
@@ -162,7 +164,7 @@ export async function getAllPeople(): Promise<Person[]> {
       async (bail) => {
         try {
           return (await client.databases.query(
-            params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+            params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
           )) as responses.QueryDatabaseResponse;
         } catch (error: unknown) {
           if (error instanceof APIResponseError) {
@@ -175,7 +177,7 @@ export async function getAllPeople(): Promise<Person[]> {
       },
       {
         retries: numberOfRetry,
-      }
+      },
     );
     results = results.concat(res.results);
     // console.dir(results);
@@ -191,6 +193,62 @@ export async function getAllPeople(): Promise<Person[]> {
     .filter((pageObject) => _validPersonObject(pageObject))
     .map((pageObject) => _buildPerson(pageObject));
   return peopleCache;
+}
+
+let organizationsCache: OrganizationCard[] | null = null;
+
+export async function getAllOrganizations(): Promise<OrganizationCard[]> {
+  if (organizationsCache !== null) {
+    return Promise.resolve(organizationsCache);
+  }
+
+  // console.log("\n===== Getting all people =====");
+  const params: requestParams.QueryDatabase = {
+    database_id: ORGANIZATIONS_DB_ID,
+    page_size: 100,
+    sorts: [
+      {
+        property: "Order",
+        direction: "ascending",
+      },
+    ],
+  };
+
+  let results: responses.PageObject[] = [];
+  while (true) {
+    const res = await retry(
+      async (bail) => {
+        try {
+          return (await client.databases.query(
+            params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
+          )) as responses.QueryDatabaseResponse;
+        } catch (error: unknown) {
+          if (error instanceof APIResponseError) {
+            if (error.status && error.status >= 400 && error.status < 500) {
+              bail(error);
+            }
+          }
+          throw error;
+        }
+      },
+      {
+        retries: numberOfRetry,
+      },
+    );
+    results = results.concat(res.results);
+    // console.dir(results);
+
+    if (!res.has_more) {
+      break;
+    }
+
+    params["start_cursor"] = res.next_cursor as string;
+  }
+
+  organizationsCache = results
+    .filter((pageObject) => _validOrganizationObject(pageObject))
+    .map((pageObject) => _buildOrganization(pageObject));
+  return organizationsCache;
 }
 
 export async function getPosts(pageSize = 10): Promise<Post[]> {
@@ -210,7 +268,7 @@ export async function getPostByPageId(pageId: string): Promise<Post | null> {
 
 export async function getPostsByTag(
   tagName: string,
-  pageSize = 10
+  pageSize = 10,
 ): Promise<Post[]> {
   if (!tagName) return [];
 
@@ -237,7 +295,7 @@ export async function getPostsByPage(page: number): Promise<Post[]> {
 // page starts from 1 not 0
 export async function getPostsByTagAndPage(
   tagName: string,
-  page: number
+  page: number,
 ): Promise<Post[]> {
   if (page < 1) {
     return [];
@@ -245,7 +303,7 @@ export async function getPostsByTagAndPage(
 
   const allPosts = await getAllPosts();
   const posts = allPosts.filter((post) =>
-    post.Tags.find((tag) => tag.name === tagName)
+    post.Tags.find((tag) => tag.name === tagName),
   );
 
   const startIndex = (page - 1) * NUMBER_OF_POSTS_PER_PAGE;
@@ -265,7 +323,7 @@ export async function getNumberOfPages(): Promise<number> {
 export async function getNumberOfPagesByTag(tagName: string): Promise<number> {
   const allPosts = await getAllPosts();
   const posts = allPosts.filter((post) =>
-    post.Tags.find((tag) => tag.name === tagName)
+    post.Tags.find((tag) => tag.name === tagName),
   );
   return (
     Math.floor(posts.length / NUMBER_OF_POSTS_PER_PAGE) +
@@ -288,7 +346,7 @@ export async function getAllBlocksByBlockId(blockId: string): Promise<Block[]> {
         async (bail) => {
           try {
             return (await client.blocks.children.list(
-              params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+              params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
             )) as responses.RetrieveBlockChildrenResponse;
           } catch (error: unknown) {
             if (error instanceof APIResponseError) {
@@ -301,7 +359,7 @@ export async function getAllBlocksByBlockId(blockId: string): Promise<Block[]> {
         },
         {
           retries: numberOfRetry,
-        }
+        },
       );
 
       results = results.concat(res.results);
@@ -384,7 +442,7 @@ export async function getBlock(blockId: string): Promise<Block> {
     async (bail) => {
       try {
         return (await client.blocks.retrieve(
-          params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+          params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
         )) as responses.RetrieveBlockResponse;
       } catch (error: unknown) {
         if (error instanceof APIResponseError) {
@@ -397,7 +455,7 @@ export async function getBlock(blockId: string): Promise<Block> {
     },
     {
       retries: numberOfRetry,
-    }
+    },
   );
 
   return _buildBlock(res);
@@ -417,7 +475,7 @@ export async function getAllTags(): Promise<SelectProperty[]> {
       return acc;
     }, [] as SelectProperty[])
     .sort((a: SelectProperty, b: SelectProperty) =>
-      a.name.localeCompare(b.name)
+      a.name.localeCompare(b.name),
     );
 }
 
@@ -540,7 +598,7 @@ export async function downloadPublicImage(url: URL, slug: string) {
     stream = stream.pipe(sharp().resize({ width: 1200 }).rotate());
   } else {
     stream = stream.pipe(
-      sharp().resize({ width: 1200 }).jpeg().flatten({ background: "#222222" })
+      sharp().resize({ width: 1200 }).jpeg().flatten({ background: "#222222" }),
     );
   }
   try {
@@ -567,7 +625,7 @@ export async function getDatabase(): Promise<Database> {
     async (bail) => {
       try {
         return (await client.databases.retrieve(
-          params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+          params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
         )) as responses.RetrieveDatabaseResponse;
       } catch (error: unknown) {
         if (error instanceof APIResponseError) {
@@ -580,7 +638,7 @@ export async function getDatabase(): Promise<Database> {
     },
     {
       retries: numberOfRetry,
-    }
+    },
   );
 
   let icon: FileObject | Emoji | null = null;
@@ -956,7 +1014,7 @@ async function _getTableRows(blockId: string): Promise<TableRow[]> {
         async (bail) => {
           try {
             return (await client.blocks.children.list(
-              params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+              params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
             )) as responses.RetrieveBlockChildrenResponse;
           } catch (error: unknown) {
             if (error instanceof APIResponseError) {
@@ -969,7 +1027,7 @@ async function _getTableRows(blockId: string): Promise<TableRow[]> {
         },
         {
           retries: numberOfRetry,
-        }
+        },
       );
 
       results = results.concat(res.results);
@@ -1021,7 +1079,7 @@ async function _getColumns(blockId: string): Promise<Column[]> {
         async (bail) => {
           try {
             return (await client.blocks.children.list(
-              params as any // eslint-disable-line @typescript-eslint/no-explicit-any
+              params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
             )) as responses.RetrieveBlockChildrenResponse;
           } catch (error: unknown) {
             if (error instanceof APIResponseError) {
@@ -1034,7 +1092,7 @@ async function _getColumns(blockId: string): Promise<Column[]> {
         },
         {
           retries: numberOfRetry,
-        }
+        },
       );
 
       results = results.concat(res.results);
@@ -1059,7 +1117,7 @@ async function _getColumns(blockId: string): Promise<Column[]> {
       };
 
       return column;
-    })
+    }),
   );
 }
 
@@ -1074,7 +1132,7 @@ async function _getSyncedBlockChildren(block: Block): Promise<Block[]> {
       originalBlock = await getBlock(block.SyncedBlock.SyncedFrom.BlockId);
     } catch (err) {
       console.log(
-        `Could not retrieve the original synced_block. error: ${err}`
+        `Could not retrieve the original synced_block. error: ${err}`,
       );
       return [];
     }
@@ -1103,6 +1161,11 @@ function _validPersonObject(pageObject: responses.PageObject): boolean {
     !!prop.Title.rich_text &&
     prop.Title.rich_text.length > 0
   );
+}
+
+function _validOrganizationObject(pageObject: responses.PageObject): boolean {
+  const prop = pageObject.properties;
+  return !!prop.Name.title && prop.Name.title.length > 0;
 }
 
 function _buildPost(pageObject: responses.PageObject): Post {
@@ -1161,7 +1224,8 @@ function _buildPost(pageObject: responses.PageObject): Post {
 
   return post;
 }
-function _buildPerson(pageObject: responses.PageObject): Person {
+
+function _buildPerson(pageObject: responses.PageObject): PersonCard {
   const prop = pageObject.properties;
 
   let icon: FileObject | Emoji | null = null;
@@ -1211,7 +1275,7 @@ function _buildPerson(pageObject: responses.PageObject): Person {
   }
 
   // console.log(prop.LinkedIn.url);
-  const person: Person = {
+  const person: PersonCard = {
     PageId: pageObject.id,
     Icon: icon,
     Name: prop.Name.title // Name of person, Title of page
@@ -1229,9 +1293,92 @@ function _buildPerson(pageObject: responses.PageObject): Person {
     LinkedIn:
       prop.LinkedIn.url && prop.LinkedIn.url.length > 0
         ? new URL(prop.LinkedIn.url)
-        : new URL(""),
+        : null,
     Email:
       prop.Email.email && prop.Email.email.length > 0 ? prop.Email.email : "",
+    Photo: photo,
+    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Cover: cover,
+    CoverAlt: prop.CoverAlt.rich_text
+      ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
+      : "",
+  };
+
+  return person;
+}
+
+function _buildOrganization(
+  pageObject: responses.PageObject,
+): OrganizationCard {
+  const prop = pageObject.properties;
+
+  let icon: FileObject | Emoji | null = null;
+  if (pageObject.icon) {
+    if (pageObject.icon.type === "emoji" && "emoji" in pageObject.icon) {
+      icon = {
+        Type: pageObject.icon.type,
+        Emoji: pageObject.icon.emoji,
+      };
+    } else if (
+      pageObject.icon.type === "external" &&
+      "external" in pageObject.icon
+    ) {
+      icon = {
+        Type: pageObject.icon.type,
+        Url: pageObject.icon.external?.url || "",
+      };
+    }
+  }
+
+  let cover: FileObject | null = null;
+  if (pageObject.cover) {
+    cover = {
+      Type: pageObject.cover.type,
+      Url: pageObject.cover.external?.url || pageObject.cover.file?.url || "",
+    };
+  }
+
+  let photo: FileObject | null = null;
+  try {
+    if (prop.Photo.files && prop.Photo.files.length > 0) {
+      if (prop.Photo.files[0].external) {
+        photo = {
+          Type: prop.Photo.type,
+          Url: prop.Photo.files[0].external.url,
+        };
+      } else if (prop.Photo.files[0].file) {
+        photo = {
+          Type: prop.Photo.files[0].type,
+          Url: prop.Photo.files[0].file.url,
+          ExpiryTime: prop.Photo.files[0].file.expiry_time,
+        };
+      }
+    }
+  } catch (error) {
+    console.log("\nError while getting a person's photo\n" + error);
+  }
+
+  // console.log(prop.LinkedIn.url);
+  const person: OrganizationCard = {
+    PageId: pageObject.id,
+    Icon: icon,
+    Name: prop.Name.title // Name of person, Title of page
+      ? prop.Name.title.map((richText) => richText.plain_text).join("")
+      : "",
+    Description:
+      prop.Description.rich_text && prop.Description.rich_text.length > 0
+        ? prop.Description.rich_text
+            .map((richText) => richText.plain_text)
+            .join("")
+        : "",
+    LinkedIn:
+      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+        ? new URL(prop.LinkedIn.url)
+        : null,
+    Website:
+      prop.Website.url && prop.Website.url.length > 0
+        ? new URL(prop.Website.url)
+        : null,
     Photo: photo,
     Team: prop.Team.checkbox ? prop.Team.checkbox : false,
     Cover: cover,

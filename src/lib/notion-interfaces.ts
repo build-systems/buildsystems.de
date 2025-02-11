@@ -19,14 +19,27 @@ export interface Post {
   Tags: SelectProperty[];
 }
 
-export interface Person {
+export interface PersonCard {
   PageId: string;
   Icon: FileObject | Emoji | null;
   Name: string;
   Title: string;
   Description: string;
-  LinkedIn: URL;
+  LinkedIn: URL | null;
   Email: string;
+  Cover: FileObject | null;
+  CoverAlt: string;
+  Photo: FileObject | null;
+  Team: boolean;
+}
+
+export interface OrganizationCard {
+  PageId: string;
+  Icon: FileObject | Emoji | null;
+  Name: string;
+  Description: string;
+  LinkedIn: URL | null;
+  Website: URL | null;
   Cover: FileObject | null;
   CoverAlt: string;
   Photo: FileObject | null;
