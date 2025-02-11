@@ -4,6 +4,7 @@ import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image
 import PostsFilesDownloader from "./src/integrations/posts-files-downloader";
 import PeoplePhotoDownloader from "./src/integrations/people-photo-download";
 import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
+import tailwindcss from "@tailwindcss/vite";
 
 import lottie from "astro-integration-lottie";
 import sitemap from "@astrojs/sitemap";
@@ -54,4 +55,7 @@ export default defineConfig({
     // CustomIconDownloader(),
   ],
   prefetch: true,
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
