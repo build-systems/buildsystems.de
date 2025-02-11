@@ -2,10 +2,10 @@
 import Button from "./Anchor.astro";
 import { Image } from "astro:assets";
 import logoBayerischeArchitektenkammer from "../assets/logos/bayerische-architektenkammer-logo.svg";
-import logoBayernInnovativ from "../assets/logos/bayern-innovativ-logo.svg";
-import logoDena from "../assets/logos/dena-logo.svg";
 import logoDgnb from "../assets/logos/dgnb-logo.svg";
 import logoEnergieEffizienzExperten from "../assets/logos/energie-effizienz-experten-logo.svg";
+import logoLbiev from "../assets/logos/lbiev.svg";
+import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
 ---
 
 <div class="footer-container">
@@ -108,6 +108,24 @@ import logoEnergieEffizienzExperten from "../assets/logos/energie-effizienz-expe
               aria-label="Link führt zu dgnb.de - Deutsche Gesellschaft für Nachhaltiges Bauen"
             >
               <Image class="dgnb-logo" src={logoDgnb} alt="DGNB logo" />
+            </a>
+            <a
+              href="https://www.lbiev.de/"
+              target="_blank"
+              class="lbiev-logo"
+              title="LBI Fördervereins"
+              aria-label="Link führt zu lbiev.de - LBI Fördervereins"
+            >
+              <Image src={logoLbiev} alt="LBI Fördervereins logo" />
+            </a>
+            <a
+              href="https://www.bundesstiftung-baukultur.de/"
+              target="_blank"
+              class="bb-logo"
+              title="Bundesstiftung Baukultur"
+              aria-label="Link führt zu bundesstiftung-baukultur.de/ - Bundesstiftung Baukultur"
+            >
+              <Image src={logoBBaukultur} alt="Bundesstiftung Baukultur logo" />
             </a>
           </div>
         </div>
@@ -264,10 +282,17 @@ import logoEnergieEffizienzExperten from "../assets/logos/energie-effizienz-expe
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 150px;
+    max-width: 120px;
   }
 
-  .dena-logo {
+  .lbiev-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120px;
+  }
+
+  .bb-logo {
     width: clamp(30px, 75%, 300px);
   }
 
