@@ -20,6 +20,9 @@ const people = await getAllPeople();
 
 const organizations = await getAllOrganizations();
 
+console.log(Math.floor(organizations.length / 2));
+const numberOrgRows = Math.floor(organizations.length / 2);
+
 const posts = await getAllPosts();
 ---
 
@@ -42,7 +45,7 @@ const posts = await getAllPosts();
     <h2>führt Kompetenzen, Prozesse und Tools zusammen.</h2>
   </StickyLogoMessage>
 
-  <div class="frame cards-container">
+  <div class="frame mb-24 grid gap-2 xl:grid-cols-2">
     {
       people.map((person) => {
         return <PersonCard item={person} />;
@@ -50,7 +53,9 @@ const posts = await getAllPosts();
     }
   </div>
 
-  <div class="frame flex grow flex-wrap gap-2">
+  <div
+    class="frame xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] flex flex-col gap-2 object-cover sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] lg:flex-row lg:flex-wrap xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))] 2xl:grid 2xl:grid-cols-5"
+  >
     {
       organizations.map((organization) => {
         return <OrganizationCard item={organization} />;
@@ -67,13 +72,6 @@ const posts = await getAllPosts();
     gap: 0.5rem;
     z-index: 2;
     margin-bottom: 20svh;
-  }
-
-  @media (max-width: 1280px) {
-    .cards-container {
-      margin-left: 5%;
-      margin-right: 5%;
-    }
   }
 
   @media (max-width: 920px) {

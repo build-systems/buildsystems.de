@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
 :root {
   --background-body: #222;
   --background-cards: #3c3c3c;
@@ -581,7 +585,7 @@ input[name="theme-toggle"] {
   }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 640px) {
   .sticky h2 {
     font-size: var(--primary-msg-size-tablet);
     -webkit-hyphens: auto;

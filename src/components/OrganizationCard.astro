@@ -31,17 +31,17 @@ const linkTarget = website || linkedin || "#";
   target="_blank"
   rel="noopener noreferrer"
   aria-label={"Visit " + name}
-  class="transition- flex w-full max-w-sm transform flex-col items-center justify-between rounded-xl bg-[var(--background-cards)] p-6 shadow-md duration-300 hover:shadow-lg hover:brightness-105 sm:items-start"
+  class="flex grow transform items-center justify-center rounded-xl bg-[var(--background-cards)] p-6 shadow-md transition duration-300 hover:shadow-lg hover:brightness-105"
 >
   {
     imageSrc ? (
       <Image
         src={imageSrc}
         alt={`${name} logo`}
-        class="mb-4 h-auto w-full max-w-[${sizeImage}px] object-contain"
+        class="max-h-20! lg:h-16! lg:w-auto xl:h-24!"
       />
     ) : (
-      <div class="mb-4 flex h-[${sizeImage}px] w-[${sizeImage}px] items-center justify-center rounded-full bg-gray-200 text-sm text-gray-500">
+      <div class="mb-4 flex items-center justify-center rounded-full bg-gray-200 text-sm text-gray-500">
         No Image
       </div>
     )
