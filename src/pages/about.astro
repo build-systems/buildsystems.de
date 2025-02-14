@@ -12,7 +12,7 @@ import PersonCard from "../components/PersonCard.astro";
 import PartnersCard from "../components/PartnersCard.astro";
 import OrganizationCard from "../components/OrganizationCard.astro";
 
-const title = "BuildSystems | Team";
+const title = "BuildSystems | About";
 const description =
   "BuildSystems erschließt Potenziale der Umweltentlastung ganzheitlich. Deshalb beraten wir Sie toolunabhängig im interdisziplinären Team aus Nachhaltigkeits- und Softwarespezialisten.";
 const image = "/images/buildsystems-team-steiermark.jpg";
@@ -53,7 +53,7 @@ const posts = await getAllPosts();
         <div class="mb-24 grid gap-2 xl:grid-cols-2">
           {
             people.map((person) => {
-              return <PersonCard item={person} />;
+              return <PersonCard person={person} />;
             })
           }
         </div>
@@ -69,8 +69,8 @@ const posts = await getAllPosts();
         <h2>Partner</h2>
         <div class="mb-24 grid gap-2 xl:grid-cols-2">
           {
-            partners.map((person) => {
-              return <PartnersCard item={person} />;
+            partners.map((partner) => {
+              return <PartnersCard partner={partner} />;
             })
           }
         </div>
@@ -86,7 +86,7 @@ const posts = await getAllPosts();
         <div class="flex flex-col gap-2 object-cover lg:flex-row lg:flex-wrap">
         {
           organizations.map((organization) => {
-            return <OrganizationCard item={organization} />;
+            return <OrganizationCard organization={organization} />;
           })
         }
         </div>

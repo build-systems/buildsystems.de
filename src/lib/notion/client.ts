@@ -158,6 +158,12 @@ export async function getAllPeople(): Promise<PersonCard[]> {
         direction: "ascending",
       },
     ],
+    filter: {
+      property: "Visible",
+      checkbox: {
+        equals: true,
+      },
+    },
   };
 
   let results: responses.PageObject[] = [];
@@ -182,7 +188,6 @@ export async function getAllPeople(): Promise<PersonCard[]> {
       },
     );
     results = results.concat(res.results);
-    // console.dir(results);
 
     if (!res.has_more) {
       break;
@@ -214,6 +219,12 @@ export async function getAllPartners(): Promise<PartnerCard[]> {
         direction: "ascending",
       },
     ],
+    filter: {
+      property: "Visible",
+      checkbox: {
+        equals: true,
+      },
+    },
   };
 
   let results: responses.PageObject[] = [];
@@ -270,6 +281,12 @@ export async function getAllOrganizations(): Promise<OrganizationCard[]> {
         direction: "ascending",
       },
     ],
+    filter: {
+      property: "Visible",
+      checkbox: {
+        equals: true,
+      },
+    },
   };
 
   let results: responses.PageObject[] = [];
@@ -1337,7 +1354,6 @@ function _buildPerson(pageObject: responses.PageObject): PersonCard {
     console.log("\nError while getting a person's photo\n" + error);
   }
 
-  // console.log(prop.LinkedIn.url);
   const person: PersonCard = {
     PageId: pageObject.id,
     Icon: icon,
@@ -1360,7 +1376,7 @@ function _buildPerson(pageObject: responses.PageObject): PersonCard {
     Email:
       prop.Email.email && prop.Email.email.length > 0 ? prop.Email.email : "",
     Photo: photo,
-    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Visible: prop.Visible.checkbox ? prop.Visible.checkbox : false,
     Cover: cover,
     CoverAlt: prop.CoverAlt.rich_text
       ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
@@ -1441,7 +1457,7 @@ function _buildPartner(pageObject: responses.PageObject): PartnerCard {
         ? new URL(prop.Website.url)
         : null,
     Photo: photo,
-    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Visible: prop.Visible.checkbox ? prop.Visible.checkbox : false,
     Cover: cover,
     CoverAlt: prop.CoverAlt.rich_text
       ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
@@ -1524,7 +1540,7 @@ function _buildOrganization(
         ? new URL(prop.Website.url)
         : null,
     Photo: photo,
-    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Visible: prop.Visible.checkbox ? prop.Visible.checkbox : false,
     Cover: cover,
     CoverAlt: prop.CoverAlt.rich_text
       ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")

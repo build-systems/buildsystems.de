@@ -5,18 +5,18 @@ import type { PartnerCard } from "../lib/notion-interfaces";
 import { getPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
-  item: PartnerCard;
+  partner: PartnerCard;
   showDescription?: boolean;
   sizeImage?: number;
 }
 
-const { item, showDescription = true, sizeImage = 140 } = Astro.props;
+const { partner, showDescription = true, sizeImage = 140 } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getPhotoPath(item.Photo?.Url!);
+const imagePath = getPhotoPath(partner.Photo?.Url!);
 
 if (!images[imagePath])
   throw new Error(
@@ -26,10 +26,10 @@ if (!images[imagePath])
     }
   );
 
-const name = item.Name;
-const description = item.Description;
-const linkedin = item.LinkedIn;
-const website = item.Website;
+const name = partner.Name;
+const description = partner.Description;
+const linkedin = partner.LinkedIn;
+const website = partner.Website;
 ---
 
 <div

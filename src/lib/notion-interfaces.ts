@@ -30,7 +30,7 @@ export interface PersonCard {
   Cover: FileObject | null;
   CoverAlt: string;
   Photo: FileObject | null;
-  Team: boolean;
+  Visible: boolean;
 }
 
 export interface PartnerCard {
@@ -43,7 +43,7 @@ export interface PartnerCard {
   Cover: FileObject | null;
   CoverAlt: string;
   Photo: FileObject | null;
-  Team: boolean;
+  Visible: boolean;
 }
 
 export interface OrganizationCard {
@@ -56,7 +56,7 @@ export interface OrganizationCard {
   Cover: FileObject | null;
   CoverAlt: string;
   Photo: FileObject | null;
-  Team: boolean;
+  Visible: boolean;
 }
 
 export interface Block {

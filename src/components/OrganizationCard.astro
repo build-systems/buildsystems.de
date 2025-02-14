@@ -5,24 +5,24 @@ import type { OrganizationCard } from "../lib/notion-interfaces";
 import { getPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
-  item: OrganizationCard;
+  organization: OrganizationCard;
   showDescription?: boolean;
   sizeImage?: number;
 }
 
-const { item, showDescription = true, sizeImage = 120 } = Astro.props;
+const { organization, showDescription = true, sizeImage = 120 } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getPhotoPath(item.Photo?.Url!);
+const imagePath = getPhotoPath(organization.Photo?.Url!);
 const imageSrc = images[imagePath] ? images[imagePath]() : null;
 
-const name = item.Name;
-const description = item.Description;
-const linkedin = item.LinkedIn;
-const website = item.Website;
+const name = organization.Name;
+const description = organization.Description;
+const linkedin = organization.LinkedIn;
+const website = organization.Website;
 const linkTarget = website || linkedin || "#";
 ---
 
