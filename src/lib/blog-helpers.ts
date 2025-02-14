@@ -366,18 +366,8 @@ export function addSlugToName(name: string, slug: string): string {
   }
 }
 
-export function getPersonPhotoPath(person: PersonCard) {
-  const url = new URL(person.Photo!.Url);
-
-  const dir = "/src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
-  const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-
-  const imagePath = `${dir}/${imageName}`;
-  return imagePath;
-}
-
-export function getOrganizationPhotoPath(organization: OrganizationCard) {
-  const url = new URL(organization.Photo!.Url);
+export function getPhotoPath(href: string) {
+  const url = new URL(href);
 
   const dir = "/src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
   const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);

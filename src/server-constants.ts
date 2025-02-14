@@ -1,3 +1,6 @@
+// At the moment these keys are not being properly imported during dev or build.
+// I am manually typing  "export PARTNERS_DB_ID=XXX" in terminal where node will run
+
 export const NOTION_API_SECRET =
   import.meta.env.NOTION_API_SECRET || process.env.NOTION_API_SECRET || "";
 export const DATABASE_ID =
@@ -6,6 +9,8 @@ export const PEOPLE_DB_ID =
   import.meta.env.PEOPLE_DB_ID || process.env.PEOPLE_DB_ID || "";
 export const ORGANIZATIONS_DB_ID =
   import.meta.env.ORGANIZATIONS_DB_ID || process.env.ORGANIZATIONS_DB_ID || "";
+export const PARTNERS_DB_ID =
+  import.meta.env.PARTNERS_DB_ID || process.env.PARTNERS_DB_ID || "";
 
 export const CUSTOM_DOMAIN =
   import.meta.env.CUSTOM_DOMAIN ||

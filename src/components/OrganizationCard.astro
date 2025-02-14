@@ -2,7 +2,7 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import type { OrganizationCard } from "../lib/notion-interfaces";
-import { getOrganizationPhotoPath } from "../lib/blog-helpers";
+import { getPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
   item: OrganizationCard;
@@ -16,7 +16,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getOrganizationPhotoPath(item);
+const imagePath = getPhotoPath(item.Photo?.Url!);
 const imageSrc = images[imagePath] ? images[imagePath]() : null;
 
 const name = item.Name;
@@ -31,14 +31,14 @@ const linkTarget = website || linkedin || "#";
   target="_blank"
   rel="noopener noreferrer"
   aria-label={"Visit " + name}
-  class="flex grow transform items-center justify-center rounded-xl bg-[var(--background-cards)] p-6 shadow-md transition duration-300 hover:shadow-lg hover:brightness-105"
+  class="flex shrink-0 grow transform items-center justify-center rounded-xl bg-[var(--background-cards)] p-6 shadow-md transition duration-300 hover:shadow-lg hover:brightness-105"
 >
   {
     imageSrc ? (
       <Image
         src={imageSrc}
         alt={`${name} logo`}
-        class="max-h-20! lg:h-16! lg:w-auto xl:h-24!"
+        class="max-h-20! lg:h-16! lg:w-auto xl:h-16!"
       />
     ) : (
       <div class="mb-4 flex items-center justify-center rounded-full bg-gray-200 text-sm text-gray-500">

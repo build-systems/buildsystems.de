@@ -3,11 +3,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
 import {
   getAllOrganizations,
+  getAllPartners,
   getAllPeople,
   getAllPosts,
 } from "../lib/notion/client";
-import PersonCard from "../components/PersonCard.astro";
 import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import PersonCard from "../components/PersonCard.astro";
+import PartnersCard from "../components/PartnersCard.astro";
 import OrganizationCard from "../components/OrganizationCard.astro";
 
 const title = "BuildSystems | Team";
@@ -18,24 +20,11 @@ const imageAlt = "BuildSystems team working";
 
 const people = await getAllPeople();
 
+const partners = await getAllPartners();
+
 const organizations = await getAllOrganizations();
 
-console.log(Math.floor(organizations.length / 2));
-const numberOrgRows = Math.floor(organizations.length / 2);
-
 const posts = await getAllPosts();
-
-// gap footer
-
-// titles:
-// Team
-// Partners
-// Organizations
-
-// Parterns database
-// Section
-
-// Organizations logos always flex (no grid-col-5)
 ---
 
 <BaseLayout
@@ -57,23 +46,53 @@ const posts = await getAllPosts();
     <h2>führt Kompetenzen, Prozesse und Tools zusammen.</h2>
   </StickyLogoMessage>
 
-  <div class="frame mb-24 grid gap-2 xl:grid-cols-2">
-    {
-      people.map((person) => {
-        return <PersonCard item={person} />;
-      })
-    }
-  </div>
-
-  <div
-    class="frame xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] flex flex-col gap-2 object-cover sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] lg:flex-row lg:flex-wrap xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))] 2xl:grid 2xl:grid-cols-5"
-  >
-    {
-      organizations.map((organization) => {
-        return <OrganizationCard item={organization} />;
-      })
-    }
-  </div>
+  {
+    people.length > 0 && people && (
+      <div class="frame">
+        <h2>Team</h2>
+        <div class="mb-24 grid gap-2 xl:grid-cols-2">
+          {
+            people.map((person) => {
+              return <PersonCard item={person} />;
+            })
+          }
+        </div>
+      </div>
+    )
+  }
+  {
+    partners.length > 0 && partners && (
+    <StickyLogoMessage>
+      <h2>denkt Projekte von Anfang an interdisziplinär. Deshalb arbeiten wir mit starken Partnern aus den Bereichen Kommunikation, Fachplanung und Software.</h2>
+    </StickyLogoMessage>
+      <div class="frame">
+        <h2>Partner</h2>
+        <div class="mb-24 grid gap-2 xl:grid-cols-2">
+          {
+            partners.map((person) => {
+              return <PartnersCard item={person} />;
+            })
+          }
+        </div>
+      </div>
+    )
+  }
+  {
+    organizations.length > 0 && organizations && (
+      <div
+      class="frame xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))]"
+      >
+        <h2>Organisationen</h2>
+        <div class="flex flex-col gap-2 object-cover lg:flex-row lg:flex-wrap">
+        {
+          organizations.map((organization) => {
+            return <OrganizationCard item={organization} />;
+          })
+        }
+        </div>
+      </div>
+    )
+  }
   <BlogCarousel posts={posts} />
 </BaseLayout>
 

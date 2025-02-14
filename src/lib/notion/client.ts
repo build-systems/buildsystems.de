@@ -11,6 +11,7 @@ import {
   REQUEST_TIMEOUT_MS,
   PEOPLE_DB_ID,
   ORGANIZATIONS_DB_ID,
+  PARTNERS_DB_ID,
 } from "../../server-constants";
 import type * as responses from "./responses";
 import type * as requestParams from "./request-params";
@@ -55,6 +56,7 @@ import type {
   Reference,
   PersonCard,
   OrganizationCard,
+  PartnerCard,
 } from "../notion-interfaces";
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 import { Client, APIResponseError } from "@notionhq/client";
@@ -193,6 +195,62 @@ export async function getAllPeople(): Promise<PersonCard[]> {
     .filter((pageObject) => _validPersonObject(pageObject))
     .map((pageObject) => _buildPerson(pageObject));
   return peopleCache;
+}
+
+let partnersCache: PartnerCard[] | null = null;
+
+export async function getAllPartners(): Promise<PartnerCard[]> {
+  if (partnersCache !== null) {
+    return Promise.resolve(partnersCache);
+  }
+
+  // console.log("\n===== Getting all people =====");
+  const params: requestParams.QueryDatabase = {
+    database_id: PARTNERS_DB_ID,
+    page_size: 100,
+    sorts: [
+      {
+        property: "Order",
+        direction: "ascending",
+      },
+    ],
+  };
+
+  let results: responses.PageObject[] = [];
+  while (true) {
+    const res = await retry(
+      async (bail) => {
+        try {
+          return (await client.databases.query(
+            params as any, // eslint-disable-line @typescript-eslint/no-explicit-any
+          )) as responses.QueryDatabaseResponse;
+        } catch (error: unknown) {
+          if (error instanceof APIResponseError) {
+            if (error.status && error.status >= 400 && error.status < 500) {
+              bail(error);
+            }
+          }
+          throw error;
+        }
+      },
+      {
+        retries: numberOfRetry,
+      },
+    );
+    results = results.concat(res.results);
+    // console.dir(results);
+
+    if (!res.has_more) {
+      break;
+    }
+
+    params["start_cursor"] = res.next_cursor as string;
+  }
+
+  partnersCache = results
+    .filter((pageObject) => _validPartnerObject(pageObject))
+    .map((pageObject) => _buildPartner(pageObject));
+  return partnersCache;
 }
 
 let organizationsCache: OrganizationCard[] | null = null;
@@ -1163,6 +1221,11 @@ function _validPersonObject(pageObject: responses.PageObject): boolean {
   );
 }
 
+function _validPartnerObject(pageObject: responses.PageObject): boolean {
+  const prop = pageObject.properties;
+  return !!prop.Name.title && prop.Name.title.length > 0;
+}
+
 function _validOrganizationObject(pageObject: responses.PageObject): boolean {
   const prop = pageObject.properties;
   return !!prop.Name.title && prop.Name.title.length > 0;
@@ -1307,6 +1370,87 @@ function _buildPerson(pageObject: responses.PageObject): PersonCard {
   return person;
 }
 
+function _buildPartner(pageObject: responses.PageObject): PartnerCard {
+  const prop = pageObject.properties;
+
+  let icon: FileObject | Emoji | null = null;
+  if (pageObject.icon) {
+    if (pageObject.icon.type === "emoji" && "emoji" in pageObject.icon) {
+      icon = {
+        Type: pageObject.icon.type,
+        Emoji: pageObject.icon.emoji,
+      };
+    } else if (
+      pageObject.icon.type === "external" &&
+      "external" in pageObject.icon
+    ) {
+      icon = {
+        Type: pageObject.icon.type,
+        Url: pageObject.icon.external?.url || "",
+      };
+    }
+  }
+
+  let cover: FileObject | null = null;
+  if (pageObject.cover) {
+    cover = {
+      Type: pageObject.cover.type,
+      Url: pageObject.cover.external?.url || pageObject.cover.file?.url || "",
+    };
+  }
+
+  let photo: FileObject | null = null;
+  try {
+    if (prop.Photo.files && prop.Photo.files.length > 0) {
+      if (prop.Photo.files[0].external) {
+        photo = {
+          Type: prop.Photo.type,
+          Url: prop.Photo.files[0].external.url,
+        };
+      } else if (prop.Photo.files[0].file) {
+        photo = {
+          Type: prop.Photo.files[0].type,
+          Url: prop.Photo.files[0].file.url,
+          ExpiryTime: prop.Photo.files[0].file.expiry_time,
+        };
+      }
+    }
+  } catch (error) {
+    console.log("\nError while getting a person's photo\n" + error);
+  }
+
+  // console.log(prop.LinkedIn.url);
+  const partner: OrganizationCard = {
+    PageId: pageObject.id,
+    Icon: icon,
+    Name: prop.Name.title // Name of person, Title of page
+      ? prop.Name.title.map((richText) => richText.plain_text).join("")
+      : "",
+    Description:
+      prop.Description.rich_text && prop.Description.rich_text.length > 0
+        ? prop.Description.rich_text
+            .map((richText) => richText.plain_text)
+            .join("")
+        : "",
+    LinkedIn:
+      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+        ? new URL(prop.LinkedIn.url)
+        : null,
+    Website:
+      prop.Website.url && prop.Website.url.length > 0
+        ? new URL(prop.Website.url)
+        : null,
+    Photo: photo,
+    Team: prop.Team.checkbox ? prop.Team.checkbox : false,
+    Cover: cover,
+    CoverAlt: prop.CoverAlt.rich_text
+      ? prop.CoverAlt.rich_text.map((richText) => richText.plain_text).join("")
+      : "",
+  };
+
+  return partner;
+}
+
 function _buildOrganization(
   pageObject: responses.PageObject,
 ): OrganizationCard {
@@ -1359,7 +1503,7 @@ function _buildOrganization(
   }
 
   // console.log(prop.LinkedIn.url);
-  const person: OrganizationCard = {
+  const organization: OrganizationCard = {
     PageId: pageObject.id,
     Icon: icon,
     Name: prop.Name.title // Name of person, Title of page
@@ -1387,7 +1531,7 @@ function _buildOrganization(
       : "",
   };
 
-  return person;
+  return organization;
 }
 
 function _buildRichText(richTextObject: responses.RichTextObject): RichText {

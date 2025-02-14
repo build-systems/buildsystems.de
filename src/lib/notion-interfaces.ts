@@ -33,6 +33,19 @@ export interface PersonCard {
   Team: boolean;
 }
 
+export interface PartnerCard {
+  PageId: string;
+  Icon: FileObject | Emoji | null;
+  Name: string;
+  Description: string;
+  LinkedIn: URL | null;
+  Website: URL | null;
+  Cover: FileObject | null;
+  CoverAlt: string;
+  Photo: FileObject | null;
+  Team: boolean;
+}
+
 export interface OrganizationCard {
   PageId: string;
   Icon: FileObject | Emoji | null;
