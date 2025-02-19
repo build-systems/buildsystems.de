@@ -216,6 +216,7 @@ ul li::before {
 .list-arrow li {
   width: fit-content;
   background-color: var(--background-cards);
+  margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
   border-radius: var(--card-border-radius);
