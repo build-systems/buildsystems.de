@@ -1,23 +1,23 @@
 ---
 import { Image } from "astro:assets";
 import heroRendering from "../assets/multistory-timber-building.jpg";
-import Button from "./Anchor.astro";
+import Anchor from "./Anchor.astro";
 ---
 
 <div class="action">
   <h3>Sie haben weitere Fragen?</h3>
-  <Button
+  <Anchor
     text="Schreiben Sie uns eine Mail!"
     link="mailto:mail@buildsystems.de"
   />
-  <Button
+  <Anchor
     text=" Download Leistungen"
     link="/downloads/BuildSystems_Leistungen.pdf"
     openOnNewTab={true}
     icon="download"
     ariaLabel="Download Leistungen PDF file."
   />
-  <Button
+  <Anchor
     text=" Sneak Peek Roadmap"
     link="/downloads/BuildSystems_SneakPeekSSR.pdf"
     openOnNewTab={true}

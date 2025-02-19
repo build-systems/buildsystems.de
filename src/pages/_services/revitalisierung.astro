@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import Button from "../../components/Anchor.astro";
+import Anchor from "../../components/Anchor.astro";
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
@@ -126,7 +126,7 @@ const posts = await getAllPosts();
           vergünstigte Zinsen vergleichen? Werfen Sie einen Blick in unseren
           Fördermittel-Kalkulator!
         </p>
-        <Button
+        <Anchor
           text="Fördertool"
           link="/foerdertool"
           openOnNewTab={true}

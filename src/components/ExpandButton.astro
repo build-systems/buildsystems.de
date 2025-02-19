@@ -1,5 +1,5 @@
 ---
-import Button from "./Anchor.astro";
+import Anchor from "./Anchor.astro";
 
 export interface Props {
   buttonText: string;
@@ -20,7 +20,7 @@ const { buttonText, buttonLink, id, ariaLabel } = Astro.props;
       </svg>
     </button>
     <span
-      ><Button
+      ><Anchor
         text={buttonText}
         link={buttonLink}
         icon="redirect"
