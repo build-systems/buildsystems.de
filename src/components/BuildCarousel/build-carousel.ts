@@ -88,7 +88,7 @@ function buildCarousel() {
 
       // Start observing the carousel
       const carouselElement = document.querySelector(
-        ".carousel-container"
+        ".carousel-container",
       ) as HTMLElement;
       observer.observe(carouselElement);
     }
@@ -99,5 +99,7 @@ function buildCarousel() {
     });
   }
 }
+
+buildCarousel();
 
 document.addEventListener("astro:page-load", buildCarousel);
