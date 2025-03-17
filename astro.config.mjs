@@ -4,6 +4,7 @@ import IndexPostImageDownloader from "./src/integrations/index-posts-cover-image
 import PostsFilesDownloader from "./src/integrations/posts-files-downloader";
 import PeoplePhotoDownloader from "./src/integrations/people-photo-download";
 import OrganizationsPhotoDownloader from "./src/integrations/organizations-photo-download.ts";
+import PartnersPhotoDownloader from "./src/integrations/partners-photo-download.ts";
 import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -55,6 +56,7 @@ export default defineConfig({
     // CustomIconDownloader(),
     PeoplePhotoDownloader(),
     OrganizationsPhotoDownloader(),
+    PartnersPhotoDownloader(),
   ],
   prefetch: true,
   vite: {
