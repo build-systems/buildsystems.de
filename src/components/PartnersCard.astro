@@ -33,16 +33,15 @@ const website = partner.Website;
 ---
 
 <div
-  class="flex flex-col items-center rounded-lg bg-[var(--background-cards)] p-6 sm:flex-row sm:items-start lg:rounded-xl lg:px-8 lg:py-4"
+  class="flex flex-col items-center justify-center rounded-lg bg-[var(--background-cards)] p-6 sm:flex-row sm:items-start lg:rounded-xl lg:px-8 lg:py-4"
 >
-  <Image
-    class="flex items-center justify-center max-w-fit"
-    src={images[imagePath]()}
-    alt={name + "'s profile photo"}
-    widths={[200, 500]}
-    sizes={`(max-width: 200px) 200px, (max-width: 500px) 500px`}
-    style=`width: ${sizeImage}px; height: ${sizeImage}px;`
-  />
+  <div class="flex h-full items-center justify-center">
+    <Image
+      src={images[imagePath]()}
+      alt={name + "'s profile photo"}
+      class="w-60! max-w-60! sm:w-30! xl:w-30! 2xl:w-40!"
+    />
+  </div>
   <div class="text">
     <h3>{name}</h3>
     {showDescription && <h5>{description}</h5>}
@@ -120,13 +119,8 @@ const website = partner.Website;
       border-radius: 0.8rem;
     }
 
-    .image {
-      width: 8rem;
-      height: 8rem;
-    }
-
     .text {
-      margin-left: 0.8rem;
+      margin-left: 2rem;
     }
 
     h3 {
@@ -143,6 +137,11 @@ const website = partner.Website;
   }
 
   @media (max-width: 640px) {
+    .text {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+
     h5 {
       hyphens: auto;
     }
