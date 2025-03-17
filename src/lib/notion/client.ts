@@ -62,6 +62,16 @@ import type {
 import { Client, APIResponseError } from "@notionhq/client";
 import { addSlugToName, returnImageNameAsJpg } from "../blog-helpers";
 
+function isValidUrl(urlString: string): boolean {
+  try {
+    new URL(urlString);
+    return true;
+  } catch (error) {
+    console.log(`Invalid URL found: ${urlString}`);
+    return false;
+  }
+}
+
 const client = new Client({
   auth: NOTION_API_SECRET,
 });
@@ -1370,7 +1380,9 @@ function _buildPerson(pageObject: responses.PageObject): PersonCard {
             .join("")
         : "",
     LinkedIn:
-      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+      prop.LinkedIn.url &&
+      prop.LinkedIn.url.length > 0 &&
+      isValidUrl(prop.LinkedIn.url)
         ? new URL(prop.LinkedIn.url)
         : null,
     Email:
@@ -1449,7 +1461,9 @@ function _buildPartner(pageObject: responses.PageObject): PartnerCard {
             .join("")
         : "",
     LinkedIn:
-      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+      prop.LinkedIn.url &&
+      prop.LinkedIn.url.length > 0 &&
+      isValidUrl(prop.LinkedIn.url)
         ? new URL(prop.LinkedIn.url)
         : null,
     Website:
@@ -1532,7 +1546,9 @@ function _buildOrganization(
             .join("")
         : "",
     LinkedIn:
-      prop.LinkedIn.url && prop.LinkedIn.url.length > 0
+      prop.LinkedIn.url &&
+      prop.LinkedIn.url.length > 0 &&
+      isValidUrl(prop.LinkedIn.url)
         ? new URL(prop.LinkedIn.url)
         : null,
     Website:
