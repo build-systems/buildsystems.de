@@ -1,0 +1,536 @@
+{
+  "PageId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+  "Title": "Workshop mit Bauhütte 4.0 und Tegel Projekt GmbH",
+  "Authors": [
+    {
+      "id": "94c8e3de-62f8-41ab-83d1-dc738d41a45e",
+      "name": "Daniel Dieren",
+      "color": "green"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Events",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/eb7aeef2-ab07-4888-85a9-17d96da0cee1/workshop-bauhuette40-tegel-projekt_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=72b1fc5cbcfd639337db6acbf8239b716ca44a53a8ac57c97fd238d996a5bdda&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Workshop participants brainstorming ideas",
+  "Slug": "workshop-bauhuette40-tegel-projekt",
+  "PublishDate": "2024-02-22",
+  "Tags": [
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    },
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    }
+  ],
+  "Description": "Daniel Dieren leitete den Workshop der Bauhütte 4.0 zur Bewertung der Nachhaltigkeit von Bauprojekten.",
+  "coverAsset": "workshop-bauhuette40-tegel-projekt_cover.jpg",
+  "blockAssets": [
+    "daniel-dieren_bewertung-der-nachhaltigkeit-von-konstruktionen-im-holzbau.jpg",
+    "prof-raoul-bunschoten-und-daniel-dieren-bei-dem-workshop.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "2087e842-f5f6-49de-a52f-1108f213cedc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Klimaschutz und Nachhaltigkeit können nur in  Verbindung mit der Bezahlbarkeit von Bauen und Wohnen sozialverträglich und wirksam zukunftsfähig verfolgt werden. Um den Einsatz nachhaltiger Bauweisen  zu fördern, gewinnen Methoden zur Bewertung der Gebäudekonstruktion zunehmend an Bedeutung.",
+            "Href": null,
+            "Text": {
+              "Content": "Klimaschutz und Nachhaltigkeit können nur in  Verbindung mit der Bezahlbarkeit von Bauen und Wohnen sozialverträglich und wirksam zukunftsfähig verfolgt werden. Um den Einsatz nachhaltiger Bauweisen  zu fördern, gewinnen Methoden zur Bewertung der Gebäudekonstruktion zunehmend an Bedeutung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0be30656-434d-4bf0-a02a-0fbf760ddc91",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Daniel Dieren von BuildSystems leitete die Werkstatt der ",
+            "Href": null,
+            "Text": {
+              "Content": "Daniel Dieren von BuildSystems leitete die Werkstatt der "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bauhütte 4.0",
+            "Href": "https://www.bauhuette40.com/?lang=de",
+            "Text": {
+              "Content": "Bauhütte 4.0",
+              "Link": {
+                "Url": "https://www.bauhuette40.com/?lang=de"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", Tunca Beril Basaran unterstütze bei der Vorbereitung und Durchführung. Begleitet wurde der Workshop durch Prof. Raoul Bunschoten und Simon Kimmel von der Bauhütte 4.0. In der Diskussion mit Expert:innen wurden alternative Bewertungsmechanismen untersucht, die die Verwendung von nachwachsenden Rohstoffen priorisieren.  Die wachsenden Anforderungen der EU-Taxonomie, der EU-Gebäuderichtlinie und der Nachhaltigkeitsberichterstattung (",
+            "Href": null,
+            "Text": {
+              "Content": ", Tunca Beril Basaran unterstütze bei der Vorbereitung und Durchführung. Begleitet wurde der Workshop durch Prof. Raoul Bunschoten und Simon Kimmel von der Bauhütte 4.0. In der Diskussion mit Expert:innen wurden alternative Bewertungsmechanismen untersucht, die die Verwendung von nachwachsenden Rohstoffen priorisieren.  Die wachsenden Anforderungen der EU-Taxonomie, der EU-Gebäuderichtlinie und der Nachhaltigkeitsberichterstattung ("
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "LEVELS",
+            "Href": "https://environment.ec.europa.eu/topics/circular-economy/levels_en",
+            "Text": {
+              "Content": "LEVELS",
+              "Link": {
+                "Url": "https://environment.ec.europa.eu/topics/circular-economy/levels_en"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "), sowie auf nationaler Ebene durch die Weiterentwicklung der GEG und BEG, führen zwangsläufig zu einer frühzeitigen Bewertung oder Bilanzierung geplanter Immobilien. Neue Bewertungsansätze zur Nachhaltigkeit von Baukonstruktionen müssen sowohl den ökologischen Anforderungen zur Dekarbonisierung des Gebäudesektors gerecht werden, als auch die wirtschaftliche Umsetzbarkeit sicherstellen.  Im Rahmen des Workshops wurden mögliche Ansätze für die nächste Iteration von Bewertungssysteme identifiziert. ",
+            "Href": null,
+            "Text": {
+              "Content": "), sowie auf nationaler Ebene durch die Weiterentwicklung der GEG und BEG, führen zwangsläufig zu einer frühzeitigen Bewertung oder Bilanzierung geplanter Immobilien. Neue Bewertungsansätze zur Nachhaltigkeit von Baukonstruktionen müssen sowohl den ökologischen Anforderungen zur Dekarbonisierung des Gebäudesektors gerecht werden, als auch die wirtschaftliche Umsetzbarkeit sicherstellen.  Im Rahmen des Workshops wurden mögliche Ansätze für die nächste Iteration von Bewertungssysteme identifiziert. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4d422f01-6e7d-4121-8d09-04f27dc49e21",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Daniel Dieren: Bewertung der Nachhaltigkeit von Konstruktionen im Holzbau\nDaniel Dieren: Bewertung der Nachhaltigkeit von Konstruktionen im Holzbau",
+            "Href": null,
+            "Text": {
+              "Content": "Daniel Dieren: Bewertung der Nachhaltigkeit von Konstruktionen im Holzbau\nDaniel Dieren: Bewertung der Nachhaltigkeit von Konstruktionen im Holzbau"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a1a60328-985e-448a-9e84-ca8ae27a11dc/daniel-dieren_bewertung-der-nachhaltigkeit-von-konstruktionen-im-holzbau.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WQQVYQVY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDkClGD0TAjm4DvtSzS%2FTYOV34%2B5hS%2BTXG%2F%2FtknB%2Btb2QIgYXEEU0H1ZT67g4jYBjJuV619E4gZ3M7D6x3SUXoOOLIqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGKktxkFn%2F4QGElGlCrcA04ADJwGzXdCTXZLbIpAIgwfzmy3WtJfZigegkvpWYC1C3%2BQLvK95KkGlCjwdQNHwtzHlRt3OCmG4eMW76cGZbiGvFFEF%2BzCeu5a%2BmCcZTNwPvKdYS69cV5dkIq77SSCP6iZj08To6flR3kLyoi3NdBnFbFeNoGYChJ3%2BQ%2FZxloWAkRQkeodoGeNMU%2F3%2BTOQRGI6kq8KKTjTScfxC0re9W34oNs7QkfZfQHMYYVAc7oIK08DWKNwPIB8AvAHGp6VTALAo7PTREU%2BQFodKaaLgRqkAgJCwZn960vvZZc0upxKp%2B%2F%2BdI5l0HT2M9bfU51znNqC3O2CaIc1ds%2BTRF%2FsBhw5rmMb8OY5iDcxTyTmADCIv9AxnKJxeHxTnYtYRcFRw431c0e6eKGa%2BYwHqTX3pZbAA6pQLXVUainDXQ4VauidWHgK2fRTzZxUliE%2BTq2XY2deYEmgD515KwJvpA6qiSaTHt1N5otLHLV8L9Z5fZkI5jTCvc%2BrW1A%2Ft9XkPowfOSok0%2BcJrrB6kZVKfDg2aogFuAIO8dFXmPies4KC%2FhCmm7G17G1avqhm271vpE%2Bw1S4HDbeb6GwdkCXLta8pt2m6EAyfaUeG43WCcu%2Bj5HTmnD5gHLsNV1fQ6fMbMN%2BHwMMGOqUB9wgDksExBLJnuJgtVGM0BVGLghO2ZVFcFct9hWdCycmMMs5ZyfvvLzt63T%2BY63lWO3nTIkIEdAeEpSx7TJa7gpsGgUlEhNCpaGQUhHOtcJnGIFv2K6xD2VVSrXDxGNqWJJMNaGQhMepaBQB1vwDJTeRdix21D6peZXQCUCHjZrGgtunm4bIgTR3VScEB6TVWwoelfJKK2KPH48kZIP1rqKGc1K2j&X-Amz-Signature=b19e0f85309038e165b2abd2f26b8969484af66c18f143167e77882a8e0b95c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.362Z"
+        }
+      }
+    },
+    {
+      "Id": "2d5b5e35-8591-4e0a-92c9-61be9110b8b4",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Hier sind einige wichtige Erkenntnisse aus unserem Workshop",
+            "Href": null,
+            "Text": {
+              "Content": "Hier sind einige wichtige Erkenntnisse aus unserem Workshop"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "dd8839c8-4527-447c-9923-0f2b1147ec4f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kontrastierende Ansätze: Der Ansatz eines Bewertungssystems zur Förderung des Holzbaus durch den Nachweis der verbauten Holzmasse wird in Frage gestellt. Dadurch werden massive Bauteile aufgrund ihrer höheren Masse an Holzwerkstoffen gegenüber Tafelbauten bevorzugt, was häufig mit erhöhten Kosten einher geht. Das übergeordnete Ziel bleibt die Dekarbonisierung des Gebäudesektors, unabhängig von der gewählten Bauweise. Daher sollte sich der Fokus von der Bewertung des Kohlenstoffspeichers und des NawaRo-Anteils auf eine konstruktionsunabhängige Bewertung anhand des Treibhauspotenzials verschieben.",
+            "Href": null,
+            "Text": {
+              "Content": "Kontrastierende Ansätze: Der Ansatz eines Bewertungssystems zur Förderung des Holzbaus durch den Nachweis der verbauten Holzmasse wird in Frage gestellt. Dadurch werden massive Bauteile aufgrund ihrer höheren Masse an Holzwerkstoffen gegenüber Tafelbauten bevorzugt, was häufig mit erhöhten Kosten einher geht. Das übergeordnete Ziel bleibt die Dekarbonisierung des Gebäudesektors, unabhängig von der gewählten Bauweise. Daher sollte sich der Fokus von der Bewertung des Kohlenstoffspeichers und des NawaRo-Anteils auf eine konstruktionsunabhängige Bewertung anhand des Treibhauspotenzials verschieben."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9b34a493-f5e8-4353-a900-11b428c868ca",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mapping Parameter: Die Definition von Indikatoren ermöglicht es, die Nachhaltigkeit von Konstruktionen messbar zu machen. Benchmarks dienen dazu, sinnvolle Grenz- und Zielwerte festzulegen. Ökobilanzierungen werden in der Praxis häufig im direkten Bauteilvergleich angewandt. Die Verwendung von Bauteilkatalogen für Standardkonstruktionen kann für eine erste Bewertung im Rahmen einer Konzeptvergabe hilfreich sein. Idealerweise sollte die Klassifizierung von Bauteilen in Zukunft nicht anhand der Bauweise, sondern auf Basis von bauteilspezifischen Benchmarks erfolgen. Für die Akzeptanz von Bewertungssystemen bleibt die Balance zwischen Anwendbarkeit und Genauigkeit maßgebend.",
+            "Href": null,
+            "Text": {
+              "Content": "Mapping Parameter: Die Definition von Indikatoren ermöglicht es, die Nachhaltigkeit von Konstruktionen messbar zu machen. Benchmarks dienen dazu, sinnvolle Grenz- und Zielwerte festzulegen. Ökobilanzierungen werden in der Praxis häufig im direkten Bauteilvergleich angewandt. Die Verwendung von Bauteilkatalogen für Standardkonstruktionen kann für eine erste Bewertung im Rahmen einer Konzeptvergabe hilfreich sein. Idealerweise sollte die Klassifizierung von Bauteilen in Zukunft nicht anhand der Bauweise, sondern auf Basis von bauteilspezifischen Benchmarks erfolgen. Für die Akzeptanz von Bewertungssystemen bleibt die Balance zwischen Anwendbarkeit und Genauigkeit maßgebend."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0ba2cee2-0164-4338-95f7-9a60e4735fc4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zirkularität: Indikatoren für zirkuläres Bauen gewinnen an Bedeutung, hingegen verlieren solche für nachwachsende Rohstoffe an Relevanz. Das Treibhauspotenzial bleibt eine universelle Kenngröße. Während jedoch der Mangel an Daten und rechtliche Unsicherheiten von zirkulären Bauprodukten Herausforderungen darstellen, können Referenz-Bauteilkataloge und Datenbanken wie Madaster ebenso wie die frühzeitige Einbeziehung von Fachplanern helfen. Entsprechende Anreize in Bewertungssystemen, zum Beispiel durch das Abfragen von Rückbaukonzepten, sollten frühzeitig berücksichtigt werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Zirkularität: Indikatoren für zirkuläres Bauen gewinnen an Bedeutung, hingegen verlieren solche für nachwachsende Rohstoffe an Relevanz. Das Treibhauspotenzial bleibt eine universelle Kenngröße. Während jedoch der Mangel an Daten und rechtliche Unsicherheiten von zirkulären Bauprodukten Herausforderungen darstellen, können Referenz-Bauteilkataloge und Datenbanken wie Madaster ebenso wie die frühzeitige Einbeziehung von Fachplanern helfen. Entsprechende Anreize in Bewertungssystemen, zum Beispiel durch das Abfragen von Rückbaukonzepten, sollten frühzeitig berücksichtigt werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1257699c-3d59-429a-8431-e147d1340c75",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Austausch mit den Teilnehmenden von CHORA conscious city, Brandschutz Akademie Berlin, Technische Universität Berlin, Scharabi Architekten, drmm studio, Knippers Helbig Ingenieure, Tegel Projekt GmbH, Timbatec Holzbauingenieure, Fraunhofer- Institut PK, Niil Architekten, PSD Bank, Berliner Sparkassen, Sauerbruch Hutton, Playze Timber GmbH und Deimel Oelschläger Architekten ergab sich eine rege Diskussion und wichtige Insights. ",
+            "Href": null,
+            "Text": {
+              "Content": "Im Austausch mit den Teilnehmenden von CHORA conscious city, Brandschutz Akademie Berlin, Technische Universität Berlin, Scharabi Architekten, drmm studio, Knippers Helbig Ingenieure, Tegel Projekt GmbH, Timbatec Holzbauingenieure, Fraunhofer- Institut PK, Niil Architekten, PSD Bank, Berliner Sparkassen, Sauerbruch Hutton, Playze Timber GmbH und Deimel Oelschläger Architekten ergab sich eine rege Diskussion und wichtige Insights. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5c7c0a73-d152-4227-acfa-49e08c042363",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Ergebnisse werden nun bei der Prozessgestaltung zur Vergabe des ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Ergebnisse werden nun bei der Prozessgestaltung zur Vergabe des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Schumacher Quartiers",
+            "Href": "https://schumacher-quartier.de/",
+            "Text": {
+              "Content": "Schumacher Quartiers",
+              "Link": {
+                "Url": "https://schumacher-quartier.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " der ",
+            "Href": null,
+            "Text": {
+              "Content": " der "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Tegel Projekt GmbH",
+            "Href": "https://tegelprojekt.de/",
+            "Text": {
+              "Content": "Tegel Projekt GmbH",
+              "Link": {
+                "Url": "https://tegelprojekt.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " verwendet. ",
+            "Href": null,
+            "Text": {
+              "Content": " verwendet. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "21125287-ac18-4856-ab04-6f03dbd318e4",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "01639fc3-30b2-4cb7-844d-c608f5c8b857",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "253b7ae1-b616-48ac-89ff-a01bf52fbad7",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Prof. Raoul Bunschoten und Daniel Dieren bei dem Workshop\nProf. Raoul Bunschoten und Daniel Dieren bei dem Workshop",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Prof. Raoul Bunschoten und Daniel Dieren bei dem Workshop\nProf. Raoul Bunschoten und Daniel Dieren bei dem Workshop"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1f438af5-ecaa-4bce-ad16-1f322caac252/prof-raoul-bunschoten-und-daniel-dieren-bei-dem-workshop.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y2Z4Q3RZ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCJkS7TgwfZ6X2FX6iNc6IkXsFooMDwlBMDng96NI11YwIgd1lXr4YNa7eW211u9IxTZCAAJpsjtL9rWUFz1PPzEPgqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHN8B%2FsIzvNCi0Hj3ircAxkZ4yGLU4IpSesIQTSWAYwS6PAVmTZPIHPYYxwcbLs%2FVyCzU%2BHWcPb%2BpfjudE4HvupSmEQGNeEk9n69eoOTgzb5gKU3AETIezTmVBtyuJnnQwRbZDdFM15vYKuSn9A2zxcIUG58eSU%2Fu%2FBulRS6cMEUnEKMjLTsaedpMUROVc7uDnSEcWlAWyqRWijWySdI9pJrzT%2BHhUlEnK%2BXO63IVXy8H7gBQhqZrH6HGLcKIfbgKBK5GMuHluyUxGCjhIK%2FM6skpK16tvR%2FKCL9BB9NSL%2Fu%2BqHKcLQ%2BvN7ez9BqtTr%2Bij4k1XU%2FeN8cbv5Y8G830mDvPSfDPxZL1wfla%2FQhrxAMD7zXoGZV%2FVeLTJ73RW8aP1UW0S5GJgs42b%2FLUnCDyI4qbG1tP8q%2BDdlZdnaQ4rzcgqfzPWmGGa7EHN4qBVzbeq32vMazoxnMOFsNhmkCccphNd2FghP4GMMPI6flRbkhitloqvzyMv0FbUkf7yIHIPNTPCnZP2ftrr0mZo1yuC5p1M5mrBBWR1bCA%2BGceLmrvsUzIaPG5WHWJuJbmzsE%2Bd7bIT1wBd4EJayXP6aukIZlPmhc0iBH2oVGwA93yVhy%2FGrDG8ueD0l5foIpMEMFyaAuA%2BQiH5wm7tblMJOIwMMGOqUBfkefC7g4pqFLt%2FV%2BpkPw48V4GcaThAlpr8%2BWJXpENei9ZqNa65W1Pez%2Fu%2FLNgsrzC8Kv9VuAqx6fH0tU4SfqDUpEhPJqbHh%2FYcov%2BDJOtjNz31FCm6zQF%2FOtptMA13TT5SsKQwOdrNjIpKxFnl1Z4k3zn7cCV3PipzgWo9gRL4DvvALag%2FvED4LBmMWVDUMXgNjOc7oxDwZvQxd2NLKc1C1xqrOY&X-Amz-Signature=a3ea9654495c2b10fbd0fc3fa9af88d70120fe16a89a9f2f8ea298133e08b990&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:04.108Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "e3335adb-993a-42e2-aa6e-79a50651f77a",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "877f9006-a150-48cb-b848-1907940c9ab0",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "41864a51-c05f-419c-b60a-cc7b99934a3f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "83c7e27c-4e41-46e3-a3b7-2d92319349b2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21401790-9b01-47b3-a955-b7e19ed0ebb2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: Raquel Gómez Delgado",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: Raquel Gómez Delgado"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

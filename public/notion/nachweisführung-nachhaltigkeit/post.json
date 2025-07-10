@@ -1,0 +1,603 @@
+{
+  "PageId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+  "Title": "Nachweisfürhrung zur Nachhaltigkeit: Prozessoptimierung, Ökobilanzierung, Zertifizierung",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    }
+  ],
+  "Category": "Facts & Figures",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e740f442-3bb4-4634-b5df-b7ac518729fd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=17702e566156ac435aac22570cdaff9fb70883362b8f32f5459cc444e65f9606&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "dashboard-lca",
+  "Slug": "nachweisführung-nachhaltigkeit",
+  "PublishDate": "2024-10-10",
+  "Tags": [
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    }
+  ],
+  "Description": "BuildSystems unterstützt Bau- und Immobilienunternehmen dabei, ihre Prozesse gezielt anzupassen, um Anforderungen von Zertifizierungen effizient zu erreichen.",
+  "coverAsset": "nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.jpg",
+  "blockAssets": [
+    "nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.jpg",
+    "nachhaltigkeitsprozesse-optimieren_diagramm.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "b298a158-b495-482d-a86c-64322f0e888f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel für den Neubau und die Sanierung von Gebäuden.",
+            "Href": null,
+            "Text": {
+              "Content": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel für den Neubau und die Sanierung von Gebäuden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-80be-953c-ce3148d53a60",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zertifizierungen als Hürde und Chance",
+            "Href": null,
+            "Text": {
+              "Content": "Zertifizierungen als Hürde und Chance"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-8099-91c5-dfc9ba7e7a4b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um Fördermittel der KfW zu erhalten, müssen Gebäude die Kriterien des Qualitätssiegels Nachhaltiges Gebäude (QNG) und der Zertifizierungsstellen DGNB, BiRN, NaWoh oder BNB erfüllen. Diese bilden die allgemeinen und besonderen Anforderungen für ökologische, soziokulturelle und ökonomische Qualitäten ab, wie von den Zertifizierungsstellen und vom Bund definiert. ",
+            "Href": null,
+            "Text": {
+              "Content": "Um Fördermittel der KfW zu erhalten, müssen Gebäude die Kriterien des Qualitätssiegels Nachhaltiges Gebäude (QNG) und der Zertifizierungsstellen DGNB, BiRN, NaWoh oder BNB erfüllen. Diese bilden die allgemeinen und besonderen Anforderungen für ökologische, soziokulturelle und ökonomische Qualitäten ab, wie von den Zertifizierungsstellen und vom Bund definiert. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8f6f6c61-aecf-4527-9a8a-5ab2da725db2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Zertifizierungsprozess stellt aufgrund der hohen Menge an Kriterien, Informationen, Daten und Nachweisen für viele Bau- und Immobilienunternehmen eine Hürde dar. Unsere Erfahrung zeigt, dass bestehende Unternehmensstrukturen oft noch nicht ausreichend auf die komplexen Anforderungen der Zertifizierungen vorbereitet sind.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Zertifizierungsprozess stellt aufgrund der hohen Menge an Kriterien, Informationen, Daten und Nachweisen für viele Bau- und Immobilienunternehmen eine Hürde dar. Unsere Erfahrung zeigt, dass bestehende Unternehmensstrukturen oft noch nicht ausreichend auf die komplexen Anforderungen der Zertifizierungen vorbereitet sind."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-809c-a1a9-cd66ad1d735d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Doch genau hier liegt auch eine große Chance: Durch die Optimierung interner Nachhaltigkeitsprozesse können Zeit und Kosten gespart werden. Durch effizientere Abläufe wird die langwierige Beantragung damit für Kunden sowie ausführende Unternehmen attraktiver.",
+            "Href": null,
+            "Text": {
+              "Content": "Doch genau hier liegt auch eine große Chance: Durch die Optimierung interner Nachhaltigkeitsprozesse können Zeit und Kosten gespart werden. Durch effizientere Abläufe wird die langwierige Beantragung damit für Kunden sowie ausführende Unternehmen attraktiver."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "118cc54c-ec6d-80e7-8cee-e536ef8dd79a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c498389-333d-467a-ad0b-6b5f601dc2cd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZJB4GWQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCPpsBGGoHRHaT580Nyv375X6YQ65spfgxilS%2BQlPNB3AIhAKJK2siWM1XcypQz7C26APTzEa5py0N6QpxndC2APC0DKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6Jo4l6rDiCaupxvwq3AMRiw8js5f3ku9kklDXPmH1bHaoXe%2FTeyOoM85uHqDokS%2BMT7mJsybGd6npstPwsiDKBmvc63a8JTc9kLBDXAy7Cg54u%2FvSGRtQlsiDCiVXBhamfReW2wKU%2F%2FxaqKSS64cDraYBu8CY5bJYmiu35245yR40ihWekpWcPRNxyHimMx14DoKHGF3vErNPqHAulEq4gQoBMYSTq1h5gYzW9S2Y2BZYawFeVO%2Bil2zaKpDdBz6VhZXMI9fnrX2aGuVryxGxwuXawklQw7AdJMPoF00XbqH1XwZRzy05%2F0mp6BmLGABRnPESDiKMf%2FDgUeY8XXxJI%2F5utXw0v9JF31jhLKyZwoyo5HUIwcMUlzyuNCY7GYeUtLB9OOwvM%2Fd3HifUXU2assTHzMx942p%2FObwCa%2BrcUxIO3SPO3AnjVbwTzbTwUrG0zXzpevY9pT6vc%2B5WiCbLx6PhuVsaFlxp2DxCYBedZCOUHMWoukDxm4gh2f9kUaFeC8jUu5ZBTY1jDwl6AU3kvK2Cdj3NnZant45CGYWhAcdxfXsCVeQiPu6CDrQR3Irf%2FGGMi5k03AbEWu2%2FXiGoDvuG9XCXTmjDl5aRuTsC928oQgNdyySV0yeFwqKU4WBQyrX29L7fpl2A5jDDh8DDBjqkAYQ2W6mHuvoQ2NiaznJGFAAUErVDb0DOXHch3PHF65AK4X8fHhLn7SKBa89n%2FmuB5TwQIYn0%2BWQFAB9uKVns%2Fbb6%2FXZzt%2FeTTZpDMAocUcHnmBhSS2BUp%2FOTlkzDp1gWhf25fdUch3qSjpCRoMj9HRPm0rsvwoqSRd4IDgosx8ankanMDYXN96%2B5QSTxoKODydUcPTmstxtmL1ieFX3W1xivcT9A&X-Amz-Signature=fe72ebf034511c9c7a351e994702520081c8fc8bc93922ddeb611dfa33167728&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:04.145Z"
+        }
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-80d1-b25d-e28d2aed4b42",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Rolle von BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Rolle von BuildSystems"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-8033-b21e-c2c490154ded",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditoren im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. ",
+            "Href": null,
+            "Text": {
+              "Content": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditoren im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-8066-895d-c396dc701a52",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Herangehensweise beim Kunden",
+            "Href": null,
+            "Text": {
+              "Content": "Herangehensweise beim Kunden"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-80f4-87b3-f592e9c20bd1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unsere Herangehensweise ist strukturiert und ganzheitlich zu verstehen. Einen unserer Kunden, einen Holzfertighaushersteller hat dies bereits überzeugt. ",
+            "Href": null,
+            "Text": {
+              "Content": "Unsere Herangehensweise ist strukturiert und ganzheitlich zu verstehen. Einen unserer Kunden, einen Holzfertighaushersteller hat dies bereits überzeugt. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "11bcc54c-ec6d-80a2-a8ad-e727bba82db1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bedürfnisklärung",
+            "Href": null,
+            "Text": {
+              "Content": "Bedürfnisklärung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Gemeinsam definierten wir mit dem Unternehmen klare Ziele: Welche Kundengruppen können identifiziert werden? Welche Ansprüche stellen diese? Welche Förderungen sind entsprechend zu berücksichtigen und welche Anforderungen gibt es? ",
+            "Href": null,
+            "Text": {
+              "Content": ": Gemeinsam definierten wir mit dem Unternehmen klare Ziele: Welche Kundengruppen können identifiziert werden? Welche Ansprüche stellen diese? Welche Förderungen sind entsprechend zu berücksichtigen und welche Anforderungen gibt es? "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "11bcc54c-ec6d-8055-ba08-dcc14311f0c0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Identifizierung von Prozesslücken",
+            "Href": null,
+            "Text": {
+              "Content": "Identifizierung von Prozesslücken"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": In enger Zusammenarbeit mit dem Nachhaltigkeitsmanagement erfolgte ein Mapping des aktuellen Nachhaltigkeitsprozesses des Unternehmens. Mit Blick auf die verwendete Software und die Ausgestaltung von Schnittstellen wurden Effizienzverluste identifiziert. Digitale Workflows wurden dahingehend überprüft, ob Bauteilaufbauten, Volumen, Flächen und andere relevante Daten hürdenlos für die Ökobilanzierung und andere Berechnungen ausgegeben werden können.",
+            "Href": null,
+            "Text": {
+              "Content": ": In enger Zusammenarbeit mit dem Nachhaltigkeitsmanagement erfolgte ein Mapping des aktuellen Nachhaltigkeitsprozesses des Unternehmens. Mit Blick auf die verwendete Software und die Ausgestaltung von Schnittstellen wurden Effizienzverluste identifiziert. Digitale Workflows wurden dahingehend überprüft, ob Bauteilaufbauten, Volumen, Flächen und andere relevante Daten hürdenlos für die Ökobilanzierung und andere Berechnungen ausgegeben werden können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "11bcc54c-ec6d-80ad-a1e0-e89768120b38",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Optimierung",
+            "Href": null,
+            "Text": {
+              "Content": "Optimierung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Häufig liegen effektive Hebel in einer besseren Koordination, der genauen Zuweisungen von Aufgaben und einer optimierten Kommunikation zwischen unternehmensinternen und externen Stakeholdern. Durch die Umstrukturierung bestehender Arbeitsweisen, die Abstimmung der genutzten Software und deren Ausgabeformate und durch verständliche Step-by-Step Guidelines etablierte BuildSystems beim Kunden einen effizienten Workflow, der erheblich Zeit und Kosten einspart. Nun werden alle erforderlichen Dokumente schnell erstellt oder beschafft und Zertifizierungen reibungslos durchgeführt.",
+            "Href": null,
+            "Text": {
+              "Content": ": Häufig liegen effektive Hebel in einer besseren Koordination, der genauen Zuweisungen von Aufgaben und einer optimierten Kommunikation zwischen unternehmensinternen und externen Stakeholdern. Durch die Umstrukturierung bestehender Arbeitsweisen, die Abstimmung der genutzten Software und deren Ausgabeformate und durch verständliche Step-by-Step Guidelines etablierte BuildSystems beim Kunden einen effizienten Workflow, der erheblich Zeit und Kosten einspart. Nun werden alle erforderlichen Dokumente schnell erstellt oder beschafft und Zertifizierungen reibungslos durchgeführt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "11bcc54c-ec6d-8074-932a-faca0ba8aa78",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Je nachdem wie weit ein Unternehmen von seinem Status Quo abrücken möchte, sind digitale Innovationen, KI-Lösungen oder BIM eine Chance, den gesamten Prozess darüber hinaus noch digitaler und effektiver zu gestalten.",
+            "Href": null,
+            "Text": {
+              "Content": "Je nachdem wie weit ein Unternehmen von seinem Status Quo abrücken möchte, sind digitale Innovationen, KI-Lösungen oder BIM eine Chance, den gesamten Prozess darüber hinaus noch digitaler und effektiver zu gestalten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "118cc54c-ec6d-80a7-a7b9-d2ca640eac88",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "118cc54c-ec6d-8025-825f-d0e05c799b60",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "118cc54c-ec6d-8073-95f1-d281382596de",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06ec013e-7376-444c-bf97-2f39786308d6/nachhaltigkeitsprozesse-optimieren_diagramm.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZJB4GWQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCPpsBGGoHRHaT580Nyv375X6YQ65spfgxilS%2BQlPNB3AIhAKJK2siWM1XcypQz7C26APTzEa5py0N6QpxndC2APC0DKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx6Jo4l6rDiCaupxvwq3AMRiw8js5f3ku9kklDXPmH1bHaoXe%2FTeyOoM85uHqDokS%2BMT7mJsybGd6npstPwsiDKBmvc63a8JTc9kLBDXAy7Cg54u%2FvSGRtQlsiDCiVXBhamfReW2wKU%2F%2FxaqKSS64cDraYBu8CY5bJYmiu35245yR40ihWekpWcPRNxyHimMx14DoKHGF3vErNPqHAulEq4gQoBMYSTq1h5gYzW9S2Y2BZYawFeVO%2Bil2zaKpDdBz6VhZXMI9fnrX2aGuVryxGxwuXawklQw7AdJMPoF00XbqH1XwZRzy05%2F0mp6BmLGABRnPESDiKMf%2FDgUeY8XXxJI%2F5utXw0v9JF31jhLKyZwoyo5HUIwcMUlzyuNCY7GYeUtLB9OOwvM%2Fd3HifUXU2assTHzMx942p%2FObwCa%2BrcUxIO3SPO3AnjVbwTzbTwUrG0zXzpevY9pT6vc%2B5WiCbLx6PhuVsaFlxp2DxCYBedZCOUHMWoukDxm4gh2f9kUaFeC8jUu5ZBTY1jDwl6AU3kvK2Cdj3NnZant45CGYWhAcdxfXsCVeQiPu6CDrQR3Irf%2FGGMi5k03AbEWu2%2FXiGoDvuG9XCXTmjDl5aRuTsC928oQgNdyySV0yeFwqKU4WBQyrX29L7fpl2A5jDDh8DDBjqkAYQ2W6mHuvoQ2NiaznJGFAAUErVDb0DOXHch3PHF65AK4X8fHhLn7SKBa89n%2FmuB5TwQIYn0%2BWQFAB9uKVns%2Fbb6%2FXZzt%2FeTTZpDMAocUcHnmBhSS2BUp%2FOTlkzDp1gWhf25fdUch3qSjpCRoMj9HRPm0rsvwoqSRd4IDgosx8ankanMDYXN96%2B5QSTxoKODydUcPTmstxtmL1ieFX3W1xivcT9A&X-Amz-Signature=16a0e0b0d81731e154b2bf7498fdc2decf7c49d9a524e9f463d4280dcac2bb32&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:04.150Z"
+        }
+      }
+    },
+    {
+      "Id": "4b99a4f2-f8a1-46c4-a195-01801cf76b20",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Fazit",
+            "Href": null,
+            "Text": {
+              "Content": "Fazit"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "b8ff7de2-ea3f-471e-9b5e-8916ee8d0cbc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Indem zertifizierungsbezogene Berechnungen wie Ökobilanzierungen systematisch in die Unternehmensprozesse integriert werden, bleibt das Unternehmen nicht nur ein passiver Akteur, der kurzfristig auf gesetzliche Vorgaben reagiert. Stattdessen positioniert es sich als aktiver Marktteilnehmer, der langfristig auf zukünftige Anforderungen vorbereitet ist und sich nachhaltig im Wettbewerb behaupten kann.",
+            "Href": null,
+            "Text": {
+              "Content": "Indem zertifizierungsbezogene Berechnungen wie Ökobilanzierungen systematisch in die Unternehmensprozesse integriert werden, bleibt das Unternehmen nicht nur ein passiver Akteur, der kurzfristig auf gesetzliche Vorgaben reagiert. Stattdessen positioniert es sich als aktiver Marktteilnehmer, der langfristig auf zukünftige Anforderungen vorbereitet ist und sich nachhaltig im Wettbewerb behaupten kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "eaaeeb88-de58-4ebe-abdc-25031af7dfef",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "97537b20-bd19-4cc2-930a-26af78315e1f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

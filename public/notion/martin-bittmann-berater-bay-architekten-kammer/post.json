@@ -1,0 +1,411 @@
+{
+  "PageId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+  "Title": "Martin Bittmann wird Berater bei der Bayerischen Architektenkammer",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/73550022-da05-446a-8ae2-7e7ff19422a4/martin-bittmann-berater-bay-architekten-kammer_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=e41d1bd0fae65fc1b09e54a4f77e78ff70f04dcbb3439eb723bbac2a4025358d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Foto von Martin Bittmann",
+  "Slug": "martin-bittmann-berater-bay-architekten-kammer",
+  "PublishDate": "2024-04-17",
+  "Tags": [
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    },
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    }
+  ],
+  "Description": "Martin Bittmann ist Berater bei der BEN – der Beratungsstelle der bayerischen Architekten Kammer für nachhaltiges Bauen.",
+  "coverAsset": "martin-bittmann-berater-bay-architekten-kammer_cover.jpg",
+  "blockAssets": [],
+  "blocks": [
+    {
+      "Id": "588ebe26-6051-46d6-874f-bc6b06a3aa1d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Martin Bittmann ist seit Anfang 2024 freier Berater der BEN, der Beratungsstelle Energieeffizienz und Nachhaltigkeit der ",
+            "Href": null,
+            "Text": {
+              "Content": "Martin Bittmann ist seit Anfang 2024 freier Berater der BEN, der Beratungsstelle Energieeffizienz und Nachhaltigkeit der "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bayerischen Architektenkammer",
+            "Href": "https://www.byak.de/planen-und-bauen/beratungsstelle-energieeffizienz-und-nachhaltigkeit.html",
+            "Text": {
+              "Content": "Bayerischen Architektenkammer",
+              "Link": {
+                "Url": "https://www.byak.de/planen-und-bauen/beratungsstelle-energieeffizienz-und-nachhaltigkeit.html"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ".",
+            "Href": null,
+            "Text": {
+              "Content": "."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2a582487-ba94-4654-98c4-54f1010c5db5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Beratungsstelle bietet eine fachübergreifende, neutrale und unabhängige Beratung zu allen zentralen Themen der Energieeffizienz und Nachhaltigkeit, vorrangig zur bestehenden Gebäudesubstanz, zu Neubauprojekten und zu städtebaulichen Konzepten. Die Beratungsstelle ist für alle offen, die sich tiefer mit dem Thema Nachhaltigkeit in der Planung und im Bauen auseinandersetzten möchten, und unterstützt bei konkreten Herausforderungen innerhalb verschiedener Projekte. So werden nicht nur Planende und private Bauherren, sonder auch Kommunen oder andere verwaltungstechnische Institutionen bis hin zum bayerischen Staatsministerium für Wohnen, Bau und Verkehr unterstützt. Die Zusammensetzung der Berater:innen bildet ein breites Spektrum an Expertise ab, sodass alle Fragestellungen ganzheitlich bearbeitet werden können. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Beratungsstelle bietet eine fachübergreifende, neutrale und unabhängige Beratung zu allen zentralen Themen der Energieeffizienz und Nachhaltigkeit, vorrangig zur bestehenden Gebäudesubstanz, zu Neubauprojekten und zu städtebaulichen Konzepten. Die Beratungsstelle ist für alle offen, die sich tiefer mit dem Thema Nachhaltigkeit in der Planung und im Bauen auseinandersetzten möchten, und unterstützt bei konkreten Herausforderungen innerhalb verschiedener Projekte. So werden nicht nur Planende und private Bauherren, sonder auch Kommunen oder andere verwaltungstechnische Institutionen bis hin zum bayerischen Staatsministerium für Wohnen, Bau und Verkehr unterstützt. Die Zusammensetzung der Berater:innen bildet ein breites Spektrum an Expertise ab, sodass alle Fragestellungen ganzheitlich bearbeitet werden können. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "ae7a9dff-3fe2-478d-befc-06b79e20a9ef",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mehr denn je sind Architektur, Innenarchitektur, Landschaftsarchitektur und Stadtplanung aufgefordert, die Chance zu ergreifen, unsere Zukunft nachhaltig und auch für kommende Generationen lebenswert zu gestalten. Die geeigneten Werkzeuge und Mechanismen sind prinzipiell bekannt, aber die Fragen nach dem Wie und dem Wieviel fordern nicht nur die globalisierte Gesellschaft heraus, sondern vor allem die Fachwelt. ",
+            "Href": null,
+            "Text": {
+              "Content": "Mehr denn je sind Architektur, Innenarchitektur, Landschaftsarchitektur und Stadtplanung aufgefordert, die Chance zu ergreifen, unsere Zukunft nachhaltig und auch für kommende Generationen lebenswert zu gestalten. Die geeigneten Werkzeuge und Mechanismen sind prinzipiell bekannt, aber die Fragen nach dem Wie und dem Wieviel fordern nicht nur die globalisierte Gesellschaft heraus, sondern vor allem die Fachwelt. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f6b345cc-0664-499e-8e65-c6a087de7f67",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Trotz gewisser Fortschritte bleiben die Ergebnisse bei der Energie- und Emissionseinsparung im Gebäudesektor aktuell noch hinter den Erwartungen zurück. Es wird erkannt, dass technische Lösungen allein nicht ausreichen, um die Energiewende zu realisieren. Neben Effizienz und Konsistenz ist auch Suffizienz, also die Frage nach dem rechten Maß, von entscheidender Bedeutung. Es ist notwendig, Strategien zu entwickeln, die einen sparsameren Ressourcenverbrauch ermöglichen, sowohl beim Bau als auch beim Betrieb von Gebäuden.",
+            "Href": null,
+            "Text": {
+              "Content": "Trotz gewisser Fortschritte bleiben die Ergebnisse bei der Energie- und Emissionseinsparung im Gebäudesektor aktuell noch hinter den Erwartungen zurück. Es wird erkannt, dass technische Lösungen allein nicht ausreichen, um die Energiewende zu realisieren. Neben Effizienz und Konsistenz ist auch Suffizienz, also die Frage nach dem rechten Maß, von entscheidender Bedeutung. Es ist notwendig, Strategien zu entwickeln, die einen sparsameren Ressourcenverbrauch ermöglichen, sowohl beim Bau als auch beim Betrieb von Gebäuden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d4ae4fe1-e14b-48d6-8490-eeff57022f12",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die bayerische Architektenkammer nimmt dabei eine aktive Rolle der Wissensvermittlung und Diskursgestaltung ein. Mit dem Leitfaden “Nachhaltigkeit gestalten” werden Prozesse der integralen und nachhaltigkeitsorientierten Planung sowie konkrete Handlungsempfehlungen verständlich aufbereitet. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die bayerische Architektenkammer nimmt dabei eine aktive Rolle der Wissensvermittlung und Diskursgestaltung ein. Mit dem Leitfaden “Nachhaltigkeit gestalten” werden Prozesse der integralen und nachhaltigkeitsorientierten Planung sowie konkrete Handlungsempfehlungen verständlich aufbereitet. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7cbf7f36-c67d-4a8d-8e0f-898ff78d92b8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems arbeitet entlang dieses Leitfadens, berät jedoch auch zu Zertifizierungen wie die der DGNB oder zu energieeffizientem Bauen. ",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems arbeitet entlang dieses Leitfadens, berät jedoch auch zu Zertifizierungen wie die der DGNB oder zu energieeffizientem Bauen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "6c57bc0a-93c0-4969-9996-8ec9e541854f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entsprechend finden Sie die Mitglieder von BuildSystems als Expert:innen bei folgenden Institutionen: ",
+            "Href": null,
+            "Text": {
+              "Content": "Entsprechend finden Sie die Mitglieder von BuildSystems als Expert:innen bei folgenden Institutionen: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "55b4b985-5920-4057-a5ab-89393e577c1e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "DGNB",
+            "Href": "https://www.dgnb.de/de/dgnb/netzwerk/dgnb-zertifizierungsexperten",
+            "Text": {
+              "Content": "DGNB",
+              "Link": {
+                "Url": "https://www.dgnb.de/de/dgnb/netzwerk/dgnb-zertifizierungsexperten"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Consultants und ESG Manager ",
+            "Href": null,
+            "Text": {
+              "Content": " Consultants und ESG Manager "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9c82ad6a-8009-4929-be0d-756c4a62e387",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "dena",
+            "Href": "https://www.energie-effizienz-experten.de/",
+            "Text": {
+              "Content": "dena",
+              "Link": {
+                "Url": "https://www.energie-effizienz-experten.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Energieeffizienzexperten",
+            "Href": null,
+            "Text": {
+              "Content": " Energieeffizienzexperten"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c43b5f5d-99e0-4e93-b564-cda5f5fd3425",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "538b3ce1-bdb9-4dad-9dd9-59659f4dfe78",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "49ad493f-39fa-48c0-9c49-3d5636cd6e46",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover: Bert Willer",
+            "Href": null,
+            "Text": {
+              "Content": "Cover: Bert Willer"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

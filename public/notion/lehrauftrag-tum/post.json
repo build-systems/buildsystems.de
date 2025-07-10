@@ -1,0 +1,516 @@
+{
+  "PageId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+  "Title": "Lehrauftrag an der TU München - Professur für “Architecture and Design”",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Teaching",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/9a710eaf-0d1e-4035-87de-8ea0d2ee54ff/lehrauftrag-tum_workshop.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=0032896bdb9638f600af48f8e23b1d42f424b0a559860244f4b0696d17fadd0e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Plakat Wood Oberpfalz Abschlusspräsentation",
+  "Slug": "lehrauftrag-tum",
+  "PublishDate": "2023-09-22",
+  "Tags": [
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    },
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    },
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    }
+  ],
+  "Description": "BuildSystems begleitete Studierende der TU München bei der Analyse und Adaption regionaler Holz-Wertschöpfungsketten.",
+  "coverAsset": "lehrauftrag-tum_workshop.jpg",
+  "blockAssets": [
+    "lehrauftrag-tum-concluding_event.jpg",
+    "eaf216ff-c704-401d-8c71-36445d6f58fc.jpg",
+    "lehrauftrag-tum_zukunftsvision.jpg",
+    "lehrauftrag-tum_material_experiments.jpg",
+    "lehrauftrag-tum_film_still.jpg",
+    "lehrauftrag-tum_concluding_event_2.jpg",
+    "lehrauftrag-tum_concluding_event_3.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "98dfff0f-c828-4b99-996c-f59a7aeb42b5",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wood Oberpfalz - Regionale Wertschöpfungsketten",
+            "Href": null,
+            "Text": {
+              "Content": "Wood Oberpfalz - Regionale Wertschöpfungsketten"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "ee0b01fc-8b92-4f6b-acb3-ff8d6280d62c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Julia Dorn und Martin Bittmann von BuildSystems waren im Wintersemester 2022/23 Teil des Expertennetzwerks für das Master-Studio von Professor Niklas Fanelsa und seinem Team an der Professur \"Architecture und Design\" an der Technischen Universität München. In Zusammenarbeit mit dem Lehrstuhl, dem Expertennetzwerk aus BuildSystems, Studio Sarmite und Material Cultures sowie der Genossenschaft Holzversorgung Oberpfalz e.G. formulierten die Studierenden neue Potenziale einer regionalen Holzkreislaufwirtschaft in der Oberpfalz. ",
+            "Href": null,
+            "Text": {
+              "Content": "Julia Dorn und Martin Bittmann von BuildSystems waren im Wintersemester 2022/23 Teil des Expertennetzwerks für das Master-Studio von Professor Niklas Fanelsa und seinem Team an der Professur \"Architecture und Design\" an der Technischen Universität München. In Zusammenarbeit mit dem Lehrstuhl, dem Expertennetzwerk aus BuildSystems, Studio Sarmite und Material Cultures sowie der Genossenschaft Holzversorgung Oberpfalz e.G. formulierten die Studierenden neue Potenziale einer regionalen Holzkreislaufwirtschaft in der Oberpfalz. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "08dc653e-02b3-455e-b320-69555f378623",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge des \"Living Lab\" wurde zunächst mit Feldforschung und Mapping und Design-Thinking-Methoden gearbeitet, um ein ganzheitliches Verständnis von Architektur und deren Einfluss auf regionale Wertschöpfung sowie lokale Ökosysteme zu fördern. Das Team von BuildSystems brachte seine Expertise aus früheren Forschungsarbeiten ein, um die Studierenden dabei zu unterstützen, Erkenntnisse aus der Systemanalyse in materielle und digitale Prototypen zu übertragen. Im Verlauf des Semesters wurden Wissensformate erarbeitet, Zukunftsvszenarien in Form von KI-generierten Videos entwickelt und Materialexperimente sowie Möbel aus Holz realisiert. Alle Projekte verfolgten dabei allesamt das Ziel, die Wertschöpfung abseits der Industrie möglichst regional zu halten sowie kreislauffähige und emissionsreduzierte Potenziale zu eröffnen. Die Prototypen wurden im Pavillon 333 in München ausgestellt und von einer Diskussion mit Vertretern der Forstwirtschaft in der Oberpfalz begleitet.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge des \"Living Lab\" wurde zunächst mit Feldforschung und Mapping und Design-Thinking-Methoden gearbeitet, um ein ganzheitliches Verständnis von Architektur und deren Einfluss auf regionale Wertschöpfung sowie lokale Ökosysteme zu fördern. Das Team von BuildSystems brachte seine Expertise aus früheren Forschungsarbeiten ein, um die Studierenden dabei zu unterstützen, Erkenntnisse aus der Systemanalyse in materielle und digitale Prototypen zu übertragen. Im Verlauf des Semesters wurden Wissensformate erarbeitet, Zukunftsvszenarien in Form von KI-generierten Videos entwickelt und Materialexperimente sowie Möbel aus Holz realisiert. Alle Projekte verfolgten dabei allesamt das Ziel, die Wertschöpfung abseits der Industrie möglichst regional zu halten sowie kreislauffähige und emissionsreduzierte Potenziale zu eröffnen. Die Prototypen wurden im Pavillon 333 in München ausgestellt und von einer Diskussion mit Vertretern der Forstwirtschaft in der Oberpfalz begleitet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "75728930-67a6-4bb1-830b-f696cc6cc1f5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "70136bee-802b-4b34-b551-c197280b2eef",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diskussion während der Abschlussveranstaltung",
+            "Href": null,
+            "Text": {
+              "Content": "Diskussion während der Abschlussveranstaltung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ee962b88-0b32-4b4a-92bf-7ce7eb9af2f8/lehrauftrag-tum-concluding_event.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QTSNE5FK%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183012Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHysvj9FpJnEMWK2dBUMHWvt%2BX%2FbkWVss1LqOjqn3YlXAiEA4%2BGxJWyJ9ORXS6GIl7icyyCXYvT7KSRu2DJHewHg3hsqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGlulR%2FWJyu%2BI0Z3rCrcA0Va3lcpaIRvJWuxbyS9kY80M3LP%2Br18rWCveecqtDoq1WeKf71ML8JqKFxD2vl6uPCUuYQc0QBg82yLD%2BgLVatC57bezUy5c%2BgojfUrEKKFniqvLdwKpjIUXo1K5DoTQNc7m7EveChu3iXCQJ6KVWmOhZaS2TFPxooeR63TSsfOeZMaj7%2FnVdM9Ezja9f2pJ1pL5J35FvjFKbafKsOGxvBAtcGcgcCRHHMekj44k3RnSu6dWL2X3vkTLHW%2FRGaYEDqe8GM4rRNeDS3Az303ABV56RbUaEw%2F1Tt1bJdI5Nj9mFt820ccITtpFY1%2BhP38ttVWh8vsg3YC8XA%2BaekDs6eNgUaCrg39lGhdAmcMHn%2B7hImRZGsfnKCVJW0z5p8QuyTh4woVxFeEgPk%2FpBRZw4FKdDJVQFiOKFsO9iT9RolGyOAUJYhdpasDcMZaFbXrSOAU%2FJor8a9jLQB8r2zX58uDMXH5eoeUH%2BYPobRNNzoRPSa%2FvCbeMHCW8NnFMPj%2FfJVv4ScjfCKICu1fVqdX8E70NIFU5EgXZtxm6%2B8VPYvlM03fuTmy3SAJoL8Mi7h2Kj27%2FnFXDeur3i2c2WJViwBuXNE0pXnaBMJAWSLK3TsaHAYjDmpiQzvNPyD%2FMKOIwMMGOqUBYMy9DYcgDP8vn2ggYuZIueY4zTbptwiyItnzUDrWpfH1TXDjIJ1GabuYF38sQyQ86%2FVOeJBhDR1zTcyT6qOyVHlNvV6cB3bN%2Fjn471Jj4h%2B4q0m4fmCQoeHw8wcxyOM22Cuu65fJ0GZxfOu3hRo4iGhbSstq%2F%2B%2FRkZ84RRbGemWqODfeCYruneQYIN1ITP0NjLZ4Hy0l7QqeVKc8Ir9C1kYw7Hgu&X-Amz-Signature=979fb95fb114506c30f8a1985d645ef84bab1f2f1f27435c9da6346e335ed217&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:12.360Z"
+        }
+      }
+    },
+    {
+      "Id": "683734d7-5501-4d9f-b9a5-123fe6db8c42",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "e764795b-b2f0-4e41-ae3a-cc358ac4c0d4",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "3a120808-d4dc-4991-8787-b266faf761ed",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "How-to-circulate Cards von Zeynep Argat und Helena Dzerve",
+                      "Href": null,
+                      "Text": {
+                        "Content": "How-to-circulate Cards von Zeynep Argat und Helena Dzerve"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/3fbb07e1-b698-493c-9003-4eb43712b987/eaf216ff-c704-401d-8c71-36445d6f58fc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665ODQCTA5%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIE841Uxju9yyh%2BpV3IrXGBpLA60BTOIRne0kigrKX%2FmMAiEAhHd0qtpgH5IyG%2FwjMj3pagZm8TxVrF%2BdI8xgooUri9UqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLCU9e73l%2FbMQm5CcircA8JhKVIgfiao%2BExjuEpmVe151AQ5dMS1v%2Bm2vaK%2FeXQVgWQ6I%2B9htfyGUiGjrSoRhcOQ34GosP%2BpuYHWcAov%2FciInUzk2uhJGW0Fy7Hrsj0Sj4eg7L07MiE7FmqJ2dSpNXHe%2B3bA%2FSln5%2Bm8do2f4DQSYkIfLcFCZ8aDfiCeX607xcwcMeWGIAXrtZvgyAvsXEGKdZh0uqMQjQKaKwGGsvE7g9No8MsOredcKkv8Bh93GQNa0qkm2FgfZM1EGS6zRqj70UHHiBFeei0e7YjFhGi%2ByfNq%2B37DICvB7%2FKiWgq%2FLPEuKY%2B3riONMko6eZA75qr2o4GWCOyozIQ3wZUQVvlFkoyaTdqtvJYF54tPFUZ6Q6ilMUU%2FrFMH9OJPKUKm%2FrLZdN0J%2BK4zdwDyMcMg%2BX8gZupd8qgFtTUPDBrtJMzlHohFrhmUC4%2BJi9DSPNOnL7kmiG3%2B9ImeKOKCztn5zLVLEDdMAD%2BEc8Cz6HGCnXoPkmiICxRecPIeFRlrLKgI4DmM8HmW30rkmI%2B7WwTvkegk%2BVPq2A0hMrjk2LyYakHPTg%2B%2FpNT5IF4A%2Bissi%2BNUYdbb4iyjdXJm34MElYbkcZtQGqYSXYRrB3VlLQGt564RE53sooqb62Tm2Ss1MJiHwMMGOqUBOa%2BiQpSD72Y8xC7aB3yd2cxlUrO36vnmpsm%2BP8F2tUHci2HQMHXFGEP0yC0qubDkquiRvIc%2FErBbNbVB5PElBpnek3PCR3DnLR2Rg1GpNLRSIMZO3IYQoFfQayHfWGI2nHevCK8zijmK9dppEXwlfaN3wT5r4kzdrzUlmW03e%2F5dSEe7K4OuIKqnHvr14guHi1F6FiDKjw41Vfg1HAGkIfhavCA1&X-Amz-Signature=633a958000c43a457fd86bc24b3c041fddc6aa36600a75bf212410222197fe17&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:14.954Z"
+                  }
+                }
+              },
+              {
+                "Id": "5e1e9caa-fe9a-496a-a77a-cfcc27b3f220",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "“Forest Conversion” von Johann Klause und Lucas Habermeyer",
+                      "Href": null,
+                      "Text": {
+                        "Content": "“Forest Conversion” von Johann Klause und Lucas Habermeyer"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a2af4252-f254-4f59-a780-0068da28c303/lehrauftrag-tum_zukunftsvision.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665ODQCTA5%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIE841Uxju9yyh%2BpV3IrXGBpLA60BTOIRne0kigrKX%2FmMAiEAhHd0qtpgH5IyG%2FwjMj3pagZm8TxVrF%2BdI8xgooUri9UqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLCU9e73l%2FbMQm5CcircA8JhKVIgfiao%2BExjuEpmVe151AQ5dMS1v%2Bm2vaK%2FeXQVgWQ6I%2B9htfyGUiGjrSoRhcOQ34GosP%2BpuYHWcAov%2FciInUzk2uhJGW0Fy7Hrsj0Sj4eg7L07MiE7FmqJ2dSpNXHe%2B3bA%2FSln5%2Bm8do2f4DQSYkIfLcFCZ8aDfiCeX607xcwcMeWGIAXrtZvgyAvsXEGKdZh0uqMQjQKaKwGGsvE7g9No8MsOredcKkv8Bh93GQNa0qkm2FgfZM1EGS6zRqj70UHHiBFeei0e7YjFhGi%2ByfNq%2B37DICvB7%2FKiWgq%2FLPEuKY%2B3riONMko6eZA75qr2o4GWCOyozIQ3wZUQVvlFkoyaTdqtvJYF54tPFUZ6Q6ilMUU%2FrFMH9OJPKUKm%2FrLZdN0J%2BK4zdwDyMcMg%2BX8gZupd8qgFtTUPDBrtJMzlHohFrhmUC4%2BJi9DSPNOnL7kmiG3%2B9ImeKOKCztn5zLVLEDdMAD%2BEc8Cz6HGCnXoPkmiICxRecPIeFRlrLKgI4DmM8HmW30rkmI%2B7WwTvkegk%2BVPq2A0hMrjk2LyYakHPTg%2B%2FpNT5IF4A%2Bissi%2BNUYdbb4iyjdXJm34MElYbkcZtQGqYSXYRrB3VlLQGt564RE53sooqb62Tm2Ss1MJiHwMMGOqUBOa%2BiQpSD72Y8xC7aB3yd2cxlUrO36vnmpsm%2BP8F2tUHci2HQMHXFGEP0yC0qubDkquiRvIc%2FErBbNbVB5PElBpnek3PCR3DnLR2Rg1GpNLRSIMZO3IYQoFfQayHfWGI2nHevCK8zijmK9dppEXwlfaN3wT5r4kzdrzUlmW03e%2F5dSEe7K4OuIKqnHvr14guHi1F6FiDKjw41Vfg1HAGkIfhavCA1&X-Amz-Signature=e1cb7fa9287742a4c22a801c33ca10fd458f46a07f9f03323af6f8af5c8b350c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:14.957Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "fa4e4357-fde8-4e3e-8a01-b7276e9b147f",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "fc653ef9-cd1a-476e-9648-5b69ed6a68a2",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "“Material Experiments” von Mara Starka und Johanna Wulff",
+                      "Href": null,
+                      "Text": {
+                        "Content": "“Material Experiments” von Mara Starka und Johanna Wulff"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/fd155e9c-a077-486e-a989-ec962fcf6caa/lehrauftrag-tum_material_experiments.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SLPI55SP%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183013Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGoSiOpycb2B%2B2a6o%2BRoTnPmvvuUUQPKzdZBDzTnLOdLAiA5%2FtBd1NdaUF2WEmTIyFoyeiwEQju9FMhvWCWrShKBqyqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM295INwMNcnAZKJ5HKtwDGUsZ1PYVJC1QmDxj96RkVIHWfHJIwj%2BNPY%2FEqIFwM6ADBJRaJqz1svySHrS1ncYyc8vcHzXSskL6Y6nYGttBZm44qRblW1LJBlLeW9Z3yP3XdP1Ij1WY64fXxivr33QjV4%2FQNiQhdgMpv6F%2Br0NwkwTsBZquGD3LdwgVgLtw7d2K1vXeIZhEYnD%2FLPSuK1r0IYJ1GKYBYsBdADkb7VwLn34R4j8u0aqppeAlajdk3vS8z6fLLgeaSaVi6fv2FNysdauI95Lv%2F3hYZDGI2KAIOwHQE735o%2FsX1ryOy9red6NViKbQkPnd1lFX8f%2FPgf5dSgZ5NQT%2BwyaLUAu59aQ1EInYSjtWv9ZZt%2B6cDsdlqE7MGlauAJZ1yg7VnryGshwYI5hRE%2B%2BdfC2brikxRj%2BzI%2B6oNwb72fkEO5ya7txgpletYo1I0p3XWZXc2O4SZLkbG96nl2pK748PxHR8%2BfXngBVo9lILt4kgkxMgVt57SqUtlgT5vVnA8gP1sjJPmSfCOV92NyiqA9GNtROBoHu9JKhTL5GV8%2BQuiHH%2BE1Fd80vfXPOASlSfz4%2BJwK2sGMPuteQI7lnoVpBvpinN1HjKcGk0Ris3ZVjPBb9rbwD4QzNP2HoGXXDS1yMU1GgwvYfAwwY6pgE194HTUbeKx3Bciun7S1m0KMGuHnibzaON6PWvMh9SQeDiSpr7M2RXXYuvFGf5A5pNFYn5BAHZ15ugCXmb%2F7AkQVzIHv49FpcXR1nMr9bylYu4YRykKRfgRCFsOwdJv0aGpY%2BmCcQ61E25WjbOmt4CJBKiKWLEonwnfw1PRCv6dVmmZ5QVibNp4%2F2C41LDAf8boKzkxBzjLCf6oZoIpE13y9kZ2hR4&X-Amz-Signature=84702442cd825f10f4871c54d35daffdbae4bce4b3fdfadef05fc5a5b851f263&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:12.995Z"
+                  }
+                }
+              },
+              {
+                "Id": "401c74ca-972d-4b95-a6b2-61ea6aed6b31",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Filmstill aus “HOLZWe.G.” von Max Malte Messner und Ben Klages",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Filmstill aus “HOLZWe.G.” von Max Malte Messner und Ben Klages"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/35e52c8b-d4ad-43c4-ab51-b868795a229c/lehrauftrag-tum_film_still.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SLPI55SP%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183013Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGoSiOpycb2B%2B2a6o%2BRoTnPmvvuUUQPKzdZBDzTnLOdLAiA5%2FtBd1NdaUF2WEmTIyFoyeiwEQju9FMhvWCWrShKBqyqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM295INwMNcnAZKJ5HKtwDGUsZ1PYVJC1QmDxj96RkVIHWfHJIwj%2BNPY%2FEqIFwM6ADBJRaJqz1svySHrS1ncYyc8vcHzXSskL6Y6nYGttBZm44qRblW1LJBlLeW9Z3yP3XdP1Ij1WY64fXxivr33QjV4%2FQNiQhdgMpv6F%2Br0NwkwTsBZquGD3LdwgVgLtw7d2K1vXeIZhEYnD%2FLPSuK1r0IYJ1GKYBYsBdADkb7VwLn34R4j8u0aqppeAlajdk3vS8z6fLLgeaSaVi6fv2FNysdauI95Lv%2F3hYZDGI2KAIOwHQE735o%2FsX1ryOy9red6NViKbQkPnd1lFX8f%2FPgf5dSgZ5NQT%2BwyaLUAu59aQ1EInYSjtWv9ZZt%2B6cDsdlqE7MGlauAJZ1yg7VnryGshwYI5hRE%2B%2BdfC2brikxRj%2BzI%2B6oNwb72fkEO5ya7txgpletYo1I0p3XWZXc2O4SZLkbG96nl2pK748PxHR8%2BfXngBVo9lILt4kgkxMgVt57SqUtlgT5vVnA8gP1sjJPmSfCOV92NyiqA9GNtROBoHu9JKhTL5GV8%2BQuiHH%2BE1Fd80vfXPOASlSfz4%2BJwK2sGMPuteQI7lnoVpBvpinN1HjKcGk0Ris3ZVjPBb9rbwD4QzNP2HoGXXDS1yMU1GgwvYfAwwY6pgE194HTUbeKx3Bciun7S1m0KMGuHnibzaON6PWvMh9SQeDiSpr7M2RXXYuvFGf5A5pNFYn5BAHZ15ugCXmb%2F7AkQVzIHv49FpcXR1nMr9bylYu4YRykKRfgRCFsOwdJv0aGpY%2BmCcQ61E25WjbOmt4CJBKiKWLEonwnfw1PRCv6dVmmZ5QVibNp4%2F2C41LDAf8boKzkxBzjLCf6oZoIpE13y9kZ2hR4&X-Amz-Signature=30f43e9b7c82144c00381370d88a2c2077d3a9c40a5321fdfe15287ebe4cc73f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:12.993Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "16ce9761-9c0d-44ae-9bea-6b6882f13a26",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "2fa4e16b-4089-4cae-bf0f-3fca9c5d2930",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "c8d3c9ed-3f46-4d4f-9e96-a9e014a23631",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Übersicht der Ausstellung im Pavillon 333",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Übersicht der Ausstellung im Pavillon 333"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/51eaf306-7988-4534-bb1f-b6bc5e3b331c/lehrauftrag-tum_concluding_event_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664TCFD4PW%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAxnAffU2nOWk%2F%2BJDbXYkK88W%2FYFnD8WznNI41UNDMC4AiEAgOK7nv0XEWGC96WTo8b9YfvgLIGKLAK2L0s%2FbkwKKPwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMyEEbTXFVcybYkdIircA4x7aFMVdtho8Jj6AspTZrrqeFoSRCgZ33SELHUE5gGaF61jFnoEkRlZQBGnsn8%2BYBILnl2ND4W5wLwhYwLMbNgy4piPW1oWqCHorMWdzFBeIakXT1S3%2BdKgfnl3l0jvWWfPaKLkJqPDzVlSkGKKlMUrn3ZrWYJaA9kRXnPf3oXXJ8jUnYAB6Dgn0QArkx9e0CtICQ4IhNAGJ6oio5dM9ozTfu%2BzbRdhfnjLcQtq2cCUA9paDnl4yv%2Bc4sJ4bWfQRuNCQVT%2FDOATiZSDFjQSIifbEYNZMItHOLzA7sSJTLSOjsendpGS9ks9pNYcIuGAR0ttxmA40fmjqtIpQ6ElvPSGh8%2BCHMGA9a31GqIzmNdZgfZpx6hHHxM3AZvRhXIjc%2BVX42Xm9eP5PQaLxb0w9K7uVWngOlem8F6xs94ApxCKL51dUabR89llJmGTBTqRLXKacPA%2Ft1p5rJg8azsXxIWhC3%2Bg8YDxalq1BLyS0Gp3pgnkvKgJU5Psy1mnmffscLjAX0Fq6LIlJDuI3Jz60ZjdHGguhfhT0EzBrJeqNvF42td7yXDYLc%2FQgB%2FAYEQu9rKfUm15vobgg7Xt13bvXjpJl6%2BwvkuPYdCVyUbcq9qwnjbCFGUO37QRimk3MKWHwMMGOqUBrecHxxPFI1VVRvDayEMTimrN2RssL5AKB0a7SqxPiwXCB1bVAKrrunKo3pr6lRUdS%2BoGclhcXj5yYmwFlHEv52BfbyTrsmo0x4z4qGloQR0BpYEY12uJUWKRbDWHrXwY9I3RyNB%2BvDcLgHao8oH6WkgcZQWe9W%2BWVisUOMfuzCehpg6R1ve8njLd8s%2FgBjMGSMo%2FMRotwPJ3kC8SII%2FJIwgWAePP&X-Amz-Signature=0968988a29fc42f5d8af236ffec2139f6a06ecfaebb8a70bfa74e95fc185fc09&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:16.890Z"
+                  }
+                }
+              },
+              {
+                "Id": "66772345-e314-453c-8f4e-d5382e598ac0",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "9ffc409b-039e-48d7-9052-27b9deae2939",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "fc3d054e-850b-49b4-8ae5-a50fd5d8e8ea",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Ausstellung im Pavillon 333",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Ausstellung im Pavillon 333"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/6c6839c0-19e4-414e-9209-7739dfe46b1c/lehrauftrag-tum_concluding_event_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VS63KW6D%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHn8I3JvPCLg6lBoqS7aZtJYuazPktc9Q7lRdjaxD88AAiEAmcK3rcu5l6VCKqALQSEks6V6HwAuUz%2FZut1%2BCKRh3f8qiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGj12rPEwwZo2Rt0QircAyXFnXsreMXayFVSSQjfwuWMjZXZy3pWsot15gNfdGUC0%2B4qbqs%2FwtjsBhpE7nwex0vwzN44zDQuY4Jam320cdvWi%2FkEBAWxm2UM4NNxyK1lpId%2FT6PZp6NkvkM6WZF8PYfOyMK4%2Byvtx8UlIl6Pz0bvAoV%2F68PrD35jjORjLxTOFBXS2oJaCcIseMw7d2T4z3JKnFAC%2FTYPTh%2BOrUAS8DBWsXlqG5z7YCui8uXJqlbw5fCTPH62it2JSOeSvc5%2BoB9CvDg7CO%2Fk7tIHnoUPuh4Pe0v8e4po3FNdf0kdPH4LVVJj49TFGJu2yUtICVEBYPNUZntz3Z6fU2q2ThNc7tKIBaalTNpcCWcc59gNm%2BA7gGmNzb8znJOdjrQk9vKU03LAwwXwlBuG3FkUN3vAklY%2BRwVIDlY899%2F9qX8AApz7FLBsEREce8zhXhoVKp%2FPtGh24KojRPkzfm8tHbfBD2NIHuLcNFHpBq6wDNwjtA0EGCnXdObB8lZNOGY8BY3wWtlDr2KKM9juK%2F05TJIs4T0Py9PfK%2FWhmAV3GDdPTlUluIwQmxFtMaXNpLPYv2kgOFK55AU9u2Fu6BIbZOA%2BlJ%2BZy9ScGg2uTscOxiyPE%2FMy2toTlAQyX%2BNDPz%2FlMKSGwMMGOqUBUDrD2WPLDjH6J0QEhndSq%2BO0JgkqcqJByOh6ltn%2BH9WpOA5M7RQKehZeE64txrGYmK1y2MFvXpyUmdrB%2BrI%2F2qcIsR794kDLwhRql5c0y%2FuqndPC1%2BDy74LAAghrFr5BCmeJhMKQhvBJrdam8uDVZQfORjwt%2FBR%2BOWCmZhk4oXFk38WUtUXo%2F13SaWfTYBP%2B%2FWgYV7NNQUWv52fipI0KG%2BD5dBBf&X-Amz-Signature=e3496aedd9e1592972f5ed907f3bca588dd0c7e905d032134fbd665ae0a18192&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:16.891Z"
+                  }
+                }
+              },
+              {
+                "Id": "9ce57be5-4e57-419b-847c-c7a54ace2611",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "5a382f3d-ed9c-4fd9-9901-e0017cc553f8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: Max Malte Messner",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: Max Malte Messner"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8fada4da-930a-4319-8a41-1cb0873f8a37",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover: How to Circulate, Zeynep Argat und Patricija Helena Dzerve",
+            "Href": null,
+            "Text": {
+              "Content": "Cover: How to Circulate, Zeynep Argat und Patricija Helena Dzerve"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "beab31e3-1ec4-4d29-bcbb-9e25111d0bcb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "01a1e2d2-3f1f-4aae-b756-6e6bbde8bef3",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

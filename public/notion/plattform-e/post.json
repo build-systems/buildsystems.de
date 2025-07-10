@@ -1,0 +1,1230 @@
+{
+  "PageId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+  "Title": "Plattform-E – Moderner Wissenstransfer für Einfaches Bauen",
+  "Authors": [
+    {
+      "id": "082c4474-261b-44f9-9a8d-eff71fa4e217",
+      "name": "Maximilian Lieser",
+      "color": "orange"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c992e831-b628-47a0-8580-aef8471fc560/plattform-e-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=ba9e517e08493f4d2546d921bd2ce4840f82de642a91892d7c878d73a83dce01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "plattform-e-logo",
+  "Slug": "plattform-e",
+  "PublishDate": "2025-05-01",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    }
+  ],
+  "Description": "BuildSystems entwickelt die Plattform-E als zentrale Wissensdrehscheibe für die stärker werdende Bewegung rund um das einfache und experimentelle Bauen. Hier werden Erfahrungen aus Projekten gebündelt, die das innovative Bauen vorantreiben.",
+  "coverAsset": "plattform-e-logo.jpg",
+  "blockAssets": [
+    "plattform-e-landing-page.jpg",
+    "plattform-e-landingpage-beispiel.jpg",
+    "plattform-e-timeline.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "224cc54c-ec6d-8070-ae0c-f1490fc93efc",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einfach Bauen – kosteneffizient, experimentell, zukunftsfähig",
+            "Href": null,
+            "Text": {
+              "Content": "Einfach Bauen – kosteneffizient, experimentell, zukunftsfähig"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-808e-9681-c3046cd0a6f1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wie gelingt nachhaltiges, kostengünstiges Bauen trotzt hoher Normierung und Komplexität? Die Antwort liefert Plattform‑E: eine digitale Wissensplattform, die sich dem Gebäudetyp E sowie dem einfachen und experimentellen Bauen widmet. Sie macht Praxiserfahrungen zugänglich, fördert ein starkes Netzwerk und bietet konkrete Unterstützung für Architekt:innen, Planer:innen, Kommunen, Bauherr:innen und Projektentwickler:innen.",
+            "Href": null,
+            "Text": {
+              "Content": "Wie gelingt nachhaltiges, kostengünstiges Bauen trotzt hoher Normierung und Komplexität? Die Antwort liefert Plattform‑E: eine digitale Wissensplattform, die sich dem Gebäudetyp E sowie dem einfachen und experimentellen Bauen widmet. Sie macht Praxiserfahrungen zugänglich, fördert ein starkes Netzwerk und bietet konkrete Unterstützung für Architekt:innen, Planer:innen, Kommunen, Bauherr:innen und Projektentwickler:innen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8002-9597-fbaf73366aa1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zentrum steht der Anspruch, Bauen einfacher, schneller und günstiger zu machen – und dabei gleichzeitig klima- und ressourcenschonend zu handeln. Plattform‑E bringt Projekte, Menschen und Wissen zusammen, um kosteneffizientes und normreduziertes Bauen nicht nur denkbar, sondern umsetzbar zu machen.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zentrum steht der Anspruch, Bauen einfacher, schneller und günstiger zu machen – und dabei gleichzeitig klima- und ressourcenschonend zu handeln. Plattform‑E bringt Projekte, Menschen und Wissen zusammen, um kosteneffizientes und normreduziertes Bauen nicht nur denkbar, sondern umsetzbar zu machen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-807e-9800-d71bbab18e34",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8097-94a8-d15219360f5f",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/bd686f52-03bb-4582-aec7-ad442f499ae7/plattform-e-landing-page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665QBB6A5R%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiRUC%2B6QR5K%2FD7ru7YIDLhqKMIQZHVeiXcozzBILITdgIhANS42M8HLLx6oQ1GldXT5uY13NaA93mHacKERCJd2x6NKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwZQMLpc2UXSfGTpXIq3AMhItQl4dwEu8rdJreGXEcwv29mHs1tkdjSOhWJ36PCHgdoLOtVtVnmL1tRdPdZJLzf9pbcjwIjCgoQermJYDgj5iuA%2F2ZXsub5QfTbBF49JOWQC0xn8eJDIF%2BZ2crKA2Ss0Jd1wWCljc4VhXrUdHWvTWDlS3UtHyX%2BRURZxpI4y0Ftkwl2jceR0Vwp3MT9pAfV%2BFPQZtVIJqUdGeX4GrhLpqyPsDP%2FfiRarzNXBiFHi4kgcVWr6lYWjak%2BjsQ%2BrlFiSperASjYE0kg2OU0LmfL4wi%2F%2Fu2f5MzsjrrwSVdQ3tmzlRc8CCmjmXfqGLbuICBScv3JUZa9n5Y4sZwhBYQEVBFcQHhLVNUOStCZwYzE8STIHyWd0EoSNGXeSxlfdiB1%2BAsUh1JrL8rKmX%2BZWQZcLD9j2cXTaA8kdnJPYP7YAyzXwsk66pMQrMkebBoO8B21uyyMFJgnqwJONZjqSSPeegcK2T3ZupFE4XqVwHzGF%2FC0ZFxDnRH0mpHPKiSyUHA1dB0f%2B2etWJ7YsVwr96VfPcuhD7vZYIu%2Bo%2B2zXo60a9gGuuy%2FBFw07ojYfBJjMs2WKkBjSMouLj2N91yappxGckGfVY024BvVq6MSYiEURlMkHjtbT7kzUJ2GlTDdh8DDBjqkAT8Pnynv7eepdzKSg24nCCGt5DTq2foWSW6eHmM7F49Ufa3VGvKgIBrIrAPbPB5xp0Z1KkbewrFzFs8q8VW9%2BDjxmLhbC0zLp3WTrwok3ev%2FhZ6St66Qj8mMau1apg5uHpdlPJ0n5OyttVq6TlYXEI2xbY4Pgj3FVD8fQcab9Ao%2FDCiF6cbLRrZjki2ixVeO%2BzRZOmrXIy432Z%2BZgITMhc6ZTusz&X-Amz-Signature=7ff24a792d9b7783d79e34e013a72110512d63c6505b2eaf844e28e7e959e75b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.133Z"
+        }
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e8-a32d-d65582791eb2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8024-9131-db70e79a803f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Was ist der Gebäudetyp E?",
+            "Href": null,
+            "Text": {
+              "Content": "Was ist der Gebäudetyp E?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e9-9f56-ce6f9ad2a726",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Gebäudetyp E steht für das „Einfach-Bauen“: ein Konzept, das bewusst auf freiwillige Komfort- und Technikstandards verzichtet, ohne gesetzliche Mindestanforderungen zu unterschreiten. Durch diese radikale Vereinfachung lassen sich Planungsaufwand, Baukosten und Materialeinsatz deutlich reduzieren – bei gleichzeitig hoher funktionaler und gestalterischer Qualität.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Gebäudetyp E steht für das „Einfach-Bauen“: ein Konzept, das bewusst auf freiwillige Komfort- und Technikstandards verzichtet, ohne gesetzliche Mindestanforderungen zu unterschreiten. Durch diese radikale Vereinfachung lassen sich Planungsaufwand, Baukosten und Materialeinsatz deutlich reduzieren – bei gleichzeitig hoher funktionaler und gestalterischer Qualität."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8039-a4a7-fd990b101dd6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Aktuell erproben 19 Pilotprojekte in Bayern die Umsetzung des Gebäudetyps E – wissenschaftlich begleitet von der TU Braunschweig, die Einsparpotenziale und Auswirkungen auf Nachhaltigkeit, Bauzeit und Wirtschaftlichkeit untersucht.",
+            "Href": null,
+            "Text": {
+              "Content": "Aktuell erproben 19 Pilotprojekte in Bayern die Umsetzung des Gebäudetyps E – wissenschaftlich begleitet von der TU Braunschweig, die Einsparpotenziale und Auswirkungen auf Nachhaltigkeit, Bauzeit und Wirtschaftlichkeit untersucht."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8083-ac01-c5251266a1dd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8061-9eac-d501c6271272",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Warum braucht es einfaches und experimentelles Bauen?",
+            "Href": null,
+            "Text": {
+              "Content": "Warum braucht es einfaches und experimentelles Bauen?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8015-9fd7-dc1ca7c17967",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bauindustrie steht vor massiven Herausforderungen: steigende Baukosten, überbordende Normen, Fachkräftemangel und ein akuter Wohnraummangel. Gleichzeitig erfordern Klimaziele und neue Regulierungen wie die EU-Taxonomie ein radikales Umdenken.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bauindustrie steht vor massiven Herausforderungen: steigende Baukosten, überbordende Normen, Fachkräftemangel und ein akuter Wohnraummangel. Gleichzeitig erfordern Klimaziele und neue Regulierungen wie die EU-Taxonomie ein radikales Umdenken."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8044-a9e1-e586ec114e60",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit – und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit – und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80f6-b8c4-ffa0ac1c88af",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80a7-9214-d046589928dc",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eines der 19 Bayerischen Pilotprojekte zum Gebäudetyp-E: Haus fast ohne Heizung von Nbundm Architekten",
+            "Href": null,
+            "Text": {
+              "Content": "Eines der 19 Bayerischen Pilotprojekte zum Gebäudetyp-E: Haus fast ohne Heizung von Nbundm Architekten"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/82e57d96-5056-42f5-9447-1fa7c00904b8/plattform-e-landingpage-beispiel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665QBB6A5R%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiRUC%2B6QR5K%2FD7ru7YIDLhqKMIQZHVeiXcozzBILITdgIhANS42M8HLLx6oQ1GldXT5uY13NaA93mHacKERCJd2x6NKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwZQMLpc2UXSfGTpXIq3AMhItQl4dwEu8rdJreGXEcwv29mHs1tkdjSOhWJ36PCHgdoLOtVtVnmL1tRdPdZJLzf9pbcjwIjCgoQermJYDgj5iuA%2F2ZXsub5QfTbBF49JOWQC0xn8eJDIF%2BZ2crKA2Ss0Jd1wWCljc4VhXrUdHWvTWDlS3UtHyX%2BRURZxpI4y0Ftkwl2jceR0Vwp3MT9pAfV%2BFPQZtVIJqUdGeX4GrhLpqyPsDP%2FfiRarzNXBiFHi4kgcVWr6lYWjak%2BjsQ%2BrlFiSperASjYE0kg2OU0LmfL4wi%2F%2Fu2f5MzsjrrwSVdQ3tmzlRc8CCmjmXfqGLbuICBScv3JUZa9n5Y4sZwhBYQEVBFcQHhLVNUOStCZwYzE8STIHyWd0EoSNGXeSxlfdiB1%2BAsUh1JrL8rKmX%2BZWQZcLD9j2cXTaA8kdnJPYP7YAyzXwsk66pMQrMkebBoO8B21uyyMFJgnqwJONZjqSSPeegcK2T3ZupFE4XqVwHzGF%2FC0ZFxDnRH0mpHPKiSyUHA1dB0f%2B2etWJ7YsVwr96VfPcuhD7vZYIu%2Bo%2B2zXo60a9gGuuy%2FBFw07ojYfBJjMs2WKkBjSMouLj2N91yappxGckGfVY024BvVq6MSYiEURlMkHjtbT7kzUJ2GlTDdh8DDBjqkAT8Pnynv7eepdzKSg24nCCGt5DTq2foWSW6eHmM7F49Ufa3VGvKgIBrIrAPbPB5xp0Z1KkbewrFzFs8q8VW9%2BDjxmLhbC0zLp3WTrwok3ev%2FhZ6St66Qj8mMau1apg5uHpdlPJ0n5OyttVq6TlYXEI2xbY4Pgj3FVD8fQcab9Ao%2FDCiF6cbLRrZjki2ixVeO%2BzRZOmrXIy432Z%2BZgITMhc6ZTusz&X-Amz-Signature=669bbc5c4a9bc7183270a90bdb8ee1329eb56801bdb9a8ca0cfe6ced21977ee5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.133Z"
+        }
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8086-8281-ff23f9aba36e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eines der 19 Bayerischen Pilotprojekte zum Gebäudetyp-E: Haus fast ohne Heizung von Nbundm Architekten",
+            "Href": null,
+            "Text": {
+              "Content": "Eines der 19 Bayerischen Pilotprojekte zum Gebäudetyp-E: Haus fast ohne Heizung von Nbundm Architekten"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80a1-b2a7-cf669808591c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e2-a0f7-e9e7d81dd44d",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Plattform‑E – die digitale Drehscheibe für Baupraxis und Wissenstransfer",
+            "Href": null,
+            "Text": {
+              "Content": "Plattform‑E – die digitale Drehscheibe für Baupraxis und Wissenstransfer"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e8-894c-e68f3c7bd53b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Und richtet sich dabei gleichermaßen an Planenden und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen",
+            "Href": null,
+            "Text": {
+              "Content": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Und richtet sich dabei gleichermaßen an Planenden und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e0-be3d-e4f078c6a7f4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sie bietet:",
+            "Href": null,
+            "Text": {
+              "Content": "Sie bietet:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8047-8352-eb3daaabcc8b",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Erprobte Praxislösungen: Erfahrungsberichte, Bauprojekte, Werkzeuge und Leitfäden",
+            "Href": null,
+            "Text": {
+              "Content": "Erprobte Praxislösungen: Erfahrungsberichte, Bauprojekte, Werkzeuge und Leitfäden"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-800d-a84c-d21c92ca7357",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vernetzung: Architekt:innen, Behörden, Jurist:innen, Bauunternehmen und Fördergeber:innen",
+            "Href": null,
+            "Text": {
+              "Content": "Vernetzung: Architekt:innen, Behörden, Jurist:innen, Bauunternehmen und Fördergeber:innen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80d5-92be-efe3d22ca08d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kuratierte Inhalte: Aufbereitet nach Zielgruppen und Planungsphasen",
+            "Href": null,
+            "Text": {
+              "Content": "Kuratierte Inhalte: Aufbereitet nach Zielgruppen und Planungsphasen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-807e-a577-e9ee2f56ee5a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "KI-gestützte Wissensvermittlung: Individuelle Antworten auf konkrete Fragestellungen",
+            "Href": null,
+            "Text": {
+              "Content": "KI-gestützte Wissensvermittlung: Individuelle Antworten auf konkrete Fragestellungen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80ec-8c3f-ca108d59d6a4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "So entsteht ein dynamischer Wissensraum, der Unsicherheiten abbaut, Regelabweichungen fundiert kommuniziert und Mut zum einfachen Bauen macht.",
+            "Href": null,
+            "Text": {
+              "Content": "So entsteht ein dynamischer Wissensraum, der Unsicherheiten abbaut, Regelabweichungen fundiert kommuniziert und Mut zum einfachen Bauen macht."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8020-9e91-c956ccbf0c60",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8000-8eef-eabc948a0ff6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80dd-99f0-e189516f2cd6",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Phase 1: Machbarkeitsstudie als strategisches Fundament",
+            "Href": null,
+            "Text": {
+              "Content": "Phase 1: Machbarkeitsstudie als strategisches Fundament"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80d8-99e8-dcbc21b7c871",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Derzeit befindet sich Plattform‑E in der Machbarkeitsphase – gefördert von ",
+            "Href": null,
+            "Text": {
+              "Content": "Derzeit befindet sich Plattform‑E in der Machbarkeitsphase – gefördert von "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Built by Nature",
+            "Href": "https://builtbn.org/grants/",
+            "Text": {
+              "Content": "Built by Nature",
+              "Link": {
+                "Url": "https://builtbn.org/grants/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " und entwickelt von BuildSystems, ",
+            "Href": null,
+            "Text": {
+              "Content": " und entwickelt von BuildSystems, "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "hej.build",
+            "Href": "http://hej.buildhttps//www.hej.build/",
+            "Text": {
+              "Content": "hej.build",
+              "Link": {
+                "Url": "http://hej.buildhttps//www.hej.build/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", ",
+            "Href": null,
+            "Text": {
+              "Content": ", "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "IDEAL-X",
+            "Href": "https://www.ideal-x.ai/",
+            "Text": {
+              "Content": "IDEAL-X",
+              "Link": {
+                "Url": "https://www.ideal-x.ai/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". ",
+            "Href": null,
+            "Text": {
+              "Content": ". "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80f7-bc55-c74cfad2f2ed",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit einem breiten Netzwerk aus Praxis, Wissenschaft und Verwaltung werden die folgenden drei zentralen Bausteine interdisziplinär validiert:",
+            "Href": null,
+            "Text": {
+              "Content": "Mit einem breiten Netzwerk aus Praxis, Wissenschaft und Verwaltung werden die folgenden drei zentralen Bausteine interdisziplinär validiert:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-806c-bdde-dd7fbbf3830c",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Erfahrungsberichte schaffen Vertrauen:",
+            "Href": null,
+            "Text": {
+              "Content": "Erfahrungsberichte schaffen Vertrauen:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz.",
+            "Href": null,
+            "Text": {
+              "Content": " Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-802e-a402-e83d1dc9ec7d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Referenzprojekte überzeugen Stakeholder:",
+            "Href": null,
+            "Text": {
+              "Content": "Referenzprojekte überzeugen Stakeholder:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen.",
+            "Href": null,
+            "Text": {
+              "Content": " Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-804a-8391-f2b3c1088ef9",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "KI-gestütztes Wissensmanagement:",
+            "Href": null,
+            "Text": {
+              "Content": "KI-gestütztes Wissensmanagement:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung.",
+            "Href": null,
+            "Text": {
+              "Content": " Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8052-bbd1-f668bf518965",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8055-8c01-efb9f9cf22f4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8048-a202-da796b451e2e",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0e3cc9b7-b74f-4b09-9326-41a5dc7b6b50/plattform-e-timeline.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665QBB6A5R%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiRUC%2B6QR5K%2FD7ru7YIDLhqKMIQZHVeiXcozzBILITdgIhANS42M8HLLx6oQ1GldXT5uY13NaA93mHacKERCJd2x6NKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwZQMLpc2UXSfGTpXIq3AMhItQl4dwEu8rdJreGXEcwv29mHs1tkdjSOhWJ36PCHgdoLOtVtVnmL1tRdPdZJLzf9pbcjwIjCgoQermJYDgj5iuA%2F2ZXsub5QfTbBF49JOWQC0xn8eJDIF%2BZ2crKA2Ss0Jd1wWCljc4VhXrUdHWvTWDlS3UtHyX%2BRURZxpI4y0Ftkwl2jceR0Vwp3MT9pAfV%2BFPQZtVIJqUdGeX4GrhLpqyPsDP%2FfiRarzNXBiFHi4kgcVWr6lYWjak%2BjsQ%2BrlFiSperASjYE0kg2OU0LmfL4wi%2F%2Fu2f5MzsjrrwSVdQ3tmzlRc8CCmjmXfqGLbuICBScv3JUZa9n5Y4sZwhBYQEVBFcQHhLVNUOStCZwYzE8STIHyWd0EoSNGXeSxlfdiB1%2BAsUh1JrL8rKmX%2BZWQZcLD9j2cXTaA8kdnJPYP7YAyzXwsk66pMQrMkebBoO8B21uyyMFJgnqwJONZjqSSPeegcK2T3ZupFE4XqVwHzGF%2FC0ZFxDnRH0mpHPKiSyUHA1dB0f%2B2etWJ7YsVwr96VfPcuhD7vZYIu%2Bo%2B2zXo60a9gGuuy%2FBFw07ojYfBJjMs2WKkBjSMouLj2N91yappxGckGfVY024BvVq6MSYiEURlMkHjtbT7kzUJ2GlTDdh8DDBjqkAT8Pnynv7eepdzKSg24nCCGt5DTq2foWSW6eHmM7F49Ufa3VGvKgIBrIrAPbPB5xp0Z1KkbewrFzFs8q8VW9%2BDjxmLhbC0zLp3WTrwok3ev%2FhZ6St66Qj8mMau1apg5uHpdlPJ0n5OyttVq6TlYXEI2xbY4Pgj3FVD8fQcab9Ao%2FDCiF6cbLRrZjki2ixVeO%2BzRZOmrXIy432Z%2BZgITMhc6ZTusz&X-Amz-Signature=1094932b9b8e407746f9780236e470a5422612e9924021889af89ead80afc8dc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.323Z"
+        }
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-801d-87be-feb68e852480",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-800f-8be8-fd3f9fab0577",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine Plattform für alle, die einfach bauen wollen",
+            "Href": null,
+            "Text": {
+              "Content": "Eine Plattform für alle, die einfach bauen wollen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80ab-bbb6-c2dbbc6ff570",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Plattform‑E richtet sich an alle, die die Bauwende konkret vorantreiben wollen: mutige Planer:innen, ambitionierte Kommunen, innovative Bauträger oder experimentierfreudige Bauherr:innen. Gemeinsam entstehen so replizierbare Lösungswege, die überreguliertes Bauen hinterfragen – und eine Kultur des einfachen, verantwortungsbewussten Bauens fördern.",
+            "Href": null,
+            "Text": {
+              "Content": "Plattform‑E richtet sich an alle, die die Bauwende konkret vorantreiben wollen: mutige Planer:innen, ambitionierte Kommunen, innovative Bauträger oder experimentierfreudige Bauherr:innen. Gemeinsam entstehen so replizierbare Lösungswege, die überreguliertes Bauen hinterfragen – und eine Kultur des einfachen, verantwortungsbewussten Bauens fördern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8059-b59d-cf0675669fc8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sie arbeiten an einem Projekt zum Gebäudetyp E oder möchten einfaches, kosteneffizientes Bauen unterstützen?",
+            "Href": null,
+            "Text": {
+              "Content": "Sie arbeiten an einem Projekt zum Gebäudetyp E oder möchten einfaches, kosteneffizientes Bauen unterstützen?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8065-bd2b-e0545206725f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dann werden Sie Teil des Netzwerks – als Botschafter:in, Partner:in oder Impulsgeber:in!",
+            "Href": null,
+            "Text": {
+              "Content": "Dann werden Sie Teil des Netzwerks – als Botschafter:in, Partner:in oder Impulsgeber:in!"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80ee-bd7a-c59d52704ea2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kontakt: ",
+            "Href": null,
+            "Text": {
+              "Content": "Kontakt: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "info@plattform-e.org",
+            "Href": "mailto:info@plattform-e.org",
+            "Text": {
+              "Content": "info@plattform-e.org",
+              "Link": {
+                "Url": "mailto:info@plattform-e.org"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80f5-80fd-cc2a44460a28",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mehr erfahren: ",
+            "Href": null,
+            "Text": {
+              "Content": "Mehr erfahren: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "www.plattform-e.org",
+            "Href": "https://www.plattform-e.org/",
+            "Text": {
+              "Content": "www.plattform-e.org",
+              "Link": {
+                "Url": "https://www.plattform-e.org/"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8076-ba42-eb07336ff1eb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8062-b362-d476fa8d8a69",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

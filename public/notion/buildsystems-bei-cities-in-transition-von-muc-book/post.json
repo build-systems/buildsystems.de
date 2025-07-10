@@ -1,0 +1,307 @@
+{
+  "PageId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+  "Title": "BuildSystems bei Cities in Transition von MUC BOOK",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Events",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e7cf130e-765a-449f-919e-2f29338bbed6/buildsystems-bei-cities-in-transition-von-muc-book_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=16fdda7a30f1dab3d29d3b2d599ca505bf035e8c7bd21316215d0cf8f55a2c87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Julia Dorn on stage talking",
+  "Slug": "buildsystems-bei-cities-in-transition-von-muc-book",
+  "PublishDate": "2024-02-08",
+  "Tags": [
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "d70b0fc6-b397-4e1b-a2f3-dffe9faca5b0",
+      "name": "Fit for Future",
+      "color": "blue"
+    }
+  ],
+  "Description": "Julia Dorn stellt “Fit for Future” beim Sustainable City Mash-Up von Munich Next Level vor. ",
+  "coverAsset": "buildsystems-bei-cities-in-transition-von-muc-book_cover.jpg",
+  "blockAssets": [],
+  "blocks": [
+    {
+      "Id": "6674c409-d67a-40f0-8605-bfe9d3aade99",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Stadtgestaltung der Zukunft ist disziplinübergreifend und innovativ!",
+            "Href": null,
+            "Text": {
+              "Content": "Die Stadtgestaltung der Zukunft ist disziplinübergreifend und innovativ!"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "41510ed4-478f-4042-b985-75561d2936e2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sustainable City Mash-Up!",
+            "Href": "https://www.mucbook.de/sustainable-city-mash-up/",
+            "Text": {
+              "Content": "Sustainable City Mash-Up!",
+              "Link": {
+                "Url": "https://www.mucbook.de/sustainable-city-mash-up/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " von ",
+            "Href": null,
+            "Text": {
+              "Content": " von "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "MUNICH NEXT LEVEL",
+            "Href": "https://www.mucbook.de/author/munich-next-level/",
+            "Text": {
+              "Content": "MUNICH NEXT LEVEL",
+              "Link": {
+                "Url": "https://www.mucbook.de/author/munich-next-level/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " macht vor, wie es geht und bringt in einem spannenden Format alle relevanten Aspekte der urbanen Transformation zusammen: Mobilität, Grüne Infrastruktur, Wohnen, Beteiligung, Zirkularität, Digitalisierung und Klimaresilienz. Denn die Dekarbonisierung schaffen wir nur gemeinsam! ",
+            "Href": null,
+            "Text": {
+              "Content": " macht vor, wie es geht und bringt in einem spannenden Format alle relevanten Aspekte der urbanen Transformation zusammen: Mobilität, Grüne Infrastruktur, Wohnen, Beteiligung, Zirkularität, Digitalisierung und Klimaresilienz. Denn die Dekarbonisierung schaffen wir nur gemeinsam! "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "MUC BOOK",
+            "Href": "https://www.mucbook.de/",
+            "Text": {
+              "Content": "MUC BOOK",
+              "Link": {
+                "Url": "https://www.mucbook.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " zeigt damit einmal mehr, wie lokales “Stadt Machen” funktioniert und wie man Leute zusammenbringt, die gemeinsam ein nachhaltiges München vorranbringen möchten. ",
+            "Href": null,
+            "Text": {
+              "Content": " zeigt damit einmal mehr, wie lokales “Stadt Machen” funktioniert und wie man Leute zusammenbringt, die gemeinsam ein nachhaltiges München vorranbringen möchten. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "dabc8b06-ea8c-4352-ae67-a1b07fa63292",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bei dem Event präsentierte Julia Dorn das “Fit for Future” Workshopformat von BuildSystems. Der Ansatz bietet eine interaktive Herangehensweise, um praktikable Lösungen für die Optimierung von Gebäuden im Sinn der Nachhaltigkeit zu erschließen. Dabei stehen die verschiedenen Stellschrauben der Nachhaltigkeit  und deren Impact im Fokus.",
+            "Href": null,
+            "Text": {
+              "Content": "Bei dem Event präsentierte Julia Dorn das “Fit for Future” Workshopformat von BuildSystems. Der Ansatz bietet eine interaktive Herangehensweise, um praktikable Lösungen für die Optimierung von Gebäuden im Sinn der Nachhaltigkeit zu erschließen. Dabei stehen die verschiedenen Stellschrauben der Nachhaltigkeit  und deren Impact im Fokus."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cbd70e98-495e-49ce-b9ca-1e1fc8b71e31",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Workshopformat wurde als ein spielerischer Zugang konzipiert, um komplexe Nachhaltigkeitskonzepte zugänglich zu machen. Durch interaktive Übungen und Diskussionen konnten die Teilnehmenden die verschiedenen Aspekte der nachhaltigen Stadtentwicklung in der gebauten Umwelt untersuchen. Wir legten besonderen Wert auf die Integration von Ideen und den Austausch von Best Practice Beispielen zwischen den Teilnehmenden, um gemeinsam praktikable Lösungen zu entwickeln. Unser Ziel war es, ein ganzheitliches Verständnis für die Herausforderungen und Chancen der nachhaltigen Stadtentwicklung zu vermitteln und die Teilnehmer zu befähigen, aktiv dazu beizutragen.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Workshopformat wurde als ein spielerischer Zugang konzipiert, um komplexe Nachhaltigkeitskonzepte zugänglich zu machen. Durch interaktive Übungen und Diskussionen konnten die Teilnehmenden die verschiedenen Aspekte der nachhaltigen Stadtentwicklung in der gebauten Umwelt untersuchen. Wir legten besonderen Wert auf die Integration von Ideen und den Austausch von Best Practice Beispielen zwischen den Teilnehmenden, um gemeinsam praktikable Lösungen zu entwickeln. Unser Ziel war es, ein ganzheitliches Verständnis für die Herausforderungen und Chancen der nachhaltigen Stadtentwicklung zu vermitteln und die Teilnehmer zu befähigen, aktiv dazu beizutragen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "eb14d44f-304b-4ccd-b0d4-7641ed443dc2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wir sind überzeugt, dass eine nachhaltige Zukunft für unsere Städte möglich ist, und dass durch gemeinsame Anstrengungen und Zusammenarbeit konkrete Fortschritte erzielt werden können. BuildSystems setzt dabei auf die Expertise und das Engagement aller Branchenmitglieder.",
+            "Href": null,
+            "Text": {
+              "Content": "Wir sind überzeugt, dass eine nachhaltige Zukunft für unsere Städte möglich ist, und dass durch gemeinsame Anstrengungen und Zusammenarbeit konkrete Fortschritte erzielt werden können. BuildSystems setzt dabei auf die Expertise und das Engagement aller Branchenmitglieder."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c6551611-2e62-49b2-b6fc-2aa4ec79dc0e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0ade202d-3e90-44b6-a0ba-3fd038b25b4e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "8ee7f496-ce83-4110-94fd-2a851a0e980b",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover: „Munich Next Level / storiestobetold“",
+            "Href": null,
+            "Text": {
+              "Content": "Cover: „Munich Next Level / storiestobetold“"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

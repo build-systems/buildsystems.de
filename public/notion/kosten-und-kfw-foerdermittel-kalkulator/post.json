@@ -1,0 +1,716 @@
+{
+  "PageId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+  "Title": "“Best Fit” aus Energiestandard und Fördermitteln mit dem Tool von BuildSystems",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Tool",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f4bf310c-fc63-4193-8f2c-d468f19bb4a8/kosten-und-kfw-fordermittel-kalkulator_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=9e6182419ce1e7264f953a28361366f23ee6c504bb189c8c0a703d9691499fc8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Die Webanwendung des Rechners von BuildSystems",
+  "Slug": "kosten-und-kfw-foerdermittel-kalkulator",
+  "PublishDate": "2024-03-08",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    },
+    {
+      "id": "6ac22a5f-2a41-4dd8-8954-86ea331315e0",
+      "name": "Wohnungsbau",
+      "color": "pink"
+    }
+  ],
+  "Description": "Welche Nachhaltigkeitsanforderungen muss ein Gebäude erreichen, um möglichst günstige KfW-Förderkonditionen zu erreichen? Das Fördertool gibt Antworten!",
+  "coverAsset": "kosten-und-kfw-fordermittel-kalkulator_cover.jpg",
+  "blockAssets": [
+    "kosten-und-kfw-fordermittel-kalkulator_Anwendung2.jpg",
+    "kosten-und-kfw-fordermittel-kalkulator_darlehen.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "bdf47a84-b17b-48e8-afc0-5e37d46f3262",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der ",
+            "Href": null,
+            "Text": {
+              "Content": "Der "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kalkulator von BuildSystems",
+            "Href": "https://app.buildsystems.de/",
+            "Text": {
+              "Content": "Kalkulator von BuildSystems",
+              "Link": {
+                "Url": "https://app.buildsystems.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " generiert überschlägige Kostenpunkte in Zusammenhang mit den Energieeffizienzhausstufen (EH40 - EH85) sowie weiteren Kriterien und stellt sie möglichen Förderoptionen gegenüber. Immobilienbesitzer und -entwickler erhalten hiermit einen schnellen Überblick, welche Option für das jeweilige Projekt die günstigsten Konditionen bietet. Vergleichen Sie die finanziellen Vorteile der verschiedenen ",
+            "Href": null,
+            "Text": {
+              "Content": " generiert überschlägige Kostenpunkte in Zusammenhang mit den Energieeffizienzhausstufen (EH40 - EH85) sowie weiteren Kriterien und stellt sie möglichen Förderoptionen gegenüber. Immobilienbesitzer und -entwickler erhalten hiermit einen schnellen Überblick, welche Option für das jeweilige Projekt die günstigsten Konditionen bietet. Vergleichen Sie die finanziellen Vorteile der verschiedenen "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "KfW-Förderprodukte",
+            "Href": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/F%C3%B6rderprodukte-(S3).html",
+            "Text": {
+              "Content": "KfW-Förderprodukte",
+              "Link": {
+                "Url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/F%C3%B6rderprodukte-(S3).html"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " spielerisch und finden Sie den “Best-Fit” aus Energieeffizienz und Förderung für Ihre Immobilie. ",
+            "Href": null,
+            "Text": {
+              "Content": " spielerisch und finden Sie den “Best-Fit” aus Energieeffizienz und Förderung für Ihre Immobilie. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1050d617-32ee-4804-9438-9eceeb27b8c9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gerne unterstützen wir auf dem weiteren Weg der Umsetzung und begleiten durch Bestandsaufnahme und Sanierungsfahrplan bis zur Fördermittelbeantragung.",
+            "Href": null,
+            "Text": {
+              "Content": "Gerne unterstützen wir auf dem weiteren Weg der Umsetzung und begleiten durch Bestandsaufnahme und Sanierungsfahrplan bis zur Fördermittelbeantragung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b7916a56-bbe2-4003-adec-453c9cc391ee",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Kontext von Fördermitteln und Finanzierungserleichterungen",
+            "Href": null,
+            "Text": {
+              "Content": "Der Kontext von Fördermitteln und Finanzierungserleichterungen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "bf17f3d6-6837-474f-af73-a285f7177567",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Angesichts der anhaltenden Krise in der Baubranche sind öffentliche Fördermittel, wie zum Beispiel die KfW-Förderung für die energieeffiziente ",
+            "Href": null,
+            "Text": {
+              "Content": "Angesichts der anhaltenden Krise in der Baubranche sind öffentliche Fördermittel, wie zum Beispiel die KfW-Förderung für die energieeffiziente "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sanierung",
+            "Href": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Bundesf%C3%B6rderung-f%C3%BCr-effiziente-Geb%C3%A4ude-Wohngeb%C3%A4ude-Kredit-(261-262)/",
+            "Text": {
+              "Content": "Sanierung",
+              "Link": {
+                "Url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Bundesf%C3%B6rderung-f%C3%BCr-effiziente-Geb%C3%A4ude-Wohngeb%C3%A4ude-Kredit-(261-262)/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " oder den ",
+            "Href": null,
+            "Text": {
+              "Content": " oder den "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Klimafreundlichen Neubau",
+            "Href": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-%E2%80%93-Wohngeb%C3%A4ude-(297-298)/",
+            "Text": {
+              "Content": "Klimafreundlichen Neubau",
+              "Link": {
+                "Url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-%E2%80%93-Wohngeb%C3%A4ude-(297-298)/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", für die wirtschaftliche Durchführung von Bau- und Sanierungsprojekten unverzichtbar geworden. Häufig ist die Gegenüberstellung von realistischen Investitionskosten mit konkreten Fördermittelpotenzialen entscheidend für Ankaufs- und Umsetzungsentscheidungen.",
+            "Href": null,
+            "Text": {
+              "Content": ", für die wirtschaftliche Durchführung von Bau- und Sanierungsprojekten unverzichtbar geworden. Häufig ist die Gegenüberstellung von realistischen Investitionskosten mit konkreten Fördermittelpotenzialen entscheidend für Ankaufs- und Umsetzungsentscheidungen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b2df25ed-eaac-4453-9fde-c46d09697c8f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Allgemein ist die Förderlandschaft für die Projektentwicklung und Gebäudesanierung in Deutschland recht unübersichtlich und basiert auf unterschiedlichsten Parametern wie z.B. Gebäudezustand, Maßnahmenmix, Energiestandard, Nachhaltigkeitssiegel, Laufzeit und Investitionskosten. Zudem gibt es unterschiedliche Förderprogramme, die teilweise inhaltlich das Gleiche fördern oder teilweise kombiniert werden können. Die verschiedenen Förderansätze sind an unterschiedliche Tilgungszuschüsse, Zinsbindungen und entsprechende Amortisationszeiten geknüpft. ",
+            "Href": null,
+            "Text": {
+              "Content": "Allgemein ist die Förderlandschaft für die Projektentwicklung und Gebäudesanierung in Deutschland recht unübersichtlich und basiert auf unterschiedlichsten Parametern wie z.B. Gebäudezustand, Maßnahmenmix, Energiestandard, Nachhaltigkeitssiegel, Laufzeit und Investitionskosten. Zudem gibt es unterschiedliche Förderprogramme, die teilweise inhaltlich das Gleiche fördern oder teilweise kombiniert werden können. Die verschiedenen Förderansätze sind an unterschiedliche Tilgungszuschüsse, Zinsbindungen und entsprechende Amortisationszeiten geknüpft. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cb5502b9-7568-49ae-8737-b86ac087d7b6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Es ist sehr aufwändig, die verschiedenen Optionen analog miteinander zu vergleichen und abzuwägen, welcher Weg eingeschlagen werden soll. So sind Projektentwickler und Bauherrn mit der Zielfindung zwischen Energiestandard und Finanzierungskonzept häufig alleingelassen, da die übergreifende Expertise weder auf der Seite der Hausbanken, die die Vergabe der Förderkredite abwickeln, noch auf der Seite der Planenden vorhanden ist.",
+            "Href": null,
+            "Text": {
+              "Content": "Es ist sehr aufwändig, die verschiedenen Optionen analog miteinander zu vergleichen und abzuwägen, welcher Weg eingeschlagen werden soll. So sind Projektentwickler und Bauherrn mit der Zielfindung zwischen Energiestandard und Finanzierungskonzept häufig alleingelassen, da die übergreifende Expertise weder auf der Seite der Hausbanken, die die Vergabe der Förderkredite abwickeln, noch auf der Seite der Planenden vorhanden ist."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0397fb92-680d-4442-9a25-eb26a7408103",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Trotz vorhandener Fördermittel ist aktuell ein Stillstand im Neubausektor zu beobachten. Auf der Seite der Bestandssanierung stehen Bestandshalter, Assetmanager und Family Offices vor der umfänglichen Herausforderung, bestehenden Gebäudeportfolios an die steigenden energetischen und ökologischen Anforderungen anzupassen. Bedingt durch die aktuelle Zins- und Preisentwicklung, ist auch in diesem Bereich ein entsprechender Förderbedarf festzustellen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Trotz vorhandener Fördermittel ist aktuell ein Stillstand im Neubausektor zu beobachten. Auf der Seite der Bestandssanierung stehen Bestandshalter, Assetmanager und Family Offices vor der umfänglichen Herausforderung, bestehenden Gebäudeportfolios an die steigenden energetischen und ökologischen Anforderungen anzupassen. Bedingt durch die aktuelle Zins- und Preisentwicklung, ist auch in diesem Bereich ein entsprechender Förderbedarf festzustellen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "81be5234-826e-4835-b330-dca1361cb8db",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Baukosten- und Fördermittelkalkulator in der Anwendung",
+            "Href": null,
+            "Text": {
+              "Content": "Baukosten- und Fördermittelkalkulator in der Anwendung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/25de8b1a-0888-4987-ac96-3742837db4f1/kosten-und-kfw-fordermittel-kalkulator_Anwendung2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466V667WQ5N%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCkDYIKzsEgqUh3nYy9KTsoLwkDFYO6xltTnudPOTMVagIgei8lJHvNeuX%2BwqMsUVoi8%2BPZmROMPu1BchUs3wX38zoqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCnS8lc2B2VPyiJn1CrcA%2Fc9p71a85%2BzqpxfpsVQlA7kz8iH6YYZ6D4%2FULGxcbDdFrHcP7ZAV9y0nRgiSSYnkbE2qxBJ6poJFhYgUG3cAuUBFYTy%2BcBKEKjyDYibNM3MAyL47%2FfiFkG2uH0xvj88dOHpD8nSlre%2FanB97IgzCtRccOLnFg5Q9MNhYiBmT7MYCejiDeFYo7H5UuvwBE82bCPEnGxb%2FetdZWBj0WbQmcGsELbcaeIG5V7ZrH20cUX%2FvnsDC8k%2BlWpEfYkgpcUTSU2iXVkCVQaowoXUD8HlNvNhTCgjYqekXvAX5IcWRrQDAy4AhOoJ8ElfNAJkql3Na7pQIl9WPQd5bySoLx1I18hLj0%2BMnUePgiZux3YGthqvu5BNsrG2fPnI9hA9asX3QWvDk8Vq%2FndePwAp2IuUTjcky6riDJexqgWb4JQEg6hpxMEqSYaRHPXvnLPOqFAsmKs0SYOepFx%2BiiudgoQrvdSbgjqrcda%2BgVNHP60adWr17yO4jx2L0H06MyESHm%2FIwP%2B4%2Fwc71d2Y547832FHIWLpjn2rEnAh1eY3XifEvFZe40ts95F70NBoiMinIEmjpJcENFapsblMIxgsctk3AAR79%2Bx0vjaDl7YQTIuowzbASZtCciFPrV2F%2F8tmMP2HwMMGOqUBtyLVlw9SHXY%2B%2BQv2as2%2FMNNS%2BuVbtESDYuWXER1JDdHAUvEZVvsXAsvmnT0%2FLxGvcPgArhJ8uIPIZTjqvx4I0O4JLDHgGJ%2FU1or32ehUd8HMXEhHbCIzk5ugwc%2BactTIh6qGs1W895wLeacq%2B0F50JFXt2%2B0PnRpUbgQTkAPINHh5p5Bb1Lz6aDmZLPXhKyJp3JFEvzWbE8fYlE9T672WTGUrSJo&X-Amz-Signature=88bfdf84a9504de17fd485fd9aa64ad8788aa105733e32609e1371881ad2380d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.615Z"
+        }
+      }
+    },
+    {
+      "Id": "63ce2573-63de-425f-b688-fdac1004019c",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Baukosten- und Fördermittelkalkulator von BuildSystems ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Baukosten- und Fördermittelkalkulator von BuildSystems "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "93fc3553-7bc9-4a42-8849-d5be36ff03fa",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der webbasierte Baukosten- und Fördermittel-Kalkulator ergänzt die Leistungen von BuildSystems, um Kunden und Bauherren mehr Transparenz während der Fördermittelabfrage in einem frühen Stadium der Planung zu gewähren. Das Tool wird als Webanwendung bereitgestellt und kann von den Kunden entweder eigenständig oder in Zusammenarbeit mit BuildSystems genutzt werden, um die Zielsetzung in Projektierungen und Revitalisierungen zu vereinfachen.",
+            "Href": null,
+            "Text": {
+              "Content": "Der webbasierte Baukosten- und Fördermittel-Kalkulator ergänzt die Leistungen von BuildSystems, um Kunden und Bauherren mehr Transparenz während der Fördermittelabfrage in einem frühen Stadium der Planung zu gewähren. Das Tool wird als Webanwendung bereitgestellt und kann von den Kunden entweder eigenständig oder in Zusammenarbeit mit BuildSystems genutzt werden, um die Zielsetzung in Projektierungen und Revitalisierungen zu vereinfachen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "bb78ec4b-15b0-4f94-859b-9b692725f781",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bauherren erhalten eine nachvollziehbare Gegenüberstellung von Baukosten für Energieeffizienzmaßnahmen und potenziellen Fördermitteln. Dies ermöglicht es, die langfristigen finanziellen Vorteile einer energieeffizienten Bauweise zu bewerten und fundierte Entscheidungen zu treffen. Bauherren und Assethalter stellen sicher, dass sie alle verfügbaren finanziellen Unterstützungen nutzen und ihre Bauvorhaben kosteneffizient umsetzen. Indem das Tool Amortisationszeiten sowie langfristige finanzielle Vorteile bewertet, hilft es bei der Priorisierung und Entscheidungsfindung und überbrückt damit die Diskrepanz zwischen planerischem Fachwissen und Finanzierungskompetenz. Allgemein werden so die Investitionskosten für energieeffiziente Gebäude gesenkt, die Rentabilität verbessert und das Risiko des Portfolios langfristig minimiert.",
+            "Href": null,
+            "Text": {
+              "Content": "Bauherren erhalten eine nachvollziehbare Gegenüberstellung von Baukosten für Energieeffizienzmaßnahmen und potenziellen Fördermitteln. Dies ermöglicht es, die langfristigen finanziellen Vorteile einer energieeffizienten Bauweise zu bewerten und fundierte Entscheidungen zu treffen. Bauherren und Assethalter stellen sicher, dass sie alle verfügbaren finanziellen Unterstützungen nutzen und ihre Bauvorhaben kosteneffizient umsetzen. Indem das Tool Amortisationszeiten sowie langfristige finanzielle Vorteile bewertet, hilft es bei der Priorisierung und Entscheidungsfindung und überbrückt damit die Diskrepanz zwischen planerischem Fachwissen und Finanzierungskompetenz. Allgemein werden so die Investitionskosten für energieeffiziente Gebäude gesenkt, die Rentabilität verbessert und das Risiko des Portfolios langfristig minimiert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "66c09953-c23e-46b2-9b2c-91880cc5253d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Tool kann auch von Architekten oder Energieberatern gewinnbringend bei der Beratung von Kunden genutzt werden, da es auch in dieser Konstellation die Bewertung verschiedener Optionen beschleunigt.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Tool kann auch von Architekten oder Energieberatern gewinnbringend bei der Beratung von Kunden genutzt werden, da es auch in dieser Konstellation die Bewertung verschiedener Optionen beschleunigt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "47c98fa6-7c69-42cc-803e-a08056a8a35a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Tool wird langfristig durch das Team von BuildSystems gewartet und kontinuierlich in regelmäßigen Abständen an sich ändernde Förderprogramme und Anforderungen angepasst.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Tool wird langfristig durch das Team von BuildSystems gewartet und kontinuierlich in regelmäßigen Abständen an sich ändernde Förderprogramme und Anforderungen angepasst."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "048fed5a-18ac-4a77-8467-d446327bc729",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Grundsätzlich unterstützt der Kalkulator die Skalierung energieeffizienter Bauweisen und leistet einen Beitrag zur Erreichung von Nachhaltigkeitszielen auf lokaler und nationaler Ebene. Langfristig wird so dazu beigetragen, den ökologischen Fußabdruck des Bauwesens zu verringern und den Klimawandel einzudämmen.",
+            "Href": null,
+            "Text": {
+              "Content": "Grundsätzlich unterstützt der Kalkulator die Skalierung energieeffizienter Bauweisen und leistet einen Beitrag zur Erreichung von Nachhaltigkeitszielen auf lokaler und nationaler Ebene. Langfristig wird so dazu beigetragen, den ökologischen Fußabdruck des Bauwesens zu verringern und den Klimawandel einzudämmen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3336e601-6186-4412-99d1-4653495b8907",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Beispielrechnung für die Finanzierungskosten mit der KfW ",
+            "Href": null,
+            "Text": {
+              "Content": "Beispielrechnung für die Finanzierungskosten mit der KfW "
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/234da61f-7481-4289-a02c-b08e60fcb26a/kosten-und-kfw-fordermittel-kalkulator_darlehen.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466V667WQ5N%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCkDYIKzsEgqUh3nYy9KTsoLwkDFYO6xltTnudPOTMVagIgei8lJHvNeuX%2BwqMsUVoi8%2BPZmROMPu1BchUs3wX38zoqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCnS8lc2B2VPyiJn1CrcA%2Fc9p71a85%2BzqpxfpsVQlA7kz8iH6YYZ6D4%2FULGxcbDdFrHcP7ZAV9y0nRgiSSYnkbE2qxBJ6poJFhYgUG3cAuUBFYTy%2BcBKEKjyDYibNM3MAyL47%2FfiFkG2uH0xvj88dOHpD8nSlre%2FanB97IgzCtRccOLnFg5Q9MNhYiBmT7MYCejiDeFYo7H5UuvwBE82bCPEnGxb%2FetdZWBj0WbQmcGsELbcaeIG5V7ZrH20cUX%2FvnsDC8k%2BlWpEfYkgpcUTSU2iXVkCVQaowoXUD8HlNvNhTCgjYqekXvAX5IcWRrQDAy4AhOoJ8ElfNAJkql3Na7pQIl9WPQd5bySoLx1I18hLj0%2BMnUePgiZux3YGthqvu5BNsrG2fPnI9hA9asX3QWvDk8Vq%2FndePwAp2IuUTjcky6riDJexqgWb4JQEg6hpxMEqSYaRHPXvnLPOqFAsmKs0SYOepFx%2BiiudgoQrvdSbgjqrcda%2BgVNHP60adWr17yO4jx2L0H06MyESHm%2FIwP%2B4%2Fwc71d2Y547832FHIWLpjn2rEnAh1eY3XifEvFZe40ts95F70NBoiMinIEmjpJcENFapsblMIxgsctk3AAR79%2Bx0vjaDl7YQTIuowzbASZtCciFPrV2F%2F8tmMP2HwMMGOqUBtyLVlw9SHXY%2B%2BQv2as2%2FMNNS%2BuVbtESDYuWXER1JDdHAUvEZVvsXAsvmnT0%2FLxGvcPgArhJ8uIPIZTjqvx4I0O4JLDHgGJ%2FU1or32ehUd8HMXEhHbCIzk5ugwc%2BactTIh6qGs1W895wLeacq%2B0F50JFXt2%2B0PnRpUbgQTkAPINHh5p5Bb1Lz6aDmZLPXhKyJp3JFEvzWbE8fYlE9T672WTGUrSJo&X-Amz-Signature=4e4799418af0fb3417e4009954578f3427fb2044922d15c16a19a4ea839a7800&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.612Z"
+        }
+      }
+    },
+    {
+      "Id": "ea492d35-d027-43d2-8e24-2b83ceb07f24",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ausblick",
+            "Href": null,
+            "Text": {
+              "Content": "Ausblick"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "24513b2f-1ad0-4d67-93f4-6de4955f9fa5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine weitere Version soll Projektentwicklern und Assethaltern noch ganzheitlichere Informationen über anfallende Kosten und potenziellen Einsparungen energieeffizienter Bauprojekte aufzeigen, indem es Kosten und Vorteile einer KfW-Gesamtmaßnahme mit denen von Bafa-Einzelmaßnahmen abgleicht. Dafür werden einerseits die Kosten bedingt durch die unterschiedlichen Anforderungen den jeweiligen Vergünstigungen durch Tilgungszuschüsse und vergünstigte Kreditzinsen gegenüberstellt. Andererseits soll der Rechner für die unterschiedlichen Varianten jeweils das Einsparpotenzial der Energiekosten basierend auf dem gewählten Energieeffizienzhausstandard anzeigen. Dadurch kann der Nutzer besser abschätzen, wie sich die Entscheidung für die eine oder andere Finanzierungsoption auf die Gesamtkosten auswirkt.",
+            "Href": null,
+            "Text": {
+              "Content": "Eine weitere Version soll Projektentwicklern und Assethaltern noch ganzheitlichere Informationen über anfallende Kosten und potenziellen Einsparungen energieeffizienter Bauprojekte aufzeigen, indem es Kosten und Vorteile einer KfW-Gesamtmaßnahme mit denen von Bafa-Einzelmaßnahmen abgleicht. Dafür werden einerseits die Kosten bedingt durch die unterschiedlichen Anforderungen den jeweiligen Vergünstigungen durch Tilgungszuschüsse und vergünstigte Kreditzinsen gegenüberstellt. Andererseits soll der Rechner für die unterschiedlichen Varianten jeweils das Einsparpotenzial der Energiekosten basierend auf dem gewählten Energieeffizienzhausstandard anzeigen. Dadurch kann der Nutzer besser abschätzen, wie sich die Entscheidung für die eine oder andere Finanzierungsoption auf die Gesamtkosten auswirkt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "153a141a-5491-45a0-a3fe-b9767eb661bd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "83300dc0-a567-4206-83bc-d40b211dc2af",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Darüber hinaus gibt es die Möglichkeit, das Tool um das Element der Dekarbonisierung zu erweitern. Dabei schwebt dem Team die Integration des ",
+            "Href": null,
+            "Text": {
+              "Content": "Darüber hinaus gibt es die Möglichkeit, das Tool um das Element der Dekarbonisierung zu erweitern. Dabei schwebt dem Team die Integration des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "CRREM Tools",
+            "Href": "https://www.crrem.eu/",
+            "Text": {
+              "Content": "CRREM Tools",
+              "Link": {
+                "Url": "https://www.crrem.eu/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " vor – eine Methode um das Klimarisiko und den Dekarbonsierungsbedarf von Immobilien zu bewerten. Damit würde unser Tool Hausbesitzer:innen in Deutschland dabei helfen, die Abweichung ihres Gebäudes von den Pariser Klimazielen zu bewerten und den entsprechenden Handlungsbedarf zu definieren. Mit dieser weiteren Ausbaustufe stellt das Tool die drei Bereiche Kosten, Förderungen und Ökologie umfänglich dar und bildet die digitale Ausformulierung eines ganzheitlichen Ansatzes.",
+            "Href": null,
+            "Text": {
+              "Content": " vor – eine Methode um das Klimarisiko und den Dekarbonsierungsbedarf von Immobilien zu bewerten. Damit würde unser Tool Hausbesitzer:innen in Deutschland dabei helfen, die Abweichung ihres Gebäudes von den Pariser Klimazielen zu bewerten und den entsprechenden Handlungsbedarf zu definieren. Mit dieser weiteren Ausbaustufe stellt das Tool die drei Bereiche Kosten, Förderungen und Ökologie umfänglich dar und bildet die digitale Ausformulierung eines ganzheitlichen Ansatzes."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

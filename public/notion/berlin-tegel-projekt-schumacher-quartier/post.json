@@ -1,0 +1,692 @@
+{
+  "PageId": "f93b046f-9894-4895-8030-ade534c4ec45",
+  "Title": "Potenzialanalyse und Vergabematrix für das Schumacher Quartier",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b5b98bf4-8646-4fb8-bfdd-8efea16c581f/berlin-tegel-projekt-schumacher-quartier_birdsview.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=b11870fa7ed6ca0f37dc3b1acff5f2206ee513b1948450c19eec4bc49b1a36de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Einblick in die Studien mit Cover",
+  "Slug": "berlin-tegel-projekt-schumacher-quartier",
+  "PublishDate": "2023-12-01",
+  "Tags": [
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    },
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    },
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    }
+  ],
+  "Description": "Nachhaltige Indikatoren beim Vergabeverfahren des Schumacher Holzbauquartiers Berlin Tegel ",
+  "coverAsset": "berlin-tegel-projekt-schumacher-quartier_birdsview.jpg",
+  "blockAssets": [
+    "berlin-tegel-projekt-schumacher-quartier_cover-studie.jpg",
+    "Untitled.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "18eea5d5-d58e-4232-8901-eb2a5225fb28",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zweistufige Studie zu Potenzialen des Holzbaus und Berücksichtigung bei der Grundstücksvergabe ",
+            "Href": null,
+            "Text": {
+              "Content": "Zweistufige Studie zu Potenzialen des Holzbaus und Berücksichtigung bei der Grundstücksvergabe "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3b34eeaa-9562-499f-b1f1-d8e32e7dac10",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auf dem östlichen Teil des ehemaligen Flughafen Tegel soll das mit mehr als 5.000 Wohnungen größte Holzbau-Quartier weltweit entstehen: das Schumacher Quartier. Im Fokus stehen Klimaneutralität und Bezahlbarkeit – sowohl für Bauherren als auch für die späteren Mietparteien. Hier soll ein System etabliert werden, mit dem mittelfristig um 20-25 % günstiger gebaut werden kann als bei konventioneller Bauweise. Dabei sollen gleichzeitig 80 % klimaschädliche Emissionen eingespart werden. Wie dies gelingen kann, wurde von Mai bis Oktober 2020 im Rahmen einer Potentialanalyse zusammen mit der TU Berlin und dem Fraunhofer IPK untersucht. Im Anschluss an die Studie wurde ein vertiefendes Arbeitspaket beauftragt, in Rahmen dessen ein Vorschlag für eine mögliche „Holzbaudefinitionen für die Grundstücksvergabe“ erarbeitet wurde. ",
+            "Href": null,
+            "Text": {
+              "Content": "Auf dem östlichen Teil des ehemaligen Flughafen Tegel soll das mit mehr als 5.000 Wohnungen größte Holzbau-Quartier weltweit entstehen: das Schumacher Quartier. Im Fokus stehen Klimaneutralität und Bezahlbarkeit – sowohl für Bauherren als auch für die späteren Mietparteien. Hier soll ein System etabliert werden, mit dem mittelfristig um 20-25 % günstiger gebaut werden kann als bei konventioneller Bauweise. Dabei sollen gleichzeitig 80 % klimaschädliche Emissionen eingespart werden. Wie dies gelingen kann, wurde von Mai bis Oktober 2020 im Rahmen einer Potentialanalyse zusammen mit der TU Berlin und dem Fraunhofer IPK untersucht. Im Anschluss an die Studie wurde ein vertiefendes Arbeitspaket beauftragt, in Rahmen dessen ein Vorschlag für eine mögliche „Holzbaudefinitionen für die Grundstücksvergabe“ erarbeitet wurde. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a103183d-c3ec-43a4-9d81-64ba979bd541",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Martin Bittmann und Daniel Dieren erarbeiteten im Team von Prof. Raoul Bunschoten (TU Berlin) und Prof. Holger Kohl (Fraunhofer IPK) beide Arbeitspakete, die bis heute einen essentiellen Beitrag für die Entwicklung des Quartiers darstellen.",
+            "Href": null,
+            "Text": {
+              "Content": "Martin Bittmann und Daniel Dieren erarbeiteten im Team von Prof. Raoul Bunschoten (TU Berlin) und Prof. Holger Kohl (Fraunhofer IPK) beide Arbeitspakete, die bis heute einen essentiellen Beitrag für die Entwicklung des Quartiers darstellen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "114cc54c-ec6d-8045-bb44-f133abdbd1ca",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1e65242b-4969-4516-8256-72394760f7bd/berlin-tegel-projekt-schumacher-quartier_cover-studie.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VP3P6BB5%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCAlkZo4sAN35zaZMAtW8nJRDg%2FJhbWZwGftpiWGK8LhQIhAN3q%2BCPcY3U2tWdtQBM9eaB1si4OPEOHbfvVZmSWSkKHKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyNsIr%2FuMmA%2BwJRMR4q3AP8yY57fsh7o7hxpa3D8lAEDZl2gwd%2FTQbS%2FHb7G2mF3%2F%2B4oVKIc1CatgWdk%2BnV%2FrZkz2mwzketJkKRSs9R4auCh7uMROEklyfBS53KuIIg1OnqIcSsPIUJROBx2dvrkTjGDucBsDHACCBYrJDINi2a4juo10g1nlFdooCzls9qbADx75xrJ7FfjdNXqUM7tXPaSOx%2Biv8eYqc2O7d1zxUlq%2F9pnypmPaWYOWokPOMs%2FMYbtA00DWNDn7Mu%2FEe5132oOCArzgIgwMho3XOWR3U9SyTqu8fUn7e4hYONsI3C692%2BIBgXg3IHnm0wACIy8ItRBKUQU9%2FzCzzuRybGKy7cj3cxZuamSJjMtK9P7G%2FJXTlq%2F5BJvMOxHfvvs9kWj0LyJfY16RyiZHQQvkxrO58vypxq6b7zuN%2FgKrNbXd9tN4C82PYgiATmzQ7g424yyiRC3vfKXvs0M318kasKo7tV4c214vG36b%2FjhRQEKc0KIzhLadJ4NMIfeVHZML0qiXtvFonuzZANG8Wk87KbOy7o%2BryeuEC6hkmGLQd0RQqQ3yZStmn2OipHMXGMJl%2FFq1Ii%2FC32cgYNa3Kmmu4NXRBBqYtdBr6bVQNAjcpOlD5Uor3VdTbqwxDej0ovaTDqh8DDBjqkARfV6S%2BB3y2u5cGYXIOded9L7VwJVYwbN1sU%2FQ%2B9Xjdv92GYvAocbY6oMDKzBCD1n0TQPaCG0WXs%2F%2F8049ak%2FmSUdFdvL5P2AvmzCpD2fm5REDfQNW5hFFXc%2ByTY5r3W7LulAfy1DYJyc34DsMz7C327vlTEcnuNxi86UF5C0YyWi0%2FfFKW6aQCuTOEJZri0h3Y%2FEzljt4LhYEcMCclUDfzT50vK&X-Amz-Signature=2fe41b72987ca40c985892c6d244c0b11fc2b9c44ceeaee07476ef8552b2e107&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:02.666Z"
+        }
+      }
+    },
+    {
+      "Id": "33eb0d49-c63f-45a8-b852-95945e772da3",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Herausforderungen bei der Definition ökologischer Zielvorgaben für Vergabeverfahren",
+            "Href": null,
+            "Text": {
+              "Content": "Herausforderungen bei der Definition ökologischer Zielvorgaben für Vergabeverfahren"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "0616ab91-5866-4502-9568-fb56d227aefc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für die Bewertung der konstruktiven und ökologischen Parameter von Architektur-Entwürfen in Holzbauweise während der Grundstücksvergabe des Schumacher-Quartiers werden Mindestkriterien bzw. Zielvorgaben benötigt. Die Zielvorgaben sollen im Rahmen einer (mehrstufigen) Konzeptausschreibung als Teil definierter Nachhaltigkeitsanforderungen Berücksichtigung finden. Grundsätzlich ist eine ökologische Zielwertdefinition mit systematischen Überlegungen zu möglichen Bauteilen und Bauteilzusammensetzungen, eng an eine Durchführung von Ökobilanzierungen gekoppelt. ",
+            "Href": null,
+            "Text": {
+              "Content": "Für die Bewertung der konstruktiven und ökologischen Parameter von Architektur-Entwürfen in Holzbauweise während der Grundstücksvergabe des Schumacher-Quartiers werden Mindestkriterien bzw. Zielvorgaben benötigt. Die Zielvorgaben sollen im Rahmen einer (mehrstufigen) Konzeptausschreibung als Teil definierter Nachhaltigkeitsanforderungen Berücksichtigung finden. Grundsätzlich ist eine ökologische Zielwertdefinition mit systematischen Überlegungen zu möglichen Bauteilen und Bauteilzusammensetzungen, eng an eine Durchführung von Ökobilanzierungen gekoppelt. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "85f1be10-ed2a-4aaa-9608-add671e37c31",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Hinblick auf die Umweltauswirkungen und den Ressourcenverbrauch von Gebäuden sind folgende ökologische Kennwerte für die Bewertung maßgebend:\n- Menge an nachwachsen Rohstoffen [kg/m² WF bzw. GF]\n- Treibhauspotential [kg CO2e/m² WF bzw. GF]\n- Kohlenstoffspeicher [kg C/m² WF bzw. GF]\n- (erneuerbarer) Primärenergiebedarf [J/m² WF bzw. GF]",
+            "Href": null,
+            "Text": {
+              "Content": "Im Hinblick auf die Umweltauswirkungen und den Ressourcenverbrauch von Gebäuden sind folgende ökologische Kennwerte für die Bewertung maßgebend:\n- Menge an nachwachsen Rohstoffen [kg/m² WF bzw. GF]\n- Treibhauspotential [kg CO2e/m² WF bzw. GF]\n- Kohlenstoffspeicher [kg C/m² WF bzw. GF]\n- (erneuerbarer) Primärenergiebedarf [J/m² WF bzw. GF]"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "840d41e6-b0e7-4320-84f7-0cd22aad60c0",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Übersicht ökologischer Zielvorgaben in der Konzeptausschreibung",
+            "Href": null,
+            "Text": {
+              "Content": "Übersicht ökologischer Zielvorgaben in der Konzeptausschreibung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d453f946-7686-463e-ac1b-66803a13c12a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VP3P6BB5%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCAlkZo4sAN35zaZMAtW8nJRDg%2FJhbWZwGftpiWGK8LhQIhAN3q%2BCPcY3U2tWdtQBM9eaB1si4OPEOHbfvVZmSWSkKHKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyNsIr%2FuMmA%2BwJRMR4q3AP8yY57fsh7o7hxpa3D8lAEDZl2gwd%2FTQbS%2FHb7G2mF3%2F%2B4oVKIc1CatgWdk%2BnV%2FrZkz2mwzketJkKRSs9R4auCh7uMROEklyfBS53KuIIg1OnqIcSsPIUJROBx2dvrkTjGDucBsDHACCBYrJDINi2a4juo10g1nlFdooCzls9qbADx75xrJ7FfjdNXqUM7tXPaSOx%2Biv8eYqc2O7d1zxUlq%2F9pnypmPaWYOWokPOMs%2FMYbtA00DWNDn7Mu%2FEe5132oOCArzgIgwMho3XOWR3U9SyTqu8fUn7e4hYONsI3C692%2BIBgXg3IHnm0wACIy8ItRBKUQU9%2FzCzzuRybGKy7cj3cxZuamSJjMtK9P7G%2FJXTlq%2F5BJvMOxHfvvs9kWj0LyJfY16RyiZHQQvkxrO58vypxq6b7zuN%2FgKrNbXd9tN4C82PYgiATmzQ7g424yyiRC3vfKXvs0M318kasKo7tV4c214vG36b%2FjhRQEKc0KIzhLadJ4NMIfeVHZML0qiXtvFonuzZANG8Wk87KbOy7o%2BryeuEC6hkmGLQd0RQqQ3yZStmn2OipHMXGMJl%2FFq1Ii%2FC32cgYNa3Kmmu4NXRBBqYtdBr6bVQNAjcpOlD5Uor3VdTbqwxDej0ovaTDqh8DDBjqkARfV6S%2BB3y2u5cGYXIOded9L7VwJVYwbN1sU%2FQ%2B9Xjdv92GYvAocbY6oMDKzBCD1n0TQPaCG0WXs%2F%2F8049ak%2FmSUdFdvL5P2AvmzCpD2fm5REDfQNW5hFFXc%2ByTY5r3W7LulAfy1DYJyc34DsMz7C327vlTEcnuNxi86UF5C0YyWi0%2FfFKW6aQCuTOEJZri0h3Y%2FEzljt4LhYEcMCclUDfzT50vK&X-Amz-Signature=75b068d3f4b032f4a77d7bc3464c537cb85eded8e65ac000b2dffdbecc316325&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:02.679Z"
+        }
+      }
+    },
+    {
+      "Id": "8a6d0f33-e26f-4eb1-89a4-a98f9e29f1c6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine Konzeptausschreibung erfolgt in der Regel in einem mehrstufigen Verfahren. Der Umfang an Mindestkriterien und Zielvorgaben kann daher für die unterschiedlichen Ausführungsphasen abweichen. Die erste Stufe einer Konzeptausschreibung zielt dahingehend auf eine grundsätzliche Verständigung über ökologische Zielwerte, z. B. im Rahmen einer schriftlichen Anerkennung der ökologischen Grundvoraussetzung ab. Eine Bewertung anhand vordefinierter Regeln findet anschließend in den darauffolgenden Ausschreibungsstufen statt. An dieser Stelle wird ein Bewertungssystem notwendig, welches auf die unterschiedlichen Wettbewerbsbeiträge in Form von Architektur-Zeichnungen und ersten Raum- und Mengenermittlungen angewandt werden kann.",
+            "Href": null,
+            "Text": {
+              "Content": "Eine Konzeptausschreibung erfolgt in der Regel in einem mehrstufigen Verfahren. Der Umfang an Mindestkriterien und Zielvorgaben kann daher für die unterschiedlichen Ausführungsphasen abweichen. Die erste Stufe einer Konzeptausschreibung zielt dahingehend auf eine grundsätzliche Verständigung über ökologische Zielwerte, z. B. im Rahmen einer schriftlichen Anerkennung der ökologischen Grundvoraussetzung ab. Eine Bewertung anhand vordefinierter Regeln findet anschließend in den darauffolgenden Ausschreibungsstufen statt. An dieser Stelle wird ein Bewertungssystem notwendig, welches auf die unterschiedlichen Wettbewerbsbeiträge in Form von Architektur-Zeichnungen und ersten Raum- und Mengenermittlungen angewandt werden kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "568fcccc-39b6-4801-9692-c289a57e7343",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Rahmen des beauftragten Arbeitspakets wurde eine klare Definition des Holzbaumindestanteils für die Grundstücksvergabe im Schumacher Quartier erstellt. Diese bezieht sich auf Baukomponenten eines neutralen Referenzgebäudes und eine Mengeneinheit (m2, m3 Rauminhalt, m3 Baustoff). Existierende Studien dienten als Grundlage. Zusätzlich wurden bestehende Definitionen für den Holz-Mindestanteil untersucht und mit Blick auf die maximale Einsparung von Treibhausgasen optimiert.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Rahmen des beauftragten Arbeitspakets wurde eine klare Definition des Holzbaumindestanteils für die Grundstücksvergabe im Schumacher Quartier erstellt. Diese bezieht sich auf Baukomponenten eines neutralen Referenzgebäudes und eine Mengeneinheit (m2, m3 Rauminhalt, m3 Baustoff). Existierende Studien dienten als Grundlage. Zusätzlich wurden bestehende Definitionen für den Holz-Mindestanteil untersucht und mit Blick auf die maximale Einsparung von Treibhausgasen optimiert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "10fcdda9-1259-4f34-964b-9566ca5a02ab",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge der Bearbeitung wurden folgende maßgebende Probleme identifiziert:",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge der Bearbeitung wurden folgende maßgebende Probleme identifiziert:"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c44fc0af-f6ce-4739-a787-48e46ce71884",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\nA) Kritik am Münchner-Verfahren (siehe ",
+            "Href": null,
+            "Text": {
+              "Content": "\nA) Kritik am Münchner-Verfahren (siehe "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wohnquartier Prinz-Eugen-Park",
+            "Href": "https://www.baunetzwissen.de/holz/objekte/wohnen/wohnquartier-prinz-eugen-park-in-muenchen-7339750",
+            "Text": {
+              "Content": "Wohnquartier Prinz-Eugen-Park",
+              "Link": {
+                "Url": "https://www.baunetzwissen.de/holz/objekte/wohnen/wohnquartier-prinz-eugen-park-in-muenchen-7339750"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "):\nDurch eine Abhängigkeit der Zielwertdefinition ausschließlich an der Menge an verbauten nachwachsenden Rohstoffen gemessen, werden materialintensive Bauarten wie der Holzmassivbau stark bevorzugt. Dies ist mit einem effizienten, nachhaltigen Baustoffeinsatz nur bedingt vereinbar und benachteiligt vorgefertigte Rahmenmodule.\n",
+            "Href": null,
+            "Text": {
+              "Content": "):\nDurch eine Abhängigkeit der Zielwertdefinition ausschließlich an der Menge an verbauten nachwachsenden Rohstoffen gemessen, werden materialintensive Bauarten wie der Holzmassivbau stark bevorzugt. Dies ist mit einem effizienten, nachhaltigen Baustoffeinsatz nur bedingt vereinbar und benachteiligt vorgefertigte Rahmenmodule.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "6e57de7e-d205-4a13-b796-0d9d072ae8b3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "B) Fachwissen fehlt für umfangreiche Ökobilanzierungen in frühen Projektphasen:\nDie Ermittlung von vollständigen Kenndaten durch Ökobilanzierungen sprengt den Rahmen für übliche Wettbewerbsbeiträge und widerspricht dem iterativen Prozess einer Ökobilanzierung über die Planungsphasen.",
+            "Href": null,
+            "Text": {
+              "Content": "B) Fachwissen fehlt für umfangreiche Ökobilanzierungen in frühen Projektphasen:\nDie Ermittlung von vollständigen Kenndaten durch Ökobilanzierungen sprengt den Rahmen für übliche Wettbewerbsbeiträge und widerspricht dem iterativen Prozess einer Ökobilanzierung über die Planungsphasen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "295a50ba-2891-4462-93b4-fc0da79d0722",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\nC) Bisherige Studien zur Definition von Zielwerten nur bedingt geeignet:\nInfolge der hohen Varianz in der Definition der Systemgrenze, Methodik und des Betrachtungszeitraum sind bisher erbrachte Studien nur schwer miteinander vergleichbar. Zudem weisen Ökobilanzparameter eine hohe Sensitivität auf (Geschossigkeit, Kubatur, Bauphysik, etc.), sodass eine Zielwertdefinition nur anhand klar definierter Randbedingungen an Referenzgebäuden erfolgen kann.",
+            "Href": null,
+            "Text": {
+              "Content": "\nC) Bisherige Studien zur Definition von Zielwerten nur bedingt geeignet:\nInfolge der hohen Varianz in der Definition der Systemgrenze, Methodik und des Betrachtungszeitraum sind bisher erbrachte Studien nur schwer miteinander vergleichbar. Zudem weisen Ökobilanzparameter eine hohe Sensitivität auf (Geschossigkeit, Kubatur, Bauphysik, etc.), sodass eine Zielwertdefinition nur anhand klar definierter Randbedingungen an Referenzgebäuden erfolgen kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "458ded66-14c0-4fd5-8cd3-cf69edaac2c1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b5be103a-3536-4cbc-97d8-03f1a53d0ca7",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bewertungssystem für das Vergabeverfahren: ",
+            "Href": null,
+            "Text": {
+              "Content": "Bewertungssystem für das Vergabeverfahren: "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "d1b63c3e-9028-4f2b-b954-c38d8aa87af2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge der Projektbearbeitung stellte sich eine Gewichtungstabelle als die favorisierte Bewertungsmöglichkeit heraus, da sie als einziger Bewertungsansatz ein neutrales Bepunktungssystem aufweist und deshalb insbesondere als objektives Bewertungstool im Rahmen einer Grundstücksvergabe verwendet werden kann. Darüber hinaus ist eine Integration in eine übergeordnete Bewertungsstruktur im Zuge einer Konzeptvergabe möglich.\nIm Rahmen der Beauftragung wurde ein Vorschlag für eine leicht anwendbare, in Kategorien aufgeteilte Bewertungsmatrix auf Basis dieses Bewertungsansatzes ausgearbeitet. Während der Grundstücksvergabe kann die Matrix anhand eines gewichteten Punktesystems ausgewertet werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge der Projektbearbeitung stellte sich eine Gewichtungstabelle als die favorisierte Bewertungsmöglichkeit heraus, da sie als einziger Bewertungsansatz ein neutrales Bepunktungssystem aufweist und deshalb insbesondere als objektives Bewertungstool im Rahmen einer Grundstücksvergabe verwendet werden kann. Darüber hinaus ist eine Integration in eine übergeordnete Bewertungsstruktur im Zuge einer Konzeptvergabe möglich.\nIm Rahmen der Beauftragung wurde ein Vorschlag für eine leicht anwendbare, in Kategorien aufgeteilte Bewertungsmatrix auf Basis dieses Bewertungsansatzes ausgearbeitet. Während der Grundstücksvergabe kann die Matrix anhand eines gewichteten Punktesystems ausgewertet werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "151a3ec2-aaa1-43b7-b7b6-d9ffe9fbc3b6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bewertungsmatrix weist drei Grundkriterien auf: Kriterium Konstruktion, Kriterium Bilanzierung und Zusatzkriterien. Das Kriterium Konstruktion wird unterteilt in die Unterkriterien T1 bis T6 zur Bewertung des Tragwerks, bzw. der Primärkonstruktion, die Unterkriterien H1 und H2 zur Hüllkonstruktion sowie A1 bis A4 bezüglich der Ausbaukonstruktion. Die Bepunktung erfolgt anhand einer Klassifizierung des jeweiligen Unterkriteriums anhand der Bauweise: Mineralisch, Hybridkonstruktion, Holzkonstruktion / Lehmbau, bzw. NawaRo (Nachwachsende Rohstoffe).",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bewertungsmatrix weist drei Grundkriterien auf: Kriterium Konstruktion, Kriterium Bilanzierung und Zusatzkriterien. Das Kriterium Konstruktion wird unterteilt in die Unterkriterien T1 bis T6 zur Bewertung des Tragwerks, bzw. der Primärkonstruktion, die Unterkriterien H1 und H2 zur Hüllkonstruktion sowie A1 bis A4 bezüglich der Ausbaukonstruktion. Die Bepunktung erfolgt anhand einer Klassifizierung des jeweiligen Unterkriteriums anhand der Bauweise: Mineralisch, Hybridkonstruktion, Holzkonstruktion / Lehmbau, bzw. NawaRo (Nachwachsende Rohstoffe)."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d0930cab-4755-4004-9e25-cdcda55797c6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1aa84d1d-91cc-4084-992b-551defa1fa56",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In diesem Projekt wurden folgende Leistungen bearbeitet:",
+            "Href": null,
+            "Text": {
+              "Content": "In diesem Projekt wurden folgende Leistungen bearbeitet:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "50f7589d-c9d1-46b5-b525-58852e0c303a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Studie und Potenzialanalyse zu Klimaneutralität und Bezahlbarkeit des Holzbaus im Schuhmacher Quartier",
+            "Href": null,
+            "Text": {
+              "Content": "Studie und Potenzialanalyse zu Klimaneutralität und Bezahlbarkeit des Holzbaus im Schuhmacher Quartier"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "395b3d9b-82d9-41b4-98e8-ea3011ef3eb9",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Erarbeitung einer Holzbaudefinition und Bewertungsmatrix für die Grundstücksvergabe im Zuge von Konzeptvergabeverfahren",
+            "Href": null,
+            "Text": {
+              "Content": "Erarbeitung einer Holzbaudefinition und Bewertungsmatrix für die Grundstücksvergabe im Zuge von Konzeptvergabeverfahren"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c9891930-8c22-4cd8-81cb-b79e6554f4ec",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5247eee2-f21e-46d4-b783-c1de9cb21b14",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "122d082d-9d4b-484c-9460-545e20b3bddb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "f93b046f-9894-4895-8030-ade534c4ec45",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

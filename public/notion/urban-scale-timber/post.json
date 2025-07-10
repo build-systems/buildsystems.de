@@ -1,0 +1,457 @@
+{
+  "PageId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+  "Title": "Urban Scale Timber – Automatisierte Machbarkeitsstudien für den mehrgeschossigen Holzbau",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Tool",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f0630337-79c6-437a-9225-4d80d4831cd2/urban-scale-timber_timber_globe.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=bff2ae4be366f01de887f91d36db925218da256175cf1fab9d55eaa0c0a78e55&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Wooden Globe als Logo von Urban Scale Timber ",
+  "Slug": "urban-scale-timber",
+  "PublishDate": "2023-09-01",
+  "Tags": [
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    },
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    }
+  ],
+  "Description": "Urban Scale Timber unterstützt bei der schnellen konstruktiven und ökologischen Bewertung von mehrgeschossigem Holzbau",
+  "coverAsset": "urban-scale-timber_timber_globe.jpg",
+  "blockAssets": [
+    "urban-scale-timber_funktionalitat.jpg",
+    "urban-scale-timber_wooden_globe_punkthaus.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "927e732d-a515-4a2e-bddc-950735847057",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Ansatz von Urban Scale Timber ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Ansatz von Urban Scale Timber "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "10074eca-9488-4a93-83ed-42f9bf3ed989",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der urbane Holzbau ist ein Schlüsselfaktor auf dem Weg zu klimaneutralen Städten. Der Baustoff kann durch sein Potenzial als Kohlenstoffspeicher signifikant zur Reduzierung des gewaltigen 38%-Anteils des Bausektors an den globalen CO2-Emissionen beitragen.",
+            "Href": null,
+            "Text": {
+              "Content": "Der urbane Holzbau ist ein Schlüsselfaktor auf dem Weg zu klimaneutralen Städten. Der Baustoff kann durch sein Potenzial als Kohlenstoffspeicher signifikant zur Reduzierung des gewaltigen 38%-Anteils des Bausektors an den globalen CO2-Emissionen beitragen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "194c8449-9a16-4dcf-a4cf-bffc5e57147d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Urban Scale Timber",
+            "Href": "https://urbanscaletimber.com/",
+            "Text": {
+              "Content": "Urban Scale Timber",
+              "Link": {
+                "Url": "https://urbanscaletimber.com/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " entwickelt automatisierte holzbauspezifische Machbarkeitsstudien für private und öffentliche Projektentwickler und Planer und macht entsprechendes Fachwissen greifbar, um den Entwicklungsprozess von Holzbauprojekten zu skalieren, zu verbessern und zu beschleunigen. Hierdurch können am Anfang der Projektkonzeption bzw. des Planungsprozesses belastbare Szenarien, hinsichtlich Tragwerk, eingesetzten Holzbausystemen, Baukosten und Ökobilanz erzeugt werden. Auf Grundlage hieraus generierter objektspezifischer Holzbau-Varianten können Rahmenbedingungen und Zielvereinbarungen frühzeitig festgelegt und in Folge erheblich Planungszeit, -kosten und -risiken reduziert werden.",
+            "Href": null,
+            "Text": {
+              "Content": " entwickelt automatisierte holzbauspezifische Machbarkeitsstudien für private und öffentliche Projektentwickler und Planer und macht entsprechendes Fachwissen greifbar, um den Entwicklungsprozess von Holzbauprojekten zu skalieren, zu verbessern und zu beschleunigen. Hierdurch können am Anfang der Projektkonzeption bzw. des Planungsprozesses belastbare Szenarien, hinsichtlich Tragwerk, eingesetzten Holzbausystemen, Baukosten und Ökobilanz erzeugt werden. Auf Grundlage hieraus generierter objektspezifischer Holzbau-Varianten können Rahmenbedingungen und Zielvereinbarungen frühzeitig festgelegt und in Folge erheblich Planungszeit, -kosten und -risiken reduziert werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4ae7ab69-8268-433f-9663-237ae09dd901",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Funktionsweise sieht als Input Faktoren u.a. die Kubatur und Anforderungen an das Gebäude vor und liefert als Output mögliche Konstruktionsvorschläge und Reports",
+            "Href": null,
+            "Text": {
+              "Content": "Die Funktionsweise sieht als Input Faktoren u.a. die Kubatur und Anforderungen an das Gebäude vor und liefert als Output mögliche Konstruktionsvorschläge und Reports"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/da1cfbdd-c76f-47c9-a5a3-fa49c9465515/urban-scale-timber_funktionalitat.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WPBLWPN2%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCJLAeG2aJ1bBg%2FhtK6Ul2OHbcPIlY0aBF4XzbYqF21qAIhALugef6MZqeuNm7iEcvgANsW3zJ4RB47ZA%2BsCFd3G%2F96KogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwgkvITeCcUnwpMwWQq3AMY8HR07sJTf%2FtDfWEKA%2BNF3BkoOHzqLBYgsfGg3iTwiNd5WI%2BJ5QkXymmnoseT0xb2xWmzODEy42T1hdYSfqzY6M1vZGScam6cwZdg2esvnG80lWEwQxeg4MhRYhF9mU9tteBACtb8F%2F4vuHQCK0QiR%2BuQQw7Vm7BcOOjsHDEIx%2F4juIfP1gUEvETE6b5%2F%2FDLSBXcCclZ48merGmaL5NK5ZZpDZrvV2xshB3nXjYcJl8192ubNKqKLRVLRvUDzwbbZqiMiT%2BMLrbebcZDHKXP7pTepe5T347SA3NvTV0XWPK9UZs4j3ZI7J8oK0OE1I0rzpn3YqXK5yAJ5u0hSRz20KA34AZ85tE2hwVq3s3FlQ%2Bg%2BzCHyqLgVxeihL35bVM0ir380Au6dEi4%2FQWU%2BNQnAFRFcNuapeToBXM%2Fi4E3DzQ46b37qB8ARK3Y%2BCW4fe6aIlJSl7opfL2hKx75DGM1pOlatGI06E7xh0y5iU2Ae4CT9xkP4ulH8r57f1XOGciPf3ZsSbxCaVKURFQZcPA8a1XMCQ1GpY6UsJQFbFHTLXWxgR9%2BHAUvY0Z6pq76%2FzSHW1BG2IuJHQuL39WvIuSR3tFTqoGJ8ktyr226a7FFFC8Xs77Z%2BdIRA3Tv8bjC4h8DDBjqkAZK%2FJ1dA%2FnYhq46eeUqh3mm9b2yX%2F%2B1jOxOdZzPuLlPL%2Fxnn9SVpxivGhx%2FNhRs%2BWzOsJgMguD5gcOpfHd6GP2UZf5Lv1Q9CLv%2BIhS3pQce9Mj%2Bd42YZWa3ly8BC827sAzhVhtR9WzobpjabkavChE1qTxU1h7GWchsCKI8vlcalrgtgH5cK0%2FdfXguixRbyk8LN2D1u24AyVedoisrwt8yo4VyJ&X-Amz-Signature=ed87d139d49b36ff0b37044e28cd1dfd3894ac35c402b23e43fcc682d17e17b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:07.918Z"
+        }
+      }
+    },
+    {
+      "Id": "0ef0df17-0e00-41c4-b95d-fc8d17d55bb2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "25d1e7ee-20e1-4f69-a825-692d2a22d6b1",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einordnung Holzbau in das Umfeld aktueller Bautätigkeit",
+            "Href": null,
+            "Text": {
+              "Content": "Einordnung Holzbau in das Umfeld aktueller Bautätigkeit"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "54f9bffd-39e9-4660-8996-efc4b308d704",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Anhaltende Vorurteile gegenüber dem Holzbau und der Ressource Holz, konnten in den letzten Jahren erfolgreich widerlegt werden. Im Vergleich zu konventionellen Bauweisen können sogar Baukosten gesenkt werden: Durch die besondere Eignung des Holzbaus zur seriellen und modularen Vorfertigung werden Bau- und Baunebenkosten durch verkürzte Baustellenzeiten gesenkt. Durch die immer komplexer werdenden Anforderungen im Bauwesen ist es heutzutage üblich, dass sich private und öffentliche Projektentwickler durch Machbarkeitsstudien in der Projektinitiierungsphase ein Bild hinsichtlich Faktoren wie z.B. Gebäudekubatur, Konstruktionsmöglichkeiten oder Baukosten verschaffen. Da eine entsprechende Holzbauexpertise momentan nicht breit am Markt verfügbar ist und jede Machbarkeitsstudie aufwendig neu für jeden Bauherren und dessen individuelles Projekt erstellt werden muss, ist die Leistung nicht skalierbar und dementsprechend teuer. Bedingt durch die hohe Nachfrage, werden aktuell viele unerfahrene Akteure in den Prozess miteinbezogen, was in späteren Leistungsphasen zu Fehlplanungen, Zeit- und Kostenüberschreitungen führt. Um diese Herausforderungen zu überwinden und Baukosten weiter zu senken, werden innovative, technologische und skalierbare Lösungen benötigt, die holzbauspezifisches Fachwissen möglichst früh, ganzheitlich und effektiv in der Wertschöpfungskette verankern.",
+            "Href": null,
+            "Text": {
+              "Content": "Anhaltende Vorurteile gegenüber dem Holzbau und der Ressource Holz, konnten in den letzten Jahren erfolgreich widerlegt werden. Im Vergleich zu konventionellen Bauweisen können sogar Baukosten gesenkt werden: Durch die besondere Eignung des Holzbaus zur seriellen und modularen Vorfertigung werden Bau- und Baunebenkosten durch verkürzte Baustellenzeiten gesenkt. Durch die immer komplexer werdenden Anforderungen im Bauwesen ist es heutzutage üblich, dass sich private und öffentliche Projektentwickler durch Machbarkeitsstudien in der Projektinitiierungsphase ein Bild hinsichtlich Faktoren wie z.B. Gebäudekubatur, Konstruktionsmöglichkeiten oder Baukosten verschaffen. Da eine entsprechende Holzbauexpertise momentan nicht breit am Markt verfügbar ist und jede Machbarkeitsstudie aufwendig neu für jeden Bauherren und dessen individuelles Projekt erstellt werden muss, ist die Leistung nicht skalierbar und dementsprechend teuer. Bedingt durch die hohe Nachfrage, werden aktuell viele unerfahrene Akteure in den Prozess miteinbezogen, was in späteren Leistungsphasen zu Fehlplanungen, Zeit- und Kostenüberschreitungen führt. Um diese Herausforderungen zu überwinden und Baukosten weiter zu senken, werden innovative, technologische und skalierbare Lösungen benötigt, die holzbauspezifisches Fachwissen möglichst früh, ganzheitlich und effektiv in der Wertschöpfungskette verankern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "12d661a3-7f48-4b17-b153-8b9d362e072d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die aktuellen politischen Unwägbarkeiten auf Bundes- und Landesebene hinsichtlich der nachhaltigen Ausrichtung des Bausektors stehen aktuell der weiten Anwendung von Holzbau entgegen. Auf Bundesebene wurde die KfW-Fördertätigkeit zu Beginn 2022 ausgesetzt und umstrukturiert. Die Integration staatlicher Fördermöglichkeiten und die hierfür nötige Nachweispflicht (Energieeffizienz und baukonstruktive Voraussetzungen) müssen für eine ganzheitliche Einschätzung mit berücksichtigt werden. Darüber hinaus wird die Einführung des CO2-Zertifikatshandels erwartet, der das Bauen mit Holz im erheblichem Maße fördern würde.",
+            "Href": null,
+            "Text": {
+              "Content": "Die aktuellen politischen Unwägbarkeiten auf Bundes- und Landesebene hinsichtlich der nachhaltigen Ausrichtung des Bausektors stehen aktuell der weiten Anwendung von Holzbau entgegen. Auf Bundesebene wurde die KfW-Fördertätigkeit zu Beginn 2022 ausgesetzt und umstrukturiert. Die Integration staatlicher Fördermöglichkeiten und die hierfür nötige Nachweispflicht (Energieeffizienz und baukonstruktive Voraussetzungen) müssen für eine ganzheitliche Einschätzung mit berücksichtigt werden. Darüber hinaus wird die Einführung des CO2-Zertifikatshandels erwartet, der das Bauen mit Holz im erheblichem Maße fördern würde."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3818291a-cfb7-424b-8445-d0e8384e7544",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a321078b-0918-4523-877b-420152850ba8",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Abbildung der Holzkonstruktion eines Punkthauses mit Wohnnutzung",
+            "Href": null,
+            "Text": {
+              "Content": "Abbildung der Holzkonstruktion eines Punkthauses mit Wohnnutzung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e6b8b1e1-524a-4e38-887c-a391c4eeffa0/urban-scale-timber_wooden_globe_punkthaus.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WPBLWPN2%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183007Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCJLAeG2aJ1bBg%2FhtK6Ul2OHbcPIlY0aBF4XzbYqF21qAIhALugef6MZqeuNm7iEcvgANsW3zJ4RB47ZA%2BsCFd3G%2F96KogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwgkvITeCcUnwpMwWQq3AMY8HR07sJTf%2FtDfWEKA%2BNF3BkoOHzqLBYgsfGg3iTwiNd5WI%2BJ5QkXymmnoseT0xb2xWmzODEy42T1hdYSfqzY6M1vZGScam6cwZdg2esvnG80lWEwQxeg4MhRYhF9mU9tteBACtb8F%2F4vuHQCK0QiR%2BuQQw7Vm7BcOOjsHDEIx%2F4juIfP1gUEvETE6b5%2F%2FDLSBXcCclZ48merGmaL5NK5ZZpDZrvV2xshB3nXjYcJl8192ubNKqKLRVLRvUDzwbbZqiMiT%2BMLrbebcZDHKXP7pTepe5T347SA3NvTV0XWPK9UZs4j3ZI7J8oK0OE1I0rzpn3YqXK5yAJ5u0hSRz20KA34AZ85tE2hwVq3s3FlQ%2Bg%2BzCHyqLgVxeihL35bVM0ir380Au6dEi4%2FQWU%2BNQnAFRFcNuapeToBXM%2Fi4E3DzQ46b37qB8ARK3Y%2BCW4fe6aIlJSl7opfL2hKx75DGM1pOlatGI06E7xh0y5iU2Ae4CT9xkP4ulH8r57f1XOGciPf3ZsSbxCaVKURFQZcPA8a1XMCQ1GpY6UsJQFbFHTLXWxgR9%2BHAUvY0Z6pq76%2FzSHW1BG2IuJHQuL39WvIuSR3tFTqoGJ8ktyr226a7FFFC8Xs77Z%2BdIRA3Tv8bjC4h8DDBjqkAZK%2FJ1dA%2FnYhq46eeUqh3mm9b2yX%2F%2B1jOxOdZzPuLlPL%2Fxnn9SVpxivGhx%2FNhRs%2BWzOsJgMguD5gcOpfHd6GP2UZf5Lv1Q9CLv%2BIhS3pQce9Mj%2Bd42YZWa3ly8BC827sAzhVhtR9WzobpjabkavChE1qTxU1h7GWchsCKI8vlcalrgtgH5cK0%2FdfXguixRbyk8LN2D1u24AyVedoisrwt8yo4VyJ&X-Amz-Signature=5eecbca5d69c306f257df3f377e6bbe50da1a4475338480e42e31678eb5da3f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:07.910Z"
+        }
+      }
+    },
+    {
+      "Id": "ef933e8e-b337-452b-b57d-84254b348e20",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f0c43a5e-c0fa-4487-bc41-ccc85ef2c4ef",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zielsetzung und Verwertung der Forschungsergebnisse",
+            "Href": null,
+            "Text": {
+              "Content": "Zielsetzung und Verwertung der Forschungsergebnisse"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "6cf32adb-0aec-4ad2-9cf9-498e4484b2a6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Urban Scale Timber wurde als Forschungsausgründung an der Technischen Universität München unter der Betreuung von Prof. Dr.-Ing. Stefan Winter konzipiert und entwickelt. Dabei bilden die Ergebnisse eine umfängliche Zusammenführung von wissenschaftlichem sowie praktischem Fachwissen für das Marktsegment nachhaltiges und mehrgeschossiges Bauen in Holz. Das akkumulierte Know-How stellt heute eine wesentlich Grundlage der Beratungsdienstleistungen von BuildSystems in den Bereichen Carbon Due Diligence, Ökobilanzierung und Optimierung von Primärkonstruktionen hinsichtlich grauer Emissionen dar.",
+            "Href": null,
+            "Text": {
+              "Content": "Urban Scale Timber wurde als Forschungsausgründung an der Technischen Universität München unter der Betreuung von Prof. Dr.-Ing. Stefan Winter konzipiert und entwickelt. Dabei bilden die Ergebnisse eine umfängliche Zusammenführung von wissenschaftlichem sowie praktischem Fachwissen für das Marktsegment nachhaltiges und mehrgeschossiges Bauen in Holz. Das akkumulierte Know-How stellt heute eine wesentlich Grundlage der Beratungsdienstleistungen von BuildSystems in den Bereichen Carbon Due Diligence, Ökobilanzierung und Optimierung von Primärkonstruktionen hinsichtlich grauer Emissionen dar."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5a19dfd8-e324-4b2f-a661-ebb1b4ada585",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5061ba44-0d7c-4702-9e31-f761e16f79f6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c1abe740-1d61-4fdc-8934-4767a48dc7a4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4d653f6b-72c5-48e7-b3c8-3a586705f539",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b666ec66-ecc7-418e-855a-a24398bf3e11",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

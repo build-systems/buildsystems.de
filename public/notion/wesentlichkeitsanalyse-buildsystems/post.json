@@ -1,0 +1,559 @@
+{
+  "PageId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+  "Title": "CSRD und die Bauwende: Wesentlichkeitsanalyse by BuildSystems",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/2e972fd7-afb3-4b94-a3eb-32e0337f43b0/wesentlichkeitsanalyse-buildsystems_trends.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=382ccf6468fe6dde52120a7fbd4dd1d0ab194f0cb167aa54b00a222a4548862c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "workshop-wesentlichkeitsanalyse-BuildSystems",
+  "Slug": "wesentlichkeitsanalyse-buildsystems",
+  "PublishDate": "2024-09-25",
+  "Tags": [
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    }
+  ],
+  "Description": "BuildSystems entwickelt Methodik zur Wesentlichkeitsanalyse für Bau- und Immobilienunternehmen",
+  "coverAsset": "wesentlichkeitsanalyse-buildsystems_trends.jpg",
+  "blockAssets": [
+    "wesentlichkeitsanalyse-buildsystems_diagramm.jpg",
+    "wesentlichkeitsanalyse-buildsystems_5.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "106cc54c-ec6d-800f-b73d-d73101e28929",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bau- und Immobilienbranche steht vor einem tiefgreifenden Wandel. Zukunftsfähigkeit durch Nachhaltigkeit ist nicht länger optional, sondern entscheidend für den langfristigen Erfolg. Das Nachhaltigkeitsreporting nach CSRD bietet dabei einen wichtigen Ausgangspunkt für die Entwicklung und Umsetzung einer umfassenden Nachhaltigkeitsstrategie.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bau- und Immobilienbranche steht vor einem tiefgreifenden Wandel. Zukunftsfähigkeit durch Nachhaltigkeit ist nicht länger optional, sondern entscheidend für den langfristigen Erfolg. Das Nachhaltigkeitsreporting nach CSRD bietet dabei einen wichtigen Ausgangspunkt für die Entwicklung und Umsetzung einer umfassenden Nachhaltigkeitsstrategie."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "10dcc54c-ec6d-80e3-80dd-c785c99e305d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein wesentlicher Schwerpunkt der Arbeit von BuildSystems im Bereich der Nachhaltigkeitsberichterstattung ist die Durchführung von Wesentlichkeitsanalysen. In diesem Blogpost geben wir Ihnen Einblicke in unsere Methodik und zeigen, wie wir Unternehmen mit einer Wesentlichkeitsanalyse auf ihrem Weg zu einem zukunftsfähigen Geschäftsmodell unterstützen.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein wesentlicher Schwerpunkt der Arbeit von BuildSystems im Bereich der Nachhaltigkeitsberichterstattung ist die Durchführung von Wesentlichkeitsanalysen. In diesem Blogpost geben wir Ihnen Einblicke in unsere Methodik und zeigen, wie wir Unternehmen mit einer Wesentlichkeitsanalyse auf ihrem Weg zu einem zukunftsfähigen Geschäftsmodell unterstützen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-8039-8636-f52e01916219",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wesentlichkeitsanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Wesentlichkeitsanalyse"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-809b-be65-da36b8351b41",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Wesentlichkeitsanalyse ist Grundlage der Nachhaltigkeitsberichterstattung gemäß der CSRD-Richtlinie. Durch eine tiefgehende Analyse des Unternehmensumfelds, der Wertschöpfungskette und der relevanten Stakeholder werden die für das Unternehmen wesentlichen Themen identifiziert. Jedes der wesentlichen Themen liefert wertvolle Erkenntnisse, die nicht nur für die Unternehmensstrategie, sondern auch für die zukünftige Ausrichtung und Positionierung als nachhaltiges Bau- oder Immobilienunternehmen von essenzieller Bedeutung sind.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Wesentlichkeitsanalyse ist Grundlage der Nachhaltigkeitsberichterstattung gemäß der CSRD-Richtlinie. Durch eine tiefgehende Analyse des Unternehmensumfelds, der Wertschöpfungskette und der relevanten Stakeholder werden die für das Unternehmen wesentlichen Themen identifiziert. Jedes der wesentlichen Themen liefert wertvolle Erkenntnisse, die nicht nur für die Unternehmensstrategie, sondern auch für die zukünftige Ausrichtung und Positionierung als nachhaltiges Bau- oder Immobilienunternehmen von essenzieller Bedeutung sind."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-8073-9073-ee85f2bbd2e0",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Herangehensweise",
+            "Href": null,
+            "Text": {
+              "Content": "Herangehensweise"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-8077-8a44-e1ad8ccedf88",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "106cc54c-ec6d-8076-be77-ce63ea6748e2",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse.",
+            "Href": null,
+            "Text": {
+              "Content": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/23ff09f9-54b2-443a-a662-0366456994de/wesentlichkeitsanalyse-buildsystems_diagramm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665QBB6A5R%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiRUC%2B6QR5K%2FD7ru7YIDLhqKMIQZHVeiXcozzBILITdgIhANS42M8HLLx6oQ1GldXT5uY13NaA93mHacKERCJd2x6NKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwZQMLpc2UXSfGTpXIq3AMhItQl4dwEu8rdJreGXEcwv29mHs1tkdjSOhWJ36PCHgdoLOtVtVnmL1tRdPdZJLzf9pbcjwIjCgoQermJYDgj5iuA%2F2ZXsub5QfTbBF49JOWQC0xn8eJDIF%2BZ2crKA2Ss0Jd1wWCljc4VhXrUdHWvTWDlS3UtHyX%2BRURZxpI4y0Ftkwl2jceR0Vwp3MT9pAfV%2BFPQZtVIJqUdGeX4GrhLpqyPsDP%2FfiRarzNXBiFHi4kgcVWr6lYWjak%2BjsQ%2BrlFiSperASjYE0kg2OU0LmfL4wi%2F%2Fu2f5MzsjrrwSVdQ3tmzlRc8CCmjmXfqGLbuICBScv3JUZa9n5Y4sZwhBYQEVBFcQHhLVNUOStCZwYzE8STIHyWd0EoSNGXeSxlfdiB1%2BAsUh1JrL8rKmX%2BZWQZcLD9j2cXTaA8kdnJPYP7YAyzXwsk66pMQrMkebBoO8B21uyyMFJgnqwJONZjqSSPeegcK2T3ZupFE4XqVwHzGF%2FC0ZFxDnRH0mpHPKiSyUHA1dB0f%2B2etWJ7YsVwr96VfPcuhD7vZYIu%2Bo%2B2zXo60a9gGuuy%2FBFw07ojYfBJjMs2WKkBjSMouLj2N91yappxGckGfVY024BvVq6MSYiEURlMkHjtbT7kzUJ2GlTDdh8DDBjqkAT8Pnynv7eepdzKSg24nCCGt5DTq2foWSW6eHmM7F49Ufa3VGvKgIBrIrAPbPB5xp0Z1KkbewrFzFs8q8VW9%2BDjxmLhbC0zLp3WTrwok3ev%2FhZ6St66Qj8mMau1apg5uHpdlPJ0n5OyttVq6TlYXEI2xbY4Pgj3FVD8fQcab9Ao%2FDCiF6cbLRrZjki2ixVeO%2BzRZOmrXIy432Z%2BZgITMhc6ZTusz&X-Amz-Signature=8416e912879845349e637f226cdbdb8f66f0ca381bc9dab519fb0678c0a87dd1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.726Z"
+        }
+      }
+    },
+    {
+      "Id": "77e5fb72-fb95-4bf1-82fb-8b3c260ab6de",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-804d-a2c7-e653ae625c9d",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Umfeldanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Umfeldanalyse"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": In Zusammenarbeit mit der Geschäftsführung und dem Nachhaltigkeitsmanagement werden in Vorgesprächen und Fragebögen die wichtigsten Fakten über das Unternehmen, seine Ziele und die aktuellen Nachhaltigkeitsbemühungen gesammelt. Dabei werden Aktivitäten, Produkte, Dienstleistungen, die Unternehmensstruktur sowie verschiedene Standorte erfasst. Zusätzlich wird die gesamte vor- und nachgelagerte Wertschöpfungskette analysiert, rechtliche und regulatorische Anforderungen berücksichtigt, und alle relevanten Stakeholder sowie Fachexpert:innen identifiziert.",
+            "Href": null,
+            "Text": {
+              "Content": ": In Zusammenarbeit mit der Geschäftsführung und dem Nachhaltigkeitsmanagement werden in Vorgesprächen und Fragebögen die wichtigsten Fakten über das Unternehmen, seine Ziele und die aktuellen Nachhaltigkeitsbemühungen gesammelt. Dabei werden Aktivitäten, Produkte, Dienstleistungen, die Unternehmensstruktur sowie verschiedene Standorte erfasst. Zusätzlich wird die gesamte vor- und nachgelagerte Wertschöpfungskette analysiert, rechtliche und regulatorische Anforderungen berücksichtigt, und alle relevanten Stakeholder sowie Fachexpert:innen identifiziert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-8015-8856-f29f0856f264",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Erstellung der Longlist",
+            "Href": null,
+            "Text": {
+              "Content": "Erstellung der Longlist"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Auf Basis der ESG-Standards werden zentrale Themen ausgewählt, die für das Unternehmen von Bedeutung sind. Dabei werden sektorspezifische Themen der Baubranche entweder den ESG-Standards zugeordnet oder als eigenständige relevante Themen behandelt. Dieser Schritt erfordert eine umfassende Recherche zu aktuellen und generellen Trends, Gesetzen, Normen und Richtlinien in der Baubranche. Die Vorauswahl wird gemeinsam mit der Geschäftsführung und dem Nachhaltigkeitsteam getroffen.",
+            "Href": null,
+            "Text": {
+              "Content": ": Auf Basis der ESG-Standards werden zentrale Themen ausgewählt, die für das Unternehmen von Bedeutung sind. Dabei werden sektorspezifische Themen der Baubranche entweder den ESG-Standards zugeordnet oder als eigenständige relevante Themen behandelt. Dieser Schritt erfordert eine umfassende Recherche zu aktuellen und generellen Trends, Gesetzen, Normen und Richtlinien in der Baubranche. Die Vorauswahl wird gemeinsam mit der Geschäftsführung und dem Nachhaltigkeitsteam getroffen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-804a-b36e-c6483678b25d",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Stakeholder-Befragung",
+            "Href": null,
+            "Text": {
+              "Content": "Stakeholder-Befragung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Gemeinsam mit den Unternehmensbereichen sowie externen Stakeholdern und Expert:innen werden Risiken und Chancen der zentralen Themen sowie deren potenzielle Auswirkungen auf die Wertschöpfungskette diskutiert. Durch Workshops, Befragungen und Interviews sowie ein Online-Quiz werden die Themen der Shortlist verifiziert und gegebenenfalls angepasst.",
+            "Href": null,
+            "Text": {
+              "Content": ": Gemeinsam mit den Unternehmensbereichen sowie externen Stakeholdern und Expert:innen werden Risiken und Chancen der zentralen Themen sowie deren potenzielle Auswirkungen auf die Wertschöpfungskette diskutiert. Durch Workshops, Befragungen und Interviews sowie ein Online-Quiz werden die Themen der Shortlist verifiziert und gegebenenfalls angepasst."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1d629026-d84e-48b5-bb6d-68c39a8f9394",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Impact-Analyse",
+            "Href": null,
+            "Text": {
+              "Content": "Impact-Analyse"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Für die als wesentlich identifizierten Themen werden branchenspezifische Indikatoren betrachtet, um Umfang, Ausmaß und Wahrscheinlichkeit von Auswirkungen durch und auf die Wirtschaftstätigkeit des Unternehmens zu bewerten. Anerkannte Bewertungsstandards helfen dabei, die Themen vergleichbar zu machen. Hierbei können auch externe Experten wie Brandschutzplaner, Energieeffizienz-Experten oder Wirtschaftsprüfer hinzugezogen werden, um die Ergebnisse zu validieren. Das Ergebnis dieses Schrittes ist eine Shortlist der finalen Themen.",
+            "Href": null,
+            "Text": {
+              "Content": ": Für die als wesentlich identifizierten Themen werden branchenspezifische Indikatoren betrachtet, um Umfang, Ausmaß und Wahrscheinlichkeit von Auswirkungen durch und auf die Wirtschaftstätigkeit des Unternehmens zu bewerten. Anerkannte Bewertungsstandards helfen dabei, die Themen vergleichbar zu machen. Hierbei können auch externe Experten wie Brandschutzplaner, Energieeffizienz-Experten oder Wirtschaftsprüfer hinzugezogen werden, um die Ergebnisse zu validieren. Das Ergebnis dieses Schrittes ist eine Shortlist der finalen Themen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-80c9-979a-f9728c13471c",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wesentlichkeitsmatrix",
+            "Href": null,
+            "Text": {
+              "Content": "Wesentlichkeitsmatrix"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Zum Abschluss der Wesentlichkeitsanalyse werden alle vorangegangenen Schritte ausgewertet, und die Themen der Shortlist werden anhand eines Punktesystems priorisiert. Diese Bewertung wird in einer übersichtlichen Matrix, der sogenannten Wesentlichkeitsmatrix, dargestellt, die sowohl tabellarisch als auch visuell einen klaren Überblick über die wichtigsten Themen bietet.",
+            "Href": null,
+            "Text": {
+              "Content": ": Zum Abschluss der Wesentlichkeitsanalyse werden alle vorangegangenen Schritte ausgewertet, und die Themen der Shortlist werden anhand eines Punktesystems priorisiert. Diese Bewertung wird in einer übersichtlichen Matrix, der sogenannten Wesentlichkeitsmatrix, dargestellt, die sowohl tabellarisch als auch visuell einen klaren Überblick über die wichtigsten Themen bietet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "105cc54c-ec6d-80b3-87fa-f53866b6128c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b06a220a-4d55-4a1e-8442-6316a005b96a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell.",
+            "Href": null,
+            "Text": {
+              "Content": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c2f8acdc-bc68-4cd7-a0e2-f154caf342a1/wesentlichkeitsanalyse-buildsystems_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665QBB6A5R%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiRUC%2B6QR5K%2FD7ru7YIDLhqKMIQZHVeiXcozzBILITdgIhANS42M8HLLx6oQ1GldXT5uY13NaA93mHacKERCJd2x6NKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwZQMLpc2UXSfGTpXIq3AMhItQl4dwEu8rdJreGXEcwv29mHs1tkdjSOhWJ36PCHgdoLOtVtVnmL1tRdPdZJLzf9pbcjwIjCgoQermJYDgj5iuA%2F2ZXsub5QfTbBF49JOWQC0xn8eJDIF%2BZ2crKA2Ss0Jd1wWCljc4VhXrUdHWvTWDlS3UtHyX%2BRURZxpI4y0Ftkwl2jceR0Vwp3MT9pAfV%2BFPQZtVIJqUdGeX4GrhLpqyPsDP%2FfiRarzNXBiFHi4kgcVWr6lYWjak%2BjsQ%2BrlFiSperASjYE0kg2OU0LmfL4wi%2F%2Fu2f5MzsjrrwSVdQ3tmzlRc8CCmjmXfqGLbuICBScv3JUZa9n5Y4sZwhBYQEVBFcQHhLVNUOStCZwYzE8STIHyWd0EoSNGXeSxlfdiB1%2BAsUh1JrL8rKmX%2BZWQZcLD9j2cXTaA8kdnJPYP7YAyzXwsk66pMQrMkebBoO8B21uyyMFJgnqwJONZjqSSPeegcK2T3ZupFE4XqVwHzGF%2FC0ZFxDnRH0mpHPKiSyUHA1dB0f%2B2etWJ7YsVwr96VfPcuhD7vZYIu%2Bo%2B2zXo60a9gGuuy%2FBFw07ojYfBJjMs2WKkBjSMouLj2N91yappxGckGfVY024BvVq6MSYiEURlMkHjtbT7kzUJ2GlTDdh8DDBjqkAT8Pnynv7eepdzKSg24nCCGt5DTq2foWSW6eHmM7F49Ufa3VGvKgIBrIrAPbPB5xp0Z1KkbewrFzFs8q8VW9%2BDjxmLhbC0zLp3WTrwok3ev%2FhZ6St66Qj8mMau1apg5uHpdlPJ0n5OyttVq6TlYXEI2xbY4Pgj3FVD8fQcab9Ao%2FDCiF6cbLRrZjki2ixVeO%2BzRZOmrXIy432Z%2BZgITMhc6ZTusz&X-Amz-Signature=9c6406a7c20df2ac4d5c92c5490cf38f09f3f4d84243d9b6e1dd8a7260376b77&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.744Z"
+        }
+      }
+    },
+    {
+      "Id": "881f0ac2-1194-45c9-b8e7-6a7bb7bc9215",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5d729213-57d6-4e87-8aff-267b927ccf66",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9c2fb4f3-678c-4d20-9025-eea5a2358912",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

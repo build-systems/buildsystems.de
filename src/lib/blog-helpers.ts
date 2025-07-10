@@ -301,29 +301,37 @@ export const parseYouTubeVideoId = (url: URL): string => {
 };
 
 export const importCoverImage = async (post: Post, images: any) => {
-  if (post.Cover) {
-    const url = new URL(post.Cover!.Url);
-
-    const slug = post.Slug;
-
-    const dir = "/src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
-    const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-
-    const imageNameWithSlug = addSlugToName(imageName, slug);
-    const imagePath = `${dir}/${imageNameWithSlug}`;
-
-    try {
-      const image = (await images[imagePath]()).default;
-      return image;
-    } catch (error) {
-      // Block is null or undefined
-      console.log("Error getting image: \n" + error);
-      return;
-    }
-  } else {
-    // Block is null or undefined
-    console.log("Block is null or undefined");
-    return;
+  if (!post.Cover || !post.Cover.Url) {
+    console.warn("importCoverImage: Post has no cover image.");
+    return null;
+  }
+  let url: URL;
+  try {
+    url = new URL(post.Cover.Url);
+  } catch (err) {
+    console.error(
+      "importCoverImage: Invalid cover image URL:",
+      post.Cover.Url,
+      err,
+    );
+    return null;
+  }
+  const slug = post.Slug;
+  const dir = "/src/assets/notion/" + slug;
+  const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
+  const imagePath = `${dir}/${imageName}`;
+  if (!images[imagePath]) {
+    console.error(
+      `importCoverImage: Image not found in images object: ${imagePath}`,
+    );
+    return null; // or return a default image path if you have one
+  }
+  try {
+    const image = (await images[imagePath]()).default;
+    return image;
+  } catch (error) {
+    console.error("importCoverImage: Error loading image:", imagePath, error);
+    return null; // or return a default image path if you have one
   }
 };
 
@@ -365,13 +373,9 @@ export function addSlugToName(name: string, slug: string): string {
     return name;
   }
 }
-
-export function getPhotoPath(href: string) {
+export function getPhotoPath(href: string, slug: string) {
   const url = new URL(href);
-
-  const dir = "/src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
   const imageName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-
-  const imagePath = `${dir}/${imageName}`;
+  const imagePath = `/src/assets/notion/${slug}/${imageName}`;
   return imagePath;
 }

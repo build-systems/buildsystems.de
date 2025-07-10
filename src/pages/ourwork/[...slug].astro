@@ -4,83 +4,88 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
 import { formatDate } from "../../utils/getPostData.js";
 import { Image } from "astro:assets";
-import type { Post } from "../../lib/notion-interfaces.js";
 import PostBody from "../../components/Notion/PostBody.astro";
-import {
-  getAllPosts,
-  getPostBySlug,
-  getAllBlocksByBlockId,
-  getAllPeople,
-} from "../../lib/notion/client.js";
-import {
-  addSlugToName,
-  filterPostsByTags,
-  importCoverImage,
-  removePostFromPosts,
-  returnImageNameAsJpg,
-} from "../../lib/blog-helpers.js";
 import PersonCard from "../../components/PersonCard.astro";
+import { importCoverImage } from "../../lib/blog-helpers";
+import { getAllPeople } from "../../lib/notion/client";
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts();
-  return posts.map((post: Post) => ({
-    params: { slug: post.Slug },
-  }));
+  // Import all post.json files to get slugs
+  const postJsons = import.meta.glob("../../../public/notion/*/post.json");
+  const paths = Object.keys(postJsons).map((path) => {
+    const slug = path.split("/notion/")[1].split("/")[0];
+    return { params: { slug } };
+  });
+  return paths;
 }
 
 const { slug } = Astro.params;
-
-const post = await getPostBySlug(slug);
-if (!post) {
-  throw new Error(`Post not found. slug: ${slug}`);
-}
-
-const [blocks] = await Promise.all([getAllBlocksByBlockId(post.PageId)]);
-
-// Public image
-let publicImage = "";
-if (post.Cover) {
-  const coverUrl = new URL(post.Cover!.Url);
-  const dir = "notion/" + coverUrl.pathname.split("/").slice(-2)[0];
-  const fileNameConverted = returnImageNameAsJpg(coverUrl);
-  const fileNameWithSlug = addSlugToName(fileNameConverted, slug);
-  publicImage = `${Astro.site}${dir}/${fileNameWithSlug}`;
-}
-
-// Getting images dynamically with import.meta.glob()
-// It only accepts string literals
-// https://docs.astro.build/en/recipes/dynamically-importing-images/
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}",
+// Import the post.json for this slug
+const postData = await import(`../../../public/notion/${slug}/post.json`).then(
+  (m) => m.default ?? m
 );
 
-// Cover image
-const image = await importCoverImage(post, images);
+const {
+  Title,
+  Description,
+  Category,
+  CoverAlt,
+  PublishDate,
+  Authors,
+  coverAsset,
+  blockAssets,
+  blocks,
+  Slug,
+  Tags,
+} = postData;
+
+// Cover image path
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+);
+
+const image = await importCoverImage(postData, images);
 
 // Authors
-const authors = post.Authors;
+const authors = postData.Authors;
 const people = await getAllPeople();
 
 // Get objects from 'people' array that have matching 'Name' property with 'authors' array
 const matchingPeople = people.filter((person) =>
-  authors.map((author) => author.name).includes(person.Name),
+  authors.some((author: { name: string }) => author.name === person.Name)
 );
+const coverImagePath = `/notion/${Slug}/${coverAsset}`;
 
-// Get all posts available
-let posts = await getAllPosts();
-
-// Remove the current post from the list
-posts = removePostFromPosts(posts, post);
-
-// Filter by tag
-posts = filterPostsByTags(posts, post);
+// Import all post.json files for related posts
+const allPostJsons = import.meta.glob("../../../public/notion/*/post.json");
+const allPosts = await Promise.all(
+  Object.values(allPostJsons).map((fn) => fn().then((m: any) => m.default ?? m))
+);
+// Filter out the current post
+const otherPosts = allPosts.filter((p: any) => p.Slug !== Slug);
+// Example: filter by shared tag (if any)
+let relatedPosts = otherPosts;
+if (Tags && Tags.length > 0) {
+  relatedPosts = otherPosts.filter(
+    (p) =>
+      p.Tags &&
+      p.Tags.some((tag: any) => Tags.some((t: any) => t.name === tag.name))
+  );
+}
+// Fallback: if no related posts, show others
+if (relatedPosts.length === 0) relatedPosts = otherPosts;
+// Sort by PublishDate descending
+relatedPosts = relatedPosts.sort(
+  (a: any, b: any) =>
+    new Date(b.PublishDate).getTime() - new Date(a.PublishDate).getTime()
+);
 ---
 
 <BaseLayout
-  title={"BuildSystems | " + post.Title}
-  description={post.Description}
-  image={publicImage}
-  imageAlt={post.CoverAlt}
+  title={"BuildSystems | " + Title}
+  description={Description}
+  image={coverImagePath}
+  imageAlt={CoverAlt}
   transition={true}
 >
   {
@@ -88,7 +93,7 @@ posts = filterPostsByTags(posts, post);
       <Image
         class="cover-image"
         src={image}
-        alt={post.CoverAlt}
+        alt={postData.CoverAlt}
         transition:name={slug + "-image"}
         widths={[300, 700, 1000, 1280, 1400, 1600, image.width]}
         sizes={`(max-width: 300px) 300px, (max-width: 700px) 700px, (max-width: 1000px) 1000px, (max-width: 1280px) 1280px, (max-width: 1400px) 1400px, (max-width: 1600px) 1600px, ${image.width}px`}
@@ -96,9 +101,9 @@ posts = filterPostsByTags(posts, post);
     )
   }
   <article class:list={["post", "frame"]}>
-    <Anchor text={post.Category} link="/" />
-    <h2 transition:name={post.Slug + "-title"}>{post.Title}</h2>
-    <p>{formatDate(new Date(post.PublishDate))}</p>
+    <Anchor text={Category} link="/" />
+    <h2 transition:name={Slug + "-title"}>{Title}</h2>
+    <p>{formatDate(new Date(PublishDate))}</p>
     <PostBody blocks={blocks} slug={slug} />
     <div class="mt-8 grid grid-cols-1 gap-2 sm:grid-cols-2">
       {
@@ -114,7 +119,8 @@ posts = filterPostsByTags(posts, post);
       }
     </div>
   </article>
-  <BlogCarousel posts={posts} />
+  <BlogCarousel posts={relatedPosts} />
+  <!-- You can refactor this to use post.json data for related posts -->
 </BaseLayout>
 <style>
   .cover-image {
@@ -129,7 +135,6 @@ posts = filterPostsByTags(posts, post);
       rgba(0, 0, 0, 0)
     );
   }
-
   .post {
     display: flex;
     flex-direction: column;
@@ -138,39 +143,32 @@ posts = filterPostsByTags(posts, post);
     margin-top: 2rem;
     max-width: 68rem;
   }
-
   h2 {
     text-align: start;
     text-wrap: balance;
   }
-
   p {
     margin-bottom: 0;
     font-size: 1rem;
   }
-
   img {
     width: 100%;
     height: 100svh;
     object-fit: cover;
   }
-
   button {
     background-color: var(--background-body);
   }
-
   @media (max-width: 920px) {
     .frame {
       margin-left: var(--left-padding-tablet);
       margin-right: var(--right-padding-tablet);
     }
   }
-
   @media (max-width: 640px) {
     .post {
       margin-top: 5svh;
     }
-
     img {
       width: 100svw;
       height: 55svh;

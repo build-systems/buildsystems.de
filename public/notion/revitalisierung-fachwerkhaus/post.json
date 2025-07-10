@@ -1,0 +1,546 @@
+{
+  "PageId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+  "Title": "Wiederbelebung des städtischen Raums — Revitalisierung Fachwerkhaus",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d3d80c01-0554-4f3f-bdad-6e730b10b7e9/Marktstrae_Giebel.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=8f514989891e72521620afe2de59b629e8423849d997c6626f8dc44ea8524842&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Die Hauptfassade im sanierten Zustand",
+  "Slug": "revitalisierung-fachwerkhaus",
+  "PublishDate": "2024-01-02",
+  "Tags": [
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    },
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    }
+  ],
+  "Description": "BuildSystems transformiert ein Fachwerkhaus im Stadtzentrum von Kirchheim unter Teck, welches als neuer Baustein für die Revitalisierung der Innenstadt sorgt.",
+  "coverAsset": "Marktstrae_Giebel.jpg",
+  "blockAssets": [
+    "zieldefinitionen_fachwerkshaus.jpg",
+    "revitalisierung-fachwerkhaus_innerstadtische_Lage.jpg",
+    "revitalisierung-fachwerkhaus_innenstadt.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "a5f85eb6-8131-46e5-8f5a-f9587a99f45e",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zieldefinition",
+            "Href": null,
+            "Text": {
+              "Content": "Zieldefinition"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "a57da1fe-1c9d-45a6-ae2b-773932125caa",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das denkmalgeschütze Fachwerkhaus in der Marktstraße ist ein wichtiger Bestandteil der historischen Innenstadt von Kirchheim unter Teck und trägt nach seiner Transformation zu einem Wohn- und Geschäftshaus zu einer belebten und durchmischten Stadt bei. Im Rahmen der denkmalgerechten Sanierung wurde das Gebäude an die aktuellen Anforderungen hinsichtlich Funktionalität und energetischer Effizienz weitestgehend angepasst. Für die Zukunft stellt die Immobilie eine langfristige und wertstabile Anlage dar und bietet Gewerbeflächen und Wohnraum für anspruchsvolle Mieterinnen und Mieter.",
+            "Href": null,
+            "Text": {
+              "Content": "Das denkmalgeschütze Fachwerkhaus in der Marktstraße ist ein wichtiger Bestandteil der historischen Innenstadt von Kirchheim unter Teck und trägt nach seiner Transformation zu einem Wohn- und Geschäftshaus zu einer belebten und durchmischten Stadt bei. Im Rahmen der denkmalgerechten Sanierung wurde das Gebäude an die aktuellen Anforderungen hinsichtlich Funktionalität und energetischer Effizienz weitestgehend angepasst. Für die Zukunft stellt die Immobilie eine langfristige und wertstabile Anlage dar und bietet Gewerbeflächen und Wohnraum für anspruchsvolle Mieterinnen und Mieter."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "94bb904a-7820-4762-9bdb-afc644dae2c7",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ziele der Sanierung und Repositionierung",
+            "Href": null,
+            "Text": {
+              "Content": "Ziele der Sanierung und Repositionierung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e1b347d6-459e-42a8-bbcf-e2ebd360fca7/zieldefinitionen_fachwerkshaus.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TYMFX55%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF%2FVtfDLY37vuzv2dcHZVaBNErWY7d6SfPJTNnFfptdEAiEAhNv%2FBv9QWSeGCL27g8SXFxt8qk4DKwN7vMK3L77BtuoqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPGzLz7L3LFXp4dwKCrcAysOH75dFA7QqSdzHcNUqMh0eYxP5%2FnTtXbjnN5R7vWw7QrHgausCFyN22IJuZBSaNANJj0UJc4vri19pp4FLUFDUMGPbFSpN1jPRUH%2FbAwOAI0%2BVWWieV5teAxHeyAwx6uyQr3qCHZg4IodPsKfsZPaUVszicTrZW3vZSCO1pujXnyDbdonRAZyIDocTmT8e4JwA%2B8N%2Bs1m%2FXKmHlY9JuodacfzboU41t76kk47GRZIPB5%2FZ71eufV%2FYBOXm6Opz6HAlyHGDjAd8JfooJI7Q6dhMxadZ3VWZVLt8sGUdgRlF6Qz0%2FN1jxygxy61e0etvsWarmhN3hpp2GH0YehBk6qb56vnHnHQukAgO%2B%2BHLEw7wgUIYSTqEB4OwAqRpSkAkjvNJ6neG9RKNseh2MzUrPcbLB1skQRWR0jTW7iN3skaHMcd16sfHX9%2BQzoVb8S%2Fu1VIHmSsiglIDZGxSzOQOaluDTWUpyNdddNGyaxg4vAjhDf7TnuCiIBnzYsSf4Ea4qPUFQDia6qogUTdu4Ua6ngQ3iw%2F%2BfqRpohhN2cr3EqmaBH%2BYmBaNi71o92WmBxpCH4rNMXVhFXAxcmvjTyx2C7ZkqZ4O9GJ%2BrHsMLCi3aju8ujmmUPyicK6DfQYMMeHwMMGOqUBT9EHWvYU679LmdoWB%2BeIpL6UOAu0wz7lbNaLxGntUCLhBxD4dOR3y3NOXpsXt%2FMmCZ9I0KOk4TkcvlMC6LiFY6FypvMhs0cJ9onke0I%2FqJsVu8BCFeKzmueF70dZzOUjBwiEEk7Xb%2F68Kp6mckeus%2FKW5Cz%2BU0oGwAigDj1otL6zUwqiZ5cl9GtDBRywv5L9YRXSPESkdAL2ynIJPHuj3jFAluzB&X-Amz-Signature=b7891fa48639fc15a6f4d5ee5794a442659b86e38552e01392add23b925d8f0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.834Z"
+        }
+      }
+    },
+    {
+      "Id": "8b72f986-88ee-49fe-b133-25d467352f3c",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Denkmalgerechte Instandsetzung und Umbau",
+            "Href": null,
+            "Text": {
+              "Content": "Denkmalgerechte Instandsetzung und Umbau"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c8ca3e3e-5e68-46f0-b978-97179e9b5603",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um das städtebauliche Bild der Altstadt zu erhalten, wurde am Volumen des Gebäudepaars aus Fachwerkhaus und ehemaligem Wirtschaftsgebäude nichts verändert. Im Innenraum sowie an der Fassade mussten verschiedene Bauteile technisch und gestalterisch instandgesetzt werden, um die Gebäude wieder langfristig entsprechend aktueller Standards nutzbar zu machen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Um das städtebauliche Bild der Altstadt zu erhalten, wurde am Volumen des Gebäudepaars aus Fachwerkhaus und ehemaligem Wirtschaftsgebäude nichts verändert. Im Innenraum sowie an der Fassade mussten verschiedene Bauteile technisch und gestalterisch instandgesetzt werden, um die Gebäude wieder langfristig entsprechend aktueller Standards nutzbar zu machen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b4c65bd9-3644-4806-a689-5e2af53b1322",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7e51c940-0454-475d-82b2-3024f59c384c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der frühzeitige Austausch und die enge Zusammenarbeit mit der Stadt und dem Denkmalpflegeamt waren ausschalggebend, um den denkmalgerechten Umbau der erhaltenswerten Gebäudeteile zu realisieren und ein Konzept für die finanzielle Förderung der Transformation (Denkmal-AfA) zu entwickeln.",
+            "Href": null,
+            "Text": {
+              "Content": "Der frühzeitige Austausch und die enge Zusammenarbeit mit der Stadt und dem Denkmalpflegeamt waren ausschalggebend, um den denkmalgerechten Umbau der erhaltenswerten Gebäudeteile zu realisieren und ein Konzept für die finanzielle Förderung der Transformation (Denkmal-AfA) zu entwickeln."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "647f55e8-4c7c-4de5-b352-518dcde9bebb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "ca6de39e-d15a-43b3-84f3-e151bfdad34a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Lage des Fachwerkhauses in der Marktstraße der historischen Altstadt von Kirchheim unter Teck. Links die ehemalige Stadtmauer.",
+            "Href": null,
+            "Text": {
+              "Content": "Lage des Fachwerkhauses in der Marktstraße der historischen Altstadt von Kirchheim unter Teck. Links die ehemalige Stadtmauer."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4223b0bc-054d-4dac-a6b4-a53cd206f76d/revitalisierung-fachwerkhaus_innerstadtische_Lage.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TYMFX55%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF%2FVtfDLY37vuzv2dcHZVaBNErWY7d6SfPJTNnFfptdEAiEAhNv%2FBv9QWSeGCL27g8SXFxt8qk4DKwN7vMK3L77BtuoqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPGzLz7L3LFXp4dwKCrcAysOH75dFA7QqSdzHcNUqMh0eYxP5%2FnTtXbjnN5R7vWw7QrHgausCFyN22IJuZBSaNANJj0UJc4vri19pp4FLUFDUMGPbFSpN1jPRUH%2FbAwOAI0%2BVWWieV5teAxHeyAwx6uyQr3qCHZg4IodPsKfsZPaUVszicTrZW3vZSCO1pujXnyDbdonRAZyIDocTmT8e4JwA%2B8N%2Bs1m%2FXKmHlY9JuodacfzboU41t76kk47GRZIPB5%2FZ71eufV%2FYBOXm6Opz6HAlyHGDjAd8JfooJI7Q6dhMxadZ3VWZVLt8sGUdgRlF6Qz0%2FN1jxygxy61e0etvsWarmhN3hpp2GH0YehBk6qb56vnHnHQukAgO%2B%2BHLEw7wgUIYSTqEB4OwAqRpSkAkjvNJ6neG9RKNseh2MzUrPcbLB1skQRWR0jTW7iN3skaHMcd16sfHX9%2BQzoVb8S%2Fu1VIHmSsiglIDZGxSzOQOaluDTWUpyNdddNGyaxg4vAjhDf7TnuCiIBnzYsSf4Ea4qPUFQDia6qogUTdu4Ua6ngQ3iw%2F%2BfqRpohhN2cr3EqmaBH%2BYmBaNi71o92WmBxpCH4rNMXVhFXAxcmvjTyx2C7ZkqZ4O9GJ%2BrHsMLCi3aju8ujmmUPyicK6DfQYMMeHwMMGOqUBT9EHWvYU679LmdoWB%2BeIpL6UOAu0wz7lbNaLxGntUCLhBxD4dOR3y3NOXpsXt%2FMmCZ9I0KOk4TkcvlMC6LiFY6FypvMhs0cJ9onke0I%2FqJsVu8BCFeKzmueF70dZzOUjBwiEEk7Xb%2F68Kp6mckeus%2FKW5Cz%2BU0oGwAigDj1otL6zUwqiZ5cl9GtDBRywv5L9YRXSPESkdAL2ynIJPHuj3jFAluzB&X-Amz-Signature=91423ff7786e9412eb5c0e5107d18585bef6a60c323bde5218cf7fa2100c9dbb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.832Z"
+        }
+      }
+    },
+    {
+      "Id": "aa9a2b8a-1b5b-4880-b43e-6d06358d4831",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Öffentliche Erdgeschosszone",
+            "Href": null,
+            "Text": {
+              "Content": "Öffentliche Erdgeschosszone"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "ebd57d09-7fce-4625-bdf1-edee54ef5324",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein zentrales Ziel der Entwicklung bestand darin, nicht nur die Bedürfnisse der Bewohner und Mieter des Gebäudes zu erfüllen, sondern auch einen Mehrwert für die Öffentlichkeit zu schaffen. Besonders in Innenstädten ist es von großer Bedeutung, die Erdgeschosszone so zu gestalten, dass eine vielfältige und lebendige Stadtstruktur entsteht. Dadurch wird das 300 Jahre alte Fachwerkhaus auch zukünftig harmonisch in das historische Stadtbild eingebettet und trägt zur Bereicherung des Stadtraums bei. Während der Konzeptentwicklung lag daher ein besonderer Fokus auf der Neugestaltung der Gewerbeeinheit. Durch eine offene Gestaltung der Fassade wird eine direkte Interaktion mit der Umgebung ermöglicht, wodurch der öffentliche Raum nahtlos integriert wird. Die großzügige Schaufensterfront der Gewerbeeinheit dient gleichzeitig als Werbefläche für die Mieter. Langfristig ist die Einheit flexibel nutzbar und kann an verschiedene Bedürfnisse angepasst werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein zentrales Ziel der Entwicklung bestand darin, nicht nur die Bedürfnisse der Bewohner und Mieter des Gebäudes zu erfüllen, sondern auch einen Mehrwert für die Öffentlichkeit zu schaffen. Besonders in Innenstädten ist es von großer Bedeutung, die Erdgeschosszone so zu gestalten, dass eine vielfältige und lebendige Stadtstruktur entsteht. Dadurch wird das 300 Jahre alte Fachwerkhaus auch zukünftig harmonisch in das historische Stadtbild eingebettet und trägt zur Bereicherung des Stadtraums bei. Während der Konzeptentwicklung lag daher ein besonderer Fokus auf der Neugestaltung der Gewerbeeinheit. Durch eine offene Gestaltung der Fassade wird eine direkte Interaktion mit der Umgebung ermöglicht, wodurch der öffentliche Raum nahtlos integriert wird. Die großzügige Schaufensterfront der Gewerbeeinheit dient gleichzeitig als Werbefläche für die Mieter. Langfristig ist die Einheit flexibel nutzbar und kann an verschiedene Bedürfnisse angepasst werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f79cd2d6-9b5c-4ee2-a972-d64b194ad0f1",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einblick in die Fußgängerzone unmittelbar nach Abschluss der Sanierungsarbeiten, jedoch vor dem Einzug der Mieter.",
+            "Href": null,
+            "Text": {
+              "Content": "Einblick in die Fußgängerzone unmittelbar nach Abschluss der Sanierungsarbeiten, jedoch vor dem Einzug der Mieter."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7e6eed1b-9cb4-4f9c-bfcd-7ee3aa5e5a2e/revitalisierung-fachwerkhaus_innenstadt.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TYMFX55%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF%2FVtfDLY37vuzv2dcHZVaBNErWY7d6SfPJTNnFfptdEAiEAhNv%2FBv9QWSeGCL27g8SXFxt8qk4DKwN7vMK3L77BtuoqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPGzLz7L3LFXp4dwKCrcAysOH75dFA7QqSdzHcNUqMh0eYxP5%2FnTtXbjnN5R7vWw7QrHgausCFyN22IJuZBSaNANJj0UJc4vri19pp4FLUFDUMGPbFSpN1jPRUH%2FbAwOAI0%2BVWWieV5teAxHeyAwx6uyQr3qCHZg4IodPsKfsZPaUVszicTrZW3vZSCO1pujXnyDbdonRAZyIDocTmT8e4JwA%2B8N%2Bs1m%2FXKmHlY9JuodacfzboU41t76kk47GRZIPB5%2FZ71eufV%2FYBOXm6Opz6HAlyHGDjAd8JfooJI7Q6dhMxadZ3VWZVLt8sGUdgRlF6Qz0%2FN1jxygxy61e0etvsWarmhN3hpp2GH0YehBk6qb56vnHnHQukAgO%2B%2BHLEw7wgUIYSTqEB4OwAqRpSkAkjvNJ6neG9RKNseh2MzUrPcbLB1skQRWR0jTW7iN3skaHMcd16sfHX9%2BQzoVb8S%2Fu1VIHmSsiglIDZGxSzOQOaluDTWUpyNdddNGyaxg4vAjhDf7TnuCiIBnzYsSf4Ea4qPUFQDia6qogUTdu4Ua6ngQ3iw%2F%2BfqRpohhN2cr3EqmaBH%2BYmBaNi71o92WmBxpCH4rNMXVhFXAxcmvjTyx2C7ZkqZ4O9GJ%2BrHsMLCi3aju8ujmmUPyicK6DfQYMMeHwMMGOqUBT9EHWvYU679LmdoWB%2BeIpL6UOAu0wz7lbNaLxGntUCLhBxD4dOR3y3NOXpsXt%2FMmCZ9I0KOk4TkcvlMC6LiFY6FypvMhs0cJ9onke0I%2FqJsVu8BCFeKzmueF70dZzOUjBwiEEk7Xb%2F68Kp6mckeus%2FKW5Cz%2BU0oGwAigDj1otL6zUwqiZ5cl9GtDBRywv5L9YRXSPESkdAL2ynIJPHuj3jFAluzB&X-Amz-Signature=4409ceac7925e4d1fe5a13b74b81290688683651277c9556db57f6e1000b7347&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.827Z"
+        }
+      }
+    },
+    {
+      "Id": "aec6779b-09fb-43ab-b7f2-3284b3982f57",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d482adaf-610a-47f3-8f87-c57a7f292281",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Laufe der denkmalgerechten Sanierung wurden folgende Leistungen erbracht:",
+            "Href": null,
+            "Text": {
+              "Content": "Im Laufe der denkmalgerechten Sanierung wurden folgende Leistungen erbracht:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "456049f7-aa3f-405f-ad4c-f257b1587688",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Markt- und Standortanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Markt- und Standortanalyse"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e0350250-4c28-434b-bb24-e5ded57f4469",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bedarfsanalyse und Nutzungskonzept",
+            "Href": null,
+            "Text": {
+              "Content": "Bedarfsanalyse und Nutzungskonzept"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "ee582127-a8df-4ae8-8850-d75eee188771",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Abstimmung Denkmalpflegeamt",
+            "Href": null,
+            "Text": {
+              "Content": "Abstimmung Denkmalpflegeamt"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "04fd4c24-96b7-493c-8465-60f648e233ce",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Objektplanung Architektur: Leistungsphasen 1-9",
+            "Href": null,
+            "Text": {
+              "Content": "Objektplanung Architektur: Leistungsphasen 1-9"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f75ba018-5220-4330-a8cb-9b8ac2083876",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Koordination der Förderanträge für Denkmalpflege",
+            "Href": null,
+            "Text": {
+              "Content": "Koordination der Förderanträge für Denkmalpflege"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3ee302a4-3b4b-403c-b895-73bc8adedf74",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0767cf08-14af-41f5-92d1-9979cc2abd25",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "65483301-6fd6-4f83-aef1-18507f451e9c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "©️ Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

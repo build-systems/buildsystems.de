@@ -1,0 +1,1043 @@
+{
+  "PageId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+  "Title": "Slow Hospitality meets Bauwende: Ganzheitliche Entwicklungsstrategie für einen Bio-Weinhof",
+  "Authors": [
+    {
+      "id": "082c4474-261b-44f9-9a8d-eff71fa4e217",
+      "name": "Maximilian Lieser",
+      "color": "orange"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f9148e8d-d873-49e3-9740-23b6b66cd5c2/ganzheitlicher-ansatz-banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=4e6d0e44e57a2a1caf1d47978543cf1aa95488f67f824a7359539fcf3a63cce3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "weinhof-locknbauer-drohne",
+  "Slug": "weinhof-locknbauer-entwicklungsstrategie",
+  "PublishDate": "2025-06-19",
+  "Tags": [],
+  "Description": "Für den steirischen Bioweinhof Locknbauer entwickelt BuildSystems ein zukunftsweisendes Gesamtkonzept, das nachhaltigen Weinbau, klimafreundliches Bauen und ein resilientes Tourismusmodell zu einer gemeinsamen Wertschöpfungsstrategie verknüpft.",
+  "coverAsset": "ganzheitlicher-ansatz-banner.jpg",
+  "blockAssets": [
+    "weinhof-locknbauer-entwicklungsstrategie_ansatz_2.jpg",
+    "5a95a8e7-8ca8-4283-a015-248f318b22c3.jpg",
+    "d2b45fe7-2574-48c1-aa9c-58a74f1cae80.jpg",
+    "weinhof-locknbauer-entwicklungsstrategie_circular.jpg",
+    "weinhof-locknbauer-entwicklungsstrategie_vorher.jpg",
+    "weinhof-locknbauer-entwicklungsstrategie_interior.jpg",
+    "3e23499d-41e0-4fc8-8fc7-3e5e9c2ac9e4.jpg",
+    "4527ad1c-6fcc-4e03-a638-04ee89424f06.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "225cc54c-ec6d-80be-ae6e-f2e4a55c9352",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wie kann Slow Tourismus zum Motor einer regionalen Bau- und Landwirtschaftswende werden?",
+            "Href": null,
+            "Text": {
+              "Content": "Wie kann Slow Tourismus zum Motor einer regionalen Bau- und Landwirtschaftswende werden?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-802e-b8c4-e18f8a76c7f0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für den steirischen Bioweinhof ",
+            "Href": null,
+            "Text": {
+              "Content": "Für den steirischen Bioweinhof "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Locknbauer",
+            "Href": "https://locknbauer.at/",
+            "Text": {
+              "Content": "Locknbauer",
+              "Link": {
+                "Url": "https://locknbauer.at/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " entwickelt BuildSystems ein ganzheitliches Konzept, das nachhaltigen Weinbau, Tourismus und ökologische Baukultur strategisch miteinander verzahnt. Im Mittelpunkt steht die Frage: Wie lassen sich regionale Wertschöpfung, klimafreundliche Bauprinzipien und ein zeitgemäßes Gästeerlebnis im ländlichen Raum intelligent verbinden?",
+            "Href": null,
+            "Text": {
+              "Content": " entwickelt BuildSystems ein ganzheitliches Konzept, das nachhaltigen Weinbau, Tourismus und ökologische Baukultur strategisch miteinander verzahnt. Im Mittelpunkt steht die Frage: Wie lassen sich regionale Wertschöpfung, klimafreundliche Bauprinzipien und ein zeitgemäßes Gästeerlebnis im ländlichen Raum intelligent verbinden?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8007-84a6-e263ed7cdf79",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Von der Betriebsstrategie zur Bauaufgabe: Neue Wege in der Landwirtschaft",
+            "Href": null,
+            "Text": {
+              "Content": "Von der Betriebsstrategie zur Bauaufgabe: Neue Wege in der Landwirtschaft"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-808f-9684-d1793119c381",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um wirtschaftliche Resilienz zu stärken und neue Perspektiven für den Hof zu schaffen, wurde das bestehende landwirtschaftliche und kulinarische Nutzungskonzept um eine touristische Komponente erweitert. Im Fokus: zwei hochwertig ausgestattete Ferienwohnungen in einem nahegelegenen Kellerstöckl, nur wenige Gehminuten vom Weingut entfernt – 36 m² & 86 m² Wohnfläche, Weitblick in die Hügellandschaft der Oststeiermark, nachhaltiger Landurlaub mit architektonischer Qualität.",
+            "Href": null,
+            "Text": {
+              "Content": "Um wirtschaftliche Resilienz zu stärken und neue Perspektiven für den Hof zu schaffen, wurde das bestehende landwirtschaftliche und kulinarische Nutzungskonzept um eine touristische Komponente erweitert. Im Fokus: zwei hochwertig ausgestattete Ferienwohnungen in einem nahegelegenen Kellerstöckl, nur wenige Gehminuten vom Weingut entfernt – 36 m² & 86 m² Wohnfläche, Weitblick in die Hügellandschaft der Oststeiermark, nachhaltiger Landurlaub mit architektonischer Qualität."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8054-92cf-f446552498d3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Erweiterung basiert auf einer strategischen Verbindung von authentischem und hochwertigem Erlebnisraum und funktional durchdachter Bauweise – ganz im Sinne eines ganzheitlichen Transformationsprozesses.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Erweiterung basiert auf einer strategischen Verbindung von authentischem und hochwertigem Erlebnisraum und funktional durchdachter Bauweise – ganz im Sinne eines ganzheitlichen Transformationsprozesses."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-800e-9d03-d62f8ad81249",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8080-915c-d66fc4976fc6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-809c-8e63-e044a46f60ea",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ce1b78ab-dd24-4892-8a6a-ce877a7f739d/weinhof-locknbauer-entwicklungsstrategie_ansatz_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VW465WEH%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWApBwpggdxaH0%2F017VKxyBKEEJMk8jERD9%2BWS%2BpHnJAiEAymnFRhx7CYcAqclUbCbGOZ1QII6B506qx2XLY8Z9F6IqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIbQqIbCNg5bo7udECrcA7Qf9zUCRWuDBm48u1pqT5HL4WJEuWCvG191Edi%2FfjcnaJbXus8U3d1%2BPjSoaZrrokpQDe7jcCrWuLehDHyYgmN4oZ5gVVhyiQmtvP%2BWylgXFJXYhxhAuvP4mVnGPdqzZR%2B5wSN8V9awjM2OntrnP6cTvbUkRy%2BCj487tRKIpnpi3C7ltIMxebFF7TelFn34Thc4mU37phUB%2FnYH76iBSCEUMah6dbK9E0gOPUAQZxqLC%2F%2BMoC1%2BBQ%2BZOcTKAf3k%2FR9G1YHkMr5nK7K9kAHAMgVjj4bPK5rhnsicWFfxIkXVkO%2FXavCXKNsMsA8flV%2Frf%2B4R5PwhPcl7ig0Md1ntCu%2F1%2FDaJz2iqTyxYtytTAwlhI2LXFIqOcpr%2FXyCm8W3RaDYV%2FJhFjWv4wzppV5eck77hmQxk0lteU9FuuqAPF%2ByHouI6LI3GH%2Foasw0oQKltE2EcgaM0LwubUVnfcKG0Vem%2B5zmzr4i5OH88jGRRLXTNw%2FnAQkq%2BPaYi%2FESP0c7sk5PQkCzo4dAyqt69JObQDOXDPkHvlFf%2BU%2B6%2BW0Fg6x65%2B6qOWZhJG6c4z7nup%2BqiMrd0zHyK1XoXvDGSQeanwL1nC1A1%2BlhqhMYO2JU%2BKNB6mXTEbDGHLhgx29V5MMCHwMMGOqUBGXjnc4VxMTB1l%2FQy%2FnNnvdkqVYrbxeF2Es3%2BSlXKgASW32VEj%2Bkq46JxZ6BxCCSeparQzH9eHBeCnh3FqTfOqLgfGbcHqh9W7R0pGH77NSlpWOa6%2BSP0EJ1ggz2kN1EIzREgde62Ndz2r7dwIDFtdnzNqXH0DXAYA%2Bu3IIp2X3efJGDak03GobqJhbrJyoh8FBNkTtwUbbjnCaMyu%2FzEjiniDsAd&X-Amz-Signature=0cb6aea06d917daaab39e6327a1587fc27323d7843f71c67e3fb33d71a2b0363&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:01.607Z"
+        }
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80fe-bb72-e583976f046d",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "225cc54c-ec6d-809b-ba0f-dad0964cab5a",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-80b6-877f-e483e45f134b",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestand heute",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestand heute"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d43f5dee-39cd-42ce-8af4-df4da2a3d59b/5a95a8e7-8ca8-4283-a015-248f318b22c3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OQR5BJF%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCID3kLol260qf%2F3S5s%2FgAJF0vBNLt4lGYdNoYtqZfd%2BJ9AiEAlKL3JuL%2BMNdyIH2F58zeV4innQRbhaF7Z5GvzDeJKacqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP2KvwRt31q3ubf8PSrcA%2BMDnPpwPkbngZ1XTICpLdRyovvn6DPTslZdVs%2FvXBDda%2Fs%2BrpqWCPOEZXsWcYfOLVvYeAP1%2B3GkEDen1gjHZKalDhcjPnfJk9aTL01DHOKX308PcYaxS0BqO%2B7M25FVTgpxfF8CFqP5my7kR%2BfDCG9%2FUnlJNviFcW9G0JG2uKOkvPNoo7LwIucmr4czW%2BwTzp%2F5OlnP9SgA8U20eD840Yhc0%2BHuOZ6Q0PfY2PfeaxeF%2B4bsQMnFEUs%2FmZ7irKRt5DHOyDpu%2BdrnvUDCjqFMkV0ojpc6JquybZhstNSlJjqRRahU6bnldctiQufXRVsoU4IK6hJi2a0nlMD9vHcdYHnnJAK9c04g%2FVcvmaNS2Ct2Dex0S%2BQUnJCAt1fRKMZeybFDWx8b59DD%2BiMERuQFwRZiA68fLuqay2bKZskJZZlP5rQsRzuCoMCVgoa3YSbno59gID0htEcBE%2BItS4n72PcI5Ar6s0GkU36uLrS2yVi0D1nHPLj385FhNJ%2BR%2FhIwxufHr0GAz0vahJSB3%2FV6PuHvRqIbs8zkJF9sF3AEI0BJB62AZDx6%2B%2FbYmD3A7tedLu7surgKuZormSdRFnoZBVraEO0jaiqkVYlim3IO5bc%2FtrG7KWd5t%2BgMCvRCMOuHwMMGOqUBtHiRKlbGg9mC1a3MZfqsmZce9hnqFofCLKnkdw7kg%2F%2BYFtHzD83mk5u14YQB1QrFRJWdEZb50IDkKDidHISJLSbHj6%2FjsYPrJpAPsa7X%2F2XWOmbgyZ6v%2Bcdqbuk2TX%2FetnigUNguEMo4pXVj5qQc8ppwrLcRfTsGnwNSUbI2x0EukS6PeUOVGMrDeqhIlJXXW7GOgfEmGyQ2m6YeX3c5T%2B%2FJrX54&X-Amz-Signature=e563a732f34355db8230f9df73f0d26707461a826f03f6e68775710620b43124&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:03.171Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "225cc54c-ec6d-80bb-b7d8-cec0e21e4b14",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-80ca-ba86-c189ff2c9fa0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Lage in der Region",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Lage in der Region"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c35837b2-cf4c-42dc-988d-1888e1fd5ecf/d2b45fe7-2574-48c1-aa9c-58a74f1cae80.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666WZ65YHO%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDL3DNdebNezb6C1EGjgikQkhEaEYBtfBbOUX4WjivWhQIhAMzaHGfgG16MepTm4rJLzKmz4HkrnhwBD%2BcLejUzw8G8KogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igxj47MmcLNCprNmVwEq3ANvLAPI0yuNhjT6SOdTVtrGVrah3zB1dR%2BVNAywoziLGBrPNAfNZfDW1jIXdhDeVA65viqT7hwPOUdgnttpMJbOwDYwvi%2FLYisGZcCf6xcX%2FPzvAdskSL7e5wa1I5UoVCY6i2S%2FVuUbtTnNvUZ3vHQ%2FO%2FtN63D0VnBvaR74bIrGxeq4fHcHsuWAPq9FD6CjlVMX8UH5I5O74M7vo%2BkJJ6Ivbsqg3blHLSd3%2BTmjQCEVfIrmcwuywOOQf8oL63DbRp1DB3NNVtdFKG%2BzkmyRpPaDacAWe6Ua7YD%2BeDtar%2BskZYALzEqUW51Wc8Qc7aUjdEpBkIl7ZDq3RRlzZzUBOxO49w5UEXFHDKW%2FntM3OZ524%2FgoITZkbwvIQgwOf4brEb1z22efgk7Qp9hHITGlz7zm%2F7UDqFLVa8wESYdNNVU8noTC7DSRm6YvRXtP11jxTN1z2rBMpGB%2Fptg%2BgPBbs0BwTfZFXmeMVHt2KQFjaJ7VDbN5SCPWz%2FqOvGEuXAkrS%2BgC3nk%2FBsT2BzJcT8fuEfe2%2Brjx7z2s1mZEZgUWsTXhV4rHWf9PuZkh8xHZmJ3Tw0XsaMu2ePqgAXZFDnnJeYmsoRcFUbpOmUDzYoUhq9WQv8fVKyIJg206n2RetzDzh8DDBjqkAfZLt6VFzq8m4t7RDlMUmXpE7rbLJKgu%2Bzxw2oIk5XDqRG4gavnnwmnI5L4V7dD1aDFAmZZIEkke3OrZYj97we7vOpMhgQmQ48D5eymPEM8YeX9rMoaMI4GW14uMrSw3%2FRd8JiV%2B9cESvXsJ8TKFaGRCvZborzNRYje5HYC4YRQylaNrt94185wAROyml7lO0rxGeZ%2Fpcip67%2BdfG2w%2BGVOuM8GT&X-Amz-Signature=801c5a10c1493cd66d5c8cd76a3e8f6cc0a375641813e0015a9473ddb1562dad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:06.845Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80e9-bb5c-c7fa7b59e4f0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-807d-9180-d48eba8a95e8",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einfach, resilient, regional: Architektonische Haltung trifft zirkuläre Strategie",
+            "Href": null,
+            "Text": {
+              "Content": "Einfach, resilient, regional: Architektonische Haltung trifft zirkuläre Strategie"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8097-a08f-c76bcab05a0a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Architektur des Kellerstöckls wurde in enger Abstimmung mit dem Weingut ressourcenschonend weiterentwickelt und in die bestehende Architektur des Weinhofs eingegliedert:",
+            "Href": null,
+            "Text": {
+              "Content": "Die Architektur des Kellerstöckls wurde in enger Abstimmung mit dem Weingut ressourcenschonend weiterentwickelt und in die bestehende Architektur des Weinhofs eingegliedert:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-803a-9050-f98750530054",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80d7-b564-d6bb0b7b0c90",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Modulares und CO₂-bewusstes Bauen",
+            "Href": null,
+            "Text": {
+              "Content": "Modulares und CO₂-bewusstes Bauen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80ee-aea4-cb99a7ee5aff",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wiederverwendbare Materialien & regionale Baustoffe",
+            "Href": null,
+            "Text": {
+              "Content": "Wiederverwendbare Materialien & regionale Baustoffe"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80cc-a2f4-eb49919aea80",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Flexible Raumprogramme für unterschiedliche Nutzungen",
+            "Href": null,
+            "Text": {
+              "Content": "Flexible Raumprogramme für unterschiedliche Nutzungen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-805d-8835-d76a2b672584",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Reduktion auf das Wesentliche bei maximaler Aufenthaltsqualität",
+            "Href": null,
+            "Text": {
+              "Content": "Reduktion auf das Wesentliche bei maximaler Aufenthaltsqualität"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-802b-aff1-e990a998dacf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8076-abd0-d6594fb2adbb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-809e-ac0e-f33e4d521b32",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-800b-8084-c1ff79e0c4b9",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a673925a-8ba1-409a-bb92-cbf1055461e2/weinhof-locknbauer-entwicklungsstrategie_circular.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VW465WEH%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWApBwpggdxaH0%2F017VKxyBKEEJMk8jERD9%2BWS%2BpHnJAiEAymnFRhx7CYcAqclUbCbGOZ1QII6B506qx2XLY8Z9F6IqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIbQqIbCNg5bo7udECrcA7Qf9zUCRWuDBm48u1pqT5HL4WJEuWCvG191Edi%2FfjcnaJbXus8U3d1%2BPjSoaZrrokpQDe7jcCrWuLehDHyYgmN4oZ5gVVhyiQmtvP%2BWylgXFJXYhxhAuvP4mVnGPdqzZR%2B5wSN8V9awjM2OntrnP6cTvbUkRy%2BCj487tRKIpnpi3C7ltIMxebFF7TelFn34Thc4mU37phUB%2FnYH76iBSCEUMah6dbK9E0gOPUAQZxqLC%2F%2BMoC1%2BBQ%2BZOcTKAf3k%2FR9G1YHkMr5nK7K9kAHAMgVjj4bPK5rhnsicWFfxIkXVkO%2FXavCXKNsMsA8flV%2Frf%2B4R5PwhPcl7ig0Md1ntCu%2F1%2FDaJz2iqTyxYtytTAwlhI2LXFIqOcpr%2FXyCm8W3RaDYV%2FJhFjWv4wzppV5eck77hmQxk0lteU9FuuqAPF%2ByHouI6LI3GH%2Foasw0oQKltE2EcgaM0LwubUVnfcKG0Vem%2B5zmzr4i5OH88jGRRLXTNw%2FnAQkq%2BPaYi%2FESP0c7sk5PQkCzo4dAyqt69JObQDOXDPkHvlFf%2BU%2B6%2BW0Fg6x65%2B6qOWZhJG6c4z7nup%2BqiMrd0zHyK1XoXvDGSQeanwL1nC1A1%2BlhqhMYO2JU%2BKNB6mXTEbDGHLhgx29V5MMCHwMMGOqUBGXjnc4VxMTB1l%2FQy%2FnNnvdkqVYrbxeF2Es3%2BSlXKgASW32VEj%2Bkq46JxZ6BxCCSeparQzH9eHBeCnh3FqTfOqLgfGbcHqh9W7R0pGH77NSlpWOa6%2BSP0EJ1ggz2kN1EIzREgde62Ndz2r7dwIDFtdnzNqXH0DXAYA%2Bu3IIp2X3efJGDak03GobqJhbrJyoh8FBNkTtwUbbjnCaMyu%2FzEjiniDsAd&X-Amz-Signature=676137de0cf07491d91511410893886edaa503880b152d9abc5915c7d4994a92&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:01.615Z"
+        }
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8005-ac81-f18f8305911b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entwicklung einer Sanierungsstrategie",
+            "Href": null,
+            "Text": {
+              "Content": "Entwicklung einer Sanierungsstrategie"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8095-8470-d0508816d3ec",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8086-a560-c98341d7d416",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Slow Tourism als Katalysator der Bauwende",
+            "Href": null,
+            "Text": {
+              "Content": "Slow Tourism als Katalysator der Bauwende"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80df-85e0-c09e7ffa783f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Projekt Locknbauer ist mehr als eine Ferienimmobilie – es steht exemplarisch für eine neue Haltung im ländlichen Bauen. Es zeigt, wie klimafreundlicher Tourismus, nachhaltige Architektur und regionale Landwirtschaft in einem Gesamtsystem zusammenspielen können.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Projekt Locknbauer ist mehr als eine Ferienimmobilie – es steht exemplarisch für eine neue Haltung im ländlichen Bauen. Es zeigt, wie klimafreundlicher Tourismus, nachhaltige Architektur und regionale Landwirtschaft in einem Gesamtsystem zusammenspielen können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-800c-851b-f5ebfcd36082",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dabei wird Architektur nicht als abgeschlossenes Objekt, sondern als Impulsgeber für Transformation verstanden – vom Gebäude zum Erlebnisbaustein und von der Planung zur regionalen Baukultur",
+            "Href": null,
+            "Text": {
+              "Content": "Dabei wird Architektur nicht als abgeschlossenes Objekt, sondern als Impulsgeber für Transformation verstanden – vom Gebäude zum Erlebnisbaustein und von der Planung zur regionalen Baukultur"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-801f-93c6-ebaac4e39305",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Ergebnis ist ein Modell, das zeigt, wie gute Architektur enkeltauglich, wirtschaftlich tragfähig und touristisch attraktiv zugleich sein kann.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Ergebnis ist ein Modell, das zeigt, wie gute Architektur enkeltauglich, wirtschaftlich tragfähig und touristisch attraktiv zugleich sein kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8019-a50e-e1954eb049ae",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit dem Locknbauer-Projekt macht BuildSystems deutlich, dass resiliente Architektur und Slow Tourism keine Gegensätze sind – sondern sich gegenseitig verstärken. Die Ferienwohnungen ermöglichen nicht nur bewusstes Erleben der Umgebung, sondern auch ein Eintauchen in nachhaltige Entwicklung der Region. Baukultur wird hier greifbar, als das, was sie vor wenigen Jahrzehnten im ländlichen Raum noch darstellte: als Ausdruck regionaler Identität, als Werkzeug zur Klimaanpassung und als integraler Baustein, der Landwirtschaft, Bauwesen und Tourismus verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": "Mit dem Locknbauer-Projekt macht BuildSystems deutlich, dass resiliente Architektur und Slow Tourism keine Gegensätze sind – sondern sich gegenseitig verstärken. Die Ferienwohnungen ermöglichen nicht nur bewusstes Erleben der Umgebung, sondern auch ein Eintauchen in nachhaltige Entwicklung der Region. Baukultur wird hier greifbar, als das, was sie vor wenigen Jahrzehnten im ländlichen Raum noch darstellte: als Ausdruck regionaler Identität, als Werkzeug zur Klimaanpassung und als integraler Baustein, der Landwirtschaft, Bauwesen und Tourismus verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8063-8e67-f6f464a58f01",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Projekt befindet sich aktuell in der Umsetzung und ist ab Mitte 2026 als Teil des Angebots vom Locknbauer zu mieten.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Projekt befindet sich aktuell in der Umsetzung und ist ab Mitte 2026 als Teil des Angebots vom Locknbauer zu mieten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8060-ba1f-fe0ead35276c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8059-a0ba-e3d95c508262",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "225cc54c-ec6d-807e-860f-cb4091b4a1a9",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-80cd-a157-f6a6ab45f2e7",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c7119fb-d696-4f5b-bdfe-a3b5d409e5bd/weinhof-locknbauer-entwicklungsstrategie_vorher.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664TCFD4PW%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183012Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAxnAffU2nOWk%2F%2BJDbXYkK88W%2FYFnD8WznNI41UNDMC4AiEAgOK7nv0XEWGC96WTo8b9YfvgLIGKLAK2L0s%2FbkwKKPwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDMyEEbTXFVcybYkdIircA4x7aFMVdtho8Jj6AspTZrrqeFoSRCgZ33SELHUE5gGaF61jFnoEkRlZQBGnsn8%2BYBILnl2ND4W5wLwhYwLMbNgy4piPW1oWqCHorMWdzFBeIakXT1S3%2BdKgfnl3l0jvWWfPaKLkJqPDzVlSkGKKlMUrn3ZrWYJaA9kRXnPf3oXXJ8jUnYAB6Dgn0QArkx9e0CtICQ4IhNAGJ6oio5dM9ozTfu%2BzbRdhfnjLcQtq2cCUA9paDnl4yv%2Bc4sJ4bWfQRuNCQVT%2FDOATiZSDFjQSIifbEYNZMItHOLzA7sSJTLSOjsendpGS9ks9pNYcIuGAR0ttxmA40fmjqtIpQ6ElvPSGh8%2BCHMGA9a31GqIzmNdZgfZpx6hHHxM3AZvRhXIjc%2BVX42Xm9eP5PQaLxb0w9K7uVWngOlem8F6xs94ApxCKL51dUabR89llJmGTBTqRLXKacPA%2Ft1p5rJg8azsXxIWhC3%2Bg8YDxalq1BLyS0Gp3pgnkvKgJU5Psy1mnmffscLjAX0Fq6LIlJDuI3Jz60ZjdHGguhfhT0EzBrJeqNvF42td7yXDYLc%2FQgB%2FAYEQu9rKfUm15vobgg7Xt13bvXjpJl6%2BwvkuPYdCVyUbcq9qwnjbCFGUO37QRimk3MKWHwMMGOqUBrecHxxPFI1VVRvDayEMTimrN2RssL5AKB0a7SqxPiwXCB1bVAKrrunKo3pr6lRUdS%2BoGclhcXj5yYmwFlHEv52BfbyTrsmo0x4z4qGloQR0BpYEY12uJUWKRbDWHrXwY9I3RyNB%2BvDcLgHao8oH6WkgcZQWe9W%2BWVisUOMfuzCehpg6R1ve8njLd8s%2FgBjMGSMo%2FMRotwPJ3kC8SII%2FJIwgWAePP&X-Amz-Signature=9411c76e165490c0f4140a974de9b16414de2967bcc826577f045dc391630dc9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:12.631Z"
+                  }
+                }
+              },
+              {
+                "Id": "225cc54c-ec6d-804a-a597-fd9db0462e69",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Vorher",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Vorher"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "225cc54c-ec6d-808c-8141-dd1809b3e319",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-80ba-9663-d5401e851ae8",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/21ac4584-5ae0-45c8-831f-e0c79fc89608/weinhof-locknbauer-entwicklungsstrategie_interior.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SB3YEMKK%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183011Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDLADKOYZ6s4%2FRGInY5p5l4ex4WV041MTug5Y9%2FO4lcjQIhALgYVny1MpssQgSXBjAGCnqcS%2FftZrY0mSSuooOW3VvAKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyC9JY3vK%2B1h%2FYOzToq3AM3P375f5yoQhEf8QHnjX0taMAzXTxHiSigYLd8t9iPAmWcDbkyWbkQT%2F36V9S59aGQFZ0ZKa2eVr95NlPQ6h67XMVQdj3vbQQ4eh1jYIsXtZikLN7jTmnkC%2Bx7EsrSDEQZTQqhS%2Bwdspef%2FSMqQ%2FuU3O6y%2FroGzp%2Fsk5rC3o6iX3l386JT0u1wcwaC%2BC2d4TjAKP0kvs4KNFpXJS%2BiTvzD0aFVVpea6w131IelafJZdhgCNPZBQrkmTeI73DRMT%2Fnezkz0R%2B92biphTTZN3q0QAiff0fWI0eEhIrb%2BM9YN7kjkz1syMCDtygU4PYRKN04iiHTwh6hjeDW6IAhk%2BMda5xfYMc9F38ps%2BaipsGE5xYALlAi9XeNwR1AIN1UabPuHeukeKT2iFtNB82cxwR1%2BWvZcP0Fgqi8qFCIp33Q2B7mb%2BRlTmq4YRIScLgn3DqdfITTqFhhtXYVd1gx078e2BzkNGymT1sa3hRLEslSaFgVz%2BjAELJaGs9Bfq1aUgDhRQ15gH1W3d8itugRJZ%2Fyegm19J5S414ij7wmclfmqT3nJWJ8OfzZBhQCJllQ01fp15xt6YsWOCRlRHPBrUz8FqqJyO4wxmOXEHugEi%2FvwiMLugkIKPQvU42uhzzCih8DDBjqkAeJQTOMRGj8TP2YOoifmeoeHiql8beT1YPmqlHeyFEpDM6zvwSKlRUZ6xlRfNbqjzk118IKkiCc3nckGZdNcUqNud3N2nHMRvNur%2BEGp4%2BPTCJeVESVA1Skj6jo89Z%2BdNfEsmH1MdFAz8Ba%2F%2BY1nyiZcAHljI1MMaRHUb8jxKVQP4KgZwiQgzjOmgDPJrMooY5YVJKfd78NlLh%2F%2BzMDMJA1e777B&X-Amz-Signature=ff98ace11b1c3c8f44a0e7e4142c6303658b0aa5a4584ff05d135d66c73bf645&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:11.719Z"
+                  }
+                }
+              },
+              {
+                "Id": "225cc54c-ec6d-80aa-8117-c4cc11aa6ad2",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Nachher",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Nachher"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-805a-b574-ea1546e56beb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80b2-a368-f3bddcdf6f91",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "225cc54c-ec6d-8026-9f30-cfab6b45a934",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-80f5-b4b2-c034941a4c94",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b08d7373-a6d9-407a-89b0-af3b69b8ee04/3e23499d-41e0-4fc8-8fc7-3e5e9c2ac9e4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664MUEKCUT%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDoBPRvgkt9SqPYUyWfsM3cVmVZ%2B%2BaXH8SWmn6u%2B2vabwIhAIJ3DMPFPt24On27Q3cJBA8QWuD64rb1gSbI2DTMQ1vDKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyoMRU1kw1QViUiToEq3AMGe0fMoYEFOEbIXnDc3NnqiaR44JPAqmzvqhIH%2FwQq5g2dgW3XTfjCIsHJcuLvNB0cl%2BoaO5EsD8HnEOXad5rNpn7fyuOsUC9n7EfX%2FKMRPbRBDFaOJAVttJee1o5QtXuV%2FpA2Zb7FZoSlQganDECj9NJy1vNm2EI0jA0qX7LRIaVZV%2FrW219Zdjy2UehqHVhL6tmZkswSYJ9Ht3KiR7t7Jj%2B8znmRXQtstKQfHY5Bj8V9cE1BGezizKcpZD0Mniyy5Ny9Avi0TWfUrVOyeGPYsskDtgwqgQ2MdF3%2F6eBvlIS0TJBXBzJI%2FO8crgv5gmT4t8xlAs6tOzI7hAoZfm%2F1q4%2BT89UEG90ApX20n%2BTLYdXTDUAYUiVZ%2B70cqxWfd9VTdI0iDoMFqwFxkpcLqNbbPqrjv6gB5LG1SRhf5hUuTwyn8Fmyn%2Fagg%2FAi%2Buepscot%2B%2BC%2Fc4n%2FJz7ZaxjB3H0otDstodAHXc2JrXJfb3y29od0r7BwUZrDQxLamR%2FFnrdO5NOqVEjq5qpUtF6n48EAT2ONUONYnuR5GdUeTOnOV90l0MKlUJjUBC4%2FHOwtlxATXdllbQEJL0X59oH%2B7c3YqU%2FkupvfMnIBGk1opTk8gx2pciT0Al%2FdeFo5wTD2h8DDBjqkATjtXLP5hDrWHzPKy7lXhCtY2frYJLcb5%2BdH8A9WvfHO2Lchl3VaAcD9HNHAzF948%2B7gvRlAwACqOJy501ke%2FNFpLOseUxDpeBfKdS5AzWsqcPHrnGYA%2B89A1oSMv3xxgWpcrHG3z6%2BBYCF1pJvgRmsRKuT1KDHlE1VCnipZ3Iq0veiNEHeW%2FhYqheVA23LIxGt%2BtowzHIiz4JGRlzoaH9flGgBU&X-Amz-Signature=2f5f31ef0b18517b2896bed33a1a76fbed847743f9d98ceb404a7265065a5f82&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:14.955Z"
+                  }
+                }
+              },
+              {
+                "Id": "225cc54c-ec6d-808f-b442-d57c63611967",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Vorher",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Vorher"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              },
+              {
+                "Id": "225cc54c-ec6d-80e0-9351-f12db3e1bc7c",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "225cc54c-ec6d-80f1-ae97-d16c19d24d81",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "225cc54c-ec6d-8016-8902-fb49606ec82c",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/200fdf12-6bd1-4488-b391-c1cb7c67462e/4527ad1c-6fcc-4e03-a638-04ee89424f06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UXQ5WHYC%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183013Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCknh7GL%2BAOoLUT5FZseJ2lpqZwWV%2F2ejgYLEFQFcqECAIhAJhLiDc%2FRcXN09qJCSe%2FcrHc3q9CN0xHOWGvCHHp1fLdKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwtH%2BjQAJfn%2BAYIbrcq3AMtfuxquPKa9Er08V00PzSt0MMiTX56DkiDJ1QMNdTOcJU6f9OK2dc%2B0mq371OCDpLEAKVOFDVLHAI9LVM0L%2F8IKx7fZ81rjoJyXtH9MwQNR%2B2xce5ql0gDfl2VIYDh%2FowhYFvKyKfOvf6lr%2FYmaM4OkXp9LekHa3RkxOP5OlW6i9bsgz7EFP8dtrEVlR79ajI1cXNHVKYggYvTjX3CKHqQMag8Q1NMEKp9jHhOLBwOToQymvjbbnvS2esDSxQJRSa15nzSxUw01u07tSHQr0L%2BzBnWwKlrAM2uCHLDzQpI0wTPVg%2BfXRiYThBO%2FhttpAoWvKA%2FQSysW9OTRwV4TlpyjlCEdH2t3GCLiRDjCvASKrR67t8X1l2F%2F9prYnn2WizUr2%2F2KfmLsfQ4thwxpd2FsUa8pPs7VywniZFgHYGDhqvuv0SRvPEbb6%2BcB4E9g95ry%2BqT18JwJZ98xkISqOATFFSi4cJVXikSyOWI1Fv1yv3XaEcpzzTs0KvzUUXpydrRp5ZQPy1Gu2mYRhll3o8oU3hiewSuU%2FTSy%2BQfMUCmyhxMqF5RpimcUTJZZFw2DciySn1wAxnambJS7VnYXemoi1EVhMNRFA3DPcX333sdUZBdKQgAlAFrfItbzTCeiMDDBjqkAcvpfvqs%2FJtzq%2BCKGT5TkznrlXu%2BAJPFCpwM3owzUHPjD%2FkSHwQYLKZBEAFaMd5%2Bp4D3k3epb1qx%2Fzy0t4fhs%2FeOOqEQZekU6MhIDceARfhBwbR9H7rGYbPTjiji9mnQ5FtvPvP847x73JAUhwObrMjyaFqUSbYEWziUcYshos7qm5bRjkGqXF6wUEpRf%2Bn%2FQjFcIsyKT4SHSUNNXGPgofh7sisw&X-Amz-Signature=4850d8d98b7bb9a0ea3ac03971fba937e7881e3c7ddcb91b12d48723febe775c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:13.719Z"
+                  }
+                }
+              },
+              {
+                "Id": "225cc54c-ec6d-80d8-89b0-f445d071b2cf",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Nachher",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Nachher"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-803a-a77d-f68cdd46cb40",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-808a-be5d-f529ec55a596",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems ",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

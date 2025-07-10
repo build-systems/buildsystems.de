@@ -1,0 +1,523 @@
+{
+  "PageId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+  "Title": "Vorlesung Advanced Topics in Sustainable Real Estate",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "86588297-04ff-498c-a9fe-b0bcfc61867a",
+      "name": "Daniel Locatelli",
+      "color": "gray"
+    }
+  ],
+  "Category": "Teaching",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f8e924ee-ad8d-4314-9cc5-b5e76f219523/vorlesung-challenges-of-esg_TUM_lecture.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=f81889384a9b3e97f8768d03b7908954d588391314b31adc69d335d6abbe2941&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "vorlesung-challenges-of-esg tum lecture",
+  "Slug": "vorlesung-challenges-of-esg",
+  "PublishDate": "2024-05-03",
+  "Tags": [
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    }
+  ],
+  "Description": "Julia Dorn und Daniel Locatelli halten eine Vorlesung an der TU München zu den Herausforderungen von ESG.",
+  "coverAsset": "vorlesung-challenges-of-esg_TUM_lecture.jpg",
+  "blockAssets": [
+    "vorlesung-challenges-of-esg_context_2.jpg",
+    "vorlesung-challenges-of-esg_data_2.jpg",
+    "vorlesung-challenges-of-esg_ressourcenschonend_2.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "ac10332a-4f2f-483f-bc91-6bac89f7a0c1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In der Vorlesungsreihe \"Advanced Topics in Sustainable Real Estate\" unter der Leitung von Prof. Dr. Bing Zhu sprechen Expert*innen über aktuelle Themen, Herausforderungen und Erkenntnisse der nachhaltigen Immobilienwirtschaft. Julia Dorn und Daniel Locatellli von BuildSystems tragen mit einem Vortrag neben Dr. Thomas Wiegelmann, Josef Geiger, Christiane Conrads und anderen zur Reihe bei.",
+            "Href": null,
+            "Text": {
+              "Content": "In der Vorlesungsreihe \"Advanced Topics in Sustainable Real Estate\" unter der Leitung von Prof. Dr. Bing Zhu sprechen Expert*innen über aktuelle Themen, Herausforderungen und Erkenntnisse der nachhaltigen Immobilienwirtschaft. Julia Dorn und Daniel Locatellli von BuildSystems tragen mit einem Vortrag neben Dr. Thomas Wiegelmann, Josef Geiger, Christiane Conrads und anderen zur Reihe bei."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "90e14ff8-9722-404f-8431-421a810a1212",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Lehrveranstaltung wird vom Lehrstuhl für Immobilienmanagement und dem Cluster Sustainable Real Estate (CSRE) betreut. Das Cluster fungiert dabei als Brücke zwischen Theorie und Praxis, indem es eine Plattform für den Wissensaustausch bietet. Die wichtigsten Forschungsschwerpunkte des Clusters umfassen nachhaltige Immobilienwirtschaft, integrale Entwicklungskonzepte, nachhaltige Quartiersentwicklung, Digitalisierung, Value Engineering, Circular Economy sowie soziale Verantwortung und Governance. Die Inhalte dieser Forschungsbereiche werden in Zusammenarbeit mit Partnern und Förderern des Clusters sowie durch relevante praxisbezogene Themen ergänzt, die in Lehre und Forschung an der TUM integriert werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Lehrveranstaltung wird vom Lehrstuhl für Immobilienmanagement und dem Cluster Sustainable Real Estate (CSRE) betreut. Das Cluster fungiert dabei als Brücke zwischen Theorie und Praxis, indem es eine Plattform für den Wissensaustausch bietet. Die wichtigsten Forschungsschwerpunkte des Clusters umfassen nachhaltige Immobilienwirtschaft, integrale Entwicklungskonzepte, nachhaltige Quartiersentwicklung, Digitalisierung, Value Engineering, Circular Economy sowie soziale Verantwortung und Governance. Die Inhalte dieser Forschungsbereiche werden in Zusammenarbeit mit Partnern und Förderern des Clusters sowie durch relevante praxisbezogene Themen ergänzt, die in Lehre und Forschung an der TUM integriert werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3374f0b2-5dc2-4236-8f60-660a949367d7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4c7e0bb3-c4a2-4fa7-b97c-8ff8d15275fd",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Slide der Kontext der gebauten Umwelt ",
+            "Href": null,
+            "Text": {
+              "Content": "Slide der Kontext der gebauten Umwelt "
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d0a20016-feb5-4e87-aaa2-c7ecc7e3b929/vorlesung-challenges-of-esg_context_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667HKVDVFI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCyh%2FtX3nSU9IRBOqgW3ekwsit%2BF%2FHm6hrs09Ru3lb1xQIgH439mIwec%2FahRguRLeQe6XiJPDD%2BrF2pyXxvEhjFfLkqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPDLriFGu%2B%2BKqaedOircA4vHCJ0vfUkhRZjn5DtXXuck7ME0qmPhEYA3032d%2BtREm6KUhisfe9u0b36UB%2B9a%2FhKLQQcX643v68RwOzUlM5UTsrGgnsVnJrYKacQ%2FD0RQr4tPOfsredQUiiugf6pJX5DZ%2F0hoYVSU39p%2FqZuk1XwBMqAZXWFk8IHGkPHh5BfeggW%2BG1XdjBMxmTc6ZY9Truh0nXhX7C9a8%2Bdp%2FTiOXnUtV0l6L2ezOHYNHFc48uPzB0FR6Yg3TMgVFDTt%2Fl6dsNrA%2FgFPYFuV4UROdM2DDYggmjhBc5kjqNykv8kFcgzsbNO7ox54LAw8kggAmSWOK2AMuo0fcaCff7ogYGs7M5WZy%2BlVR7uq84vLv87KFH5y6bVkWM98p6JJwURVT%2F5IG6Q0ccfZ9BKiCoU5lWNiIG45f7CQnaaYyT1%2BIly6d4GkGLhk9WleP88elbszwb4CbYQFaiVrHffKx%2B90CQjOTaGnx1myYXPFkvVUydnfWJPtq%2FsfJcS3%2B%2F%2FJ0MvAjvwmS9Rbb4xC0trLwQ%2BbXgR5i7iP%2FizAlEzTSUWlZlpFNMWaiGqrtY9HLH94TLVprZPOI7fC2gvaP7Bmaqqgo%2BR9eCGx5y%2F44aZE2yfEQr65sYNOOgNml4Sn1J%2BppbhXMLmHwMMGOqUBd0pvx0qWAzcPLscMBg%2B4RTswu6TDudNPOm9UpZhRNK8FeDOioKOBeIR0Jkxpi5sUmqmMdR1f91TgTwhwWeex%2FDSmc86TYqEM0psFLc9g7FJnP%2BMTKC6HlqPj8IDaNMZcY7KnguAxM4v%2FinwkvQVmA8w87BsVrHHT89WpAfamUMJWIsiDNF6nnF7VZcaPxAcLJSJWe6xS%2BzAhHsx%2FWeNu9P9dIHGB&X-Amz-Signature=8ad5ae0c5b9f70877b02e0e6ea7ca87da237a55e213ced63f2782af8537df95d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.890Z"
+        }
+      }
+    },
+    {
+      "Id": "79ff2c5b-ae84-46f0-9266-5fb55149d6fd",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Zusammenhang von Umweltentlastung und ESG Konformität",
+            "Href": null,
+            "Text": {
+              "Content": "Der Zusammenhang von Umweltentlastung und ESG Konformität"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c6e86127-8a4c-4bef-9774-c3ba39371653",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Fokus des Vortrags von BuildSystems standen die Herausforderungen der EU Taxonomie und ESG Kriterien sowie Lösungsansätze auf der Portfolio- und Projektebene. ",
+            "Href": null,
+            "Text": {
+              "Content": "Im Fokus des Vortrags von BuildSystems standen die Herausforderungen der EU Taxonomie und ESG Kriterien sowie Lösungsansätze auf der Portfolio- und Projektebene. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0104a684-3e14-44ef-a0aa-1468040f313e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Anfang des Vortrags stellte den Kontext von Nachhaltigkeit im Gebäudesektor in den Fokus und wandte den Blick auf den Zusammenhang aus Lieferketten, Ressourcennutzung und Emissionen. Es ist allgemein bekannt, dass die Bau- und Immobilienbranche für fast 40 % der globalen Emissionen und ca 50 % des Abfallaufkommens verantwortlich ist. Im Vortrag wurde deutlich, welche Implikationen die sonst häufig genannten jedoch abstrakten Kennzahlen tatsächlich auf die natürliche Umwelt haben und wie sich diese ganz konkret in den relevanten Infrastrukturen unserer Bautätigkeit widerspiegeln. Die Darstellung der Umweltfolgekosten, wie sie vom Umweltbundesamt berechnet werden und derzeit bei 238 € pro Tonne CO2 liegen, zeigt dabei deutlich welchen monetären Schaden die aktuell emissionsintensive Bautätigkeit langfristig hervorruft. Dies passiert zum Beispiel in Form von Umwelt-, Gesundheits- und Materialschäden, Ernteausfällen oder Schäden an Ökosystemen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Anfang des Vortrags stellte den Kontext von Nachhaltigkeit im Gebäudesektor in den Fokus und wandte den Blick auf den Zusammenhang aus Lieferketten, Ressourcennutzung und Emissionen. Es ist allgemein bekannt, dass die Bau- und Immobilienbranche für fast 40 % der globalen Emissionen und ca 50 % des Abfallaufkommens verantwortlich ist. Im Vortrag wurde deutlich, welche Implikationen die sonst häufig genannten jedoch abstrakten Kennzahlen tatsächlich auf die natürliche Umwelt haben und wie sich diese ganz konkret in den relevanten Infrastrukturen unserer Bautätigkeit widerspiegeln. Die Darstellung der Umweltfolgekosten, wie sie vom Umweltbundesamt berechnet werden und derzeit bei 238 € pro Tonne CO2 liegen, zeigt dabei deutlich welchen monetären Schaden die aktuell emissionsintensive Bautätigkeit langfristig hervorruft. Dies passiert zum Beispiel in Form von Umwelt-, Gesundheits- und Materialschäden, Ernteausfällen oder Schäden an Ökosystemen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "82bc6cd9-8980-4aeb-b414-8d887f8d4c13",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die EU Taxonomie mit den sechs Umweltzielen stellt eine Methodik oder einen Werkzeugkasten dar, um die Umweltauswirkung der Wirtschaftstätigkeit unterschiedlicher Unternehmen zu bewerten und nachhaltigere Aktivitäten zu incentivieren. Der Vortrag zeigte den Studierenden dabei den Zusammenhang aus dem Green New Deal, der europäischen Offenlegungsverordnung (SFDR & CSRD) sowie der nationalen Gesetzgebung zum Klimaschutz auf. Die Dekarbonisierungsziele, die in der Klimaneutralität aller Sektoren bis 2045 verankert sind, bilden dabei die Grundlage um Immobilien heute effizient hinsichtlich ihres Beitrags zum Klimaschutz bewerten zu können. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die EU Taxonomie mit den sechs Umweltzielen stellt eine Methodik oder einen Werkzeugkasten dar, um die Umweltauswirkung der Wirtschaftstätigkeit unterschiedlicher Unternehmen zu bewerten und nachhaltigere Aktivitäten zu incentivieren. Der Vortrag zeigte den Studierenden dabei den Zusammenhang aus dem Green New Deal, der europäischen Offenlegungsverordnung (SFDR & CSRD) sowie der nationalen Gesetzgebung zum Klimaschutz auf. Die Dekarbonisierungsziele, die in der Klimaneutralität aller Sektoren bis 2045 verankert sind, bilden dabei die Grundlage um Immobilien heute effizient hinsichtlich ihres Beitrags zum Klimaschutz bewerten zu können. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "bd62596e-4882-4452-bc84-4f36bb9f44b3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Anschließend ging Daniel Locatelli auf die Bedeutung von Daten hinsichtlich zweier Gesichtspunkte ein. Ersten stellen Daten die Basis dar, um die jeweilige Umweltbe- oder -entlastung von Immobilien faktisch bewerten zu können, zweitens bieten sie die Grundlage jeder potenziellen Optimierung im Sinne der sechs Umweltziele. Ein kurzer Überblick zeigte anschaulich Anwendungsfälle verschiedener Datenbanken, wie z.B. der Ökobaudat, und die Wichtigkeit offener Schnittstellen (APIs). ",
+            "Href": null,
+            "Text": {
+              "Content": "Anschließend ging Daniel Locatelli auf die Bedeutung von Daten hinsichtlich zweier Gesichtspunkte ein. Ersten stellen Daten die Basis dar, um die jeweilige Umweltbe- oder -entlastung von Immobilien faktisch bewerten zu können, zweitens bieten sie die Grundlage jeder potenziellen Optimierung im Sinne der sechs Umweltziele. Ein kurzer Überblick zeigte anschaulich Anwendungsfälle verschiedener Datenbanken, wie z.B. der Ökobaudat, und die Wichtigkeit offener Schnittstellen (APIs). "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "05d54e4d-1810-4834-8f91-04e06c871da0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cc3857d6-30ec-4cf8-a4fa-a46fd4832fd4",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Slide Übersicht Klimaziele und Daten ",
+            "Href": null,
+            "Text": {
+              "Content": "Slide Übersicht Klimaziele und Daten "
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/622a990c-de46-4ccf-8cdc-367549c67666/vorlesung-challenges-of-esg_data_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667HKVDVFI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCyh%2FtX3nSU9IRBOqgW3ekwsit%2BF%2FHm6hrs09Ru3lb1xQIgH439mIwec%2FahRguRLeQe6XiJPDD%2BrF2pyXxvEhjFfLkqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPDLriFGu%2B%2BKqaedOircA4vHCJ0vfUkhRZjn5DtXXuck7ME0qmPhEYA3032d%2BtREm6KUhisfe9u0b36UB%2B9a%2FhKLQQcX643v68RwOzUlM5UTsrGgnsVnJrYKacQ%2FD0RQr4tPOfsredQUiiugf6pJX5DZ%2F0hoYVSU39p%2FqZuk1XwBMqAZXWFk8IHGkPHh5BfeggW%2BG1XdjBMxmTc6ZY9Truh0nXhX7C9a8%2Bdp%2FTiOXnUtV0l6L2ezOHYNHFc48uPzB0FR6Yg3TMgVFDTt%2Fl6dsNrA%2FgFPYFuV4UROdM2DDYggmjhBc5kjqNykv8kFcgzsbNO7ox54LAw8kggAmSWOK2AMuo0fcaCff7ogYGs7M5WZy%2BlVR7uq84vLv87KFH5y6bVkWM98p6JJwURVT%2F5IG6Q0ccfZ9BKiCoU5lWNiIG45f7CQnaaYyT1%2BIly6d4GkGLhk9WleP88elbszwb4CbYQFaiVrHffKx%2B90CQjOTaGnx1myYXPFkvVUydnfWJPtq%2FsfJcS3%2B%2F%2FJ0MvAjvwmS9Rbb4xC0trLwQ%2BbXgR5i7iP%2FizAlEzTSUWlZlpFNMWaiGqrtY9HLH94TLVprZPOI7fC2gvaP7Bmaqqgo%2BR9eCGx5y%2F44aZE2yfEQr65sYNOOgNml4Sn1J%2BppbhXMLmHwMMGOqUBd0pvx0qWAzcPLscMBg%2B4RTswu6TDudNPOm9UpZhRNK8FeDOioKOBeIR0Jkxpi5sUmqmMdR1f91TgTwhwWeex%2FDSmc86TYqEM0psFLc9g7FJnP%2BMTKC6HlqPj8IDaNMZcY7KnguAxM4v%2FinwkvQVmA8w87BsVrHHT89WpAfamUMJWIsiDNF6nnF7VZcaPxAcLJSJWe6xS%2BzAhHsx%2FWeNu9P9dIHGB&X-Amz-Signature=4219cd76d79c6adb2615ec043b28f6c6ac566bfafbc4e5aec212e17ae565ba1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.908Z"
+        }
+      }
+    },
+    {
+      "Id": "e61cfea4-89b9-4ace-bf0f-e7815dc2c452",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Stellschrauben der Nachhaltigkeit ",
+            "Href": null,
+            "Text": {
+              "Content": "Stellschrauben der Nachhaltigkeit "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "db1010a4-a19c-4811-a766-19ddd609aad2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der letzte Teil der Vorlesung bildete schließlich den strategischen Ansatz sowie die operativen Prinzipen von BuildSystems im Umgang mit den Nachhaltigkeitszielen ab. Dabei stand einerseits der Fit for Future Ansatz im Fokus, der Nach­haltig­keits­manager:innen und Pro­jektverant­wort­lichen die argu­mentativen Werk­zeuge an die Hand gibt, um maß­geb­liche Schritte einzuleiten und die lang­fristig Zukunfts­fähigkeit zu gewährleisten. Andererseits erklärte Julia Dorn fünf relevante Module von suffizientem Bedarf über eine ressourcenschonende und  Konstruktion bis zu minimalem Energiebedarf, welche eine ganzheitliche Entwicklung erlauben. ",
+            "Href": null,
+            "Text": {
+              "Content": "Der letzte Teil der Vorlesung bildete schließlich den strategischen Ansatz sowie die operativen Prinzipen von BuildSystems im Umgang mit den Nachhaltigkeitszielen ab. Dabei stand einerseits der Fit for Future Ansatz im Fokus, der Nach­haltig­keits­manager:innen und Pro­jektverant­wort­lichen die argu­mentativen Werk­zeuge an die Hand gibt, um maß­geb­liche Schritte einzuleiten und die lang­fristig Zukunfts­fähigkeit zu gewährleisten. Andererseits erklärte Julia Dorn fünf relevante Module von suffizientem Bedarf über eine ressourcenschonende und  Konstruktion bis zu minimalem Energiebedarf, welche eine ganzheitliche Entwicklung erlauben. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2fd91efc-7af8-4398-82d7-1a79472f35a9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a442ce62-b9dd-4436-b410-f31a4f0aa914",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Slide Stellschrauben der ressourceneffizienten Konstruktion",
+            "Href": null,
+            "Text": {
+              "Content": "Slide Stellschrauben der ressourceneffizienten Konstruktion"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c9219a93-f8a4-4928-9a6b-61806718a68a/vorlesung-challenges-of-esg_ressourcenschonend_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667HKVDVFI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCyh%2FtX3nSU9IRBOqgW3ekwsit%2BF%2FHm6hrs09Ru3lb1xQIgH439mIwec%2FahRguRLeQe6XiJPDD%2BrF2pyXxvEhjFfLkqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDPDLriFGu%2B%2BKqaedOircA4vHCJ0vfUkhRZjn5DtXXuck7ME0qmPhEYA3032d%2BtREm6KUhisfe9u0b36UB%2B9a%2FhKLQQcX643v68RwOzUlM5UTsrGgnsVnJrYKacQ%2FD0RQr4tPOfsredQUiiugf6pJX5DZ%2F0hoYVSU39p%2FqZuk1XwBMqAZXWFk8IHGkPHh5BfeggW%2BG1XdjBMxmTc6ZY9Truh0nXhX7C9a8%2Bdp%2FTiOXnUtV0l6L2ezOHYNHFc48uPzB0FR6Yg3TMgVFDTt%2Fl6dsNrA%2FgFPYFuV4UROdM2DDYggmjhBc5kjqNykv8kFcgzsbNO7ox54LAw8kggAmSWOK2AMuo0fcaCff7ogYGs7M5WZy%2BlVR7uq84vLv87KFH5y6bVkWM98p6JJwURVT%2F5IG6Q0ccfZ9BKiCoU5lWNiIG45f7CQnaaYyT1%2BIly6d4GkGLhk9WleP88elbszwb4CbYQFaiVrHffKx%2B90CQjOTaGnx1myYXPFkvVUydnfWJPtq%2FsfJcS3%2B%2F%2FJ0MvAjvwmS9Rbb4xC0trLwQ%2BbXgR5i7iP%2FizAlEzTSUWlZlpFNMWaiGqrtY9HLH94TLVprZPOI7fC2gvaP7Bmaqqgo%2BR9eCGx5y%2F44aZE2yfEQr65sYNOOgNml4Sn1J%2BppbhXMLmHwMMGOqUBd0pvx0qWAzcPLscMBg%2B4RTswu6TDudNPOm9UpZhRNK8FeDOioKOBeIR0Jkxpi5sUmqmMdR1f91TgTwhwWeex%2FDSmc86TYqEM0psFLc9g7FJnP%2BMTKC6HlqPj8IDaNMZcY7KnguAxM4v%2FinwkvQVmA8w87BsVrHHT89WpAfamUMJWIsiDNF6nnF7VZcaPxAcLJSJWe6xS%2BzAhHsx%2FWeNu9P9dIHGB&X-Amz-Signature=5cc0a53fff044008406114d3f63e54f9d26cf8fa96b80f093d4f412e6be12d50&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:05.892Z"
+        }
+      }
+    },
+    {
+      "Id": "b99b7a5a-20a3-48ed-8eaa-cb15a3db9c76",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Julia Dorn trägt zu unterschiedlichen Formaten als Vortragende bei. Auf ",
+            "Href": null,
+            "Text": {
+              "Content": "Julia Dorn trägt zu unterschiedlichen Formaten als Vortragende bei. Auf "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Speakerinnen.org",
+            "Href": "https://speakerinnen.org/en/profiles/julia-dorn",
+            "Text": {
+              "Content": "Speakerinnen.org",
+              "Link": {
+                "Url": "https://speakerinnen.org/en/profiles/julia-dorn"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " sind ihre bisherigen Beiträge zu finden. ",
+            "Href": null,
+            "Text": {
+              "Content": " sind ihre bisherigen Beiträge zu finden. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b3d79dce-cbab-461e-ad73-c0edc2e2ce34",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a83cac41-9cfc-4e3d-a87b-091635037705",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d518a2be-3a8d-4397-a16f-7967cfef8105",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

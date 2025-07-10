@@ -1,0 +1,830 @@
+{
+  "PageId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+  "Title": "Neue Werte durch eine Revitalisierung in Solingen",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/2c9d7544-5c60-444f-8a2e-eea92b49e18f/neue-werte-durch-eine-revitalisierung-in-solingen-schaffen_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=7791ecc9cd21b781f4b74fd89f4977e4eb31a8773e41ce18a8d368d84cebbea2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Vision für eine Sanierung mit grünem Innenhof",
+  "Slug": "neue-werte-durch-eine-revitalisierung-in-solingen-schaffen",
+  "PublishDate": "2024-03-15",
+  "Tags": [
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    },
+    {
+      "id": "6ac22a5f-2a41-4dd8-8954-86ea331315e0",
+      "name": "Wohnungsbau",
+      "color": "pink"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    }
+  ],
+  "Description": "BuildSystems repositioniert eine innerstädtische Liegenschaft als Wohn- und Integrationsraum neu. ",
+  "coverAsset": "neue-werte-durch-eine-revitalisierung-in-solingen-schaffen_cover.jpg",
+  "blockAssets": [
+    "diagramm-der-projektziele.jpg",
+    "bestandsfoto-heute_01.jpg",
+    "bestandsfoto-heute_02.jpg",
+    "bestandsfoto-heute_03.jpg",
+    "abbildung-dreier-varianten-zur-nachverdichtung.jpg",
+    "diagramm-stellt-moegliche-entwicklungsperspektiven-dar.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "be7ef939-7f54-47b9-8127-c9ef4c1e6b78",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zieldefinition",
+            "Href": null,
+            "Text": {
+              "Content": "Zieldefinition"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c2969029-c0a1-48e0-8976-8a15868cb7f0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Grundstück in Solingen ist Teil eines größeren Portfolios, das nun vor den Herausforderungen der Dekarbonisierung, der ganzheitlichen Aufwertung und der Sicherung der Zukunftsfähigkeit steht. ",
+            "Href": null,
+            "Text": {
+              "Content": "Das Grundstück in Solingen ist Teil eines größeren Portfolios, das nun vor den Herausforderungen der Dekarbonisierung, der ganzheitlichen Aufwertung und der Sicherung der Zukunftsfähigkeit steht. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7c17303c-3cfd-49e5-b789-c82ff4e9874e",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diagram beschreibt Projektziele",
+            "Href": null,
+            "Text": {
+              "Content": "Diagram beschreibt Projektziele"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/16140577-7b07-40c5-9546-c24b3cbcfa70/diagramm-der-projektziele.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBYHV2U3%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDDPKnQw7CXyyZXwfMvmufg8X%2BkmSM27BF1CaIunZbgRwIhAI2qF%2BS6kcJ%2FjT%2BVk0tNWFq2LFdVbX5FQn84edfcD9lVKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyyrN0uGN25x%2Flzijoq3AO4kjZQwuuMU%2Fg9eohQDIudkZuFCejG%2Fq5WyXr%2B8HLsAXSQAvg1Wh6HIop7M96P2Wr5VDjzTYlUISoG7MOIT9rGIXB9HAq9j%2F0jC8YZuFexqhhzecpkDjc8sUIGt6r2i0szySmtWosdG1xpXEuX04WyScTE1Vf%2B2ME%2Bx%2BrAnQ3CxJNswvXBqCz19LHt0PEGF%2BAXM%2B3ceg0sKjr4s56zhuUgH1lxGaLqQUstmTqVaErcqIU%2FcNQhBh65uf6a7MKJgkYXweoVXD%2Fj7tz86Xlcl5n446rVnA3JnFTWmfgR3KT9KVXZm7eUZmybzHa%2BalcWjA3gsIuY%2BhULcKXMY1oGECfyXM07lrBXuak6gIMoE2WC3%2FrkQSTRbQD8wWPutpiZH3VyR9bZtM240NpP3CnyPWcqNwzMJWki0C%2BawA93t6iz4VlnyNvGXDWls4P%2Bc4h1TtsVV2GbGqk%2FchaVC7I%2BY22ijWaoMJ1x000hwu94phViiaoN02UQI8DiijOutqkYsFC85HlWaD5U%2FBsmg4g2D6wOFwT%2BHNKWse%2FoPI61hSFBtpHqNXUQ%2BSph7pEeEAjoFMSgHhQPspXShYrsWshVH67qT7q4k9rQ%2BwYjp15%2F83pMDim7Lcy0znpUI55PxTDph8DDBjqkAQi1yX3KpPRFWzBKyG2QErtJ8ahFCq4BLuC4UqlELmrDkXVsNh5iMfOzUWODk4iqNeLpwnO5sNR7G8k%2FaSqs2JKhKbaAD328p8bIYtAw%2B8FW25YEs5eQFknYKzpz%2B6aEVyiNq0t6TSR817qRN6%2FihUxnHyefqhwUzZKGmyF09VWdGCB7z4KpMp6p0k3%2B%2FuYKGgmpqYSc%2FEgBExlqbluuIGF55mGg&X-Amz-Signature=2efab1b3e05027d41843eb03444b021377b3e16ee6ab0a915b8a3dd8e5fc6bbe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.790Z"
+        }
+      }
+    },
+    {
+      "Id": "5905c871-4aa1-45b4-ab38-06334fc36b5f",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Potenzialanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Potenzialanalyse"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "5b6ffc01-6d4c-4a4c-ae9c-92f7d917fde0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Immobilie an der Weyersbergerstraße setzt sich aus drei Gebäudeteilen zusammen, die jeweils unterschiedliche Baujahre aufweisen. Die energetische Ertüchtigung steht zusammen mit einem langfristigen Wohn- und Nutzungskonzept sowie der Entsiegelung der Freifläche im Fokus der Bemühungen. Gemeinsam im engen Austausch mit der Stadt soll ein Konzept der Integration und des sozial verträglichen Wohnraums erstellt und umgesetzt werden. Die Stadt tritt dabei langfristig als mietende Partei auf und setzt mit diesem Projekt ein Beispiel für ähnliche Ansätze in der Stadt Solingen. Bei der Projektierung sollen sowohl KfW Fördermittel als auch Förderungen der Wohnraumschaffung ausgeschöpft werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Immobilie an der Weyersbergerstraße setzt sich aus drei Gebäudeteilen zusammen, die jeweils unterschiedliche Baujahre aufweisen. Die energetische Ertüchtigung steht zusammen mit einem langfristigen Wohn- und Nutzungskonzept sowie der Entsiegelung der Freifläche im Fokus der Bemühungen. Gemeinsam im engen Austausch mit der Stadt soll ein Konzept der Integration und des sozial verträglichen Wohnraums erstellt und umgesetzt werden. Die Stadt tritt dabei langfristig als mietende Partei auf und setzt mit diesem Projekt ein Beispiel für ähnliche Ansätze in der Stadt Solingen. Bei der Projektierung sollen sowohl KfW Fördermittel als auch Förderungen der Wohnraumschaffung ausgeschöpft werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "113a7029-5087-4784-aa1b-a30f36481c21",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "6e54c4cc-7e44-4f65-bc1d-5bdad640d668",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "a3ebe708-db79-46ee-a5b9-ddd3447ff256",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto heute",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto heute"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c9dd0fee-2b2d-4bf0-b807-b2f5e824f2f1/bestandsfoto-heute_01.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UFWGFUGS%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCRo2098OosNnXJ589K4Dr0QjFwZ%2FhLtXeYuPUe1rjH4QIhAL%2B%2BxmQjUoJmGmg3IWg1CyquuJTYJq0W%2BuRCYSehzAA7KogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwVH%2BKEkfXJdeUdHIoq3AO5%2B5LVe65%2Bhk1Fh1tkTfjQ2RnN%2FBFTaV33Dp58X54Qnbg0K83k0MSkDdQGf4bXt1iI63a%2FWQZCkrzmTp%2BVohUMasY9E6lO9tABoV2o3As5ec9SyLHru6LZRObX5pL9EcrnjSHjK8je5YBT%2BvxEes4LqKhixs8UXfzWRy5O3RQG%2BTd%2FhmNFbCyK0T6aB2D5Neh%2BmVDw%2Fia107CYqAFMO46w92eBSvlm5zV5tXHB%2BTejJD2vKDDU9EiFinBab1Ebu%2BmrWnnnj77bp1d2%2FrzIE9TFsFl2uyEx92p99yQRm%2B2sVSqSzo9oCWE6TTzDf%2FEEynR6Qo7SE1BI6svEG5QSkg4DupYH5B1MY8S6iRy2awFPk93mzGfVBuBkD3qbs32TMiKYkFD%2BjU42Jynd6QF3M8DuPlqIFr12Dcb1mQE%2B8a8za8ubDdmQ56FgAAE5nUWRVgnEA1e8Kffxos7LAHMV1f44jMY6UB3w478J9SU0f7m%2BlKIUSGw%2BJ9VUiLKKmfGgmlOGC57J3F62KWMeh1wjEyF9gpTKw2ZMcZOd6cWHXaKeIcIlKpv4xBDxg1us7UPNzOsQFUqrnA%2FivwS8%2FGdL6fDXvIO5uvA4Y1IKdkIUJ81VCFnI6MwaVwpJnmKzwDCZh8DDBjqkAeBbny2%2BQKC782sZ5GBe9diAW1xpVmREWmlBGZsia6eScPEeANzDEw0wdrZcqC5d%2BHbPb76NG%2BeeabM2sVVj%2BVjx4yXSId%2BVqcSHOvrgz5huqqEHwqeN3ObiDihBRhhk9Ni7Wzd18FR7Y5LtfIW1yASs1PHxn9Wsyk4I5dwpFikE7V8s6ERi5xxlYQH2RHyi3xaidQhMNbvFHUuFaDxlIL02QXdI&X-Amz-Signature=6cc0e302c010dc17d7bb80858d4aaf4e873991040f867a5ea55a8a79484a4179&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:09.392Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "65d374bc-3974-414f-918e-a6d50ce14c98",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "13cdc919-065c-4e51-98df-319fbf186448",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto heute",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto heute"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/fab18a34-03b3-498d-bb68-d3182d12005f/bestandsfoto-heute_02.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WEU6EBKY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF8ovcCKbzRV1u4Xtk9mg%2FhJppg8G2DqUm0uAys%2FgCMKAiEAs662LmXzOHFqb4ixKVjTuWMugdVAn8CnznNjUKG3ZSwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIdz9RlnxhInkNFcaircA7uEpXUox38lpynZqSbWJHGjv3DYv%2BVX955NBZpRLGQBy9nJTPnl7fCQxHknStaGdA902sP3UGbo1Pnk8TvT1YFuGr1CUc66UqlsLjz7yPOTkE9uHhxAPGaYUxSj3QWHCeJtnXpUdFNUv3cOe8y2n2pX6yZLLcU4jyprd%2F0zLO2UIw%2BmFe46wQZS2mdbBqsBM%2FOHWNYVtOCI3S%2BJzPwuEhQ%2FhCFY%2Ftj3P4QRu%2B7vrW4BqyB2L8EgNTSqqK35HRMhksc6tOtUCMp3iUpgLt01L6DTbVopjgoVNOtRVNNt9IkElLmlZ0KfwvzEfXyyXtqvIYSLoI5Efx9XqFxKXCwjRMwvUN5jtYPcTQ1E01xt2DjYTPG4s%2Fzhp6rrfHJ2xF9NoU9Fy7MS%2BW2OnX0GYjRLHwxWygFKGbK9SJx%2FfLQ4fi%2Fe0%2FZQbTQnaJkW5tTXXZRFo7jgxLZOcxaQykJqawsLnrsdxWR9cIaLFWflvCexFIj5PyqnMFMv8IY7osYo0cBpSpvgkYeM%2B38anP%2BnBylqdX2BsrO7qjGaCY9ebpSPx1O8dDlAOmaFgjYCyFmk3au3rtkbsXYdlpwdZ2RxbtGVTn0MXu2fQCpfsSRx%2BU9RIfHJjZ2b4bdTIANwt5V2MNSHwMMGOqUBOJFpTDKqJ%2FqIxZaNMEpOygZ167M7i4JZwiNVzvUzezfxthxx6R%2F45gyDzVVFvq72h30nChe7Lbn25U8ivCJH8HPJsECY%2BOLh0pgHwNkHdXcWu%2Bq2uJFGbV%2Fklz4US35v7XmywaVRHjSHGH7kbgcGSIowGIupk8k1QMTG%2BmpG%2BXvdz09iwOjfeFhdHv87OXWdZbREguOMNTrKznvTlfDXx0uz80R7&X-Amz-Signature=69e04f8ab22edb781514fb1e881620c6c0afffc0fc7c3b7c07091d05499d676d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:09.779Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "d4c5c065-3559-4233-85a0-440affd78035",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "2360aef9-8336-4891-8a73-5dc71b68130f",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto heute",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto heute"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c18fbd65-f86d-42c8-8b75-53d639d38940/bestandsfoto-heute_03.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W4BUK6K7%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIA%2BfMNW4fKbugzKwX%2FV6i4UXUf3wRuJKtPD38ywKVOKGAiEAsQ3j%2FR4onVJV8SQs4CdOIEuuarXp66meyg9peWqdOgcqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD6CtRNKtj8oT%2Fv8zircA7Fu%2FhK4eDq1%2BknX8HpvnkJYUPG18N3d3jUu2A3TbfSWOYJcyrcjz6zvg1vzap8zTjhMkw3HF1iGHK5U37vtxNarQHIT7ve9umTjOsTVdtUOgx4EELvW5V1Qr05pdoFH430i9VAE64NpuQ%2BGdeI7HyK5eihKlPaiHWVOOudUPrJnRu8IyHL9EDgzXGRPrGVZ3Tr4vEY2zoktqZFKFQY495IXQ1PMX5iQmmtjaA9FOenrkoewgdYeyRHTh%2BBfMbxhde%2FGp23cpj%2BXAg1qQ2u9WCyHkw78qZPFqXaK88UIN1EV0JrJIJIGCsK5A4lj9qvU1gZCwFDDT2AzHlAMIkKfouNcxKUQPLS%2FxJHJ%2FCSiRvJOwM%2BibLimMGS90pzM%2FSHMOasVWG6pFBWkl45CjERRZeeCm0w82nmydQJiBDpww%2BIKgloPrhOiwuUZB%2FlRuAPXj2Hw04parZU1TBUiViWVR%2BkC5XJPLjVqXNbjLeH66tT1Q9lHu2nOWJjoK5hft1EN1%2FZ73%2FRLh3UHSOYpK2leoWNqBQxnZJaTh4WnI97%2BEXbwIgQaKsjaYWSkK9JNqHK935AEFnwbGMVOUxigLWX5BNYo98MJOZ6oh4v6QUioJA%2FDWhIszsy8rWrd1tsGMPWHwMMGOqUBken%2FjXz6Tdq%2FWrDZ%2FZlYD6M%2FdXgo3pWgpJx9wJFGpbo28oTZPXjXOP8%2BCKXMSq66JB7G2E%2Bbprsy15C0KYQBlJAcdSSnN%2FobM6s7VESZFjZEv7DATTT6vV99sQZrFoSEkAS7eAeLEdzNlkAlYGj%2BVakhH%2B9d30H1hYQXiBJBVOhsKNrbcjq6P3G%2FN2RJwf%2F%2BKUO9GDO5gWyfzX%2BYO51ca%2FcgyPSh&X-Amz-Signature=577d577ab6709849ef78d1b6970808856fde70751e42ef2f634600d710b7b318&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:09.375Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "f5322c82-fb83-47b3-90ae-cb2d5db71c80",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für den Gebäudekomplex wurden nach umfänglicher Analyse des rechtlichen Rahmens und nach einer Bestandsbegehung drei Varianten entwickelt, um die Potenziale von einer minimalinvasiven Sanierung bis hin zu einer maximalen Verdichtung durch Ersatzneubau aufzuzeigen. Eine Zusammenfassung mit Bewertungstendenz der drei unterschiedlichen Varianten zeigt dem Bauherren die wichtigsten Aspekte sowie jeweilige Vor- und Nachteile auf. ",
+            "Href": null,
+            "Text": {
+              "Content": "Für den Gebäudekomplex wurden nach umfänglicher Analyse des rechtlichen Rahmens und nach einer Bestandsbegehung drei Varianten entwickelt, um die Potenziale von einer minimalinvasiven Sanierung bis hin zu einer maximalen Verdichtung durch Ersatzneubau aufzuzeigen. Eine Zusammenfassung mit Bewertungstendenz der drei unterschiedlichen Varianten zeigt dem Bauherren die wichtigsten Aspekte sowie jeweilige Vor- und Nachteile auf. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9f6fe59a-f164-44f2-af21-94d8225642d6",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Abbildung dreier Varianten zur Nachverdichtung",
+            "Href": null,
+            "Text": {
+              "Content": "Abbildung dreier Varianten zur Nachverdichtung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d067bc8e-0464-4724-ba91-70e537d50e95/abbildung-dreier-varianten-zur-nachverdichtung.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBYHV2U3%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDDPKnQw7CXyyZXwfMvmufg8X%2BkmSM27BF1CaIunZbgRwIhAI2qF%2BS6kcJ%2FjT%2BVk0tNWFq2LFdVbX5FQn84edfcD9lVKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyyrN0uGN25x%2Flzijoq3AO4kjZQwuuMU%2Fg9eohQDIudkZuFCejG%2Fq5WyXr%2B8HLsAXSQAvg1Wh6HIop7M96P2Wr5VDjzTYlUISoG7MOIT9rGIXB9HAq9j%2F0jC8YZuFexqhhzecpkDjc8sUIGt6r2i0szySmtWosdG1xpXEuX04WyScTE1Vf%2B2ME%2Bx%2BrAnQ3CxJNswvXBqCz19LHt0PEGF%2BAXM%2B3ceg0sKjr4s56zhuUgH1lxGaLqQUstmTqVaErcqIU%2FcNQhBh65uf6a7MKJgkYXweoVXD%2Fj7tz86Xlcl5n446rVnA3JnFTWmfgR3KT9KVXZm7eUZmybzHa%2BalcWjA3gsIuY%2BhULcKXMY1oGECfyXM07lrBXuak6gIMoE2WC3%2FrkQSTRbQD8wWPutpiZH3VyR9bZtM240NpP3CnyPWcqNwzMJWki0C%2BawA93t6iz4VlnyNvGXDWls4P%2Bc4h1TtsVV2GbGqk%2FchaVC7I%2BY22ijWaoMJ1x000hwu94phViiaoN02UQI8DiijOutqkYsFC85HlWaD5U%2FBsmg4g2D6wOFwT%2BHNKWse%2FoPI61hSFBtpHqNXUQ%2BSph7pEeEAjoFMSgHhQPspXShYrsWshVH67qT7q4k9rQ%2BwYjp15%2F83pMDim7Lcy0znpUI55PxTDph8DDBjqkAQi1yX3KpPRFWzBKyG2QErtJ8ahFCq4BLuC4UqlELmrDkXVsNh5iMfOzUWODk4iqNeLpwnO5sNR7G8k%2FaSqs2JKhKbaAD328p8bIYtAw%2B8FW25YEs5eQFknYKzpz%2B6aEVyiNq0t6TSR817qRN6%2FihUxnHyefqhwUzZKGmyF09VWdGCB7z4KpMp6p0k3%2B%2FuYKGgmpqYSc%2FEgBExlqbluuIGF55mGg&X-Amz-Signature=ccf6e65bebc51ad6132a9b575947bbff45f24b77fb4dcb421e8838962fbc4f6a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.781Z"
+        }
+      }
+    },
+    {
+      "Id": "21284245-3c13-4808-b3eb-9aad88a7856b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4f94b665-6bc9-4272-b656-0780d595b3b3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In der ersten Variante wird der Bestand umfassend saniert und energetisch ertüchtigt. Die ehemalige Parkfläche soll entsiegelt werden und in einen grünen Innenhof umgestaltet werden. Durch minimale Eingriffe wie dem Hinzufügen einer Duplexgarage und umlaufenden Balkonen wird der Hof stärker geformt und ermöglicht einen ruhigen Aufenthaltsort für die Bewohner. Ohne den Abriss von größeren Strukturen ist die Variante für das komplexe Projekt sowohl eine ökologisch als auch ökonomisch tragfähige Möglichkeit.",
+            "Href": null,
+            "Text": {
+              "Content": "In der ersten Variante wird der Bestand umfassend saniert und energetisch ertüchtigt. Die ehemalige Parkfläche soll entsiegelt werden und in einen grünen Innenhof umgestaltet werden. Durch minimale Eingriffe wie dem Hinzufügen einer Duplexgarage und umlaufenden Balkonen wird der Hof stärker geformt und ermöglicht einen ruhigen Aufenthaltsort für die Bewohner. Ohne den Abriss von größeren Strukturen ist die Variante für das komplexe Projekt sowohl eine ökologisch als auch ökonomisch tragfähige Möglichkeit."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "36a8c526-5434-4fb4-a0dc-d6766c239472",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In der zweiten Variante wird ein Gebäudeteil durch eine Aufstockung ergänzt und generiert dadurch mehr Wohnraum. Auch hier ist der Faktor der grauen Emissionen ein Pluspunkt, wobei die Aufstockung sowohl statisch als auch die Erschließungssituation betreffend einer weiteren Überprüfung bedarf.",
+            "Href": null,
+            "Text": {
+              "Content": "In der zweiten Variante wird ein Gebäudeteil durch eine Aufstockung ergänzt und generiert dadurch mehr Wohnraum. Auch hier ist der Faktor der grauen Emissionen ein Pluspunkt, wobei die Aufstockung sowohl statisch als auch die Erschließungssituation betreffend einer weiteren Überprüfung bedarf."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "de532062-8fc0-400f-8884-594e03bf0154",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Als dritte Variante bleibt nur der Altbau als gestalterisch schützenswertes Gebäude erhalten, während die restlichen Gebäudeteile abgerissen werden und das Grundstück durch Ersatzneubauten nachverdichtet wird. Eine Tiefgarage bringt genügend Stellplätze für die Bewohnerinnen unter. Durch den Abriss und Neubau großer Teile des Grundstücks, entsteht ein höherer grauer Emissionswert und hohe Investitionskosten, die für eine langfristige Transformation in der Zukunft stehen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Als dritte Variante bleibt nur der Altbau als gestalterisch schützenswertes Gebäude erhalten, während die restlichen Gebäudeteile abgerissen werden und das Grundstück durch Ersatzneubauten nachverdichtet wird. Eine Tiefgarage bringt genügend Stellplätze für die Bewohnerinnen unter. Durch den Abriss und Neubau großer Teile des Grundstücks, entsteht ein höherer grauer Emissionswert und hohe Investitionskosten, die für eine langfristige Transformation in der Zukunft stehen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "63a127f9-bc17-4a64-a4e3-f94ba2041bfb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine Handlungsempfehlung ermöglicht eine bessere Kommunikation mit weiteren Akteuren wie z.B. der Stadt und den Bewohnern, um gemeinsam das richtige Konzept für das Grundstück an der Weyersbergerstraße zu finden. Die Zusammenarbeit mit der Stadt Solingen muss als wichtiger Schritt für die Bedürfnisse der Menschen in Solingen in Betracht gezogen werden, um somit an der Transformation einer zukunftsfähigen Stadt zu arbeiten.",
+            "Href": null,
+            "Text": {
+              "Content": "Eine Handlungsempfehlung ermöglicht eine bessere Kommunikation mit weiteren Akteuren wie z.B. der Stadt und den Bewohnern, um gemeinsam das richtige Konzept für das Grundstück an der Weyersbergerstraße zu finden. Die Zusammenarbeit mit der Stadt Solingen muss als wichtiger Schritt für die Bedürfnisse der Menschen in Solingen in Betracht gezogen werden, um somit an der Transformation einer zukunftsfähigen Stadt zu arbeiten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "aa104067-f895-41e2-9bf5-c86b3d9e6570",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diagramm stellt mögliche Entwicklungsperspektiven dar",
+            "Href": null,
+            "Text": {
+              "Content": "Diagramm stellt mögliche Entwicklungsperspektiven dar"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/200ebee0-3bcc-4e9b-90c1-128b8269f056/diagramm-stellt-moegliche-entwicklungsperspektiven-dar.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YBYHV2U3%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDDPKnQw7CXyyZXwfMvmufg8X%2BkmSM27BF1CaIunZbgRwIhAI2qF%2BS6kcJ%2FjT%2BVk0tNWFq2LFdVbX5FQn84edfcD9lVKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyyrN0uGN25x%2Flzijoq3AO4kjZQwuuMU%2Fg9eohQDIudkZuFCejG%2Fq5WyXr%2B8HLsAXSQAvg1Wh6HIop7M96P2Wr5VDjzTYlUISoG7MOIT9rGIXB9HAq9j%2F0jC8YZuFexqhhzecpkDjc8sUIGt6r2i0szySmtWosdG1xpXEuX04WyScTE1Vf%2B2ME%2Bx%2BrAnQ3CxJNswvXBqCz19LHt0PEGF%2BAXM%2B3ceg0sKjr4s56zhuUgH1lxGaLqQUstmTqVaErcqIU%2FcNQhBh65uf6a7MKJgkYXweoVXD%2Fj7tz86Xlcl5n446rVnA3JnFTWmfgR3KT9KVXZm7eUZmybzHa%2BalcWjA3gsIuY%2BhULcKXMY1oGECfyXM07lrBXuak6gIMoE2WC3%2FrkQSTRbQD8wWPutpiZH3VyR9bZtM240NpP3CnyPWcqNwzMJWki0C%2BawA93t6iz4VlnyNvGXDWls4P%2Bc4h1TtsVV2GbGqk%2FchaVC7I%2BY22ijWaoMJ1x000hwu94phViiaoN02UQI8DiijOutqkYsFC85HlWaD5U%2FBsmg4g2D6wOFwT%2BHNKWse%2FoPI61hSFBtpHqNXUQ%2BSph7pEeEAjoFMSgHhQPspXShYrsWshVH67qT7q4k9rQ%2BwYjp15%2F83pMDim7Lcy0znpUI55PxTDph8DDBjqkAQi1yX3KpPRFWzBKyG2QErtJ8ahFCq4BLuC4UqlELmrDkXVsNh5iMfOzUWODk4iqNeLpwnO5sNR7G8k%2FaSqs2JKhKbaAD328p8bIYtAw%2B8FW25YEs5eQFknYKzpz%2B6aEVyiNq0t6TSR817qRN6%2FihUxnHyefqhwUzZKGmyF09VWdGCB7z4KpMp6p0k3%2B%2FuYKGgmpqYSc%2FEgBExlqbluuIGF55mGg&X-Amz-Signature=582f1c016feb211071909c23dc8ac4453484ed836f987cbc488864774e573580&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.781Z"
+        }
+      }
+    },
+    {
+      "Id": "0abe9b06-eaed-467a-8770-32a4dda1085c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Während der Potenzialanalyse wurden folgende Leistungen erarbeitet: ",
+            "Href": null,
+            "Text": {
+              "Content": "Während der Potenzialanalyse wurden folgende Leistungen erarbeitet: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "eb8694da-c9ad-4488-b8ca-934b5b7143c6",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zieldefinition",
+            "Href": null,
+            "Text": {
+              "Content": "Zieldefinition"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3e83a040-759d-4f0e-a7eb-fe70bd1642d5",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bedarfsanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Bedarfsanalyse"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c981ca37-4540-4680-8b30-6f1ed05b238b",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Standortanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Standortanalyse"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e7ede643-0863-42e7-933c-e34dfff6f07e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Prüfung baurechtlicher Potentiale",
+            "Href": null,
+            "Text": {
+              "Content": "Prüfung baurechtlicher Potentiale"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b8f9a93c-2127-4ba1-93ec-1d679c88ae13",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gebäudeanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Gebäudeanalyse"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "dc9a5232-60e5-493d-9338-7f34641d5c67",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bestandsbegehung",
+            "Href": null,
+            "Text": {
+              "Content": "Bestandsbegehung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b2176c80-7f56-40c8-81bf-219a827d2164",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entwicklung architektonische Vision",
+            "Href": null,
+            "Text": {
+              "Content": "Entwicklung architektonische Vision"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7b927979-ce2d-41e5-956e-c3deaa9e381e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Konzept ökologische Projektentwicklung",
+            "Href": null,
+            "Text": {
+              "Content": "Konzept ökologische Projektentwicklung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e37f6938-6d0a-4445-9946-ac12cdba6592",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Resümee: Zusammenfassung, Erläuterung und Dokumentation der Ergebnisse",
+            "Href": null,
+            "Text": {
+              "Content": "Resümee: Zusammenfassung, Erläuterung und Dokumentation der Ergebnisse"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "efdd7a32-2f10-46c7-bda1-5de1bdcafa1b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e7da3382-d31f-4d12-9720-954a7e6242e9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "59a8e3d0-7481-45a8-b759-f3e7597fb267",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

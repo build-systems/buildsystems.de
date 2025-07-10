@@ -1,0 +1,1250 @@
+{
+  "PageId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+  "Title": "CSRD als Sprungbrett für die Bauwende",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    }
+  ],
+  "Category": "Facts & Figures",
+  "Icon": {
+    "Type": "external",
+    "Url": "https://www.notion.so/icons/feed_gray.svg"
+  },
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=6359cb435b213a661945107d8c225b914247aed04e75dec7c672e3b8c64e9d8e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Unternehmen fit for Future",
+  "Slug": "csrd-als-sprungbrett-der-bauwende",
+  "PublishDate": "2024-08-30",
+  "Tags": [
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    }
+  ],
+  "Description": "Wie die CSRD zum Sprungbrett für eine nachhaltige Zukunft wird. BuildSystems begleitet Unternehmen ganzheitlich von der Wesentlichkeitsanalyse bis zur Strategiefindung.",
+  "coverAsset": "csrd-fuer-die-bauwende_titelbild.jpg",
+  "blockAssets": [
+    "csrd-fuer-die-bauwende_esrs.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "231a4df7-c03b-4b5d-9904-01fa60ac0a31",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "CSRD: Nachhaltigkeit in der Bau- und Immobilienbranche",
+            "Href": null,
+            "Text": {
+              "Content": "CSRD: Nachhaltigkeit in der Bau- und Immobilienbranche"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "0b799dda-0417-42b9-b04c-82ed7e1b37f4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Bausektor ist für ca. 40% der Treibhausgasemissionen und des Energieverbrauchs sowie 50% des Abfalls verantwortlich. Dadurch trägt die Bauwirtschaft eine maßgebliche Verantwortung bei der Bewältigung der klimabedingten Herausforderungen und um eine nachhaltige Zukunft zu gestalten. ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Bausektor ist für ca. 40% der Treibhausgasemissionen und des Energieverbrauchs sowie 50% des Abfalls verantwortlich. Dadurch trägt die Bauwirtschaft eine maßgebliche Verantwortung bei der Bewältigung der klimabedingten Herausforderungen und um eine nachhaltige Zukunft zu gestalten. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "06c38373-de4e-4f69-929b-719a1c7b2377",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die CSRD (“Corporate Sustainability Reporting Directive”), eine neue EU-Richtlinie, stellt die soziale und ökologische Verantwortung vieler Unternehmen in den Fokus. Als Leitfaden für eine umfängliche und transparente Berichterstattung wird der Nachhaltigkeitsbericht laut CSRD der finanziellen Berichterstattung gleichgesetzt.",
+            "Href": null,
+            "Text": {
+              "Content": "Die CSRD (“Corporate Sustainability Reporting Directive”), eine neue EU-Richtlinie, stellt die soziale und ökologische Verantwortung vieler Unternehmen in den Fokus. Als Leitfaden für eine umfängliche und transparente Berichterstattung wird der Nachhaltigkeitsbericht laut CSRD der finanziellen Berichterstattung gleichgesetzt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d4d609ba-877e-429c-90d7-37854038a972",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d0823bec-12a9-43fd-8db2-af99857dc6fc",
+      "Type": "heading_3",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading3": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Richtlinie als Chance für Unternehmen",
+            "Href": null,
+            "Text": {
+              "Content": "Die Richtlinie als Chance für Unternehmen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c8922916-2abd-42c3-b4c4-a3350579359a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die detaillierte Berichterstattung laut der CSRD stellt viele Unternehmen in den kommenden Jahren vor eine neue Herausforderung, auf welche man sich jetzt schon vorbereiten sollte. Die Richtlinie ist aber keineswegs nur als Hürde zu sehen. Indem die Richtlinie konkret Strategien bezüglich zukünftiger Risiken durch Klimawandel oder soziale Umbrüche fordert, kann die Auseinandersetzung mit diesen auch Chancen für Unternehmen offenbaren.",
+            "Href": null,
+            "Text": {
+              "Content": "Die detaillierte Berichterstattung laut der CSRD stellt viele Unternehmen in den kommenden Jahren vor eine neue Herausforderung, auf welche man sich jetzt schon vorbereiten sollte. Die Richtlinie ist aber keineswegs nur als Hürde zu sehen. Indem die Richtlinie konkret Strategien bezüglich zukünftiger Risiken durch Klimawandel oder soziale Umbrüche fordert, kann die Auseinandersetzung mit diesen auch Chancen für Unternehmen offenbaren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d85b2527-448a-4169-8d3d-7ba0e508febf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gerade in der Baubranche können Unternehmen die Anforderungen als Anstoß nehmen, um sich als nachhaltige Akteure zu positionieren, die den positiven Wandel der Bauwende vorantreiben. ",
+            "Href": null,
+            "Text": {
+              "Content": "Gerade in der Baubranche können Unternehmen die Anforderungen als Anstoß nehmen, um sich als nachhaltige Akteure zu positionieren, die den positiven Wandel der Bauwende vorantreiben. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "16413aca-3a1b-44b7-99d5-df8742cf1a1d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "baa68b2f-acf1-481c-ad92-75d692dbab35",
+      "Type": "heading_3",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading3": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wer ist CSDR-pflichtig?",
+            "Href": null,
+            "Text": {
+              "Content": "Wer ist CSDR-pflichtig?"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "5ab7c817-f0cd-47c5-8b3d-8e8496d83c8b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Von den momentan 11.000 werden ab dem Geschäftsjahr 2024 alleine in Deutschland 50.000 Unternehmen von der Berichtspflicht nach CSRD betroffen sein - ab 2026 werden es noch mehr. Grund dafür sind neue Kriterien.",
+            "Href": null,
+            "Text": {
+              "Content": "Von den momentan 11.000 werden ab dem Geschäftsjahr 2024 alleine in Deutschland 50.000 Unternehmen von der Berichtspflicht nach CSRD betroffen sein - ab 2026 werden es noch mehr. Grund dafür sind neue Kriterien."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5c41bd91-a228-42cc-874f-3b4044df75cb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ab 1. Januar 2025 müssen bilanzrechtlich große Unternehmen mindestens zwei der drei folgenden Kriterien erfüllen, um berichterstattungspflichtig zu sein:",
+            "Href": null,
+            "Text": {
+              "Content": "Ab 1. Januar 2025 müssen bilanzrechtlich große Unternehmen mindestens zwei der drei folgenden Kriterien erfüllen, um berichterstattungspflichtig zu sein:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "24d37a6b-14b8-4411-b0b3-d3768109c7b3",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 250 Beschäftigte im Jahresdurchschnitt",
+            "Href": null,
+            "Text": {
+              "Content": " > 250 Beschäftigte im Jahresdurchschnitt"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f2dafd96-8751-4778-8f60-ca24982e1b10",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 50 Mio. € Umsatz",
+            "Href": null,
+            "Text": {
+              "Content": " > 50 Mio. € Umsatz"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33726d07-0339-4908-9bb7-095f606e5ab3",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 25 Mio. € Bilanzsumme",
+            "Href": null,
+            "Text": {
+              "Content": " > 25 Mio. € Bilanzsumme"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c78fb17e-0e8a-4983-b9f1-b753bc8cb3a1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ab 1. Januar 2026 müssen kapitalmarktorientierte KMU’s mindestens zwei der drei folgenden Kriterien erfüllen, um berichterstattungspflichtig zu sein. Optional können sich diese Unternehmen bis 2028 von der Berichtspflicht befreien lassen.",
+            "Href": null,
+            "Text": {
+              "Content": "Ab 1. Januar 2026 müssen kapitalmarktorientierte KMU’s mindestens zwei der drei folgenden Kriterien erfüllen, um berichterstattungspflichtig zu sein. Optional können sich diese Unternehmen bis 2028 von der Berichtspflicht befreien lassen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "af797c86-7824-4108-9608-7a47f61de73a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 10 Beschäftigte",
+            "Href": null,
+            "Text": {
+              "Content": " > 10 Beschäftigte"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f7e5b109-b7cc-455f-aa66-9d4f649deef3",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 700.000 € Umsatz",
+            "Href": null,
+            "Text": {
+              "Content": " > 700.000 € Umsatz"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "238f99cd-12ee-43e3-88f0-83ca8159de99",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " > 350.000 € Bilanzsumme",
+            "Href": null,
+            "Text": {
+              "Content": " > 350.000 € Bilanzsumme"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5f9c237c-5c4f-45e0-9523-203b260b0996",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zu beachten ist, dass jeweils die gesamte Wertschöpfungskette betrachtet werden muss und somit Unternehmen auch indirekt von der Berichtspflicht betroffen sein können. Dies nennt man Pull-Faktor. ",
+            "Href": null,
+            "Text": {
+              "Content": "Zu beachten ist, dass jeweils die gesamte Wertschöpfungskette betrachtet werden muss und somit Unternehmen auch indirekt von der Berichtspflicht betroffen sein können. Dies nennt man Pull-Faktor. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "32439fa8-50d5-4fca-a610-3c0fc3f47876",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b597ef38-9cd7-4290-be7a-edb9928f0b5c",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "ESRS: Standards für die Nachhaltigkeitsberichterstattung",
+            "Href": null,
+            "Text": {
+              "Content": "ESRS: Standards für die Nachhaltigkeitsberichterstattung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "8bb99d72-3b04-4881-b387-936d51b4b792",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die ESRS (European Sustainability Reporting Standards) sind Grundlage einer transparenten und vergleichbaren Berichterstattung. Unterteilt werden die ESRS in drei Gruppen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die ESRS (European Sustainability Reporting Standards) sind Grundlage einer transparenten und vergleichbaren Berichterstattung. Unterteilt werden die ESRS in drei Gruppen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d42a5d52-7706-4331-a88e-558999cf7021",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die ",
+            "Href": null,
+            "Text": {
+              "Content": "Die "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "übergreifenden Standards",
+            "Href": null,
+            "Text": {
+              "Content": "übergreifenden Standards"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " bestimmen die allgemeinen Richtlinien und das Konzept der “Doppelten Wesentlichkeit” (ESRS1) sowie allgemeine Angabepflichten in der Berichterstattung (ESRS2). ",
+            "Href": null,
+            "Text": {
+              "Content": " bestimmen die allgemeinen Richtlinien und das Konzept der “Doppelten Wesentlichkeit” (ESRS1) sowie allgemeine Angabepflichten in der Berichterstattung (ESRS2). "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Themenbezogene Standards",
+            "Href": null,
+            "Text": {
+              "Content": "Themenbezogene Standards"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " umfassen die ESG-Themen (Ökologie, Soziales, Governance) und ",
+            "Href": null,
+            "Text": {
+              "Content": " umfassen die ESG-Themen (Ökologie, Soziales, Governance) und "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "sektorspezifische Standards",
+            "Href": null,
+            "Text": {
+              "Content": "sektorspezifische Standards"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": true,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " ",
+            "Href": null,
+            "Text": {
+              "Content": " "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "stehen für individuelle Themen der jeweiligen Branche.",
+            "Href": null,
+            "Text": {
+              "Content": "stehen für individuelle Themen der jeweiligen Branche."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d083456e-b1b5-464e-8d3d-bbf6a9f83b37",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Übersicht der neuen Standards zur Berichterstattung nach CSRD.",
+            "Href": null,
+            "Text": {
+              "Content": "Übersicht der neuen Standards zur Berichterstattung nach CSRD."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZSVYRL5B%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCFLZCVAGe3rxaUTU3Kvf4bFiEK17HL1779MVMdf79WnAIhAPasI32WOEuLS665nsicKiFIwVbS9ZlBwz8TmEtih9oTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx2BQFHbTglpkJCP7wq3AMATQk6IsEqwJl8GGHkbB4aQgVscmk2r99w%2BJWNmiXV9LcU2hfpOpZLEr8L7FVtPZ%2Fh6jckOAQOpVENcWWdgmHEaTtEIQprk6pMJRaxtgtd%2BtJ8RMRmB1eWb8I3sKpkSyCfm%2F8%2Bvcz3A7pdUauT%2FJhXj2%2FdhoEgwWBbfiXpdzH%2BdeePZL0o3Jikzu4MyJRgxglzgseArRXDX%2F6sIow2DYl8%2F3c4c1zlR2qG4fcZx9Cf0R6ErPJPIw1DUSDF2ITPFYmnOyPcSWJKUDP%2BammYCpMOpvegfkuE%2Br9BuuL%2F6nwqlixTbXIdcUNTurtLd8qkiAtE1EwHaaz%2B8Y5q1PJf5t1uuLLd7mGl9JQUGxHZXQh%2BRjf40Ow2HlslfCRx7Ubxv1BWp4xVNZNava%2BdFzApFLCXLZ3kAythKCK5uD361C9uItzyQWGN%2B8X6QQGPnKVsscRKuAu6%2FuEDS1bolphITOCOdGwEv7QSMBF9oQVoqPN7evYlwgtUsk0nwH%2BbwcKfXiI9E7gew5yj0BOWCrI%2Bur%2FEtMF28V%2B0NCrVvL5drRY%2FNZICQ%2B6%2BD%2FXfX3lHnjPtq9UWYu8KocD2UADWE%2BnoqNnFonBNMknNlN%2FAALXsHktNjx26LE%2FPFe4YThwTcTC5h8DDBjqkAXTynaqFxPanl71slEkOqbt0oFw4evhN8EkSnrMng6soLVyESA1cji6D%2FZ2uCI%2Fm2umcIrs4zGngCiI0ouhFNRCejdV4YYFYzkcFo%2BHA1iBr5sz%2FWWeLg7iGf%2BkMrc7zB69N6tEYTXWn3Ba2CB6QfoGCfhnWx1Ix1eSU39vJpLZkLPJHVESIeT3dO8%2FldMN6mfHkOnJwHYUfvV4UJTE8LjFrkVhJ&X-Amz-Signature=dcf4fd126ba798bb99abad3d64955d4f8fbc495892ac9e6eb63f9387fa9af7a7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.010Z"
+        }
+      }
+    },
+    {
+      "Id": "ad2d4ec5-dad0-4220-9331-ddd72b75250f",
+      "Type": "heading_3",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading3": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Doppelte Wesentlichkeit",
+            "Href": null,
+            "Text": {
+              "Content": "Die Doppelte Wesentlichkeit"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "9bc7c63a-b7a4-48e3-8761-e7614c268078",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine Neuerung durch die ESR-Standards ist das Konzept der doppelten Wesentlichkeit, welche in ESRS 1 (Allgemeine Richtlinien) beschrieben wird. ",
+            "Href": null,
+            "Text": {
+              "Content": "Eine Neuerung durch die ESR-Standards ist das Konzept der doppelten Wesentlichkeit, welche in ESRS 1 (Allgemeine Richtlinien) beschrieben wird. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "63f2d856-e778-45f9-9b0c-8a705e516eb1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die doppelte Wesentlichkeit bildet die Grundlage für die Angabe von Nachhaltigkeitsinformationen. Sie legt fest, ob ein Nachhaltigkeitsaspekt in die Berichterstattung eines Unternehmens aufgenommen wird oder nicht. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die doppelte Wesentlichkeit bildet die Grundlage für die Angabe von Nachhaltigkeitsinformationen. Sie legt fest, ob ein Nachhaltigkeitsaspekt in die Berichterstattung eines Unternehmens aufgenommen wird oder nicht. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "052c8622-b0e8-4513-92ab-5f84fd54f59f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wesentlichkeit bedeutet dabei, dass nur über die Themen berichtet wird, die individuell für das Unternehmen und seine Interessengruppen von Bedeutung sind. Zu den Interessengruppen zählen potenziell oder faktisch betroffene Akteure in direkten und indirekten Geschäftsbeziehungen entlang der gesamten Wertschöpfungskette des Unternehmens. Zudem gehören dazu auch die Adressaten von Nachhaltigkeitserklärungen, wie Finanzinstitute, die Zivilgesellschaft, NGOs, Regierungen, Analysten und die Wissenschaft. ",
+            "Href": null,
+            "Text": {
+              "Content": "Wesentlichkeit bedeutet dabei, dass nur über die Themen berichtet wird, die individuell für das Unternehmen und seine Interessengruppen von Bedeutung sind. Zu den Interessengruppen zählen potenziell oder faktisch betroffene Akteure in direkten und indirekten Geschäftsbeziehungen entlang der gesamten Wertschöpfungskette des Unternehmens. Zudem gehören dazu auch die Adressaten von Nachhaltigkeitserklärungen, wie Finanzinstitute, die Zivilgesellschaft, NGOs, Regierungen, Analysten und die Wissenschaft. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "44cd5f19-0575-4c51-8448-38e0efdd1db8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die doppelte Wesentlichkeit berücksichtigt zwei Perspektiven: Erstens die Inside-Out-Perspektive, auch bekannt als Impact Materiality, die sich auf die positiven und negativen Auswirkungen des unternehmerischen Handelns auf die Umwelt konzentriert. Zweitens die Outside-In-Perspektive, oder Finance Materiality, die die Auswirkungen, Chancen und Risiken des Klimaswandels und des Umweltschutzes auf die finanzielle Lage des Unternehmens betrachtet. Ein Aspekt erfüllt die Kriterien der doppelten Wesentlichkeit, wenn er entweder aus der Wirkungsperspektive, der Finanzperspektive oder aus beiden Perspektiven als wesentlich erachtet wird.",
+            "Href": null,
+            "Text": {
+              "Content": "Die doppelte Wesentlichkeit berücksichtigt zwei Perspektiven: Erstens die Inside-Out-Perspektive, auch bekannt als Impact Materiality, die sich auf die positiven und negativen Auswirkungen des unternehmerischen Handelns auf die Umwelt konzentriert. Zweitens die Outside-In-Perspektive, oder Finance Materiality, die die Auswirkungen, Chancen und Risiken des Klimaswandels und des Umweltschutzes auf die finanzielle Lage des Unternehmens betrachtet. Ein Aspekt erfüllt die Kriterien der doppelten Wesentlichkeit, wenn er entweder aus der Wirkungsperspektive, der Finanzperspektive oder aus beiden Perspektiven als wesentlich erachtet wird."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b3a918ec-31c5-4323-ae1d-eac3f12e4208",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "027f831a-fc94-4d7d-af03-893ac66a8cb3",
+      "Type": "heading_3",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading3": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Wesentlichkeitsanalyse als Grundlage der CSRD",
+            "Href": null,
+            "Text": {
+              "Content": "Die Wesentlichkeitsanalyse als Grundlage der CSRD"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "13b8e2ad-e70c-44bc-91fe-778bcf35becc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine Wesentlichkeitsanalyse hat großes Potenzial für ein Unternehmen. Nicht nur, um sich auf die Berichterstattung nach CSRD vorzubereiten, sondern auch, um sich als nachhaltiges Unternehmen auf mehreren Ebenen zu etablieren:",
+            "Href": null,
+            "Text": {
+              "Content": "Eine Wesentlichkeitsanalyse hat großes Potenzial für ein Unternehmen. Nicht nur, um sich auf die Berichterstattung nach CSRD vorzubereiten, sondern auch, um sich als nachhaltiges Unternehmen auf mehreren Ebenen zu etablieren:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7f55e90c-55fd-4062-81df-5b9b59e0ccea",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Strategien zu Nachhaltigkeitsthemen\n",
+            "Href": null,
+            "Text": {
+              "Content": "Strategien zu Nachhaltigkeitsthemen\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die strategische Auseinandersetzung mit relevanten Nachhaltigkeitsthemen ermöglichen es dem Unternehmen, Ressourcen effektiver einzusetzen und die Nachhaltigkeitsleistung gezielt zu verbessern.",
+            "Href": null,
+            "Text": {
+              "Content": "Die strategische Auseinandersetzung mit relevanten Nachhaltigkeitsthemen ermöglichen es dem Unternehmen, Ressourcen effektiver einzusetzen und die Nachhaltigkeitsleistung gezielt zu verbessern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c98a91d2-c2f8-42af-84ba-4559812c4e9a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Stakeholderbeziehungen\n",
+            "Href": null,
+            "Text": {
+              "Content": "Stakeholderbeziehungen\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Durch die Definition von bedeutenden Nachhaltigkeitsthemen werden Bedürfnisse und Erwartungen der Stakeholder besser erfüllt. Zusätzlich kann die Wesentlichkeitsanalyse eine Grundlage für regelmäßige Stakeholder-Dialoge schaffen.",
+            "Href": null,
+            "Text": {
+              "Content": "Durch die Definition von bedeutenden Nachhaltigkeitsthemen werden Bedürfnisse und Erwartungen der Stakeholder besser erfüllt. Zusätzlich kann die Wesentlichkeitsanalyse eine Grundlage für regelmäßige Stakeholder-Dialoge schaffen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "76fa323a-11aa-45a2-98db-1303c91d4474",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Risikomanagement\n",
+            "Href": null,
+            "Text": {
+              "Content": "Risikomanagement\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Durch die Identifikation von Risiken kann man sich besser auf Umweltkrisen und sich wandelnde Verhältnisse vorbereiten sowie entsprechende Gegenmaßnahmen entwickeln, um Schäden für Umwelt und Unternehmen zu reduzieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Durch die Identifikation von Risiken kann man sich besser auf Umweltkrisen und sich wandelnde Verhältnisse vorbereiten sowie entsprechende Gegenmaßnahmen entwickeln, um Schäden für Umwelt und Unternehmen zu reduzieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e4af4402-1c5f-4d74-a4cc-254fff5e246f",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Reputation und Markenwert\n",
+            "Href": null,
+            "Text": {
+              "Content": "Reputation und Markenwert\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Berücksichtigung von ESG-Faktoren stärkt das Markenimage und erhöht das Vertrauen von Verbrauchern und Mitarbeitenden maßgeblich.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Berücksichtigung von ESG-Faktoren stärkt das Markenimage und erhöht das Vertrauen von Verbrauchern und Mitarbeitenden maßgeblich."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f8c68e90-8f7b-4f6a-8227-c0c8dedeaecc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4aad7ca8-7a55-4640-9eea-531fcedb7bfd",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems: CSRD-Experten für die Bau- und Immobilienbranche",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems: CSRD-Experten für die Bau- und Immobilienbranche"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "45b51c5b-cdc0-4f9d-a6d3-c22813bf677e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Einführung der CSRD ist eine Herausforderung, aber auch eine Chance für Unternehmen, ihre Nachhaltigkeitsstrategien auf das nächste Level zu heben. Indem Sie jetzt die nötigen Schritte einleiten, können Sie sicherstellen, dass Ihr Unternehmen bestens vorbereitet ist und nicht nur den gesetzlichen Anforderungen entspricht, sondern auch langfristig von einer verbesserten Nachhaltigkeitsperformance profitiert.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Einführung der CSRD ist eine Herausforderung, aber auch eine Chance für Unternehmen, ihre Nachhaltigkeitsstrategien auf das nächste Level zu heben. Indem Sie jetzt die nötigen Schritte einleiten, können Sie sicherstellen, dass Ihr Unternehmen bestens vorbereitet ist und nicht nur den gesetzlichen Anforderungen entspricht, sondern auch langfristig von einer verbesserten Nachhaltigkeitsperformance profitiert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "74c90d01-3003-4120-9cd6-72ab800fd84e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um Unternehmen zu unterstützen, eine umfängliche Wesentlichkeitsanalyse durchzuführen und daraus eine Nachhaltigkeitsberichterstattung zu erarbeiten, identifiziert BuildSystems relevante Fokuspunkte und Optimierungshebel systematisch. ",
+            "Href": null,
+            "Text": {
+              "Content": "Um Unternehmen zu unterstützen, eine umfängliche Wesentlichkeitsanalyse durchzuführen und daraus eine Nachhaltigkeitsberichterstattung zu erarbeiten, identifiziert BuildSystems relevante Fokuspunkte und Optimierungshebel systematisch. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "99d4a2b9-52f2-450a-b402-980431e114ff",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1a4bc58a-61d1-4443-a195-bf7978991592",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7c5b3dc8-f7ca-4a9c-b80d-f4a4a9a10470",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

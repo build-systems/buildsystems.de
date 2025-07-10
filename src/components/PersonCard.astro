@@ -9,14 +9,13 @@ interface Props {
   showDescription?: boolean;
   sizeImage?: number;
 }
-
 const { person, showDescription = true, sizeImage = 140 } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getPhotoPath(person.Photo?.Url!);
+const imagePath = getPhotoPath(person.Photo?.Url!, "people");
 
 if (!images[imagePath])
   throw new Error(

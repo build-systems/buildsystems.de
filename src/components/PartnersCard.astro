@@ -16,7 +16,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 
-const imagePath = getPhotoPath(partner.Photo?.Url!);
+const imagePath = getPhotoPath(partner.Photo?.Url!, "partners");
 
 if (!images[imagePath])
   throw new Error(

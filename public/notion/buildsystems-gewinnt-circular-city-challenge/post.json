@@ -1,0 +1,205 @@
+{
+  "PageId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+  "Title": "BuildSystems gewinnt Circular City Challenge",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/fd3638e3-a242-45c6-95ba-db06013abb3f/buildsystems-gewinnt-circular-city-challenge_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=89c8119b6d2857c8e59da63a1b36d351e365bef8b21dbd42077f12b4ca8a3b8f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Promotional cover of Circular City Challenge event",
+  "Slug": "buildsystems-gewinnt-circular-city-challenge",
+  "PublishDate": "2024-02-15",
+  "Tags": [
+    {
+      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
+      "name": "Zirkularität",
+      "color": "default"
+    },
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    }
+  ],
+  "Description": "BuildSystems gewinnt Circular City Challenge 2023 und geht mit Städtepartnern in die Implementierungsphase.",
+  "coverAsset": "buildsystems-gewinnt-circular-city-challenge_cover.jpg",
+  "blockAssets": [],
+  "blocks": [
+    {
+      "Id": "b365cddc-0397-45bf-8187-db1a5b708a1a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zum zweiten Mal suchte die ",
+            "Href": null,
+            "Text": {
+              "Content": "Zum zweiten Mal suchte die "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Circular City Challenge",
+            "Href": "https://www.circular-city-challenge.com/",
+            "Text": {
+              "Content": "Circular City Challenge",
+              "Link": {
+                "Url": "https://www.circular-city-challenge.com/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " nach innovativen Lösungen im Bereich Circular Economy und trieb so die urbane Transformation zu Klimaneutralität oder sogar Klimapositivität durch Kreislaufwirtschaft in der Stadt, im Bezirk oder im Quartier voran. Die Lösung von BuildSystems wurde im Bereich “Gebaute Umwelt” zusammen mit Concular, Re:unit und Fraunhofer IPK von den Städtepartnern München, Stuttgart und Wien für die nächste Phase der Challenge, die Implementierung ausgewählt. ",
+            "Href": null,
+            "Text": {
+              "Content": " nach innovativen Lösungen im Bereich Circular Economy und trieb so die urbane Transformation zu Klimaneutralität oder sogar Klimapositivität durch Kreislaufwirtschaft in der Stadt, im Bezirk oder im Quartier voran. Die Lösung von BuildSystems wurde im Bereich “Gebaute Umwelt” zusammen mit Concular, Re:unit und Fraunhofer IPK von den Städtepartnern München, Stuttgart und Wien für die nächste Phase der Challenge, die Implementierung ausgewählt. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d726a7ef-82e8-4c15-b17b-4ac4c413cbf2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Übergang zu einer Circular Economy ist der Schlüssel, um Städten dabei zu helfen, ihre Klimaziele zu erreichen und eine nachhaltige Zukunft sicherzustellen. Die kommunale Verwaltung spielt dabei eine entscheidende Rolle bei der Förderung zirkulärer Prinzipien im Bauwesen. Sie kann Anreize schaffen, indem beispielsweise Planungs- und Bauregeln angepasst werden, um den Einsatz recycelter Materialien zu erleichtern. Darüber hinaus kann bei der Vergabe von öffentlichen Aufträgen, die den Einsatz zirkulärer Baupraktiken vorgeschrieben werden. Durch diese Maßnahmen können Kommunen eine Vorreiterrolle bei der Schaffung nachhaltiger und zukunftsfähiger Städte einnehmen.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Übergang zu einer Circular Economy ist der Schlüssel, um Städten dabei zu helfen, ihre Klimaziele zu erreichen und eine nachhaltige Zukunft sicherzustellen. Die kommunale Verwaltung spielt dabei eine entscheidende Rolle bei der Förderung zirkulärer Prinzipien im Bauwesen. Sie kann Anreize schaffen, indem beispielsweise Planungs- und Bauregeln angepasst werden, um den Einsatz recycelter Materialien zu erleichtern. Darüber hinaus kann bei der Vergabe von öffentlichen Aufträgen, die den Einsatz zirkulärer Baupraktiken vorgeschrieben werden. Durch diese Maßnahmen können Kommunen eine Vorreiterrolle bei der Schaffung nachhaltiger und zukunftsfähiger Städte einnehmen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31bcd72e-404d-4520-bbad-3bf965e1363c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zirkularität im Bauwesen bezieht sich auf die Idee, dass Materialien und Ressourcen so genutzt werden sollten, dass sie am Ende ihres Lebenszyklus wiederverwendet oder recycelt werden können. Statt sie nach einmaligem Gebrauch zu verschwenden, sollen sie in einem geschlossenen Kreislauf gehalten werden. Dies gilt einerseits für ganze Gebäude, die durch smarte Umnutzungskonzepte vor dem Abriss bewahrt werden, und ebenso für Bauteile und Baustoffe. Ziel ist es, Bauteile zu weit wie möglich wiederzuverwenden und Materialien erst in letzter Instanz durch down-cycling einer anderen Funktion zuzuführen. In Zeiten wachsender Urbanisierung und steigender Umweltbelastungen ist es unumgänglich, dass wir unsere Herangehensweise an das Bauwesen überdenken.",
+            "Href": null,
+            "Text": {
+              "Content": "Zirkularität im Bauwesen bezieht sich auf die Idee, dass Materialien und Ressourcen so genutzt werden sollten, dass sie am Ende ihres Lebenszyklus wiederverwendet oder recycelt werden können. Statt sie nach einmaligem Gebrauch zu verschwenden, sollen sie in einem geschlossenen Kreislauf gehalten werden. Dies gilt einerseits für ganze Gebäude, die durch smarte Umnutzungskonzepte vor dem Abriss bewahrt werden, und ebenso für Bauteile und Baustoffe. Ziel ist es, Bauteile zu weit wie möglich wiederzuverwenden und Materialien erst in letzter Instanz durch down-cycling einer anderen Funktion zuzuführen. In Zeiten wachsender Urbanisierung und steigender Umweltbelastungen ist es unumgänglich, dass wir unsere Herangehensweise an das Bauwesen überdenken."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c44d6a53-9f89-4382-a9af-d7e10244c2d7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit der Smart Sustainability Roadmap unterstützt BuildSystems Städte dabei auf kommunaler Ebene die Weichen für eine zirkuläre und zukunftsfähige Bautätigkeit zu stellen. Im Fokus stehen dabei z.B. die Entwicklung eines digitalen Ökokatalogs, der prototypische zirkuläre Bauteilaufbauten für Planende zugänglich macht, oder die Entwicklung von Vergaberichtlinien, die sicherstellen, dass auf stadteigenen Grundstücken oder in kommunalen Projekten ein hoher Anspruch an Zirkularität  umgesetzt wird. Dabei agiert BuildSystems als zuverlässiger Partner bei den unterschiedlichsten Fragestellungen und schafft individuelle Lösungsansätze. ",
+            "Href": null,
+            "Text": {
+              "Content": "Mit der Smart Sustainability Roadmap unterstützt BuildSystems Städte dabei auf kommunaler Ebene die Weichen für eine zirkuläre und zukunftsfähige Bautätigkeit zu stellen. Im Fokus stehen dabei z.B. die Entwicklung eines digitalen Ökokatalogs, der prototypische zirkuläre Bauteilaufbauten für Planende zugänglich macht, oder die Entwicklung von Vergaberichtlinien, die sicherstellen, dass auf stadteigenen Grundstücken oder in kommunalen Projekten ein hoher Anspruch an Zirkularität  umgesetzt wird. Dabei agiert BuildSystems als zuverlässiger Partner bei den unterschiedlichsten Fragestellungen und schafft individuelle Lösungsansätze. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8ced74ef-5ff9-406b-97eb-24d03ceb2155",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "b4ee924c-691c-435b-8ce2-e2ad09f64f7e",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Insgesamt ist die Berücksichtigung von Zirkularität im Bauwesen von entscheidender Bedeutung für die Zukunft unserer Städte. Durch die Umstellung auf zirkuläre Prinzipien können wir nicht nur die Umwelt schonen, sondern auch langfristig wirtschaftliche und soziale Vorteile erzielen. Es ist an der Zeit, dass wir gemeinsam Alternativen schaffen, um widerstandsfähigere, integrative und lokale Kommunen aufzubauen.",
+            "Href": null,
+            "Text": {
+              "Content": "Insgesamt ist die Berücksichtigung von Zirkularität im Bauwesen von entscheidender Bedeutung für die Zukunft unserer Städte. Durch die Umstellung auf zirkuläre Prinzipien können wir nicht nur die Umwelt schonen, sondern auch langfristig wirtschaftliche und soziale Vorteile erzielen. Es ist an der Zeit, dass wir gemeinsam Alternativen schaffen, um widerstandsfähigere, integrative und lokale Kommunen aufzubauen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

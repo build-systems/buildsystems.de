@@ -32,11 +32,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 if (block.Image!.File) {
   try {
-    const dir = "/src/assets/notion/" + url!.pathname.split("/").slice(-2)[0];
+    const dir = "/src/assets/notion/" + slug;
     const imageName = decodeURIComponent(url!.pathname.split("/").slice(-1)[0]);
     imageExtension = imageName.split(".")[1];
-    const imageNameWithSlug = addSlugToName(imageName, slug);
-    const imagePath = `${dir}/${imageNameWithSlug}`;
+    const imagePath = `${dir}/${imageName}`;
     // The result from images is an array of objects that have file paths as keys
     // so you need to use the full image path to get the image-object.
     // Inside this image-object the 'default' key has the necessary ImageMetadata for astro

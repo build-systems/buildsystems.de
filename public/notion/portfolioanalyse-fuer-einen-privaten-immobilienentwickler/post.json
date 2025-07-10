@@ -1,0 +1,879 @@
+{
+  "PageId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+  "Title": "Die Zukunftsfähigkeit von Portfolien liegt in der Klimaneutralität",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/30fd1b54-f095-4008-97af-4252f3d650d4/portfolioanalyse_cover_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=7f9bb485bf82dd9865da597fb97f68a5c5422f79cdd2d259766a4b23cc3682b6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Portfolioanalyse für einen privaten immobilienentwickler deckblatt.",
+  "Slug": "portfolioanalyse-fuer-einen-privaten-immobilienentwickler",
+  "PublishDate": "2024-03-10",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    },
+    {
+      "id": "6ac22a5f-2a41-4dd8-8954-86ea331315e0",
+      "name": "Wohnungsbau",
+      "color": "pink"
+    },
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    },
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    }
+  ],
+  "Description": "BuildSystems stellt das Portfolio eines privaten Immobilienentwicklers zukunftssicher auf.",
+  "coverAsset": "portfolioanalyse_cover_2.jpg",
+  "blockAssets": [
+    "standorte-des-immobilienportfolios-in-deutschland.jpg",
+    "luftbilder-der-unterschiedlichen-gebaeude.jpg",
+    "crrem-pfad-fuer-ein-gebaeude-in-solingen.jpg",
+    "schritte-der-portfolioanalyse.jpg",
+    "auszug-aus-der-portfolioanalyse.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "624202aa-ed32-4761-95a6-9e3d4d8e5736",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Analyse und Dekarbonisierung eines privaten Immobilienportfolios",
+            "Href": null,
+            "Text": {
+              "Content": "Analyse und Dekarbonisierung eines privaten Immobilienportfolios"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "9cabe645-e5d3-469d-ac9f-80192344102c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um ein Portfolio aus mehreren Immobilien erfolgreich in die nachhaltige Zukunft zu führen, ist eine strukturierte und skalierbare Vorgehensweise von entscheidender Bedeutung. Der Ansatz von BuildSystems berücksichtigt bei der Portfolioanalyse sowohl den aktuellen Zustand der Immobilien als auch zukünftigen Potenziale. Ziel ist es, einen Fahrplan zu entwicklen, der nicht nur den akuten Handlungsbedarf je Immobilien bewertet, sondern auch Entwicklungsmöglichkeiten aufzeigt und Maßnahmen priorisiert. Es gilt dabei, dem Kunden entsprechend das richtige Maß an digitalen Tools anzuwenden, um relevante Daten effizient auszuwerten und faktenbasiert Entscheidungen zu treffen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Um ein Portfolio aus mehreren Immobilien erfolgreich in die nachhaltige Zukunft zu führen, ist eine strukturierte und skalierbare Vorgehensweise von entscheidender Bedeutung. Der Ansatz von BuildSystems berücksichtigt bei der Portfolioanalyse sowohl den aktuellen Zustand der Immobilien als auch zukünftigen Potenziale. Ziel ist es, einen Fahrplan zu entwicklen, der nicht nur den akuten Handlungsbedarf je Immobilien bewertet, sondern auch Entwicklungsmöglichkeiten aufzeigt und Maßnahmen priorisiert. Es gilt dabei, dem Kunden entsprechend das richtige Maß an digitalen Tools anzuwenden, um relevante Daten effizient auszuwerten und faktenbasiert Entscheidungen zu treffen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "217b32cb-a167-43fe-9625-c48943d23cd1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Derzeit bearbeitet BuildSystems das Portfolio eines privaten Investors, das aus zehn Immobilien an neun verschiedenen Standorten in Deutschland besteht und insgesamt über 65 Wohneinheiten und einzelne Gewerbeeinheiten umfasst. Einige dieser Einheiten benötigen dringend Sanierungsmaßnahmen, um energetische und baukonstruktive Standards zu erfüllen. Darüber hinaus werden Möglichkeiten zur Nachverdichtung oder gegebenenfalls Umnutzung geprüft, um das baurechtliche Potenzial optimal auszuschöpfen und die langfristige Attraktivität sicherzustellen. Im Laufe der nächsten Jahre werden energetische Maßnahmen sowie weitere bauliche Veränderungen strategisch durchgeführt und die Assets somit aufgewertet.",
+            "Href": null,
+            "Text": {
+              "Content": "Derzeit bearbeitet BuildSystems das Portfolio eines privaten Investors, das aus zehn Immobilien an neun verschiedenen Standorten in Deutschland besteht und insgesamt über 65 Wohneinheiten und einzelne Gewerbeeinheiten umfasst. Einige dieser Einheiten benötigen dringend Sanierungsmaßnahmen, um energetische und baukonstruktive Standards zu erfüllen. Darüber hinaus werden Möglichkeiten zur Nachverdichtung oder gegebenenfalls Umnutzung geprüft, um das baurechtliche Potenzial optimal auszuschöpfen und die langfristige Attraktivität sicherzustellen. Im Laufe der nächsten Jahre werden energetische Maßnahmen sowie weitere bauliche Veränderungen strategisch durchgeführt und die Assets somit aufgewertet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "dbbcdd4a-4a83-42e9-88d4-fdf68904d24a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2661affb-d2e4-4db6-9451-2227e9e8249a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Standorte des Immobilienportfolios in Deutschland",
+            "Href": null,
+            "Text": {
+              "Content": "Standorte des Immobilienportfolios in Deutschland"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/9533bf47-4e50-4fb3-80fc-985c1f2d8f00/standorte-des-immobilienportfolios-in-deutschland.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VMQSHORD%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQClaL0S4RzYvo25riAhbt9d%2Fp1m%2BlLoX8UKzEGITNh0lAIgK9z0dz%2FVG94m0zW08tIhHgksmJY6L2LeC06EuIm6wwUqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKvYne42eZjKB3OdyyrcA5qFODbjV%2B2lHkDNQ44ODoojxY%2Fuu2rccWaQV8oJmpQH4AgCrL9bpwQZDGe7Y7jRSIgd7NABj4aHemBl%2F5LFq0bXmK%2BS6ctGzqBhZpWkqDSSeNVmrnQkKKTJpnshi%2BxaHaR7S6xzqkDMMFg%2Fqk8hrsOAgde90YnhnvkPyMkZdYXblqYfYXFdajELrQMfRB7Zjh3wGzLOXwjfZSwvw%2BDuH8OFmaD5%2BAe1CxRLAmzzZj%2FuPbWz1dQE1BF6HKXNWOwFbwIoHdgBUobMoozzxR1UL6%2FTfHOFyfISTYEdSejLED6I44HvuQHnGrZIMEmEdfdZ%2FGwfspK4NFSHx4fTHIA23hknn6CxCULUVWCXoNVnddIylsd3y9vPL4YSEi7eyrTioQMoz5uyHlTlASnrXn9Aasm%2BnEtqMOL67LfB5ZBaXRB4pdZpvftWoB%2BhHxXb7mQOsd9A3RKxQzRITvMbwEq%2F271nzj26p5h%2FATt78MEXkDSfKg2aC4yMBWcSPoSsIi17ww64LFevdQSYJgPLT%2FZIt4QPlKFH6qxD%2FrO26agt2jU4xJA99GnkszWKbWSxiC11%2BR1msKnUTYwVBcAAJfmZJCKcun9B%2FFXt1VohasXPEj1%2B8gEUzv6JOBBXtRfhMJuHwMMGOqUBJhMzKSrKfnpZSw%2FONeewTTEo13qOUJgqym8pnakNxmHq%2F0LAMAVWHHjApkQBMFdmNIQ7aWSLjgBF18KQeX3vXv6GH1evzXJqnrJHGLnCRUAD6AXSEDydPYMmvCYCR0n%2FTkQ7voteqpA751gvvFtryEyfLXWz%2BYqZYP62e%2B%2F3pI%2Fi54PBE7i7RNMGQuHIDEPNcza4WtM5xMuqS%2F4zszzWVPGg9UW0&X-Amz-Signature=fb68df0dd7c927a7b5b23d371b103e7350d5513d84cd3fd25f1a296d31aa6c0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.748Z"
+        }
+      }
+    },
+    {
+      "Id": "75e00716-f78d-4098-a40f-74755511a899",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Luftbilder der unterschiedlichen Gebäude",
+            "Href": null,
+            "Text": {
+              "Content": "Luftbilder der unterschiedlichen Gebäude"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8a97a393-26b0-466f-b952-ceeb2a417c31/luftbilder-der-unterschiedlichen-gebaeude.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VMQSHORD%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQClaL0S4RzYvo25riAhbt9d%2Fp1m%2BlLoX8UKzEGITNh0lAIgK9z0dz%2FVG94m0zW08tIhHgksmJY6L2LeC06EuIm6wwUqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKvYne42eZjKB3OdyyrcA5qFODbjV%2B2lHkDNQ44ODoojxY%2Fuu2rccWaQV8oJmpQH4AgCrL9bpwQZDGe7Y7jRSIgd7NABj4aHemBl%2F5LFq0bXmK%2BS6ctGzqBhZpWkqDSSeNVmrnQkKKTJpnshi%2BxaHaR7S6xzqkDMMFg%2Fqk8hrsOAgde90YnhnvkPyMkZdYXblqYfYXFdajELrQMfRB7Zjh3wGzLOXwjfZSwvw%2BDuH8OFmaD5%2BAe1CxRLAmzzZj%2FuPbWz1dQE1BF6HKXNWOwFbwIoHdgBUobMoozzxR1UL6%2FTfHOFyfISTYEdSejLED6I44HvuQHnGrZIMEmEdfdZ%2FGwfspK4NFSHx4fTHIA23hknn6CxCULUVWCXoNVnddIylsd3y9vPL4YSEi7eyrTioQMoz5uyHlTlASnrXn9Aasm%2BnEtqMOL67LfB5ZBaXRB4pdZpvftWoB%2BhHxXb7mQOsd9A3RKxQzRITvMbwEq%2F271nzj26p5h%2FATt78MEXkDSfKg2aC4yMBWcSPoSsIi17ww64LFevdQSYJgPLT%2FZIt4QPlKFH6qxD%2FrO26agt2jU4xJA99GnkszWKbWSxiC11%2BR1msKnUTYwVBcAAJfmZJCKcun9B%2FFXt1VohasXPEj1%2B8gEUzv6JOBBXtRfhMJuHwMMGOqUBJhMzKSrKfnpZSw%2FONeewTTEo13qOUJgqym8pnakNxmHq%2F0LAMAVWHHjApkQBMFdmNIQ7aWSLjgBF18KQeX3vXv6GH1evzXJqnrJHGLnCRUAD6AXSEDydPYMmvCYCR0n%2FTkQ7voteqpA751gvvFtryEyfLXWz%2BYqZYP62e%2B%2F3pI%2Fi54PBE7i7RNMGQuHIDEPNcza4WtM5xMuqS%2F4zszzWVPGg9UW0&X-Amz-Signature=3cbba912ac2c81dfe64d63bda3319b946e828c10dabc8a7658ebf7675e519792&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.721Z"
+        }
+      }
+    },
+    {
+      "Id": "71c2714d-7bc0-4927-a772-92ede2d70e10",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Hintergrund der Portfoliodekarbonisierung",
+            "Href": null,
+            "Text": {
+              "Content": "Hintergrund der Portfoliodekarbonisierung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "2c1c13e2-8a52-42f8-b8b7-000cd02fbb28",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In Deutschland werden 35% des Endenergieverbrauchs durch Gebäude verursacht, hauptsächlich für Heizung und Warmwasser. Angesichts dieser Tatsache sind Energieeffizienz und erneuerbare Energien entscheidend, um die Energiekosten zu senken, den Nutzungskomfort zu steigern, den Immobilienwert zu erhöhen und einen bedeutenden Beitrag zum Klimaschutz zu leisten (",
+            "Href": null,
+            "Text": {
+              "Content": "In Deutschland werden 35% des Endenergieverbrauchs durch Gebäude verursacht, hauptsächlich für Heizung und Warmwasser. Angesichts dieser Tatsache sind Energieeffizienz und erneuerbare Energien entscheidend, um die Energiekosten zu senken, den Nutzungskomfort zu steigern, den Immobilienwert zu erhöhen und einen bedeutenden Beitrag zum Klimaschutz zu leisten ("
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BMWK",
+            "Href": "https://www.bmwk.de/Redaktion/DE/Dossier/energiewende-im-gebaeudebereich.html",
+            "Text": {
+              "Content": "BMWK",
+              "Link": {
+                "Url": "https://www.bmwk.de/Redaktion/DE/Dossier/energiewende-im-gebaeudebereich.html"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "). Die CRREM Methode bietet eine übersichtliche Bewertungsmethode hinsichtlich der notwendigen Reduktion des Energieverbrauchs und möglicher Stranding-Risiken. Sie zeigt Defizite klar auf und definiert den konkreten Handlungsbedarf für eine spätere Sanierung.",
+            "Href": null,
+            "Text": {
+              "Content": "). Die CRREM Methode bietet eine übersichtliche Bewertungsmethode hinsichtlich der notwendigen Reduktion des Energieverbrauchs und möglicher Stranding-Risiken. Sie zeigt Defizite klar auf und definiert den konkreten Handlungsbedarf für eine spätere Sanierung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "08febba6-18d5-491d-9b63-da5870706789",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Hier beispielhaft die CRREM Analyse eines Assets innerhalb des Portfolios. Nach einer energetischen Sanierung unterschreitet das Gebäude den Soll-Pfad, läuft allerdings im Jahr 2032 auf ein erneutes Stranding zu und bedarf zu diesem Zeitpunkt weiterer Maßnahmen.",
+            "Href": null,
+            "Text": {
+              "Content": "Hier beispielhaft die CRREM Analyse eines Assets innerhalb des Portfolios. Nach einer energetischen Sanierung unterschreitet das Gebäude den Soll-Pfad, läuft allerdings im Jahr 2032 auf ein erneutes Stranding zu und bedarf zu diesem Zeitpunkt weiterer Maßnahmen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "fdbc9478-48c6-4147-9298-7ea8a214ca4a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "CRREM-Pfad für ein Gebäude in Solingen: Nach einer energetischen Sanierung unterschreitet das Gebäude den Soll-Pfad, läuft allerdings im Jahr 2032 auf ein erneutes Stranding zu. ",
+            "Href": null,
+            "Text": {
+              "Content": "CRREM-Pfad für ein Gebäude in Solingen: Nach einer energetischen Sanierung unterschreitet das Gebäude den Soll-Pfad, läuft allerdings im Jahr 2032 auf ein erneutes Stranding zu. "
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/782b697c-d599-4737-af8c-5afc81b83c3d/crrem-pfad-fuer-ein-gebaeude-in-solingen.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VMQSHORD%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQClaL0S4RzYvo25riAhbt9d%2Fp1m%2BlLoX8UKzEGITNh0lAIgK9z0dz%2FVG94m0zW08tIhHgksmJY6L2LeC06EuIm6wwUqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKvYne42eZjKB3OdyyrcA5qFODbjV%2B2lHkDNQ44ODoojxY%2Fuu2rccWaQV8oJmpQH4AgCrL9bpwQZDGe7Y7jRSIgd7NABj4aHemBl%2F5LFq0bXmK%2BS6ctGzqBhZpWkqDSSeNVmrnQkKKTJpnshi%2BxaHaR7S6xzqkDMMFg%2Fqk8hrsOAgde90YnhnvkPyMkZdYXblqYfYXFdajELrQMfRB7Zjh3wGzLOXwjfZSwvw%2BDuH8OFmaD5%2BAe1CxRLAmzzZj%2FuPbWz1dQE1BF6HKXNWOwFbwIoHdgBUobMoozzxR1UL6%2FTfHOFyfISTYEdSejLED6I44HvuQHnGrZIMEmEdfdZ%2FGwfspK4NFSHx4fTHIA23hknn6CxCULUVWCXoNVnddIylsd3y9vPL4YSEi7eyrTioQMoz5uyHlTlASnrXn9Aasm%2BnEtqMOL67LfB5ZBaXRB4pdZpvftWoB%2BhHxXb7mQOsd9A3RKxQzRITvMbwEq%2F271nzj26p5h%2FATt78MEXkDSfKg2aC4yMBWcSPoSsIi17ww64LFevdQSYJgPLT%2FZIt4QPlKFH6qxD%2FrO26agt2jU4xJA99GnkszWKbWSxiC11%2BR1msKnUTYwVBcAAJfmZJCKcun9B%2FFXt1VohasXPEj1%2B8gEUzv6JOBBXtRfhMJuHwMMGOqUBJhMzKSrKfnpZSw%2FONeewTTEo13qOUJgqym8pnakNxmHq%2F0LAMAVWHHjApkQBMFdmNIQ7aWSLjgBF18KQeX3vXv6GH1evzXJqnrJHGLnCRUAD6AXSEDydPYMmvCYCR0n%2FTkQ7voteqpA751gvvFtryEyfLXWz%2BYqZYP62e%2B%2F3pI%2Fi54PBE7i7RNMGQuHIDEPNcza4WtM5xMuqS%2F4zszzWVPGg9UW0&X-Amz-Signature=d90f7210d5fca0c815a70a26f7ea4014a1ef825dcca4552ab5dc82c0513602ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.725Z"
+        }
+      }
+    },
+    {
+      "Id": "4e4497cc-25f1-4a3e-8d78-f4df2826be6f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die stetige Verschärfung nationaler und europäischer Anforderungen treibt die kontinuierliche Dekarbonisierung des Gebäudesektors voran. Dabei gilt es nicht nur operative Emissionen des Energiebedarfs zu reduzieren, sondern im Sinne der ESG-Konformität ganzheitliche und zukunftsfähige Konzepte für Gebäude und deren Umsetzung auf den Weg zu bringen. Aus diesem Grund kombiniert BuildSystems in der ganzheitlichen Portfolioanalyse die energetische Betrachtung mit weiteren Aspekten zukunftsfähiger Immobilien und Quartiere. Die Potenzialstudie gibt Aufschluss über zukünftige Anforderungen hinsichtlich der Nutzung sowie der Klimaanpassung. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die stetige Verschärfung nationaler und europäischer Anforderungen treibt die kontinuierliche Dekarbonisierung des Gebäudesektors voran. Dabei gilt es nicht nur operative Emissionen des Energiebedarfs zu reduzieren, sondern im Sinne der ESG-Konformität ganzheitliche und zukunftsfähige Konzepte für Gebäude und deren Umsetzung auf den Weg zu bringen. Aus diesem Grund kombiniert BuildSystems in der ganzheitlichen Portfolioanalyse die energetische Betrachtung mit weiteren Aspekten zukunftsfähiger Immobilien und Quartiere. Die Potenzialstudie gibt Aufschluss über zukünftige Anforderungen hinsichtlich der Nutzung sowie der Klimaanpassung. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3733fa8a-c051-4816-b79d-441cf0060188",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ziele der Portfolioanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Ziele der Portfolioanalyse"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "bd1b44bd-6f4d-4f69-998f-a6f6524cbe9d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems bearbeitet Portfolioanalysen innerhalb eines strukturierten Prozesses, der es ermöglicht, sämtliche Bestandsgebäude im Portfolio ganzheitlich und auf verschiedenen Ebenen zu optimieren: energetisch, wirtschaftlich, baurechtlich und architektonisch. Der Ansatz umfasst vier vordefinierte Schritte, die alle wesentlichen Aspekte der anstehenden Sanierungen abdecken und die verschiedenen Assets untereinander vergleichbar machen. Mit der präzisen Analyse wird die Grundlage geschaffen, um tragfähige Zukunftsvisionen für die jeweiligen Immobilien zu entwickeln, versteckte Potenziale zu identifiziert und langfristig den Gesamtwert der Assets zu steigern. ",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems bearbeitet Portfolioanalysen innerhalb eines strukturierten Prozesses, der es ermöglicht, sämtliche Bestandsgebäude im Portfolio ganzheitlich und auf verschiedenen Ebenen zu optimieren: energetisch, wirtschaftlich, baurechtlich und architektonisch. Der Ansatz umfasst vier vordefinierte Schritte, die alle wesentlichen Aspekte der anstehenden Sanierungen abdecken und die verschiedenen Assets untereinander vergleichbar machen. Mit der präzisen Analyse wird die Grundlage geschaffen, um tragfähige Zukunftsvisionen für die jeweiligen Immobilien zu entwickeln, versteckte Potenziale zu identifiziert und langfristig den Gesamtwert der Assets zu steigern. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "df6200b7-3d35-4ef3-aceb-4be174a3a9af",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Schritte der Portfolioanalyse",
+            "Href": null,
+            "Text": {
+              "Content": "Schritte der Portfolioanalyse"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/535dd122-51b8-444f-9345-048dfe4388e2/schritte-der-portfolioanalyse.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VMQSHORD%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQClaL0S4RzYvo25riAhbt9d%2Fp1m%2BlLoX8UKzEGITNh0lAIgK9z0dz%2FVG94m0zW08tIhHgksmJY6L2LeC06EuIm6wwUqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKvYne42eZjKB3OdyyrcA5qFODbjV%2B2lHkDNQ44ODoojxY%2Fuu2rccWaQV8oJmpQH4AgCrL9bpwQZDGe7Y7jRSIgd7NABj4aHemBl%2F5LFq0bXmK%2BS6ctGzqBhZpWkqDSSeNVmrnQkKKTJpnshi%2BxaHaR7S6xzqkDMMFg%2Fqk8hrsOAgde90YnhnvkPyMkZdYXblqYfYXFdajELrQMfRB7Zjh3wGzLOXwjfZSwvw%2BDuH8OFmaD5%2BAe1CxRLAmzzZj%2FuPbWz1dQE1BF6HKXNWOwFbwIoHdgBUobMoozzxR1UL6%2FTfHOFyfISTYEdSejLED6I44HvuQHnGrZIMEmEdfdZ%2FGwfspK4NFSHx4fTHIA23hknn6CxCULUVWCXoNVnddIylsd3y9vPL4YSEi7eyrTioQMoz5uyHlTlASnrXn9Aasm%2BnEtqMOL67LfB5ZBaXRB4pdZpvftWoB%2BhHxXb7mQOsd9A3RKxQzRITvMbwEq%2F271nzj26p5h%2FATt78MEXkDSfKg2aC4yMBWcSPoSsIi17ww64LFevdQSYJgPLT%2FZIt4QPlKFH6qxD%2FrO26agt2jU4xJA99GnkszWKbWSxiC11%2BR1msKnUTYwVBcAAJfmZJCKcun9B%2FFXt1VohasXPEj1%2B8gEUzv6JOBBXtRfhMJuHwMMGOqUBJhMzKSrKfnpZSw%2FONeewTTEo13qOUJgqym8pnakNxmHq%2F0LAMAVWHHjApkQBMFdmNIQ7aWSLjgBF18KQeX3vXv6GH1evzXJqnrJHGLnCRUAD6AXSEDydPYMmvCYCR0n%2FTkQ7voteqpA751gvvFtryEyfLXWz%2BYqZYP62e%2B%2F3pI%2Fi54PBE7i7RNMGQuHIDEPNcza4WtM5xMuqS%2F4zszzWVPGg9UW0&X-Amz-Signature=ed29eba7557809d953802c534f3354a72d556ab2c87317dd74fb56c06d607343&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.728Z"
+        }
+      }
+    },
+    {
+      "Id": "98ab327a-4577-4b0e-b03b-2e3523b3c1d0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Ergebnis umfasst eine CRREM Analyse jeder Immobilie sowie eine architektonische Potenzialstudie und eine energetische Betrachtung. Neben einem mehrseitigen Report, der Schlüsselergebnisse der Potenzialanalyse und der energetischen Betrachtung zusammenfasst, werden für jedes Gebäude alle relevanten Kennzahlen in einem Gebäudesteckbrief abgebildet. Dies schafft Transparenz und Vergleichbarkeit zwischen den Immobilien.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Ergebnis umfasst eine CRREM Analyse jeder Immobilie sowie eine architektonische Potenzialstudie und eine energetische Betrachtung. Neben einem mehrseitigen Report, der Schlüsselergebnisse der Potenzialanalyse und der energetischen Betrachtung zusammenfasst, werden für jedes Gebäude alle relevanten Kennzahlen in einem Gebäudesteckbrief abgebildet. Dies schafft Transparenz und Vergleichbarkeit zwischen den Immobilien."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "79037374-c139-4602-97e1-402961fbf244",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8d7b35a0-8534-4144-bf3b-cd47572e5f44",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a1a85040-d783-4d82-8b90-a431c4661259",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auszug aus der Portfolioanalyse: Der Gebäudesteckbrief für den Gebäudekomplex in der Weyersbergerstraße in Solingen mit den wichtigsten Informationen bezüglich planrechtlichen und energetischen Kennwerten.",
+            "Href": null,
+            "Text": {
+              "Content": "Auszug aus der Portfolioanalyse: Der Gebäudesteckbrief für den Gebäudekomplex in der Weyersbergerstraße in Solingen mit den wichtigsten Informationen bezüglich planrechtlichen und energetischen Kennwerten."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0bab088c-696a-45d2-b879-b2a07a944468/auszug-aus-der-portfolioanalyse.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VMQSHORD%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQClaL0S4RzYvo25riAhbt9d%2Fp1m%2BlLoX8UKzEGITNh0lAIgK9z0dz%2FVG94m0zW08tIhHgksmJY6L2LeC06EuIm6wwUqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKvYne42eZjKB3OdyyrcA5qFODbjV%2B2lHkDNQ44ODoojxY%2Fuu2rccWaQV8oJmpQH4AgCrL9bpwQZDGe7Y7jRSIgd7NABj4aHemBl%2F5LFq0bXmK%2BS6ctGzqBhZpWkqDSSeNVmrnQkKKTJpnshi%2BxaHaR7S6xzqkDMMFg%2Fqk8hrsOAgde90YnhnvkPyMkZdYXblqYfYXFdajELrQMfRB7Zjh3wGzLOXwjfZSwvw%2BDuH8OFmaD5%2BAe1CxRLAmzzZj%2FuPbWz1dQE1BF6HKXNWOwFbwIoHdgBUobMoozzxR1UL6%2FTfHOFyfISTYEdSejLED6I44HvuQHnGrZIMEmEdfdZ%2FGwfspK4NFSHx4fTHIA23hknn6CxCULUVWCXoNVnddIylsd3y9vPL4YSEi7eyrTioQMoz5uyHlTlASnrXn9Aasm%2BnEtqMOL67LfB5ZBaXRB4pdZpvftWoB%2BhHxXb7mQOsd9A3RKxQzRITvMbwEq%2F271nzj26p5h%2FATt78MEXkDSfKg2aC4yMBWcSPoSsIi17ww64LFevdQSYJgPLT%2FZIt4QPlKFH6qxD%2FrO26agt2jU4xJA99GnkszWKbWSxiC11%2BR1msKnUTYwVBcAAJfmZJCKcun9B%2FFXt1VohasXPEj1%2B8gEUzv6JOBBXtRfhMJuHwMMGOqUBJhMzKSrKfnpZSw%2FONeewTTEo13qOUJgqym8pnakNxmHq%2F0LAMAVWHHjApkQBMFdmNIQ7aWSLjgBF18KQeX3vXv6GH1evzXJqnrJHGLnCRUAD6AXSEDydPYMmvCYCR0n%2FTkQ7voteqpA751gvvFtryEyfLXWz%2BYqZYP62e%2B%2F3pI%2Fi54PBE7i7RNMGQuHIDEPNcza4WtM5xMuqS%2F4zszzWVPGg9UW0&X-Amz-Signature=b20e879f4e569f465a749373ca6bfcc0a7db5c30ceb390bfc049b84b19e742b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:00.756Z"
+        }
+      }
+    },
+    {
+      "Id": "cd289e9c-a6de-400f-9ed7-e2973af6c9f0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "69551903-a64e-4178-9037-58544e687ef6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "94b2d9a3-14aa-441a-9842-135fd72180cd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit bietet die Analyse Immobilienentwicklungen eine Übersicht der wichtigsten Eigenschaften und Mängel, der zukünftigen Entwicklungsmöglichkeiten und der wirtschaftlichen Einordnung der Assets im Portfolio für die kommenden Jahre. Der Fokus liegt auf dem Zusammenbringen aus energetischen sowie architektonischen und baulichen Revitalisierungsmaßnahmen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Damit bietet die Analyse Immobilienentwicklungen eine Übersicht der wichtigsten Eigenschaften und Mängel, der zukünftigen Entwicklungsmöglichkeiten und der wirtschaftlichen Einordnung der Assets im Portfolio für die kommenden Jahre. Der Fokus liegt auf dem Zusammenbringen aus energetischen sowie architektonischen und baulichen Revitalisierungsmaßnahmen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8d865ab8-7387-49e8-a9d6-3a336ad81681",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wenn klar wird, dass Gebäude im Portfolio nicht nur einer energetischen Sanierung bedürfen, sondern gegebenenfalls auch durch ein funktionales Stranding bedroht sind,  übernimmt BuildSystems auch die Leistungen, die eine Repositionierung ermöglichen. Dazu gehören beispielsweise die Bedarfsplanung, Standort- und Milieuanalysen sowie Umnutzungskonzepte. ",
+            "Href": null,
+            "Text": {
+              "Content": "Wenn klar wird, dass Gebäude im Portfolio nicht nur einer energetischen Sanierung bedürfen, sondern gegebenenfalls auch durch ein funktionales Stranding bedroht sind,  übernimmt BuildSystems auch die Leistungen, die eine Repositionierung ermöglichen. Dazu gehören beispielsweise die Bedarfsplanung, Standort- und Milieuanalysen sowie Umnutzungskonzepte. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "36cd6d16-6526-49c2-bcbf-355750dc93b5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "36f6b5fe-d3eb-43d9-868e-82237a74057e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Laufe der Portfolioanalyse wurden folgende Leistungen erbracht",
+            "Href": null,
+            "Text": {
+              "Content": "Im Laufe der Portfolioanalyse wurden folgende Leistungen erbracht"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "08d1d5d4-9cec-412f-8a5a-060899437ff8",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auswertung bestehender Pläne und Daten ",
+            "Href": null,
+            "Text": {
+              "Content": "Auswertung bestehender Pläne und Daten "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b1f0a089-06cb-4c95-b3ee-5e6f32bfda0e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "CRREM Analyse ",
+            "Href": null,
+            "Text": {
+              "Content": "CRREM Analyse "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "033525e1-fa33-4c26-a624-750f5cdf4d49",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gebäudesteckbriefe",
+            "Href": null,
+            "Text": {
+              "Content": "Gebäudesteckbriefe"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a1a1195b-1969-4b2f-8bcd-5db87c76f663",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Energieausweise",
+            "Href": null,
+            "Text": {
+              "Content": "Energieausweise"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "155e9c55-b0a6-4ca9-8254-09391056a2cd",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Energetische Betrachtung",
+            "Href": null,
+            "Text": {
+              "Content": "Energetische Betrachtung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cd75a2f4-e3d5-4a8b-b2f6-5c731f584cc0",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Potenzialstudie",
+            "Href": null,
+            "Text": {
+              "Content": "Potenzialstudie"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "da4e86bd-ec82-4928-9c5b-228942e20aa4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a1a20f77-d37d-4cfa-b4db-444450a3b003",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "91403196-1101-4619-858f-1cddd579e0cc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "fa387501-e3f4-4457-8fee-0ae0d71d1a87",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

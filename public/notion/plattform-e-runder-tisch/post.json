@@ -1,0 +1,844 @@
+{
+  "PageId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+  "Title": "Runder Tisch Plattform-E ",
+  "Authors": [
+    {
+      "id": "082c4474-261b-44f9-9a8d-eff71fa4e217",
+      "name": "Maximilian Lieser",
+      "color": "orange"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4e5fea7b-eca2-4ba5-a8f7-bd918319067c/plattform-e-runder-tisch-crew.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=2911f9023a796491277913752fa1ca93f433c8f58cac2780f6468c2ede7d35b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "plattform-e-runder-tisch-teilnehmende",
+  "Slug": "plattform-e-runder-tisch",
+  "PublishDate": "2025-06-12",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    }
+  ],
+  "Description": "Der Runde Tisch von Plattform-E bringt Expert:innen aus Architektur, Planung, Verwaltung und Forschung zusammen, um erste Prototypen der Plattform gemeinsam zu evaluieren. Ziel ist es, Formate und Inhalte praxisnah weiterzuentwickeln – auf Basis realer Bedarfe und im offenen Dialog auf Augenhöhe.",
+  "coverAsset": "plattform-e-runder-tisch-crew.jpg",
+  "blockAssets": [
+    "Plattform-E_BuildSystems_Diskussion.jpg",
+    "4a91a94d-21c6-475c-a322-ff82806dbbe2.jpg",
+    "2427f7b4-2857-4d0c-9b7f-ae0740bedd9a.jpg",
+    "a0a63175-2362-48cb-ad97-a65db7320e69.jpg",
+    "plattform-e-runder-tisch_ppl.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "223cc54c-ec6d-8001-9a51-ce4a51592002",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gemeinsam gestalten am “Runden Tisch”: Austausch auf Augenhöhe als Grundlage für die Plattform-E",
+            "Href": null,
+            "Text": {
+              "Content": "Gemeinsam gestalten am “Runden Tisch”: Austausch auf Augenhöhe als Grundlage für die Plattform-E"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "223cc54c-ec6d-80db-ae01-d2bc527eb1af",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wie kann einfaches, ressourcenschonendes Bauen gelingen – und was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n",
+            "Href": null,
+            "Text": {
+              "Content": "Wie kann einfaches, ressourcenschonendes Bauen gelingen – und was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-8093-b97e-e98b1be8cd4a",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Runder Tisch Diskussionen im TUM Venture Lab",
+            "Href": null,
+            "Text": {
+              "Content": "Runder Tisch Diskussionen im TUM Venture Lab"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5c446e08-efef-4dba-b5cd-f0b45b4b12f8/Plattform-E_BuildSystems_Diskussion.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPX6X2KR%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDwTdjXlEdiTlaYCsKWd1D%2F4asHqk0gQa1poXDVnwYYsAIhAINSe8rTIzzVQZsPTdySYzCtFNn3lU7eqIij9acshT0%2BKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2FVQV74QV8RtHcE40q3ANMhvfw2FDJf3PSriGfUxluGMt795nU2NYuXtMZC6jGxLhQ6dD8Kx0FWfOQzVco3cx5bEPg9oTJ%2BpWTin67gDeTxGNcSBoGh8nzupfPI9HyGmvphgVb2ZKHygWZPXrT4x1186kQX3ZSPeGDDALtOdS5ApzueYJXr7DHYGraDx4EOf9IKWg6CbJEnkG7PrNwFKkxxiCc2En9DuH7Fs%2B%2F8kJHJ%2Bm2x4%2F35rhXt8Nx6ewreAs2n3MNBizLalDdGkVGKj1sPImhhaaYg5HzpeY2jAL3XP%2BVRtPJTrou42mdVg3pDU%2Fs9deBTfLKCt7x8FG%2Bghf8qc5DicanvmFf2QVrdaoBTiUli3Tk%2FTzYHTblu4zxEXPRAig6TbLTIIJCEN9Xs0qw6%2BdWhK8tdLlNQNS17y7G6Sv0P8DdSFV4924z5xpbXfmLcWsRbbUR1%2BP2WksFPSot6f9h%2FM4xuyEcIQB2ietibIrlwlsH6Yu0NJdkb%2BCh3fhdzA6U8Xz4OGlddWW85R88nj1UBPa8fZJkeetbxr4IGlmeBjU9earWxTxm3cVEzZ9kCu4p6BTIC4%2FWCuDsZHVKb1NtF9u98ftUGkOvicrVowWCfK55ztKgcHFFzoyS0nt%2FEKwpbEeT9m8MuzDgh8DDBjqkAWd9sr6fWsI0uE1ozYl8U1crzyQN%2BvlLteZ1RjXBCTXf0fvw%2BokimS5gqX0o2%2BM%2Br%2FQL67md1v8DsDvUKWuu4rEzZTHPzQDYXY%2FL32gUDUxEYLgTky7%2BYsnefiHjDciGv9i37F9Mpl2HVaTwnt6qG09n8YsmMYicMVTvNzylhFjpNWEl9j%2FfK39Yh2whWpOssoO6ujJugD4Jn%2FP%2F0fjnZP5debCP&X-Amz-Signature=59c70e2212f3ecdf05cfbb009d43b916e8e89768a47b0d299ac9e336ed82e453&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.597Z"
+        }
+      }
+    },
+    {
+      "Id": "223cc54c-ec6d-80be-9b5e-cb3aae4b9980",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-803f-a1b5-de1eae86cb0f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen zu schärfen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen zu schärfen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80e9-a4b8-f0425277b951",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diese Gespräche bilden nun die Grundlage für den nächsten Schritt: Beim Runden Tisch kommen ausgewählte Akteur:innen zusammen, um konkrete Plattform-Prototypen zu diskutieren und weiterzuentwickeln. Im Zentrum stehen die Fragen:",
+            "Href": null,
+            "Text": {
+              "Content": "Diese Gespräche bilden nun die Grundlage für den nächsten Schritt: Beim Runden Tisch kommen ausgewählte Akteur:innen zusammen, um konkrete Plattform-Prototypen zu diskutieren und weiterzuentwickeln. Im Zentrum stehen die Fragen:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8043-a625-d0fe6da52826",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, die echten Mehrwert für die Praxis schafft? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?",
+            "Href": null,
+            "Text": {
+              "Content": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, die echten Mehrwert für die Praxis schafft? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-803b-b9ff-d46707fe0fe4",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "224cc54c-ec6d-80ce-aea9-cad7ae1a3157",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "224cc54c-ec6d-8068-be93-d4a49d8ff63f",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              },
+              {
+                "Id": "224cc54c-ec6d-80d9-805a-c8d551e8a1d9",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e0983198-9c93-43c3-b8ec-0cc16bd14bff/4a91a94d-21c6-475c-a322-ff82806dbbe2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665MTPVCJW%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIH2w8xsZHApr6ju9DhAXfGFEkZOIaWYUwyso9ErIymK2AiAdL6S2lkvZ3xgFIYt1p0gaU0NmWlP%2F%2B8LsciLYJtwdPSqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMQDIvaj%2F%2Fr8gWgaXXKtwD1OARgkJGx16LGbsnH70PNxp%2BQ7Udm%2B9431oSeKtV5kCKdfxGr%2BP0ry3MMY0jeXf9OqZPROeTpF%2FgGPoZtAMU%2FNavUz4u9p10ugRJMcjILa91tLe6xvxBqrweNzLm4U3axM7TULEkoiIUhZ80MdPaLGy8HSYzD2DEl7PBDGJpOmGH8qza3q%2FuRlMOdQFTYBB8NLey9dOHEjb4zWhYQlhzzueCu2S8BrK%2BINQCBpUK4D4LaOgp3Z1RY8eJSrhCuTHwIEMOzpwY5xHWnmCuqvt5mQFbPZuJYYPxJ3DLjHF4%2Fd5kL7npkyw%2BF885dxsQL8zwjgp8jJG8RTJWHq8pKVfkOzzSTJ98AxJq7iQVE432dpbhH4ckKSr4Uzhf%2BNcbut6oSd875FmUebmH7ICfPhct8rD63clf1gdKezdZE%2B%2ByJhw79VmWtUskAEoxHZyHIK7rCP17wytDMXEKppTGk4B6CLBEzq9cOzsxaPWxQvV3ysvs3KxxA9CplNkyTRasO1KtlMlTmtIUf04JpV04n0n5LrCjvnQa9k6JCX41W4c%2F8n2UCg36wPuTydhj1WIBc%2BbsAWhbtUAiFrmMyraYFGufFHL%2Bm%2BwvEGKRYw5BlXBtRjZFXImOZkwfC8U4wUwww4fAwwY6pgHLPdE%2FtfPz%2FU6rF5JNAbM4b2LW6jIHrV73h4Tn%2FQpIZaSMJJGK%2FLrqAa0wuZTl4N7AXAlQWOXcpryKc5sxo0nWGZeRfBKgyZ%2Baf7kR4V46UZIo0E61skXjd5WWvxKEuUf8XWPoKsF7kk8Z1KMutwMD6%2BaAm0%2Fnx3IFCP%2Bfmd29JU8iQkRCbBF2DE311Aj4sdHMfJejTidAKENwQ40EJzSeKbMVN43Z&X-Amz-Signature=d2e271a5218251d5f0d3794a05de7960a29bdbd8bb16e7ebee2ad7d33bad6843&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:05.392Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "224cc54c-ec6d-801d-b6a9-cc17e6d16508",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "224cc54c-ec6d-807d-98ea-d6d1e4f928bc",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              },
+              {
+                "Id": "224cc54c-ec6d-80cb-bd57-d3f80a0f30b4",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d1101463-b1b8-44b1-9f1c-b269b72a8b08/2427f7b4-2857-4d0c-9b7f-ae0740bedd9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666VTO6AIS%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCEst6HaOvgPFACW%2BVrMalWuU25Hlmzg%2BcFuF4EbcvrTgIhAIE9jHd%2BfSA7P4O%2BTVGiqAQ1PHxlEkQ09JVadqnORvniKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxofpmP5hEV8pm1pqIq3AOv6L%2B5bm%2FKEiapeL0nBewoHReb5QE04q05Ii%2FYQSQ%2BAM5JR86Sp9mf%2FIXjAn4XgsE4KNpt7iUdjd1Xq7VrdFso7ZxeguAhFj19Lgavby1zf4A42EjdMxwhC2b%2BIycWihWbX2RPjKY%2BC60mrMD1W1Q2o201IsTuxUoHs3BgZ5HGeafwCy4hj8FTjRbwj2%2FCXnaWYG%2F%2BnZf%2FyrUKDdFbOrchumB7UG02P00qQot%2F%2BGHsBxD%2F2OlHsMvPt0i5fd38ERrbX82%2F7YbKHUcNAkV8ZqgNDaKhkrIMB%2FIo2LO5gxJScrqU%2BwxCoh0r%2BaxBY%2Bbk6udNB60aQvpS9qRVLTc2yts2iBa5Zj%2BFlSYZkwP8xRtzOlXmhZaE41H%2F9K3JKH0J8hk8yNEgG19IZXrVByKEh5g0%2BUaQWzed8tHbqq7BZxZz%2BC7Ys4CJPNB7m5x2kRsXbRzLM22wlF%2ByibR6zSvV9C0Ow2V%2FBf9aBrwi0OEI%2FSx9jgHZQXaDgDYCW78FxFceDNn7nWyizDg99vzQ%2FahPYPL4kjKQkKjQrAurFodvV4PSaBEpLdHj%2BpJivhJIVkwbKhLj4FL3j0H5O1GxsDxo23HXPxx310DDOdFm4D4pJ24NRMbWCND7pmtEYlr7STClh8DDBjqkAbNMGm4LtIcbvfxPY%2B3XVTiGM1K7gIyBNUCQLha3XiRO3L4szl71M3YQUCVdkjK7bIJzfz1HJvUSbotbMXmqnLAyuw0qfPlJHXZd1qeGzUtXqY6T90YEc0JFMcjTTBtK90YEsui6f3x336YarLAyXN%2B5Yb1VHiBzgeH%2BQgqIQxDfuQ%2F3DA5zBZJweRg9B44z5p90Qp1n4PjwsMCSNqvzYWi0SQq%2B&X-Amz-Signature=98044e10728d985e0660b4e7201dfb56c59c69929f9a628f4b71c2ae75d2e992&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:06.149Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-804b-8ba1-e009a3537444",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Learnings des Runden Tisches",
+            "Href": null,
+            "Text": {
+              "Content": "Learnings des Runden Tisches"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-80cd-abef-d927cb6b288a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Rahmen des Runden Tisches kristallisierten sich mehrere zentrale Erkenntnisse heraus:",
+            "Href": null,
+            "Text": {
+              "Content": "Im Rahmen des Runden Tisches kristallisierten sich mehrere zentrale Erkenntnisse heraus:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8054-aa7b-ed37ea40ec37",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Differenzierung sichtbar machen:",
+            "Href": null,
+            "Text": {
+              "Content": "Differenzierung sichtbar machen:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Projektdarstellungen müssen auf den ersten Blick erkennen lassen, ",
+            "Href": null,
+            "Text": {
+              "Content": " Projektdarstellungen müssen auf den ersten Blick erkennen lassen, "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": true,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "was konkret anders gemacht wurde",
+            "Href": null,
+            "Text": {
+              "Content": "was konkret anders gemacht wurde"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern.",
+            "Href": null,
+            "Text": {
+              "Content": ". Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-801a-a666-f5fbb857fb59",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vergleichbarkeit schaffen:",
+            "Href": null,
+            "Text": {
+              "Content": "Vergleichbarkeit schaffen:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Es braucht quantitative Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz. Nur auf Basis solcher Vergleichswerte lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen.",
+            "Href": null,
+            "Text": {
+              "Content": " Es braucht quantitative Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz. Nur auf Basis solcher Vergleichswerte lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8077-8e87-faebf395224c",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Internationale Perspektiven einbeziehen:",
+            "Href": null,
+            "Text": {
+              "Content": "Internationale Perspektiven einbeziehen:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Der Blick über den Tellerrand – etwa auf europäische oder globale Beispiele – kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen.",
+            "Href": null,
+            "Text": {
+              "Content": " Der Blick über den Tellerrand – etwa auf europäische oder globale Beispiele – kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-802d-8cff-d7435ecf3e57",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nutzerzentrierung stärken:",
+            "Href": null,
+            "Text": {
+              "Content": "Nutzerzentrierung stärken:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Projektdarstellungen sollten deutlicher zeigen, was",
+            "Href": null,
+            "Text": {
+              "Content": " Projektdarstellungen sollten deutlicher zeigen, was"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": true,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " ",
+            "Href": null,
+            "Text": {
+              "Content": " "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nutzer:innen wirklich wichtig ist. Aspekte wie Raumqualität, Alltagstauglichkeit, soziale Interaktion oder Wartungsfreundlichkeit rücken dabei zunehmend in den Fokus.",
+            "Href": null,
+            "Text": {
+              "Content": "Nutzer:innen wirklich wichtig ist. Aspekte wie Raumqualität, Alltagstauglichkeit, soziale Interaktion oder Wartungsfreundlichkeit rücken dabei zunehmend in den Fokus."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8097-98f6-c7677d945e20",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8002-ac33-e865374ecd5f",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/52143200-d1b9-4895-a485-4da97b0265b2/a0a63175-2362-48cb-ad97-a65db7320e69.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPX6X2KR%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDwTdjXlEdiTlaYCsKWd1D%2F4asHqk0gQa1poXDVnwYYsAIhAINSe8rTIzzVQZsPTdySYzCtFNn3lU7eqIij9acshT0%2BKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2FVQV74QV8RtHcE40q3ANMhvfw2FDJf3PSriGfUxluGMt795nU2NYuXtMZC6jGxLhQ6dD8Kx0FWfOQzVco3cx5bEPg9oTJ%2BpWTin67gDeTxGNcSBoGh8nzupfPI9HyGmvphgVb2ZKHygWZPXrT4x1186kQX3ZSPeGDDALtOdS5ApzueYJXr7DHYGraDx4EOf9IKWg6CbJEnkG7PrNwFKkxxiCc2En9DuH7Fs%2B%2F8kJHJ%2Bm2x4%2F35rhXt8Nx6ewreAs2n3MNBizLalDdGkVGKj1sPImhhaaYg5HzpeY2jAL3XP%2BVRtPJTrou42mdVg3pDU%2Fs9deBTfLKCt7x8FG%2Bghf8qc5DicanvmFf2QVrdaoBTiUli3Tk%2FTzYHTblu4zxEXPRAig6TbLTIIJCEN9Xs0qw6%2BdWhK8tdLlNQNS17y7G6Sv0P8DdSFV4924z5xpbXfmLcWsRbbUR1%2BP2WksFPSot6f9h%2FM4xuyEcIQB2ietibIrlwlsH6Yu0NJdkb%2BCh3fhdzA6U8Xz4OGlddWW85R88nj1UBPa8fZJkeetbxr4IGlmeBjU9earWxTxm3cVEzZ9kCu4p6BTIC4%2FWCuDsZHVKb1NtF9u98ftUGkOvicrVowWCfK55ztKgcHFFzoyS0nt%2FEKwpbEeT9m8MuzDgh8DDBjqkAWd9sr6fWsI0uE1ozYl8U1crzyQN%2BvlLteZ1RjXBCTXf0fvw%2BokimS5gqX0o2%2BM%2Br%2FQL67md1v8DsDvUKWuu4rEzZTHPzQDYXY%2FL32gUDUxEYLgTky7%2BYsnefiHjDciGv9i37F9Mpl2HVaTwnt6qG09n8YsmMYicMVTvNzylhFjpNWEl9j%2FfK39Yh2whWpOssoO6ujJugD4Jn%2FP%2F0fjnZP5debCP&X-Amz-Signature=e61ac66398d3b2675de9f5cbe10fed3ccd42a8a308d227891e40caed44acc1eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.593Z"
+        }
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80a7-936a-d60aafa7b73f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "223cc54c-ec6d-807a-aa58-d14cf01db14f",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Plattform als Werkzeug für die Bauwende",
+            "Href": null,
+            "Text": {
+              "Content": "Die Plattform als Werkzeug für die Bauwende"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "223cc54c-ec6d-808b-9ec0-ca7937e15adb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen – für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen.\n",
+            "Href": null,
+            "Text": {
+              "Content": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen – für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8090-b429-e1569a184eb0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sie arbeiten aktiv an einem Gebäudetyp-E-Projekt oder haben andere Anknüpfungspunkte zum einfachen Bauen? Dann werden Sie Unterstützer:in oder Botschafter:in der Plattform-E. Melden Sie sich bei uns! (",
+            "Href": null,
+            "Text": {
+              "Content": "Sie arbeiten aktiv an einem Gebäudetyp-E-Projekt oder haben andere Anknüpfungspunkte zum einfachen Bauen? Dann werden Sie Unterstützer:in oder Botschafter:in der Plattform-E. Melden Sie sich bei uns! ("
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "info@plattform-e.org",
+            "Href": "mailto:info@plattform-e.org",
+            "Text": {
+              "Content": "info@plattform-e.org",
+              "Link": {
+                "Url": "mailto:info@plattform-e.org"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ")",
+            "Href": null,
+            "Text": {
+              "Content": ")"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "223cc54c-ec6d-8036-88d5-f3f1d55940dd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-800d-9335-d691a01ee000",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d706dcf9-e5c8-41fa-91da-c182eced7f13/plattform-e-runder-tisch_ppl.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPX6X2KR%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDwTdjXlEdiTlaYCsKWd1D%2F4asHqk0gQa1poXDVnwYYsAIhAINSe8rTIzzVQZsPTdySYzCtFNn3lU7eqIij9acshT0%2BKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2FVQV74QV8RtHcE40q3ANMhvfw2FDJf3PSriGfUxluGMt795nU2NYuXtMZC6jGxLhQ6dD8Kx0FWfOQzVco3cx5bEPg9oTJ%2BpWTin67gDeTxGNcSBoGh8nzupfPI9HyGmvphgVb2ZKHygWZPXrT4x1186kQX3ZSPeGDDALtOdS5ApzueYJXr7DHYGraDx4EOf9IKWg6CbJEnkG7PrNwFKkxxiCc2En9DuH7Fs%2B%2F8kJHJ%2Bm2x4%2F35rhXt8Nx6ewreAs2n3MNBizLalDdGkVGKj1sPImhhaaYg5HzpeY2jAL3XP%2BVRtPJTrou42mdVg3pDU%2Fs9deBTfLKCt7x8FG%2Bghf8qc5DicanvmFf2QVrdaoBTiUli3Tk%2FTzYHTblu4zxEXPRAig6TbLTIIJCEN9Xs0qw6%2BdWhK8tdLlNQNS17y7G6Sv0P8DdSFV4924z5xpbXfmLcWsRbbUR1%2BP2WksFPSot6f9h%2FM4xuyEcIQB2ietibIrlwlsH6Yu0NJdkb%2BCh3fhdzA6U8Xz4OGlddWW85R88nj1UBPa8fZJkeetbxr4IGlmeBjU9earWxTxm3cVEzZ9kCu4p6BTIC4%2FWCuDsZHVKb1NtF9u98ftUGkOvicrVowWCfK55ztKgcHFFzoyS0nt%2FEKwpbEeT9m8MuzDgh8DDBjqkAWd9sr6fWsI0uE1ozYl8U1crzyQN%2BvlLteZ1RjXBCTXf0fvw%2BokimS5gqX0o2%2BM%2Br%2FQL67md1v8DsDvUKWuu4rEzZTHPzQDYXY%2FL32gUDUxEYLgTky7%2BYsnefiHjDciGv9i37F9Mpl2HVaTwnt6qG09n8YsmMYicMVTvNzylhFjpNWEl9j%2FfK39Yh2whWpOssoO6ujJugD4Jn%2FP%2F0fjnZP5debCP&X-Amz-Signature=af90c2dee878ef8d5f57b132b5efa20ceff3549c9367c6766c6d628ce155c8ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.588Z"
+        }
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-8041-b8ad-d3520432d7e0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "224cc54c-ec6d-805a-81ec-f728f031a541",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mehr Informationen und Interviews mit den Teilnehmenden unter: ",
+            "Href": null,
+            "Text": {
+              "Content": "Mehr Informationen und Interviews mit den Teilnehmenden unter: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "www.plattform-e.org",
+            "Href": "http://www.plattform-e.org/",
+            "Text": {
+              "Content": "www.plattform-e.org",
+              "Link": {
+                "Url": "http://www.plattform-e.org/"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80e5-a6dc-c0b50b82d12c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "225cc54c-ec6d-80ff-b6a1-dc5e97b318e8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems  ",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems  "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

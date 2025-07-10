@@ -601,25 +601,14 @@ export async function downloadImage(url: URL, slug: string) {
     return Promise.resolve();
   }
 
-  console.log("1 - Getting folder path...");
-  const dir = "./src/assets/notion/" + url.pathname.split("/").slice(-2)[0];
-  console.log("2 - Folder path is: " + dir);
-  console.log("3 - Checking if folder exists...");
+  // Use the post slug as the folder name
+  const dir = `./src/assets/notion/${slug}`;
   if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir);
-    console.log("4 - It did not exists, folder was created.");
-  } else {
-    console.log("4 - Folder already exists.");
+    fs.mkdirSync(dir, { recursive: true });
   }
 
-  console.log("5 - Getting file name");
   const fileName = decodeURIComponent(url.pathname.split("/").slice(-1)[0]);
-  console.log("5 - File name is: " + fileName);
-  const fileNameWithSlug = addSlugToName(fileName, slug);
-  console.log("6 - File name with slug is: " + fileNameWithSlug);
-
-  const filepath = `${dir}/${fileNameWithSlug}`;
-  console.log("7 - Full file path is: " + filepath);
+  const filepath = `${dir}/${fileName}`;
 
   if (fs.existsSync(filepath)) {
     console.log(`File already exists:\n${filepath}`);
@@ -628,9 +617,7 @@ export async function downloadImage(url: URL, slug: string) {
 
   const writeStream = createWriteStream(filepath);
   const rotate = sharp().rotate();
-
   let stream = res.data;
-
   if (res.headers["content-type"] === "image/jpeg") {
     stream = stream.pipe(rotate);
   }
@@ -657,36 +644,22 @@ export async function downloadPublicImage(url: URL, slug: string) {
     console.log("\nError requesting image\n" + error);
     return Promise.resolve();
   }
-  // console.log("\n===== Starting Public Image Download =====");
-
   if (!res || res.status != 200) {
     console.log(res);
     return Promise.resolve();
   }
-
-  const dir = "./public/notion/" + url.pathname.split("/").slice(-2)[0];
+  // Use the post slug as the folder name
+  const dir = `./public/notion/${slug}`;
   if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir);
-  } else {
+    fs.mkdirSync(dir, { recursive: true });
   }
-
-  // Changing file extension
   const fileNameConverted = returnImageNameAsJpg(url);
-
-  // One of the places I add the slug to the image name
-  const fileNameWithSlug = addSlugToName(fileNameConverted, slug);
-
-  const filepath = `${dir}/${fileNameWithSlug}`;
-
+  const filepath = `${dir}/${fileNameConverted}`;
   if (fs.existsSync(filepath)) {
-    // console.log(`File already exists:\n${filepath}`);
     return;
   }
-
   const writeStream = createWriteStream(filepath);
-
   let stream = res.data;
-
   if (res.headers["content-type"] === "image/jpeg") {
     stream = stream.pipe(sharp().resize({ width: 1200 }).rotate());
   } else {
@@ -695,8 +668,6 @@ export async function downloadPublicImage(url: URL, slug: string) {
     );
   }
   try {
-    // console.log(`Downloading file:\n${filepath}`);
-    // console.log("9 - Downloading file");
     return pipeline(stream, new ExifTransformer(), writeStream);
   } catch (error) {
     console.log("\nError while downloading file\n" + error);

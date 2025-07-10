@@ -1,0 +1,1228 @@
+{
+  "PageId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+  "Title": "Nachhaltigkeit optimieren im genossenschaftlichen Wohnungsbau",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/51c9eaf5-0dbf-4561-8b97-0dd226624efb/smart-sustainability-roadmap_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=a1767ec86394643e3deed21bd2181085925d0e38c5a60463ad4307195a532a1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Cover of Smart Sustainability Roadmap",
+  "Slug": "smart-sustainability-roadmap",
+  "PublishDate": "2023-11-01",
+  "Tags": [
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    },
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    },
+    {
+      "id": "6ac22a5f-2a41-4dd8-8954-86ea331315e0",
+      "name": "Wohnungsbau",
+      "color": "pink"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    },
+    {
+      "id": "9b6c4858-c04e-4a0d-9a02-1d96fdcbc8ab",
+      "name": "NextGen",
+      "color": "purple"
+    }
+  ],
+  "Description": "Optimierungspotenziale eines genossenschaftlichen Wohnungsbaus hinsichtlich des QNG-Siegels",
+  "coverAsset": "smart-sustainability-roadmap_cover.jpg",
+  "blockAssets": [
+    "Untitled.jpg",
+    "smart-sustainability-roadmap_project_canvas.jpg",
+    "smart-sustainability-roadmap_nutzung.jpg",
+    "smart-sustainability-roadmap_flaechenprofil.jpg",
+    "smart-sustainability-roadmap_bauteilkatalog.jpg",
+    "smart-sustainability-roadmap_varianten.jpg",
+    "smart-sustainability-roadmap_oekobilanz.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "06d53042-7176-473c-b5a3-9989d51ddd92",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Smart Sustainability Roadmap",
+            "Href": null,
+            "Text": {
+              "Content": "Smart Sustainability Roadmap"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "d7eb9bb5-2e08-48c3-9e8d-47af3f532591",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In Kooperation mit der ",
+            "Href": null,
+            "Text": {
+              "Content": "In Kooperation mit der "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "B&O-Gruppe",
+            "Href": "https://buo.de/bau/",
+            "Text": {
+              "Content": "B&O-Gruppe",
+              "Link": {
+                "Url": "https://buo.de/bau/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " hat BuildSystems Optimierungspotenziale für einen genossenschaftlichen Wohnungsbau erarbeitet. Aufbauend auf einem bestehenden B-Plan der Gemeinde Freising wurde mit der “Smart Sustainability Roadmap” die Optimierung einer bestehenden Planung für genossenschaftliches Wohnen in fünf Modulen angedacht: Suffizienter Bedarf, Langfristige Funktionalität, Minimierter Energiebedarf, Ressourcenschonendes Konstruktionskonzept und Lebenszyklusorientierte Kosten. ",
+            "Href": null,
+            "Text": {
+              "Content": " hat BuildSystems Optimierungspotenziale für einen genossenschaftlichen Wohnungsbau erarbeitet. Aufbauend auf einem bestehenden B-Plan der Gemeinde Freising wurde mit der “Smart Sustainability Roadmap” die Optimierung einer bestehenden Planung für genossenschaftliches Wohnen in fünf Modulen angedacht: Suffizienter Bedarf, Langfristige Funktionalität, Minimierter Energiebedarf, Ressourcenschonendes Konstruktionskonzept und Lebenszyklusorientierte Kosten. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "eda0e70f-1a4d-4764-98c1-12cc65ecc813",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Da sich das Bauvorhaben im Vorfeld als nicht wirtschaftlich herausstellte, entwickelte BuildSystems eine optimierte Variante, durch die ein ökonomisch, ökologisch und sozial tragfähiges Projekt ermöglicht w",
+            "Href": null,
+            "Text": {
+              "Content": "Da sich das Bauvorhaben im Vorfeld als nicht wirtschaftlich herausstellte, entwickelte BuildSystems eine optimierte Variante, durch die ein ökonomisch, ökologisch und sozial tragfähiges Projekt ermöglicht w"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "ird. Damit gab es zwei klare Ziele während der Projektbearbeitung. ",
+            "Href": null,
+            "Text": {
+              "Content": "ird. Damit gab es zwei klare Ziele während der Projektbearbeitung. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "fb0a80e3-ceb5-4784-ab3a-81268482d316",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einerseits lag das Augenmerk auf der mangelhaften Nachhaltigkeits-Performance des aktuellen Bebauungsplans sowi",
+            "Href": null,
+            "Text": {
+              "Content": "Einerseits lag das Augenmerk auf der mangelhaften Nachhaltigkeits-Performance des aktuellen Bebauungsplans sowi"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "e potenziellen Optimierungsmögichkeiten. Es galt",
+            "Href": null,
+            "Text": {
+              "Content": "e potenziellen Optimierungsmögichkeiten. Es galt"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " entsprechende Kennzahlen bereit zu stellen, um eine Anpassung des Bebauungsplans bei der Gemeinde zu erwirken. ",
+            "Href": null,
+            "Text": {
+              "Content": " entsprechende Kennzahlen bereit zu stellen, um eine Anpassung des Bebauungsplans bei der Gemeinde zu erwirken. "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Andererseits rücke die wirtschaftliche Optimierung und die Bestimmung möglicher Fördermittel in den Fokus. Mit einem ",
+            "Href": null,
+            "Text": {
+              "Content": "Andererseits rücke die wirtschaftliche Optimierung und die Bestimmung möglicher Fördermittel in den Fokus. Mit einem "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "QNG-Siegel",
+            "Href": "https://www.qng.info/",
+            "Text": {
+              "Content": "QNG-Siegel",
+              "Link": {
+                "Url": "https://www.qng.info/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " kann im Neubaubereich eine erhebliche Unterstützung durch einen vergünstigten ",
+            "Href": null,
+            "Text": {
+              "Content": " kann im Neubaubereich eine erhebliche Unterstützung durch einen vergünstigten "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "KfW-Kredit",
+            "Href": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-%E2%80%93-Wohngeb%C3%A4ude-(297-298)/",
+            "Text": {
+              "Content": "KfW-Kredit",
+              "Link": {
+                "Url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wohnwirtschaft/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-%E2%80%93-Wohngeb%C3%A4ude-(297-298)/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " sichergestellt werden. Dafür müssen klare Benchmarks in einer lebenszyklusübergreifenden Ökobilanzierung erreicht werden. Ein Aufgabenbereich lag somit in der Optimierung der grauen Emissionen und der Untersuchung von Wiederverwendungs- und Zirkularitätspotenzialen.",
+            "Href": null,
+            "Text": {
+              "Content": " sichergestellt werden. Dafür müssen klare Benchmarks in einer lebenszyklusübergreifenden Ökobilanzierung erreicht werden. Ein Aufgabenbereich lag somit in der Optimierung der grauen Emissionen und der Untersuchung von Wiederverwendungs- und Zirkularitätspotenzialen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cb2ddfd6-1cb9-45b5-b2e3-bdf2c583a8d7",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zielvereinbarung des Projekts",
+            "Href": null,
+            "Text": {
+              "Content": "Zielvereinbarung des Projekts"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/6fa51b2b-329e-4b00-a201-5f652def47d2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=7522d4ab531126ac5abc51df71b85f2219036c856e68b9f3d2b99a077859d06a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.466Z"
+        }
+      }
+    },
+    {
+      "Id": "c4253894-9f5b-4f29-8927-7b2f914ac716",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Analyse",
+            "Href": null,
+            "Text": {
+              "Content": "Analyse"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "662a4047-8b10-465b-ac8b-8b976b341b07",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Aus der Analyse der aktuelle Gebäudeplanung und des Bebauungsplans konnte ein Steckbrief mit den wichtigsten Informationen erstellt werden. Auf dem Projekt-Canvas wurden zudem weitere, detailliertere Fakten über das Grundstück, die Stakeholder, planrechtliche Anforderungen und Themen wie Projektziele und Kennwerte gesammelt. Durch diesen genauen Überblick der Planung erschlossen sich Entwicklungsziele für Gesellschaft, Umwelt und Wirtschaft, welche essenziell für die Bewertung und Priorisierung potenzieller Optimierungsmaßnahmen sind. ",
+            "Href": null,
+            "Text": {
+              "Content": "Aus der Analyse der aktuelle Gebäudeplanung und des Bebauungsplans konnte ein Steckbrief mit den wichtigsten Informationen erstellt werden. Auf dem Projekt-Canvas wurden zudem weitere, detailliertere Fakten über das Grundstück, die Stakeholder, planrechtliche Anforderungen und Themen wie Projektziele und Kennwerte gesammelt. Durch diesen genauen Überblick der Planung erschlossen sich Entwicklungsziele für Gesellschaft, Umwelt und Wirtschaft, welche essenziell für die Bewertung und Priorisierung potenzieller Optimierungsmaßnahmen sind. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5d7cd15f-909c-4d0a-ac7c-f89974676da0",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im genossenschaftlichen Wohnungsbau sind vor allem die gesellschaftlichen Kriterien für eine zukünftige Entwicklung wichtig. In den Modulen der Smart Sustainability Roadmap wurden diese Prioritäten mit einbezogen.",
+            "Href": null,
+            "Text": {
+              "Content": "Im genossenschaftlichen Wohnungsbau sind vor allem die gesellschaftlichen Kriterien für eine zukünftige Entwicklung wichtig. In den Modulen der Smart Sustainability Roadmap wurden diese Prioritäten mit einbezogen."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/522a17b7-8de9-41d7-a037-3ce5e453d250/smart-sustainability-roadmap_project_canvas.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=a0a396d2382d3e06c264ea61bdc97badff593e57792f6f18f3b909221aa519b3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.486Z"
+        }
+      }
+    },
+    {
+      "Id": "ba6fd3b9-19a1-45b0-976b-41915a05a765",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im weiteren Verlauf der Projektbearbeitung wurden jeweils die existierende Planung als Referenzgebäude und die optimierte Variante gegenübergestellt, um sowohl den Vergleich als auch die Optimierungspotenziale eindrücklich darzustellen.",
+            "Href": null,
+            "Text": {
+              "Content": "Im weiteren Verlauf der Projektbearbeitung wurden jeweils die existierende Planung als Referenzgebäude und die optimierte Variante gegenübergestellt, um sowohl den Vergleich als auch die Optimierungspotenziale eindrücklich darzustellen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "25bf7457-4198-44e5-afb8-8ecf08d0d20b",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Suffizienter Bedarf",
+            "Href": null,
+            "Text": {
+              "Content": "Suffizienter Bedarf"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "5461cd7a-2d57-4092-9ece-7e7f81abbe1b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entscheidender Aspekt einer ganzheitlichen Nachhaltigkeitsplanung ist die Berücksichtigung der „suffizienten Bedarfsgestaltung“. Diese zielt darauf ab, den Ressourcenverbrauch auf ein Maß zu reduzieren, das den tatsächlichen Bedürfnissen und der Lebensqualität der Menschen entspricht, ohne dabei die ökologischen Grenzen zu überschreiten. Die Untersuchung bezieht sich auf drei Hauptaspekte:",
+            "Href": null,
+            "Text": {
+              "Content": "Entscheidender Aspekt einer ganzheitlichen Nachhaltigkeitsplanung ist die Berücksichtigung der „suffizienten Bedarfsgestaltung“. Diese zielt darauf ab, den Ressourcenverbrauch auf ein Maß zu reduzieren, das den tatsächlichen Bedürfnissen und der Lebensqualität der Menschen entspricht, ohne dabei die ökologischen Grenzen zu überschreiten. Die Untersuchung bezieht sich auf drei Hauptaspekte:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "10b69ada-22c6-4695-9cbe-5383ea8f111b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "1. Nutzungsprofil: Hierbei wird analysiert, welcher Bedarf sich hinsichtlich der Nutzung ergibt. Ziel ist es, die Grundfläche und die Anzahl der Räume so zu optimieren, dass sie den tatsächlichen Bedürfnissen der Menschen entsprechen, ohne unnötigen Raum zu verbrauchen. Durch eine effiziente und suffiziente Raumplanung und die Förderung multifunktionaler Bereiche kann der Bedarf an Baumaterialien und Energie reduziert werden.",
+            "Href": null,
+            "Text": {
+              "Content": "1. Nutzungsprofil: Hierbei wird analysiert, welcher Bedarf sich hinsichtlich der Nutzung ergibt. Ziel ist es, die Grundfläche und die Anzahl der Räume so zu optimieren, dass sie den tatsächlichen Bedürfnissen der Menschen entsprechen, ohne unnötigen Raum zu verbrauchen. Durch eine effiziente und suffiziente Raumplanung und die Förderung multifunktionaler Bereiche kann der Bedarf an Baumaterialien und Energie reduziert werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "fb1a57e6-7901-4649-a0e7-d794d7a5e07c",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Optimierung des Nutzungsprofils ermöglicht mehr geförderte Wohnungen als beim Referenzprojekt.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Optimierung des Nutzungsprofils ermöglicht mehr geförderte Wohnungen als beim Referenzprojekt."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/eb7a57dd-6beb-42b9-b01c-9aebaac1733e/smart-sustainability-roadmap_nutzung.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=bf83855d28462dcf475b317272d39b38003aec654aa3ed2027e4203bac6f5ed5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.470Z"
+        }
+      }
+    },
+    {
+      "Id": "0b99a59a-5d2f-4a2b-84f2-594bd12a7d60",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "2. Baumassenprofil: Eine nachhaltige Planung berücksichtigt die Umgebung und sorgt für eine harmonische Integration der Gebäude in ihr natürliches Umfeld. Durch eine kompakte Bauweise kann die Versiegelung von Flächen minimiert werden, wodurch ökologisch wertvolle Grünflächen erhalten bleiben. Zudem kann eine intelligente Höhenentwicklung dafür sorgen, dass die Gebäude effizienter beheizt und belüftet werden können, was den Energieverbrauch senkt.",
+            "Href": null,
+            "Text": {
+              "Content": "2. Baumassenprofil: Eine nachhaltige Planung berücksichtigt die Umgebung und sorgt für eine harmonische Integration der Gebäude in ihr natürliches Umfeld. Durch eine kompakte Bauweise kann die Versiegelung von Flächen minimiert werden, wodurch ökologisch wertvolle Grünflächen erhalten bleiben. Zudem kann eine intelligente Höhenentwicklung dafür sorgen, dass die Gebäude effizienter beheizt und belüftet werden können, was den Energieverbrauch senkt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1b39f62f-21db-4c37-bbcc-c7503ab9d4d3",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Vergleich zum Referenzgebäude wird trotz geringerer Grundfläche eine höhere Geschossfläche erreicht. Somit gibt es weniger Versiegelung.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Vergleich zum Referenzgebäude wird trotz geringerer Grundfläche eine höhere Geschossfläche erreicht. Somit gibt es weniger Versiegelung."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/90fbe882-2dae-4b7b-882e-df892bd263b2/smart-sustainability-roadmap_flaechenprofil.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=1d9f45b64377b9a6f6d46260f8917b8028f9895ace05b486c264b2c234355a53&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.466Z"
+        }
+      }
+    },
+    {
+      "Id": "17a530c3-9db9-4dde-9e73-094bf6af2d05",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "3. Flächenprofil: Eine nachhaltige Raumplanung berücksichtigt ökologische, soziale und ökonomische Gesichtspunkte, um eine bedachte Nutzung der begrenzten Flächenressourcen zu gewährleisten. Dabei gilt es, Versiegelung zu vermeiden, Grünflächen zu erhalten und innerstädtische Nachverdichtung zu fördern, um kurze Wege und eine effiziente Infrastruktur zu ermöglichen. Die Planung selbst kann durch gebäudebezogene Retentionsflächen, intelligente Mobilitätskonzepte und lokale Energieproduktion zur Umweltentlastung beitragen.",
+            "Href": null,
+            "Text": {
+              "Content": "3. Flächenprofil: Eine nachhaltige Raumplanung berücksichtigt ökologische, soziale und ökonomische Gesichtspunkte, um eine bedachte Nutzung der begrenzten Flächenressourcen zu gewährleisten. Dabei gilt es, Versiegelung zu vermeiden, Grünflächen zu erhalten und innerstädtische Nachverdichtung zu fördern, um kurze Wege und eine effiziente Infrastruktur zu ermöglichen. Die Planung selbst kann durch gebäudebezogene Retentionsflächen, intelligente Mobilitätskonzepte und lokale Energieproduktion zur Umweltentlastung beitragen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c864ce89-94e6-4842-a0d6-ca2b50adcd65",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ressourcenschonendes Konstruktionskonzept",
+            "Href": null,
+            "Text": {
+              "Content": "Ressourcenschonendes Konstruktionskonzept"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "f0025786-523a-4de5-9a77-18f7bc2406e0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein ressourcenschonendes Konstruktionskonzept ist grundlegender Pfeiler einer ganzheitlichen Nachhaltigkeitsstrategie. Hierbei spielt ein materialeffizientes und zirkuläres Bausystem eine zentrale Rolle, da es maßgeblich zur Reduzierung des ökologischen Fußabdrucks beiträgt. Durch die Berücksichtigung einer umfassenden Ökobilanzierung wird nicht nur die Umweltbelastung minimiert, sondern auch ein nachhaltiges Fundament für die Bauindustrie der Zukunft gelegt. Dieser Ansatz verbindet ökologische Verantwortung mit innovativem Denken und ebnet den Weg für eine ressourceneffiziente und umweltfreundliche Bauweise.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein ressourcenschonendes Konstruktionskonzept ist grundlegender Pfeiler einer ganzheitlichen Nachhaltigkeitsstrategie. Hierbei spielt ein materialeffizientes und zirkuläres Bausystem eine zentrale Rolle, da es maßgeblich zur Reduzierung des ökologischen Fußabdrucks beiträgt. Durch die Berücksichtigung einer umfassenden Ökobilanzierung wird nicht nur die Umweltbelastung minimiert, sondern auch ein nachhaltiges Fundament für die Bauindustrie der Zukunft gelegt. Dieser Ansatz verbindet ökologische Verantwortung mit innovativem Denken und ebnet den Weg für eine ressourceneffiziente und umweltfreundliche Bauweise."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9033166b-eb34-4707-a49b-2397614897c5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "1. Ein Bausystem, das verstärkt nachwachsende Rohstoffe wie Holz und andere biobasierte Materialien nutzt, reduziert nicht nur den CO2-Ausstoß bei der Herstellung des Gebäudes, sondern lagert Kohlenstoff aktiv im Gebäude während des gesamten Lebenszyklus ein. Eine ähnlich wichtige Rolle in der Reduktion von grauen Emissionen spielen zirkuläre Ansätze sowie Wieder- und Umnutzung von Baumaterialien sowie eine umsichtige Gestaltung.",
+            "Href": null,
+            "Text": {
+              "Content": "1. Ein Bausystem, das verstärkt nachwachsende Rohstoffe wie Holz und andere biobasierte Materialien nutzt, reduziert nicht nur den CO2-Ausstoß bei der Herstellung des Gebäudes, sondern lagert Kohlenstoff aktiv im Gebäude während des gesamten Lebenszyklus ein. Eine ähnlich wichtige Rolle in der Reduktion von grauen Emissionen spielen zirkuläre Ansätze sowie Wieder- und Umnutzung von Baumaterialien sowie eine umsichtige Gestaltung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d5845329-bac2-444b-b33d-3abe325c1994",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Bausystem “Nawaro-H” | Leichter Holzbau erreicht das höchste Treibhauspotenzial.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Bausystem “Nawaro-H” | Leichter Holzbau erreicht das höchste Treibhauspotenzial."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/043e3c3c-1dd3-457e-8420-fdeaf38969f3/smart-sustainability-roadmap_bauteilkatalog.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=4a14d46221ee0d2089439e3ca42b5e66879608cf5ad067c7f15b9d36a930b4f2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.489Z"
+        }
+      }
+    },
+    {
+      "Id": "829b4b96-c7d4-4e72-980e-ab0ceaea2dff",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "2. Die Ökobilanzierung ist ein essenzielles Werkzeug, um die Auswirkungen verschiedener Materialien und Konstruktionsmethoden auf die Umwelt zu bewerten. Die frühzeitige Bilanzierung stellt sicher, dass bereits zu Anfang die entscheidenden Grundlagen vorliegen um die Planung ganzheitlich im Sinne der Nachhaltigkeit zu optimieren. Ziel ist es, eine geringere Gesamtbilanz an Emissionen und Ressourcenverbrauch zu erreichen und somit durch die Nutzung von Recycling-Materialien oder nachwachsenden Rohstoffen sowie lebenszyklusorientierten Designprinzipien die Umweltauswirkungen erheblich zu reduzieren.",
+            "Href": null,
+            "Text": {
+              "Content": "2. Die Ökobilanzierung ist ein essenzielles Werkzeug, um die Auswirkungen verschiedener Materialien und Konstruktionsmethoden auf die Umwelt zu bewerten. Die frühzeitige Bilanzierung stellt sicher, dass bereits zu Anfang die entscheidenden Grundlagen vorliegen um die Planung ganzheitlich im Sinne der Nachhaltigkeit zu optimieren. Ziel ist es, eine geringere Gesamtbilanz an Emissionen und Ressourcenverbrauch zu erreichen und somit durch die Nutzung von Recycling-Materialien oder nachwachsenden Rohstoffen sowie lebenszyklusorientierten Designprinzipien die Umweltauswirkungen erheblich zu reduzieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f7d31005-59f1-46b2-b1a6-09c2c06f8bf9",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch mit dem ökologischsten Bausystem Nawaro-H | Leichter Holzbau ist das Treibhauspotenzial der ursprünglichen Planung noch über dem QNG-Zielwert von 6,3 CO2e/m2/a.",
+            "Href": null,
+            "Text": {
+              "Content": "Auch mit dem ökologischsten Bausystem Nawaro-H | Leichter Holzbau ist das Treibhauspotenzial der ursprünglichen Planung noch über dem QNG-Zielwert von 6,3 CO2e/m2/a."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5ff6ac44-4de6-4b15-bee3-7abd5f73c0a7/smart-sustainability-roadmap_varianten.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=ad5c14287f40b463553fef8cfac74e16cdbf3fa257a3664f7896b789c807e0c4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.491Z"
+        }
+      }
+    },
+    {
+      "Id": "0545c392-8b70-41bd-9ad8-0fdb186c2abb",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Fazit",
+            "Href": null,
+            "Text": {
+              "Content": "Fazit"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "c620a341-76f4-4fcf-9e77-3b0b59c49ff3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Suffizienter Bedarf:",
+            "Href": null,
+            "Text": {
+              "Content": "Suffizienter Bedarf:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e34bd076-2830-4a07-a604-64d0adefb5ba",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Vergleich zur ursprünglichen Planung kann auf einer geringeren Grundfläche mehr Grün- und Wohnfläche und weniger versiegelte Fläche entstehen. Die Aktivierung von mehr Dachflächen durch Solar-Anlagen ermöglicht zudem eine höhere Energieerzeugung für das optimierte Gebäude. Durch die Anpassung der Nutzflächen können eine höhere Bewohner:innen-Zahl sowie mehr förderfähige Wohnungen erreicht werden. Dadurch entsteht eine sozial und ökonomisch tragfähigere Variante, welche für die Genossenschaft wirtschaftlich leistbarer ist.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Vergleich zur ursprünglichen Planung kann auf einer geringeren Grundfläche mehr Grün- und Wohnfläche und weniger versiegelte Fläche entstehen. Die Aktivierung von mehr Dachflächen durch Solar-Anlagen ermöglicht zudem eine höhere Energieerzeugung für das optimierte Gebäude. Durch die Anpassung der Nutzflächen können eine höhere Bewohner:innen-Zahl sowie mehr förderfähige Wohnungen erreicht werden. Dadurch entsteht eine sozial und ökonomisch tragfähigere Variante, welche für die Genossenschaft wirtschaftlich leistbarer ist."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "673269a4-c44d-4c48-8885-f812b099e41b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ressourcenschonende Konstruktion:",
+            "Href": null,
+            "Text": {
+              "Content": "Ressourcenschonende Konstruktion:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7b895c6b-89b8-4e1d-8dbd-28ab3fdbdd56",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Falle des Bausystems NAWARO-H, einer leichten Holzbaukonstruktion erreicht die optimierte Variante mit 5,3 kg CO2e/m2/a den DGNB-Zielwert für Neubauten von 6,3. Für die Auswahl eines Bausystems ist für die Genossenschaft auch der wirtschaftliche Faktor entscheidend, welcher im Modul der lebenszyklusorientierten Kosten ermittelt werden muss. Die Vergleiche in allen Modulen der Smart Sustainability Roadmap dienen als Entscheidungshilfe für eine Weiterentwicklung der ursprünglichen Planung und des aktuellen B-Plans.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Falle des Bausystems NAWARO-H, einer leichten Holzbaukonstruktion erreicht die optimierte Variante mit 5,3 kg CO2e/m2/a den DGNB-Zielwert für Neubauten von 6,3. Für die Auswahl eines Bausystems ist für die Genossenschaft auch der wirtschaftliche Faktor entscheidend, welcher im Modul der lebenszyklusorientierten Kosten ermittelt werden muss. Die Vergleiche in allen Modulen der Smart Sustainability Roadmap dienen als Entscheidungshilfe für eine Weiterentwicklung der ursprünglichen Planung und des aktuellen B-Plans."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f50e2760-7372-4482-bfc6-4509f174b8bd",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die QNG Benchmark für den klimafreundlichen Neubau ist nur mit der optimierten Variante NAWARO-H zu erreichen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die QNG Benchmark für den klimafreundlichen Neubau ist nur mit der optimierten Variante NAWARO-H zu erreichen."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/fc17851e-d347-4870-bc93-f51ac80f5cf2/smart-sustainability-roadmap_oekobilanz.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XAJ3WN2J%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183003Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1fG8cYVHohd0%2FNYvmV0OOj%2BntIV6jVmto%2BqaCHiFdMwIgX%2F6zMUAGrfYOFVqcDQCBkUq23h8Kf6mgP031KhsTUGwqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNQufex6NAMEqoNqnyrcA6LV5yLy7DwYW91JILtb2NMMlTN0zpEyMwyobLB3lpZ2oVp25gtNaQxfmt9iFxB3YOC8pI1cW9ry9QiZkOe52LRjFtFlI57K6FLWhw04asS%2BkyYoy6%2F65Gr7MGWLEqIf6lxKjBidL0p07cf8zpIaK9Jv%2BJc1YcmXq8WlyFOJMSiJ7PIv7zZ42iNfCd01EvNZBmHwCkK2sB%2FWq7cBgnOZrybQmQ0uWC7WxGLNVJrtVu3Q%2B1Rsw9QVs9gFNYDtMpHNaXzQFkZYtoQbFUyLDfRSWI8f5Tou%2FLE%2BOy9G%2FcwBNgEYPG5OBWs3GGcxZ69XBPBFj5VVUcbhDTVXrN5YXymAIxj9mG7wYWqLcr9F7EabwnaREnx41%2BgQgzvXw8W8Rwwz47Z%2Bn6%2BJ388wKBocE7LoclT4zYy4aVdsljRH7m8nRnGKhVzo2PTHYSRn7PqjQ7TEqQpPaWZh2Ygf1cp%2FqrNpH3NGOGI9DY2eRlP4zlV%2Bc134bgFWcU9wuMQfYJcDN3H5bZVqcsg0cx2wBq0%2FHSlaFJ56u%2BeXtmP92x2Jdf13sgvrXVgID4tvpWAdKYs%2FGeO%2Byk6M6u%2FLz8q6XnmX7YfACFjVzUqi83EhUUJDfBIDkLqNxYPc8dS%2BmikWjc%2FfMJiIwMMGOqUBh%2FjkacGop5D8TSi0K9Zfqu5VxnUZIbkH4lv0wHPdOVfD1wWoLpIfnqCs7tI5YNybud69KohPLRUAYkce48znKlpgEa3vo81SOrzfpLfqkKqnmjMVKqnRBsjG3hBZObbbn0mKF4OcgpZqvBBAQZ964BmmRDmrMj3h4XD%2FWg5qFyQbOR60lCOzWyCj7%2Fi9iE7VkEGJamnVBOPxMAlVw5mEmXgX%2Btx9&X-Amz-Signature=17a12815de24b0863924a4486f9d62089fe03c69674fb31b94d2efd6ce9cb975&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:03.562Z"
+        }
+      }
+    },
+    {
+      "Id": "df037cbd-6aed-4fb8-a87a-60a9324c9d41",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5087fdf3-f1e7-4d71-a7c2-5f61827f7315",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In diesem Projekt wurden folgende Leistungen bearbeitet:",
+            "Href": null,
+            "Text": {
+              "Content": "In diesem Projekt wurden folgende Leistungen bearbeitet:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "69408b4b-9be2-4d67-b338-87e03f68c85f",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Analyse und Bewertung eines bestehenden Bebauungsplans",
+            "Href": null,
+            "Text": {
+              "Content": "Analyse und Bewertung eines bestehenden Bebauungsplans"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7094a14a-94cc-4d77-8995-85f3973d26ec",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Analyse der ursprünglichen Planung als Referenzgebäude (Ist-Zustand)",
+            "Href": null,
+            "Text": {
+              "Content": "Analyse der ursprünglichen Planung als Referenzgebäude (Ist-Zustand)"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f4ff1f9a-4662-4b8b-aa07-6530eae01588",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entwicklung und Bewertung von Optimierungsmaßnahmen (Soll-Zustand)",
+            "Href": null,
+            "Text": {
+              "Content": "Entwicklung und Bewertung von Optimierungsmaßnahmen (Soll-Zustand)"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "485621b8-850c-4570-b83b-376fc6d7a552",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bereitstellung der wichtigsten Kennzahlen als Diskussionsgrundlage und Entscheidungshilfe",
+            "Href": null,
+            "Text": {
+              "Content": "Bereitstellung der wichtigsten Kennzahlen als Diskussionsgrundlage und Entscheidungshilfe"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d310ff89-545f-4ca5-ac5e-363a5cbd0d50",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8fe27b7b-5e62-4c60-a868-91d3e022cec3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "dd19a613-186a-49e7-9ba7-47b4d36a3448",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3eed2600-160f-48a8-9812-02de5cd180e6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "92786d0a-391e-48a6-b362-099b256ddd81",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "82b708d2-7e6f-439e-ae00-8c071d36c99d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "d91711db-f9d6-40d7-8cb9-aa68b3df60a4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

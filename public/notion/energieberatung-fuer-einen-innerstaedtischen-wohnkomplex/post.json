@@ -1,0 +1,963 @@
+{
+  "PageId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+  "Title": "Energieberatung für einen innerstädtischen Wohnkomplex",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "94c8e3de-62f8-41ab-83d1-dc738d41a45e",
+      "name": "Daniel Dieren",
+      "color": "green"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/fe3c964f-10fb-4003-bed7-153ac3919adf/energieberatung-fuer-einen-innerstaedtischen-wohnkomplex_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=bb96b7bf6cdb31ef1bb74177a703ca6333203b332401bfea35593a81d929238e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Vision für eine Sanierung mit grünem Innenhof",
+  "Slug": "energieberatung-fuer-einen-innerstaedtischen-wohnkomplex",
+  "PublishDate": "2024-04-15",
+  "Tags": [
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    },
+    {
+      "id": "6ac22a5f-2a41-4dd8-8954-86ea331315e0",
+      "name": "Wohnungsbau",
+      "color": "pink"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "ec0e882b-a133-45f3-83a0-2f45824165ba",
+      "name": "Sanierung",
+      "color": "pink"
+    },
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    }
+  ],
+  "Description": "BuildSystems entwickelt ein energetisches Konzept für einen innerstädtischen Wohnkomplex.",
+  "coverAsset": "energieberatung-fuer-einen-innerstaedtischen-wohnkomplex_cover.jpg",
+  "blockAssets": [
+    "bestandsfoto-heute-fassade.jpg",
+    "bestandsfoto-heute-tor-und-fensterlose-fassade.jpg",
+    "bestandsfoto-heute-dach.jpg",
+    "bestandsfoto-heute-heizsystem.jpg",
+    "huellflaechen_nordoestliche-isometrische-perspektive.jpg",
+    "huellflaechen_suedwest-isometrische-perspektive.jpg",
+    "donut-diagramme_energieverlust-und-transmissionswaermeverluste.jpg",
+    "balkendiagramme-transmissionswaermeverluste-vergleich-flaechenanteil-zu-transmissionsanteil.jpg",
+    "individuellen-sanierungsfahrplan-mit-fuenf-massnahmenpaketen.jpg",
+    "effizienzhausdiagramme_ist-zustand-_referenz-und-EH70.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "990b7f5c-0292-489a-988f-999bda97cc23",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Energieberatung",
+            "Href": null,
+            "Text": {
+              "Content": "Energieberatung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "b14ebd1a-5e60-4138-84fb-3303a82d3b83",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nach der Bestandsbegehung und Analyse der vorhandenen Planunterlagen wurden die Schwachstellen der Gebäude analytisch zusammengefasst. Darauf aufbauend wurden Maßnahmenpakete für einen individuellen Sanierungsfahrplan entwickelt.",
+            "Href": null,
+            "Text": {
+              "Content": "Nach der Bestandsbegehung und Analyse der vorhandenen Planunterlagen wurden die Schwachstellen der Gebäude analytisch zusammengefasst. Darauf aufbauend wurden Maßnahmenpakete für einen individuellen Sanierungsfahrplan entwickelt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "bc1a4ae3-d82c-4903-aa43-d70acab292cd",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "927ab34e-f5f9-4fb4-a62e-4dcb5c0dd717",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "1cd2d7e7-61dc-4d26-acf4-6510569cc79a",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto Heute: Fassade",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto Heute: Fassade"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/17c55eff-f926-4b77-8fd1-b4a7cd956968/bestandsfoto-heute-fassade.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TRPHAXZI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIER4mlY4a7ZYqL6xekJgNstc4mlp0NKrjS3frjgN14qcAiAOFmIr3OO1yHfYzdiIvM5XbC7%2FE73FsGxh5%2FgLcbcVuCqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMh0Tpzw1JvMi7GtBsKtwDYqsUs48al2pcFqVDwjdldFMs9Oh3tpEafuklBZdPSbT2fbm8DnZRsx35AcKafOidFkCloOo3VT6djvTNO1ZhplZOpEfO%2BkgT1FjrrXTs5Y%2B%2BEzEvqHu4RBjWmZDTEgzLTaJE64fxumYLS%2FkeJ5gF%2B3VG6hMYYV%2Fn1qFQ7iWj5GpUA3VOrKT8Co5MUDdcwtfsiUvvn2o4NuSl5LdmMrAugeDWm%2BUcy7Zl9nIqoAmFIbUAebC38B3vhlZm6QYIOM592UCtsRFvFE90AA2eP6jworgy06bf5kDiYXBtjtuiuxDz8VRNQ0zUt%2B9f2KanfYyFZkWCaLT%2BsH1xKyKmOqfemKyEy2CxRgXadBGOY37LxWz4VcOb3%2BAueS1C2OIu%2Bbk0UBgH345iYQxDM%2FDeErbTM9NPDJbdGt697nMZXA2CNeW8ddGcMURnYMECR9JgnUQtCkupTgWwoYU5JI1hP9%2Bmv0F8XSphzwxMIK0oumIMSa0B%2BHs1VR1GFEYpiDV6WPbdmMAjVdaZ4nLCMYd99rYpYrT3GkuDiTxG2qaGzDg2GhqkbCS2VpDBEyP8PEuGh8qNTKMSwbsAtR2awmTjB0LFrF1QFPEHDF7nPO1Hw2hqP3V%2FsIMZbFmn%2BxZT1lMwnojAwwY6pgGl%2FnaTFjSglLOauG0orrbccvHZtlOqob3IbOjCR6X90%2B7IOfxMWsuOqaM94mbeqnyatqMt2a9aSNClA2LGbMVb4NF%2BsG2OqNv346xAp9tBD5CkZN6J0aSDlDNsCUexEB1Fe9wivl2jRCbL3SvHVvGMAK7wlqTwqsNWqdpR9g%2FA7yQMu7G8MVF61RbqqNiUiHMIACHncHVM%2F1R%2B1QltZXVbFft9VVGd&X-Amz-Signature=c3df5b931c28fa5a520a6c61f8630c2945058b13fe91bb14caebfc851d5b826c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:16.238Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "255ed66c-cda5-4225-8042-3417ced9eb6c",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "5bf97e1b-db20-44eb-abff-73e12ef16699",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto Heute: Tor und fensterlose Fassade",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto Heute: Tor und fensterlose Fassade"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/6f7eed34-dc47-45b8-bd7a-e1b9db7ce024/bestandsfoto-heute-tor-und-fensterlose-fassade.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46622GIU6KP%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183015Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC5MfWNL9RrT0JxDk62CdnVqMsdSg4KmwuzSorMs%2B1NsQIgS6DOT9NW5B38mMANSYYQGg5GoEcNa6UjmIWwsjiCARQqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLFhdoNv5V8GsNnK4CrcA6OmBtY%2Bd51PIsnUOOir2i7wVQd%2BpOerNb%2BFQmduE9OBQLBdApcqiO12gborOqMFy3VlOY0oInrR%2FCDr8TbyPXmIPiqjX1A954x%2BmLB3iYbBGDdSxCvP8woLB8iyqoYT6DV%2FXGiU79T8eDb5lPdpN1QavDQIURn4iTiD%2Fz1tT2xArPnPY0dtYgjmBBYVHA0OTungU6GfiWx5yPDFGBVxTCQnDi462bUvpoQXuCGw5JV3WDkB1QmV5ko4JoOH2l5ktx5E62rD1mPQ%2Fjia2FzMwQrGI3Vygg0d2AZ%2FpPVa7ggU0vUOjUvky4Mt8TlAa4KCr19Quzi%2BHhWCIuRvVhSLivn1URskKDs4wDszpoGpx9gDbEeZ12PBee%2FQRm0jXQa%2Fo7KmUZT6fh5du%2BgSKD3R2L9u1S1UM2zIWc14miyEMNeV4zc7gvrcPrEPaf7fgUNAg06yeC9G6ZtzBHpxZnzXYfh%2BWcDt3VvLXMfm50JexRfUIssDwWXSBvcS4AIg47MfOohM0Z9y%2FqI7LcQUpB4dBtcTU%2FDATGKQf%2FLz0McTVuowQYPoKthUG9stfwrG%2Fr4n2pZBDA0Hgg%2BeRBkmERQ%2BXAYoJru7AEgw0hqV89yFRhAg8PjpiwvMHJU7f3rrMOaHwMMGOqUBMr144cuO2PQL9tdQgZlCNS760Uxra1qE1Kq%2FdcFjD7JQHu7tkVWloPydL%2B64%2BxbQ90yJSG54uulwAhs1EK%2BXTejF6BRAiQKMNwCjfw70uXZODHo03vFHUke%2F5fua9Uz0TjEju86qrAJAfQV4xGRiOG2xswE25c27tjxZkGKvldSziXGd5s1Ey7%2Bfm%2BVjpZHdk1qybA5cWYgvg9eMFv53H7b3w9WE&X-Amz-Signature=1ce62f5fdf5a1c296c846dd9bbee66f62fbd082e07cf945000654ad77ab23f62&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:15.453Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "6e23e5e7-2647-472f-b57d-82687540c404",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "910fea67-4f4b-4669-ad5e-a8d2b0c806ac",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "515b9bb6-b395-4e21-be29-17b53934fc4f",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto Heute: Dach",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto Heute: Dach"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/3c587bb5-6611-4a32-9029-0b1c49d2c304/bestandsfoto-heute-dach.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YSWNI3OH%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHXxTYPljwqnEtAao7UzZJhbHRWwc8T2ZFm1xJ9mNqLlAiAXV3Sglr1xkHpwJ%2B4eao5Oo05J6Vy7O8S%2BmlAHzB472CqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMFPtgOsG4CP2s2xjNKtwDltmxw1hsrniAyz3pehKFfleicz5eprOpQxworHdOzN1dHmpbYZWuUeZuLFjkjzXbPlfPx9bybSVmBxA3LERSZOGdj8MqBTZ%2BTMT%2B6lrnN7tqMsQdl%2F1SDI7onOVMjMsOPiS8%2BibMEl9jtZV%2ByYo0ZHcwlsnLPLJRZEHaWRpBbxGu%2FJHLK9E1lTNam3VCF98Go5jY3G8jZ%2B%2Bvd9UcpdSkfRKuitgxtLB6yZVlMlLYVLvrwawEN4MeJqnDiALN8pU6bEjU1mcGWcSoTxH%2Fn8NOPb3J1awi6jV3Z2IssU9AjGbva4bGD41GUTvAUyWZK804ZRVhSSwp6tbTo9evXCOhpCGBDmjRZ7dxs%2F%2BCfPZXP0TY56Ar25UTj24l96oJ7XjoeTXZdJ77p6UJJ1qooX4MSgGEloyxMIoQQdfDG33CqxZUMK0mkJQYwWZch6u5sAKx%2BPpAOhq2a2S7PkDR3ZPLNxPzQDUw2bS1zHO9Y41DRtidTZ%2FdQ7I4Y7K4ky8v3jlcje%2F1VbNrrCK%2BLm0JIFfV94MWVto8DfAR6bIGs47Yn9NqM1yX1eszFQS2Q9i9isLRvgZph8PhLHO5J4swxcgTbDOyn6fpZ5IYtvXM1AWS9GWCfZy%2FDTesFjLsT8Iw6ofAwwY6pgGJAb20JE%2B0MehigOs5q1dzbiGEO9JPhWAOX2l4DZ2bD2CH27QsXeZ4wmFr31M6KNrhLcMiW6D4NQhDtkEFFnb2y1bm%2BsrDGjvbO4tFAIwytumyJZ1P5dNWVa9Sv7ZrycXPizi7DuWj68KHdivz906QVc1yqSnjXahFklgp5mszghpVXbVvXIg5ZHHV4eHV8D1v91J7BrijXXqcQcvdye60feb0hfTL&X-Amz-Signature=002f0e0204c5564990248750f1c2ac4dd697024a485ed621593c43ff252581e3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:17.180Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "e0701dd4-5096-434b-a5e0-a3aab1df5d08",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "25c1e427-e8d1-4ea2-8a70-fa4eefbf1be0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestandsfoto Heute: Heizsystem",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestandsfoto Heute: Heizsystem"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0eae9a53-58d1-49f9-bb31-12d82ddb983b/bestandsfoto-heute-heizsystem.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663CRIGNJN%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDWjEkpyqklmkjOc%2B99L8JRV114oGeY52%2FKF09OoxkLhgIhAIUZQYSvOnZdCZ5f19CUmEA2VQ0HijTAZ4QmiuUAu2zJKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzypdCW9eQEr2XAc8oq3APC%2B0e8BxMgsKIQFBCNPPfGvD1gsLVzkPOZijy8gmRF533sS5I1%2BaHsZbXBCV3GBrvrW5aC0IMHosZArcOuDW9nb2ICoDpte87YYeLwTWJjldUYcdZ35KzBNahpoj%2BmTr7SdQDAOee7AWlRaoJwIycne4Yih2HJBCVtX7DVwxv12%2BgKn3Kg%2B26WUXap%2BztJrt4kwxK24G0XvBdWODjkl4feXk3Bx9qoTbZqQl5gwh80Hb8HdqS761dS8kpkzRhbylGx1Heme7iIPLIG8nJ64q3EuUKtK6VcN5dZChsRWD37HdI09Q5scHU2seZWBDe1aJNpRW2pfp7dOZIKp1V3VEQYFteVEt%2FHlLvYPasnr385yFVCxo19q2620NComYt%2F4P3K2PpQGHP4fKtAHO0SgdaFWQGcahtaV55ZRB72Tmb1tCy1s7xAX7Y2%2FiHqyeUirIqHIxDa%2FPG%2BL6r1t%2FOqATWCQezM5LDetnpwAzIwwmxOxG%2FgNbTQor4jdmPzYfEW6XKNwkGPp4lXNHLmCTgpF37MGSpwY3oTzQlR3MLq5rP9I5lYZWeD9a9EdZuDSl6wo17PGm46KY9KAP6y4i40IbDUvHFvC8OVDQvYoehS0bWCMIqbiiwSKJxvMGSzazDzh8DDBjqkAfePmK8BAtgxv8Dzi8Ui2%2B57B0jwrLN8M9raY8ME95PWstHzg7ioG6bIe179ruOwgh0ViWQgAsKZMxqk7Za%2FoiYgrxzLz4mThbaWSh8jAwt6SNjGAF%2FqhfQXm089aqqBJZHbVQzw3tgz%2BVxReYy6Z%2BPbyLcde2RVJ%2FmnwbTOqRRohPj2A9RreSdsmYP8Z2IH0zgBkwrwm%2BgXfKp7jaUQZ3bgCSmS&X-Amz-Signature=0aec491bb3c8ec5fcb8be850ac1a7a7564dcc3679491967be1e6849afcc7eb20&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:17.212Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "a9b5404a-43b6-461f-a4f0-c158d0212da3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Über ein 3D-Hüllflächenmodell wurden die unterschiedlichen Flächen des Gebäudekomplexes definiert und die jeweiligen U-Werte der Bauteile zugewiesen. Dadurch entsteht eine Übersicht der Hüllflächenqualität, die gemeinsam mit den Verbrauchswerten erste Berechnungen für den aktuellen Gebäudezustand ermöglichen.",
+            "Href": null,
+            "Text": {
+              "Content": "Über ein 3D-Hüllflächenmodell wurden die unterschiedlichen Flächen des Gebäudekomplexes definiert und die jeweiligen U-Werte der Bauteile zugewiesen. Dadurch entsteht eine Übersicht der Hüllflächenqualität, die gemeinsam mit den Verbrauchswerten erste Berechnungen für den aktuellen Gebäudezustand ermöglichen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d8e85f2f-6287-4f01-8d5f-3f53810744a8",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "2f684d0e-acbe-41d8-850b-c7c3181794d1",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "dff93c91-075d-4d8d-9f72-9ddeb5efb7b0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Huellflaechen: Nordöstliche isometrische Perspektive",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Huellflaechen: Nordöstliche isometrische Perspektive"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e35b44f6-ccfb-4828-92b7-f9ef76a86be1/huellflaechen_nordoestliche-isometrische-perspektive.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZNUTUTDQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183017Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDtMfN9KfRguec4BZweBxjISnKXfDa%2Foat0Y2xrRNEfoAIhALMlHsz%2BIX41KjwN9uynNtJzm68TAVTEe7v3y5ljMfDPKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2BwuuGWt%2FJqPPjLugq3APZs6gxOmJ2hKhsj%2FEeQPrgS%2FwGdVR0crD9UfcX4ixIe9DFlB7%2FSzU1N9x4GX8GF6muVhmlVO5s8ur41NJmhHcYxoKbGmAoTZizGyj%2BUTYIqsB66YVwbOKv%2BsynXThbBrunuvwvw3sR6lKXLjuXK1bqBBbFXLSD8lkvt0BQCiCYpAP3JDBUuC5%2FV%2BYRkGn21O8wqQxLXsF4a0x%2FK43aRpBRK6TJTRZwtKovfF41XN6x5kAYkMzxIQ2z%2BZkz5fdRTpc8RNKfSpnnEDPZeLeNStzDsIPIkZePQ2C%2FlbOUBEYxeEP9i5Dp2iwFNLZ2l%2F8rHQ2apKH87TqOwO4hjMflOEu2qkoTMpIBDDjxGEwQszcYcwOul2xe3eEAiGw9F7GH2Dqgw2eLRg3Bi%2BbxOmsQ8Z7%2FLoVGQkJb79bNaGu%2Ft2Cnnvr4KTDUvkXiZrQFSmwy5q7QBc4tsC%2FEVZmU4h8SXKxcZQsr%2BG1l1VpMXRXnA3gYAcWj1kYi1yzhCrCvhhExCV6BXzgVct6njzjtFF%2FD2s7W5BA7V6JkRseJx6Qa1sekHwZk3c4s8zpLWidLqj54gWSEf3aHRPJQLYRjZ5TRdppW6ns86tPQpFbz52r1q0MF1B2FcJ%2BdMA%2BM9lDUgDC6h8DDBjqkAXsBiQhclyDdYxPa9JfhBQ31ZFStW4ng%2B02xw0pQyr3YgI%2Fn%2B0tNWee%2FuISYzSX50dPezyi%2FUTSDKjk%2B9KXsWrN67Pym3hEZbYhVeHbIGyYssfOQinA20O2CU9Oa7cBmTG8A0FiQVgvE12UKuM9PFk1JTlyZCDfH3sCwZKI4VWQr8m1MTY6U4RQS6nOymdsh%2Bzf9DcRhagn06byREHt2WyOoWbtX&X-Amz-Signature=50ebd2f108a16facea1daef772401a8cdb93b1d01f19e9dea3841837a0d7a3f7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:17.939Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "035d73aa-a601-40c6-8d9b-96aa9fd6daa0",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "f8cbe26c-1b60-41b8-a4ee-9d86b17fd0d1",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Huellflaechen: Südwest isometrische Perspektive",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Huellflaechen: Südwest isometrische Perspektive"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/67c37371-72d5-4d5b-a72a-d495624a55b5/huellflaechen_suedwest-isometrische-perspektive.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QWDROYDM%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183018Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDO8OL3n21qucXXmuMlxUCqVxzmQh2XqbvIawRi36o%2FrAiAEXx%2B1n6Tk9Oo27EtzkQaQfydQdKma1czypikTwGZoRiqIBAjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMR3yFYj9vyuxFPHgEKtwDWDydaHV9iH7cohViIVtXVhIJT%2BxbIfe%2FnyE2Wi5Ib51h9hRiXIEe6Y%2BTpqXgAGlnQfY5ryWl6N6hQCbo%2FqSrMoEAIX8TQLPK26zwpHSjx%2FfY91dpYRJ3s1hoJZtmA9V7EowxTKOSOk7YOoDcuO0%2BtHYvnDY1ThFnyLxSgTEekPqZflG52iQb0XoxzdpWooy6dtydUWAlaj1LUMP%2BupuvCPefp18um78k%2FfEgzJsY0R%2F%2BcsvP4bVBfjIdxzE%2Fkgb%2BDpCpyg%2Ff5iwdyyfZMGMEewQ%2FevXy%2FYUWRAFgA2suoK2KII3AVGlBv6yORZVkGTVawtR6gfksvBi0ky2n6g3VnEg106cQZrYif%2FqamEX6FrBAlIxb2Ch%2BzEYpDp%2F3eM4KR5rCzu6x9zPd8dnxZGGl5gv8y8FLAl0coGNjXh6V8VVvUVFWteaEE94VEC18buVwOD5A481sjPncGxZ7ksWPyVxp0TL%2FbwLyvNJfV5uUxgsh1d4MrTbPsWFLqKrDcy%2Bsud91quaGYdGdcHCBplzLLCL3rx7Lq7XoV2vUSTHucEgCh2Ohk0Stw8hDfhr%2FKOuxQs9hyRc0eUCOTImFOiK1BPRoKJ9rlrNAHWvaeUOadTuyi1XWM95SbPn7e%2FUwmojAwwY6pgHZrYjVWKR2vwELXjMDzU%2B9%2BkOB3fPGAwqB3PmG3Qe1himhqMSPRPmEjpyO%2Bl795y584Eb8fMZ94nSsQaURACJOFT6ZTfpBNricyd8fpCPtX3XY2e5qB4GbX6qtYA%2FR2X4VqGaI2zfnOPfhMR1x22QH2lbisV9RzcZ9QhLyZMgRGLtOPEO2QrdCCKBAHAcx2Ll2epq6ggEtrMWl1z7srPHK2BwGSPnv&X-Amz-Signature=2e5323fea629aeb6a8978f6fb313a46c59eb16f9b654b0febac8e9eebad39e7b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:18.243Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "de02a250-a534-4330-9300-6bd20df4d565",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um bewerten zu können, welche Eingriffe für eine Sanierung wichtig und richtig sind und in welcher Energieklasse sich das Gebäude in der Weyersbergerstraße befindet, wurden Energieverluste, Transmissionswärmeverluste und ein Verbrauchsabgleich analysiert.",
+            "Href": null,
+            "Text": {
+              "Content": "Um bewerten zu können, welche Eingriffe für eine Sanierung wichtig und richtig sind und in welcher Energieklasse sich das Gebäude in der Weyersbergerstraße befindet, wurden Energieverluste, Transmissionswärmeverluste und ein Verbrauchsabgleich analysiert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4f72c8d4-75fb-44fa-9076-912772c0363b",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Donut-Diagramme: Energieverlust und Transmissionswärmeverluste",
+            "Href": null,
+            "Text": {
+              "Content": "Donut-Diagramme: Energieverlust und Transmissionswärmeverluste"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/15590deb-3775-49ed-9003-911facc6ca13/donut-diagramme_energieverlust-und-transmissionswaermeverluste.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPKFP6LI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPfyP8lj2NoXcOv8N47rtp1PfBkbaBJHb9tSrhfxZPjwIgEjf659YMMu7eBDD6keXtVGRLVm3BT6sAgmB6XMW9mGQqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKiu6G1cAfLjAmedIyrcAy1H0M41mPSryNUUigGu3TZFf2%2BdfA%2BIuabDyLaAPbsIrVP88Yx4DB4nZ5dgA9zm0une%2B%2BEeQ2EPf%2BhshBO%2Fo6NNRceD0pZ%2B7iwf6n8MGKumDQc5fJckTdRyrnp6PhZppcghB%2BC%2FNSn5HefPSdZ2Ed%2FzHEtjH6YyM8S7V2KcQMJ%2BG76ApSmZVfah7B%2Bp2iIxd2O%2Bau0ReerZ6fXHpQL3WbsRwTj7CUhP6QDSvl%2BVenEoZnTpWAPnjsXeQHQ9RVqdf%2BhPA3BYMTXbePmweFH%2BLOTHG%2BNH46BklGabX6JcMvHLnxGRO334JGpBnxJWTKk3z6XNTlJdhHkq1TpTsQpjIGjaPSVi6gjFupU2uVjROos8P1boHK2S8Bm7QrR6%2Bw5m%2B0yO0EmaUkD1Bb4MYnb%2B09pvr8mGDc1RfkXBsRPHOBxUEPIDxXQhbmhWfYDZY4UO7AWNwGPX4yWu3bocW7MtjIT7cH0DBtV1cyzPlX8dvhx%2BOM9NswZuJ5jr%2BTu9nUp0rzy6ImErEseFezQhgR6TlQguogKFelaeZmuBzH0t%2Bv1OtKiuiz0Vkkg7f%2B3mBmft31wrabSpd9LkMDIH9IEGIL4OIGVUXx4fysRV2qcsTRH9lfsoHOyrwzLJe5HhMKyHwMMGOqUByAaj9m1wnjKG7gYw%2BHvvrg4QWMVOgTHje2TvRjnU338oI51BjRt7mJi4C8SCJxzBEgTzzC5PGzNUFCTl6RxN1%2FdbzY0HVAcHLlpcEI1DHvWZ3fbfX8dNFTGHBBR4lH4krzFH8PKgeRopvs9ngJFDT%2FEy3dNsq82Q0ONInjscuku4%2FawUTSeF2ydxixjczRNdCJAAXd07YyLKaYRfUCQ12S2tMiy3&X-Amz-Signature=563a278ff8792ee4ea06d6e7719a2df3831f0cff7a8e066c7ba0d3ad8938d1ce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:09.481Z"
+        }
+      }
+    },
+    {
+      "Id": "cba03126-b049-4af9-a928-a80e5b77c112",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Balkendiagramme: Transmissionswärmeverluste  Vergleich Flächenanteil zu Transmissionsanteil",
+            "Href": null,
+            "Text": {
+              "Content": "Balkendiagramme: Transmissionswärmeverluste  Vergleich Flächenanteil zu Transmissionsanteil"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c84b1c70-afc3-47ea-ac7c-2f280860ead8/balkendiagramme-transmissionswaermeverluste-vergleich-flaechenanteil-zu-transmissionsanteil.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPKFP6LI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPfyP8lj2NoXcOv8N47rtp1PfBkbaBJHb9tSrhfxZPjwIgEjf659YMMu7eBDD6keXtVGRLVm3BT6sAgmB6XMW9mGQqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKiu6G1cAfLjAmedIyrcAy1H0M41mPSryNUUigGu3TZFf2%2BdfA%2BIuabDyLaAPbsIrVP88Yx4DB4nZ5dgA9zm0une%2B%2BEeQ2EPf%2BhshBO%2Fo6NNRceD0pZ%2B7iwf6n8MGKumDQc5fJckTdRyrnp6PhZppcghB%2BC%2FNSn5HefPSdZ2Ed%2FzHEtjH6YyM8S7V2KcQMJ%2BG76ApSmZVfah7B%2Bp2iIxd2O%2Bau0ReerZ6fXHpQL3WbsRwTj7CUhP6QDSvl%2BVenEoZnTpWAPnjsXeQHQ9RVqdf%2BhPA3BYMTXbePmweFH%2BLOTHG%2BNH46BklGabX6JcMvHLnxGRO334JGpBnxJWTKk3z6XNTlJdhHkq1TpTsQpjIGjaPSVi6gjFupU2uVjROos8P1boHK2S8Bm7QrR6%2Bw5m%2B0yO0EmaUkD1Bb4MYnb%2B09pvr8mGDc1RfkXBsRPHOBxUEPIDxXQhbmhWfYDZY4UO7AWNwGPX4yWu3bocW7MtjIT7cH0DBtV1cyzPlX8dvhx%2BOM9NswZuJ5jr%2BTu9nUp0rzy6ImErEseFezQhgR6TlQguogKFelaeZmuBzH0t%2Bv1OtKiuiz0Vkkg7f%2B3mBmft31wrabSpd9LkMDIH9IEGIL4OIGVUXx4fysRV2qcsTRH9lfsoHOyrwzLJe5HhMKyHwMMGOqUByAaj9m1wnjKG7gYw%2BHvvrg4QWMVOgTHje2TvRjnU338oI51BjRt7mJi4C8SCJxzBEgTzzC5PGzNUFCTl6RxN1%2FdbzY0HVAcHLlpcEI1DHvWZ3fbfX8dNFTGHBBR4lH4krzFH8PKgeRopvs9ngJFDT%2FEy3dNsq82Q0ONInjscuku4%2FawUTSeF2ydxixjczRNdCJAAXd07YyLKaYRfUCQ12S2tMiy3&X-Amz-Signature=80c62fc84a152ded4d4538d9c154ddaa2dbb81fc0e65317d2913c1535ce7fabc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:09.482Z"
+        }
+      }
+    },
+    {
+      "Id": "1dad8bb1-4aab-4141-bbee-b0ea0b4b022b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit der energetische Status des Worst-Performing Buildings verbessert werden kann, müssen die Bauteile basierend auf BAFA-Anforderungen ertüchtigt werden, um eine ökologisch nachhaltige Entwicklung zu ermöglichen. BuildSystems entwickelte einen individuellen Sanierungsfahrplan mit fünf Maßnahmenpaketen, um die Gebäude auf einen neuen Energiestandard zu bringen: EH70.",
+            "Href": null,
+            "Text": {
+              "Content": "Damit der energetische Status des Worst-Performing Buildings verbessert werden kann, müssen die Bauteile basierend auf BAFA-Anforderungen ertüchtigt werden, um eine ökologisch nachhaltige Entwicklung zu ermöglichen. BuildSystems entwickelte einen individuellen Sanierungsfahrplan mit fünf Maßnahmenpaketen, um die Gebäude auf einen neuen Energiestandard zu bringen: EH70."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0e6074b8-7788-45c5-8fdc-4ff70569a528",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Individuellen Sanierungsfahrplan mit fünf Maßnahmenpaketen",
+            "Href": null,
+            "Text": {
+              "Content": "Individuellen Sanierungsfahrplan mit fünf Maßnahmenpaketen"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ba209457-eb23-4741-afb8-72baf9dfdc1c/individuellen-sanierungsfahrplan-mit-fuenf-massnahmenpaketen.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPKFP6LI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPfyP8lj2NoXcOv8N47rtp1PfBkbaBJHb9tSrhfxZPjwIgEjf659YMMu7eBDD6keXtVGRLVm3BT6sAgmB6XMW9mGQqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKiu6G1cAfLjAmedIyrcAy1H0M41mPSryNUUigGu3TZFf2%2BdfA%2BIuabDyLaAPbsIrVP88Yx4DB4nZ5dgA9zm0une%2B%2BEeQ2EPf%2BhshBO%2Fo6NNRceD0pZ%2B7iwf6n8MGKumDQc5fJckTdRyrnp6PhZppcghB%2BC%2FNSn5HefPSdZ2Ed%2FzHEtjH6YyM8S7V2KcQMJ%2BG76ApSmZVfah7B%2Bp2iIxd2O%2Bau0ReerZ6fXHpQL3WbsRwTj7CUhP6QDSvl%2BVenEoZnTpWAPnjsXeQHQ9RVqdf%2BhPA3BYMTXbePmweFH%2BLOTHG%2BNH46BklGabX6JcMvHLnxGRO334JGpBnxJWTKk3z6XNTlJdhHkq1TpTsQpjIGjaPSVi6gjFupU2uVjROos8P1boHK2S8Bm7QrR6%2Bw5m%2B0yO0EmaUkD1Bb4MYnb%2B09pvr8mGDc1RfkXBsRPHOBxUEPIDxXQhbmhWfYDZY4UO7AWNwGPX4yWu3bocW7MtjIT7cH0DBtV1cyzPlX8dvhx%2BOM9NswZuJ5jr%2BTu9nUp0rzy6ImErEseFezQhgR6TlQguogKFelaeZmuBzH0t%2Bv1OtKiuiz0Vkkg7f%2B3mBmft31wrabSpd9LkMDIH9IEGIL4OIGVUXx4fysRV2qcsTRH9lfsoHOyrwzLJe5HhMKyHwMMGOqUByAaj9m1wnjKG7gYw%2BHvvrg4QWMVOgTHje2TvRjnU338oI51BjRt7mJi4C8SCJxzBEgTzzC5PGzNUFCTl6RxN1%2FdbzY0HVAcHLlpcEI1DHvWZ3fbfX8dNFTGHBBR4lH4krzFH8PKgeRopvs9ngJFDT%2FEy3dNsq82Q0ONInjscuku4%2FawUTSeF2ydxixjczRNdCJAAXd07YyLKaYRfUCQ12S2tMiy3&X-Amz-Signature=fda0e0281aae75ef0f7a775a34668777519731e2020deb34e16b6ccfa86a5939&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:09.472Z"
+        }
+      }
+    },
+    {
+      "Id": "22f5b4f7-b749-4c01-b292-dccac1cb2cb1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die ersten beiden Maßnahmenpakete sehen eine Dämmung des Altbaus (Baujahr 1905) vor. Darauf folgt die Dämmung der Wände und Dachflächen der restlichen Gebäudeteile sowie der Austausch der gesamten Fenster und Türen. Mit dem vierten Maßnahmenpaket, welches den Einbau einer Wärmepumpe vorsieht, befindet sich das Gebäude bereits auf EH85-Standard. Um den EH70-Standard zu erreichen, müssen im fünften Maßnahmenpaket eine Bodendämmung eingebracht und eine PV-Anlage errichtet werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die ersten beiden Maßnahmenpakete sehen eine Dämmung des Altbaus (Baujahr 1905) vor. Darauf folgt die Dämmung der Wände und Dachflächen der restlichen Gebäudeteile sowie der Austausch der gesamten Fenster und Türen. Mit dem vierten Maßnahmenpaket, welches den Einbau einer Wärmepumpe vorsieht, befindet sich das Gebäude bereits auf EH85-Standard. Um den EH70-Standard zu erreichen, müssen im fünften Maßnahmenpaket eine Bodendämmung eingebracht und eine PV-Anlage errichtet werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e9fd2201-a062-4773-9b4b-b226175fae44",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "64cd73b7-8d97-4a00-b5a5-a256bbd92ed9",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Effizienzhausdiagramme: Ist-Zustand, Referenz und EH70",
+            "Href": null,
+            "Text": {
+              "Content": "Effizienzhausdiagramme: Ist-Zustand, Referenz und EH70"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/9bd575a3-8848-4d9a-a0d6-3a8a079b7ce7/effizienzhausdiagramme_ist-zustand-_referenz-und-EH70.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RPKFP6LI%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183009Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPfyP8lj2NoXcOv8N47rtp1PfBkbaBJHb9tSrhfxZPjwIgEjf659YMMu7eBDD6keXtVGRLVm3BT6sAgmB6XMW9mGQqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKiu6G1cAfLjAmedIyrcAy1H0M41mPSryNUUigGu3TZFf2%2BdfA%2BIuabDyLaAPbsIrVP88Yx4DB4nZ5dgA9zm0une%2B%2BEeQ2EPf%2BhshBO%2Fo6NNRceD0pZ%2B7iwf6n8MGKumDQc5fJckTdRyrnp6PhZppcghB%2BC%2FNSn5HefPSdZ2Ed%2FzHEtjH6YyM8S7V2KcQMJ%2BG76ApSmZVfah7B%2Bp2iIxd2O%2Bau0ReerZ6fXHpQL3WbsRwTj7CUhP6QDSvl%2BVenEoZnTpWAPnjsXeQHQ9RVqdf%2BhPA3BYMTXbePmweFH%2BLOTHG%2BNH46BklGabX6JcMvHLnxGRO334JGpBnxJWTKk3z6XNTlJdhHkq1TpTsQpjIGjaPSVi6gjFupU2uVjROos8P1boHK2S8Bm7QrR6%2Bw5m%2B0yO0EmaUkD1Bb4MYnb%2B09pvr8mGDc1RfkXBsRPHOBxUEPIDxXQhbmhWfYDZY4UO7AWNwGPX4yWu3bocW7MtjIT7cH0DBtV1cyzPlX8dvhx%2BOM9NswZuJ5jr%2BTu9nUp0rzy6ImErEseFezQhgR6TlQguogKFelaeZmuBzH0t%2Bv1OtKiuiz0Vkkg7f%2B3mBmft31wrabSpd9LkMDIH9IEGIL4OIGVUXx4fysRV2qcsTRH9lfsoHOyrwzLJe5HhMKyHwMMGOqUByAaj9m1wnjKG7gYw%2BHvvrg4QWMVOgTHje2TvRjnU338oI51BjRt7mJi4C8SCJxzBEgTzzC5PGzNUFCTl6RxN1%2FdbzY0HVAcHLlpcEI1DHvWZ3fbfX8dNFTGHBBR4lH4krzFH8PKgeRopvs9ngJFDT%2FEy3dNsq82Q0ONInjscuku4%2FawUTSeF2ydxixjczRNdCJAAXd07YyLKaYRfUCQ12S2tMiy3&X-Amz-Signature=85c21b41a1462c945164f91832ef590125d3e1475303ea3fdfa51626f7c29a57&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:09.493Z"
+        }
+      }
+    },
+    {
+      "Id": "a297bac3-02fa-4137-a2ae-aab975f50dd6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "46759fad-53b1-4f4e-b4d5-5d09cef69006",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Aufgrund der vielfältigen Baujahre und Bauteile der Gebäude gestaltet sich die Sanierung als äußerst komplex. Daher konzentriert sich die erste Wirtschaftlichkeitsbetrachtung ausschließlich auf Maßnahmen und Kosten, die für eine energetische Sanierung von Bedeutung sind. Alle zusätzlichen Eingriffe, sei es für bauliche Instandsetzungen oder andere Sanierungsmaßnahmen, müssen im weiteren Verlauf des Projekts identifiziert und entsprechend kalkuliert werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Aufgrund der vielfältigen Baujahre und Bauteile der Gebäude gestaltet sich die Sanierung als äußerst komplex. Daher konzentriert sich die erste Wirtschaftlichkeitsbetrachtung ausschließlich auf Maßnahmen und Kosten, die für eine energetische Sanierung von Bedeutung sind. Alle zusätzlichen Eingriffe, sei es für bauliche Instandsetzungen oder andere Sanierungsmaßnahmen, müssen im weiteren Verlauf des Projekts identifiziert und entsprechend kalkuliert werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "56566012-533e-4663-8360-d6dd237233e6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Wirtschaftlichkeitsberechnung berücksichtigt diverse Faktoren wie Investitionskosten, Fördermittel, Zinsen, eingesparte Energiekosten und die resultierende Amortisationszeit. Die Schlussfolgerungen aus dieser Analyse dienen als Entscheidungsgrundlage dafür, welche Maßnahmen unter Berücksichtigung der jeweiligen Förderung umgesetzt werden sollen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Wirtschaftlichkeitsberechnung berücksichtigt diverse Faktoren wie Investitionskosten, Fördermittel, Zinsen, eingesparte Energiekosten und die resultierende Amortisationszeit. Die Schlussfolgerungen aus dieser Analyse dienen als Entscheidungsgrundlage dafür, welche Maßnahmen unter Berücksichtigung der jeweiligen Förderung umgesetzt werden sollen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "faf374c5-45ab-48a2-a10c-51bd7dc0e4ab",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "ce9b1361-fbeb-4d64-b65b-77269f44bcd8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Während der Energieberatung wurden folgende Leistungen von BuildSystems erbracht: ",
+            "Href": null,
+            "Text": {
+              "Content": "Während der Energieberatung wurden folgende Leistungen von BuildSystems erbracht: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "fca59fc3-465b-4d48-a91c-8c0a511f9479",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bestandsaufnahme durch Plangrundlagen und Vor-Ort-Besichtigung",
+            "Href": null,
+            "Text": {
+              "Content": "Bestandsaufnahme durch Plangrundlagen und Vor-Ort-Besichtigung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "10b9bacb-2733-4503-b640-b041ac323858",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Erstellung eines 3D-Hüllflächenmodells",
+            "Href": null,
+            "Text": {
+              "Content": "Erstellung eines 3D-Hüllflächenmodells"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2066c899-9705-462f-9095-eb22983ff976",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ermittlung der Hüllflächenqualität",
+            "Href": null,
+            "Text": {
+              "Content": "Ermittlung der Hüllflächenqualität"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "780523bb-7716-4688-9623-0cff949f6f94",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Berechnung des energetischen Status Quo",
+            "Href": null,
+            "Text": {
+              "Content": "Berechnung des energetischen Status Quo"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31d24f7b-9902-4399-ab6b-39fb5a659054",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Berechnung der Wärmeverluste",
+            "Href": null,
+            "Text": {
+              "Content": "Berechnung der Wärmeverluste"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c20bd291-2b1c-49f7-a5bf-e74ea161e17a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Maßnahmenpaket für Sanierung",
+            "Href": null,
+            "Text": {
+              "Content": "Maßnahmenpaket für Sanierung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "69d662db-a9ec-49cb-a3b6-1647249ca62e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Individueller Sanierungsfahrplan (iSFP)",
+            "Href": null,
+            "Text": {
+              "Content": "Individueller Sanierungsfahrplan (iSFP)"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33c42108-1e3f-4aa1-b582-6d14d8d4e839",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirtschaftlichkeitsberechnung",
+            "Href": null,
+            "Text": {
+              "Content": "Wirtschaftlichkeitsberechnung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "1c3ddfef-0fc8-4197-beae-b75ebc80d754",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7ca79089-9e32-47ce-92e5-8bffc4af7c50",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ Cover & Image: BuildSystems ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ Cover & Image: BuildSystems "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0cf1af2c-6dc4-40ef-96f3-62f3d4e304dd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "e24993d0-8721-410c-af03-b8ce253b5fc4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

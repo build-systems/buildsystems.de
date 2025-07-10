@@ -1,0 +1,1925 @@
+{
+  "PageId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+  "Title": "Wie BuildSystems das kostenlose Tool zu den KfW-Fördermitteln entwickelte",
+  "Authors": [
+    {
+      "id": "86588297-04ff-498c-a9fe-b0bcfc61867a",
+      "name": "Daniel Locatelli",
+      "color": "gray"
+    }
+  ],
+  "Category": "Tool",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7d0588fa-a5c8-4b39-abff-09aace07fd4a/vscode-angular-and-toolbox.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=4dd44282096d1b41d887f3b8f91e03389d322655146c348535943f8c2e13f2a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Ansicht der Entwicklungsumgebung des Tools mit Codezeile und Nutzungsoberfläche",
+  "Slug": "kfw-foerdertool-von-buildsystems",
+  "PublishDate": "2024-06-12",
+  "Tags": [
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    },
+    {
+      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
+      "name": "Fördermittel",
+      "color": "purple"
+    },
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    }
+  ],
+  "Description": "So entwickelte BuildSystems eine Web-App, die Immobilienentwicklern und Eigenheimbesitzern den Zugang zu KfW-Fördermittel und der entsprechenden Energieeffizienz  vereinfacht.",
+  "coverAsset": "vscode-angular-and-toolbox.jpg",
+  "blockAssets": [
+    "desktop-screenshot.jpg",
+    "mobile-screenshot-01.jpg",
+    "mobile-screenshot-02.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "ef39435e-d54b-40ba-9e78-e61bc81beb5a",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Übersicht ",
+            "Href": null,
+            "Text": {
+              "Content": "Übersicht "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "8113701a-5f6c-49b3-97e4-e481f9b4709d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Nachfrage nach energieeffizienten Gebäuden steigt, da sich immer mehr Menschen ihrer Umweltauswirkungen bewusst werden. Die Inanspruchnahme von Fördermitteln und Krediten zur Energieeffizienz sind komplex und teilen sich in Einzelmaßnahmen und KfW-Gesamtmaßnahmen auf, die das Erreichen eines Energieeffizienzhausstandards zum Ziel haben. BuildSystems entwickelte eine ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Nachfrage nach energieeffizienten Gebäuden steigt, da sich immer mehr Menschen ihrer Umweltauswirkungen bewusst werden. Die Inanspruchnahme von Fördermitteln und Krediten zur Energieeffizienz sind komplex und teilen sich in Einzelmaßnahmen und KfW-Gesamtmaßnahmen auf, die das Erreichen eines Energieeffizienzhausstandards zum Ziel haben. BuildSystems entwickelte eine "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "web app",
+            "Href": "https://app.buildsystems.de/",
+            "Text": {
+              "Content": "web app",
+              "Link": {
+                "Url": "https://app.buildsystems.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", die dabei unterstützt die einzelnen Anforderungen und Zusammenhänge aus Maßnahmen, Kosten und Förderungen besser zu verstehen. Es war das Ziel, die Übersicht für Immobilienentwickler:innen und Hausbesitzer:innen zu vereinfachen, indem wir eine benutzerfreundliche Webanwendung schaffen, die die Darlehen der KfW abbildet und es den Nutzenden ermöglicht, ihre finanziellen Möglichkeiten schnell und einfach nachzuvollziehen.",
+            "Href": null,
+            "Text": {
+              "Content": ", die dabei unterstützt die einzelnen Anforderungen und Zusammenhänge aus Maßnahmen, Kosten und Förderungen besser zu verstehen. Es war das Ziel, die Übersicht für Immobilienentwickler:innen und Hausbesitzer:innen zu vereinfachen, indem wir eine benutzerfreundliche Webanwendung schaffen, die die Darlehen der KfW abbildet und es den Nutzenden ermöglicht, ihre finanziellen Möglichkeiten schnell und einfach nachzuvollziehen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "d0328082-63fc-429f-8832-147ace0741b5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8278c2cc-c49c-466a-92c2-677946b60ef8",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Umfang und Anforderungen",
+            "Href": null,
+            "Text": {
+              "Content": "Umfang und Anforderungen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "4f42685d-798a-471b-bfc3-bfbe7067c9c6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Folgende funktionellen Anforderungen wurden an die skalierbare, sichere und intuitive Plattform gestellt:",
+            "Href": null,
+            "Text": {
+              "Content": "Folgende funktionellen Anforderungen wurden an die skalierbare, sichere und intuitive Plattform gestellt:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e991d69d-2cb2-4b3e-bf68-9704f9e7e4d1",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Preiskalkulation",
+            "Href": null,
+            "Text": {
+              "Content": "Preiskalkulation"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Schätzung von Kostenkennwerten für Neubau- oder Renovierungsmaßnahmen auf Grundlage öffentlich zugänglicher Daten.",
+            "Href": null,
+            "Text": {
+              "Content": ": Schätzung von Kostenkennwerten für Neubau- oder Renovierungsmaßnahmen auf Grundlage öffentlich zugänglicher Daten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "15de612e-2c33-452a-967f-cad96bda9abc",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Darlehen",
+            "Href": null,
+            "Text": {
+              "Content": "Darlehen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Aufzeigen von Kreditschienen auf der Grundlage von Kostenschätzung und Energieeffizienz eines Gebäudes.",
+            "Href": null,
+            "Text": {
+              "Content": ": Aufzeigen von Kreditschienen auf der Grundlage von Kostenschätzung und Energieeffizienz eines Gebäudes."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4cd8709b-5afe-4949-9acb-c40d24fb68e3",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Datensicherheit",
+            "Href": null,
+            "Text": {
+              "Content": "Datensicherheit"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Sicherung aller Nutzungsdaten entsprechend der EU-Vorschriften (DSGVO).",
+            "Href": null,
+            "Text": {
+              "Content": ": Sicherung aller Nutzungsdaten entsprechend der EU-Vorschriften (DSGVO)."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2165fff2-31f4-4eaf-8da5-596061e689b1",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Reaktionsschnelles Design",
+            "Href": null,
+            "Text": {
+              "Content": "Reaktionsschnelles Design"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Nahtlose Anwendung auf allen Geräten.",
+            "Href": null,
+            "Text": {
+              "Content": ": Nahtlose Anwendung auf allen Geräten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5db406a2-4e38-4d41-8cd3-764ec8151ae7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "5f6e4748-c5b6-4ba3-a2c4-5ec3889f0134",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Verwendete Technologien",
+            "Href": null,
+            "Text": {
+              "Content": "Verwendete Technologien"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "d38bb427-7c7c-4d83-9970-889113369024",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um diese Anforderungen zu erfüllen, kommen folgende Technologien zum Einsatz:",
+            "Href": null,
+            "Text": {
+              "Content": "Um diese Anforderungen zu erfüllen, kommen folgende Technologien zum Einsatz:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "814c5527-706b-4f9a-93db-645741b2289b",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "GitHub",
+            "Href": null,
+            "Text": {
+              "Content": "GitHub"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": BuildSystems-Repositorium\n",
+            "Href": null,
+            "Text": {
+              "Content": ": BuildSystems-Repositorium\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "https://github.com/build-systems/toolbox",
+            "Href": "https://github.com/build-systems/toolbox",
+            "Text": {
+              "Content": "https://github.com/build-systems/toolbox",
+              "Link": {
+                "Url": "https://github.com/build-systems/toolbox"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2deefdb4-3871-4f52-aa58-8552e7c6c0b2",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Angular",
+            "Href": null,
+            "Text": {
+              "Content": "Angular"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Robuste JavaScript-Frameworks und umfassender Toolsatz\n",
+            "Href": null,
+            "Text": {
+              "Content": ": Robuste JavaScript-Frameworks und umfassender Toolsatz\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "https://angular.dev",
+            "Href": "https://angular.dev/",
+            "Text": {
+              "Content": "https://angular.dev",
+              "Link": {
+                "Url": "https://angular.dev/"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "128a45fb-a6e5-4ce0-a04d-457080ec7cce",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "ng2-charts",
+            "Href": null,
+            "Text": {
+              "Content": "ng2-charts"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Angular-Bibliothek für Diagramme auf der Grundlage von charts.js\n",
+            "Href": null,
+            "Text": {
+              "Content": ": Angular-Bibliothek für Diagramme auf der Grundlage von charts.js\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "https://www.npmjs.com/package/ng2-charts",
+            "Href": "https://www.npmjs.com/package/ng2-charts",
+            "Text": {
+              "Content": "https://www.npmjs.com/package/ng2-charts",
+              "Link": {
+                "Url": "https://www.npmjs.com/package/ng2-charts"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "79d492ea-53f1-4eaa-9529-7db533d766bd",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cloudflare",
+            "Href": null,
+            "Text": {
+              "Content": "Cloudflare"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": zuverlässiges und skalierbares Hosting und Bereitstellung, keine Anfangskosten\n",
+            "Href": null,
+            "Text": {
+              "Content": ": zuverlässiges und skalierbares Hosting und Bereitstellung, keine Anfangskosten\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "https://www.cloudflare.com/",
+            "Href": "https://www.cloudflare.com/",
+            "Text": {
+              "Content": "https://www.cloudflare.com/",
+              "Link": {
+                "Url": "https://www.cloudflare.com/"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "83ada8ca-40b5-4656-9cb9-f5cbd3d31117",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "403bc0fb-e05e-4e05-8ffd-e13096e214a4",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Entwicklung ",
+            "Href": null,
+            "Text": {
+              "Content": "Entwicklung "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "ef8f6cce-ef68-4662-9c46-5364e1dde008",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Entwicklung erfolgte in drei Phasen: Planung und Design, Frontend-Implementierung, Testen und Qualitätssicherung.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Entwicklung erfolgte in drei Phasen: Planung und Design, Frontend-Implementierung, Testen und Qualitätssicherung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "cd7e7951-2881-4f3d-882e-87c2804cf40e",
+      "Type": "numbered_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "NumberedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Planung und Design",
+            "Href": null,
+            "Text": {
+              "Content": "Planung und Design"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3f755682-162a-4439-bd3c-bfb836ffb486",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der erste Schritt bestand darin, die Logik der Anwendung zu entwickeln. Sobald diese definiert war, wurde die Frontend-Architektur und schließlich das UI/UX skizziert.",
+            "Href": null,
+            "Text": {
+              "Content": "Der erste Schritt bestand darin, die Logik der Anwendung zu entwickeln. Sobald diese definiert war, wurde die Frontend-Architektur und schließlich das UI/UX skizziert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "67260e5e-00bf-4f94-8d32-a5809732c916",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "App-Logik: ",
+            "Href": null,
+            "Text": {
+              "Content": "App-Logik: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Logik der Anwendung wurde zunächst in Excel entwickelt. In dieser Umgebung war ein schnelles und iteratives Arbeiten, Testen und Verbessern umfassend möglich. Dieser Prozess zog sich auch über weitere Entwicklungsphasen, um fehlende Informationen und nutzungsrelevante Funktionen nachträglich noch zu ergänzen. Für die hürdenlose Übertragung zu TypeSkript wurde eine Dokumentation auf ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Logik der Anwendung wurde zunächst in Excel entwickelt. In dieser Umgebung war ein schnelles und iteratives Arbeiten, Testen und Verbessern umfassend möglich. Dieser Prozess zog sich auch über weitere Entwicklungsphasen, um fehlende Informationen und nutzungsrelevante Funktionen nachträglich noch zu ergänzen. Für die hürdenlose Übertragung zu TypeSkript wurde eine Dokumentation auf "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Notion",
+            "Href": "https://notion.so/",
+            "Text": {
+              "Content": "Notion",
+              "Link": {
+                "Url": "https://notion.so/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " erstellt, was sich zudem als hilfreich für die Überprüfung der Funktionalität erwies.",
+            "Href": null,
+            "Text": {
+              "Content": " erstellt, was sich zudem als hilfreich für die Überprüfung der Funktionalität erwies."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "686b43dd-38a8-4cb0-a2a4-9cb996416136",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Frontend-Architektur: ",
+            "Href": null,
+            "Text": {
+              "Content": "Frontend-Architektur: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die grundlegenden funktionalen Abläufe wurden zunächst in ",
+            "Href": null,
+            "Text": {
+              "Content": "Die grundlegenden funktionalen Abläufe wurden zunächst in "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "FigJam",
+            "Href": "https://www.figma.com/figjam/team-collaboration/",
+            "Text": {
+              "Content": "FigJam",
+              "Link": {
+                "Url": "https://www.figma.com/figjam/team-collaboration/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " erarbeitet. Die Erweiterung von Figma eignet sich besonders um Softwarearchitektur kollaborativ zu entwerfen und zu diskutieren. Zudem wird die Schnittstelle zur späteren graphischen Erarbeitung vereinfacht, wenn Tools aus einem Ökosystem verwendet werden.",
+            "Href": null,
+            "Text": {
+              "Content": " erarbeitet. Die Erweiterung von Figma eignet sich besonders um Softwarearchitektur kollaborativ zu entwerfen und zu diskutieren. Zudem wird die Schnittstelle zur späteren graphischen Erarbeitung vereinfacht, wenn Tools aus einem Ökosystem verwendet werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b8105ebc-780b-4d44-b681-6f0c3e7ddb25",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8061f632-0958-482d-84e0-8f57ef5a6ef8",
+      "Type": "code",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Code": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sketch of the App architecture",
+            "Href": null,
+            "Text": {
+              "Content": "Sketch of the App architecture"
+            }
+          }
+        ],
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "%%{ init: { 'flowchart': { 'curve': 'basis' } } }%%\n%%{init: {\"flowchart\": {\"defaultRenderer\": \"elk\"}} }%%\nflowchart TB\n\n\tR(Routes) --> N & S & PO & PR & SE\n\t\n\tsubgraph S[Sanierung Component]\n\t\tSF\n\t\tSS\n\t\tSOUT\n\t\tSSV\n\tend\n\t\n\tsubgraph SOUT[Output]\n\t\tSD\n\t\tSCH\n\tend\n\t\n\tSF(Sanierung Forms)-->SS(Service)\n\tSS-->SD(Dashboard)\n\tSS-->SCH(Charts)\n\tSS-->SSV(Save)\n\t\n\tsubgraph N[Neubau Component]\n\t\tNF\n\t\tNS\n\t\tNOUT\n\t\tNSV\n\tend\n\t\n\tsubgraph NOUT[Output]\n\t\tND\n\t\tNCH\n\n\tend\n\t\n\tNF(Neubau Forms)-->NS(Service)\n\tNS-->ND(Dashboard)\n\tNS-->NCH(Charts)\n\tNS-->NSV(Save)\n\t\n\tsubgraph PR[Profile Component]\n\t\tCP(Change password)\n\t\tDC(Delete Account)\n\tend\n\t\n\tsubgraph SE[Settings Component]\n\t\tCT(Change Theme)\n\t\tCL(Change Language)\n\tend\n\t\n\tNL-->NLD\n\tSL-->SLD\n\t\n\tNSV-->DB[(Database)]\n\tSSV-->DB\n\t\n\tDB-->SL\n\tDB-->NL\n\t\n\tsubgraph PO[Portfolio Component]\n\t\tNL(Neubau List)\n\t\tSL(Sanierung List)\n\t\tSLD(Load)\n\t\tNLD(Load)\n\tend",
+            "Href": null,
+            "Text": {
+              "Content": "%%{ init: { 'flowchart': { 'curve': 'basis' } } }%%\n%%{init: {\"flowchart\": {\"defaultRenderer\": \"elk\"}} }%%\nflowchart TB\n\n\tR(Routes) --> N & S & PO & PR & SE\n\t\n\tsubgraph S[Sanierung Component]\n\t\tSF\n\t\tSS\n\t\tSOUT\n\t\tSSV\n\tend\n\t\n\tsubgraph SOUT[Output]\n\t\tSD\n\t\tSCH\n\tend\n\t\n\tSF(Sanierung Forms)-->SS(Service)\n\tSS-->SD(Dashboard)\n\tSS-->SCH(Charts)\n\tSS-->SSV(Save)\n\t\n\tsubgraph N[Neubau Component]\n\t\tNF\n\t\tNS\n\t\tNOUT\n\t\tNSV\n\tend\n\t\n\tsubgraph NOUT[Output]\n\t\tND\n\t\tNCH\n\n\tend\n\t\n\tNF(Neubau Forms)-->NS(Service)\n\tNS-->ND(Dashboard)\n\tNS-->NCH(Charts)\n\tNS-->NSV(Save)\n\t\n\tsubgraph PR[Profile Component]\n\t\tCP(Change password)\n\t\tDC(Delete Account)\n\tend\n\t\n\tsubgraph SE[Settings Component]\n\t\tCT(Change Theme)\n\t\tCL(Change Language)\n\tend\n\t\n\tNL-->NLD\n\tSL-->SLD\n\t\n\tNSV-->DB[(Database)]\n\tSSV-->DB\n\t\n\tDB-->SL\n\tDB-->NL\n\t\n\tsubgraph PO[Portfolio Component]\n\t\tNL(Neubau List)\n\t\tSL(Sanierung List)\n\t\tSLD(Load)\n\t\tNLD(Load)\n\tend"
+            }
+          }
+        ],
+        "Language": "mermaid"
+      }
+    },
+    {
+      "Id": "01c65663-997f-47ce-b1e5-ebbd5d755cae",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "716f3708-fa21-4be1-ba03-506bff1f3202",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "UI & UX Design: ",
+            "Href": null,
+            "Text": {
+              "Content": "UI & UX Design: "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Bei der Konzeption des Designs standen Einfachheit und Funktionalität im Fokus, um die Nutzenden hürdenlos durch den Berechnungsprozess zu führen. Die Design Prototypen wurden in Figma erstellt. Hier ist es möglich, Verhaltensweisen wie Mouse Over, Mouse In und Mouse Out zu simulieren. Der Dev-Modus erlaubt das Kopieren von CSS-Stilen und das Exportieren von SVGs. Bisher war der Dev-Modus auch im kostenlosen Abonnement enthalten.",
+            "Href": null,
+            "Text": {
+              "Content": " Bei der Konzeption des Designs standen Einfachheit und Funktionalität im Fokus, um die Nutzenden hürdenlos durch den Berechnungsprozess zu führen. Die Design Prototypen wurden in Figma erstellt. Hier ist es möglich, Verhaltensweisen wie Mouse Over, Mouse In und Mouse Out zu simulieren. Der Dev-Modus erlaubt das Kopieren von CSS-Stilen und das Exportieren von SVGs. Bisher war der Dev-Modus auch im kostenlosen Abonnement enthalten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0aeb5dca-8031-4999-ab3d-b1a3a17f8aa7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "772447c9-1dda-4987-862e-a01ab35e509e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f73e01c2-c464-4f95-8bb6-100ee9635d13",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Screenshot of the desktop version of the funding calculator.\nDesktop version of the funding calculator.",
+            "Href": null,
+            "Text": {
+              "Content": "Screenshot of the desktop version of the funding calculator.\nDesktop version of the funding calculator."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/df5529e0-5b5d-4c3d-988c-65a430639344/desktop-screenshot.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466THVDHGT2%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDHYoaErLwjFKzQ1tBQqvVgHEHf9Eq0WzeAisIX6CnF1gIgMQjOKlKLmX%2FihgRrkQ%2BoM0NwANBLjTY3S%2FxQsq4yUXkqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAcqAUFqnfptQCaBuSrcA41Y1OjNWLgY09rgb1fnTVYI1lX0k8fWCkrZ0LJVPAdMcAV2%2BS3UgZMBqetGeYSOrZk7Q16Pta2TjE2tSexNaBb9YHmdsybrf%2FCSN%2BZhnCf38q%2Bp94CAYdwzAL0ihcK7iRMgXOVg0pKhcxgvOWudeIIqNaK1WADae0Anxf3uTONI%2BBwODmfaPKwcppX9d7%2Fj6f6tyfywrdaeQhMcHn%2B%2BDiy95rOfGdhbJmnNXin5m7XeZYHDreILqk5QL9%2BmaJ6WRZWnxl0I3BOUWRpB4M8cvD342SuSRcKkKOLCcvnyNfhTfrQirpu4jwcvbGnjmeMasFum5iy2FVEoszEELJp%2BTNYvlIp%2FHCrsKjWtG6LiUTHfP9mR1zLWPLO6DRIm3zeNz0nu%2Bx5IsGeS6JPZdU7OuAeOYZlq0AkDRVkHic34KZLCLsIqlSQK6GsxUaTn%2B3jA51lJ3BCRsmpR5ZTcFttbOKZZ5Viaw%2BIxT%2BoqFEYuN1ypY4Ecm323%2BKQA6G0tiQc9ZI3Li72qqLzUgsOi4WLZOb%2BShOmZhzxJsPtRIj3XHBxOx%2BuseVINe5goPdj6vGTuWHnE5JivA8B0SJT3X%2BXb7JFyYxZvuKrXIO2IXv8%2FSdX3%2FEriL%2FTmOijP2YNDMNaHwMMGOqUBcJ%2BjpD%2Ffrr%2BB9ymlY8vZGHOKIOBf%2BfnrDLhdu5nM2z3XkHBbhNMeFbiKdtJSMePcH9QsOFh2pWpyUWe0M6WThKNOyQRUbtVS85eP39fbwy7CKuxpMEFAi2bfep63pY5dx%2FipyRqY64zfuJyegLNepvejL03BeNt5E%2FvdxT6gZHWhNgHa8zzNdCc2quruLlFWi4AY7SI1SpyshiHx1VXGJVuUn0EX&X-Amz-Signature=e42ce45e0729e02c6ea191be5bf94e2a43b734602bb2c57ce361dc8e2bc81851&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:02.243Z"
+        }
+      }
+    },
+    {
+      "Id": "8cecb8ee-5951-4ca1-ba5f-e4bb68872c91",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "0155c78b-3c4e-4527-b387-22f0413f3407",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "9488664b-eb0a-4b47-b42c-9e07749b9897",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "9a96ab1b-88ab-4af0-b64d-43e14394ab2c",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Screenshot of the mobile version of the funding calculator showing the Neubau at the Projekt tab.\nMobile version of the funding calculator showing the Neubau at the Projekt tab.",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Screenshot of the mobile version of the funding calculator showing the Neubau at the Projekt tab.\nMobile version of the funding calculator showing the Neubau at the Projekt tab."
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/cf18ded6-af94-4814-aa8e-a20c679def18/mobile-screenshot-01.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YIHBCUX5%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC0pqUXKhpdocHJDk3mkSl0ZzvKelTy6F78bR6bfCqeJQIhALSKzOFZ0PziHom33HYvdLfNj0523TLUfLzi1lUGU2tbKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxGYaERLasF0Bz2yjkq3ANPOyEbI4KtM1GG974ciT52G2e9WJgzjntIjAX90OyzBXFlSpgFYI5he0kr8QSuZZ5MkezBdjbPn9Woxz1F9zY7pzH26RxYHXjez8%2FreKDNwAP62iFqhUulY5bgzL8SefaFxtrVhYMIriRsmo0NqFTDSZXOGA2vo7vRnRZKudn9O88E0j2zp1HMZeqfZW6OwRw8u0cxC0OQto3%2FSxI8HwjeCCMn8vlNvpcBd1kgJV3NTtpeGc0qedbNdQIzY1MpaIXWxeOAz4M6k%2Bm%2F%2FvtW3q4Xp0ISb0bjfyJTX8t7C0AoxrMmoTSPGHS9nkJMdfAGd7qZggUHo6ckK46TXHjinpZ2kBB5QzCvmRW%2BesPT4MrtXFnXPVgTADjmIlQ4lxiYKGuscdN2aB6bBv%2FWOWYLzDaxP%2FMthx3gvv8H94ewOzzv1AhpwWNGVkb%2BsbUTMxxskV1vFD9phMqjychMiImV%2BXVLJNFzwLEHjc%2BaK8n8q8XUQOFQtXddR5a6w95HlIxb8wn5GZNUtETz5g674rx0Ls7ebBUpyXesakkg080UW3nc7%2B0qxh%2BHxxNIQNGalFHjR6kX4JbhEA4hUunUMOEyiUQhfv2VygeJvuIdi6gqIHXv5l6M1%2BuBV%2B5%2Fjhoy1zDAh8DDBjqkAQBgzUTqHupGHELmFKKIMugurN7gzRii46lV0WwH1uIl9lj8shkrKTxVG5zYxxqqF7epp7Z1L5tptDA3DjEQCj9aGRIe6NATnSle4MjjgxVzaNpLmltrVi7RHM%2F4Z1Gu%2Bd9Gw363z%2Bg9%2FEOAv5byj9oRbdMWacEX3Oa2tYYhKX3fkEZk4td9LwNSaOkjuNTE4NtSls2qz3iZ7kem0H4C%2BnTSnSsv&X-Amz-Signature=d41aca16b3394876d06b26dc5094c76c4c8923b30e1b6c810ad6df66e0672673&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:05.742Z"
+                  }
+                }
+              },
+              {
+                "Id": "d89a1039-dacf-4471-9a20-403923278aa8",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "66549057-411a-43df-b14e-62479db48356",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "17a23dc1-b4fd-4cf3-bef7-ff18850e0a69",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Screenshot of the mobile version of the funding calculator showing the Neubau at the Darlehen tab, scrolled to the graphs section.\nMobile version of the funding calculator showing the Neubau at the Darlehen tab, scrolled to the graphs section",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Screenshot of the mobile version of the funding calculator showing the Neubau at the Darlehen tab, scrolled to the graphs section.\nMobile version of the funding calculator showing the Neubau at the Darlehen tab, scrolled to the graphs section"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4fefcb31-911d-4f9d-9b22-6db0cd641d33/mobile-screenshot-02.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665T7CGD5E%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCq%2BFtvyuNz8uQ9qjShx%2FnsGnv3urf03fWJx53X5ZYLNAIgLxHk0tQh87wq%2F72v2sHz7F%2FJCbFdKQHGFzE0LRVSZpMqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHPFef90yl9%2F0hx2qircA5FFZeR4LJseAMBIsMcyLIQdUNxpVii0Rcd24Q8KVUxTdSU5DWlfOBltMDUwlvzgrX5nriV1qbLtNqVIf3BZZK%2FEIBx%2BS9QO1PKc%2BaL8fC27pI2XlgktynmPOWTu%2B39s8YXZRN9DHGv2gseDe4sIESjJbxJxJlXKtXiulgLFjAhsXU34onKTzNj9YqyHp1cX80ynM2n8WPxr0Zi4KDrUDjlMGCvxvMZ6kBhTJiVsAmQg0mv9DsM8n1kX1Rkms1Nu1E4vW6FD1eF%2BsZuKz4ccG6VMRND%2FBUKG8fCNzGpkotwZq9j1sGmVZsgPGQl9xbcuuEeEaBFbRjd%2FuRSZkR1xaXrw3QqSJtSIxIHpI1e4laYfTrjwdFPFBx0V3zrDeNRySRh8V8SGVKXhOK1QVAq9pzgtxvqWmUdfFJrayfJdNKUW%2BUFP8D0Y7wgaAGbWir0kUjtFku7KmJRxq3Ic8qUonQLdXSrHQofc%2BuJFUo0fc7556%2Fje%2FCK35ZREtmSmYISB6oJgw3ridAq6BCDR8DRtskbm7R4fYk6g2rgO5naopzJTMxcXdDZVl%2B4zawSfr7194zjkEfiK80r8jp%2FDkFz%2FQc3AFdEGVrYOoeaBLBwQKvrtDr%2BmPM3U%2BXyBp5AQMLqHwMMGOqUB2MOncAKUkFoy19wohn22uGI1dzrRhAIlfH0lnqNlRdXQY3gyw2QJkKsFcdlSfzdEGz%2BB87MPp8PhPikMZsQGDek2rB5%2FNvNqczDPdPfwsXsdzsyzq2r6a%2Fe0KmI8pf%2FLdHGPF1byNuEgao400Skm2aFVkCFAHS5UjAsylfGswJQIuV9XBIJugafblJOk1PyM%2Bn1JPJ%2BdRjGVDyCfLqZj9BriXH%2BJ&X-Amz-Signature=30ee3bb12fd48f2fb9ab59f3b955b2cc64a003725e4d4f01ef8b8f0fbde0e84c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-07-10T19:30:05.897Z"
+                  }
+                }
+              },
+              {
+                "Id": "7c336177-8008-4f72-bb64-b00225ef9bf8",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "26ef3b32-664f-4e07-a82c-d98ab836eb39",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Frontend Development",
+            "Href": null,
+            "Text": {
+              "Content": "Frontend Development"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "26d6074f-60c7-4c37-bfe1-f7682cc029ee",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Webanwendung wurde mit dem JavaScript-Framework Angular und seiner spezifischen Struktur entwickelt, die besonders für den Kalkulator geeignet war. Angular bringt bereits alle notwendigen Abhängigkeiten mit, um eine voll funktionsfähige Webanwendung zu erstellen und erübrigt so die Entscheidungsfindung zu den Abhängigkeiten für den jeweiligen Anwendungsfall. Außerdem ist TypeScript an Angular geknüpft und bietet wichtige Leitplanken für eine fehlerfreie Software, was große Zeitersparnisse bringt.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Webanwendung wurde mit dem JavaScript-Framework Angular und seiner spezifischen Struktur entwickelt, die besonders für den Kalkulator geeignet war. Angular bringt bereits alle notwendigen Abhängigkeiten mit, um eine voll funktionsfähige Webanwendung zu erstellen und erübrigt so die Entscheidungsfindung zu den Abhängigkeiten für den jeweiligen Anwendungsfall. Außerdem ist TypeScript an Angular geknüpft und bietet wichtige Leitplanken für eine fehlerfreie Software, was große Zeitersparnisse bringt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4113899e-a618-4628-87f7-5082f52a5f52",
+      "Type": "code",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Code": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Neubau component architecture\nNeubau component architecture",
+            "Href": null,
+            "Text": {
+              "Content": "Neubau component architecture\nNeubau component architecture"
+            }
+          }
+        ],
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "%%{ init: { 'flowchart': { 'curve': 'base' } } }%%\nflowchart TB\n\tNC(Neubau Component) --> NPFC(Projekt Form Component) & NDFC(Darlehen Form Component)\n\t\tsubgraph NPF[Projekt Form]\n\t\t\tdirection TB\n\t\t\tNPFC --> NPFS(Projekt Form Service)\n\t\tend\n\n\t\tsubgraph NDF[Darlehen Form]\n\t\t\tdirection TB\n\t\t\tNDFC --> NDFS(Darlehen Form Service)\n\t\tend\n\tNDFS --> NS\n\t\n\tNPFS --> NS(Neubau Service)\n\tNS --> NPD(Projekt Dashboard)\n\tNS-->NPCHC(Chart component)\n\tNPCHC-->NCHG(Gesamtkosten chart)\n\tNPCHC-->NCHG2(Gesamtkosten m² chart)\n\tNPCHC-->NCHE(Einheitskosten chart)\n\t\n\tsubgraph NPCH[Charts]\n\t\tdirection TB\n\t\tNPCHC\n\t\tNCHG\n\t\tNCHG2\n\t\tNCHE\n\tend\n\t\n\tsubgraph NPOUT[Output Projekt]\n\t\tdirection TB\n\t\tNPD\n\t\tNPCH\n\tend\n\t\n\tNS-->NDD(Darlehen Dashboard)\n\tNS-->NDCHC(Chart component)\n\tNDCHC-->NCHA(Annuitäten Chart)\n\tNDCHC-->NCHF(Finanzierungskosten Chart)\n\tNDCHC-->NCHT(Tilgung Chart)\n\tsubgraph NDOUT[Output Darlehen]\n\t\tdirection TB\n\t\tNDD\n\t\tNDCH\n\tend\n\t\n\tsubgraph NDCH[Charts]\n\t\tdirection TB\n\t\tNDCHC\n\t\tNCHA\n\t\tNCHF\n\t\tNCHT\n\tend\n\n  NS-->NSV(Save Option)\n\n\tNPF:::paddingNPF\n\tNDF:::paddingNDF\n\tNPCH:::paddingNPCH\n\tNDCH:::paddingNDCH\n\tNDOUT:::paddingNDOUT\n\tclassDef paddingNDCH padding-right:34em;\n\tclassDef paddingNPCH padding-right:37em;\n\tclassDef paddingNPF padding-right:9em;\n\tclassDef paddingNDF padding-right:9em;",
+            "Href": null,
+            "Text": {
+              "Content": "%%{ init: { 'flowchart': { 'curve': 'base' } } }%%\nflowchart TB\n\tNC(Neubau Component) --> NPFC(Projekt Form Component) & NDFC(Darlehen Form Component)\n\t\tsubgraph NPF[Projekt Form]\n\t\t\tdirection TB\n\t\t\tNPFC --> NPFS(Projekt Form Service)\n\t\tend\n\n\t\tsubgraph NDF[Darlehen Form]\n\t\t\tdirection TB\n\t\t\tNDFC --> NDFS(Darlehen Form Service)\n\t\tend\n\tNDFS --> NS\n\t\n\tNPFS --> NS(Neubau Service)\n\tNS --> NPD(Projekt Dashboard)\n\tNS-->NPCHC(Chart component)\n\tNPCHC-->NCHG(Gesamtkosten chart)\n\tNPCHC-->NCHG2(Gesamtkosten m² chart)\n\tNPCHC-->NCHE(Einheitskosten chart)\n\t\n\tsubgraph NPCH[Charts]\n\t\tdirection TB\n\t\tNPCHC\n\t\tNCHG\n\t\tNCHG2\n\t\tNCHE\n\tend\n\t\n\tsubgraph NPOUT[Output Projekt]\n\t\tdirection TB\n\t\tNPD\n\t\tNPCH\n\tend\n\t\n\tNS-->NDD(Darlehen Dashboard)\n\tNS-->NDCHC(Chart component)\n\tNDCHC-->NCHA(Annuitäten Chart)\n\tNDCHC-->NCHF(Finanzierungskosten Chart)\n\tNDCHC-->NCHT(Tilgung Chart)\n\tsubgraph NDOUT[Output Darlehen]\n\t\tdirection TB\n\t\tNDD\n\t\tNDCH\n\tend\n\t\n\tsubgraph NDCH[Charts]\n\t\tdirection TB\n\t\tNDCHC\n\t\tNCHA\n\t\tNCHF\n\t\tNCHT\n\tend\n\n  NS-->NSV(Save Option)\n\n\tNPF:::paddingNPF\n\tNDF:::paddingNDF\n\tNPCH:::paddingNPCH\n\tNDCH:::paddingNDCH\n\tNDOUT:::paddingNDOUT\n\tclassDef paddingNDCH padding-right:34em;\n\tclassDef paddingNPCH padding-right:37em;\n\tclassDef paddingNPF padding-right:9em;\n\tclassDef paddingNDF padding-right:9em;"
+            }
+          }
+        ],
+        "Language": "mermaid"
+      }
+    },
+    {
+      "Id": "dac54cfe-1b7d-41c2-8966-b63e934acee6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230494d6-c6d6-404d-9be6-984664cd75ec",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Testen und Qualitätssicherung",
+            "Href": null,
+            "Text": {
+              "Content": "Testen und Qualitätssicherung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "d79781e1-b6b9-49b0-814b-3221ccd8e508",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Qualitätssicherung wurde mit Hilfe von Karma und Hunderten von Unity-Tests durchgeführt. Unserer Erfahrung nach reicht TypeScript allein jedoch bereits aus, um eine Anwendung zu validieren. Für die Unit-Tests  wurde der Code refaktorisiert, was die Komplexität steigert. Rückblickend lässt sich feststellen, dass ein End-to-End-Test mit Cypress eine bessere Option gewesen wäre.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Qualitätssicherung wurde mit Hilfe von Karma und Hunderten von Unity-Tests durchgeführt. Unserer Erfahrung nach reicht TypeScript allein jedoch bereits aus, um eine Anwendung zu validieren. Für die Unit-Tests  wurde der Code refaktorisiert, was die Komplexität steigert. Rückblickend lässt sich feststellen, dass ein End-to-End-Test mit Cypress eine bessere Option gewesen wäre."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "8f2e944d-6de8-47bc-a4a6-8c5d6e9ed07c",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Learnings und Take Aways",
+            "Href": null,
+            "Text": {
+              "Content": "Learnings und Take Aways"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "1827aacc-3e38-483c-a9a1-c3ac9cf3fb4c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine der größten Herausforderungen war es, eine reibungslose Nutzungserfahrung zu gewährleisten. Es war das Ziel, dass sich  alle Werte und Grafiken in Echtzeit aktualisieren, wird ein Schieberegler bewegt. Darüber hinaus lag ein wesentliches Augenmerk auf der Konformität mit der Datenschutzverordnung.",
+            "Href": null,
+            "Text": {
+              "Content": "Eine der größten Herausforderungen war es, eine reibungslose Nutzungserfahrung zu gewährleisten. Es war das Ziel, dass sich  alle Werte und Grafiken in Echtzeit aktualisieren, wird ein Schieberegler bewegt. Darüber hinaus lag ein wesentliches Augenmerk auf der Konformität mit der Datenschutzverordnung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "fadc778c-d377-43fb-bb04-099ed2b04fda",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Beide Herausforderungen konnten mit einem einfachen Lösungsansatz bewältigt werden, indem eine serverseitige Berechnungen ganz vermieden wird. Die gesamte App ist ausschließlich nutzungsseitig, d. h., sobald sie geladen ist, müssen keine Daten mehr an weitere Server übertragen werden und die Berechnung erfolgt direkt auf dem Gerät der Nutzenden. Das Endprodukt ist entsprechend sehr leistungsfähig und wird in weniger als einer Sekunde geladen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Beide Herausforderungen konnten mit einem einfachen Lösungsansatz bewältigt werden, indem eine serverseitige Berechnungen ganz vermieden wird. Die gesamte App ist ausschließlich nutzungsseitig, d. h., sobald sie geladen ist, müssen keine Daten mehr an weitere Server übertragen werden und die Berechnung erfolgt direkt auf dem Gerät der Nutzenden. Das Endprodukt ist entsprechend sehr leistungsfähig und wird in weniger als einer Sekunde geladen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a094e5f8-f86a-4f30-b6cd-ca2767b3a9c9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Rückmeldungen der Nutzenden waren durchweg positiv und die Applikation wurde gut angenommen, da sie häufig ein Zeitersparnis bieten kann.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Rückmeldungen der Nutzenden waren durchweg positiv und die Applikation wurde gut angenommen, da sie häufig ein Zeitersparnis bieten kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "dd58eb59-cd1d-4a0c-8fc4-3642bb721adb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die App von Grund auf zu entwerfen war eine wertvolle Erfahrung, aber jetzt, da ich den Prozess verstehe, würde ich mit einem KI-Assistenten mit dem Design beginnen. Tools wie ",
+            "Href": null,
+            "Text": {
+              "Content": "Die App von Grund auf zu entwerfen war eine wertvolle Erfahrung, aber jetzt, da ich den Prozess verstehe, würde ich mit einem KI-Assistenten mit dem Design beginnen. Tools wie "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Galileo AI",
+            "Href": "https://www.usegalileo.ai/",
+            "Text": {
+              "Content": "Galileo AI",
+              "Link": {
+                "Url": "https://www.usegalileo.ai/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " oder ",
+            "Href": null,
+            "Text": {
+              "Content": " oder "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Rendition Create",
+            "Href": "https://www.renditioncreate.com/",
+            "Text": {
+              "Content": "Rendition Create",
+              "Link": {
+                "Url": "https://www.renditioncreate.com/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " können dabei helfen, mit ansprechenden App-Oberflächen zu beginnen, die aus Textaufforderungen (Text to UI) generiert werden.",
+            "Href": null,
+            "Text": {
+              "Content": " können dabei helfen, mit ansprechenden App-Oberflächen zu beginnen, die aus Textaufforderungen (Text to UI) generiert werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "81950373-092d-4164-9488-bbe9525497f1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Insgesamt wurde bei der Entwicklung die Relevanz von frühzeitigem und kontinuierlichem Testen erneut bestätigt, während sich der Wert eines strukturierten Frameworks wie Angular zeigte. Es bietet durchweg eine solide Grundlage für die effiziente Entwicklung einer komplexen Anwendung.",
+            "Href": null,
+            "Text": {
+              "Content": "Insgesamt wurde bei der Entwicklung die Relevanz von frühzeitigem und kontinuierlichem Testen erneut bestätigt, während sich der Wert eines strukturierten Frameworks wie Angular zeigte. Es bietet durchweg eine solide Grundlage für die effiziente Entwicklung einer komplexen Anwendung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f0cfe993-9d70-4ac2-857b-d3dff02e81b3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Hier sind einige Best Practices, die für ähnliche Projekte zu empfehlen sind:",
+            "Href": null,
+            "Text": {
+              "Content": "Hier sind einige Best Practices, die für ähnliche Projekte zu empfehlen sind:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "454cb5d4-c36a-4af1-a884-fabf921e43da",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Frühzeitige Planung",
+            "Href": null,
+            "Text": {
+              "Content": "Frühzeitige Planung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Investieren Sie Zeit in die Planung und verstehen Sie die Anforderungen, die Sie vor Beginn der Entwicklung benötigen.",
+            "Href": null,
+            "Text": {
+              "Content": ": Investieren Sie Zeit in die Planung und verstehen Sie die Anforderungen, die Sie vor Beginn der Entwicklung benötigen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "28fa8a10-c261-4009-bc11-7e7abbe2941f",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "AI Tools:",
+            "Href": null,
+            "Text": {
+              "Content": "AI Tools:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Nutzen Sie KI-Tools für die ersten Entwürfe, um schnell Benutzeroberflächen aus Textvorgaben zu generieren.",
+            "Href": null,
+            "Text": {
+              "Content": " Nutzen Sie KI-Tools für die ersten Entwürfe, um schnell Benutzeroberflächen aus Textvorgaben zu generieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "c9dc0417-aaed-48e6-9480-38ee38221bc2",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " ",
+            "Href": null,
+            "Text": {
+              "Content": " "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Flexibilität",
+            "Href": null,
+            "Text": {
+              "Content": "Flexibilität"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Seien Sie sich bewusst, dass sich die App weiterentwickeln wird, und halten Sie sich daher nicht zu strikt an das ",
+            "Href": null,
+            "Text": {
+              "Content": ": Seien Sie sich bewusst, dass sich die App weiterentwickeln wird, und halten Sie sich daher nicht zu strikt an das "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "DRY-Prinzip",
+            "Href": "https://de.wikipedia.org/wiki/Don%27t_repeat_yourself",
+            "Text": {
+              "Content": "DRY-Prinzip",
+              "Link": {
+                "Url": "https://de.wikipedia.org/wiki/Don%27t_repeat_yourself"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " (Don't Repeat Yourself).",
+            "Href": null,
+            "Text": {
+              "Content": " (Don't Repeat Yourself)."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7294dc55-2d8c-4b80-96f4-a7d56256a99a",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Framework-Auswahl",
+            "Href": null,
+            "Text": {
+              "Content": "Framework-Auswahl"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Wählen Sie ein Framework, das den Anforderungen Ihres Projekts entspricht und bleiben Sie dabei. Normalerweise ist das beste Framework jenes, zu dem Vorwissen besteht.",
+            "Href": null,
+            "Text": {
+              "Content": ": Wählen Sie ein Framework, das den Anforderungen Ihres Projekts entspricht und bleiben Sie dabei. Normalerweise ist das beste Framework jenes, zu dem Vorwissen besteht."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "88b743b2-9c5c-4df8-ba64-cacb5fbf2c0d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kontinuierliche Tests",
+            "Href": null,
+            "Text": {
+              "Content": "Kontinuierliche Tests"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": End-to-End-Tests sind bei dieser Art von Anwendung besonders wichtig.",
+            "Href": null,
+            "Text": {
+              "Content": ": End-to-End-Tests sind bei dieser Art von Anwendung besonders wichtig."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "102a9642-dd36-4677-958b-b33d6085cbd4",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Sicherheit zuerst",
+            "Href": null,
+            "Text": {
+              "Content": "Sicherheit zuerst"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Geben Sie der Datensicherheit von Anfang an den Vorrang, um spätere Compliance-Probleme zu vermeiden.",
+            "Href": null,
+            "Text": {
+              "Content": ": Geben Sie der Datensicherheit von Anfang an den Vorrang, um spätere Compliance-Probleme zu vermeiden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f985813e-3811-45ee-a180-1a1622338be9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die vollständige Beschreibung finden Sie unter:",
+            "Href": null,
+            "Text": {
+              "Content": "Die vollständige Beschreibung finden Sie unter:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2c0e3410-75dd-429c-9b88-91e6a0ce8e21",
+      "Type": "bookmark",
+      "HasChildren": false,
+      "ParentId": "68ad4afa-bc16-4c08-8a12-a7ae695ca679",
+      "Bookmark": {
+        "Url": "https://daniellocatelli.com/projects/kfw-funding-calculator-by-buildsystems/"
+      }
+    }
+  ]
+}

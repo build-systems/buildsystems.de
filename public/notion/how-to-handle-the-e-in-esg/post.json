@@ -1,0 +1,361 @@
+{
+  "PageId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+  "Title": "“How to handle the E in ESG” – ein Beitrag von Julia Dorn im KPMG Bulletin",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4d4bc989-b5eb-4e28-a329-81fa3f037605/how-to-handle-the-e-in-esg_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=c029c4d47836dbdecdd86b3f56ce3748806937a987b439a36e6b6a58924f59aa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Preview zum Artikel von BuildSystems",
+  "Slug": "how-to-handle-the-e-in-esg",
+  "PublishDate": "2024-03-01",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    },
+    {
+      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
+      "name": "Dekarbonisierung",
+      "color": "gray"
+    },
+    {
+      "id": "9b6c4858-c04e-4a0d-9a02-1d96fdcbc8ab",
+      "name": "NextGen",
+      "color": "purple"
+    },
+    {
+      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
+      "name": "Net Zero",
+      "color": "purple"
+    }
+  ],
+  "Description": "How to handle the E in ESG? – Ein Überblick über Herausforderungen und existierende Tools im KPMG Bulletin",
+  "coverAsset": "how-to-handle-the-e-in-esg_cover.jpg",
+  "blockAssets": [
+    "how-to-handle-the-e-in-esg_map.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "3706004f-80f9-41de-97e3-d9c2dd9ee73d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "KPMG Bulletin MAT Sonderausgabe",
+            "Href": null,
+            "Text": {
+              "Content": "KPMG Bulletin MAT Sonderausgabe"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "b662b7b6-600d-44fb-9660-ddae5aa2cf24",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Junge Stimmen sind die Zukunft des Bau- und Immobiliensektors. Der Real Estate Bereich von KPMG hat im aktuellen ",
+            "Href": null,
+            "Text": {
+              "Content": "Junge Stimmen sind die Zukunft des Bau- und Immobiliensektors. Der Real Estate Bereich von KPMG hat im aktuellen "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bulletin",
+            "Href": "/14de5bd09fdb44afbceccba9043a49f7",
+            "Text": {
+              "Content": "Bulletin",
+              "Link": {
+                "Url": "/14de5bd09fdb44afbceccba9043a49f7"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " der jungen Generation eine Bühne geboten, um über deren Herzensangelegenheiten zu sprechen. Mit dabei waren Themen von Diversität und Social Impact über KI bis zu zirkulärem Bauen. Zusammen mit Marianne Pieper und Julia Weber beteiligte sich Julia Dorn von BuildSystems mit einem Artikel über die Herausforderungen des ökologischen Managements im Immobiliensektor. ",
+            "Href": null,
+            "Text": {
+              "Content": " der jungen Generation eine Bühne geboten, um über deren Herzensangelegenheiten zu sprechen. Mit dabei waren Themen von Diversität und Social Impact über KI bis zu zirkulärem Bauen. Zusammen mit Marianne Pieper und Julia Weber beteiligte sich Julia Dorn von BuildSystems mit einem Artikel über die Herausforderungen des ökologischen Managements im Immobiliensektor. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "be3c854a-aa33-44d1-afac-6fb689ce29d8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die drei haben damit ein Thema aufgegriffen, das zwar schon eine Weile präsent ist, aber durch die Digitalisierung einen neuen Schub bekommt. In “How to handle the E in ESG” stellen sie dar, welche Softwarelösung bei den komplexen Herausforderungen der ökologischen Planung und Steuerung unterstützen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die drei haben damit ein Thema aufgegriffen, das zwar schon eine Weile präsent ist, aber durch die Digitalisierung einen neuen Schub bekommt. In “How to handle the E in ESG” stellen sie dar, welche Softwarelösung bei den komplexen Herausforderungen der ökologischen Planung und Steuerung unterstützen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "7be37b8b-c269-4132-b62f-84f698d4500a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Text thematisiert die Notwendigkeit, Gebäude sowohl klimaverträglich als auch resilient zu gestalten, betont jedoch, dass die meisten Marktakteure derzeit nicht standardisiert die Klimaauswirkungen ihrer Immobilien ermitteln. Neben dem energetischen Fokus werden auch Umwelt-, Gesellschafts- und Governance-Aspekte wie Biodiversität und soziale Kohärenz immer wichtiger, was die Komplexität erhöht. ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Text thematisiert die Notwendigkeit, Gebäude sowohl klimaverträglich als auch resilient zu gestalten, betont jedoch, dass die meisten Marktakteure derzeit nicht standardisiert die Klimaauswirkungen ihrer Immobilien ermitteln. Neben dem energetischen Fokus werden auch Umwelt-, Gesellschafts- und Governance-Aspekte wie Biodiversität und soziale Kohärenz immer wichtiger, was die Komplexität erhöht. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "9b0d5682-c4d4-4887-9e27-fbe5d726a8c4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um eine nachhaltige Immobilienwirtschaft zu fördern, sind digitale Tools unerlässlich, da sie komplexe ökologische Anforderungen bewältigen können. Im Neubau müssen frühzeitig ökologische Kriterien berücksichtigt werden, während in der Bestandsoptimierung das Ziel ist, den Dekarbonisierungspfad einzuhalten und operative Emissionen zu reduzieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Um eine nachhaltige Immobilienwirtschaft zu fördern, sind digitale Tools unerlässlich, da sie komplexe ökologische Anforderungen bewältigen können. Im Neubau müssen frühzeitig ökologische Kriterien berücksichtigt werden, während in der Bestandsoptimierung das Ziel ist, den Dekarbonisierungspfad einzuhalten und operative Emissionen zu reduzieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "f47036ed-3218-42c6-a860-0fba0a485256",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die größten Herausforderungen liegen dabei in der Umweltbilanzierung, in isolierten Wissenssilos und fehlenden Standards sowie Datenbanken. Unternehmen stehen vor der Frage, ob sie interne Kompetenzen aufbauen oder externe Beratung und Tools nutzen sollen. Kurz gesagt vor der Frage: Make or Bay?",
+            "Href": null,
+            "Text": {
+              "Content": "Die größten Herausforderungen liegen dabei in der Umweltbilanzierung, in isolierten Wissenssilos und fehlenden Standards sowie Datenbanken. Unternehmen stehen vor der Frage, ob sie interne Kompetenzen aufbauen oder externe Beratung und Tools nutzen sollen. Kurz gesagt vor der Frage: Make or Bay?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2e4db38e-59a5-4ad0-8677-f2f606142672",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Es wird betont, dass klare Zielsetzungen und frühzeitige Planung den Weg für eine sinnvolle Auswahl von Tools und Expertisen ebnen. Unternehmen müssen entscheiden, ob sie interne Kapazitäten aufbauen oder externe Berater beauftragen, wobei eine Zusammenarbeit mit externen Partnern zum Start empfohlen wird.",
+            "Href": null,
+            "Text": {
+              "Content": "Es wird betont, dass klare Zielsetzungen und frühzeitige Planung den Weg für eine sinnvolle Auswahl von Tools und Expertisen ebnen. Unternehmen müssen entscheiden, ob sie interne Kapazitäten aufbauen oder externe Berater beauftragen, wobei eine Zusammenarbeit mit externen Partnern zum Start empfohlen wird."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4240e0ae-0009-4888-a592-74a9eae8ee09",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3797840d-633b-4101-b040-5c9eee38f64d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Übersicht Systemlandschaft der ESG-Tools mit Fokus auf Environmental",
+            "Href": null,
+            "Text": {
+              "Content": "Übersicht Systemlandschaft der ESG-Tools mit Fokus auf Environmental"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e7e4b28a-3dad-482e-ba42-36b73599f4d9/how-to-handle-the-e-in-esg_map.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466R5RTDPO3%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC8fO0iYQcFA%2FXMv1xnqEyQ54Jg1UNur4%2B2mGoliUnEEQIhAJaUOi%2BUPnNiAba%2BoYYIJkGw6AXgbUuLzZoCCi4gwV02KogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzGM%2FMT25X17RVrHiAq3ANGyTbzt3wEPSN7UTCDfFGKsFtcjD3DDe8y4Q%2BSdGyuephpWwsZAp6AP8gtTMfMy5%2Fvy18FdhAqI70NS4jxCb5igIhKiDqmV70mJXvjvLGgvRvy0Gv2p%2FkCTHjRyNt2CA5Q6w8699VglLM2PJHYmpoayg%2FYpnXgGaWDgOKZPBg3fRW16TkVGjW7K1mDsGJhm%2FMpAAEQQJhp1wqeLgiF2oquRcp36Hf9Fbrsrk1%2Bleb0UuzBgb%2BBJwzPzwaU0%2FElsW2GCwU6aQ1%2B8H8C0j3rV7YzQj1A8vLhVk55fx8cxcjej9UgEhRIC4zQOVWApBNfW0q1hNuUXBvgTehOnEB3sqKOUoFE6MbilHbrLKR2ixrgMPvZrJGMqpCuAYZu6JpYgYu9aFnplH8Hdm205BpDGj7V%2BX0F4hZz1Id3i4xilv2hgbiUAMZXeISXr4v%2FRxQVOU6bun2G8nrhHHcOlxZMIVJGiaF9XrQwOK5q%2BJf3q19iI2ELXbz4x8ctGzXgJxhbKkUDc2fRyZ3FkxizyxgsCAGk6aexQZt4L7iDJXfGS5jOIlPDmEYHir5JpTNKyVUB1WuZpcQaNzrdxXa6LZ%2FBi5kIgBdSi9AHUnhh9F65%2FLeBtSbH3UPaRKLA6brpMzCXh8DDBjqkAbp1YhqpebcTcczjjGlU%2BFNfTGR0HSrXNbGJSNbZ8kYySoNJl%2FVGR%2BpKQvKYJIhRKPcSHV7McOUr5y1PxRjF%2FZaBArzkZjolJvYfIx9kPbGfo6oItWIqTOKi3QQnCADb6iqjXg9pBfuRm9K8P0T%2Fdi6r4WIUTYyzhl%2FPPPC84xeS7xzKbI8Mfn2kyPaoWxa%2FfBXA%2FShr31qUoGc%2BSpguqIX6lZuY&X-Amz-Signature=60130600b51947f3d015ad2ab5d3d7443bbc75ad31fd7384136d77b8ba048eb9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:04.262Z"
+        }
+      }
+    },
+    {
+      "Id": "173f1065-ee3c-4a94-a89d-48b4bed377b9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "a6e3c554-b702-4034-a705-5d9727bab8c0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "14de5bd0-9fdb-44af-bcec-cba9043a49f7",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

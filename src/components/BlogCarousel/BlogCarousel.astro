@@ -14,7 +14,7 @@ const { posts } = Astro.props;
 // It only accepts string literals
 // https://docs.astro.build/en/recipes/dynamically-importing-images/
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}",
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
 );
 ---
 

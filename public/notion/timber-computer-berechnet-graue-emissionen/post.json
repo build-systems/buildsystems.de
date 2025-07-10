@@ -1,0 +1,749 @@
+{
+  "PageId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+  "Title": "Der Timber Computer als digitales Format des Wissenstransfers",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Tool",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a8abc1ae-5d69-4925-988c-047b97c17e68/timber-computer-berechnet-graue-emissionen_bauteile.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X7FY5EDY%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T182957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCm3OoFfVJ210S29TRcFRWRoRIpgRR6Gw2Njo9dyfEegIhAJkfXtukgqIlgu%2BvAEOHgpw5kcqYpc40gIpyb5wjKomTKogECMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxmpTxMGG61hSYGLxkq3APpZHINfRoMDaHNCMOfdGL60dRydBYpwnHNvcJNjKLH5w8MIxp%2Fp%2F6HCQymyZBghyXHXk%2FgnrGapqdGhlJlkpogq8%2BrNrkv9Yo2xWs8oS0XwfGt1cj1eB9ZIUVEBiXDJLQqylES7g9BOnKO5mxRVC5%2FEDvH1kcaCMqcaFvHBS8tywsGLYzDDQvYMamUPueXjEA8FdR1mrv5Dgtz%2Fc%2B2lcdvueF4fjz2%2FW3KIr4QHMxppgoBmAW%2BN2mZMgkKIV2C4Gv6svHqSDC%2FWkGj6qTtlw8eMtn2rdve%2BtLk%2BE42hhAqO6EWtJVa4P8iFXnKCMIKUM1pFAhgD8EISGFwqtCjjRpooyKgmo5D5zp57QBjx3qjaH3LXiFB92%2BROcxWKD5%2FeBt7pUejYxk7%2Fqg0y20hlJQ0oRizoxLdhqQn0EvcBSiq0v5ieSctsZmx9cpN7qjeuqeQt26R1UGou7jtAgpthCF9WXsK7oakLIo18KZuJBPqs5ilpDwh1z%2FIyawxxrduJKGmHGDRT5JRyvaelxhAcx54o7NpAcoVWnGomsbaNtf6DCIz2dEhJTDt68rbz2n02IPzQ3ctYG4jtu6ZuOVmFesW0soCHU5UqSgrBo94qXNMVkOW7nt8qLNnepEOzzD1h8DDBjqkARjyAR1cKQrfFiWKDK7J%2F%2FiNhgRnuylnJPJuAaOPud%2F7rMIlnVuD4lRaCcEKAJu%2BSlry8YsjUwaIvtCAwzKvl6h%2FdXdE8MeDkIqy64wxE6ZFV098fZ5q%2BDordCgOFU3jpiULHWwRAbJKzz2i%2F0tm8W8OMKl6QGRT%2BksNFA5olMvXY9iHAjiUU7mQiUSW%2FExVHY3LNbtK4%2Bj9aWIaLFNvNKwJw1B4&X-Amz-Signature=19c299f7ddcc467d8750c33ac201d6c21a1c238823fb8b5edd6470c5efe169a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "Timber Computer Bauteile",
+  "Slug": "timber-computer-berechnet-graue-emissionen",
+  "PublishDate": "2023-12-14",
+  "Tags": [
+    {
+      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
+      "name": "Ökobilanzierung",
+      "color": "red"
+    },
+    {
+      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
+      "name": "Holzbau",
+      "color": "green"
+    },
+    {
+      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
+      "name": "Stadt der Zukunft",
+      "color": "orange"
+    },
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
+      "name": "Digitalisierung",
+      "color": "yellow"
+    }
+  ],
+  "Description": "Die Bedeutung von grauen Emissionen und nachwachsenden Rohstoffen interaktiv und spielerisch: Der Timber Computer ",
+  "coverAsset": "timber-computer-berechnet-graue-emissionen_bauteile.jpg",
+  "blockAssets": [
+    "timber-computer-berechnet-graue-emissionen__Emissionen.jpg",
+    "timber-computer-berechnet-graue-emissionen_computer3.jpg",
+    "f1fb8bf4-7cad-4b19-8091-7fede35f465a.jpg",
+    "timber-computer-berechnet-graue-emissionen_compute2.jpg",
+    "timber-computer-berechnet-graue-emissionen__Optimierung.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "8c5c2a9e-637d-4fd8-a837-bfa57af6a159",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Hintergrund",
+            "Href": null,
+            "Text": {
+              "Content": "Hintergrund"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "33bbb7b4-0a38-4ee0-b087-e55bd4e0c5b3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bauindustrie ist mit 38 % aller weltweiten CO2-Emissionen einer der größten Umweltverschmutzer der Welt. Neben einer drastischen Senkung der betrieblichen Emissionen müssen wir auch die grauen Emissionen angehen, die beim Bau entstehen. Dazu müssen wir die Art und Weise, wie wir heute bauen, grundlegend neu überdenken. Dabei spielen Holz und andere erneuerbare Materialien eine entscheidende Rolle. Biogene Baumaterialien speichern Kohlenstoff während ihres Wachstums und speichern ihn während ihres gesamten Lebenszyklus ein. Mit dem städtischen Holzbau sind wir in der Lage, Kohlenstoff abzuschwächen und gleichzeitig die CO2-Emissionen aus konventionellen Produktionsmethoden durch Substitution erheblich zu reduzieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bauindustrie ist mit 38 % aller weltweiten CO2-Emissionen einer der größten Umweltverschmutzer der Welt. Neben einer drastischen Senkung der betrieblichen Emissionen müssen wir auch die grauen Emissionen angehen, die beim Bau entstehen. Dazu müssen wir die Art und Weise, wie wir heute bauen, grundlegend neu überdenken. Dabei spielen Holz und andere erneuerbare Materialien eine entscheidende Rolle. Biogene Baumaterialien speichern Kohlenstoff während ihres Wachstums und speichern ihn während ihres gesamten Lebenszyklus ein. Mit dem städtischen Holzbau sind wir in der Lage, Kohlenstoff abzuschwächen und gleichzeitig die CO2-Emissionen aus konventionellen Produktionsmethoden durch Substitution erheblich zu reduzieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "def8b112-b155-448b-bcf0-708982956008",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Um die Thematik einer breiten Öffentlichkeit nachvollziehbar zugänglich zu machen, setzte das Team von BuildSystems den ",
+            "Href": null,
+            "Text": {
+              "Content": "Um die Thematik einer breiten Öffentlichkeit nachvollziehbar zugänglich zu machen, setzte das Team von BuildSystems den "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Timber Computer",
+            "Href": "https://timber.computer/",
+            "Text": {
+              "Content": "Timber Computer",
+              "Link": {
+                "Url": "https://timber.computer/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " im Zuge des ",
+            "Href": null,
+            "Text": {
+              "Content": " im Zuge des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Protoype Funds",
+            "Href": "https://prototypefund.de/",
+            "Text": {
+              "Content": "Protoype Funds",
+              "Link": {
+                "Url": "https://prototypefund.de/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " in Zusammenarbeit mit ",
+            "Href": null,
+            "Text": {
+              "Content": " in Zusammenarbeit mit "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Living Systems",
+            "Href": "https://www.living.systems/",
+            "Text": {
+              "Content": "Living Systems",
+              "Link": {
+                "Url": "https://www.living.systems/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", ",
+            "Href": null,
+            "Text": {
+              "Content": ", "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Humans and Machines",
+            "Href": "https://www.humans-machines.com/",
+            "Text": {
+              "Content": "Humans and Machines",
+              "Link": {
+                "Url": "https://www.humans-machines.com/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " sowie ",
+            "Href": null,
+            "Text": {
+              "Content": " sowie "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Neo-Metabolism",
+            "Href": "https://n-m.world/",
+            "Text": {
+              "Content": "Neo-Metabolism",
+              "Link": {
+                "Url": "https://n-m.world/"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " um. Das Projekt wurde durch das Bundesministerium für Bildung und Forschung ",
+            "Href": null,
+            "Text": {
+              "Content": " um. Das Projekt wurde durch das Bundesministerium für Bildung und Forschung "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "(BMBF)",
+            "Href": "https://www.bmbf.de/bmbf/de/home/home_node.html",
+            "Text": {
+              "Content": "(BMBF)",
+              "Link": {
+                "Url": "https://www.bmbf.de/bmbf/de/home/home_node.html"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " gefördert. \n",
+            "Href": null,
+            "Text": {
+              "Content": " gefördert. \n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "71da0085-336f-4f6a-8dc4-0b76de1a70b0",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "38 % globaler Emissionen stammen aus dem Gebäudesektor",
+            "Href": null,
+            "Text": {
+              "Content": "38 % globaler Emissionen stammen aus dem Gebäudesektor"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b0d2e01e-fccf-4d75-8ff2-bfb2ba9c13d4/timber-computer-berechnet-graue-emissionen__Emissionen.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663N3SKARQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGAZsCqkd0unV%2Fb7vxvGR9Lh07J1zFT%2Bn6CX%2BKYUhPpRAiEAlVjRlj%2BerU4%2Bkn1pFUOitrAVmMQQxPqbBaK7bkDLvikqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJnm%2FjDukFruZFZc5CrcA83098uMKNsGYOXf7QNyM8AgknnGHx3ZzymwZaXDgfzIdXE%2F1w5WLnk0BHpTgAEI0vCGpixyB3Ll4gVkJ9CKYmM4NTyF13JJk2GGGTg2ymtczLSTLbAoCnlcAdB14FIKSsj0NZbDeJUTXn08qE1BmkX87aQFR2DRszRTsSeu7WUrJZlYN3W0CmfV0pepDHZbXmheXgn34wft50AMmWDhB%2BKSXPRB2hg4PNvggxen4yQlSx9c3aYbbTzWiEX%2FpS7f6A81bl2igXI08xrV0t7fLO9S5H3dxRIFSkQw8bUurw6dOtOh5ahBTdWHQO%2B3MU2l3dTqoesRE%2FKm9%2B8DusodQQOa2NG3u%2FeTebdirqMxZwZcGOfZCzDbkDqACz00XWjUOUf%2Fdv21B3ItOQT9ZmY09CFEUi3vrZrgRcvEBeLujGGHh0KiHnEUXxsANArJBfQ5cBVvvlISXv5mX7H%2F6bUp5drWC61SszhPJOcY1DtfDIA%2BOZtS8ne0GiTBcMFd2eRcRkcOGW5c9vUkna8pQVG0fguaQUJ65%2Bn26ya%2F1wOENbvlAFQCMiNUJvVPvbDKsh31IA8Ng3iAJpvdVg0M4RRQv7Jbu%2FPVpvF%2B%2B3LkMgSzraY1bgsMD5IAQA0qYDisMOyHwMMGOqUBlBSkUyBZXTIDOY84fMohhaY52B3dt5QCkHIw6KNgqwyI6JbSZt%2BzNQVRGxYXtSz9hcdsuC4eZM0phlGYShIkpEGDAgRT0BbtMa7FjIhGgf1%2FFW2ffqYSz20s%2BUic4xQw8bUlQ7HrD27%2BpzheO9BqWmk8LDckimRgLHrftL3fjGDt26jMg822wxO89Bar4w1ovjznJj%2BSZws6TfvqbD3tP5PM62od&X-Amz-Signature=a8af13e58a294972eb70b38b2c79f41c46455940edf73d0e72ca471e96df69ae&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.546Z"
+        }
+      }
+    },
+    {
+      "Id": "5e2b2a11-b24b-4a85-898f-207081408625",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Timber Computer ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Timber Computer "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "ae71b8ea-cc7e-4aa9-b9e1-b15618fe3a2e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltiges Bauen ist keine leichte Aufgabe. Einschlägiges Know-how ist schwer zugänglich und eine qualifizierte Berücksichtigung von Nachhaltigkeitskriterien in der Entwurfsphase ist sehr komplex. Der Timber Computer vermittelt entscheidendes Wissen auf zwei Ebenen: Das interaktive Webtool ermöglicht die Berechnung des CO₂-Fußabdrucks ausgewählter Bauweisen und Komponenten anhand eines konfigurierbaren Typengebäudes (compute) und erklärt anschaulich die zugrundeliegenden Prinzipien und Mechanismen des nachhaltigen Bauens (learn).",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltiges Bauen ist keine leichte Aufgabe. Einschlägiges Know-how ist schwer zugänglich und eine qualifizierte Berücksichtigung von Nachhaltigkeitskriterien in der Entwurfsphase ist sehr komplex. Der Timber Computer vermittelt entscheidendes Wissen auf zwei Ebenen: Das interaktive Webtool ermöglicht die Berechnung des CO₂-Fußabdrucks ausgewählter Bauweisen und Komponenten anhand eines konfigurierbaren Typengebäudes (compute) und erklärt anschaulich die zugrundeliegenden Prinzipien und Mechanismen des nachhaltigen Bauens (learn)."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2301d45a-73e5-4d40-9fe0-73445db33094",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Startseite des Timber Computers",
+            "Href": null,
+            "Text": {
+              "Content": "Die Startseite des Timber Computers"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5dd39263-a508-4e7d-84eb-8df4c3d6af22/timber-computer-berechnet-graue-emissionen_computer3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663N3SKARQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGAZsCqkd0unV%2Fb7vxvGR9Lh07J1zFT%2Bn6CX%2BKYUhPpRAiEAlVjRlj%2BerU4%2Bkn1pFUOitrAVmMQQxPqbBaK7bkDLvikqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJnm%2FjDukFruZFZc5CrcA83098uMKNsGYOXf7QNyM8AgknnGHx3ZzymwZaXDgfzIdXE%2F1w5WLnk0BHpTgAEI0vCGpixyB3Ll4gVkJ9CKYmM4NTyF13JJk2GGGTg2ymtczLSTLbAoCnlcAdB14FIKSsj0NZbDeJUTXn08qE1BmkX87aQFR2DRszRTsSeu7WUrJZlYN3W0CmfV0pepDHZbXmheXgn34wft50AMmWDhB%2BKSXPRB2hg4PNvggxen4yQlSx9c3aYbbTzWiEX%2FpS7f6A81bl2igXI08xrV0t7fLO9S5H3dxRIFSkQw8bUurw6dOtOh5ahBTdWHQO%2B3MU2l3dTqoesRE%2FKm9%2B8DusodQQOa2NG3u%2FeTebdirqMxZwZcGOfZCzDbkDqACz00XWjUOUf%2Fdv21B3ItOQT9ZmY09CFEUi3vrZrgRcvEBeLujGGHh0KiHnEUXxsANArJBfQ5cBVvvlISXv5mX7H%2F6bUp5drWC61SszhPJOcY1DtfDIA%2BOZtS8ne0GiTBcMFd2eRcRkcOGW5c9vUkna8pQVG0fguaQUJ65%2Bn26ya%2F1wOENbvlAFQCMiNUJvVPvbDKsh31IA8Ng3iAJpvdVg0M4RRQv7Jbu%2FPVpvF%2B%2B3LkMgSzraY1bgsMD5IAQA0qYDisMOyHwMMGOqUBlBSkUyBZXTIDOY84fMohhaY52B3dt5QCkHIw6KNgqwyI6JbSZt%2BzNQVRGxYXtSz9hcdsuC4eZM0phlGYShIkpEGDAgRT0BbtMa7FjIhGgf1%2FFW2ffqYSz20s%2BUic4xQw8bUlQ7HrD27%2BpzheO9BqWmk8LDckimRgLHrftL3fjGDt26jMg822wxO89Bar4w1ovjznJj%2BSZws6TfvqbD3tP5PM62od&X-Amz-Signature=61c222f080440d981b0e84a0f386dcb33c93a52f3cb2b39ad455244a68eed6e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.533Z"
+        }
+      }
+    },
+    {
+      "Id": "bccfb7f3-0321-44d1-9f80-7a3a4b47f2e8",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kernfunktionalitäten des Timber Computers: Messen, vergleichen, anwenden und skalieren",
+            "Href": null,
+            "Text": {
+              "Content": "Kernfunktionalitäten des Timber Computers: Messen, vergleichen, anwenden und skalieren"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/bf4acd1a-88a5-4100-9dfe-b40860f1d03a/f1fb8bf4-7cad-4b19-8091-7fede35f465a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663N3SKARQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGAZsCqkd0unV%2Fb7vxvGR9Lh07J1zFT%2Bn6CX%2BKYUhPpRAiEAlVjRlj%2BerU4%2Bkn1pFUOitrAVmMQQxPqbBaK7bkDLvikqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJnm%2FjDukFruZFZc5CrcA83098uMKNsGYOXf7QNyM8AgknnGHx3ZzymwZaXDgfzIdXE%2F1w5WLnk0BHpTgAEI0vCGpixyB3Ll4gVkJ9CKYmM4NTyF13JJk2GGGTg2ymtczLSTLbAoCnlcAdB14FIKSsj0NZbDeJUTXn08qE1BmkX87aQFR2DRszRTsSeu7WUrJZlYN3W0CmfV0pepDHZbXmheXgn34wft50AMmWDhB%2BKSXPRB2hg4PNvggxen4yQlSx9c3aYbbTzWiEX%2FpS7f6A81bl2igXI08xrV0t7fLO9S5H3dxRIFSkQw8bUurw6dOtOh5ahBTdWHQO%2B3MU2l3dTqoesRE%2FKm9%2B8DusodQQOa2NG3u%2FeTebdirqMxZwZcGOfZCzDbkDqACz00XWjUOUf%2Fdv21B3ItOQT9ZmY09CFEUi3vrZrgRcvEBeLujGGHh0KiHnEUXxsANArJBfQ5cBVvvlISXv5mX7H%2F6bUp5drWC61SszhPJOcY1DtfDIA%2BOZtS8ne0GiTBcMFd2eRcRkcOGW5c9vUkna8pQVG0fguaQUJ65%2Bn26ya%2F1wOENbvlAFQCMiNUJvVPvbDKsh31IA8Ng3iAJpvdVg0M4RRQv7Jbu%2FPVpvF%2B%2B3LkMgSzraY1bgsMD5IAQA0qYDisMOyHwMMGOqUBlBSkUyBZXTIDOY84fMohhaY52B3dt5QCkHIw6KNgqwyI6JbSZt%2BzNQVRGxYXtSz9hcdsuC4eZM0phlGYShIkpEGDAgRT0BbtMa7FjIhGgf1%2FFW2ffqYSz20s%2BUic4xQw8bUlQ7HrD27%2BpzheO9BqWmk8LDckimRgLHrftL3fjGDt26jMg822wxO89Bar4w1ovjznJj%2BSZws6TfvqbD3tP5PM62od&X-Amz-Signature=7a1aeca4487a74b770638b217be96f9b4558d1816ed7ea45c8849f4361d153fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.533Z"
+        }
+      }
+    },
+    {
+      "Id": "5acbbb8d-a24d-4497-8f59-a0f845011d2e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Funktionalität des Timber Computers: ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Funktionalität des Timber Computers: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3a95e32f-64ea-44cd-8f41-547019842d13",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Timber Computer dient als Orientierungshilfe in der frühen Entwurfsphase. Er basiert auf einem Modellgebäude und rechnet mit konkreten Anteilen, Emissionen und Kennwerten, die sich aus bestimmten Bauteilen ergeben. Das Modellgebäude ist ein marktrepräsentatives Mehrfamilienhaus, das in mineralischer oder Holzbauweise realisiert werden kann. Der Timber Computer untersucht drei Konstruktionskriterien: Tragwerk, Hülle und Ausbau und deren jeweilige Unterkriterien, die für die verschiedenen Bauteile wie Decken und Wände etc. stehen.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Timber Computer dient als Orientierungshilfe in der frühen Entwurfsphase. Er basiert auf einem Modellgebäude und rechnet mit konkreten Anteilen, Emissionen und Kennwerten, die sich aus bestimmten Bauteilen ergeben. Das Modellgebäude ist ein marktrepräsentatives Mehrfamilienhaus, das in mineralischer oder Holzbauweise realisiert werden kann. Der Timber Computer untersucht drei Konstruktionskriterien: Tragwerk, Hülle und Ausbau und deren jeweilige Unterkriterien, die für die verschiedenen Bauteile wie Decken und Wände etc. stehen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "bcb9c0d4-2dfb-40ad-af5d-4548c24dba0e",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einblwick in den “Compute” Bereich des Timber Computers",
+            "Href": null,
+            "Text": {
+              "Content": "Einblwick in den “Compute” Bereich des Timber Computers"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/52defdfe-0e45-4d6b-85df-94103f1aefe1/timber-computer-berechnet-graue-emissionen_compute2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663N3SKARQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGAZsCqkd0unV%2Fb7vxvGR9Lh07J1zFT%2Bn6CX%2BKYUhPpRAiEAlVjRlj%2BerU4%2Bkn1pFUOitrAVmMQQxPqbBaK7bkDLvikqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJnm%2FjDukFruZFZc5CrcA83098uMKNsGYOXf7QNyM8AgknnGHx3ZzymwZaXDgfzIdXE%2F1w5WLnk0BHpTgAEI0vCGpixyB3Ll4gVkJ9CKYmM4NTyF13JJk2GGGTg2ymtczLSTLbAoCnlcAdB14FIKSsj0NZbDeJUTXn08qE1BmkX87aQFR2DRszRTsSeu7WUrJZlYN3W0CmfV0pepDHZbXmheXgn34wft50AMmWDhB%2BKSXPRB2hg4PNvggxen4yQlSx9c3aYbbTzWiEX%2FpS7f6A81bl2igXI08xrV0t7fLO9S5H3dxRIFSkQw8bUurw6dOtOh5ahBTdWHQO%2B3MU2l3dTqoesRE%2FKm9%2B8DusodQQOa2NG3u%2FeTebdirqMxZwZcGOfZCzDbkDqACz00XWjUOUf%2Fdv21B3ItOQT9ZmY09CFEUi3vrZrgRcvEBeLujGGHh0KiHnEUXxsANArJBfQ5cBVvvlISXv5mX7H%2F6bUp5drWC61SszhPJOcY1DtfDIA%2BOZtS8ne0GiTBcMFd2eRcRkcOGW5c9vUkna8pQVG0fguaQUJ65%2Bn26ya%2F1wOENbvlAFQCMiNUJvVPvbDKsh31IA8Ng3iAJpvdVg0M4RRQv7Jbu%2FPVpvF%2B%2B3LkMgSzraY1bgsMD5IAQA0qYDisMOyHwMMGOqUBlBSkUyBZXTIDOY84fMohhaY52B3dt5QCkHIw6KNgqwyI6JbSZt%2BzNQVRGxYXtSz9hcdsuC4eZM0phlGYShIkpEGDAgRT0BbtMa7FjIhGgf1%2FFW2ffqYSz20s%2BUic4xQw8bUlQ7HrD27%2BpzheO9BqWmk8LDckimRgLHrftL3fjGDt26jMg822wxO89Bar4w1ovjznJj%2BSZws6TfvqbD3tP5PM62od&X-Amz-Signature=353bc3debaffe31a11c94cab20bebe7176222b16fc9e15e9991903f57fad528a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.537Z"
+        }
+      }
+    },
+    {
+      "Id": "a7c24596-386d-48a5-853d-a0fb50795755",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bewertung erfolgt anhand des Treibhauspotenzials (GWP) der entsprechenden Bauteile und ihrer Bauweise (Mineral-, Hybrid-, Holzbau). CO2-intensive Bauteile und Bauteile, die einen großen Teil der Gebäudemasse ausmachen, werden höher gewichtet, um den Einfluss des Bauteils auf die Gesamtnachhaltigkeit des Gebäudes widerzuspiegeln. Der Einfluss des Bauteils ist stark abhängig von gebäudespezifischen Parametern wie Kubatur, Flächen-/Volumenverhältnis, Geschosshöhe, Grundrissgestaltung und Nutzung. ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bewertung erfolgt anhand des Treibhauspotenzials (GWP) der entsprechenden Bauteile und ihrer Bauweise (Mineral-, Hybrid-, Holzbau). CO2-intensive Bauteile und Bauteile, die einen großen Teil der Gebäudemasse ausmachen, werden höher gewichtet, um den Einfluss des Bauteils auf die Gesamtnachhaltigkeit des Gebäudes widerzuspiegeln. Der Einfluss des Bauteils ist stark abhängig von gebäudespezifischen Parametern wie Kubatur, Flächen-/Volumenverhältnis, Geschosshöhe, Grundrissgestaltung und Nutzung. "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Neben den wesentlichen baulichen und äußeren Komponenten berücksichtigt der Timber Computer jedoch nicht die Komponenten des Innenausbaus wie Installation, Innenraumgestaltung und Beleuchtung.",
+            "Href": null,
+            "Text": {
+              "Content": "Neben den wesentlichen baulichen und äußeren Komponenten berücksichtigt der Timber Computer jedoch nicht die Komponenten des Innenausbaus wie Installation, Innenraumgestaltung und Beleuchtung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "e33cf6c2-fdd1-4988-a987-8ac24623342b",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unterschiedliche Aspekte einer Ökobilanzierung",
+            "Href": null,
+            "Text": {
+              "Content": "Unterschiedliche Aspekte einer Ökobilanzierung"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8695fb98-75cb-42f1-8d94-686c64f3fbd4/timber-computer-berechnet-graue-emissionen__Optimierung.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663N3SKARQ%2F20250710%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250710T183006Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGAZsCqkd0unV%2Fb7vxvGR9Lh07J1zFT%2Bn6CX%2BKYUhPpRAiEAlVjRlj%2BerU4%2Bkn1pFUOitrAVmMQQxPqbBaK7bkDLvikqiAQIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJnm%2FjDukFruZFZc5CrcA83098uMKNsGYOXf7QNyM8AgknnGHx3ZzymwZaXDgfzIdXE%2F1w5WLnk0BHpTgAEI0vCGpixyB3Ll4gVkJ9CKYmM4NTyF13JJk2GGGTg2ymtczLSTLbAoCnlcAdB14FIKSsj0NZbDeJUTXn08qE1BmkX87aQFR2DRszRTsSeu7WUrJZlYN3W0CmfV0pepDHZbXmheXgn34wft50AMmWDhB%2BKSXPRB2hg4PNvggxen4yQlSx9c3aYbbTzWiEX%2FpS7f6A81bl2igXI08xrV0t7fLO9S5H3dxRIFSkQw8bUurw6dOtOh5ahBTdWHQO%2B3MU2l3dTqoesRE%2FKm9%2B8DusodQQOa2NG3u%2FeTebdirqMxZwZcGOfZCzDbkDqACz00XWjUOUf%2Fdv21B3ItOQT9ZmY09CFEUi3vrZrgRcvEBeLujGGHh0KiHnEUXxsANArJBfQ5cBVvvlISXv5mX7H%2F6bUp5drWC61SszhPJOcY1DtfDIA%2BOZtS8ne0GiTBcMFd2eRcRkcOGW5c9vUkna8pQVG0fguaQUJ65%2Bn26ya%2F1wOENbvlAFQCMiNUJvVPvbDKsh31IA8Ng3iAJpvdVg0M4RRQv7Jbu%2FPVpvF%2B%2B3LkMgSzraY1bgsMD5IAQA0qYDisMOyHwMMGOqUBlBSkUyBZXTIDOY84fMohhaY52B3dt5QCkHIw6KNgqwyI6JbSZt%2BzNQVRGxYXtSz9hcdsuC4eZM0phlGYShIkpEGDAgRT0BbtMa7FjIhGgf1%2FFW2ffqYSz20s%2BUic4xQw8bUlQ7HrD27%2BpzheO9BqWmk8LDckimRgLHrftL3fjGDt26jMg822wxO89Bar4w1ovjznJj%2BSZws6TfvqbD3tP5PM62od&X-Amz-Signature=bc03717dc0d008aaaad6edf0aa87bade92488d82eb309ddb35ac055f549b2be7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2025-07-10T19:30:06.544Z"
+        }
+      }
+    },
+    {
+      "Id": "34b859f8-70b0-4d78-9837-74691555ca2a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Timber Computer soll den Übergang zu ökologischem und bezahlbarem Bauen unterstützen. Er enthält wichtige Grundsätze, die es Städten und Gemeinden ermöglichen, bei der Vergabe öffentlicher Grundstücke für neu zu errichtende Quartiere holzbauspezifische Anforderungen festzulegen, was für die Verringerung des Treibhauspotenzials (GWP) von Gebäuden und für die langfristige Speicherung von Kohlenstoff von entscheidender Bedeutung ist. ",
+            "Href": null,
+            "Text": {
+              "Content": "Der Timber Computer soll den Übergang zu ökologischem und bezahlbarem Bauen unterstützen. Er enthält wichtige Grundsätze, die es Städten und Gemeinden ermöglichen, bei der Vergabe öffentlicher Grundstücke für neu zu errichtende Quartiere holzbauspezifische Anforderungen festzulegen, was für die Verringerung des Treibhauspotenzials (GWP) von Gebäuden und für die langfristige Speicherung von Kohlenstoff von entscheidender Bedeutung ist. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "56d723c1-9ddd-4d76-8362-a0da96cedb8d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Derzeit gibt es in Deutschland keine gesetzlichen Vorgaben bezüglich der Umweltauswirkungen und des Ressourcenverbrauchs bei der Errichtung von Gebäuden. Lediglich bei Förderungen werden gewisse Benchmarks aufgerufen. Zukünftig sollte jedoch die Vergabe von Grundstücken bei der Entwicklung nachhaltiger Quartiere an konsequente ökologische Kriterien, wie z.B. das Treibhauspotenzial (GWP) der Konstruktion sowie den Anteil an nachwachsenden Rohstoffen, geknüpft werden. Für die Bewertung der konstruktiven und ökologischen Parameter von architektonischen Entwürfen im Rahmen der Flächenvergabe sind Mindestkriterien bzw. Zielvorgaben erforderlich. Die Ziele sollten im Rahmen einer (mehrstufigen) Konzeptausschreibung als Teil der definierten Nachhaltigkeitsanforderungen berücksichtigt werden. Sehen Sie dazu auch unsere Arbeit an der Potenzialstudie und Vergabematrix des Schumacher Quartiers.",
+            "Href": null,
+            "Text": {
+              "Content": "Derzeit gibt es in Deutschland keine gesetzlichen Vorgaben bezüglich der Umweltauswirkungen und des Ressourcenverbrauchs bei der Errichtung von Gebäuden. Lediglich bei Förderungen werden gewisse Benchmarks aufgerufen. Zukünftig sollte jedoch die Vergabe von Grundstücken bei der Entwicklung nachhaltiger Quartiere an konsequente ökologische Kriterien, wie z.B. das Treibhauspotenzial (GWP) der Konstruktion sowie den Anteil an nachwachsenden Rohstoffen, geknüpft werden. Für die Bewertung der konstruktiven und ökologischen Parameter von architektonischen Entwürfen im Rahmen der Flächenvergabe sind Mindestkriterien bzw. Zielvorgaben erforderlich. Die Ziele sollten im Rahmen einer (mehrstufigen) Konzeptausschreibung als Teil der definierten Nachhaltigkeitsanforderungen berücksichtigt werden. Sehen Sie dazu auch unsere Arbeit an der Potenzialstudie und Vergabematrix des Schumacher Quartiers."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "55fe797a-0523-40df-bb6f-e864d2f5a31c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "ee68a94b-937b-407d-bec1-f2172c46ba4a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: Timber Computer",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: Timber Computer"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "4b57314a-cc50-48d1-b092-95ee2662f36b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "7ede380b-9310-4487-85db-6e61edfbb6da",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

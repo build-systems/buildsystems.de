@@ -25,7 +25,7 @@ export default (): AstroIntegration => ({
             return Promise.resolve();
           }
 
-          return downloadImage(url, "");
+          return downloadImage(url, `partners`);
         }),
       );
     },
