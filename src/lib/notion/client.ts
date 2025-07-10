@@ -72,6 +72,14 @@ function isValidUrl(urlString: string): boolean {
   }
 }
 
+function ensureHttps(url: string): string {
+  if (!url) return url;
+  if (url.startsWith("http://") || url.startsWith("https://")) {
+    return url;
+  }
+  return "https://" + url;
+}
+
 const client = new Client({
   auth: NOTION_API_SECRET,
 });
@@ -219,7 +227,7 @@ export async function getAllPartners(): Promise<PartnerCard[]> {
     return Promise.resolve(partnersCache);
   }
 
-  // console.log("\n===== Getting all people =====");
+  // console.log("\n===== Getting all partners =====");
   const params: requestParams.QueryDatabase = {
     database_id: PARTNERS_DB_ID,
     page_size: 100,
@@ -1382,8 +1390,8 @@ function _buildPerson(pageObject: responses.PageObject): PersonCard {
     LinkedIn:
       prop.LinkedIn.url &&
       prop.LinkedIn.url.length > 0 &&
-      isValidUrl(prop.LinkedIn.url)
-        ? new URL(prop.LinkedIn.url)
+      isValidUrl(ensureHttps(prop.LinkedIn.url))
+        ? new URL(ensureHttps(prop.LinkedIn.url))
         : null,
     Email:
       prop.Email.email && prop.Email.email.length > 0 ? prop.Email.email : "",
@@ -1463,12 +1471,12 @@ function _buildPartner(pageObject: responses.PageObject): PartnerCard {
     LinkedIn:
       prop.LinkedIn.url &&
       prop.LinkedIn.url.length > 0 &&
-      isValidUrl(prop.LinkedIn.url)
-        ? new URL(prop.LinkedIn.url)
+      isValidUrl(ensureHttps(prop.LinkedIn.url))
+        ? new URL(ensureHttps(prop.LinkedIn.url))
         : null,
     Website:
       prop.Website.url && prop.Website.url.length > 0
-        ? new URL(prop.Website.url)
+        ? new URL(ensureHttps(prop.Website.url))
         : null,
     Photo: photo,
     Visible: prop.Visible.checkbox ? prop.Visible.checkbox : false,
@@ -1548,12 +1556,12 @@ function _buildOrganization(
     LinkedIn:
       prop.LinkedIn.url &&
       prop.LinkedIn.url.length > 0 &&
-      isValidUrl(prop.LinkedIn.url)
-        ? new URL(prop.LinkedIn.url)
+      isValidUrl(ensureHttps(prop.LinkedIn.url))
+        ? new URL(ensureHttps(prop.LinkedIn.url))
         : null,
     Website:
       prop.Website.url && prop.Website.url.length > 0
-        ? new URL(prop.Website.url)
+        ? new URL(ensureHttps(prop.Website.url))
         : null,
     Photo: photo,
     Visible: prop.Visible.checkbox ? prop.Visible.checkbox : false,

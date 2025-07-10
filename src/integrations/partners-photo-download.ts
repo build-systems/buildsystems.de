@@ -11,10 +11,13 @@ export default (): AstroIntegration => ({
       await Promise.all(
         partners.map((org) => {
           if (!org.Photo || !org.Photo.Url) {
+            console.log("No photo URL found for partner: " + org.Name);
             return Promise.resolve();
           }
 
           let url!: URL;
+
+          console.log("Downloading photo for partner: " + org.Name);
           try {
             url = new URL(org.Photo.Url);
           } catch (error) {
