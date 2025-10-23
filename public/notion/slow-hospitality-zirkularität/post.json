@@ -1,0 +1,1000 @@
+{
+  "PageId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+  "Title": "Slow Hospitality meets Baustelle: Einblicke in den Prozess der Zirkularität",
+  "Authors": [
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "Work in Progress",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/27dcb148-dbff-40b9-8cd5-70a4605f221a/04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663JWQV63K%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T172612Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDIOTO125huZc5rphJp2D9KaXCux4Lp5McnCKiFvGocvQIgMp2QuKwMWcd1uUNXZ4e6i4d0%2F4dneuXXShBtsduqoloq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDOqfoiwhETahmubrpSrcA%2BcuL%2BwbxWmXXAzTR58S3lmmFqaCDkTwLbYjnFTUjduO6NJKyTTQiMVCQN1Qakn98SSd1bmnk829VbPvM4VbFKLmagHxUW8e%2BpCRzC%2FP0mIo2P9fxtf2Q3VhDBNu3FCa%2BdnztSQlE05uNSfsUmUzPOcEstjxaPTE3jD5CgWP%2FXSyBcP%2FfnxZVS2%2FDfJfguKYvhbFnxUEqQMPQOGf3uUOtRW1lOnMLkqmoYYqB3CSF6daFQeV%2Fx%2B3e1fLS3QT7OXIUeVHGYC9EHfZ8QSIv81r5OynaDWooJUJkGtEiKR55JiAJiG1%2F5tE8v%2FLjUzbLacV2GyMj6U%2FGYtej9oR7MiqC8rnfWTO7AzPRPc9on6ET3S0hzlIe9AgPYrmjaBeeJlntyTNrawbuHV0Qjf22p%2FPdY3bVoN%2BAPfFIb3lNObtZD6MqLI56HRKU%2F0Z0goJgN4FEreJopV5R0Yk4fwLEOsypZYlaKy26C8t6Rykp9lqBdOn%2BfIwwmJ7xpVREiGm1oW16XVMO18VBT90%2BT6ee8Cegdmft4IWvgYqEHNd22pNCMFq6j4bw1zZ3H2jYwt3JX2c4N8ywIyPwmDjfN99AWupWKB3PMpUvqpADD3gzzGO8DP184tMERD0cbI0VTpNMNC%2B6ccGOqUBGgWeXfiNLY%2FdDCniTrVzObzDl4fE%2Faa8IF1Bl20d1%2Bs5XT0kqZTRSWRULoOzcGuKqrcUyeAWaevvKX4hlNSKtrxQpku2bcjlz6%2BfyFE9%2B3FNwesDohnl0w8duE4tb%2BGS5UXrjZnZV9BMwG3BpqEC%2BT2xjUt2u8wBgiELgKznc2w1HChCSBdJ1Hg6vIKLEbiNnIeL6LBB1H0nRnuYzegdgj9h8HGv&X-Amz-Signature=3e81d5d08c6087a8f82e2abccef50e4ad98e5b04b0b0c2d15c1ac2956621b06f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "BuildSystems Kellerstöckl Zirkularität",
+  "Slug": "slow-hospitality-zirkularität",
+  "PublishDate": "2025-10-20",
+  "Tags": [
+    {
+      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
+      "name": "Bauwende",
+      "color": "pink"
+    },
+    {
+      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
+      "name": "Beratung",
+      "color": "default"
+    },
+    {
+      "id": "2d4b7a86-fd1a-48c1-bd6d-22825bfd9b9e",
+      "name": "Revitalisierung",
+      "color": "purple"
+    }
+  ],
+  "Description": "Auf die Entwicklung eines ganzheitlichen Konzepts, das Weinbau, Tourismus und Architektur strategisch vereint, folgt nun die bauliche Umsetzung. In der Baustellenphase stehen das präzise Weiterbauen im Bestand, der achtsame Umgang mit Materialien und die zirkuläre Logik des Bauens im Mittelpunkt – als Ausdruck einer zeitgemäßen, regional verankerten Architekturpraxis. ",
+  "coverAsset": "04.jpg",
+  "blockAssets": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "294cc54c-ec6d-804f-96c1-c397e9d93add",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auf die Entwicklung eines ganzheitlichen Konzepts, das Weinbau, Tourismus und Architektur strategisch vereint, folgt nun die bauliche Umsetzung. In der Baustellenphase stehen das präzise Weiterbauen im Bestand, der achtsame Umgang mit Materialien und die zirkuläre Logik des Bauens im Mittelpunkt – als Ausdruck einer zeitgemäßen, regional verankerten Architekturpraxis. ",
+            "Href": null,
+            "Text": {
+              "Content": "Auf die Entwicklung eines ganzheitlichen Konzepts, das Weinbau, Tourismus und Architektur strategisch vereint, folgt nun die bauliche Umsetzung. In der Baustellenphase stehen das präzise Weiterbauen im Bestand, der achtsame Umgang mit Materialien und die zirkuläre Logik des Bauens im Mittelpunkt – als Ausdruck einer zeitgemäßen, regional verankerten Architekturpraxis. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-80f3-bd25-df6597ed04c6",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Von der Entwicklungsstrategie zur Baustelle: Einblicke in den Prozess der Zirkularität",
+            "Href": null,
+            "Text": {
+              "Content": "Von der Entwicklungsstrategie zur Baustelle: Einblicke in den Prozess der Zirkularität"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8073-95c9-e9b343183ab6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der bestehende Baukörper des ",
+            "Href": null,
+            "Text": {
+              "Content": "Der bestehende Baukörper des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bioweinhofs Locknbauer",
+            "Href": null,
+            "Text": {
+              "Content": "Bioweinhofs Locknbauer"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " präsentiert sich als ",
+            "Href": null,
+            "Text": {
+              "Content": " präsentiert sich als "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "heterogene Agglomeration unterschiedlicher Konstruktionen, Anbauten und Dachformen",
+            "Href": null,
+            "Text": {
+              "Content": "heterogene Agglomeration unterschiedlicher Konstruktionen, Anbauten und Dachformen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", die über die Jahre gewachsen sind. Diese Schichtung aus funktionalen Ergänzungen und gestalterischen Brüchen bildet die Ausgangsbasis für den aktuellen Umbau.",
+            "Href": null,
+            "Text": {
+              "Content": ", die über die Jahre gewachsen sind. Diese Schichtung aus funktionalen Ergänzungen und gestalterischen Brüchen bildet die Ausgangsbasis für den aktuellen Umbau."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8058-8aae-eab12d547e02",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge des ",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "nachhaltigen Rückbaus",
+            "Href": null,
+            "Text": {
+              "Content": "nachhaltigen Rückbaus"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " werden störende und unproportionierte Ergänzungen – darunter die Anbauten an der vorderen rechten Ecke, der Carport und der Eingangsbereich – sowie abgehängte Decken und gegebenenfalls Teile des bestehenden Dachs entfernt. Durch diese Maßnahmen wird die ",
+            "Href": null,
+            "Text": {
+              "Content": " werden störende und unproportionierte Ergänzungen – darunter die Anbauten an der vorderen rechten Ecke, der Carport und der Eingangsbereich – sowie abgehängte Decken und gegebenenfalls Teile des bestehenden Dachs entfernt. Durch diese Maßnahmen wird die "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "ursprüngliche Gebäudestruktur",
+            "Href": null,
+            "Text": {
+              "Content": "ursprüngliche Gebäudestruktur"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " wieder lesbar und schafft Raum für eine neue, ",
+            "Href": null,
+            "Text": {
+              "Content": " wieder lesbar und schafft Raum für eine neue, "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "ökologisch durchdachte architektonische Ordnung",
+            "Href": null,
+            "Text": {
+              "Content": "ökologisch durchdachte architektonische Ordnung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ".",
+            "Href": null,
+            "Text": {
+              "Content": "."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8096-ad5d-f2ded3fa5d9e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die neuen Eingriffe fügen sich präzise in den Bestand ein: Eine ",
+            "Href": null,
+            "Text": {
+              "Content": "Die neuen Eingriffe fügen sich präzise in den Bestand ein: Eine "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "neue Außentreppe",
+            "Href": null,
+            "Text": {
+              "Content": "neue Außentreppe"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", neue ",
+            "Href": null,
+            "Text": {
+              "Content": ", neue "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "tragende Wände und Stützen",
+            "Href": null,
+            "Text": {
+              "Content": "tragende Wände und Stützen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " sowie ein ",
+            "Href": null,
+            "Text": {
+              "Content": " sowie ein "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "energetisch optimierter Dachstuhl",
+            "Href": null,
+            "Text": {
+              "Content": "energetisch optimierter Dachstuhl"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " bilden die Grundlage einer klaren architektonischen Neufassung. Ergänzend entstehen neue ",
+            "Href": null,
+            "Text": {
+              "Content": " bilden die Grundlage einer klaren architektonischen Neufassung. Ergänzend entstehen neue "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Terrassenflächen",
+            "Href": null,
+            "Text": {
+              "Content": "Terrassenflächen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", die Innen- und Außenräume miteinander verweben und den ",
+            "Href": null,
+            "Text": {
+              "Content": ", die Innen- und Außenräume miteinander verweben und den "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bezug zur umgebenden Landschaft",
+            "Href": null,
+            "Text": {
+              "Content": "Bezug zur umgebenden Landschaft"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " stärken – ein wesentliches Element nachhaltiger Architektur.",
+            "Href": null,
+            "Text": {
+              "Content": " stärken – ein wesentliches Element nachhaltiger Architektur."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8095-89f3-f7a1cc9505fe",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein zentraler Aspekt des Projekts liegt im ",
+            "Href": null,
+            "Text": {
+              "Content": "Ein zentraler Aspekt des Projekts liegt im "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "zirkulären Umgang mit Baumaterialien",
+            "Href": null,
+            "Text": {
+              "Content": "zirkulären Umgang mit Baumaterialien"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ": Die beim Rückbau gewonnenen Ziegel werden gereinigt und direkt vor Ort ",
+            "Href": null,
+            "Text": {
+              "Content": ": Die beim Rückbau gewonnenen Ziegel werden gereinigt und direkt vor Ort "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "wiederverwendet",
+            "Href": null,
+            "Text": {
+              "Content": "wiederverwendet"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". Dadurch werden ",
+            "Href": null,
+            "Text": {
+              "Content": ". Dadurch werden "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Materialkreisläufe geschlossen",
+            "Href": null,
+            "Text": {
+              "Content": "Materialkreisläufe geschlossen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", die ",
+            "Href": null,
+            "Text": {
+              "Content": ", die "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "graue Energie reduziert",
+            "Href": null,
+            "Text": {
+              "Content": "graue Energie reduziert"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " und die Geschichte des Hauses im neuen architektonischen Gefüge ",
+            "Href": null,
+            "Text": {
+              "Content": " und die Geschichte des Hauses im neuen architektonischen Gefüge "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "weitergeschrieben",
+            "Href": null,
+            "Text": {
+              "Content": "weitergeschrieben"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". Diese Form des ",
+            "Href": null,
+            "Text": {
+              "Content": ". Diese Form des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Upcyclings im Bauwesen",
+            "Href": null,
+            "Text": {
+              "Content": "Upcyclings im Bauwesen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " zeigt, wie ",
+            "Href": null,
+            "Text": {
+              "Content": " zeigt, wie "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "nachhaltige Sanierung",
+            "Href": null,
+            "Text": {
+              "Content": "nachhaltige Sanierung"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " und ",
+            "Href": null,
+            "Text": {
+              "Content": " und "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "denkmalgerechtes Bauen",
+            "Href": null,
+            "Text": {
+              "Content": "denkmalgerechtes Bauen"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " ineinandergreifen können.",
+            "Href": null,
+            "Text": {
+              "Content": " ineinandergreifen können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8070-9297-ec6dcda38c8b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch im Innenraum erfolgen gezielte Anpassungen. Die Maßnahmen verfolgen das Ziel, den Bestand nicht nur funktional, sondern auch ",
+            "Href": null,
+            "Text": {
+              "Content": "Auch im Innenraum erfolgen gezielte Anpassungen. Die Maßnahmen verfolgen das Ziel, den Bestand nicht nur funktional, sondern auch "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "räumlich, atmosphärisch und energetisch",
+            "Href": null,
+            "Text": {
+              "Content": "räumlich, atmosphärisch und energetisch"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " zu erneuern – im Sinne eines ",
+            "Href": null,
+            "Text": {
+              "Content": " zu erneuern – im Sinne eines "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "kontinuierlichen Weiterbauens",
+            "Href": null,
+            "Text": {
+              "Content": "kontinuierlichen Weiterbauens"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " zwischen ",
+            "Href": null,
+            "Text": {
+              "Content": " zwischen "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Tradition und zeitgemäßer Architektur",
+            "Href": null,
+            "Text": {
+              "Content": "Tradition und zeitgemäßer Architektur"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". So entsteht ein Haus, das Vergangenheit und Zukunft, ",
+            "Href": null,
+            "Text": {
+              "Content": ". So entsteht ein Haus, das Vergangenheit und Zukunft, "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Baukultur und Nachhaltigkeit",
+            "Href": null,
+            "Text": {
+              "Content": "Baukultur und Nachhaltigkeit"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", harmonisch miteinander verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": ", harmonisch miteinander verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8051-b948-d71ad5c111e4",
+      "Type": "divider",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff"
+    },
+    {
+      "Id": "294cc54c-ec6d-8049-81cf-d4ed3e7cef6f",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "294cc54c-ec6d-805f-9afd-df2696b3b22c",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8050-961b-f9af11703453",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06cc302d-ce4a-4d14-89fe-a6eb4e7e416a/01.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YEJDIYDO%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T172623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDPSGbT6YgCpX2qKVFt63VrDVG0enJ0ffVlJGHmBC6WKAiA1pKt4ux2dL1XgiISz8iJdgGhkkLMnsFCoHZE1xF%2BJFir%2FAwhKEAAaDDYzNzQyMzE4MzgwNSIMu0uqlqS2F%2F%2BVUzPhKtwDvNvNTYENW5UM%2Fr00CvCc7z2uAIEwX1N78Bz0n11TN4bLuW2LzSx53af1%2BEc4mKYXeFs9u%2FY9IMJFuyHSiUkW7gLnfy3rfLa0cxx9zhl6DJt0JZ5KODnOIPtaiQduD4bbZCYfpkhR2rN43iYzcf8CRvs7xF5YC0yzPCPiX6GuVK3zRKHDafbAXBLCwptwCWDOzADWzEBtEqLaM1VboN8VLTax74ghQITzVLwezvS%2FTGlkfXIU%2BzWhutl0oiYLX787x3w6YQMO4gtS0soETVhTzMv1YiEopRfxKh9Lz0Y9PN75n7iGdUpV8ChO0MYh20HY2KPupof5sh%2FyLeir28aphMUdOd%2BtZ%2BoHt0HQJD1h6hpqXo%2FqvS27J9NFRmZ4GjZ0%2FMNHZ9hiFvQtDYuJGORJahbz9nPgTCN77qIu2wm79Uif8ILyKQAvV3Ql9ikMk3BGW4NuG9eokeaigYxf30um28Z7kDlqTQQjhRo5%2B%2BRWrktWL2eCGOIT4aRa2QH3s8v8D5F%2BNJV9J4BVuw1hKMV1QJAI4Gnp5aQzTOmr1BODsYGc5eUAjW0yDLqNo7GHwxb%2F3VKKfmTGGr4suOkJcqt8LzAjNsegXfOvDjQjWnUTwFp2KzElHWZr%2FJkbvGAw7L7pxwY6pgHeOPNLs2zGIpLqvLbPZTT6fILz1RnS2MX6A7r2TZvu4JWgy7829CH2tsgFpP19c6fbZGKZjdy3mjGqSPQwxWTW9QfA94WNP2nXnmCC3DaE00Cq2XUIOBNJVqw1CY%2B8e6xjNbFLEDVIjHLcFnJNitgO7hgwpCqX3Ofhp2GPbwE%2BVDK5wqPlkDB0%2FjDnULitdMLi7Bn6O6XnhaZDribEmizLgCTAQPyb&X-Amz-Signature=27cd4d4d84581869dbe16d62d6e61e50471d5afd7544b3ef45f05b2a74013c46&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-10-23T18:26:23.776Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "294cc54c-ec6d-805b-b1eb-e4dca2a30646",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8048-8a00-e16f92475ccb",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c1bc010f-6915-418b-bd0d-633c24a47e1a/02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665F7ZE5YT%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T172625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGTOiSUAWMYWjHCgIhLTdl27fs1uP%2BzoqZwLXuLLmRzHAiADK0exx7qMW0DStNYCJhn8N4qmCuv0CQot5RaH775UJir%2FAwhKEAAaDDYzNzQyMzE4MzgwNSIM3Md9NkaZa2uehpYhKtwDmNJQe0XynxEE6UCXWXpSomMq%2BkEd8LJ12sfIjKvevuxZTR1HW7wNd2sSMja41f846Xx4H2UE%2BDUsO4itHb5IUktV0T%2FalCobeFEGdtSqm3Zvnbsk%2BZfjNd2ztHbvD8SamWbhqHltfkjG8IkVgmknUPiH6CSqu1N9sO%2Bb9LxUmrTLsqw02AiAVt4mS%2BkDaTd7ZsxHzBaF9ZueR0Q5LM2quYUlYLa%2BWPhlduVMgZQfWgC4mV8dpDlUgbAgAzEaw3hxAnPqhEqP9hyj3I9d82yJKOly%2FTZooioZzv5Vg%2F8rlpQ41aAGMXNzc6GuN8PdF84He8t79GPwMO3iXH9QH%2F8T0oPOU%2BY118WHLP5uLXdAYE4PoTGuF87sh3DlZW2R9nyzS%2FmBCqM%2F4DqFeq31PFffJ7jckj%2BXF01U264j0ed%2BRO1khkqwKXTcuDNuk03FgpgdCtMYrWKpuqIu6lannQ6F7aiEkjPwaUud0CNtnWA9aw1DG04rDNbMTzGGISczKFuYLomiTJMqhI1c6h0I8LR6p2msOtfmbCYwU8bS%2FpWRrp%2F19o6YW6gFAp0yB9S6RaoTxTk%2B%2F3fzbLuVBYvUd34F3pYWVx%2Be8F9AIJbV9PZB6fFYIEubJ7faoeMA9d0w0L%2FpxwY6pgGDCV2x4DGCDjQ6u8cVUHIGt98M132B%2FF4cHx7YCj019y8hAV8WaTOASrByEwwWoI7I3JUK%2FcnKAy12JhYfzsYqylmOofyTjzcaPcyI5vq6r2ihdE3hF6lwvwbqOX6jWH0sUTckzUfv6eXfhjMsl79nHoUAjVoUp195XXtQIace7qOyHrEtA%2B5EGIBi2sCbnfCTnyPM7WkOTvQXaqd%2FPPESxHEYV3fY&X-Amz-Signature=309b5afdacce4bfac7883ebda0d823a1472865576997c915ba6a38908a936d7a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-10-23T18:26:25.964Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-804f-951a-c2b243b625e7",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "294cc54c-ec6d-8094-b592-c4d1d7ae66b2",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8024-917d-defca5ff363a",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ac05764f-01a6-4076-952a-ae806e9075f9/03.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VNNOH3RO%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T172626Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDyQ2GaL%2B8ATOA8yJY68B8Ma1OIFtpfgC%2BpUGUXgDkqjQIgccFu4FAcjQM%2BfsG0U61V%2B1F%2B%2FTEMgQbg%2BjRTIj7yA2wq%2FwMIShAAGgw2Mzc0MjMxODM4MDUiDGbtZdcXKmRZ7Lte6SrcA2WhiLjbILa%2BuE3djAnJSlV7cfobV3tpkxKu1amjCadB4WZM%2FytdLmtSjm2K85IBmizLqlGOIudDd1MK1K9cLzkWZoSFIITGD0KZO56HqhDJrFvRAau4oSTKhVVu1oBVlJMSWQ6EPPKfKcOnszJlcjhv%2F5WBi8d5mLyobF5SANMgvpcVUrHI1OeZRugN8iEyZjtPnAPWLAJPnb2EsM75bHgnPScQkzAvwlQJVrl66itxXpu7PNMUAeyUB%2FvIRJ7e4yFBfpGPtPCnfMJ%2Fjgg8BLgp40Xu78cDuM%2FQlgtfsDlvLt64l34kUhXgqrbeEQJifXqGOpaAC784E5UW2S3VjG3cg8M0LbzOrVpzmtDovLhDjVGeWChCukGCYkIOZ5i%2B3CYbEyOAa%2FfrkgkFaTk%2BcQ5Lx1KPiyNKvfioC7OWOHK29qaRvsGLL8uVRJ4YOBr4T8Q4lCkdBlQupiYgLmRyAgtBC5eTEhrmFCl1rTN5Gak6NVM2fiOjmRqnT9uhHNEOJnMOlKTmC5IyqJMPMdbHmdvGRCQLONo%2Bf6AufJjIXtKcrcPi5JyaBqLt5CG5ckLpEmKZJMnNm%2BklcraUorlylak%2BXMD7%2BGGy%2BCawb5fNkmhaelO3arRt0P1TU%2F67MPS%2B6ccGOqUBcQpxK%2BxSjVdgbKfzNpYAsAOrjkqHRQ9Y69ixzLSiKjGICDlsqgZur80aB5UcYT61nwqZfMz10MO4P4DLfxdbxEILkq%2Frt1KtvZlx%2F0DOF8xFdH33G%2B3aZUdjpSrQFNmfK9ENI4hEqVKMP1qlMnxL9nqMJqa6HFxgMAnz6lDUraWhUVrqeUj1VoEdn8iFlWQucAQdcJf2s%2FvqFaaiEH1Nvgd9vWwg&X-Amz-Signature=b50f717c6b7bee72c17c148364bc78b66c2fbd093c436c9766c79ba39ef9761b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-10-23T18:26:26.503Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "294cc54c-ec6d-800c-9a2a-d0b77aa9d33c",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-80e7-80e2-e168a859c803",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/3c67f43c-ee22-41a8-9f93-434ef414c242/04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q7RI2IYR%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T172626Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHdA36mg0C3LH1sBY0gayYNVgpQkvATLxKlT76w2TuFxAiBZFLe2wKa%2Bh4tSTvMw%2FKBNHuYQSHGHPc1rb4FOPOTAJyr%2FAwhKEAAaDDYzNzQyMzE4MzgwNSIMgHTVR6zp4qfpPIMQKtwDkMEaafMj%2FIybPzOvgSmq3m2BFt%2B8zOFoEjUiywoufB6LMvuGyLHcGbdU0JXZ%2Fuwt8sg9KRsCJeclpLhRtynBalBy4Ssxm03QL1y8NIPYLJB8EikNKfGnS3riGd0nKXr6LP74IIteZNwVlRgi6qb8Kf%2BqEB%2FH1yc8XGvRWT8PwU854Pr0pSu1OAITOi4lfvcTMGTjp0Tizu5WOwxbDoik0dnGea9WFBPK%2BFZmSGOPOw298Vkn%2FkBGECwkMLUXh7WdQHq8Mec%2BY37ONal7I23DcCaiheA489c5SG131Ps%2BrEAXkcNjV8XqdfeIvH30TCHyxecNB%2FOWZzg0%2BYIc4YQc5uNE5If1D3TFWo8x1P7tMhUVjZvvkmlYXxF2hpuKvt710R%2Fy2TfB0Tan9cgcayX0f1BqeMttsWC5k1nxPSqZpas0awDApWvbgLKX1N8uD1Fl8Dm%2BeT9woAiniid8Hq57H5Qf%2FG2qluQAwizixDLF0uwMuelrgA18ZfgacJSf4%2FWeZjkZdjjTqqc0RCOY0yScL44cQaGrwjWfzIZOgd%2Fdr8%2FLzCIxNRKsk3CQ83120RVnfUNRCnAw5THlmowiUrWMVqo%2BvHjjhdZDnDeb0S4XXt%2FY%2BAlm4PyHVCLv9OYwjL%2FpxwY6pgH5dAHH1%2FtTZOEU6bnTJAPiqwwsZs3L%2BE2S1a1QGh8k4qYbB9oF6F9Peqq%2BcwueEEFS3T%2FElfsmn%2F3PpXiz47%2FXFtpcE3UbrJZsjgWsYb6f4OekKIzzara9SipTdoOMmRXr1g1faNFWnCXV%2BpNRNvJnyKLwg2eb2O6ccEhCv4KOHFJ26ZNVAC%2BgIJ1d8hLGnIOo4zJ46MW1SP3PJNhYHvdKlq3kcEuK&X-Amz-Signature=5dbc7b5e0f395626042f006774024abe29850bb86487eb38ea8c30e7b71b508f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2025-10-23T18:26:26.510Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

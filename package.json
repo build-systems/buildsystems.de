@@ -15,14 +15,14 @@
     "_fetch-notion-blocks": "node scripts/retrieve-block-children.cjs"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/rss": "^4.0.13",
+    "@astrojs/sitemap": "^3.6.0",
     "@notionhq/client": "^2.2.14",
     "@supercharge/promise-pool": "^3.2.0",
     "@tailwindcss/vite": "^4.0.6",
     "@types/node": "^22.13.1",
-    "astro": "^5.3.0",
+    "astro": "^5.15.1",
     "astro-integration-lottie": "^0.3.2",
     "async-retry": "^1.3.3",
     "axios": "^1.7.9",
