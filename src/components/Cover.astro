@@ -310,11 +310,8 @@
 </style>
 
 <script>
-  // JavaScript code to start animation after fonts load and mark checkbox as checked on first scroll
-  window.addEventListener("load", function () {
-    // Mark cover as ready to animate after all resources (including fonts) are loaded
-    document.documentElement.style.setProperty("--animation-ready", "1");
-    
+  // JavaScript code to mark checkbox as checked on first scroll
+  document.addEventListener("DOMContentLoaded", function () {
     var checkboxChecked = false;
 
     window.addEventListener("scroll", function () {

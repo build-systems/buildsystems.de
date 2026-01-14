@@ -53,7 +53,7 @@
 
   --bezier-animation: cubic-bezier(0.8, 0, 0.3, 1);
   --animation-time: 3.3s;
-  --animation-delay: 0.5s;
+  --animation-delay: 1s;
 
   --bezier-animation-star: cubic-bezier(0, 0, 0.5, 1);
 }
