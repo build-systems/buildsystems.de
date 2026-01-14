@@ -42,6 +42,7 @@
     top: 50%;
     transform: translate3D(0, -50%, 0);
     width: 100svw;
+    -webkit-font-smoothing: antialiased;
   }
 
   .txt-build::before {
@@ -161,26 +162,20 @@
 
   @keyframes cover-text-fixed {
     70% {
-      top: 50%;
       transform: translate3D(0, -50%, 0);
     }
     to {
-      top: 0;
-      transform: translate3D(0, 0, 0);
+      transform: translate3D(0, -50vh, 0);
     }
   }
 
   @media (max-width: 1280px) {
     @keyframes cover-text-fixed {
       70% {
-        top: 50%;
         transform: translate3D(0, -50%, 0);
-        padding: 0;
       }
       to {
-        top: 0;
-        transform: translate3D(0, 0, 0);
-        padding: 0.6rem 1rem;
+        transform: translate3D(1rem, -50vh, 0);
       }
     }
 
@@ -219,14 +214,10 @@
   @media (max-width: 640px) {
     @keyframes cover-text-fixed {
       70% {
-        top: 50%;
         transform: translate3D(0, -50%, 0);
-        padding: 0;
       }
       to {
-        top: 0;
-        transform: translate3D(0, 0, 0);
-        padding: 0.6rem 5%;
+        transform: translate3D(5%, -50vh, 0);
       }
     }
 
@@ -265,14 +256,10 @@
   @media (max-width: 420px) {
     @keyframes cover-text-fixed {
       70% {
-        top: 50%;
         transform: translate3D(0, -50%, 0);
-        padding: 0;
       }
       to {
-        top: 0;
-        transform: translate3D(0, 0, 0);
-        padding: 0.5rem 10px;
+        transform: translate3D(10px, -50vh, 0);
       }
     }
 
@@ -310,8 +297,11 @@
 </style>
 
 <script>
-  // JavaScript code to mark checkbox as checked on first scroll
-  document.addEventListener("DOMContentLoaded", function () {
+  // JavaScript code to start animation after fonts load and mark checkbox as checked on first scroll
+  window.addEventListener("load", function () {
+    // Mark cover as ready to animate after all resources (including fonts) are loaded
+    document.documentElement.style.setProperty("--animation-ready", "1");
+
     var checkboxChecked = false;
 
     window.addEventListener("scroll", function () {
