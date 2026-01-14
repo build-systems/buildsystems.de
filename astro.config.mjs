@@ -38,6 +38,10 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
+    server: {
+    port: 4321,
+    host: true,
+  },
   redirects: {
     "/personen": "/about",
     "/team": "/about",
