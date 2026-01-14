@@ -310,18 +310,49 @@
 </style>
 
 <script>
-  // JavaScript code to mark checkbox as checked on first scroll
-  document.addEventListener("DOMContentLoaded", function () {
-    var checkboxChecked = false;
+  // Wait for fonts to load before starting animation
+  async function startAnimation() {
+    // Wait for document to be fully loaded
+    if (document.readyState === "loading") {
+      await new Promise((resolve) => {
+        document.addEventListener("DOMContentLoaded", resolve);
+      });
+    }
 
-    window.addEventListener("scroll", function () {
-      if (!checkboxChecked) {
-        const coverElement = document.getElementById(
-          "cover"
-        )! as HTMLInputElement;
+    // Wait for fonts to be ready if available
+    if ("fonts" in document) {
+      try {
+        await (document as any).fonts.ready;
+      } catch (e) {
+        // Fallback if fonts API not supported
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    } else {
+      // Fallback for browsers without fonts API
+      await new Promise((resolve) => setTimeout(resolve, 500));
+    }
+
+    // Now start the animation
+    const coverElement = document.getElementById("cover") as HTMLInputElement;
+    if (coverElement) {
+      coverElement.checked = true;
+    }
+  }
+
+  // Start animation on load
+  startAnimation();
+
+  // Also allow closing on scroll if animation hasn't auto-closed yet
+  var checkboxChecked = false;
+  window.addEventListener("scroll", function () {
+    if (!checkboxChecked) {
+      const coverElement = document.getElementById(
+        "cover"
+      )! as HTMLInputElement;
+      if (!coverElement.checked) {
         coverElement.checked = true;
         checkboxChecked = true;
       }
-    });
+    }
   });
 </script>
