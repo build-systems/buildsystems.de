@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-out;
+    will-change: transform;
   }
 
   .cover-checkbox:checked ~ .cover {
@@ -106,6 +107,7 @@
   }
 
   .cover {
+    will-change: opacity, visibility;
     animation: fadeout var(--animation-time) var(--bezier-animation) forwards;
     animation-delay: var(--animation-delay);
   }
@@ -125,6 +127,7 @@
   }
 
   .txt-build {
+    will-change: transform;
     animation: build-animation var(--animation-time) var(--bezier-animation)
       forwards;
     animation-delay: var(--animation-delay);
@@ -141,6 +144,7 @@
 
   .txt-sustainable,
   .txt-smart {
+    will-change: transform;
     animation: block-none var(--animation-time) var(--bezier-animation) forwards;
     animation-delay: var(--animation-delay);
   }
@@ -155,6 +159,7 @@
   }
 
   .cover-text {
+    will-change: transform;
     animation: cover-text-fixed var(--animation-time) var(--bezier-animation)
       forwards;
     animation-delay: var(--animation-delay);
@@ -165,7 +170,7 @@
       transform: translate3D(0, -50%, 0);
     }
     to {
-      transform: translate3D(0, -50vh, 0);
+      transform: translate3D(0, -50svh, 0);
     }
   }
 
@@ -175,7 +180,7 @@
         transform: translate3D(0, -50%, 0);
       }
       to {
-        transform: translate3D(1rem, -50vh, 0);
+        transform: translate3D(1rem, -50svh, 0);
       }
     }
 
@@ -217,7 +222,7 @@
         transform: translate3D(0, -50%, 0);
       }
       to {
-        transform: translate3D(5%, -50vh, 0);
+        transform: translate3D(5%, -50svh, 0);
       }
     }
 
@@ -259,7 +264,7 @@
         transform: translate3D(0, -50%, 0);
       }
       to {
-        transform: translate3D(10px, -50vh, 0);
+        transform: translate3D(10px, -50svh, 0);
       }
     }
 
