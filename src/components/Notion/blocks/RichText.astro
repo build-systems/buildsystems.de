@@ -43,13 +43,13 @@ const { richText } = Astro.props;
                                       {content}
                                     </>
                                   );
-                                }
+                                },
                               )}
                             {richText.Equation && (
                               <span
                                 set:html={katex.renderToString(
                                   richText.Equation.Expression,
-                                  { throwOnError: false }
+                                  { throwOnError: false },
                                 )}
                               />
                             )}

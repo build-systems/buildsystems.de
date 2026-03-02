@@ -106,7 +106,7 @@ export const buildURLToHTMLMap = async (
         controller.abort();
       }, REQUEST_TIMEOUT_MS);
 
-      return fetch(url.toString(), { signal: controller.signal })
+      return fetch(url.toString(), { signal: controller.signal as any })
         .then((res) => {
           return res.text();
         })

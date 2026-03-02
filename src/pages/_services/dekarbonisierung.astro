@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../../components/ProjectCarousel/ProjectCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
-import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import StickySection from "../../components/StickySection.astro";
 
 const title = "BuildSystems | Dekarbonisierung";
 const description =
@@ -19,25 +19,25 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       begleitet Sie zur Klima­neutralität. Ob operative und graue Emissionen
       oder Zirkularität, wir erarbeiten gemeinsam mit Ihnen Ziele der <span
-        class="font-secondary green">Dekarbonisierung</span
+        class="font-secondary text-brand-green">Dekarbonisierung</span
       > und erschließen Handlungsräume.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
   <div class="main-image">
     <img src="/public/assets/crrem-analyse.svg" alt="" />
   </div>
   <div
-    class="frame primary-margin-top"
+    class="section-container mt-hero"
     id="strategieentwicklung-esg-und-dekarbonisierung"
   >
     <h2>Dekar­bo­ni­sie­rung auf Unternehmens­ebene</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Strategie und Planung: Möchten Sie klare Ziele und eine Timeline zur
           Klimaneutralität für Ihr Unternehmen und Ihre Projekte aufstellen?
@@ -85,10 +85,10 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <div class="frame primary-margin-top" id="portfoliodekarbonisierung">
+  <div class="section-container mt-hero" id="portfoliodekarbonisierung">
     <h2>Dekarbonisierung von Portfolien</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Betreiben und Optimieren: Sie möchten ein Stranding Ihrer Assets
           vermeiden und den Reporting-Anforderungen zuvorzukommen? BuildSystems
@@ -135,7 +135,7 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 
 <style>

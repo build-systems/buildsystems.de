@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { exec } from "child_process";
 import { Client } from "@notionhq/client";
 import cliProgress from "cli-progress";
@@ -59,7 +60,7 @@ const getAllPages = async () => {
 
   const progressBar = new cliProgress.SingleBar(
     { stopOnComplete: true },
-    cliProgress.Presets.shades_classic
+    cliProgress.Presets.shades_classic,
   );
   progressBar.start(pages.length, 0);
 

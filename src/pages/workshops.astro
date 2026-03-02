@@ -1,14 +1,14 @@
 ---
-import Anchor from "../components/Anchor.astro";
+import ActionLink from "../components/ActionLink.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import actionCardMobilitaetsprofil from "../assets/action-cards-mobilitaetsprofil.png";
 import actionCardBlauGruenProfil from "../assets/action-cards-blau-gruen-profil.png";
 import actionCardsQualitaetSolarZirkularitaet from "../assets/action-cards-qualitaet-solar-zirkularitaet.png";
 import actionCardsFlexibilitaetKlimarisiko from "../assets/action-cards-flexibilitaet-klimarisiko.png";
 import { getAllPosts } from "../lib/notion/client";
 import { Image } from "astro:assets";
-import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import StickySection from "../components/StickySection.astro";
 
 const title = "BuildSystems | Workshops";
 const description =
@@ -25,7 +25,7 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <div class="frame msg-secondary primary-margin-top">
+  <div class="section-container text-subheading mt-hero">
     <h3>
       Sie und Ihr Team wollen verstehen, wie Sie die aktuellen Herausforderungen
       um ESG, Dekarbonisierung und Zirkularität in der Baubranche zu Chancen
@@ -36,23 +36,23 @@ const posts = await getAllPosts();
     </h3>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       erschließt Chancen in Ihrem Team. Stellen Sie sich der Veränderung und
       eröffnen Sie Transformations­räume. Gemeinsam gehen wir in unseren
-      Workshops den Weg zu <span class="font-secondary green"
+      Workshops den Weg zu <span class="font-secondary text-brand-green"
         >Fit For Future</span
       >.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
-  <div class="frame image-text-grid">
+  <div class="section-container image-text-grid">
     <Image
       class="cover"
       src={actionCardMobilitaetsprofil}
       alt="One workshop participant holds the action card Mobilitaetsprofil while another points to a urban plan sketch"
     />
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <h2>Fit for Future – Green Buildings</h2>
       <p>
         Emissionen, Energie, Wasser, Nutzung & Bedarf, Mobilität, Grünraum und
@@ -70,7 +70,7 @@ const posts = await getAllPosts();
         wird Ihr Team ein ganzheitliches und funktionie­rendes
         Entwicklungs­konzept der Zukunft erstellen.
       </p>
-      <Anchor
+      <ActionLink
         text="Kontakt aufnehmen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -81,8 +81,8 @@ const posts = await getAllPosts();
     </div>
   </div>
 
-  <div class="frame image-text-grid flipped-content">
-    <div class="msg-tertiary">
+  <div class="section-container image-text-grid flipped-content">
+    <div class="text-body-large">
       <h2>Fit for Future – Strategische Transformation</h2>
       <p>
         Mach­en Sie Ihr Unter­nehm­en und Ihre Teams fit für die Zu­kunft und
@@ -106,7 +106,7 @@ const posts = await getAllPosts();
         und zu wirtschaften.
       </p>
       <div>
-        <Anchor
+        <ActionLink
           text="Kontakt aufnehmen"
           link="mailto:mail@buildsystems.de"
           openOnNewTab={true}
@@ -122,22 +122,22 @@ const posts = await getAllPosts();
       alt="dena logo"
     />
   </div>
-  <div class="frame primary-font-size primary-height primary-margin-top">
-    <div class="sticky">
+  <div class="section-container text-hero-heading min-h-hero mt-hero">
+    <div class="sticky-section-header">
       <h2>
-        schafft <span class="font-secondary green">Wissenstransfer</span> durch interaktive
+        schafft <span class="font-secondary text-brand-green">Wissenstransfer</span> durch interaktive
         Workshops. So bleibt Ihr Team am Puls der Zeit.
       </h2>
     </div>
   </div>
 
-  <div class="frame image-text-grid">
+  <div class="section-container image-text-grid">
     <Image
       class="cover"
       src={actionCardBlauGruenProfil}
       alt="Action card Blau-Gruen-Profil"
     />
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <h2>Einstieg ins nachhaltige Bauen</h2>
       <p>
         Begriffe wie Blaue-Grüne Infrastruktur oder Zirkularität begegnen Ihnen
@@ -163,7 +163,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 750 Euro exkl. USt
       </p>
-      <Anchor
+      <ActionLink
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -173,8 +173,8 @@ const posts = await getAllPosts();
       />
     </div>
   </div>
-  <div class="frame image-text-grid flipped-content">
-    <div class="msg-tertiary">
+  <div class="section-container image-text-grid flipped-content">
+    <div class="text-body-large">
       <h2>Sanierungs- und Neubau­förderungen</h2>
       <p>
         2024 zahlen sich Investitionen in nachhaltige Baumaßnahmen gleich
@@ -194,7 +194,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 750 Euro exkl. USt
       </p>
-      <Anchor
+      <ActionLink
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -210,14 +210,14 @@ const posts = await getAllPosts();
       alt="Three action cards: Qualitaetsprofil Solarprofil Zirkularitaetsprofil"
     />
   </div>
-  <div class="frame image-text-grid flipped-content">
+  <div class="section-container image-text-grid flipped-content">
     <Image
       class="cover"
       id="cover"
       src={actionCardsFlexibilitaetKlimarisiko}
       alt="Three action cards: Qualitaetsprofil Solarprofil Zirkularitaetsprofil"
     />
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <h2>Einstieg ins kreislauffähige Bauen</h2>
       <p>
         Die Trendprognose sagt ganz klar: Zirkuläres Bauen ist im Kommen! Buchen
@@ -237,7 +237,7 @@ const posts = await getAllPosts();
         <br />
         Investition: 950 Euro exkl. USt
       </p>
-      <Anchor
+      <ActionLink
         text="buchen"
         link="mailto:mail@buildsystems.de"
         openOnNewTab={true}
@@ -247,7 +247,7 @@ const posts = await getAllPosts();
       />
     </div>
   </div>
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 <style>
   h2 {

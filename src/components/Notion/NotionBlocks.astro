@@ -45,64 +45,64 @@ const {
   headings: rawHeadings = [],
 } = Astro.props;
 
-const blocks = rawBlocks.reduce((arr, block: Block, i: number) => {
-  const isBulletedListItem = block.Type === "bulleted_list_item";
-  const isNumberedListItem = block.Type === "numbered_list_item";
-  const isToDo = block.Type === "to_do";
+const blocks = rawBlocks.reduce(
+  (arr: (Block | List)[], block: Block, i: number) => {
+    const isBulletedListItem = block.Type === "bulleted_list_item";
+    const isNumberedListItem = block.Type === "numbered_list_item";
+    const isToDo = block.Type === "to_do";
 
-  if (!isBulletedListItem && !isNumberedListItem && !isToDo) {
-    return arr.concat(block);
-  }
+    if (!isBulletedListItem && !isNumberedListItem && !isToDo) {
+      return arr.concat(block);
+    }
 
-  let listType = "";
-  if (isBulletedListItem) {
-    listType = "bulleted_list";
-  } else if (isNumberedListItem) {
-    listType = "numbered_list";
-  } else {
-    listType = "to_do_list";
-  }
+    let listType = "";
+    if (isBulletedListItem) {
+      listType = "bulleted_list";
+    } else if (isNumberedListItem) {
+      listType = "numbered_list";
+    } else {
+      listType = "to_do_list";
+    }
 
-  if (i === 0) {
-    const list: List = {
-      Type: listType,
-      ListItems: [block],
-    };
-    return arr.concat(list);
-  }
+    if (i === 0) {
+      const list: List = {
+        Type: listType,
+        ListItems: [block],
+      };
+      return arr.concat(list);
+    }
 
-  const prevList: List = {
-    Type: block.Type,
-    ListItems: arr[arr.length - 1],
-  };
+    const prevList: any = arr[arr.length - 1];
 
-  if (
-    (isBulletedListItem && prevList.Type !== "bulleted_list") ||
-    (isNumberedListItem && prevList.Type !== "numbered_list") ||
-    (isToDo && prevList.Type !== "to_do_list")
-  ) {
-    const list: List = {
-      Type: listType,
-      ListItems: [block],
-    };
-    return arr.concat(list);
-  }
+    if (
+      (isBulletedListItem && prevList.Type !== "bulleted_list") ||
+      (isNumberedListItem && prevList.Type !== "numbered_list") ||
+      (isToDo && prevList.Type !== "to_do_list")
+    ) {
+      const list: List = {
+        Type: listType,
+        ListItems: [block],
+      };
+      return arr.concat(list);
+    }
 
-  prevList.ListItems.push(block);
+    prevList.ListItems.push(block);
 
-  return arr;
-}, []);
+    return arr;
+  },
+  [],
+);
 
 let headings = rawHeadings;
 if (isRoot) {
-  headings = blocks.filter((b: Block) =>
-    ["heading_1", "heading_2", "heading_3"].includes(b.Type)
-  );
+  headings = blocks.filter((b: any) =>
+    ["heading_1", "heading_2", "heading_3"].includes(b.Type),
+  ) as Block[];
 }
 
 const bookmarkURLs = blocks
-  .filter((b: Block) => ["bookmark", "link_preview", "embed"].includes(b.Type))
-  .map((b: Block) => {
+  .filter((b: any) => ["bookmark", "link_preview", "embed"].includes(b.Type))
+  .map((b: any) => {
     const urlString = (b.Bookmark || b.LinkPreview || b.Embed)!.Url;
 
     let url: URL;
@@ -121,7 +121,7 @@ const bookmarkURLMap = await buildURLToHTMLMap(bookmarkURLs);
 ---
 
 {
-  blocks.map((block: Block) => {
+  blocks.map((block: any) => {
     switch (block.Type) {
       case "paragraph":
         return <Paragraph block={block} headings={headings} slug={slug} />;
@@ -157,7 +157,9 @@ const bookmarkURLMap = await buildURLToHTMLMap(bookmarkURLs);
       case "column_list":
         return <ColumnList block={block} headings={headings} slug={slug} />;
       case "bulleted_list":
-        return <BulletedListItems block={block} headings={headings} />;
+        return (
+          <BulletedListItems block={block} headings={headings} slug={slug} />
+        );
       case "numbered_list":
         return (
           <NumberedListItems

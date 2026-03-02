@@ -1,16 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import {
   getAllOrganizations,
   getAllPartners,
   getAllPeople,
   getAllPosts,
 } from "../lib/notion/client";
-import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import StickySection from "../components/StickySection.astro";
 import PersonCard from "../components/PersonCard.astro";
 import PartnersCard from "../components/PartnersCard.astro";
-import OrganizationCard from "../components/OrganizationCard.astro";
+import LogoCarouselItem from "../components/LogoCarouselItem.astro";
 
 const title = "BuildSystems | About";
 const description =
@@ -33,7 +33,7 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <div class="frame msg-secondary primary-margin-top">
+  <div class="section-container text-subheading mt-hero">
     <h3>
       Wir vertreten nicht nur einen integralen Prozess in der Planung, wir leben
       Interdisziplinarität im Team: Jeder bringt einen Baustein der
@@ -42,13 +42,13 @@ const posts = await getAllPosts();
       Maßnahmen zur Emissionsreduktion durch die sozioökonomische Perspektive.
     </h3>
   </div>
-  <StickyLogoMessage>
+  <StickySection>
     <h2>führt Kompetenzen, Prozesse und Tools zusammen.</h2>
-  </StickyLogoMessage>
+  </StickySection>
 
   {
     people.length > 0 && people && (
-      <div class="frame">
+      <div class="section-container">
         <h2>Team</h2>
         <div class="mb-24 grid gap-2 xl:grid-cols-2">
           {
@@ -62,10 +62,10 @@ const posts = await getAllPosts();
   }
   {
     partners.length > 0 && partners && (
-    <StickyLogoMessage>
+    <StickySection>
       <h2>denkt Projekte von Anfang an interdisziplinär. Deshalb arbeiten wir mit starken Partnern aus den Bereichen Kommunikation, Fachplanung und Software.</h2>
-    </StickyLogoMessage>
-      <div class="frame">
+    </StickySection>
+      <div class="section-container">
         <h2>Partner</h2>
         <div class="mb-24 grid gap-2 xl:grid-cols-2">
           {
@@ -80,20 +80,20 @@ const posts = await getAllPosts();
   {
     organizations.length > 0 && organizations && (
       <div
-      class="frame xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))]"
+      class="section-container xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))]"
       >
         <h2>Organisationen</h2>
         <div class="flex flex-col gap-2 object-cover lg:flex-row lg:flex-wrap">
         {
           organizations.map((organization) => {
-            return <OrganizationCard organization={organization} />;
+            return <LogoCarouselItem organization={organization} />;
           })
         }
         </div>
       </div>
     )
   }
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 
 <style>

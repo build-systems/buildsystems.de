@@ -1,5 +1,5 @@
 ---
-import Anchor from "../components/Anchor.astro";
+import ActionLink from "../components/ActionLink.astro";
 import coverImage from "../assets/kfw-foerdertool-von-buildsystems_large.png";
 import { Image } from "astro:assets";
 import LandingLayout from "../layouts/LandingLayout.astro";
@@ -42,19 +42,19 @@ const imageAlt =
         vergünstigte Zinsen.
       </p>
       <div class="tool__text__buttons">
-        <Anchor
+        <ActionLink
           icon="redirect"
           text="Neubau"
           openOnNewTab={true}
           link="https://app.buildsystems.de/neubau"
         />
-        <Anchor
+        <ActionLink
           icon="redirect"
           text="Sanierung"
           openOnNewTab={true}
           link="https://app.buildsystems.de/sanierung"
         />
-        <Anchor
+        <ActionLink
           icon="redirect"
           text="Einzelmaßnahmen"
           openOnNewTab={true}

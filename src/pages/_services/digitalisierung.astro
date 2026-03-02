@@ -1,10 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../../components/ProjectCarousel/ProjectCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
 import { Image } from "astro:assets";
 import serviceAnimation from "../../assets/service-building-options.webp";
-import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import StickySection from "../../components/StickySection.astro";
 
 const title = "BuildSystems | Digitalisierung";
 const description =
@@ -21,14 +21,14 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
-      ebnet den Weg zur <span class="font-secondary green"
+      ebnet den Weg zur <span class="font-secondary text-brand-green"
         >Digi­ta­li­sie­rung</span
       > durch softwar­ege­stütz­tes Con­sul­ting. Dafür verbin­den wir exis­tier­ende
       Praxis mit inno­va­tiven Prozes­sen und Tools.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
   <div class="main-image">
     <Image
@@ -36,10 +36,10 @@ const posts = await getAllPosts();
       alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
     />
   </div>
-  <div class="frame" id="portfoliodigitalisierung">
+  <div class="section-container" id="portfoliodigitalisierung">
     <h2>Digitalisierungsstrategien Portfolio</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Unser Angebot richtet sich an Assethalter und -manager sowie Family
           Offices, die ihr Portfolio digitalisieren und für
@@ -63,10 +63,10 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <div class="frame primary-margin-top" id="digitale-carbon-due-diligence">
+  <div class="section-container mt-hero" id="digitale-carbon-due-diligence">
     <h2>Digitalisierungsstrategien Carbon Due Diligence</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Als Planende, Gene­ral­über­neh­mer oder Projekt­ent­wick­ler ist es
           für Sie wichtig, eine Carbon Due Diligence durchzuführen, um
@@ -100,7 +100,7 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 
 <style>

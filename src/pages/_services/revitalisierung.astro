@@ -1,10 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import Anchor from "../../components/Anchor.astro";
-import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import ActionLink from "../../components/ActionLink.astro";
+import ProjectCarousel from "../../components/ProjectCarousel/ProjectCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
-import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import StickySection from "../../components/StickySection.astro";
 
 const title = "BuildSystems | Revitalisierung";
 const description =
@@ -21,14 +21,14 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
-      transformiert <span class="font-secondary green"
+      transformiert <span class="font-secondary text-brand-green"
         >bestehende Immobilien</span
       > zu ressourcen­schonenden und mehrwert­stiftenden Lebens­räumen, die langfristig
       wertstabil und förderfähig sind.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
   <div class="animation-eight-topics-container">
     <div class="animation-eight-topics">
@@ -39,10 +39,10 @@ const posts = await getAllPosts();
       />
     </div>
   </div>
-  <div class="frame" id="energieberatung-und-individuelle-sanierungsfahrplaene">
+  <div class="section-container" id="energieberatung-und-individuelle-sanierungsfahrplaene">
     <h2>Energie­beratung und Individuelle Sanierungs­fahrpläne</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Ihre Immobilie zeigt erhöhte Energie­verbrauchs­daten, sodass der
           Betrieb mit Blick auf aktuelle Energiepreise nicht wirt­schaft­lich
@@ -74,10 +74,10 @@ const posts = await getAllPosts();
     </div>
   </div>
 
-  <div class="frame primary-margin-top" id="repositionierungskonzepte">
+  <div class="section-container mt-hero" id="repositionierungskonzepte">
     <h2>Repositionierung, Aus- und Umbau­konzepte</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Auf Ihrem Grundstück befinden sich Nach­verdichtungs­potenziale oder
           Sie könnten Ihre Immobilie aufstocken? Ihr Gebäude entspricht in
@@ -107,10 +107,10 @@ const posts = await getAllPosts();
     </div>
   </div>
 
-  <div class="frame primary-margin-top" id="foerdermittelberatung">
+  <div class="section-container mt-hero" id="foerdermittelberatung">
     <h2>Fördermittelberatung</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           In Zeiten steigender Baupreise und hoher Zinssätze werden Förderungen
           wie die der KfW oder BAFA stetig attraktiver – zumal diese gerade bei
@@ -126,7 +126,7 @@ const posts = await getAllPosts();
           vergünstigte Zinsen vergleichen? Werfen Sie einen Blick in unseren
           Fördermittel-Kalkulator!
         </p>
-        <Anchor
+        <ActionLink
           text="Fördertool"
           link="/foerdertool"
           openOnNewTab={true}
@@ -141,7 +141,7 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 <style>
   .animation-eight-topics-container {

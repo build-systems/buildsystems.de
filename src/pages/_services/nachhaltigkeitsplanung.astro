@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogCarousel from "../../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../../components/ProjectCarousel/ProjectCarousel.astro";
 import { getAllPosts } from "../../lib/notion/client";
-import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import StickySection from "../../components/StickySection.astro";
 
 const title = "BuildSystems | Nachhaltigkeitsplanung";
 const description =
@@ -20,13 +20,13 @@ const posts = await getAllPosts();
   image={image}
   imageAlt={imageAlt}
 >
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       steuert und optimiert die Wirksamkeit Ihrer <span
-        class="font-secondary green">Nachhaltigkeitsplanung</span
+        class="font-secondary text-brand-green">Nachhaltigkeitsplanung</span
       >. Umweltentlastung und ökonomische Machbarkeit gehen dabei Hand in Hand.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
   <div class="animation05-container">
     <div class="animation05">
@@ -50,10 +50,10 @@ const posts = await getAllPosts();
       />
     </div>
   </div>
-  <div class="frame" id="carbon-due-diligence">
+  <div class="section-container" id="carbon-due-diligence">
     <h2>Carbon Due Diligence</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Messen und Reporten: Inzwischen setzen Reporting­anforderungen sowie
           Förder­programme klare Benchmarks bei Emissionen und sind zusätzlich
@@ -81,10 +81,10 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <div class="frame primary-margin-top" id="sparingspartner-nachhaltigkeit">
+  <div class="section-container mt-hero" id="sparingspartner-nachhaltigkeit">
     <h2>ESG und DGNB Consulting</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Sie wünschen sich einen Partner, der Sie langfristig und auf Augenhöhe
           zu verschiedenen Nachhaltigkeitsthemen zu Ihrem (wachsenden) Portfolio
@@ -108,10 +108,10 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <div class="frame primary-margin-top" id="planungsbegleitende-leistungen">
+  <div class="section-container mt-hero" id="planungsbegleitende-leistungen">
     <h2>Nachhaltigkeitsplanung</h2>
     <div class="list-text-grid">
-      <div class="msg-tertiary">
+      <div class="text-body-large">
         <p>
           Konstruieren und Planen: Sie möchten mit Ihrem Projekt aktiv zur
           Umwelt­entlastung beitragen und ein Exempel setzen? BuildSystems
@@ -145,7 +145,7 @@ const posts = await getAllPosts();
       </ul>
     </div>
   </div>
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 </BaseLayout>
 <style>
   .animation05-container {

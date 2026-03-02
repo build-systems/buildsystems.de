@@ -1,3 +1,4 @@
+// @ts-nocheck
 import fs from "fs";
 import { setTimeout } from "timers/promises";
 import { Client } from "@notionhq/client";
@@ -48,7 +49,7 @@ const retrieveAndWriteBlockChildren = async (blockId: string) => {
         await retrieveAndWriteBlock(block.synced_block.synced_from.block_id);
       } catch (err) {
         console.log(
-          `Could not retrieve the original synced_block. error: ${err}`
+          `Could not retrieve the original synced_block. error: ${err}`,
         );
         throw err;
       }

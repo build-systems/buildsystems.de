@@ -4,7 +4,7 @@ import { formatDate } from "../../utils/getPostData.ts";
 import { Image } from "astro:assets";
 import { getAllPosts } from "../../lib/notion/client.ts";
 import { getPostLink, importCoverImage } from "../../lib/blog-helpers.ts";
-import StickyLogoMessage from "../../components/StickyLogoMessage.astro";
+import StickySection from "../../components/StickySection.astro";
 import { SITE_HEROIMAGE, SITE_HEROIMAGEALT } from "../../consts";
 import type { ImageMetadata } from "astro";
 
@@ -29,7 +29,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   imageAlt={SITE_HEROIMAGEALT}
   transition={true}
 >
-  <div class="frame msg-secondary primary-margin-top">
+  <div class="section-container text-subheading mt-hero">
     <h3>
       Die Fragen der Bauwende sind vielerorts gleich, die jeweilige Umsetzung
       ist jedoch immer spezifisch. Unsere Arbeit baut auf Interdisziplinarität,
@@ -39,15 +39,15 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       Perspektiven.
     </h3>
   </div>
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       arbeitet zwischen Forschung, öffentlicher Wissensbildung und einer
       ganzheitlichen Beratung und Planung. Damit bewegen wir uns zwischen
       strategischer Begleitung, Planungsleistungen und der Überführung von
       Wissen und Ergebnissen in die digitale Welt.
     </h2>
-  </StickyLogoMessage>
-  <div class="frame blog-container">
+  </StickySection>
+  <div class="section-container blog-container">
     {
       posts.map((post, index) => {
         // Get images

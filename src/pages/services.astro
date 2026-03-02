@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import LottieAnimation from "astro-integration-lottie/Lottie.astro";
 import serviceAnimation from "../assets/service-building-options.webp";
-import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import StickySection from "../components/StickySection.astro";
 
 const title = "BuildSystems | Services";
 const description =
@@ -18,7 +18,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
   image={image}
   imageAlt={imageAlt}
 >
-  <div class="frame msg-secondary primary-margin-top">
+  <div class="section-container text-subheading mt-hero">
     <h3>
       Wie schaffen wir es, die Herausforderungen der Bauwende zu bewältigen?
       Unsere Antwort lautet: Ganzheitlich! Deshalb unterstützen wir Sie auf
@@ -29,22 +29,22 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
     </h3>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
-      ebnet den Weg zur <span class="font-secondary green"
+      ebnet den Weg zur <span class="font-secondary text-brand-green"
         >Digi­ta­li­sie­rung</span
       > Wir verbinden Ihre existierende Praxis mit innovativen Prozessen und Tools.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
-  <div class="frame image-text-grid">
+  <div class="section-container image-text-grid">
     <div class="options-animation">
       <Image
         src={serviceAnimation}
         alt="Animation showing multiple options of components for the same project: A concrete building, a building with concrete floors and timber walls, a timber building."
       />
     </div>
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <p>
         Mit unserem Fokus auf Nachhaltigkeit und Innovation unterstützen wir
         Sie, Ihre Immobilien und Prozesse digital zu transformieren und Ihre
@@ -62,16 +62,16 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
     </div>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
-      begleitet Sie zu Ihrer <span class="font-secondary green"
+      begleitet Sie zu Ihrer <span class="font-secondary text-brand-green"
         >Nachhaltigkeitsstrategie</span
       > und überstützen Sie bei der Berichterstattung.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
-  <div class="frame image-text-grid">
-    <div class="msg-tertiary">
+  <div class="section-container image-text-grid">
+    <div class="text-body-large">
       <p>
         Ab 2025 werden die Offenlegungsverordnungen der EU zum Green New Deal
         für viele Unternehmen unumgänglich. Wenig komplex sind sie dabei nicht.
@@ -109,16 +109,16 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
     </div>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
-      trans­for­miert <span class="font-secodary green"
+      trans­for­miert <span class="font-secodary text-brand-green"
         >beste­hende Immo­bi­lien</span
       > zu res­sour­cen­schon­en­den und mehr­wert­stif­ten­den Le­bens­räu­men,
       die lang­fris­tig wert­sta­bil und förder­fähig sind.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
-  <div class="frame image-text-grid">
+  <div class="section-container image-text-grid">
     <div class="animation03">
       <LottieAnimation
         id="animation03"
@@ -126,7 +126,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         autoplay="visible"
       />
     </div>
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <p>
         Wir verstehen Gebäude als langfristigen Baustein innerhalb des
         Stadtgefüges. Dabei tragen bedürfnis­orientierte Immobilien wesentlich
@@ -156,16 +156,16 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
     </div>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       steuert und op­ti­miert die Wirksam­keit Ihrer <span
-        class="font-secondary green">Nachhal­tigkeits­planung</span
+        class="font-secondary text-brand-green">Nachhal­tigkeits­planung</span
       >. Um­welt­ent­las­tung und ökono­mische Mach­bar­keit gehen dabei Hand
       in Hand.
     </h2>
-  </StickyLogoMessage>
+  </StickySection>
 
-  <div class="frame image-text-grid">
+  <div class="section-container image-text-grid">
     <div class="animation05">
       <img
         src="/animations/services-component-exploding.webp"
@@ -186,7 +186,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
         decoding="async"
       />
     </div>
-    <div class="msg-tertiary">
+    <div class="text-body-large">
       <p>
         Wir bieten Ihnen umfassende Fachplanung und planungs­begleitende
         Leistungen, die darauf abzielen, Gebäude ökologisch, sozial und
@@ -210,7 +210,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
   </div>
 
   <style>
-    .frame h3 {
+    .section-container h3 {
       margin-bottom: 10svh;
     }
     .animation03 {

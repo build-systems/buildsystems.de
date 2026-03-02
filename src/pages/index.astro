@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogCarousel from "../components/BlogCarousel/BlogCarousel.astro";
+import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import bsTeam from "../assets/buildsystems-team.jpg";
 import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
 import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
 import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
 import Cover from "../components/Cover.astro";
-import ExpandButton from "../components/ExpandButton.astro";
+import ExpandableText from "../components/ExpandableText.astro";
 import { getAllPosts } from "../lib/notion/client";
 import heroRendering from "../assets/multistory-timber-building.jpg";
 import { Image } from "astro:assets";
@@ -18,10 +18,10 @@ import {
   SITE_HEROIMAGE,
   SITE_HEROIMAGEALT,
 } from "../consts";
-import StickyLogoMessage from "../components/StickyLogoMessage.astro";
+import StickySection from "../components/StickySection.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
-import Anchor from "../components/Anchor.astro";
+import ActionLink from "../components/ActionLink.astro";
 
 const posts = await getAllPosts();
 ---
@@ -45,20 +45,20 @@ const posts = await getAllPosts();
     loading="eager"
   />
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
       klimafreundliche Gebäude.
     </h2>
-  </StickyLogoMessage>
-  <div class="frame msg-secondary">
+  </StickySection>
+  <div class="section-container text-subheading">
     <h3>
       Gemeinsam mit Projektentwickler:innen, Bestandshaltern und Bauunternehmen
       realisieren wir zukunftsfähige Immobilien und treiben die nachhaltige
       Bauwende voran. Dabei geht Innovation bei uns Hand in Hand mit kreativen
       Lösungsansätzen.
     </h3>
-    <Anchor
+    <ActionLink
       icon="redirect"
       text="Erstgespräch vereinbaren"
       openOnNewTab={true}
@@ -80,13 +80,13 @@ const posts = await getAllPosts();
     <ThreePillarsVertical />
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       ist als technologiegestützte Nachhaltigkeitsberatung Ihr Sparringspartner
       auf dem Weg zur Klimaneutralität – mit interdisziplinärer Kompetenz und
       einem ganzheitlichen Ansatz.
     </h2>
-    <ExpandButton
+    <ExpandableText
       buttonText="About"
       buttonLink="/about"
       id="01"
@@ -98,9 +98,9 @@ const posts = await getAllPosts();
       Nachhaltigkeitsstrategien auf Objekt- und Unternehmensebene, entwerfen
       Umnutzungs- und Revitalisierungskonzepte für Bestandsgebäude und begleiten
       Sie hinsichtlich Reportinganforderungen.
-    </ExpandButton>
-  </StickyLogoMessage>
-  <div class="frame image-text-grid">
+    </ExpandableText>
+  </StickySection>
+  <div class="section-container image-text-grid">
     <div class="options-animation">
       <Image class="image" src={bsTeam} alt="BuildSystems team working" />
     </div>
@@ -116,12 +116,12 @@ const posts = await getAllPosts();
     </div>
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
       Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
     </h2>
-    <ExpandButton
+    <ExpandableText
       buttonText="Services"
       buttonLink="/services"
       id="02"
@@ -133,21 +133,21 @@ const posts = await getAllPosts();
       Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren Chancen und
       optimieren Prozesse. Dabei treiben wir stetig Ihre Zukunftsfähigkeit
       voran. So machen sich Ihre Green Assets bezahlt!
-    </ExpandButton>
-  </StickyLogoMessage>
+    </ExpandableText>
+  </StickySection>
 
   <div class="carousel-container">
     <BuildCarousel />
   </div>
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       unterstützt Sie dabei, den Nachhaltigkeitsanforderugen von morgen gerecht
       zu werden. Dabei berücksichtigen wir nicht nur gesetzlich geforderte
       Benchmarks – auch Innovationen und Trends gewährleisten Ihre
       Zukunftsfähigkeit.
     </h2>
-    <ExpandButton
+    <ExpandableText
       buttonText="Our Work"
       buttonLink="/ourwork"
       id="03"
@@ -161,18 +161,18 @@ const posts = await getAllPosts();
       über die Verringerung von Emissionen hinausgehen, für unsere jeweiligen
       Kunden herauszuarbeiten und so langanhaltende Wertbeständigkeit zu
       gewährleisten.
-    </ExpandButton>
-  </StickyLogoMessage>
+    </ExpandableText>
+  </StickySection>
 
-  <BlogCarousel posts={posts} />
+  <ProjectCarousel posts={posts} />
 
-  <StickyLogoMessage>
+  <StickySection>
     <h2>
       hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und
       gibt Orientierung auf unbekanntem Terrain. Veränderung wird aktiv im Team
       gestaltet.
     </h2>
-    <ExpandButton
+    <ExpandableText
       buttonText="Workshops"
       buttonLink="/workshops"
       id="04"
@@ -187,10 +187,10 @@ const posts = await getAllPosts();
       Managen Sie in Zukunft die verschiedenen Stellschrauben der Nachhaltigkeit
       ganzheitlich und verstehen Sie, welche Maßnahmen tatsächlich einen
       positiven Impact schaffen.
-    </ExpandButton>
-  </StickyLogoMessage>
+    </ExpandableText>
+  </StickySection>
 
-  <div class="frame workshop-cards">
+  <div class="section-container workshop-cards">
     <Image
       class="svg-action-card"
       src={cardQualitaetsprofil}
