@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 // At the moment these keys are not being properly imported during dev or build.
 // I am manually typing  "export PARTNERS_DB_ID=XXX" in terminal where node will run
 

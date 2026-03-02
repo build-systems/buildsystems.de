@@ -14,41 +14,7 @@ import {
 import type { Database } from "../lib/notion-interfaces";
 import fs from "fs";
 import path from "path";
-
-// https://developers.notion.com/reference/request-limits
-// This is not working yet, re-do the processQueue
-// First it is not really working with time
-// Secondly if file already exists, it should not count
-const MAX_REQUESTS_PER_SECOND = 3;
-
-const downloadQueue: any[] = [];
-
-// Function to process the queue
-const processQueue = async () => {
-  while (downloadQueue.length > 0) {
-    const startTime = Date.now();
-    const tasks = [];
-
-    for (let i = 0; i < downloadQueue.length; i++) {
-      const timeSinceStart = Date.now() - startTime;
-      if (timeSinceStart < 1000 && tasks.length < MAX_REQUESTS_PER_SECOND) {
-        tasks.push(downloadQueue.shift()());
-      } else {
-        break;
-      }
-    }
-
-    // Wait until remaining time in the second elapses (if any)
-    if (tasks.length > 0) {
-      await new Promise((resolve) =>
-        setTimeout(resolve, 1000 - (Date.now() - startTime)),
-      );
-    }
-
-    // Execute tasks concurrently
-    await Promise.all(tasks);
-  }
-};
+import { PromisePool } from "@supercharge/promise-pool";
 
 export default (): AstroIntegration => ({
   name: "posts-files-downloader",
@@ -79,8 +45,9 @@ export default (): AstroIntegration => ({
         }
       }
       // Download cover image and blocks content for each post
-      await Promise.all(
-        posts.map(async (post) => {
+      await PromisePool.withConcurrency(5)
+        .for(posts)
+        .process(async (post) => {
           const slug = post.Slug;
           const postDir = path.join("public", "notion", slug);
           // Collect post data
@@ -143,8 +110,7 @@ export default (): AstroIntegration => ({
             path.join(postDir, "post.json"),
             JSON.stringify(postJson, null, 2),
           );
-        }),
-      );
+        });
     },
   },
 });

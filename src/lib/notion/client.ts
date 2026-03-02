@@ -582,25 +582,6 @@ async function checkFileExists(file: fs.PathLike) {
 }
 
 export async function downloadImage(url: URL, slug: string) {
-  let res!: AxiosResponse;
-  try {
-    res = await axios({
-      method: "get",
-      url: url.toString(),
-      timeout: REQUEST_TIMEOUT_MS,
-      responseType: "stream",
-    });
-  } catch (error) {
-    console.log("\nError requesting image\n" + error);
-    return Promise.resolve();
-  }
-  console.log("\n===== Starting File Download =====");
-
-  if (!res || res.status != 200) {
-    console.log(res);
-    return Promise.resolve();
-  }
-
   // Use the post slug as the folder name
   const dir = `./src/assets/notion/${slug}`;
   if (!fs.existsSync(dir)) {
@@ -612,7 +593,43 @@ export async function downloadImage(url: URL, slug: string) {
 
   if (fs.existsSync(filepath)) {
     console.log(`File already exists:\n${filepath}`);
-    return;
+    return Promise.resolve();
+  }
+
+  console.log("\n===== Starting File Download =====");
+
+  let res!: AxiosResponse;
+  try {
+    res = await retry(
+      async (bail) => {
+        try {
+          return await axios({
+            method: "get",
+            url: url.toString(),
+            timeout: REQUEST_TIMEOUT_MS,
+            responseType: "stream",
+          });
+        } catch (error: any) {
+          if (
+            error.response &&
+            error.response.status >= 400 &&
+            error.response.status < 500
+          ) {
+            bail(error);
+          }
+          throw error;
+        }
+      },
+      { retries: 3 },
+    );
+  } catch (error) {
+    console.log("\nError requesting image\n" + error);
+    return Promise.resolve();
+  }
+
+  if (!res || res.status != 200) {
+    console.log(res);
+    return Promise.resolve();
   }
 
   const writeStream = createWriteStream(filepath);
@@ -632,22 +649,6 @@ export async function downloadImage(url: URL, slug: string) {
 }
 
 export async function downloadPublicImage(url: URL, slug: string) {
-  let res!: AxiosResponse;
-  try {
-    res = await axios({
-      method: "get",
-      url: url.toString(),
-      timeout: REQUEST_TIMEOUT_MS,
-      responseType: "stream",
-    });
-  } catch (error) {
-    console.log("\nError requesting image\n" + error);
-    return Promise.resolve();
-  }
-  if (!res || res.status != 200) {
-    console.log(res);
-    return Promise.resolve();
-  }
   // Use the post slug as the folder name
   const dir = `./public/notion/${slug}`;
   if (!fs.existsSync(dir)) {
@@ -656,8 +657,42 @@ export async function downloadPublicImage(url: URL, slug: string) {
   const fileNameConverted = returnImageNameAsJpg(url);
   const filepath = `${dir}/${fileNameConverted}`;
   if (fs.existsSync(filepath)) {
-    return;
+    return Promise.resolve();
   }
+
+  let res!: AxiosResponse;
+  try {
+    res = await retry(
+      async (bail) => {
+        try {
+          return await axios({
+            method: "get",
+            url: url.toString(),
+            timeout: REQUEST_TIMEOUT_MS,
+            responseType: "stream",
+          });
+        } catch (error: any) {
+          if (
+            error.response &&
+            error.response.status >= 400 &&
+            error.response.status < 500
+          ) {
+            bail(error);
+          }
+          throw error;
+        }
+      },
+      { retries: 3 },
+    );
+  } catch (error) {
+    console.log("\nError requesting image\n" + error);
+    return Promise.resolve();
+  }
+  if (!res || res.status != 200) {
+    console.log(res);
+    return Promise.resolve();
+  }
+
   const writeStream = createWriteStream(filepath);
   let stream = res.data;
   if (res.headers["content-type"] === "image/jpeg") {
