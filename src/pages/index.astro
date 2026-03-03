@@ -2,9 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import bsTeam from "../assets/buildsystems-team.jpg";
-import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
-import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
-import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
+import strategie from "../assets/card-strategie.svg";
+import praxis from "../assets/card-praxis.svg";
+import transfer from "../assets/card-transfer.svg";
 import Cover from "../components/Cover.astro";
 import { getAllPosts } from "../lib/notion/client";
 import heroRendering from "../assets/multistory-timber-building.jpg";
@@ -137,17 +137,17 @@ const marqueeDuration = `${Math.max(1, logoCount) * 4}s`;
   <div class="section-container workshop-cards">
     <Image
       class="svg-action-card"
-      src={cardQualitaetsprofil}
+      src={strategie}
       alt="Action Card Qualitätsprofil"
     />
     <Image
       class="svg-action-card"
-      src={cardEmissionsprofil}
+      src={praxis}
       alt="Action Card Emissionsprofil"
     />
     <Image
       class="svg-action-card"
-      src={cardZirkularitaetsprofil}
+      src={transfer}
       alt="Action Card Zirkularitätsprofil"
     />
   </div>
