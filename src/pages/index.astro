@@ -2,12 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import bsTeam from "../assets/buildsystems-team.jpg";
-import BuildCarousel from "../components/BuildCarousel/BuildCarousel.astro";
 import cardQualitaetsprofil from "../assets/action-card-qualitaetsprofil.svg";
 import cardEmissionsprofil from "../assets/action-card-emissionsprofil.svg";
 import cardZirkularitaetsprofil from "../assets/action-card-zirkularitaetsprofil.svg";
 import Cover from "../components/Cover.astro";
-import ExpandableText from "../components/ExpandableText.astro";
 import { getAllPosts } from "../lib/notion/client";
 import heroRendering from "../assets/multistory-timber-building.jpg";
 import { Image } from "astro:assets";
@@ -22,8 +20,12 @@ import StickySection from "../components/StickySection.astro";
 import ThreePillarsHorizontal from "../components/ThreePillarsHorizontal.astro";
 import ThreePillarsVertical from "../components/ThreePillarsVertical.astro";
 import ActionLink from "../components/ActionLink.astro";
+import LogoCarouselItem from "../components/LogoCarouselItem.astro";
+import { getAllOrganizations } from "../lib/notion/client";
 
 const posts = await getAllPosts();
+
+const organizations = await getAllOrganizations();
 ---
 
 <BaseLayout
@@ -50,14 +52,6 @@ const posts = await getAllPosts();
       gestaltet Systeme, Prozesse und Räume – für lebenswerte Städte und
       klimafreundliche Gebäude.
     </h2>
-  </StickySection>
-  <div class="section-container text-subheading">
-    <h3>
-      Gemeinsam mit Projektentwickler:innen, Bestandshaltern und Bauunternehmen
-      realisieren wir zukunftsfähige Immobilien und treiben die nachhaltige
-      Bauwende voran. Dabei geht Innovation bei uns Hand in Hand mit kreativen
-      Lösungsansätzen.
-    </h3>
     <ActionLink
       icon="redirect"
       text="Erstgespräch vereinbaren"
@@ -65,129 +59,69 @@ const posts = await getAllPosts();
       link="mailto:mail@buildsystems.de"
       widthFitContent={true}
     />
-  </div>
+  </StickySection>
 
-  <div
-    aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
-    class="animation01 horizontal"
-  >
+  <div class="animation01 horizontal">
     <ThreePillarsHorizontal />
   </div>
-  <div
-    aria-label="Animation: Ökologische Bautätigkeit skalieren. Ökonomische Machbarkeit und Planungssicherheit garantieren. Konformität mit ESG und Förderrichtlinien gewährleisten."
-    class="animation01 vertical"
-  >
+
+  <div class="animation01 vertical">
     <ThreePillarsVertical />
   </div>
 
   <StickySection>
     <h2>
-      ist als technologiegestützte Nachhaltigkeitsberatung Ihr Sparringspartner
-      auf dem Weg zur Klimaneutralität – mit interdisziplinärer Kompetenz und
-      einem ganzheitlichen Ansatz.
+      realisiert gemeinsam mit Unternehmen, Organisationen und öffentlichen
+      Akteur:innen die nachhaltige Transformation der Immobilien- und
+      Bauwirtschaft entlang folgender <span
+        class="font-secondary text-brand-green">Wirkungsfeldern:</span
+      >
     </h2>
-    <ExpandableText
-      buttonText="About"
-      buttonLink="/about"
-      id="01"
-      ariaLabel="Go to Team page"
-    >
-      Wir erschließen Potenziale der Umweltentlastung ganzheitlich. Das
-      bedeutet, wir beraten Sie toolunabhängig im interdisziplinären Team aus
-      Nachhaltigkeits- und Softwarespezialisten. Dabei entwickeln wir
-      Nachhaltigkeitsstrategien auf Objekt- und Unternehmensebene, entwerfen
-      Umnutzungs- und Revitalisierungskonzepte für Bestandsgebäude und begleiten
-      Sie hinsichtlich Reportinganforderungen.
-    </ExpandableText>
   </StickySection>
-  <div class="section-container image-text-grid">
-    <div class="options-animation">
-      <Image class="image" src={bsTeam} alt="BuildSystems team working" />
-    </div>
-    <div
-      aria-label="Animation: Smart Sustainability Roadmap"
-      class="animation02"
+
+  <div class="leistungen-nav">
+    <a
+      href="/leistungen/#strategie"
+      class="leistungen-square"
+      data-astro-prefetch
     >
-      <LottieAnimation
-        id="animation02"
-        src="animations/five-pillars.json"
-        autoplay="visible"
-      />
-    </div>
+      <span class="leistungen-square-text">Strategie</span>
+      <span class="leistungen-square-arrow">
+        <svg><use xlink:href="/assets/icons.svg#redirect"></use></svg>
+      </span>
+    </a>
+    <a href="/leistungen/#praxis" class="leistungen-square" data-astro-prefetch>
+      <span class="leistungen-square-text">Praxis</span>
+      <span class="leistungen-square-arrow">
+        <svg><use xlink:href="/assets/icons.svg#redirect"></use></svg>
+      </span>
+    </a>
+    <a
+      href="/leistungen/#transfer"
+      class="leistungen-square"
+      data-astro-prefetch
+    >
+      <span class="leistungen-square-text">Transfer</span>
+      <span class="leistungen-square-arrow">
+        <svg><use xlink:href="/assets/icons.svg#redirect"></use></svg>
+      </span>
+    </a>
   </div>
 
   <StickySection>
     <h2>
-      stellt Leistungspakete maßgeschneidert zusammen und bietet Services, die
-      Ihrem individuellen Bedarf entsprechen. Schema F gibt es bei uns nicht.
+      stellt individuelle <span class="font-secondary text-brand-green"
+        >Leistungen</span
+      > zusammen und bietet passgenaue Lösungen, abgestimmt auf die spezifischen Anforderungen
+      und Zielsetzungen des jeweiligen Vorhabens.
     </h2>
-    <ExpandableText
-      buttonText="Services"
-      buttonLink="/services"
-      id="02"
-      ariaLabel="Go to Services page"
-    >
-      Die Bauwende stellt eine der größten Herausforderungen dar, jedoch ist sie
-      auch mit immensen Wachstumschancen verbunden. Wir unterstützen sie bei der
-      Strategieentwicklung und -implementierung. Individuell auf Ihre
-      Bedürfnisse abgestimmt, bestimmen wir Risiken, identifizieren Chancen und
-      optimieren Prozesse. Dabei treiben wir stetig Ihre Zukunftsfähigkeit
-      voran. So machen sich Ihre Green Assets bezahlt!
-    </ExpandableText>
-  </StickySection>
-
-  <div class="carousel-container">
-    <BuildCarousel />
-  </div>
-
-  <StickySection>
-    <h2>
-      unterstützt Sie dabei, den Nachhaltigkeitsanforderugen von morgen gerecht
-      zu werden. Dabei berücksichtigen wir nicht nur gesetzlich geforderte
-      Benchmarks – auch Innovationen und Trends gewährleisten Ihre
-      Zukunftsfähigkeit.
-    </h2>
-    <ExpandableText
-      buttonText="Our Work"
-      buttonLink="/ourwork"
-      id="03"
-      ariaLabel="Go to Our Work page"
-    >
-      Unsere Arbeit bildet einen Querschnitt durch Forschungs- und
-      Wissenstransprojekte sowie Beratungs- und Planungsleistungen. Dabei ist
-      die Dekarbonisierung unserer gebauten Umwelt das verbindende Element all
-      unserer Projekte, denn sie ist unumgänglich um die globalen Klimaziele zu
-      erreichen. Der Fokus unserer Arbeit liegt stets darauf, jene Vorteile, die
-      über die Verringerung von Emissionen hinausgehen, für unsere jeweiligen
-      Kunden herauszuarbeiten und so langanhaltende Wertbeständigkeit zu
-      gewährleisten.
-    </ExpandableText>
-  </StickySection>
-
-  <ProjectCarousel posts={posts} />
-
-  <StickySection>
-    <h2>
-      hilft, Herausforderungen des nachhaltigen Bauens besser zu verstehen und
-      gibt Orientierung auf unbekanntem Terrain. Veränderung wird aktiv im Team
-      gestaltet.
-    </h2>
-    <ExpandableText
-      buttonText="Workshops"
-      buttonLink="/workshops"
-      id="04"
-      ariaLabel="Go to Workshop page"
-    >
-      Wir haben unseren Fit For Future Ansatz als ein Weiterbildungsformat rund
-      um die Herausforderungen nachhaltiger Projektentwicklung und
-      unternehmensstrategischer Dekarbonisierung konzipiert. In analogen Modulen
-      lernen die Teilnehmenden, worauf es bei der Entwicklung von
-      zukunftsfähigen, lebenswerten und gemischten Quartieren und Gebäuden
-      ankommt und wie Unternehmen diese Ansätze auf Unternehmensebene verankern.
-      Managen Sie in Zukunft die verschiedenen Stellschrauben der Nachhaltigkeit
-      ganzheitlich und verstehen Sie, welche Maßnahmen tatsächlich einen
-      positiven Impact schaffen.
-    </ExpandableText>
+    <ActionLink
+      icon="redirect"
+      text="Leistungen"
+      openOnNewTab={true}
+      link="/leistungen"
+      widthFitContent={true}
+    />
   </StickySection>
 
   <div class="section-container workshop-cards">
@@ -207,194 +141,404 @@ const posts = await getAllPosts();
       alt="Action Card Zirkularitätsprofil"
     />
   </div>
-</BaseLayout>
 
-<script>
-  // Script for ExpandButton component
-  const textsExpandButtons = document.querySelectorAll(
-    ".more-text"
-  ) as NodeListOf<HTMLElement>;
+  <StickySection>
+    <h2>
+      stellt die richtigen Weichen für Ihre zukünftige Strategie, begleitet
+      innovative Bauvorhaben in der Praxis und lenkt Informationen wirksam zu
+      den relevanten Akteur:innen. Unser <span
+        class="font-secondary text-brand-green">Portfolio</span
+      > spricht für sich:
+    </h2>
+    <ActionLink
+      icon="redirect"
+      text="Portfolio"
+      openOnNewTab={true}
+      link="/portfolio"
+      widthFitContent={true}
+    />
+  </StickySection>
 
-  textsExpandButtons.forEach((text, i) => {
-    const button = document.getElementById("expand-button-0" + (i + 1))!;
-    const svgElement = button.querySelector("svg");
-    const minusElement = svgElement?.querySelector(".minus");
-    const plusElement = svgElement?.querySelector(".plus");
+  <ProjectCarousel posts={posts} />
 
-    button.addEventListener("click", () => {
-      minusElement?.classList.toggle("hidden");
-      plusElement?.classList.toggle("hidden");
-      text.classList.toggle("height-max-content");
+  <StickySection>
+    <h2>
+      steht für gelebte Interdisziplinarität: Jeder bringt einen Baustein der
+      ganzheitlichen Betrachtung mit ins <span
+        class="font-secondary text-brand-green">Team</span
+      > ein.
+    </h2>
+    <ActionLink
+      icon="redirect"
+      text="Team"
+      openOnNewTab={true}
+      link="/team"
+      widthFitContent={true}
+    />
+  </StickySection>
+
+  <div class="section-container image-text-grid">
+    <div class="options-animation">
+      <Image class="image" src={bsTeam} alt="BuildSystems team working" />
+    </div>
+    <div
+      aria-label="Animation: Smart Sustainability Roadmap"
+      class="animation02"
+    >
+      <LottieAnimation
+        id="animation02"
+        src="animations/five-pillars.json"
+        autoplay="visible"
+      />
+    </div>
+  </div>
+
+  <StickySection>
+    <h2>
+      setzt bei der Umsetzung von Projekten auf die Zusammenarbeit mit
+      Organisationen, Partnern und Förderinstitutionen.
+    </h2>
+  </StickySection>
+
+  {
+    organizations.length > 0 && organizations && (
+      <div class="logo-marquee-wrapper">
+        <div class="logo-marquee-track">
+          {organizations.map((organization) => (
+            <LogoCarouselItem organization={organization} />
+          ))}
+          {organizations.map((organization) => (
+            <LogoCarouselItem organization={organization} />
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  <script>
+    // Script for ExpandButton component
+    const textsExpandButtons = document.querySelectorAll(
+      ".more-text",
+    ) as NodeListOf<HTMLElement>;
+
+    textsExpandButtons.forEach((text, i) => {
+      const button = document.getElementById("expand-button-0" + (i + 1))!;
+      const svgElement = button.querySelector("svg");
+      const minusElement = svgElement?.querySelector(".minus");
+      const plusElement = svgElement?.querySelector(".plus");
+
+      button.addEventListener("click", () => {
+        minusElement?.classList.toggle("hidden");
+        plusElement?.classList.toggle("hidden");
+        text.classList.toggle("height-max-content");
+      });
     });
-  });
-</script>
+  </script>
 
-<style>
-  .hero-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    min-height: 105svh;
-    object-fit: cover;
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1) 90%,
-      rgba(0, 0, 0, 0)
-    );
-    mask-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1) 90%,
-      rgba(0, 0, 0, 0)
-    );
-    z-index: 2;
-    user-select: none;
-  }
-
-  .animation01 {
-    width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: var(--left-padding-general);
-    padding-right: var(--right-padding-general);
-  }
-
-  .animation01.vertical {
-    display: none;
-  }
-
-  .carousel-container {
-    min-height: 30svh;
-    width: 100%;
-    padding-left: var(--left-padding-general);
-    padding-right: var(--right-padding-general);
-    margin-top: 5svh;
-  }
-
-  .animation02 {
-    margin-top: -2rem;
-    margin-bottom: -4rem;
-    width: 100%;
-  }
-
-  .workshop-cards {
-    width: calc(
-      100% - var(--left-padding-general) - var(--right-padding-general)
-    );
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .svg-action-card {
-    width: clamp(80px, 20svw, 300px);
-    justify-self: center;
-  }
-
-  .image {
-    border-radius: var(--card-border-radius);
-  }
-
-  @media (max-width: 1280px) {
-    .animation01 {
-      padding-left: calc(var(--left-padding-desktop) - 40px);
-      padding-right: 5%;
-    }
-
-    .carousel-container {
-      padding-left: var(--left-padding-desktop);
-      padding-right: var(--right-padding-desktop);
-    }
-
-    .workshop-cards {
-      width: calc(
-        100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+  <style>
+    .hero-image {
+      position: relative;
+      top: 0;
+      left: 0;
+      min-height: 105svh;
+      object-fit: cover;
+      -webkit-mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 90%,
+        rgba(0, 0, 0, 0)
       );
+      mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 90%,
+        rgba(0, 0, 0, 0)
+      );
+      z-index: 2;
+      user-select: none;
     }
-  }
 
-  @media (max-width: 920px) {
     .animation01 {
-      padding-left: var(--left-padding-tablet);
+      width: 100%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: var(--left-padding-general);
+      padding-right: var(--right-padding-general);
+    }
+
+    .animation01.vertical {
+      display: none;
     }
 
     .carousel-container {
-      padding-left: var(--left-padding-tablet);
-      padding-right: var(--right-padding-tablet);
+      min-height: 30svh;
+      width: 100%;
+      padding-left: var(--left-padding-general);
+      padding-right: var(--right-padding-general);
+      margin-top: 5svh;
     }
 
     .animation02 {
-      padding-left: var(--left-padding-tablet);
-      padding-right: var(--right-padding-tablet);
+      margin-top: -2rem;
+      margin-bottom: -4rem;
       width: 100%;
     }
 
     .workshop-cards {
       width: calc(
-        100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+        100% - var(--left-padding-general) - var(--right-padding-general)
       );
-      margin-left: var(--left-padding-tablet);
-      margin-right: var(--right-padding-tablet);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
 
     .svg-action-card {
-      width: clamp(80px, 26svw, 300px);
-    }
-  }
-
-  @media (max-width: 640px) {
-    .animation01.vertical {
-      display: block;
-      width: 50%;
+      width: clamp(80px, 20svw, 300px);
+      justify-self: center;
     }
 
-    .animation01.horizontal {
-      display: none;
+    .image {
+      border-radius: var(--card-border-radius);
     }
 
-    .carousel-container {
-      padding-left: var(--left-padding-tablet);
-      padding-right: var(--right-padding-tablet);
-    }
-
-    .animation02 {
-      width: 110%;
-      margin: 0;
-      padding: 0;
-    }
-
-    .workshop-cards {
-      flex-direction: column;
-      gap: 3rem;
-    }
-
-    .svg-action-card {
-      width: clamp(80px, 60svw, 300px);
-    }
-  }
-
-  @media (max-width: 420px) {
-    .carousel-container {
-      padding-left: var(--left-padding-mobile);
-      padding-right: var(--right-padding-mobile);
-    }
-
-    .animation02 {
-      width: 105%;
-      margin: 0;
-      padding: 0;
-    }
-
-    .workshop-cards {
+    .leistungen-nav {
+      display: flex;
+      gap: 1rem;
       width: calc(
-        100% - var(--left-padding-mobile) - var(--right-padding-mobile)
+        100% - var(--left-padding-general) - var(--right-padding-general)
       );
-      margin-left: var(--left-padding-mobile);
-      margin-right: var(--right-padding-mobile);
-      margin-top: 2rem;
+      margin-left: var(--left-padding-general);
+      margin-right: var(--right-padding-general);
+      margin-bottom: 2rem;
     }
 
-    .svg-action-card {
-      width: clamp(80px, 70svw, 300px);
+    .leistungen-square {
+      flex: 1;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.2rem;
+      background-color: transparent;
+      border: 1px solid var(--text-main);
+      border-radius: 0.4rem;
+      text-decoration: none;
+      color: var(--text-main);
+      position: relative;
+      overflow: hidden;
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
     }
-  }
-</style>
+
+    .leistungen-square:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .leistungen-square-text {
+      font-family: var(--font-family-primary);
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      z-index: 1;
+    }
+
+    .leistungen-square-arrow {
+      opacity: 0;
+      transform: translateX(-4px);
+      transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .leistungen-square-arrow svg {
+      width: 16px;
+      height: 16px;
+      fill: var(--text-main);
+    }
+
+    .leistungen-square:hover .leistungen-square-arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    @media (max-width: 1280px) {
+      .animation01 {
+        padding-left: calc(var(--left-padding-desktop) - 40px);
+        padding-right: 5%;
+      }
+
+      .carousel-container {
+        padding-left: var(--left-padding-desktop);
+        padding-right: var(--right-padding-desktop);
+      }
+
+      .workshop-cards {
+        width: calc(
+          100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+        );
+      }
+
+      .leistungen-nav {
+        width: calc(
+          100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+        );
+        margin-left: var(--left-padding-desktop);
+        margin-right: var(--right-padding-desktop);
+      }
+    }
+
+    @media (max-width: 920px) {
+      .animation01.vertical {
+        display: block;
+        width: 50%;
+      }
+
+      .animation01.horizontal {
+        display: none;
+      }
+
+      .animation01 {
+        padding-left: var(--left-padding-tablet);
+      }
+
+      .carousel-container {
+        padding-left: var(--left-padding-tablet);
+        padding-right: var(--right-padding-tablet);
+      }
+
+      .animation02 {
+        padding-left: var(--left-padding-tablet);
+        padding-right: var(--right-padding-tablet);
+        width: 100%;
+      }
+
+      .workshop-cards {
+        width: calc(
+          100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+        );
+        margin-left: var(--left-padding-tablet);
+        margin-right: var(--right-padding-tablet);
+      }
+
+      .svg-action-card {
+        width: clamp(80px, 26svw, 300px);
+      }
+
+      .leistungen-nav {
+        width: calc(
+          100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+        );
+        margin-left: var(--left-padding-desktop);
+        margin-right: var(--right-padding-desktop);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .carousel-container {
+        padding-left: var(--left-padding-tablet);
+        padding-right: var(--right-padding-tablet);
+      }
+
+      .animation02 {
+        width: 110%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .workshop-cards {
+        flex-direction: column;
+        gap: 3rem;
+      }
+
+      .svg-action-card {
+        width: clamp(80px, 60svw, 300px);
+      }
+
+      .leistungen-nav {
+        flex-direction: column;
+        margin-left: var(--left-padding-tablet);
+        margin-right: var(--right-padding-tablet);
+      }
+
+      .leistungen-square {
+        aspect-ratio: auto;
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .carousel-container {
+        padding-left: var(--left-padding-mobile);
+        padding-right: var(--right-padding-mobile);
+      }
+
+      .animation02 {
+        width: 105%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .workshop-cards {
+        width: calc(
+          100% - var(--left-padding-mobile) - var(--right-padding-mobile)
+        );
+        margin-left: var(--left-padding-mobile);
+        margin-right: var(--right-padding-mobile);
+        margin-top: 2rem;
+      }
+
+      .svg-action-card {
+        width: clamp(80px, 70svw, 300px);
+      }
+
+      .leistungen-nav {
+        margin-left: var(--left-padding-mobile);
+        margin-right: var(--right-padding-mobile);
+      }
+    }
+
+    /* Logo Marquee */
+    .logo-marquee-wrapper {
+      width: 100%;
+      overflow: hidden;
+      padding: 2rem 0;
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 8%,
+        black 92%,
+        transparent 100%
+      );
+      mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 8%,
+        black 92%,
+        transparent 100%
+      );
+    }
+
+    .logo-marquee-track {
+      display: flex;
+      gap: 1.5rem;
+      width: max-content;
+      animation: marquee-scroll 40s linear infinite;
+    }
+
+    .logo-marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes marquee-scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</BaseLayout>

@@ -1,0 +1,202 @@
+[2m22:42:40[22m [34m[content][39m Syncing content
+[2m22:42:40[22m [34m[content][39m Synced content
+[2m22:42:40[22m [34m[types][39m Generated [2m144ms[22m
+[2m22:42:40[22m [34m[check][39m Getting diagnostics for Astro files in C:\repos-bs\buildsystems.de...
+[96mastro.config.mjs[0m:[93m8[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'CustomIconDownloader' is declared but its value is never read.
+
+[7m8[0m import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/BaseHead.astro[0m:[93m60[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'ViewTransitions' is deprecated.
+
+[7m60[0m {transition && <ViewTransitions />}
+[7m  [0m [93m                ~~~~~~~~~~~~~~~[0m
+[96msrc/components/BaseHead.astro[0m:[93m3[0m:[93m10[0m - [93mwarning[0m[90m ts(6385): [0m'ViewTransitions' is deprecated.
+
+[7m3[0m import { ViewTransitions } from "astro:transitions";
+[7m [0m [93m         ~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/LogoCarouselItem.astro[0m:[93m23[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'description' is declared but its value is never read.
+
+[7m23[0m const description = organization.Description;
+[7m  [0m [93m      ~~~~~~~~~~~[0m
+[96msrc/components/LogoCarouselItem.astro[0m:[93m13[0m:[93m47[0m - [93mwarning[0m[90m ts(6133): [0m'sizeImage' is declared but its value is never read.
+
+[7m13[0m const { organization, showDescription = true, sizeImage = 120 } = Astro.props;
+[7m  [0m [93m                                              ~~~~~~~~~[0m
+[96msrc/components/LogoCarouselItem.astro[0m:[93m13[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'showDescription' is declared but its value is never read.
+
+[7m13[0m const { organization, showDescription = true, sizeImage = 120 } = Astro.props;
+[7m  [0m [93m                      ~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/PartnersCard.astro[0m:[93m13[0m:[93m42[0m - [93mwarning[0m[90m ts(6133): [0m'sizeImage' is declared but its value is never read.
+
+[7m13[0m const { partner, showDescription = true, sizeImage = 140 } = Astro.props;
+[7m  [0m [93m                                         ~~~~~~~~~[0m
+
+[96msrc/components/Notion/blocks/BulletedListItems.astro[0m:[93m4[0m:[93m8[0m - [93mwarning[0m[90m ts(6133): [0m'BulletedListItem' is declared but its value is never read.
+
+[7m4[0m   type BulletedListItem,
+[7m [0m [93m       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/Notion/blocks/CodePenEmbed.astro[0m:[93m17[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m17[0m <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+[7m  [0m [93m        ~~~~~[0m
+
+[96msrc/components/Notion/blocks/Heading1.astro[0m:[93m6[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Image' is declared but its value is never read.
+
+[7m6[0m import { Image } from "astro:assets";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/Notion/blocks/Heading2.astro[0m:[93m15[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'id' is declared but its value is never read.
+
+[7m15[0m const id = buildHeadingId(block.Heading2!);
+[7m  [0m [93m      ~~[0m
+
+[96msrc/components/Notion/blocks/InstagramEmbed.astro[0m:[93m129[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m129[0m <script async src="//www.instagram.com/embed.js"></script>
+[7m   [0m [93m        ~~~~~[0m
+
+[96msrc/components/Notion/blocks/NotionImage.astro[0m:[93m5[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'addSlugToName' is declared but its value is never read.
+
+[7m5[0m import { addSlugToName } from "../../../lib/blog-helpers";
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/Notion/blocks/PinterestEmbed.astro[0m:[93m11[0m:[93m3[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m11[0m   type="text/javascript"
+[7m  [0m [93m  ~~~~[0m
+
+[96msrc/components/Notion/blocks/TikTokEmbed.astro[0m:[93m27[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m27[0m <script async src="https://www.tiktok.com/embed.js"></script>
+[7m  [0m [93m        ~~~~~[0m
+
+[96msrc/components/Notion/blocks/TweetEmbed.astro[0m:[93m20[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m20[0m <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[7m  [0m [93m        ~~~~~[0m
+
+[96msrc/components/Notion/blocks/Video.astro[0m:[93m30[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'frameborder' is deprecated.
+
+[7m30[0m           frameborder="0"
+[7m  [0m [93m          ~~~~~~~~~~~[0m
+
+[96msrc/components/ProjectCarousel/ProjectCarousel.astro[0m:[93m34[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'index' is declared but its value is never read.
+
+[7m34[0m       posts.map((post, index) => {
+[7m  [0m [93m                       ~~~~~[0m
+
+[96msrc/components/ProjectCarousel/blog-carousel.ts[0m:[93m96[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'event' is declared but its value is never read.
+
+[7m96[0m     function onWheelEvent(event: any) {
+[7m  [0m [93m                          ~~~~~[0m
+[96msrc/components/ProjectCarousel/blog-carousel.ts[0m:[93m69[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'e' is declared but its value is never read.
+
+[7m69[0m     function onMouseUp(e: MouseEvent) {
+[7m  [0m [93m                       ~[0m
+[96msrc/components/ProjectCarousel/blog-carousel.ts[0m:[93m29[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'event' is declared but its value is never read.
+
+[7m29[0m     function onMouseEnter(event: any) {
+[7m  [0m [93m                          ~~~~~[0m
+
+[96msrc/integrations/posts-files-downloader.ts[0m:[93m14[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'Database' is declared but its value is never read.
+
+[7m14[0m import type { Database } from "../lib/notion-interfaces";
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/integrations/posts-files-downloader.ts[0m:[93m10[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'addSlugToName' is declared but its value is never read.
+
+[7m10[0m   addSlugToName,
+[7m  [0m [93m  ~~~~~~~~~~~~~[0m
+[96msrc/integrations/posts-files-downloader.ts[0m:[93m7[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'getBlock' is declared but its value is never read.
+
+[7m7[0m   getBlock,
+[7m [0m [93m  ~~~~~~~~[0m
+
+[96msrc/lib/blog-helpers.ts[0m:[93m12[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'OrganizationCard' is declared but never used.
+
+[7m12[0m   OrganizationCard,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/blog-helpers.ts[0m:[93m11[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'PersonCard' is declared but never used.
+
+[7m11[0m   PersonCard,
+[7m  [0m [93m  ~~~~~~~~~~[0m
+
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m46[0m - [91merror[0m[90m ts(2304): [0mCannot find name 'container'.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m                                             ~~~~~~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m41[0m - [91merror[0m[90m ts(2454): [0mVariable 'text' is used before being assigned.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m                                        ~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m41[0m - [91merror[0m[90m ts(2448): [0mBlock-scoped variable 'text' used before its declaration.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m                                        ~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m41[0m - [91merror[0m[90m ts(2363): [0mThe right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m                                        ~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m36[0m - [91merror[0m[90m ts(2339): [0mProperty 'rich' does not exist on type 'Text'.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m                                   ~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m1601[0m:[93m7[0m - [91merror[0m[90m ts(2322): [0mType 'number' is not assignable to type 'string'.
+
+[7m1601[0m       Content: richTextObject.text.rich-text-container,
+[7m    [0m [91m      ~~~~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m575[0m:[93m16[0m - [93mwarning[0m[90m ts(6133): [0m'checkFileExists' is declared but its value is never read.
+
+[7m575[0m async function checkFileExists(file: fs.PathLike) {
+[7m   [0m [93m               ~~~~~~~~~~~~~~~[0m
+[96msrc/lib/notion/client.ts[0m:[93m63[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'addSlugToName' is declared but its value is never read.
+
+[7m63[0m import { addSlugToName, returnImageNameAsJpg } from "../blog-helpers";
+[7m  [0m [93m         ~~~~~~~~~~~~~[0m
+
+[96msrc/pages/ourwork/[...slug].astro[0m:[93m110[0m:[93m37[0m - [93mwarning[0m[90m ts(6133): [0m'index' is declared but its value is never read.
+
+[7m110[0m         matchingPeople.map((person, index) => {
+[7m   [0m [93m                                    ~~~~~[0m
+[96msrc/pages/ourwork/[...slug].astro[0m:[93m36[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'blockAssets' is declared but its value is never read.
+
+[7m36[0m   blockAssets,
+[7m  [0m [93m  ~~~~~~~~~~~[0m
+[96msrc/pages/ourwork/[...slug].astro[0m:[93m34[0m:[93m3[0m - [93mwarning[0m[90m ts(6133): [0m'Authors' is declared but its value is never read.
+
+[7m34[0m   Authors,
+[7m  [0m [93m  ~~~~~~~[0m
+
+[96msrc/pages/ourwork/index.astro[0m:[93m52[0m:[93m24[0m - [93mwarning[0m[90m ts(6133): [0m'index' is declared but its value is never read.
+
+[7m52[0m       posts.map((post, index) => {
+[7m  [0m [93m                       ~~~~~[0m
+
+Result (115 files): 
+- 6 errors
+- 0 warnings
+- 32 hints
+

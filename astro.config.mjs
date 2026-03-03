@@ -38,19 +38,22 @@ const getSite = function () {
 export default defineConfig({
   site: getSite(),
   base: BASE_PATH,
-    server: {
+  server: {
     port: 4321,
     host: true,
   },
   redirects: {
-    "/personen": "/about",
-    "/team": "/about",
+    "/personen": "/team",
+    "/about": "/team",
+    "/services": "/leistungen",
+    "/ourwork": "/portfolio",
+    "/ourwork/[...slug]": "/portfolio/[...slug]",
     "/ourwork/energieberatung-wohnkomplex":
-      "/ourwork/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
+      "/portfolio/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
     "/ourwork/cities-in-transition-von-muc-book":
-      "/ourwork/buildsystems-bei-cities-in-transition-von-muc-book",
+      "/portfolio/buildsystems-bei-cities-in-transition-von-muc-book",
     "/ourwork/bauforum-von-holcim-2023":
-      "/ourwork/buildsystems-auf-dem-bauforum-von-holcim-2023",
+      "/portfolio/buildsystems-auf-dem-bauforum-von-holcim-2023",
   },
   integrations: [
     lottie(),

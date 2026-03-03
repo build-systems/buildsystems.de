@@ -6,23 +6,20 @@ import { getPhotoPath } from "../lib/blog-helpers";
 
 interface Props {
   organization: OrganizationCard;
-  showDescription?: boolean;
-  sizeImage?: number;
 }
 
-const { organization, showDescription = true, sizeImage = 120 } = Astro.props;
+const { organization } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}",
 );
 
 const imagePath = getPhotoPath(organization.Photo?.Url!, "organizations");
 const imageSrc = images[imagePath] ? images[imagePath]() : null;
 
 const name = organization.Name;
-const description = organization.Description;
-const linkedin = organization.LinkedIn;
 const website = organization.Website;
+const linkedin = organization.LinkedIn;
 const linkTarget = website || linkedin || "#";
 ---
 
@@ -31,19 +28,50 @@ const linkTarget = website || linkedin || "#";
   target="_blank"
   rel="noopener noreferrer"
   aria-label={"Visit " + name}
-  class="flex shrink-0 grow transform items-center justify-center rounded-xl bg-[var(--background-cards)] p-6 shadow-md transition duration-300 hover:shadow-lg hover:brightness-105"
+  class="logo-marquee-item"
 >
   {
     imageSrc ? (
-      <Image
-        src={imageSrc}
-        alt={`${name} logo`}
-        class="max-h-20! lg:h-16! lg:w-auto xl:h-16!"
-      />
+      <Image src={imageSrc} alt={`${name} logo`} class="logo-marquee-img" />
     ) : (
-      <div class="mb-4 flex items-center justify-center rounded-full bg-gray-200 text-sm text-gray-500">
-        No Image
-      </div>
+      <div class="logo-marquee-placeholder">No Image</div>
     )
   }
 </a>
+
+<style>
+  .logo-marquee-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 1rem 1rem;
+    transition:
+      box-shadow 0.3s ease,
+      brightness 0.3s ease;
+  }
+
+  .logo-marquee-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.05);
+  }
+
+  .logo-marquee-img {
+    height: 3.5rem;
+    width: auto;
+    max-width: 10rem;
+    object-fit: contain;
+  }
+
+  .logo-marquee-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    padding: 0 1rem;
+    border-radius: 9999px;
+    background-color: #e5e7eb;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+</style>

@@ -2,7 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
 import {
-  getAllOrganizations,
   getAllPartners,
   getAllPeople,
   getAllPosts,
@@ -10,7 +9,6 @@ import {
 import StickySection from "../components/StickySection.astro";
 import PersonCard from "../components/PersonCard.astro";
 import PartnersCard from "../components/PartnersCard.astro";
-import LogoCarouselItem from "../components/LogoCarouselItem.astro";
 
 const title = "BuildSystems | About";
 const description =
@@ -21,8 +19,6 @@ const imageAlt = "BuildSystems team working";
 const people = await getAllPeople();
 
 const partners = await getAllPartners();
-
-const organizations = await getAllOrganizations();
 
 const posts = await getAllPosts();
 ---
@@ -73,22 +69,6 @@ const posts = await getAllPosts();
               return <PartnersCard partner={partner} />;
             })
           }
-        </div>
-      </div>
-    )
-  }
-  {
-    organizations.length > 0 && organizations && (
-      <div
-      class="section-container xs:w-[calc(100%-var(--left-padding-tablet)-var(--right-padding-tablet))] sm:w-[calc(100%-var(--left-padding-desktop)-var(--right-padding-desktop))] xl:w-[calc(100%-var(--left-padding-general)-var(--right-padding-general))]"
-      >
-        <h2>Organisationen</h2>
-        <div class="flex flex-col gap-2 object-cover lg:flex-row lg:flex-wrap">
-        {
-          organizations.map((organization) => {
-            return <LogoCarouselItem organization={organization} />;
-          })
-        }
         </div>
       </div>
     )

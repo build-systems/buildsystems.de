@@ -141,7 +141,7 @@ export const getNavLink = (nav: string) => {
 };
 
 export const getPostLink = (slug: string) => {
-  return pathJoin(BASE_PATH, `/ourwork/${slug}`);
+  return pathJoin(BASE_PATH, `/portfolio/${slug}`);
 };
 
 export const getTagLink = (tag: string) => {
