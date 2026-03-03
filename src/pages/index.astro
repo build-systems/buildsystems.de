@@ -135,21 +135,27 @@ const marqueeDuration = `${Math.max(1, logoCount) * 4}s`;
   </StickySection>
 
   <div class="section-container workshop-cards">
-    <Image
-      class="svg-action-card"
-      src={strategie}
-      alt="Action Card Qualitätsprofil"
-    />
-    <Image
-      class="svg-action-card"
-      src={praxis}
-      alt="Action Card Emissionsprofil"
-    />
-    <Image
-      class="svg-action-card"
-      src={transfer}
-      alt="Action Card Zirkularitätsprofil"
-    />
+    <a href="/leistungen/#strategie" data-astro-prefetch>
+      <Image
+        class="svg-action-card"
+        src={strategie}
+        alt="Action Card Qualitätsprofil"
+      />
+    </a>
+    <a href="/leistungen/#praxis" data-astro-prefetch>
+      <Image
+        class="svg-action-card"
+        src={praxis}
+        alt="Action Card Emissionsprofil"
+      />
+    </a>
+    <a href="/leistungen/#transfer" data-astro-prefetch>
+      <Image
+        class="svg-action-card"
+        src={transfer}
+        alt="Action Card Zirkularitätsprofil"
+      />
+    </a>
   </div>
 
   <StickySection>
@@ -291,6 +297,14 @@ const marqueeDuration = `${Math.max(1, logoCount) * 4}s`;
     .svg-action-card {
       width: clamp(80px, 20svw, 300px);
       justify-self: center;
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    }
+
+    .svg-action-card:hover {
+      transform: scale(1.01);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
     }
 
     .image {
