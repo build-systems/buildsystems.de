@@ -26,6 +26,16 @@ import { getAllOrganizations } from "../lib/notion/client";
 const posts = await getAllPosts();
 
 const organizations = await getAllOrganizations();
+const logoCount = organizations.length;
+// We want at least enough logos to comfortably cover ultra-wide monitors (~25 items usually)
+const minLogosToFillScreen = 25;
+const groupCount = Math.max(
+  2,
+  Math.ceil(minLogosToFillScreen / Math.max(1, logoCount)),
+);
+const groupsArray = Array.from({ length: groupCount });
+// Roughly 4 seconds per logo to maintain consistent speed
+const marqueeDuration = `${Math.max(1, logoCount) * 4}s`;
 ---
 
 <BaseLayout
@@ -201,39 +211,26 @@ const organizations = await getAllOrganizations();
   </StickySection>
 
   {
-    organizations.length > 0 && organizations && (
+    logoCount > 0 && organizations && (
       <div class="logo-marquee-wrapper">
-        <div class="logo-marquee-track">
-          {organizations.map((organization) => (
-            <LogoCarouselItem organization={organization} />
-          ))}
-          {organizations.map((organization) => (
-            <LogoCarouselItem organization={organization} />
+        <div
+          class="logo-marquee-track"
+          style={`--marquee-duration: ${marqueeDuration};`}
+        >
+          {groupsArray.map((_, i) => (
+            <div
+              class="logo-marquee-group"
+              aria-hidden={i > 0 ? "true" : undefined}
+            >
+              {organizations.map((organization) => (
+                <LogoCarouselItem organization={organization} />
+              ))}
+            </div>
           ))}
         </div>
       </div>
     )
   }
-
-  <script>
-    // Script for ExpandButton component
-    const textsExpandButtons = document.querySelectorAll(
-      ".more-text",
-    ) as NodeListOf<HTMLElement>;
-
-    textsExpandButtons.forEach((text, i) => {
-      const button = document.getElementById("expand-button-0" + (i + 1))!;
-      const svgElement = button.querySelector("svg");
-      const minusElement = svgElement?.querySelector(".minus");
-      const plusElement = svgElement?.querySelector(".plus");
-
-      button.addEventListener("click", () => {
-        minusElement?.classList.toggle("hidden");
-        plusElement?.classList.toggle("hidden");
-        text.classList.toggle("height-max-content");
-      });
-    });
-  </script>
 
   <style>
     .hero-image {
@@ -525,11 +522,18 @@ const organizations = await getAllOrganizations();
       display: flex;
       gap: 1.5rem;
       width: max-content;
-      animation: marquee-scroll 40s linear infinite;
     }
 
-    .logo-marquee-track:hover {
+    .logo-marquee-track:hover .logo-marquee-group {
       animation-play-state: paused;
+    }
+
+    .logo-marquee-group {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      animation: marquee-scroll var(--marquee-duration, 40s) linear infinite;
     }
 
     @keyframes marquee-scroll {
@@ -537,7 +541,7 @@ const organizations = await getAllOrganizations();
         transform: translateX(0);
       }
       100% {
-        transform: translateX(-50%);
+        transform: translateX(calc(-100% - 1.5rem));
       }
     }
   </style>
