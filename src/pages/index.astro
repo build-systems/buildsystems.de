@@ -470,12 +470,15 @@ const marqueeDuration = `${Math.max(1, logoCount) * 4}s`;
 
       .leistungen-nav {
         flex-direction: column;
+        width: calc(
+          100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+        );
         margin-left: var(--left-padding-tablet);
         margin-right: var(--right-padding-tablet);
       }
 
       .leistungen-square {
-        aspect-ratio: auto;
+        aspect-ratio: 1 / 1;
         padding: 1rem;
       }
     }
