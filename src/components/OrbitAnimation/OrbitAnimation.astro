@@ -1,0 +1,180 @@
+---
+const bullets = [
+  "Innovationsstrategien",
+  "Nachhaltigkeitsberichterstattung VSME und CSRD",
+  "Portfoliodekarbonisierung",
+  "Objektplanung",
+  "Energie- und Fördermittelberatung",
+  "Zertifizierungen (BiRN, DGNB)",
+  "Innovationsnetzwerke und Workshops",
+  "Wissenstransfer und Formate",
+  "Auftragsforschung",
+];
+const repeated = [...bullets, ...bullets, ...bullets];
+---
+
+<div class="orbit-wrapper">
+  <div class="orbit-canvas">
+    <svg
+      class="orbit-svg"
+      viewBox="0 0 500 500"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="250"
+        cy="250"
+        r="180"
+        fill="none"
+        stroke="rgba(255,255,255,0.15)"
+        stroke-width="1"
+        stroke-dasharray="8 6"
+      />
+      <g data-topic="0" transform="translate(430,250)">
+        <circle r="58" stroke-width="1.5" />
+        <text text-anchor="middle" dy="0.35em">STRATEGIE</text>
+      </g>
+      <g data-topic="1" transform="translate(160,94)">
+        <circle r="58" stroke-width="1.5" />
+        <text text-anchor="middle" dy="0.35em">PRAXIS</text>
+      </g>
+      <g data-topic="2" transform="translate(160,406)">
+        <circle r="58" stroke-width="1.5" />
+        <text text-anchor="middle" dy="0.35em">TRANSFER</text>
+      </g>
+    </svg>
+  </div>
+  <div class="orbit-bullets">
+    <div class="orbit-bullets-track">
+      {repeated.map((text) => <p>{text}</p>)}
+    </div>
+  </div>
+</div>
+
+<style>
+  .orbit-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: calc(
+      100% - var(--left-padding-general) - var(--right-padding-general)
+    );
+    margin-left: var(--left-padding-general);
+    margin-right: var(--right-padding-general);
+    padding: 2rem 0;
+  }
+
+  .orbit-canvas {
+    flex: 0 0 auto;
+    width: clamp(280px, 35vw, 450px);
+  }
+
+  .orbit-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .orbit-svg text {
+    font-family: var(--font-family-primary);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+  }
+
+  .orbit-svg :global([data-topic] circle) {
+    fill: #2a2a2a;
+    stroke: rgba(255, 255, 255, 0.3);
+    stroke-width: 1.5;
+  }
+
+  .orbit-svg :global([data-topic] text) {
+    fill: #d9d9d9;
+  }
+
+  .orbit-bullets {
+    flex: 1;
+    height: clamp(280px, 35vw, 450px);
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 25%,
+      black 42%,
+      black 58%,
+      transparent 75%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 25%,
+      black 42%,
+      black 58%,
+      transparent 75%,
+      transparent 100%
+    );
+  }
+
+  .orbit-bullets-track {
+    will-change: transform;
+  }
+
+  .orbit-bullets-track p {
+    font-family: var(--font-family-primary);
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: var(--text-main);
+    margin: 1rem 0;
+  }
+
+  .orbit-bullets-track p::before {
+    content: none;
+  }
+
+  @media (max-width: 1280px) {
+    .orbit-wrapper {
+      width: calc(
+        100% - var(--left-padding-desktop) - var(--right-padding-desktop)
+      );
+      margin-left: var(--left-padding-desktop);
+      margin-right: var(--right-padding-desktop);
+    }
+  }
+
+  @media (max-width: 920px) {
+    .orbit-wrapper {
+      width: calc(
+        100% - var(--left-padding-tablet) - var(--right-padding-tablet)
+      );
+      margin-left: var(--left-padding-tablet);
+      margin-right: var(--right-padding-tablet);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .orbit-wrapper {
+      flex-direction: column;
+    }
+
+    .orbit-canvas {
+      width: clamp(240px, 70vw, 350px);
+    }
+
+    .orbit-bullets {
+      height: 200px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .orbit-wrapper {
+      width: calc(
+        100% - var(--left-padding-mobile) - var(--right-padding-mobile)
+      );
+      margin-left: var(--left-padding-mobile);
+      margin-right: var(--right-padding-mobile);
+    }
+  }
+</style>
+
+<script src="./orbit-animation.ts"></script>
