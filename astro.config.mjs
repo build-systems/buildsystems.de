@@ -5,7 +5,6 @@ import PostsFilesDownloader from "./src/integrations/posts-files-downloader";
 import PeoplePhotoDownloader from "./src/integrations/people-photo-download";
 import OrganizationsPhotoDownloader from "./src/integrations/organizations-photo-download.ts";
 import PartnersPhotoDownloader from "./src/integrations/partners-photo-download.ts";
-import CustomIconDownloader from "./src/integrations/custom-icon-downloader";
 import tailwindcss from "@tailwindcss/vite";
 
 import lottie from "astro-integration-lottie";
@@ -48,19 +47,12 @@ export default defineConfig({
     "/services": "/leistungen",
     "/ourwork": "/portfolio",
     "/ourwork/[...slug]": "/portfolio/[...slug]",
-    "/ourwork/energieberatung-wohnkomplex":
-      "/portfolio/energieberatung-fuer-einen-innerstädtischen-wohnkomplex",
-    "/ourwork/cities-in-transition-von-muc-book":
-      "/portfolio/buildsystems-bei-cities-in-transition-von-muc-book",
-    "/ourwork/bauforum-von-holcim-2023":
-      "/portfolio/buildsystems-auf-dem-bauforum-von-holcim-2023",
   },
   integrations: [
     lottie(),
     sitemap(),
     IndexPostImageDownloader(),
     PostsFilesDownloader(),
-    // CustomIconDownloader(),
     PeoplePhotoDownloader(),
     OrganizationsPhotoDownloader(),
     PartnersPhotoDownloader(),

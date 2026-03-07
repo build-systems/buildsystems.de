@@ -16,29 +16,43 @@
       "id": "gt`}",
       "name": "Julia Dorn",
       "color": "default"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
     }
   ],
   "Category": "Projekt",
   "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f9148e8d-d873-49e3-9740-23b6b66cd5c2/ganzheitlicher-ansatz-banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SXDMPEDR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCTDLV2QdmYGVw1YkBuGB6IEHgnEUO6LFbpmjjU%2BmNVywIhAMjhpfmoC5hHEc5AEh7qkUoIHac7vyuQkINk%2BE1f3AKuKv8DCB0QABoMNjM3NDIzMTgzODA1IgxyXh%2BIzuGfMLu%2Bdw0q3AOmugGo0RWvj%2BdO2XvZUv2ZA63zGlQ4LR8Y%2BhGDyTmr9DpBtH0fcDLqtPaOVP2Ltq8ziW3Smy%2FxpQKNExN2zikZrl%2BGRFxdJtQhIK6N8%2FNCEct6JSEesboIrl2fx6pJm8uKcXbrS%2BfsqiZo%2F%2BLh4fF%2Ba9DKyca3BUS8QnHiojDiBqSUqH%2BgE3jSDM2hqw8IeCYXvnAVa6VhZMHbmpkL1Y8By1%2FsoMcXUEJUnP08mzrkdvItCa4CYmg7O2Xie9wnTLULgIrducCX1XdwuJSyG3VrL4lw%2Bzmb6owynGR30uOGMrJb4vEBLrHKDmhTBUBtG0EFkeaeibnmRHbukUHT3yNpAlW%2Fki%2BVlD0WbRuAPWo%2B6T%2FJMVYs6PbytPjOWcgef6OkiqKaOfUjY4%2FOE7oE9%2BYw2lJlhdY9LMCXTtrAq9a5uTJxcmZ5R3dF67jfPA%2BrT3YXoKb6u0TwXDnvn4Fvps7bMfg9b5Q0XRFmhnjHrMJ0YjKWb0bphZvpC2JRa0wNyR5u%2Fkt%2FFCO0b7AoqJIDo7oQVcK2vjK34sRb00XDjTBHWkMQlkkRYDXdfvKtqCs4dqx3ZZHDOnmAm2gggELr3nFDG8KNuA6YXAGzJZ1ZvMNJXuUDcU1fBtiJh8RFAjCs%2Fp3LBjqkAXJGgVAqpXNo0hMBm%2FkygIv1PSeSupPw%2F14cHv%2B%2BHFPYFt74F%2FsaESgh8YeOZ2XiTFx3lSnAPf1aV56VdWEMWkrRdtdyvirUE83iCrNfPKonyTY%2F9RWYHYaD4qXmLuBds60LacVsQ9X2eYntu5AfZ%2F4nUZcm8DY4FtMjkWDTg3YLPQV%2FZRvbZeCCXf20qQ7ij7hq3BkGOVfgFfElVDv%2F5K20yML2&X-Amz-Signature=a33008242dfa75feddf91a8d5fdc1bc7d87511a5b9aaec0047f6d76dc2ebbf28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/f9148e8d-d873-49e3-9740-23b6b66cd5c2/ganzheitlicher-ansatz-banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=47d0793d21e14986181b0c2ede3a454c9fa3fddefc7eb6fffaded266b68eefd7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "weinhof-locknbauer-drohne",
   "Slug": "weinhof-locknbauer-entwicklungsstrategie",
   "PublishDate": "2025-06-19",
-  "Tags": [],
+  "Tags": [
+    {
+      "id": "beb85fcd-fc13-4348-b7ca-23c173fea654",
+      "name": "Praxis",
+      "color": "green"
+    }
+  ],
   "Description": "Für den steirischen Bioweinhof Locknbauer entwickelt BuildSystems ein zukunftsweisendes Gesamtkonzept, das nachhaltigen Weinbau, klimafreundliches Bauen und ein resilientes Tourismusmodell zu einer gemeinsamen Wertschöpfungsstrategie verknüpft.",
   "coverAsset": "ganzheitlicher-ansatz-banner.jpg",
   "blockAssets": [
     "weinhof-locknbauer-entwicklungsstrategie_ansatz_2.jpg",
     "5a95a8e7-8ca8-4283-a015-248f318b22c3.jpg",
     "d2b45fe7-2574-48c1-aa9c-58a74f1cae80.jpg",
-    "weinhof-locknbauer-entwicklungsstrategie_circular.jpg",
+    "01_Bestand.jpg",
+    "02_Abbruch.jpg",
+    "03_Rohbau.jpg",
+    "04_Konstruktion.jpg",
+    "05_Huelle.jpg",
+    "06_Neu.jpg",
     "weinhof-locknbauer-entwicklungsstrategie_vorher.jpg",
-    "weinhof-locknbauer-entwicklungsstrategie_interior.jpg",
-    "3e23499d-41e0-4fc8-8fc7-3e5e9c2ac9e4.jpg",
-    "4527ad1c-6fcc-4e03-a638-04ee89424f06.jpg"
+    "weinhof-locknbauer-entwicklungsstrategie_interior.jpg"
   ],
   "blocks": [
     {
@@ -216,16 +230,6 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-8080-915c-d66fc4976fc6",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
       "Id": "225cc54c-ec6d-809c-8e63-e044a46f60ea",
       "Type": "image",
       "HasChildren": false,
@@ -235,8 +239,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ce1b78ab-dd24-4892-8a6a-ce877a7f739d/weinhof-locknbauer-entwicklungsstrategie_ansatz_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZWYXGD4Y%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115351Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIQDAo66GHI9m%2BSgkToPDJt8LVtftpmhsVelRKi104aG%2BYgIgBRQslM3aT9y3EkZHCI8uYBGr3r4qN%2BFzbj9JbqjzN%2BIq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDAF6HdpOd7A8KYuoISrcA2EFzpruk58gdmRVXRkqoJI%2BCpwP6nFpae7NUty6txo98yn2lUXm4Zm2M6W4%2BWFOE7Vl6phKsBuoQfhffKdg5LhgCAkSf6PvtqV7D%2B0DIV3h2obYZzmbO7N5%2BRcNqZYSKLIwZ5FjHwEHSp%2FohgwV75Ws677Rb2ujCpsJSBFEaDVWXLh25dYlmFNsVHWNJ066fXimLwpJFo2lT5KjEoWYqNHLW0KXZdSjW9NFBwzpRDs7Ok5cQNkb%2Fg%2FIGuJvFTgbwkxoWL2boUoTbJ3fQiNgrycQbqkjQjkNwXnEm859kaPOa%2BlgsSozQH%2BSr2VyCcmFoKJwaymCBCTTSP48K11b8ekxRF3SCPI9xQ913oFHxjbUcGKeK1hqnXBHcmD4VGOQLPhRh1uYiVDgjwn7C%2Buo%2Bc0NZcQxGblWGU149pRdULereHd9VrELnPUCo5afGPSid0eYqMC%2B5XtPwT%2Bj1CgFJyh0sjN344m6NyIMGKHdiv1hVsYgnVQGgf0SIyh%2BNh%2FODUvLhE1YyJhiR%2BpN0MaexDUl4yL1n%2BDr9XZMshAQinTrf9xIo1lfOH692yU0oLSfAxaEXrk6WTYxT1Ey%2FpY0N7bSIq3KRDGbhPe%2BHUSeiN%2BklfWxngb4OzdDj9DCMPr9ncsGOqUBDi5qMcvjtfMH3JLfZO5LlcY067EpRou%2FJF%2FXUp3jtBrEZ7vL3IUaREAH0m%2Fiv07700hzOrJvhXUQ1EBcg5CQFNmfeJTojCkrgqpRq86YDDwogm9MEZ51n3XkTj7%2BAZuST2THn%2FlXXU7TgI446cJf7gD03R3dBjwjc7r8gWl9vI9CwslTlxRAEUTYBqG72AV4Pf9KPYblq%2BuigJ4l5CGQkcvaSpGm&X-Amz-Signature=a6d5e3018b8df23349418e148524d8c2a717517a482c5f30b6e4647ed29e07ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:51.280Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ce1b78ab-dd24-4892-8a6a-ce877a7f739d/weinhof-locknbauer-entwicklungsstrategie_ansatz_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46652T5IXKB%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQC%2FQXmKqDlNK%2Fj18Tm3NJ3qBi7qcSXAsczA%2Bz12UYreCgIhAO3YgVGyuKfkYfcc%2FbJwTj1wZRCF28Wr7mkZRrSRBIIzKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyhuGc61GUAGP69%2ByMq3AOwR94txq1G%2B%2BJ957Mtllv18rLc%2B0kpxGqtAbYTJaNkZDAJgU3OFC%2FKdzLUDZ7WsWDhhQ0DN4iXo9jl86l242JjkvP%2FBGihujcsUs4cudOAaAhUQLkjgPqPVU0x7Uq1M%2BBZseeYFXuazMkrRt2zl7aUbMPwjFPpQBXrG6KEi%2FQnUaEoxd54yujUFXTLOraGl5YFfHylIJ%2BppESWKoJHK1NhL1aEEnf2FNcpJGA2LJ64pkN4IyzwZRdW3SMK9SMSXYvkpxeVVxD7ogWItemJiyheVIe8dtsjgp6oDWO0mfKC2RKyckMXRDsqFayN%2B%2FBsauYAO6d%2FMHIJmlFsy0fbKFBYCGO2ByGvcAb5rHBPdcsEirIbPh1XMICvxXF%2Fgc5N1NowJB3hnMCkJLZhkfXHzdXwmUotijng0L7GLvhW1X0cHD2e6dqjG8AuMKMJjzrlVUbaQP5%2FyFqlklwexDzqvLDT3VUvasF%2BgrtNamC2pZvPRJyEddtjV%2FSkRCmEheIulh97R5D56nsxx4ATuA2A4kofPvkk7Kd05xG1kwHuZH74FpNGO6uoXGUwujL3Z%2FzsTZsb8WUdM5GHOM51%2Blj1KH%2Foq%2BZEQC1xDkQ%2Fo%2BwoAq3lLw7wFN1cbJJNtYLRdTD8gKzNBjqkAW8O1yEOkO0bpH8yOSqcWJPwinzd0%2F94jROzySzMPBzlgA4FKain2a5H399%2BJupMT%2BaXup7vZZnUJuH8R6f7d%2FoX9QK3taUYN2ZuwiMosUQmMtPCa6Tlp7coA8pQzBgZ2Pz5IKF5URNCEkf%2BHwluMSXWgw%2B0Njo4zWj9H2jax65%2BqdreN8ypMVn4drnn%2B8inL0Mryny2JrTVGNIQsUl5Q6tGsv6g&X-Amz-Signature=692ba220108ca35aa811218bf63b4bf2fbaa54c753a05f5e10ee34ca48224dcd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:25:55.620Z"
         }
       }
     },
@@ -277,8 +281,8 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d43f5dee-39cd-42ce-8af4-df4da2a3d59b/5a95a8e7-8ca8-4283-a015-248f318b22c3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466245C5GIB%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCnBn9hKoCwIL76CIj0zwAjkGYyi3%2B9yRzjB34sWnJkZgIhANB%2B1LhY3OuIV7PLouXXvwGROhg2%2FxeFPfSEvHQ0M53WKv8DCB0QABoMNjM3NDIzMTgzODA1IgzGU25QTaxfXJ1gKPIq3AMJWhayEgLOhQSZKUDoemufRMM1FA%2Fe8b0IapFX013L3MtpCT9jtLmvnGj8yKwHsFWZRAeHgJ1DDEqu92%2Bd2p%2FScJmqCI%2BCCLu7h3Ni0oUuR82CqR1dMXZvuyeuiR%2B8%2Bvd%2BrWVVabYg%2FY9ajxckF3O314ga0AR229ZdgsSP4pfFgcnBbfhwcLCobxOhFZc48RrNy4CAEUAt9wvvu9yBcC6LE5K1dU9Q3EwYMswUo1vGM5mbbM5QqTij7QY3FOqlho2P2cjCnm6pUabt6P3snzRy4MtsmYMruoZrlJSSAL4K5GyJMXPlo4zZKGCGSQaJKoSulr9PLzelSE7OZQnIkFJ1cp4yIni5e%2Bs9nBm49wqkQ%2Bq6xSn081vvUI%2BHeKnT5uid6%2FyBGYsPOcV4VUqcXEJpmVbOZQ%2By36pPClR7OotKzlfbkGX%2BdI7HaHW1yqgcUtSxI0FGas8KfGrd%2BcKeFhQVuSOetkDckhUzck7leT2kfPwgJvWdn6RfbTNj5ffaDIgXU%2FEkIOO%2FR73gSI8CjTpwwjuGY24HrNS12g26xw7e7Oz8zFRLas5XWhBZLnOUQPpUIvM2VZzSg40gykJGWePi2p0SSxQdg72tMuhdCwz9TBjx%2F7l7gRmpVVrGpTC1%2Fp3LBjqkAWSgtxBCvfGI0KcsfqG3D0Kn5Re95gnqoQPiO6ML8pN3kwVd28zKoxtKvmxxK2IDe3ZUNdP6zVzwT7RisuDZN8xCZtO8ZNPCoe6efgYZUJB5MvY%2FWbrwzntiOVFpZlr4AUQKHJBEDiU6eff6YkP6Pwp5Rp4nm1RY3%2BVO0Z80S596YsMwGmEbiH8p5wTEq9V9oUACaJ3LVgJDZe13QA0SKDPbLNfH&X-Amz-Signature=c506f53f6b866f45cf0090e23219c7c9a89f3b174e3ef04f2f041f1a061cba1b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:52.475Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d43f5dee-39cd-42ce-8af4-df4da2a3d59b/5a95a8e7-8ca8-4283-a015-248f318b22c3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TRSNWGSJ%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQCLUPR26Pmj%2Fw8a%2FdFGP9H45MakMhsUEFM%2B2Uf2EztK4wIhAMMt4KXyw8SD%2Br6ofaxRbdwms1sktPPJIuc7NSZKgGaBKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzYDtR5dk4tY%2BDHRbcq3AOocOFy0vcfZiXmYjcEWpZfAy4RaOjerfsx4cpEfebODNVcAskAQVTbqmbuRQEKlemiiMh2UqpRI4bW9g7ONoLMdQXQ0Z5Orh5TYNeM1bHAfSwOLLQZAlrYfKAO2XhVkzf3s0JyUckgKqAAWx4qgkbhEUyL5YOcACcC28dWOUKsQKz2XErqzSFKCR3emEvWunQhW2GrKV4EuqxcHGFIqTPE993bC%2FmiCE8TDrHGIvzbHitAsmR44NrZ6LUcNaUr%2F9dkLGoqHNGYmVC2XdooC6NxqLPBQYLhbTYn5Y6h6sFGcK0%2BMo89KDfydlJsyjQB35otgqv7TRRCH4aGjx1I%2FzNOkfoRnaUKSZ5cbyiGXne6vuY4sm0LEOFGKTMosf0DHgc2lqu8tpcR%2BWt1RF3i0Qc4cG0QBccWFVvvJokHWfU0ujOXnQLEuzdebXuvctVsG1VE2KeVcyNDeETnFNNsi1%2F1HEU9nvE7VrUlMPr%2BzG1HjnQ%2BK9%2FB6pTrAvnQvrS1%2B8UiIbmkeia5IFzeNKZ0HnGqFRDMVJIobXzrer5%2B0waUhFmhPjU9gTh3VE5Dp53gATd2%2FtGFx7wQt%2BMtcYfpgK3ROLxq2toNv0Q9RS8mE48IEk1u7SvSjJSx0KCMuDDTgazNBjqkARCYJ4D8OzHoluImmdO2xCSNTcYX8%2BRHYN1lnLjG1p%2BWWXrlonybaXcTqdRBSwoMeFxv8Uv2elsJMl2%2FCKjv%2FyPLH5%2FzAsEvD5dbrVcSBiHCDxSaeYMMfsmx7sdol956ccVV%2B%2BsnNuD9HnBMjFJq1ojD9YAVqr68DXuqcjHEi9BGUGByEM5ADGpeWExoI5V2zlGucgO3OH8FeMY7ibx6UwCT8XY3&X-Amz-Signature=e7d72149ad28a6b51bee0ef1ff28583c49ed238fed3bbcf700a06289fb17cd77&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:56.282Z"
                   }
                 }
               }
@@ -314,24 +318,14 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c35837b2-cf4c-42dc-988d-1888e1fd5ecf/d2b45fe7-2574-48c1-aa9c-58a74f1cae80.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466324RVZ4B%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQDygz0QVkWlDddgb1xPxd9e11Yq4P4jPNFVo5RpyNZ3YwIhAJ45ubbmGHKkuu0rjticff6hxOPi%2BR82IDvsP6wz%2FKRFKv8DCB0QABoMNjM3NDIzMTgzODA1IgyZ0jpwIB4gIAg81gUq3AOAfo3tHgnajrEWGySVBMHYDnTZsStoA9HBnZCHEOgo7qaK0N47tiVV3IrEcaRpROIFbcdMh%2FDsCPdtw%2FJ7Z9FuA%2FvDXe0naJfneOuoGkG6E0%2FTwajgc5kYDRpIPXpoeBUcyyVXrmPOT2ku%2BcEYiimFg2f1vIM6141Ueq%2BYgOS0s1tv8QkHE%2FxOTPvLKsfwdb88E7lL8P3wu22GKOUK56oAiv%2FezabBIudkITho7T9sXBwKWjejefoSztGLIRRI7kJhPrDz%2BzzOg4ot72lEVfap59XcbienxtH7aJoINmYlDLAoj06MG8caKhGl2eYV2P8ehfxptq%2FcEAsqpUw9hn63cW5Mvmy%2Ft3rXJ%2BwOOrKf9L3%2FOQOQlw24%2F5VsUH%2BolPnkvcAgEM%2Fko%2FAPHN%2BKFePTuoU5mAJhCYFAcQRy332gXwCeCiFX6HrVKtaaE8kd8KIbpnlG0ujGhAacVgKJX%2BWyaXS4fE%2BEJ4iv%2BwVQg%2B07cRyIgOiCvErQtkCdcMSiBEizloS3sSYdr5bhM6JpvJo3Zoc9l5CqExr776fpDC%2B2ygsdkB2bg9X85m7ZYi7SLe9NifQnG4R9Inzn9nDGeScykK0PXMQBuYbJxOTCGuhRlnh0qP42PgfVyEW6TzD9%2FZ3LBjqkAWTe5pY4hQldmXRqQakon3shH1UXzVyNjQZ6lR%2BZOwiULU8KZ2uPTOFv5IpN5OgBCKJFT3DZd6e35oTHCcsbTOCOi6Dswk9yPE5h0JhqUBkb4s7ep9X1t%2FPFGMUJwpQ%2Ffei2HgzDdWVNY5r9UurgBOU%2Bv1SjPSQfEWO7SDoOjhuND2x6yJh5%2FEF4fURoC%2F%2FQVxT53hZLl2TxlcmcoeIuUkIVve1b&X-Amz-Signature=5b0ad7c8758d6eeccf61045ed858db5d1599fa037884413f43b8b8b9882dda8d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:52.464Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c35837b2-cf4c-42dc-988d-1888e1fd5ecf/d2b45fe7-2574-48c1-aa9c-58a74f1cae80.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TLE62EM6%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDVWnIEoxSYJy7CGTJCSyy4P8aNjD2ONRApaBASZHsZGgIgVXAD%2B9HXsztKR0GZFxwLrBTFBS3Ozb8iVis9U%2BzuLAMqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIwZNaC%2BFNrHKz0adyrcAz7eVoXOPINmdrOtUDNDAIODS6gfpNRUcpcWLylE5Ybe78EECvjNOs0ZHlGkpIk0mYcYlZ5HcIgX6pQhrMGNnZ9uwmeDzgOGsY54RduptSoFjedpsrXYoER7jfQg9vdK9WyhBaGgZczh%2BbBpqBtrrKZWToEsxS%2Bwkt2086rFNQes7KUJdsrzf%2BU3%2Bo%2BYPf4qb8j4Q1XA3IcZMYQ4IwVgQzLiSW54nkvl9cAOdv2%2FTaw8uxHw0I4lW0noA3iXEz8C39FYPSgyx7ZtyH31sttSEvEa0rU2vqh53bJ3XGMVH5jAERhJ6FRBtJ7m%2BL%2FOIlM9QU24LQCE%2Bwpy5%2BXVsGAyKP4YCopWun5qk%2F43Qb%2BFxLmzmV33QbDqqGGn26RJ6VnraivqaC0Vy0mByOJrlQ0L2JPA54hs5TKwLdzv2Xrs2jmlsvKPy5e2JQb16Kn3r3nCg3izRDiHj%2BfWNkS9wnDQgts9Q%2Bft8XzOhT3hlyPy8rlBXOpxRvFBd3u7ylYwScTphoUxYQLwpiTuEifUGwuBfghsFv1PW1AOMl7t4IF1UKhhJhVRRCo0A7DHAHyROf0P4ptB7cxyF391vdIEQv7DBMmu9W3UCN65oT0FmZDVbrH0SVJTujdT5zi2A4veMOCArM0GOqUBztjnmpfHn%2FftwSHT0W7sZEp0CWiG%2FDRJ1xuVdR8bq41gY8LnIKK3zguGbpaAszeC7vi15CCKh%2FekX3uW7DcDqWORge1lLG3GgQ6Pk99cgoW0VisQnV%2Fny0YEl1DqPgTahXP%2F4p9feCa9qgGMBOkb%2BbHnfhC%2Bo5IGLO7RJnvryccY4v1yg7BXMCurmeHoL7789tMMK%2FI6YYTBlCy3bQZwIxigYES4&X-Amz-Signature=bcdfb4e490b02d73899ff43cfc99414e0e91236d5163fae4078f5e056be9ae72&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:56.358Z"
                   }
                 }
               }
             ]
           }
         ]
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-80e9-bb5c-c7fa7b59e4f0",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
       }
     },
     {
@@ -384,16 +378,6 @@
             }
           }
         ],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-803a-9050-f98750530054",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
         "Color": "default"
       }
     },
@@ -502,16 +486,6 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-802b-aff1-e990a998dacf",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
       "Id": "225cc54c-ec6d-8076-abd0-d6594fb2adbb",
       "Type": "paragraph",
       "HasChildren": false,
@@ -527,10 +501,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell.",
+            "PlainText": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell.\n\n\nEntwicklung einer Sanierungsstrategie ",
             "Href": null,
             "Text": {
-              "Content": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell."
+              "Content": "Das Projekt orientiert sich an Prinzipien des einfachen und experimentellen Bauens, verzichtet bewusst auf überflüssige Standards und nutzt die Ressourcen des Bestandes – ökologisch, ökonomisch und kulturell.\n\n\nEntwicklung einer Sanierungsstrategie "
             }
           }
         ],
@@ -538,64 +512,309 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-809e-ac0e-f33e4d521b32",
-      "Type": "paragraph",
-      "HasChildren": false,
+      "Id": "303cc54c-ec6d-801c-a5c4-e56b941940e6",
+      "Type": "column_list",
+      "HasChildren": true,
       "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-800b-8084-c1ff79e0c4b9",
-      "Type": "image",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Image": {
-        "Caption": [],
-        "Type": "file",
-        "File": {
-          "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a673925a-8ba1-409a-bb92-cbf1055461e2/weinhof-locknbauer-entwicklungsstrategie_circular.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZWYXGD4Y%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115351Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIQDAo66GHI9m%2BSgkToPDJt8LVtftpmhsVelRKi104aG%2BYgIgBRQslM3aT9y3EkZHCI8uYBGr3r4qN%2BFzbj9JbqjzN%2BIq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDAF6HdpOd7A8KYuoISrcA2EFzpruk58gdmRVXRkqoJI%2BCpwP6nFpae7NUty6txo98yn2lUXm4Zm2M6W4%2BWFOE7Vl6phKsBuoQfhffKdg5LhgCAkSf6PvtqV7D%2B0DIV3h2obYZzmbO7N5%2BRcNqZYSKLIwZ5FjHwEHSp%2FohgwV75Ws677Rb2ujCpsJSBFEaDVWXLh25dYlmFNsVHWNJ066fXimLwpJFo2lT5KjEoWYqNHLW0KXZdSjW9NFBwzpRDs7Ok5cQNkb%2Fg%2FIGuJvFTgbwkxoWL2boUoTbJ3fQiNgrycQbqkjQjkNwXnEm859kaPOa%2BlgsSozQH%2BSr2VyCcmFoKJwaymCBCTTSP48K11b8ekxRF3SCPI9xQ913oFHxjbUcGKeK1hqnXBHcmD4VGOQLPhRh1uYiVDgjwn7C%2Buo%2Bc0NZcQxGblWGU149pRdULereHd9VrELnPUCo5afGPSid0eYqMC%2B5XtPwT%2Bj1CgFJyh0sjN344m6NyIMGKHdiv1hVsYgnVQGgf0SIyh%2BNh%2FODUvLhE1YyJhiR%2BpN0MaexDUl4yL1n%2BDr9XZMshAQinTrf9xIo1lfOH692yU0oLSfAxaEXrk6WTYxT1Ey%2FpY0N7bSIq3KRDGbhPe%2BHUSeiN%2BklfWxngb4OzdDj9DCMPr9ncsGOqUBDi5qMcvjtfMH3JLfZO5LlcY067EpRou%2FJF%2FXUp3jtBrEZ7vL3IUaREAH0m%2Fiv07700hzOrJvhXUQ1EBcg5CQFNmfeJTojCkrgqpRq86YDDwogm9MEZ51n3XkTj7%2BAZuST2THn%2FlXXU7TgI446cJf7gD03R3dBjwjc7r8gWl9vI9CwslTlxRAEUTYBqG72AV4Pf9KPYblq%2BuigJ4l5CGQkcvaSpGm&X-Amz-Signature=a2879a11c120abbad19c32bf9ba1da9752faa3e098ee43efb8eb8460f285e34e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:51.290Z"
-        }
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-8005-ac81-f18f8305911b",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [
+      "ColumnList": {
+        "Columns": [
           {
-            "Annotation": {
-              "Bold": false,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Entwicklung einer Sanierungsstrategie",
-            "Href": null,
-            "Text": {
-              "Content": "Entwicklung einer Sanierungsstrategie"
-            }
+            "Id": "303cc54c-ec6d-80e5-b574-e3bc27a0a7dc",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-8068-9fac-c7e1d3ba3fb4",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/ef8ae0bf-1fc9-49c9-bd0a-9ddec2e80240/01_Bestand.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662QR5I6RH%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182557Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCICtLXKp4LFV5irQMTRczsOFKXmrnfxAbOO2rLuDEp5MqAiA4Kmer7F48ZCyvIqtvy9OHbt8NNwB6tXgARFyuqwkIkyqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMR7XEw9oGfITZ1fgJKtwDOAzVGTxVIpOu9TUs2Lxu6CbxwMPTcnzdQQJDvFBK4gNJAAWtkeNMf4XazqAsQpMalWNZAF8Ua479qIC6n4bCRU5EOPUIHia8qKnV6CnJhAXtIBG%2B4IM60p94W2FkgAMoq83CviXnpiZ0ZlHRe3E%2Fs4qOJTbxSdWa5ed55VTJReSWbIwhIq0pbWmGHRmm0z0rF2drvL%2FT1BsgCzHx2hHp4xaW5xipDMuxZAEKwHKQsnsZtOxpoZFBeXY1SjBoCXM%2Bu4xX%2B3e6SI2ReEOoWF0HCh1NHWKrzrB%2FYaHPemXzZLE8smASypiqqIgzSaLNdQa9SQBwmBLt7YkChImuyjfFp%2FwsKH%2F4CDVN7NSCyED5qXUOTni9cPfunjXavGgKcS8QPVk2SytYzuQFdmwHT2QH1zOC2DAc0xwdrXltPSRSB9cPmVvjq1iJaVpoycXpvzvTOwZTjnQn%2Faf2SVWKMI1aZeBJXOcPTTx7KAJVAQLdItQsDVghQKZ9%2BE6A9qlP4nDNErD2%2BCrSOfoCHm9GArM%2Fa14ys8JeHYw1EsOD93IzoHmgCMkVTdlBaM0rQwUXPOJWMZHG835yZGogA2jhxwu5fdvrl1Ez7qDI%2BQ2jWTRp35G43Lh8EHR8woqY0MYwjoGszQY6pgHv1934yA0sizMUdLz0qqnczTThC%2F8kigVO5%2Bttt22KK7PnRr7MbbiItgBCWYT12rogeGXn0TgWhxWfhEoTV0GdTK1aA%2FNVatlwzbm3Buv7zY%2BCe6xeRQs9q4GEs9jflzGPvpqI1U%2BVI9C%2B1Ja1MdNYm7%2BCgBTty9KQB%2Bvl8nwJt%2FDXpjCw6hlAseXHGKeA6l6qSkYz54G4Qhf1FzhrXt4iMXsb1LUj&X-Amz-Signature=afb4694fe3af2a1c2531f972efa00041f259d447a72d021c55841eb771f0b8b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:57.010Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-808d-ab1a-dd4d12e4b329",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Bestand",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Bestand"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "303cc54c-ec6d-8044-a37f-cf7fc2343d43",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-8007-9843-c1c9f1db6e34",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a4685d95-598a-4d38-be7a-4c5ac4da024b/02_Abbruch.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WFYLG3E2%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182557Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIGPKh0Gg32AfK7rtwpm%2F2sXM6jAAT%2FcrSkwFMDVCe934AiBamH41WMLIM0HANwifaeJ0R5DNYhqJ2sVnEWeOZZSooCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMr9UUCosudBs06LfPKtwDPeeMEGRtrk7o7%2FDBk74DqZKH548ZFsYEP364OZDRzL0VA%2BsatIiXGhhEj9nlaIy7DKO%2BNTTFElrBJ9tPAB29Cmm8a9gmPobj%2FOA4L2UCHOCwbN7C7GrH7R4hzCXiFrn4c4NwJvOIIPqvu%2BUVwGQ8mwOUVq6COn3THENJD0ovhH54GX8IfB3O%2BeqdfXZKGuSx6N8wnG0BCST7oMUitZ8kCGUT4PJjWubjl9eluJCu4zjhLbeHnqA%2FpgkEDhlE3TmA9doq33El6n50zcdpbtERNnsD1RKIlZQGb3aLPCrUYQEuBABTsl88eXwuwlzFDVoWSzDamLqPJVC3kQe7kWceqqPJv7WeAcalKHNVSYUEzSNvfCNp3B99Tszx91VOoR8n2LghDCqX83xsIKljBthYE6Ulk5IpMTMK3YDOB1pCbNXaXp3om6DCq9vqeXB9N3B0xzBY3ekA4quHClirUIt98tmHNPzIMCqyDj%2BHwstTTKqxWn9oONhrfU2NVHJbxDZqN7pwRj89W7iIr1xHMv%2F6wrZoMUYQTUo2XWLk97nGJg6YgXAHIldlRZuMz82WrhMcPFnrkwXbW51Ne88OJtwby4PuuyBWvh%2Fyr0DjA6YHyuUJmpROtAElqviueOIwiIGszQY6pgGOEYFwbqq%2FCZa%2BXaTQ0v8%2FDv%2BFAjUWnjv2%2BzoAnVWFdIjHtmW6WsPrM%2Fnmt%2Bw0ksXnv8dREjKmT7F7RMFD5%2Fu5B9oVJn26431KyZ6f5iwC31f0NNry1K%2F3S4CaVnElW%2B88DjeBlkt0DCH8ty93kCOAUD06WVIxgnIMRbHblJ%2B8ySgrag6QT1ZGzO51WM8m9iKUM85x6iWSSX4tKd3VZ5541eZQ5EtD&X-Amz-Signature=68969e4e1521badcce7d2adf5954b533536e6a97eeafc8d379dc972616059851&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:57.340Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-8046-abe3-e0675f298cfa",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Abbruch",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Abbruch"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
           }
-        ],
-        "Color": "default"
+        ]
       }
     },
     {
-      "Id": "225cc54c-ec6d-8095-8470-d0508816d3ec",
-      "Type": "paragraph",
-      "HasChildren": false,
+      "Id": "303cc54c-ec6d-805d-b2d4-e5af815aeb42",
+      "Type": "column_list",
+      "HasChildren": true,
       "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "303cc54c-ec6d-803c-abca-e60e8a3f0bbf",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-8011-bd11-c1f246500cf0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/46b0b687-c787-4f36-8aab-3543c5d3cffd/03_Rohbau.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y52O77K4%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182558Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCICbet6DQlj3rbH85WFZ0lsTMmqacUukB7Flr2VfawY4VAiEAgy1ngrnXcPJE39YwXmwWjEtHAaXiUDif67nd%2BDJm4C4qiAQI6f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDES%2BfE8mOm1ORYFLjircA2hujx5rT%2B7EzNW9nHaVUIOfgEA%2FFGHyod03IAlOt8FkaD6QWEr4aD%2FPe4QNJqSwCIW7Nz9K%2BcjJVMIK56rMuYzhemkJZ2qYFlICCRCOxvqpHpoCtR3hW7W%2ByuRiScTOyRJ2gAOIzn58ceofBVa38Fd0Qq9KnHSmiwMmS6CieoAtndwHsa8u5RodN8xpMAoE6tNNb0mlny%2B3CfTjbJPI1zWfkT2%2BwgI2uduO5PXZNtyXbS4XxmE6Dz7p4puFNtbvgp4xJEf3GrnY7CEa7M%2B59hcOiwDvJdv3QOeudpLlIfm4SKmrv1SqPQBPO0yi1tURUTJ%2FJN9qdVrtMp45crq01rw7R8aF%2BybdUAYpV1O71i5jFd4YWsdaIMJWkjoeAoX6WPk2R5Vys2nBsQHdW1tA97257ArkPaV1NmCOmyrOkXToVtwe41M7dqGnupIKb0qfM3TOrNXdO109lfU4g1osMok4fECPPO0o1ZaB8o7Y8Teu86PTfqV0xsn9tFayICoBHQswoy5uVp%2FDz3XYwteS4DbTQVfxq0zZRZihn%2BZHAs%2B6UcQlvMrdV9ztEzsXr%2BWTCBSc6G5XE5Ku1CnmqQrB4YSSjAbGW5doyTKxB11dIgQe1VUY71v%2BJqaaQFowMJuBrM0GOqUBZvjSaMQ7UFiGfBoOCFYvWJpgcb6hn1WnS2YS0Oo5fX5J1TbwlHCXd9jqpZVY6Cr%2F51SkqlDhzWraeTo9Z6J7dB7rb9k9bLiNFNg7Tq79gA%2BJ%2BzwzEL7is46AEqFdr30B%2F7Gtk13R2dj82uGzYQeMPZRqE6tziZ%2FHLMXrKFvEhJuSKFRCCqkuEWuy655hctEceBXevlZPBqChf1pZ6kTl03%2FfwSVx&X-Amz-Signature=c7b80203d71d7e013ffb3f9c4fa55da74164608c691109b6252151568d1e7b73&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:58.953Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-8093-b054-d7e4fced30ea",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Rohbau",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Rohbau"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "303cc54c-ec6d-80f7-a8a6-e2821cadc5f5",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-80bd-a8f0-e71b11bd90f0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8848ee35-2480-49dc-859f-dc03107be9a1/04_Konstruktion.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666DE4CZ7T%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182559Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIGG7TmjOiKSpUoEoHlOk5t2eTaLbj%2FWlKoAcY320FtJLAiA1yIr6INCgznPMh3UnxdpZ1hH1P2nCnHuR2I6b56%2BjtCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMUTOCd%2FY03Uid%2FqrCKtwD%2Bob3GeaaJUqMZ%2BnQ3N0yS%2FLdh1fs5AocF9rWuHcWbb%2F8SmYyZm61SaFpMrHeXLOfXW%2FJOmNXChc2CB81zaa%2Fxifj4C2KIRAeKvGmqJALXIqaj9RN4wJcvvrU9V2F1BXCfAwTo1UR35UmPhSxonzbf1PLAcr2kH6Fvds31YLHujcGcvNjnZ3X0d7bX9sEP87zkRiXjv8BsHFx%2F4m4IER9piskmLLmFp13RNohBXXBJROX78qhy8iMMsS33K9dvTXrj1EbsmMgy5Q2F6zejCTuf6Wk9v4WET1Snda8vOiRW382W%2Fsh8zWHwz6PagI5qD4AXfmSVxDXUWDN5BnzgjIb0HGpPKLQ6MOZgNE2n4h4iGn8Mdo3q76HsJVtxIFMGK2NKWjg427xZF3%2BPBARg%2B%2BpprhRZNl39DwlozAfJaoUiDI67g2KGPd3%2FIS8tCzdYujSpLip6W%2Ftz9aOnB8jiRXFJW7rO%2Bs1rYBlOYuoIBsDWUMQc%2FXuB9zeBD513WHlnX0FLPmz%2BU1QrGpYBHQhz%2B0ndHJZZkktMT3oC107vaykj1jFUijzZzdnpdEAo%2B8ieLXnfm5KYSCA0ywfswJ1GZ8cozxbTH2YoIOYkm8zTYaUS4kUruSLEIl%2FBeOjEMQwpIGszQY6pgHMVW6HGbAAZv9%2FgoiBt6at8xilN0KpdAJPr2F0sYvDs0IJ4vfELLNUJsE2dr%2FUA54MMYCQVyoaAWQaOY9uQgGWUTp5xzBh3mLm%2B%2FxV7LJ%2F5wnFi1T5j4b3mbZHxLoGFF8bVw66VAmkzIn2wb%2BcmcX4fMKjogAljNXKuzH73tpLtxriscUjOQtVHqfedQtwibLn71usEmATiKPB%2B%2B3k7kCu26vj3o4n&X-Amz-Signature=94287b38edf75410f0c9c42342a9f444d3b0735281a8fd7d514bd005e55e4916&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:25:59.274Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-80c3-af15-e29eec840436",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Konstruktion",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Konstruktion"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8025-818e-e88e95acf5fd",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "303cc54c-ec6d-80f8-b514-f40abeeb9391",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-803d-8d5c-cf44ba9fefe3",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/138b161e-54e5-4c67-bdf1-bec23add5532/05_Huelle.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XI7RQ6YX%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQDaTOSz00XZQUpel0J7CMghWHrm%2FwkXKhzO2UwXK%2B9%2BAwIhAKxhVnIHGbUCdw8mrFBRDKs9YQpJDyOr98uHRj9x6798KogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igw68Zq0OvycgGftfbAq3APwNLSIDbjm1V6iAInotSiryhPPW3R76Deuy8jZHm%2Bn9ivue7hqOCZJwuOVyjLk2%2B2Rhz6A6nYqErCyobcF4t2NGt4iv1RYpFajbh%2BRtexgWhUlrWYu2V6IOGgIdOAEqRFAhEYFWYFj%2Fu9F6G5zKya3RrpLaHlcqseSUnhV%2FRjHJPm%2BYPd22IojOFtIxwI3JZN0Er5RrdrvPugQ5Z4oAQmEvS6qsjL3yZtmxwKlBg0ORtEheIAoMZ9%2BElxbxyrMveIvWGF3rjH3Tut%2FoQqYeus%2Ben9qHEhZ3v6lZQ9FvB2zfqm7DYINr21Ev10hKlz62xz6GVJ7AnR%2B9AwkLxhLh8Grk4DBAimu5oDFRoppguyn%2FGQYjTgJmLv265QCZu9f4SWGQNLgibV7swjrIvigcGq2yNDwwbA5vG5nIl1cN104I%2B7H9l0FI%2Foxny09QGc%2F05Ug9iM2MnzpxnpgEJmspC6oRVpxi72dBIxa0iZwW2l3nF1ZMm0OS0%2B5so8LZgS3wUJQpF2h8XN2OVrf7ErCWfZdiDLO3FNurRsfFQ2dsLgl3HSCzESemEdJJrFGYXq08xFHHqH71Zm5dm6HtGnt24E%2B9kwcbWjEmR8FidmuNSSq%2FeX751Re9zglb3%2BgVjCHgqzNBjqkAfdqiafQfyxdb9%2FW0gM75MwAOngz4NXp7WEv9yd0CDKg%2B8sWgCofd3EozOJH4RBwj%2BjB6Yp3BQN56bN%2FC6k2JsUyO8VZih4AGDPCbHNgKrg%2FrlZGTohb2X6HGJ7ArXww8tTtyNUuqQyQzrJBtiEF%2B16k6yWRq%2FyT0yKnWdwrjXmLY%2B34IXgGIuoKSsQhqA8HaFZU3PRWVSCDKi12JnnYUbW9VjKI&X-Amz-Signature=f1b5a202055c3223d6f0795337e889472ffd6c41c249cea7c51cd0eca29a9333&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:26:01.541Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-8083-b6b2-dd5c37c9bdf1",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Hülle",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Hülle"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          },
+          {
+            "Id": "303cc54c-ec6d-80c7-b1f8-e75aa1e476df",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "303cc54c-ec6d-80f8-bdbd-d167c56c95e1",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c5532e5a-ca09-49df-a9b6-77f0c88d87fa/06_Neu.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XBWAZMMS%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQCm4DJgsmwV4D2TW1qLHLPeSnORDrggew9bxt1YnMKqZQIhAPDEF0PYHNKuX0TFMLJU5C7NGZABD%2Bx7JVXzRYhGR1FtKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxlwH1jsDUTwUg7f4cq3APbQzwM3pMzPpfn1IHPS9vvEbwUNqUugnoZxJiNGNV6%2BNVN9dOV1vw7DfSl6Q2AsRQO3DEB0WWNwMWRI6lwyP9rwMp6ffRsqZsGW2XMZi3gIIXAC4I57Tj2Dw8txncZfIpJ8PE2r0JSoeXUXwFne%2Bhj9GuaHq%2F1YH3xapWDwTcaXZ3DpipWuocnRPVA2TbHAXlgAXKhOp%2FqkE4%2BXfBp7sykpgtRBtsuZEvgTyS8A0cy5P1daNsIn2CEo9zM0RaFjqINP0tuD%2BNcSgl3JVicfQC0LzRk6NwYMLsHUKDMWHZMULyauVIVInnwDQ8t6t0Eh6vJJR48UmKeFpMx8jrxCOiIKqgNWlcM0GaHJuWAIcNSeykGGKe%2FDG8NyCi6OouTgeW5lb%2Bf6pjh1s20hZnSjDwbXX4JMz87zU6StQ7u6zzRPSX9LrMCa0uksvywoftdH9qo6O7qQboczvwuwtkzvbLarBDlKUDJGDQbAuovuJC6q%2FtpTwFRD1tUf%2F7jiKlkLmlHQNxj66oSO4PX120AiDvbn9dcGsTk5eROq3o%2BBQKWCe8drS%2BXyD3HbuGGaabRTE1vUxBiuqP9s86RtXrG%2Bih8sIThhvIWA%2F%2FO5m9iU24ltn%2B%2BLiGaiY3kSeO0xTDkgKzNBjqkAdVWnsKdr%2BJ9mIr0czMPkWjjiAAH8q9VUQLXyAD%2BlSc2ep%2FfEo8353XRZvwbEXp3ARb%2F%2BBepdeMMsYXqVLurBru6ZZ326elGpY5LcChbLv%2BiN5iK%2FSGI4yg%2FKHb2pP7kw9D%2Fnsa4iq4EEic6lRcmxU3Ym0JVyJpZAbB%2F8z%2BrJFQWB48lmt15U7L2HOPyKOZKHACmwHLASp3TfACinH%2FoW%2FmUemiz&X-Amz-Signature=14b73cf163c49f849d0720fee12929f90033ef75614efa1a86042405cbd9261b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:26:01.554Z"
+                  }
+                }
+              },
+              {
+                "Id": "303cc54c-ec6d-8055-85b7-f2d79a56ddb1",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Neu",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Neu"
+                      }
+                    }
+                  ],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -786,8 +1005,8 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c7119fb-d696-4f5b-bdfe-a3b5d409e5bd/weinhof-locknbauer-entwicklungsstrategie_vorher.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662IRNNZTV%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115353Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQDrH%2FX23p2zNnjMM5%2FJ%2FjZaXE8BDO%2BI4MGCLxq2kciQvwIhAIOHwUQgMfuaIcHcx46dO%2BgtXtrN97d4YZ%2BD0eKNbjWLKv8DCB0QABoMNjM3NDIzMTgzODA1IgzGASPAfXRTbMykKHYq3ANGjSXJa5vUvXpmcIGOTBUCFdNAydOz2lsVvVV8vK6ibLhXk%2BoxyI6XB3%2Bq2DDJ3f0%2FKxB9MMVNJhjQCSY5DlI0ybZBKExbDI8kY57Ce8FIeJdvnghcR5P7SihDJF3V%2F9ZGsELPqwyElERc9rjdHXKqpp8LT9wWa0YzShH5m0QL015XWQl1FmvEPiiPYXpDQRLs8o%2Fxd2mEV%2FieFLTmzTlOtpGnVXnX2m9u6bQUAHBuTIWqC5iQWNvHudYc7FDNpG4%2BXmtWA8Vi%2B82IbAULVTvQ%2F%2FLmTG7hEjdHLT1OEpzOG%2Bkg2G4Y%2BnWofGVHWKStlwdpsOyk1pIMQDQfPY8ry6wHFeggMuTW9Fswpgj0KIHkmHwzwVZKL4fEBXLBEjFb87e1tr8bcXeO4KU7XVovvtIgo0gg90OFbKpcvdvGUdoFikWvhaolYRc9CFfRAFnApWtyBIMCk8kjwO%2FQrgCT3JQpDyqSRYys6CeISdxX1X%2BKtgmk5JrcHzc62gWEbTuoTcwOfG1vQqXjfGSsytPyWKr%2F0KLGMSO14I5A1AcYQhSprsxRFQ3enzKN%2B%2FXYcveoNMdCUxk0zzN0szaWPaiZjofjQKRrsMC749s2c%2Bo4BGP92JEZzoi%2Fjd9KeKT8gzCq%2Fp3LBjqkAcrz%2FvQOiTcgcLoWtgBb9CeVh2MYT3inEJKmGAYv4w3k7UQSKxFh2yBhwQ9cHpnt1fe3PhqPTu4ddZQJIGfOhyysBbTHZ%2F6RygSWmycWQLrdWeBp0AzhXXSQ4tRZC5t1vcTFTA6jCNjTgDX%2FLLdHQLFg6UDSN25q5M5pCu%2FmUGazcdImitig5OLPeUt4yd3TKsq3wGh%2F7SklYnSByhkfurPFG4qV&X-Amz-Signature=a7df6c6e493ed5a14545522d750e7d0bee1af13f14251412682237e58bbd5d0f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:53.359Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c7119fb-d696-4f5b-bdfe-a3b5d409e5bd/weinhof-locknbauer-entwicklungsstrategie_vorher.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663H6QXA42%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182602Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQDua%2B2HgLvriyTgl93Mm9fjvL2j3Bz2WIBk9iKvmFDE0AIhAIgm923iM%2FwXMtren7TpNQ%2FGteOKg5uvrB0tZ0FafYAxKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igz0YokDZ1hkkGWVi14q3AP%2BTo8AhXBfUnODVRI0MDT1nuhQFOqDjPYYBku4Ocdqx%2FaP2pT5wkiIjpftqGNnCLMOd0EV35CrjTSBZWNLwS7lSBY2DbLhx1fdmrtAEevaj9OMBLh%2F8WhPrciehPNAdBVA8iFE92ea4uUKzMOD6WnTGCO9VCaORipwQxnV0kdcCCXl7KcQHrTUqbNPuAareQz3RumTIqY0vKoRsi5VsZVgReEbX2XwApEsFSq7qcnQwI9Yu8t3RKezJNWgVBtBpcQP9ToLViexlf2es6iMko4Qih%2FDWTuYXlADDAHbAvD1OVEc4AgUsOxnBCoPIZZPScnhUNhEHEoG1b6WK6gF01uY5eWzd85FqRwZBAVJsl7gu0XrdoeRNkSRzb1n9xi7jsSAUPtLAToLF3UtXbLxn%2BZUnAKIe8Mvy6qiJyaJ%2FHAuXS%2BC1XW%2FSJ3QuW%2BTjmqr%2Ffl8O76IrKlK6q5CMh4e9G4ijZZCQ02xtjtdncVVMTmfb0%2BrgR923TN%2Fl%2Fydpo1IJELy%2FyLUsXBA2x9ljPhgbr3f0bs7TmV7opLx7NbllxtJvuj%2BJrpSROl6mrgnf4NgHJN6wITUei6WcjXyf7dS%2FQuITligzzt8Nusr1Iq2XSWgHFZLKWz%2FymErRYlztDDWgazNBjqkAdAl4zMvfyGYW8Z67x7mOv6oDZUUPzRG5RDwHbFQTkGB2SrSNesgg4lXKv9AixMHBAZ2G2gOQPZ%2BF7%2BHvk4h5cEB6iKwjBIfC79jg0WKHTF3JoWWeN3O5ZJQye%2FKHDTHcTfMGv%2BnTd69GKesaAjKpnx7SoNZBV%2FUtxHr5D%2BAMQs1q2BlB%2FHA%2BGZn%2Fc6%2FgfpZGh%2Fdu55%2F32878TLItPnxKMrgh6PH&X-Amz-Signature=6d6df2883c0d31420b8b1a668daad074c222e4bec245956d1f0bf247f21dfef5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:26:02.163Z"
                   }
                 }
               },
@@ -832,8 +1051,8 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/21ac4584-5ae0-45c8-831f-e0c79fc89608/weinhof-locknbauer-entwicklungsstrategie_interior.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QPSERHQT%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115353Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJGMEQCIDnN7tp4qElBMHBCNy3iqcah0XgRzuCw9XFgWTQvZGQkAiBi3C2zeJV%2Bbc3%2BQs%2BMOkJtKm58IKNb02WRd3PQD2luPCr%2FAwgdEAAaDDYzNzQyMzE4MzgwNSIMErHwplg0gmcEZmXpKtwDj%2FIJeL46EFwHxTYzUyXq9thYvrWrTDfMtQiza%2FCsCdL%2FI1uQkTP2FBl1XZMgbT6I%2BLsl4dzgcQcHuX%2BzuKnKg%2FyCqz85n6J0g9pSnSOkfNFd%2BzcWK1nLRUwewU5T6HNqLItTfeQnPL34muE7u6bJEjnw9DUB1688Je5mEsNfzZt%2BD1cDbQRUm7a%2BZ226W%2Fvln32Crzp6XZ9HTB8rIjO0%2FQX4bzRx7ddJvBdHYnH9zPsjg7T%2F2vlFnhqirexb%2By9%2BPwDiBOlCxS6q7HCOKhjC84hfJQyOlG0%2BTdEI5D8Z1VFhj2xJdDBVBwTBgE3OkCKaX7qnpvko9MgzZwNnymedA1iKjNv66Zp1pr5Jbho5Nqvgiipj0%2BALcOm2OTgYbFaw4A5VA6Ya1bQNIp1bnH3SmrMHkzquOwc2p%2FiNHMPASJA53pyuXnlI6JSJvr0v0WZXAwEsnv%2FqsKAfZHdMc07Erdb3N3aMutevS69tYWaYeloo4H61oYQ6NIMnzlua6SzUfFwXCdzMQV2uq5JeNIdgTWtYhX17OvQtiZ5rObt0MK8cs2RlLCV20hCDc0NZxciena0AgCnzSo6Lt4CAfCFiK09cPD8CRS46gR80fFZS%2FF%2F40gZachkG41O3rv0w9P6dywY6pgEdi4rKOyuJroj1aLqEv4wgirqsnG%2FXGQalGOtL0dWZEYWumBEexp0oGH9oeuJ80jY2RustcPP99lzi6NULtSIS5Jaa89P6thSnLmen9YJQHfEAmaJG8LVBJAndlIXqydycMm9%2BHmxYGJs8Ii51ODFEcbViIv9JV9EoglBs9cv2X8VFV%2BCzxdfwM3eU8IWXw3pxdo%2BmfJhR2Rrnj3B85B2TXUtDhiM6&X-Amz-Signature=0d8362168e46fe7ed806ee4d60f485d776b88e0e0f6c4311f27e1a114f233ac3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:53.040Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/21ac4584-5ae0-45c8-831f-e0c79fc89608/weinhof-locknbauer-entwicklungsstrategie_interior.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVBIGBNK%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182602Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQCLniU2m56HdNDRqaMpkBpNF7Ayzr7MFihb6ZcQ96uWnAIhAMTNp9xOBFRyVmKamkHWFVJCfaeYE1zApp3veIzDSAyjKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzRDSulqy%2BRcbnZ9lcq3AOQ3gEPvpmCxV0c5SRHlgDRfkXjOEYVkTRoabVFQ9QPDkGtIHjj3Aik4dbWKpaudrvNXpSfLeFoxO%2Fktpzww5slfY7IQEIdSSDQq%2F4keITnqYRrrbJnkEH%2F%2FolglyKHElQJSz0iCGpcp9nxUnejw0wS19JwqvobvOhLE2JlcqH%2F9oDddBB66BN24dcLgHM7kos8ieFZkKRVMGOESE4hdmJ3QZeDiCEDdF%2F2TnBbpRhe%2FtVeBXVKMDpm6iPzFrR8rGTDwoeC4MWrhO5JDGq26WNnfBxfk3fHZUP2X24KAXktGQV7ia7R085XRGtLJJCWYjZZtiROZlideyqvAPDkqvoPnZ9%2FmsNKDvzInIwH7w7%2Bj20vKln5V39TuMv8vLawn2p8SjTXvZZlYxvFJyIkMjZPOGBa%2B5Kq%2ButOa6I6b04FNynb6d7seOzmd4LmwaOuI7coyWorwIDB%2BKBJaa7DSv8h8VVcTkxrF0mei4DglEuD4AENwjYrccXrFGEzMq5gUbw2pYc7iBf05W9JcuE523IVr1HaNz3bffY%2B1xq2m1tlvQbLzx7frkXb1ZX5x4C3Pgc1NfHH6MXWpHEwTKOobKLgL8WARD0oQRPrT%2FtNWmCUz4ReR1ZcSjuTojafBDCngazNBjqkARubzZ6B7lDxjGHMvQiS0slujRCs89aUrB01SFUrO9Y1hZGIyAinzn4ayxW4tHScLYPFkh%2FhvwkwgvOI5Lx%2BynXK7WeC8iYfyMEaDV%2B%2BC1nIsLczpTyquG2ELRnYtdEjI8zAPImCBwnVHm%2Btct2i03P9R%2FDNIrlsLFLQM2XVzMDrEv%2BGzkjQuHzighcBX3qAVg8ODnTmuDAgw45xA4%2Fei3vsYpFK&X-Amz-Signature=c1151decda417a3e5ece31e813f82e873f1655560c306429c74223ddd42397ef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-03-06T19:26:02.262Z"
                   }
                 }
               },
@@ -868,128 +1087,7 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-805a-b574-ea1546e56beb",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-80b2-a368-f3bddcdf6f91",
-      "Type": "column_list",
-      "HasChildren": true,
-      "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",
-      "ColumnList": {
-        "Columns": [
-          {
-            "Id": "225cc54c-ec6d-8026-9f30-cfab6b45a934",
-            "Type": "column",
-            "HasChildren": true,
-            "Children": [
-              {
-                "Id": "225cc54c-ec6d-80f5-b4b2-c034941a4c94",
-                "Type": "image",
-                "HasChildren": false,
-                "Image": {
-                  "Caption": [],
-                  "Type": "file",
-                  "File": {
-                    "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b08d7373-a6d9-407a-89b0-af3b69b8ee04/3e23499d-41e0-4fc8-8fc7-3e5e9c2ac9e4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46676HAVR7M%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115354Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCxpwHJwD1MxnzGMHIGlaL6GypATRqDTBDU9YUOL1eZtwIhAIqaRQrozDjzue7Vrcg7f6ABPUL6nCW0Be5BUeSQGs3rKv8DCB0QABoMNjM3NDIzMTgzODA1IgxfSDWisAQgy9g3Sxcq3APgRWrTN0ttBdSSjcqS81B%2B7%2BJCFIo3puXOqs0P2zsr%2F2EnUTKltKCE88f4WSAn%2FIdTNxQZZwVgKHA9fyHXHeo000QV2VQFNoBLRlcjfHtRqMnGGIVEm8Y1c4zYhy5PHgeWyaAiU4R%2BcoX5dXGgTmRMlBBmUznGHLbzkXVPrQJx0Fn6HpTUVrCIxPiiekwwOzbJLvadj6JaV1S%2BZW13KkVv%2FhqscBfsmIM8p0vaSyXs1BdMcxa%2FB7Wb8PX%2FFjvdiKGDMMcrwVljkzP0PLF7ukJuqQ%2Fv0dn6cb2MhSDouyo6X6Pq5GorXRVeWSgSPLBt5zkmNOZjcuC9gabPSbvoRqqe48a8%2F7IoM7DMHaD9WwMSq0sVDUIsjnFB7efxsjaMHlE01KFbic8hoEREz%2FwE0d7kHTAvYl2nfw6%2BsV59UD1ZgO3Cd5Fad4PdUzxdjJa%2FuIshJbpsLqxJ1KJfz9iQ8za33FS6hc%2BPywXtKaBbCRhRFhBH%2FC2NZXrTHWdPEkf2RAqv0QGjnHMrxSNbUIsNv5JosX5RmyLqhAom1XW9HFNd4Awub9gjdFqpUp2jCqmou7LB3Yp1Xh1nGDfvmSldDrbMp6J%2B4dF4QJ%2B0rtpDOQp7yUPaHvVkhKLm62dF8DCb%2Fp3LBjqkAbLKClYc6CA3ZImXcM%2BL0hQBx5PLlvCSQ9eypmHQZG3jtOwPVx11poD9PQx8m1uYpS%2F9CArIJUKu114M0mXqnvH9rE71bRNkaRs%2B6kBTpZhXmCB9UAzVV1tjjP%2BDGtumxxkZull1WtbiPVN4x2SxMYWpWp7qYtlwtPeagLSwPiQelxP5tq9dAazZcDRAWOzaJqSoADAjxxmkpXJVDmHgKQjYOHYe&X-Amz-Signature=571921e5972de3541f578eb7ad4257994f4c0f70c8595ce4fce8141fea62077e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:54.484Z"
-                  }
-                }
-              },
-              {
-                "Id": "225cc54c-ec6d-808f-b442-d57c63611967",
-                "Type": "paragraph",
-                "HasChildren": false,
-                "Paragraph": {
-                  "RichTexts": [
-                    {
-                      "Annotation": {
-                        "Bold": false,
-                        "Italic": false,
-                        "Strikethrough": false,
-                        "Underline": false,
-                        "Code": false,
-                        "Color": "default"
-                      },
-                      "PlainText": "Vorher",
-                      "Href": null,
-                      "Text": {
-                        "Content": "Vorher"
-                      }
-                    }
-                  ],
-                  "Color": "default"
-                }
-              },
-              {
-                "Id": "225cc54c-ec6d-80e0-9351-f12db3e1bc7c",
-                "Type": "paragraph",
-                "HasChildren": false,
-                "Paragraph": {
-                  "RichTexts": [],
-                  "Color": "default"
-                }
-              }
-            ]
-          },
-          {
-            "Id": "225cc54c-ec6d-80f1-ae97-d16c19d24d81",
-            "Type": "column",
-            "HasChildren": true,
-            "Children": [
-              {
-                "Id": "225cc54c-ec6d-8016-8902-fb49606ec82c",
-                "Type": "image",
-                "HasChildren": false,
-                "Image": {
-                  "Caption": [],
-                  "Type": "file",
-                  "File": {
-                    "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/200fdf12-6bd1-4488-b391-c1cb7c67462e/4527ad1c-6fcc-4e03-a638-04ee89424f06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663VXKHJML%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115353Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJGMEQCIDthDNKV%2FGman0nMzxDQZS6u40vz6trwjF30bxpM1PhuAiB4zk50s9ZeyU721Kp%2FeBCRGbOb%2B70Ipbcqo3InnuzfrSr%2FAwgdEAAaDDYzNzQyMzE4MzgwNSIMzk9XgIdzx%2BupkJd3KtwDtDZ7iGIS6Yqf1UoAds5GfoYulbKOgdocSm2OPQIUDVAH1k1vNHZES3PA5rhk8ETUuGZIcdtoFdjIIF8c6mWpnVtR8G6L1RyQGRZNUbmDYFHtv6mQ154VkhzN0R11ufao%2Fy6Rb67vASIU1qOCT0ytGFlsUhmFtcbSFE2X7Hhimg%2FcdSkHNWjtoSGtjx40Re2loGMda1%2F1320Ymq4F0DDbK6pFjKhexcMUOcShJjJHrx9VWRXdwqgmdl8MvRsSBXp1isJt%2F0F7Qps0JH3uV9XKSsUVaZ26AL%2F0HZrsEQvR4v69qgfN0rihLhTy94i5bhoYhUrUiHRwMNEHQ2Xriyp8esDi2MYD9t18KLJ0pRl7HXDD%2ByI6%2FWVFUP4qa2JEJI1UkJYiWyCNMTosjwV%2Bd1dbY4hVSTKnF8rc4nVOUahAyHavaTOFWyjR1zUrOg3h60jRb%2FxayBb0U4LTjMd5yYpT9HcnkkUmX6c3YC3MD7TKPzN41Gn21z6Au2OAixq2qfe0ATioCRNqls3uUt1gwwnvYBqSBPs5JaSAN0Hr3VWHVhTb09VFDcUk6XiaTHmgKSv%2Fn0Y44GRJz1hO3c1XuGJ1JJ2wp0gwcoyEcv0OexI8LxJznCyGZ80zz9ybomkwsf6dywY6pgGMYrqvTwzv%2FANIK4QfZ6fSb0zIsMPjUzBLJa4ecW1qLUCsCsqVCH%2FxXPTRDVQU05FItyf5Egh8CYPDvbeQg%2B1fbLGMzrmozTmLq6B2fLdpacq4ibJw2xC53nzLqGJSlYub8CTpd4fENF3TL5YTdcw1ZDaC2RPTbRfjeFWbv3Mau0K2xP6KhlKlGU5gvIPHoI7cS9DYMQ39RfsiOPvujRHRd%2BwmpOdv&X-Amz-Signature=22edc3aa98d03a301a960338a866c8b966b10f82fb25c1398343a0d1e8138744&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-01-14T12:53:53.932Z"
-                  }
-                }
-              },
-              {
-                "Id": "225cc54c-ec6d-80d8-89b0-f445d071b2cf",
-                "Type": "paragraph",
-                "HasChildren": false,
-                "Paragraph": {
-                  "RichTexts": [
-                    {
-                      "Annotation": {
-                        "Bold": false,
-                        "Italic": false,
-                        "Strikethrough": false,
-                        "Underline": false,
-                        "Code": false,
-                        "Color": "default"
-                      },
-                      "PlainText": "Nachher",
-                      "Href": null,
-                      "Text": {
-                        "Content": "Nachher"
-                      }
-                    }
-                  ],
-                  "Color": "default"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Id": "225cc54c-ec6d-803a-a77d-f68cdd46cb40",
+      "Id": "225cc54c-ec6d-808f-b442-d57c63611967",
       "Type": "paragraph",
       "HasChildren": false,
       "ParentId": "21acc54c-ec6d-80eb-bced-ccbeb44a65eb",

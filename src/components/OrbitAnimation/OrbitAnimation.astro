@@ -27,18 +27,17 @@ const repeated = [...bullets, ...bullets, ...bullets];
         fill="none"
         stroke="rgba(255,255,255,0.15)"
         stroke-width="1"
-        stroke-dasharray="8 6"
-      />
+        stroke-dasharray="8 6"></circle>
       <g data-topic="0" transform="translate(430,250)">
-        <circle r="58" stroke-width="1.5" />
+        <circle r="58" stroke-width="1.5"></circle>
         <text text-anchor="middle" dy="0.35em">STRATEGIE</text>
       </g>
       <g data-topic="1" transform="translate(160,94)">
-        <circle r="58" stroke-width="1.5" />
+        <circle r="58" stroke-width="1.5"></circle>
         <text text-anchor="middle" dy="0.35em">PRAXIS</text>
       </g>
       <g data-topic="2" transform="translate(160,406)">
-        <circle r="58" stroke-width="1.5" />
+        <circle r="58" stroke-width="1.5"></circle>
         <text text-anchor="middle" dy="0.35em">TRANSFER</text>
       </g>
     </svg>
@@ -65,7 +64,7 @@ const repeated = [...bullets, ...bullets, ...bullets];
 
   .orbit-canvas {
     flex: 0 0 auto;
-    width: clamp(280px, 35vw, 450px);
+    width: clamp(280px, 40vw, 500px);
   }
 
   .orbit-svg {
@@ -92,26 +91,22 @@ const repeated = [...bullets, ...bullets, ...bullets];
   }
 
   .orbit-bullets {
-    flex: 1;
-    height: clamp(280px, 35vw, 450px);
+    flex: 0 1 auto;
+    height: clamp(280px, 40vw, 500px);
     overflow: hidden;
     -webkit-mask-image: linear-gradient(
       to bottom,
-      transparent 0%,
       transparent 25%,
-      black 42%,
-      black 58%,
-      transparent 75%,
-      transparent 100%
+      black 40%,
+      black 60%,
+      transparent 75%
     );
     mask-image: linear-gradient(
       to bottom,
-      transparent 0%,
       transparent 25%,
-      black 42%,
-      black 58%,
-      transparent 75%,
-      transparent 100%
+      black 40%,
+      black 60%,
+      transparent 75%
     );
   }
 
@@ -125,6 +120,7 @@ const repeated = [...bullets, ...bullets, ...bullets];
     line-height: 1.6;
     color: var(--text-main);
     margin: 1rem 0;
+    white-space: nowrap;
   }
 
   .orbit-bullets-track p::before {
@@ -154,15 +150,22 @@ const repeated = [...bullets, ...bullets, ...bullets];
   @media (max-width: 640px) {
     .orbit-wrapper {
       flex-direction: column;
+      align-items: center;
+      gap: 1rem;
     }
 
     .orbit-canvas {
-      width: clamp(240px, 70vw, 350px);
+      width: clamp(280px, 85vw, 420px);
     }
 
     .orbit-bullets {
-      height: 200px;
+      height: 300px;
       width: 100%;
+    }
+
+    .orbit-bullets-track p {
+      white-space: nowrap;
+      margin: 0.5rem 0;
     }
   }
 

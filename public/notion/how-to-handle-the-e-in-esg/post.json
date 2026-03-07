@@ -12,36 +12,16 @@
   "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4d4bc989-b5eb-4e28-a329-81fa3f037605/how-to-handle-the-e-in-esg_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SXDMPEDR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCTDLV2QdmYGVw1YkBuGB6IEHgnEUO6LFbpmjjU%2BmNVywIhAMjhpfmoC5hHEc5AEh7qkUoIHac7vyuQkINk%2BE1f3AKuKv8DCB0QABoMNjM3NDIzMTgzODA1IgxyXh%2BIzuGfMLu%2Bdw0q3AOmugGo0RWvj%2BdO2XvZUv2ZA63zGlQ4LR8Y%2BhGDyTmr9DpBtH0fcDLqtPaOVP2Ltq8ziW3Smy%2FxpQKNExN2zikZrl%2BGRFxdJtQhIK6N8%2FNCEct6JSEesboIrl2fx6pJm8uKcXbrS%2BfsqiZo%2F%2BLh4fF%2Ba9DKyca3BUS8QnHiojDiBqSUqH%2BgE3jSDM2hqw8IeCYXvnAVa6VhZMHbmpkL1Y8By1%2FsoMcXUEJUnP08mzrkdvItCa4CYmg7O2Xie9wnTLULgIrducCX1XdwuJSyG3VrL4lw%2Bzmb6owynGR30uOGMrJb4vEBLrHKDmhTBUBtG0EFkeaeibnmRHbukUHT3yNpAlW%2Fki%2BVlD0WbRuAPWo%2B6T%2FJMVYs6PbytPjOWcgef6OkiqKaOfUjY4%2FOE7oE9%2BYw2lJlhdY9LMCXTtrAq9a5uTJxcmZ5R3dF67jfPA%2BrT3YXoKb6u0TwXDnvn4Fvps7bMfg9b5Q0XRFmhnjHrMJ0YjKWb0bphZvpC2JRa0wNyR5u%2Fkt%2FFCO0b7AoqJIDo7oQVcK2vjK34sRb00XDjTBHWkMQlkkRYDXdfvKtqCs4dqx3ZZHDOnmAm2gggELr3nFDG8KNuA6YXAGzJZ1ZvMNJXuUDcU1fBtiJh8RFAjCs%2Fp3LBjqkAXJGgVAqpXNo0hMBm%2FkygIv1PSeSupPw%2F14cHv%2B%2BHFPYFt74F%2FsaESgh8YeOZ2XiTFx3lSnAPf1aV56VdWEMWkrRdtdyvirUE83iCrNfPKonyTY%2F9RWYHYaD4qXmLuBds60LacVsQ9X2eYntu5AfZ%2F4nUZcm8DY4FtMjkWDTg3YLPQV%2FZRvbZeCCXf20qQ7ij7hq3BkGOVfgFfElVDv%2F5K20yML2&X-Amz-Signature=1b9d5eebdf40dd7a67541fc258ff38df8626bceaf63e2e0f0b6f0e66124bb8b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4d4bc989-b5eb-4e28-a329-81fa3f037605/how-to-handle-the-e-in-esg_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=5919699511ae09bbf4067f4d3d23f01fc1c2274033795eecb54d686e937352b4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "Preview zum Artikel von BuildSystems",
   "Slug": "how-to-handle-the-e-in-esg",
   "PublishDate": "2024-03-01",
   "Tags": [
     {
-      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
-      "name": "Bauwende",
-      "color": "pink"
-    },
-    {
-      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
-      "name": "Digitalisierung",
-      "color": "yellow"
-    },
-    {
-      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
-      "name": "Dekarbonisierung",
-      "color": "gray"
-    },
-    {
-      "id": "9b6c4858-c04e-4a0d-9a02-1d96fdcbc8ab",
-      "name": "NextGen",
-      "color": "purple"
-    },
-    {
-      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
-      "name": "Net Zero",
-      "color": "purple"
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
     }
   ],
   "Description": "How to handle the E in ESG? – Ein Überblick über Herausforderungen und existierende Tools im KPMG Bulletin",
@@ -301,8 +281,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e7e4b28a-3dad-482e-ba42-36b73599f4d9/how-to-handle-the-e-in-esg_map.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TJ62SEXG%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115354Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQDqTfA9VigpuYZiwXqKzPROE%2F6VLirxmy8MaKAoUCSt0gIhAPnnlYn7UiyWIVx9sHFZaiFaM5ugsKpltwTHuwsPasorKv8DCB0QABoMNjM3NDIzMTgzODA1IgyTEvvb4S3MdJG0zJoq3APmDTF6Dho3k%2BbnMxuv1iu21j%2BPqZRSU743ws%2BAlfDs%2BGYdQPMh8zLAdEAykzTwfuzEU9R2SFUXcifRzsy0teid7vkAZ1fTchJDkoApP28RrPoIfGyQHaS5%2BfjPsZvesLqoJQ0g1ZEINHy6OEWMSbZCdUHRsABljCAfmEvlL5nZmtiwqkMlbKDrBGStZq%2FYsSL55WX6%2BsgJdIZuIoc0ZUMUNZlZ7zhEZDkKcjhC2FyPciEWVhC84fLpdCy1fMRBm%2F1Tv6tTC67qL8lP4nh04d5suNO3vNJYqjURv1zocvtuT5FdVk96mGjjtqUOgpRrS1IHOXWfoBPQSFjvF%2Fn0dt80JA4wF1iZKSEbqSmIAqhfPhHyuBDRf3wQ993nRb1svX3oHuf3HmDZX9GX2NCEInuvt9Wzsls%2BKXXOK18xZrDSyzW1TpdPfnni%2BqFH0twgzQTmVuTJxq6GRqDnrvdl0uD5FfF4zVLwIGiCzSOojzImkkqfJsMTxikTcBabNp5hC93NjRpO0ZucmaeLPtMgcvd91OFUg2Jhjn9j2l4SJJpEHWkz27U5njqbx8bnWxctDNymG57eR670fR2dpnDnYHO%2Fkv%2Bb424uxiu4WRj2fNIwpmNlSW7BMXDIFfBLUjCu%2Fp3LBjqkAdDn5My9n6OM9acLj9kxEeExnFTfuTIfgxA6ej3WZaWFNU0VQgTBdNxlL7M8oQ6BjEuC80%2FlYFX4BCQjp5vUYMZ%2FiSD99N6ZxLdlArFTbxrm%2F9fZPBuAVIPiEgtTmWAZ0CHqbn60rSXpxOlnUl6dN83JpuspH3H8epFJbYgkkBXX6VTyXQZCXEjcwEn7qrNGNfcBRrrGWIOxMJoebee0kK31Hd68&X-Amz-Signature=a64ee7bafc909d1a516ef5fc11c3cabae779abdaa797a69b9ff7947b3451df50&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:54.181Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e7e4b28a-3dad-482e-ba42-36b73599f4d9/how-to-handle-the-e-in-esg_map.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XOTXJ3V4%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182559Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIEoQPCeFQFGnTajNgGIkNoYIHuWHtn7T%2FxiNBmnVsO9VAiAOTUI3l7MuDv98VXfCFWiN9EhA6m%2BCMubZxqlnAXSMYSqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMAluv7rsCFQHM0zDAKtwDdGaywWtuQTe9rcIg4ee1vmvkmC%2FvxJY5LWPditO07LsARNnKweeAjheyHktjzJOVXEjchreKHB5g9N2Ia3JHVYGrkE5vl8HiLsqwlLIoEla0jK12x6kNvqoS%2BJLcUscVVnl57tYg3jErN647Zmz74Q08xu5gE0R6rLcemfRXF7rUYurwRCFPCEwms3DkuIxcr8HvW4XxYnzsg9o3%2FqnAqf%2FbxJEuRsJgXXLTvcdYNcaKDopJ31jRTJTzoVpbWQOgLrQZ%2BmE9YVciXqG693OKRp15t7QC4pInT2nnSi%2FiOZh7p%2FnL47IPEeEjZ%2B8chp%2FyMqXEiDtw3VZEKYlnQCjlrcUApxtH6DmglH9RgeYd5Eso9P7MuY3U%2Bf30Y1xUW7WwQJebbn3tU7eHxn3Aa97TSwmedKrbUSY6mvduyCgBmrv5KCEO8pC%2B3uoym2r9%2F0qGN9Rk7orp5oDgcQmVUsfLg2bZXO0wDuJu2cTNlRc0%2BEE%2FUY3vBjbAnwc076RM4pFvdijzroBNJgYqBB2D5Ehavjkr4RcHB%2FNxlfIGDEbSWFA5VsJWByOwQSECxl2TAoxx94XOylayV7HyAwXA5cDRsY6jYWfJonrZdkRApzp9PBK7EZJWG69miD7SK0Iw8oGszQY6pgEUKoYJXjZeAFhjfgmj77Xg8tP%2Fd4cKtm5Dl9BZkcAf7xI66XRO74J32ndBtn9ydRhNEtR5ruhvdBGICQ7Klws7oz5F6f2yn%2FQ5KzmB5woOyIp56hJ9vCe9x3%2B2ruQp4%2Fq1EfJiE%2Biwr4LGFfLG0eYtKQdeWsIBBQnvjlSYPX%2FBv4wPs00RzhqsDdSlIr0aq43eDAkBh892puiUdzJtabs9Jk%2BXr5uI&X-Amz-Signature=c7a7f65795e1470ac8f54bceb48caefe5b61b9a8680f14c598b438ef459052d3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:25:59.409Z"
         }
       }
     },

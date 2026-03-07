@@ -20,26 +20,16 @@
   },
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SXDMPEDR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCTDLV2QdmYGVw1YkBuGB6IEHgnEUO6LFbpmjjU%2BmNVywIhAMjhpfmoC5hHEc5AEh7qkUoIHac7vyuQkINk%2BE1f3AKuKv8DCB0QABoMNjM3NDIzMTgzODA1IgxyXh%2BIzuGfMLu%2Bdw0q3AOmugGo0RWvj%2BdO2XvZUv2ZA63zGlQ4LR8Y%2BhGDyTmr9DpBtH0fcDLqtPaOVP2Ltq8ziW3Smy%2FxpQKNExN2zikZrl%2BGRFxdJtQhIK6N8%2FNCEct6JSEesboIrl2fx6pJm8uKcXbrS%2BfsqiZo%2F%2BLh4fF%2Ba9DKyca3BUS8QnHiojDiBqSUqH%2BgE3jSDM2hqw8IeCYXvnAVa6VhZMHbmpkL1Y8By1%2FsoMcXUEJUnP08mzrkdvItCa4CYmg7O2Xie9wnTLULgIrducCX1XdwuJSyG3VrL4lw%2Bzmb6owynGR30uOGMrJb4vEBLrHKDmhTBUBtG0EFkeaeibnmRHbukUHT3yNpAlW%2Fki%2BVlD0WbRuAPWo%2B6T%2FJMVYs6PbytPjOWcgef6OkiqKaOfUjY4%2FOE7oE9%2BYw2lJlhdY9LMCXTtrAq9a5uTJxcmZ5R3dF67jfPA%2BrT3YXoKb6u0TwXDnvn4Fvps7bMfg9b5Q0XRFmhnjHrMJ0YjKWb0bphZvpC2JRa0wNyR5u%2Fkt%2FFCO0b7AoqJIDo7oQVcK2vjK34sRb00XDjTBHWkMQlkkRYDXdfvKtqCs4dqx3ZZHDOnmAm2gggELr3nFDG8KNuA6YXAGzJZ1ZvMNJXuUDcU1fBtiJh8RFAjCs%2Fp3LBjqkAXJGgVAqpXNo0hMBm%2FkygIv1PSeSupPw%2F14cHv%2B%2BHFPYFt74F%2FsaESgh8YeOZ2XiTFx3lSnAPf1aV56VdWEMWkrRdtdyvirUE83iCrNfPKonyTY%2F9RWYHYaD4qXmLuBds60LacVsQ9X2eYntu5AfZ%2F4nUZcm8DY4FtMjkWDTg3YLPQV%2FZRvbZeCCXf20qQ7ij7hq3BkGOVfgFfElVDv%2F5K20yML2&X-Amz-Signature=c0bf7fc105bce001cd9bc1ae214631c4d27c17c5f076cfcab50e3acd6d007603&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=3a8290e54dc77cd43f70c354b1251544009dd806a139143f5c35171d4c30b192&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "Unternehmen fit for Future",
   "Slug": "csrd-als-sprungbrett-der-bauwende",
   "PublishDate": "2024-08-30",
   "Tags": [
     {
-      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
-      "name": "Dekarbonisierung",
-      "color": "gray"
-    },
-    {
-      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
-      "name": "Bauwende",
-      "color": "pink"
-    },
-    {
-      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
-      "name": "Net Zero",
-      "color": "purple"
+      "id": "7a4412c6-56ff-48bf-a1a9-54f69512ed74",
+      "name": "Strategie",
+      "color": "yellow"
     }
   ],
   "Description": "Wie die CSRD zum Sprungbrett für eine nachhaltige Zukunft wird. BuildSystems begleitet Unternehmen ganzheitlich von der Wesentlichkeitsanalyse bis zur Strategiefindung.",
@@ -733,8 +723,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RTWBZDIX%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115354Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIGU2Y4HsPcuMRZ44Tku8N9fJQddeOh890iPU4BkwOydeAiEArcnY%2BRQ0oupquKPOEgGM%2BGzh0nc3OO2Zry%2BuXF86RjEq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDChJzTAE8bjGRC5jVircAxaSsj45mUorF8VfpHX%2FpZCLT39KoeTeSDYbkw0JuXxH6EyRs6BARWYPmnO0I2hxxF37T6znW%2FtuX7Bb7dKSZvg8%2FOA5FKB6TT9zrvBaZB5zlWsRAGXIs7jGT7Ch5yk0xSDaNraCTtSzsIHNgYamBmB1Fk47bKTQ6BovqdnJS0qI1Ob6BDJezJSK2X%2Fd%2B4VSE3xYdfqTCp9YOqUDFRc37%2FVVYc2R%2FYJFSWmBqbIwexWXsXfWV%2Bj0YsG7krVxlB1Rlc84V2RX7MlrTezvwMMRU%2BggqeD3I0e5QIoMVsCj6ooRYCOBzFgJULOeDn6Rm5OiKcTjBtXr1Nifw%2FhBwDcVHTqvxrULXV9q7u7HhFWeV4c5jlIZmI0l%2FwZFJrninsMV6iL6BeCqSHpIHlhQhcN0HpvYC2KIHq7gzkXXzLT4GqD8Ox8C8gTiSAFuNcq07hc9fX%2BfVMclZswgJXB4LTmjAxkOCfp2armo%2Bh%2FyPhh9F8sRdeA%2BLTLjVRgii5HccRjiw6IbmoKKW%2FT5WrgMSbaezJBR4CKINZfg40eKE%2FbMpsQuJq7sZkjVEocAoJUDUoi%2BhJkqtH%2BJGFbaUsfqULvhKrybuKL7FLMwNYH%2BCLfrRMsGTUvE4rOFjuWNkollMIf%2BncsGOqUBwXCCFnAuoj3t%2FIsk%2BJ39MKf4MaXdAE8MVh1PZsylTvciRqg0vSLDps7CS82Rsa2MDDSuNjMX9RBFQFEhmedJMDuhZy7DXevBeg%2By7%2BK7dxHkspDqvmIAV8c%2Bftl0hurx4qrKmrZvqVizILQs3waCV%2BWfbbomN%2F6Eybz93BRAJik10bscaWbWP1j%2BGvMUAoFoCR0R4p0vhjeowW1ycOYH3GBoxisC&X-Amz-Signature=fe832babaf56b7dcdec9d912bc7f2d74813fc74ea1c910df5aa6a41ce784acd2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:54.509Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZOS6BSC2%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIDbpyfw2esnG7y%2FqlOXBSSPXyS9f2vGxm6guKHLSs70YAiBzLmbPHS2KD9%2FBKowaDo7bjGIPtYpL%2FRJ5X2SQIZqQbiqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMqhjOYHgodP%2FEYrnIKtwDOjkokWNCKxKeeTPn%2BdZ%2FCMrgPzx8bcRLWXK30zTRsPA5e5g45m2LkHAug3IkMoNJuiOPUZtQx%2BD3QWQLEXh3rjgrUxmfaWm7wWTiLoZsC7reFCNnGt6OcLnIxQljxYprnMftHmgudmCUt6txYud1XG688aWO1WPp6zvpzNDefWyTqBw9gHQ4SZvrVsA3U8BoQy1TZUqc4wsekGP3aKD0TP%2B3nl2wLNmWGfO%2FDgSsbn8fGtPLTLZwGKaJf4pucquTVxLhBpKC8vvu%2FO1c2T92VODNx%2Bn63dEn6HtgDI1O8CSN%2B%2BqLiZ7BaadOyQgskHX9xGj%2BE9XDgU1sfuvJ%2BoRqNcPyot4BU%2BrcMn8GIVRC4KxmSp3py3LQ6jQHGXaPz8TbofYwgbg4R2EjDm%2BuhJ860QJ2CDp5arJLxqHc0DABc7xD%2FCvm4rSDmiM4TCL8lpb8l%2BDBsmAoU8jai0yGURXVgv8QXWvaYKv64W3ZDUJrWBfAc0q3ma4sLYztyvpkGqYAe4A47ACflg%2FWn6SXvtpn6Zq748sVyNIOE53PMTsxikvNHVz7qNWtgA3%2BVQ9c1neaWQDrhtrl1jkapipR9GJCtdHZXIGLgg6IVdzDkC%2FQxGfOBwCpF%2B8n3N20%2BuMwooGszQY6pgGkdHHkk5p3xFww0W85TZOY4GmO3d6thX%2FaZMSbI95jUHEqgYNgOoitPaRiz8To0xejYCigxWD5jm%2BDY9qECvVaj3QS8A%2F5wWSqtBsRakrGcRnFVhqbiUwr3CtT6f%2FBjQREYTiZ%2F6W%2FPhMDpRcXqGUWvNqBrO57DJoRyBXwNp%2BLRsRzR3xCmlgj4yBRf0ynN0lziu90WqWHqCx2JnHwqzXV5b3kxAnr&X-Amz-Signature=5f4984bad1c13e8796fc322986753015d09813502d3f1a4559dbf441e8811724&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:25:56.475Z"
         }
       }
     },

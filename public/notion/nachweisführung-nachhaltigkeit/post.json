@@ -1,6 +1,6 @@
 {
   "PageId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
-  "Title": "Nachweisfürhrung zur Nachhaltigkeit: Prozessoptimierung, Ökobilanzierung, Zertifizierung",
+  "Title": "Nachweisführung zur Nachhaltigkeit: Prozessoptimierung, Ökobilanzierung, Zertifizierung",
   "Authors": [
     {
       "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
@@ -20,35 +20,15 @@
   },
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e740f442-3bb4-4634-b5df-b7ac518729fd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SXDMPEDR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCTDLV2QdmYGVw1YkBuGB6IEHgnEUO6LFbpmjjU%2BmNVywIhAMjhpfmoC5hHEc5AEh7qkUoIHac7vyuQkINk%2BE1f3AKuKv8DCB0QABoMNjM3NDIzMTgzODA1IgxyXh%2BIzuGfMLu%2Bdw0q3AOmugGo0RWvj%2BdO2XvZUv2ZA63zGlQ4LR8Y%2BhGDyTmr9DpBtH0fcDLqtPaOVP2Ltq8ziW3Smy%2FxpQKNExN2zikZrl%2BGRFxdJtQhIK6N8%2FNCEct6JSEesboIrl2fx6pJm8uKcXbrS%2BfsqiZo%2F%2BLh4fF%2Ba9DKyca3BUS8QnHiojDiBqSUqH%2BgE3jSDM2hqw8IeCYXvnAVa6VhZMHbmpkL1Y8By1%2FsoMcXUEJUnP08mzrkdvItCa4CYmg7O2Xie9wnTLULgIrducCX1XdwuJSyG3VrL4lw%2Bzmb6owynGR30uOGMrJb4vEBLrHKDmhTBUBtG0EFkeaeibnmRHbukUHT3yNpAlW%2Fki%2BVlD0WbRuAPWo%2B6T%2FJMVYs6PbytPjOWcgef6OkiqKaOfUjY4%2FOE7oE9%2BYw2lJlhdY9LMCXTtrAq9a5uTJxcmZ5R3dF67jfPA%2BrT3YXoKb6u0TwXDnvn4Fvps7bMfg9b5Q0XRFmhnjHrMJ0YjKWb0bphZvpC2JRa0wNyR5u%2Fkt%2FFCO0b7AoqJIDo7oQVcK2vjK34sRb00XDjTBHWkMQlkkRYDXdfvKtqCs4dqx3ZZHDOnmAm2gggELr3nFDG8KNuA6YXAGzJZ1ZvMNJXuUDcU1fBtiJh8RFAjCs%2Fp3LBjqkAXJGgVAqpXNo0hMBm%2FkygIv1PSeSupPw%2F14cHv%2B%2BHFPYFt74F%2FsaESgh8YeOZ2XiTFx3lSnAPf1aV56VdWEMWkrRdtdyvirUE83iCrNfPKonyTY%2F9RWYHYaD4qXmLuBds60LacVsQ9X2eYntu5AfZ%2F4nUZcm8DY4FtMjkWDTg3YLPQV%2FZRvbZeCCXf20qQ7ij7hq3BkGOVfgFfElVDv%2F5K20yML2&X-Amz-Signature=4af3a6be9477bdc2f25160f73f74ace33889c64ba363a05799e1081ec7119c11&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e740f442-3bb4-4634-b5df-b7ac518729fd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=6a5c997d4cac9421869e4d3720b5c576975b09ef84d32e1bc88ec1a1838c152a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "dashboard-lca",
   "Slug": "nachweisführung-nachhaltigkeit",
   "PublishDate": "2024-10-10",
   "Tags": [
     {
-      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
-      "name": "Ökobilanzierung",
-      "color": "red"
-    },
-    {
-      "id": "32ceb38d-88e5-46a9-a77b-995097a8aae8",
-      "name": "Fördermittel",
-      "color": "purple"
-    },
-    {
-      "id": "f387cfa2-1b7f-49de-b194-db58f88aa921",
-      "name": "Beratung",
-      "color": "default"
-    },
-    {
-      "id": "e779dcf8-c54a-4fca-ba1c-21595d3d70c1",
-      "name": "Bauwende",
-      "color": "pink"
-    },
-    {
-      "id": "9cb996a6-a071-40fc-b58e-a4c3f52e72f0",
-      "name": "Digitalisierung",
+      "id": "7a4412c6-56ff-48bf-a1a9-54f69512ed74",
+      "name": "Strategie",
       "color": "yellow"
     }
   ],
@@ -200,8 +180,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c498389-333d-467a-ad0b-6b5f601dc2cd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466477MLR4V%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIAxB5ZZoolh80hElmyl%2FfuVY3TJQsB6iAzzYjn2xPCRuAiEAt41eEZmG7H9JzRakwkKdfLQAlgS9GOaWvenmN0JMAjcq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDC%2Fxfwp7GnEv0ppOCSrcAwBuz7ZiJQsDLEaiOwAY%2BmyU5NyLIjqfi%2BsPOj8qMM7pWjEHZQLLDgKNtX6tptMET1xSQs34iQz3X2J88EkeX6kMhA%2BdMllL9iDiVxC1uaheOlbUgwua74WTJL1RjtGRy0sRKB%2BoJQz7EI5TqtqCRq2rLKgEo%2BDlaiYxcmaGcQg0lRt9eM8e8jy%2BbBEimQQUV8BhFEx685e9UdMh6AaPaqc6Uu4GYAnUT80ZFaExxeNG9Y7Qm9errg0QJ7gmqmwyvZ4s%2B5fOcKS96dIg8qjAA0wLuuzJbCpbxEh7%2F5Fu9y5tKW6qR00NAoPuSvbFcxj5um1djMzRhk2pUtoSoG8kkSrZK1LUs%2Fx0gBvBIkVGWwYca1%2BEX0KLIwTOjJlt4bwddSafB3ZshMUvfA%2BnvsJNrl1aLVeZQzgIr18L%2BZKDV3XZx6l5gG8Xmoi2zCe1Iny%2FVO5CTVWqSIMyc59AVIidMLnqrMtHX5bxGtXjuJtd2W4ki405DyZw7LP5O6PDYvU4t8x4IrGeENmWotKesrnpnl2ypyxyj0AnlpZGMZJa54lOpAP45D3Z2dPGIwsuh3Xi%2F2z%2FZej%2FiZHmzDIPeBGgJgM27wIHvtIc6%2B00hEnAV5PGR0f13lULmHudzA41MPD%2BncsGOqUBIH2K%2BC5n72l7v60fvqYJXxytEwIwdu4Wdm7VHg1A1Z8pMpc6LF4ziV%2B1xUsXfZctXf3u03a0%2BlwwxvI1lw9MnGmB4H%2F3bxgTxScl0sTDiM9LZFXbVfoO25xMBeBiV1vDPLrCQQ6at0l9EQBAStylEvqJz%2BG8GZN8%2BbOC7J0XI8UqnzNhSVzJqCl6HsKdi7k%2BraccviGXFgzOdAr72meBbJ7L9Kbs&X-Amz-Signature=c4e1ff8a5bda7e7365cf711678c64fa825607ff5989673787dbff51c786f4e06&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:52.773Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c498389-333d-467a-ad0b-6b5f601dc2cd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663XME2FMC%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDyJmiJb9dFGHabSXxCg%2F6aBaDabYzDiKiS%2FRy9fb3ePAIgIIou%2BxBZfkHz44tJh5kprni4njTMtT13TeahAzS9OM0qiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA82MV%2B361rMfU64VCrcAy6%2FrTzQLwQwM3%2BxmLXIfRZEz9di1xpbHVcTBo4xhrssUf9oyskMMcMFDdmWA604%2Bn6k6fH1kbkcswHW%2FFPLSZQ0LSJPL6lQDH2pd%2FDXVVEu12vRHM%2BwS2MYZ0P7Pmppn7hPgxZr07mbYC58%2BHkWmEyQ2MrQpAgSV4qT0zz5CeYexo%2BjNxM0bejBiITJvpu5dcmWTtRtcbyh84Hm8frjwDpG5%2FO9mixdXyN82hwZzgix4KuSFeNkBYbche%2BCw4s7UCypKfdY%2FbMHfnwBgTN185zud%2FckqyVprw1UDUYJ8lmNqFepA8nxPxZBXhyPESZu%2Fl8Gzfqx%2BYdGvsXHx%2BLugtTm1%2Bou8cRG0%2F49%2FRjmshr8NULwc%2FOBho4dNQvyuK%2Bc0LNBhtBL3DdJHBSLFJ2ZjLiH1d%2BnTcdeK8QGM2gykMW0ViMRpu55Sxj5bHL3oLS1lh1n3hP26bKMM9n%2FjvTrWDFaJdjl5HBKKa7nOox8xiAUIbXQZhXUVQ77q%2BhQJ%2BeYYvdYSyaEaf5ds6DW1F%2BEbREKL42GRYH7HAxijfmy5C0eO8j4e18Mw0g9Shq4To8piuSG6TzzvWKGSFW46YSQKYokJ1%2FgQPCUw5e9MCxbDfa0HtN%2Ba8Rq8zgUUTH2MPqArM0GOqUBBJZNotpvjhwfSVbb1uhnl1zhsFrCEDZpkqIr87GJ1HRQ%2FD45lZNdu7m4s%2FRmEu4rz7Csg8jh69IO2Muw%2BsfTknpWzaHfEJ3%2BXCvfXLvUrpT6zkGp9SqwVw31jA0Ufibw8X6UVzzMwSgqe05Of2i7psQlnRP61%2Fpr6Ax070Ez6XHoJ1vIVFBH7wqgJMd3FuJOSeWQQyKEAf40JHQglsyP2W7PbWsX&X-Amz-Signature=c6eaae2a314457f417fd8dfa6f63148f28c6a50be218a8fd863d05209320ec38&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:25:55.769Z"
         }
       }
     },
@@ -490,8 +470,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06ec013e-7376-444c-bf97-2f39786308d6/nachhaltigkeitsprozesse-optimieren_diagramm.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466477MLR4V%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIAxB5ZZoolh80hElmyl%2FfuVY3TJQsB6iAzzYjn2xPCRuAiEAt41eEZmG7H9JzRakwkKdfLQAlgS9GOaWvenmN0JMAjcq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDC%2Fxfwp7GnEv0ppOCSrcAwBuz7ZiJQsDLEaiOwAY%2BmyU5NyLIjqfi%2BsPOj8qMM7pWjEHZQLLDgKNtX6tptMET1xSQs34iQz3X2J88EkeX6kMhA%2BdMllL9iDiVxC1uaheOlbUgwua74WTJL1RjtGRy0sRKB%2BoJQz7EI5TqtqCRq2rLKgEo%2BDlaiYxcmaGcQg0lRt9eM8e8jy%2BbBEimQQUV8BhFEx685e9UdMh6AaPaqc6Uu4GYAnUT80ZFaExxeNG9Y7Qm9errg0QJ7gmqmwyvZ4s%2B5fOcKS96dIg8qjAA0wLuuzJbCpbxEh7%2F5Fu9y5tKW6qR00NAoPuSvbFcxj5um1djMzRhk2pUtoSoG8kkSrZK1LUs%2Fx0gBvBIkVGWwYca1%2BEX0KLIwTOjJlt4bwddSafB3ZshMUvfA%2BnvsJNrl1aLVeZQzgIr18L%2BZKDV3XZx6l5gG8Xmoi2zCe1Iny%2FVO5CTVWqSIMyc59AVIidMLnqrMtHX5bxGtXjuJtd2W4ki405DyZw7LP5O6PDYvU4t8x4IrGeENmWotKesrnpnl2ypyxyj0AnlpZGMZJa54lOpAP45D3Z2dPGIwsuh3Xi%2F2z%2FZej%2FiZHmzDIPeBGgJgM27wIHvtIc6%2B00hEnAV5PGR0f13lULmHudzA41MPD%2BncsGOqUBIH2K%2BC5n72l7v60fvqYJXxytEwIwdu4Wdm7VHg1A1Z8pMpc6LF4ziV%2B1xUsXfZctXf3u03a0%2BlwwxvI1lw9MnGmB4H%2F3bxgTxScl0sTDiM9LZFXbVfoO25xMBeBiV1vDPLrCQQ6at0l9EQBAStylEvqJz%2BG8GZN8%2BbOC7J0XI8UqnzNhSVzJqCl6HsKdi7k%2BraccviGXFgzOdAr72meBbJ7L9Kbs&X-Amz-Signature=2eeb99dce5f3ad849a960397bfa7646fcfa9a72d7dca32e88a507eb48901eaf3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:52.775Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06ec013e-7376-444c-bf97-2f39786308d6/nachhaltigkeitsprozesse-optimieren_diagramm.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663XME2FMC%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDyJmiJb9dFGHabSXxCg%2F6aBaDabYzDiKiS%2FRy9fb3ePAIgIIou%2BxBZfkHz44tJh5kprni4njTMtT13TeahAzS9OM0qiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA82MV%2B361rMfU64VCrcAy6%2FrTzQLwQwM3%2BxmLXIfRZEz9di1xpbHVcTBo4xhrssUf9oyskMMcMFDdmWA604%2Bn6k6fH1kbkcswHW%2FFPLSZQ0LSJPL6lQDH2pd%2FDXVVEu12vRHM%2BwS2MYZ0P7Pmppn7hPgxZr07mbYC58%2BHkWmEyQ2MrQpAgSV4qT0zz5CeYexo%2BjNxM0bejBiITJvpu5dcmWTtRtcbyh84Hm8frjwDpG5%2FO9mixdXyN82hwZzgix4KuSFeNkBYbche%2BCw4s7UCypKfdY%2FbMHfnwBgTN185zud%2FckqyVprw1UDUYJ8lmNqFepA8nxPxZBXhyPESZu%2Fl8Gzfqx%2BYdGvsXHx%2BLugtTm1%2Bou8cRG0%2F49%2FRjmshr8NULwc%2FOBho4dNQvyuK%2Bc0LNBhtBL3DdJHBSLFJ2ZjLiH1d%2BnTcdeK8QGM2gykMW0ViMRpu55Sxj5bHL3oLS1lh1n3hP26bKMM9n%2FjvTrWDFaJdjl5HBKKa7nOox8xiAUIbXQZhXUVQ77q%2BhQJ%2BeYYvdYSyaEaf5ds6DW1F%2BEbREKL42GRYH7HAxijfmy5C0eO8j4e18Mw0g9Shq4To8piuSG6TzzvWKGSFW46YSQKYokJ1%2FgQPCUw5e9MCxbDfa0HtN%2Ba8Rq8zgUUTH2MPqArM0GOqUBBJZNotpvjhwfSVbb1uhnl1zhsFrCEDZpkqIr87GJ1HRQ%2FD45lZNdu7m4s%2FRmEu4rz7Csg8jh69IO2Muw%2BsfTknpWzaHfEJ3%2BXCvfXLvUrpT6zkGp9SqwVw31jA0Ufibw8X6UVzzMwSgqe05Of2i7psQlnRP61%2Fpr6Ax070Ez6XHoJ1vIVFBH7wqgJMd3FuJOSeWQQyKEAf40JHQglsyP2W7PbWsX&X-Amz-Signature=50762283c55258d119b2f90d5cc9250696b9c1434bacb026532a0a3fc5743dfa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:25:55.769Z"
         }
       }
     },

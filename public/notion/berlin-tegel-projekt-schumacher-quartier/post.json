@@ -12,41 +12,16 @@
   "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b5b98bf4-8646-4fb8-bfdd-8efea16c581f/berlin-tegel-projekt-schumacher-quartier_birdsview.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SXDMPEDR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJIMEYCIQCTDLV2QdmYGVw1YkBuGB6IEHgnEUO6LFbpmjjU%2BmNVywIhAMjhpfmoC5hHEc5AEh7qkUoIHac7vyuQkINk%2BE1f3AKuKv8DCB0QABoMNjM3NDIzMTgzODA1IgxyXh%2BIzuGfMLu%2Bdw0q3AOmugGo0RWvj%2BdO2XvZUv2ZA63zGlQ4LR8Y%2BhGDyTmr9DpBtH0fcDLqtPaOVP2Ltq8ziW3Smy%2FxpQKNExN2zikZrl%2BGRFxdJtQhIK6N8%2FNCEct6JSEesboIrl2fx6pJm8uKcXbrS%2BfsqiZo%2F%2BLh4fF%2Ba9DKyca3BUS8QnHiojDiBqSUqH%2BgE3jSDM2hqw8IeCYXvnAVa6VhZMHbmpkL1Y8By1%2FsoMcXUEJUnP08mzrkdvItCa4CYmg7O2Xie9wnTLULgIrducCX1XdwuJSyG3VrL4lw%2Bzmb6owynGR30uOGMrJb4vEBLrHKDmhTBUBtG0EFkeaeibnmRHbukUHT3yNpAlW%2Fki%2BVlD0WbRuAPWo%2B6T%2FJMVYs6PbytPjOWcgef6OkiqKaOfUjY4%2FOE7oE9%2BYw2lJlhdY9LMCXTtrAq9a5uTJxcmZ5R3dF67jfPA%2BrT3YXoKb6u0TwXDnvn4Fvps7bMfg9b5Q0XRFmhnjHrMJ0YjKWb0bphZvpC2JRa0wNyR5u%2Fkt%2FFCO0b7AoqJIDo7oQVcK2vjK34sRb00XDjTBHWkMQlkkRYDXdfvKtqCs4dqx3ZZHDOnmAm2gggELr3nFDG8KNuA6YXAGzJZ1ZvMNJXuUDcU1fBtiJh8RFAjCs%2Fp3LBjqkAXJGgVAqpXNo0hMBm%2FkygIv1PSeSupPw%2F14cHv%2B%2BHFPYFt74F%2FsaESgh8YeOZ2XiTFx3lSnAPf1aV56VdWEMWkrRdtdyvirUE83iCrNfPKonyTY%2F9RWYHYaD4qXmLuBds60LacVsQ9X2eYntu5AfZ%2F4nUZcm8DY4FtMjkWDTg3YLPQV%2FZRvbZeCCXf20qQ7ij7hq3BkGOVfgFfElVDv%2F5K20yML2&X-Amz-Signature=60afd3f8968ce09decc6297b68884934d9493b324791cf6ab1c57479a3ddb028&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/b5b98bf4-8646-4fb8-bfdd-8efea16c581f/berlin-tegel-projekt-schumacher-quartier_birdsview.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=dbf6f1443a3afe79bdfcd6961d1df4c6026faed088acc3d1ed33e593b254a440&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "Einblick in die Studien mit Cover",
   "Slug": "berlin-tegel-projekt-schumacher-quartier",
   "PublishDate": "2023-12-01",
   "Tags": [
     {
-      "id": "fd49549e-a8cb-4310-bdc4-c783c3bd93ef",
-      "name": "Ökobilanzierung",
-      "color": "red"
-    },
-    {
-      "id": "9184f45b-71c1-4ab7-8948-05cf3382e607",
-      "name": "Holzbau",
-      "color": "green"
-    },
-    {
-      "id": "3c4619b6-c77b-4686-affd-5d40c997b804",
-      "name": "Stadt der Zukunft",
-      "color": "orange"
-    },
-    {
-      "id": "3cb599cd-3066-4de1-abce-1a4752f6d114",
-      "name": "Dekarbonisierung",
-      "color": "gray"
-    },
-    {
-      "id": "25cbf2d5-2db9-4553-8b9a-558112be5f46",
-      "name": "Net Zero",
-      "color": "purple"
-    },
-    {
-      "id": "b6127d5c-2d61-4c4a-8bee-fdad8130b1a7",
-      "name": "Zirkularität",
-      "color": "default"
+      "id": "7a4412c6-56ff-48bf-a1a9-54f69512ed74",
+      "name": "Strategie",
+      "color": "yellow"
     }
   ],
   "Description": "Nachhaltige Indikatoren beim Vergabeverfahren des Schumacher Holzbauquartiers Berlin Tegel ",
@@ -145,8 +120,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1e65242b-4969-4516-8256-72394760f7bd/berlin-tegel-projekt-schumacher-quartier_cover-studie.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SNDOB2MR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIQC8dOm8nhHikif8qczFsOYjNWqnPmLBRvoyjTny88V6DQIgeI4eCnRbHjFn0syxtAA66gOSc34Lx4akehsrioMnbAQq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDMGMwtNxi9KnfEmGaCrcA3zgFWZWjIJMJVdHKiENoQmoOUG%2BFdf4vX5JgPsYhdgGzTVffRq6R3s%2FH8o67oyHp9mJlSp9mk3tA7bmIW2%2Bm7f1rvezQEfjo0rSUC8dP7vsZBfDbaRMmd%2F4G6AfUkMnJqp%2FaIkdnvDBO5xIGopw3R1Q5JK3DwcQhPGFeszeL3y7%2BWv9AXicNIeaoC0zR3PzHlyyUx%2FPvcgpo4mk9xkOt2S%2Bm6SPibrzPVJdAxz2NUBjBZIWMCshoO2GGa4wA4u6CVeHKTgcKvaxayq70RqwICtyQy4DVuYTusSV4cfuVhipQLYesUAUsZ8cf3Kl6CTaSZ%2BY3G79cbDz1vVJw0LZB07NGtUT6rbB83NzPcgYYZdS%2BN406zKm%2Bv2%2B4%2FghAlUZMjIoFbwK41b1kaWGZneOi7iwEDzMqkh2ub9r83Vo6Ba34tSEOxuxWRwDOfrWcSkqySqJNfMOIH0%2B3mMdPA9y%2F78wgKex0sp%2FE9eA0z07ImfW%2BjhKAWpVUp9lIEXeLpa4JJ4QfDofKDkcULBc6lsRYdymXQ%2FzWq8%2B%2BbzKsmgdGnvJsSm3mC3yGE71ibxaTkZW5eFPIHETcpxbm6zpgXL%2FwILQsWQ8QhtxyDYRfl13AkAUUSR30V9kTfQ1U1UUMPv9ncsGOqUBlBiRaZCxL%2BMyAV%2BH9TK50Xxfs6NwXvkDOLjGKEYTVCOCRABSjXrtu6zRFXix71nS3Tc4rxu%2Fv8aNIwuEc19UweFLZWkPN2ZbLFXllHNtkHNrLUEJCrZnhpILigeAsEhxaZqfE9o2jzlvNKL282GTV9PxaIEUC%2ByRYaBpeK4OCdXf5AQmgucf29jNNYfFmPUIs7kSlfcUQEJYBXmVDdBs9zdNq9gO&X-Amz-Signature=6f21d18089f24481fb2963247c25296dae0dbcad8f0cc4331be4350cb35b83d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:52.797Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1e65242b-4969-4516-8256-72394760f7bd/berlin-tegel-projekt-schumacher-quartier_cover-studie.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RZ674TEF%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQCTTnsVqGpDVvQwOZ5m4H1JCt7aCdaDKJxDH5DdPk69FgIhAPrnAlx3te9si4iPIOc5sjyu%2BQVAadk2A3DfrRgCBAOvKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwpPRV1FqSPhsGZFpQq3APKuIApPA0BiowfjUpzste52qPpvy3SmSTPzsxaKONB5yjqk6n%2FezXvSvwGVd6K1zxkRFmKsyOAueQMw3ZgnCAY6dWFX1AWVs4JdFTzvn8KmnDEKkq0nlGhgS27cdQu7f8tGUe4TeznmbB1ZLs0%2BMyTwzH5rJLtobbPpWWipAfUllbVF4BVa73QEDfvqJdsnBFVxXBrynmGJTzvK7dSnibstpVrpfWV9KRq0xDuOEkrMMpYcuYmlLBdt2%2BxrXU60s7qtZ9k2a267lr1Sb4DsKiClvfXsmcqn9ffrDcsFATRurralNKyrfWXlR3%2BffMWsfOQ%2FrAa1R5rLNXEaxnatYzyJCpHR85VotSvXIrkqJEBy0kisKvwxW5oeG7v6lgbHs%2FPnzv3m%2Bs9P%2FsagtUQ48ljMBM%2B2WuZR2KLLtdHpKBqBQqe4lbGUEEWCilcosGpsVtN6qF3%2FNpbfttH5adFxBIFgCdBOLWSJsTmDP9WAt26FdKrEE51g1fQn1Ver2kd%2F%2BiMe3%2BJ2ltm%2BDNDbcXMWYIxoAaXwyvek4DMY7b2OEDHiRm%2Fcsce3f1Lhlw8c8dsgwwuXwI1FWUOo%2BKKDatDJpekJ4H5IbYvHfOT6%2BWkxJJfNIqDG1JKOcaxA2zBDTCjgazNBjqkAcY%2Fcn4iAIu7BrHjA%2BapSkqgMMMP52jolerQ%2F2woes0DOBXvL9xfFJXx1xFwiAqm%2BLF5v8Lx1eB3w%2FVP2cvyMkGI%2BptrnU616qOIG5uRqoa64zXdhZz%2F2SS6GMOvLmUbZA3XYUkI8xMi982bzc9LANK43s3I0AD5V1B%2FZ%2F3QlwxPUQgjYSFbuYC9cjv5X%2B6uTxmpNrksFOMnXieXuSqvORJOCnF8&X-Amz-Signature=247486a3b807afcccf91987683952b3d5ed1fafad87b106143de86bdd0c1c904&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:26:01.352Z"
         }
       }
     },
@@ -255,8 +230,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d453f946-7686-463e-ac1b-66803a13c12a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SNDOB2MR%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T115352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFQaCXVzLXdlc3QtMiJHMEUCIQC8dOm8nhHikif8qczFsOYjNWqnPmLBRvoyjTny88V6DQIgeI4eCnRbHjFn0syxtAA66gOSc34Lx4akehsrioMnbAQq%2FwMIHRAAGgw2Mzc0MjMxODM4MDUiDMGMwtNxi9KnfEmGaCrcA3zgFWZWjIJMJVdHKiENoQmoOUG%2BFdf4vX5JgPsYhdgGzTVffRq6R3s%2FH8o67oyHp9mJlSp9mk3tA7bmIW2%2Bm7f1rvezQEfjo0rSUC8dP7vsZBfDbaRMmd%2F4G6AfUkMnJqp%2FaIkdnvDBO5xIGopw3R1Q5JK3DwcQhPGFeszeL3y7%2BWv9AXicNIeaoC0zR3PzHlyyUx%2FPvcgpo4mk9xkOt2S%2Bm6SPibrzPVJdAxz2NUBjBZIWMCshoO2GGa4wA4u6CVeHKTgcKvaxayq70RqwICtyQy4DVuYTusSV4cfuVhipQLYesUAUsZ8cf3Kl6CTaSZ%2BY3G79cbDz1vVJw0LZB07NGtUT6rbB83NzPcgYYZdS%2BN406zKm%2Bv2%2B4%2FghAlUZMjIoFbwK41b1kaWGZneOi7iwEDzMqkh2ub9r83Vo6Ba34tSEOxuxWRwDOfrWcSkqySqJNfMOIH0%2B3mMdPA9y%2F78wgKex0sp%2FE9eA0z07ImfW%2BjhKAWpVUp9lIEXeLpa4JJ4QfDofKDkcULBc6lsRYdymXQ%2FzWq8%2B%2BbzKsmgdGnvJsSm3mC3yGE71ibxaTkZW5eFPIHETcpxbm6zpgXL%2FwILQsWQ8QhtxyDYRfl13AkAUUSR30V9kTfQ1U1UUMPv9ncsGOqUBlBiRaZCxL%2BMyAV%2BH9TK50Xxfs6NwXvkDOLjGKEYTVCOCRABSjXrtu6zRFXix71nS3Tc4rxu%2Fv8aNIwuEc19UweFLZWkPN2ZbLFXllHNtkHNrLUEJCrZnhpILigeAsEhxaZqfE9o2jzlvNKL282GTV9PxaIEUC%2ByRYaBpeK4OCdXf5AQmgucf29jNNYfFmPUIs7kSlfcUQEJYBXmVDdBs9zdNq9gO&X-Amz-Signature=419dae9763afd7b331b967a52bcb0f9ea277de717ea9dbc7390b7e8ec328e57c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-01-14T12:53:52.800Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d453f946-7686-463e-ac1b-66803a13c12a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RZ674TEF%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182601Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQCTTnsVqGpDVvQwOZ5m4H1JCt7aCdaDKJxDH5DdPk69FgIhAPrnAlx3te9si4iPIOc5sjyu%2BQVAadk2A3DfrRgCBAOvKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgwpPRV1FqSPhsGZFpQq3APKuIApPA0BiowfjUpzste52qPpvy3SmSTPzsxaKONB5yjqk6n%2FezXvSvwGVd6K1zxkRFmKsyOAueQMw3ZgnCAY6dWFX1AWVs4JdFTzvn8KmnDEKkq0nlGhgS27cdQu7f8tGUe4TeznmbB1ZLs0%2BMyTwzH5rJLtobbPpWWipAfUllbVF4BVa73QEDfvqJdsnBFVxXBrynmGJTzvK7dSnibstpVrpfWV9KRq0xDuOEkrMMpYcuYmlLBdt2%2BxrXU60s7qtZ9k2a267lr1Sb4DsKiClvfXsmcqn9ffrDcsFATRurralNKyrfWXlR3%2BffMWsfOQ%2FrAa1R5rLNXEaxnatYzyJCpHR85VotSvXIrkqJEBy0kisKvwxW5oeG7v6lgbHs%2FPnzv3m%2Bs9P%2FsagtUQ48ljMBM%2B2WuZR2KLLtdHpKBqBQqe4lbGUEEWCilcosGpsVtN6qF3%2FNpbfttH5adFxBIFgCdBOLWSJsTmDP9WAt26FdKrEE51g1fQn1Ver2kd%2F%2BiMe3%2BJ2ltm%2BDNDbcXMWYIxoAaXwyvek4DMY7b2OEDHiRm%2Fcsce3f1Lhlw8c8dsgwwuXwI1FWUOo%2BKKDatDJpekJ4H5IbYvHfOT6%2BWkxJJfNIqDG1JKOcaxA2zBDTCjgazNBjqkAcY%2Fcn4iAIu7BrHjA%2BapSkqgMMMP52jolerQ%2F2woes0DOBXvL9xfFJXx1xFwiAqm%2BLF5v8Lx1eB3w%2FVP2cvyMkGI%2BptrnU616qOIG5uRqoa64zXdhZz%2F2SS6GMOvLmUbZA3XYUkI8xMi982bzc9LANK43s3I0AD5V1B%2FZ%2F3QlwxPUQgjYSFbuYC9cjv5X%2B6uTxmpNrksFOMnXieXuSqvORJOCnF8&X-Amz-Signature=32d6205e8859fca0d152e2f823c2b5b57d4831136564c1428e8b52f0373c1415&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-03-06T19:26:01.358Z"
         }
       }
     },
