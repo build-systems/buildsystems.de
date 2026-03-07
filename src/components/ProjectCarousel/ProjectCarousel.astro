@@ -6,9 +6,11 @@ import type { Post } from "../../lib/notion-interfaces";
 
 interface Props {
   posts: Post[];
+  categoryLabel?: string;
+  useTag?: boolean;
 }
 
-const { posts } = Astro.props;
+const { posts, categoryLabel, useTag } = Astro.props;
 
 // Getting images dynamically with import.meta.glob()
 // It only accepts string literals
@@ -38,7 +40,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
           <a draggable="false" href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <div class="category">{post.Category}</div>
+                <div class="category">{categoryLabel || (useTag && post.Tags?.[0]?.name) || post.Category}</div>
                 <h3 class="title" transition:name={post.Slug + "-title"}>
                   {post.Title}
                 </h3>

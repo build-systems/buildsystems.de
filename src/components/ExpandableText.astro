@@ -1,14 +1,9 @@
 ---
-import ActionLink from "./ActionLink.astro";
-
 export interface Props {
-  buttonText: string;
-  buttonLink: string;
   id: string;
-  ariaLabel: string;
 }
 
-const { buttonText, buttonLink, id, ariaLabel } = Astro.props;
+const { id } = Astro.props;
 ---
 
 <div>
@@ -19,15 +14,6 @@ const { buttonText, buttonLink, id, ariaLabel } = Astro.props;
         <use class="minus hidden" xlink:href="/assets/icons.svg#minus"></use>
       </svg>
     </button>
-    <span
-      ><ActionLink
-        text={buttonText}
-        link={buttonLink}
-        icon="redirect"
-        ariaLabel={ariaLabel}
-        widthFitContent
-      /></span
-    >
   </div>
   <div id={"more-text-" + id} class="more-text">
     <slot />

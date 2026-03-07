@@ -2,12 +2,31 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import StickySection from "../components/StickySection.astro";
 import OrbitAnimation from "../components/OrbitAnimation/OrbitAnimation.astro";
+import ExpandableText from "../components/ExpandableText.astro";
+import ActionLink from "../components/ActionLink.astro";
+import ProjectCarousel from "../components/ProjectCarousel/ProjectCarousel.astro";
+import { Image } from "astro:assets";
+import { getAllPosts } from "../lib/notion/client";
+import strategieCard from "../assets/card-leistungen-strategie.svg";
+import praxisCard from "../assets/card-leistungen-praxis.svg";
+import transferCard from "../assets/card-leistungen-transfer.svg";
 
 const title = "BuildSystems | Leistungen";
 const description =
   "BuildSystems vereint 3 Wirkungsfelder, um nachhaltige Innovationen im Bau- und Immobiliensektor von der Vision bis zur Umsetzung wirksam voranzubringen.";
 const image = "/images/services-smart-sustainability-roadmap.png";
 const imageAlt = "Cover of the Smart Sustainability Roadmap";
+
+const allPosts = await getAllPosts();
+const strategiePosts = allPosts.filter((p) =>
+  p.Tags.some((t) => t.name === "Strategie"),
+);
+const praxisPosts = allPosts.filter((p) =>
+  p.Tags.some((t) => t.name === "Praxis"),
+);
+const transferPosts = allPosts.filter((p) =>
+  p.Tags.some((t) => t.name === "Transfer"),
+);
 ---
 
 <BaseLayout
@@ -16,6 +35,7 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
   image={image}
   imageAlt={imageAlt}
 >
+  <!-- INTRO -->
   <StickySection>
     <h2>
       vereint <span class="font-secondary text-brand-green"
@@ -26,4 +46,377 @@ const imageAlt = "Cover of the Smart Sustainability Roadmap";
   </StickySection>
 
   <OrbitAnimation />
+
+  <!-- STRATEGIE -->
+  <section id="strategie">
+    <StickySection>
+      <h2>
+        gestaltet Zukunftsfähigkeit und Klimaneutralität strategisch,
+        ganzheitlich und praxisnah. Im Wirkungsfeld <span
+          class="font-secondary text-brand-green">Strategie</span
+        > helfen wir unseren Kund:innen sich robust und resilient innerhalb der Bauwende
+        zu positionieren.
+      </h2>
+      <ExpandableText id="strategie">
+        <p>
+          Bauunternehmen, Bauprodukthersteller und Bestandshalter stehen vor
+          tiefgreifenden Veränderungen: eine sich verändernde Europäische
+          Regulatorik in Bezug auf die Klimaziele, steigende Anforderungen an
+          die Offenlegung von Nachhaltigkeitskennzahlen, der Übergang zu
+          zirkulären Wertschöpfungsketten, die Möglichkeiten des Einfachen
+          Bauens, sowie Digitalisierung und Serialität verändern Märkte,
+          Geschäftsmodelle und Wettbewerbsbedingungen grundlegend.
+        </p>
+        <p>
+          BuildSystems unterstützt seine Kunden dabei, diese Herausforderungen
+          strategisch zu nutzen – nicht als Pflichtaufgabe, sondern als Hebel
+          für Innovation, Effizienz und langfristige Wettbewerbsfähigkeit.
+          Unsere individuell konzipierten Strategien verbinden regulatorische
+          Sicherheit und ökonomische Tragfähigkeit mit unternehmerischen
+          Handlungsräumen. Wir analysieren Ausgangslagen, entwickeln
+          maßgeschneiderte Zielbilder und übersetzen diese in klare Maßnahmen
+          und umsetzbare Roadmaps.
+        </p>
+      </ExpandableText>
+    </StickySection>
+
+    <div class="section-container card-section">
+      <div class="card-visual">
+        <Image
+          class="card-svg"
+          src={strategieCard}
+          alt="Leistungskarte Strategie"
+        />
+      </div>
+      <div class="card-explanation">
+        <h3>UNSERE LEISTUNGEN</h3>
+        <ul class="leistungen-list">
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Innovationsstrategien:</span
+            > Identifizierung von technologischen, organisatorischen und marktbezogenen
+            Entwicklungen und Erschließung neuer Wertschöpfungspotenziale.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Nachhaltigkeitsreporting:</span
+            > Erstellung nach VSME oder CSRD unter Berücksichtigung regulatorischer
+            Anforderungen und Nutzung als strategisches Steuerungsinstrument.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Portfoliodekarbonisierung:</span
+            > Ausrichtung von Beständen und Immobilien hinsichtlich Klimaneutralität
+            – wirtschaftlich tragfähig und langfristig wirksam.
+          </li>
+        </ul>
+        <div class="card-action">
+          <ActionLink
+            icon="redirect"
+            text="vereinbare ein Strategiegespräch"
+            openOnNewTab={true}
+            link="mailto:mail@buildsystems.de"
+            widthFitContent={true}
+          />
+        </div>
+      </div>
+    </div>
+    {
+      strategiePosts.length > 0 && (
+        <ProjectCarousel posts={strategiePosts} categoryLabel="Strategie" />
+      )
+    }
+  </section>
+
+  <!-- PRAXIS -->
+  <section id="praxis">
+    <StickySection>
+      <h2>
+        transformiert in der <span class="font-secondary text-brand-green"
+          >Praxis</span
+        > Immobilien in ressourcenschonende und mehrwertstiftende Lebensräume, die
+        Förderfähigkeit, architektonische Qualität und die ambitionierte Umsetzung
+        zirkulärer, einfacher und nachhaltiger Gestaltungsansätze verfolgt.
+      </h2>
+      <ExpandableText id="praxis">
+        <p>
+          Nachhaltiges Bauen entscheidet sich in der konkreten Planung und
+          Umsetzung. Themen wie Bauen im Bestand, Energieeffizienz,
+          Zirkularität, der Einsatz nachwachsender Rohstoffe sowie Einfaches
+          Bauen erfordern integrierte Konzepte, die ökologisch wirksam und
+          wirtschaftlich tragfähig sind.
+        </p>
+        <p>
+          BuildSystems bringt Nachhaltigkeit in die Praxis: Wir unterstützen
+          dabei, ambitionierte, aber realistische Ziele zu formulieren und diese
+          in umsetzbare Planungs- und Baukonzepte zu übersetzen – von der frühen
+          Projektphase bis zur Realisierung. Dabei werden Bauprojekte stets in
+          die strategische Ausrichtung von Unternehmen eingebettet. Architektur
+          und Raum verstehen wir als kommunikative Werkzeuge, um Identität,
+          Haltung und Marktpositionierung sichtbar und erlebbar zu machen.
+        </p>
+      </ExpandableText>
+    </StickySection>
+
+    <div class="section-container card-section">
+      <div class="card-visual">
+        <Image class="card-svg" src={praxisCard} alt="Leistungskarte Praxis" />
+      </div>
+      <div class="card-explanation">
+        <h3>UNSERE LEISTUNGEN</h3>
+        <ul class="leistungen-list">
+          <li>
+            <span class="font-secondary text-brand-green">Phase 0:</span> Klärung
+            von Zielen, Rahmenbedingungen und Nachhaltigkeitsambitionen als belastbare
+            Grundlage für Planung und Investitionsentscheidungen.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Objektplanung (LPH 1–8):</span
+            > Entwicklung und Umsetzung integraler Planungskonzepte mit Fokus auf
+            nachwachsende Rohstoffe, Energieeffizienz & Ressourcenschonung.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green">Revitalisierung:</span
+            > Neuausrichtung von Bestandsgebäuden zur Wertsteigerung unter Erhalt
+            der baulichen Substanz.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Energie- und Fördermittelberatung:</span
+            > Identifikation geeigneter Förderprogramme und Optimierung energetischer
+            Maßnahmen für wirtschaftlich tragfähige Lösungen.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Zertifizierungen (BiRN, DGNB):</span
+            > Strukturierte Begleitung von Zertifizierungsprozessen.
+          </li>
+        </ul>
+        <div class="card-action">
+          <ActionLink
+            icon="redirect"
+            text="Projektanfragen hier"
+            openOnNewTab={true}
+            link="mailto:mail@buildsystems.de"
+            widthFitContent={true}
+          />
+        </div>
+      </div>
+    </div>
+    {
+      praxisPosts.length > 0 && (
+        <ProjectCarousel posts={praxisPosts} categoryLabel="Praxis" />
+      )
+    }
+  </section>
+
+  <!-- TRANSFER -->
+  <section id="transfer">
+    <StickySection>
+      <h2>
+        fördert nachhaltige Innovation im Bauwesen durch strukturierten <span
+          class="font-secondary text-brand-green">Transfer</span
+        > von Wissen und interdisziplinäre Vernetzung.
+      </h2>
+      <ExpandableText id="transfer">
+        <p>
+          Nachhaltiges Bauen entscheidet sich in der konkreten Planung und
+          Umsetzung. Themen wie Bauen im Bestand, Energieeffizienz,
+          Zirkularität, der Einsatz nachwachsender Rohstoffe sowie Einfaches
+          Bauen erfordern integrierte Konzepte, die ökologisch wirksam und
+          wirtschaftlich tragfähig sind.
+        </p>
+        <p>
+          BuildSystems bringt Nachhaltigkeit in die Praxis: Wir unterstützen
+          dabei, ambitionierte, aber realistische Ziele zu formulieren und diese
+          in umsetzbare Planungs- und Baukonzepte zu übersetzen – von der frühen
+          Projektphase bis zur Realisierung. Dabei werden Bauprojekte stets in
+          die strategische Ausrichtung von Unternehmen eingebettet. Architektur
+          und Raum verstehen wir als kommunikative Werkzeuge, um Identität,
+          Haltung und Marktpositionierung sichtbar und erlebbar zu machen.
+        </p>
+      </ExpandableText>
+    </StickySection>
+
+    <div class="section-container card-section">
+      <div class="card-visual">
+        <Image
+          class="card-svg"
+          src={transferCard}
+          alt="Leistungskarte Transfer"
+        />
+      </div>
+      <div class="card-explanation">
+        <h3>UNSERE LEISTUNGEN</h3>
+        <ul class="leistungen-list">
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Innovationsnetzwerke:</span
+            > Aufbau und Moderation von Netzwerken zur gemeinsamen Entwicklung nachhaltiger
+            Bau- und Immobilienlösungen.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Fördermittelberatung und -akquise:</span
+            > Begleitung bei der Vorbereitung und Abwicklung geförderter F&E-Projekte
+            (z.B. ZIM).
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Lehre und Auftragsforschung:</span
+            > Kooperationen mit Hochschulen, Forschungsinstituten und Praxispartnern
+            zur Entwicklung neuer Methoden, Konzepte und nachhaltiger Innovationen.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green">Workshops:</span> Interaktive
+            Formate zur Entwicklung praxisgerechter Strategien, Tools und Maßnahmen.
+          </li>
+          <li>
+            <span class="font-secondary text-brand-green"
+              >Panels und Fachvorträge:</span
+            > Plattformen für Dialog, Perspektivwechsel und Wissenstransfer – in Unternehmen,
+            Kongressen und Branchenevents.
+          </li>
+        </ul>
+        <div class="card-action">
+          <ActionLink
+            icon="redirect"
+            text="vernetze dich mit uns"
+            openOnNewTab={true}
+            link="mailto:mail@buildsystems.de"
+            widthFitContent={true}
+          />
+        </div>
+      </div>
+    </div>
+    {
+      transferPosts.length > 0 && (
+        <ProjectCarousel posts={transferPosts} categoryLabel="Transfer" />
+      )
+    }
+  </section>
 </BaseLayout>
+
+<style>
+  section {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .card-section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4rem;
+    align-items: start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .card-visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-svg {
+    width: clamp(180px, 22vw, 320px);
+    height: auto;
+  }
+
+  .card-explanation {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    border: 1px solid white;
+  }
+
+  .card-explanation h3 {
+    font-family: var(--font-family-secondary);
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-explanation ul li {
+    margin-bottom: 0;
+  }
+
+  .card-action {
+    position: relative;
+    height: 0;
+    left: -2rem;
+    bottom: -1rem;
+  }
+
+  .leistungen-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  .leistungen-list li {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .leistungen-list li::before {
+    content: none;
+  }
+
+  @media (max-width: 1100px) {
+    .card-section {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .card-visual {
+      justify-content: flex-start;
+    }
+
+    .card-svg {
+      width: clamp(180px, 40vw, 300px);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .leistungen-list li {
+      font-size: 1.05rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .leistungen-list li {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  }
+</style>
+
+<script>
+  document
+    .querySelectorAll<HTMLButtonElement>("[id^='expand-button-']")
+    .forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.id.replace("expand-button-", "");
+        const moreText = document.getElementById(`more-text-${id}`);
+        if (!moreText) return;
+
+        const isExpanded = moreText.classList.toggle("height-max-content");
+
+        const plus = btn.querySelector(".plus");
+        const minus = btn.querySelector(".minus");
+        if (plus) plus.classList.toggle("hidden", isExpanded);
+        if (minus) minus.classList.toggle("hidden", !isExpanded);
+      });
+    });
+</script>

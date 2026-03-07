@@ -59,7 +59,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             <a href={href} class="card-link" data-astro-prefetch>
               <div class="card">
                 <div class="card-text">
-                  <div class="category">{post.Category}</div>
+                  <div class="category">{post.Tags?.[0]?.name || post.Category}</div>
                   <h3 class="title" transition:name={post.Slug + "-title"}>
                     {post.Title}
                   </h3>
