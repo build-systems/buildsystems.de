@@ -1,5 +1,4 @@
 ---
-import ActionLink from "../../components/ActionLink.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ProjectCarousel from "../../components/ProjectCarousel/ProjectCarousel.astro";
 import { formatDate } from "../../utils/getPostData.js";
@@ -28,7 +27,6 @@ const postData = await import(`../../../public/notion/${slug}/post.json`).then(
 const {
   Title,
   Description,
-  Category,
   CoverAlt,
   PublishDate,
   Authors,
@@ -101,7 +99,7 @@ relatedPosts = relatedPosts.sort(
     )
   }
   <article class:list={["post", "frame"]}>
-    <ActionLink text={Category} link="/" />
+    {Tags?.[0]?.name && <span class="tag-label">{Tags[0].name}</span>}
     <h2 transition:name={Slug + "-title"}>{Title}</h2>
     <p>{formatDate(new Date(PublishDate))}</p>
     <PostBody blocks={blocks} slug={slug} />
@@ -123,6 +121,13 @@ relatedPosts = relatedPosts.sort(
   <!-- You can refactor this to use post.json data for related posts -->
 </BaseLayout>
 <style>
+  .tag-label {
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.8rem;
+    color: var(--background-body);
+    background-color: var(--text-main);
+  }
   .cover-image {
     -webkit-mask-image: linear-gradient(
       to bottom,

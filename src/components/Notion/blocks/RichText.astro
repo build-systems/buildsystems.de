@@ -32,7 +32,7 @@ const { richText } = Astro.props;
                         {
                           <Bold richText={richText}>
                             {richText.Text &&
-                              richText.Text.Content.split("\n").map(
+                              richText.Text.Content.replaceAll("\uFE0F", "").split("\n").map(
                                 (content: string, i: number) => {
                                   if (i === 0) {
                                     return content;
