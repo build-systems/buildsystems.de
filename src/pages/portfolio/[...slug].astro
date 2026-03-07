@@ -98,7 +98,7 @@ relatedPosts = relatedPosts.sort(
       />
     )
   }
-  <article class:list={["post", "frame"]}>
+  <article class="post">
     {Tags?.[0]?.name && <span class="tag-label">{Tags[0].name}</span>}
     <h2 transition:name={Slug + "-title"}>{Title}</h2>
     <p>{formatDate(new Date(PublishDate))}</p>
@@ -164,10 +164,10 @@ relatedPosts = relatedPosts.sort(
   button {
     background-color: var(--background-body);
   }
-  @media (max-width: 920px) {
-    .section-container {
-      margin-left: var(--left-padding-tablet);
-      margin-right: var(--right-padding-tablet);
+  @media (max-width: 1280px) {
+    .post {
+      padding-left: var(--left-padding-tablet);
+      padding-right: var(--right-padding-tablet);
     }
   }
   @media (max-width: 640px) {
@@ -178,6 +178,33 @@ relatedPosts = relatedPosts.sort(
       width: 100svw;
       height: 55svh;
       object-fit: cover;
+    }
+  }
+  @media (max-width: 420px) {
+    .post {
+      padding-left: var(--left-padding-mobile);
+      padding-right: var(--right-padding-mobile);
+    }
+  }
+
+  /* Align carousel with .post on this page */
+  :global(.section-container.container-blog-carousel) {
+    align-self: center !important;
+    max-width: 68rem !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  @media (max-width: 1280px) {
+    :global(.section-container.container-blog-carousel) {
+      padding-left: var(--left-padding-tablet) !important;
+      padding-right: var(--right-padding-tablet) !important;
+    }
+  }
+  @media (max-width: 420px) {
+    :global(.section-container.container-blog-carousel) {
+      padding-left: var(--left-padding-mobile) !important;
+      padding-right: var(--right-padding-mobile) !important;
     }
   }
 </style>

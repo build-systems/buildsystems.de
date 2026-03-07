@@ -16,7 +16,7 @@ const { posts, categoryLabel, useTag } = Astro.props;
 // It only accepts string literals
 // https://docs.astro.build/en/recipes/dynamically-importing-images/
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}"
+  "/src/assets/notion/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,avif}",
 );
 ---
 
@@ -40,7 +40,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
           <a draggable="false" href={href} class="card-link">
             <div class="card">
               <div class="card-text">
-                <div class="category">{categoryLabel || (useTag && post.Tags?.[0]?.name) || post.Category}</div>
+                <div class="category">
+                  {categoryLabel ||
+                    (useTag && post.Tags?.[0]?.name) ||
+                    post.Category}
+                </div>
                 <h3 class="title" transition:name={post.Slug + "-title"}>
                   {post.Title}
                 </h3>
@@ -258,7 +262,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 1000px) {
     .container-blog-carousel {
       max-width: calc(
         100% - var(--left-padding-tablet) - var(--right-padding-tablet)
