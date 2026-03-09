@@ -6,10 +6,6 @@ const R = 180;
 const SET_SIZE = 9;
 const STEP = TAU / 3;
 const SPRING_MS = 1000;
-// On mobile (vertical layout), circles stop at the bottom instead of the right
-const STOP_ANGLE = window.matchMedia("(max-width: 640px)").matches
-  ? Math.PI / 2
-  : 0;
 
 const wrapper = document.querySelector(".orbit-wrapper")!;
 const groups = Array.from(
@@ -22,52 +18,65 @@ const container = wrapper.querySelector(".orbit-bullets") as HTMLElement;
 const track = wrapper.querySelector(".orbit-bullets-track") as HTMLElement;
 const items = Array.from(track.querySelectorAll("p"));
 
-// Size orbit canvas and bullets: try equal width, shrink orbit if bullets need more
-const isMobile = window.matchMedia("(max-width: 640px)").matches;
-if (!isMobile) {
-  const maxBulletWidth = Math.max(...items.map((p) => p.scrollWidth));
-  const gap = parseFloat(getComputedStyle(wrapper).gap) || 32;
-  const wrapperWidth = wrapper.clientWidth;
-  const halfWidth = (wrapperWidth - gap) / 2;
+// Layout-dependent values, recomputed in measure()
+let stopAngle = 0;
+let oneSetHeight = 0;
+let baseOffset = 0;
 
-  let canvasSize: number;
-  if (maxBulletWidth <= halfWidth) {
-    // Both fit at equal width
-    canvasSize = halfWidth;
-    canvas.style.width = `${halfWidth}px`;
-    container.style.width = `${halfWidth}px`;
-  } else {
-    // Bullets need more — shrink orbit to accommodate
-    canvasSize = Math.max(200, wrapperWidth - maxBulletWidth - gap);
-    canvas.style.width = `${canvasSize}px`;
-  }
-  // Match bullet height to orbit canvas (square SVG)
-  container.style.height = `${canvasSize}px`;
-} else {
-  // Mobile: scale font-size down so the widest bullet fits in one line
-  const containerWidth = container.clientWidth;
-  let fontSize = parseFloat(getComputedStyle(items[0]).fontSize);
-  const minFontSize = 12;
-  while (fontSize > minFontSize) {
+function measure() {
+  const isMobile = window.matchMedia("(max-width: 640px)").matches;
+
+  // On mobile (vertical layout), circles stop at the bottom instead of the right
+  stopAngle = isMobile ? Math.PI / 2 : 0;
+
+  // Reset inline styles so CSS takes effect before re-measuring
+  canvas.style.width = "";
+  container.style.width = "";
+  container.style.height = "";
+  items.forEach((p) => (p.style.fontSize = ""));
+
+  if (!isMobile) {
     const maxBulletWidth = Math.max(...items.map((p) => p.scrollWidth));
-    if (maxBulletWidth <= containerWidth) break;
-    fontSize -= 0.5;
-    items.forEach((p) => (p.style.fontSize = `${fontSize}px`));
+    const gap = parseFloat(getComputedStyle(wrapper).gap) || 32;
+    const wrapperWidth = wrapper.clientWidth;
+    const halfWidth = (wrapperWidth - gap) / 2;
+
+    let canvasSize: number;
+    if (maxBulletWidth <= halfWidth) {
+      canvasSize = halfWidth;
+      canvas.style.width = `${halfWidth}px`;
+      container.style.width = `${halfWidth}px`;
+    } else {
+      canvasSize = Math.max(200, wrapperWidth - maxBulletWidth - gap);
+      canvas.style.width = `${canvasSize}px`;
+    }
+    container.style.height = `${canvasSize}px`;
+  } else {
+    // Mobile: scale font-size down so the widest bullet fits in one line
+    const containerWidth = container.clientWidth;
+    let fontSize = parseFloat(getComputedStyle(items[0]).fontSize);
+    const minFontSize = 12;
+    while (fontSize > minFontSize) {
+      const maxBulletWidth = Math.max(...items.map((p) => p.scrollWidth));
+      if (maxBulletWidth <= containerWidth) break;
+      fontSize -= 0.5;
+      items.forEach((p) => (p.style.fontSize = `${fontSize}px`));
+    }
   }
+
+  // Measure one set height (distance between copy 0 and copy 1)
+  oneSetHeight =
+    items[SET_SIZE].getBoundingClientRect().top -
+    items[0].getBoundingClientRect().top;
+
+  // Compute offset to center copy 1's first group (items 9-11) in the container
+  const groupTop = items[SET_SIZE].getBoundingClientRect().top;
+  const groupBottom = items[SET_SIZE + 2].getBoundingClientRect().bottom;
+  const trackTop = track.getBoundingClientRect().top;
+  const groupCenterInTrack = (groupTop + groupBottom) / 2 - trackTop;
+  const containerH = container.clientHeight;
+  baseOffset = containerH / 2 - groupCenterInTrack - (isMobile ? 7 : 15);
 }
-
-// Measure one set height (distance between copy 0 and copy 1)
-const oneSetHeight =
-  items[SET_SIZE].getBoundingClientRect().top -
-  items[0].getBoundingClientRect().top;
-
-// Compute offset to center copy 1's first group (items 9-11) in the container
-const groupTop = items[SET_SIZE].getBoundingClientRect().top;
-const groupBottom = items[SET_SIZE + 2].getBoundingClientRect().bottom;
-const trackTop = track.getBoundingClientRect().top;
-const groupCenterInTrack = (groupTop + groupBottom) / 2 - trackTop;
-const containerH = container.clientHeight;
-const baseOffset = containerH / 2 - groupCenterInTrack - (isMobile ? 7 : 15);
 
 let elapsed = 0;
 let lastTs: number | null = null;
@@ -90,7 +99,7 @@ function render(angle: number) {
   currentAngle = angle;
   for (let i = 0; i < groups.length; i++) {
     const a = angle - i * STEP;
-    const posAngle = a + STOP_ANGLE;
+    const posAngle = a + stopAngle;
     groups[i].setAttribute(
       "transform",
       `translate(${CX + R * Math.cos(posAngle)},${CY + R * Math.sin(posAngle)})`,
@@ -214,5 +223,16 @@ wrapper.addEventListener("mouseleave", () => {
   }
 });
 
+// Debounced resize handler
+let resizeTimer: ReturnType<typeof setTimeout>;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    measure();
+    render(currentAngle);
+  }, 150);
+});
+
+measure();
 render(0);
 requestAnimationFrame(frame);
