@@ -94,20 +94,6 @@ const repeated = [...bullets, ...bullets, ...bullets];
     flex: 0 1 auto;
     height: clamp(280px, 40vw, 500px);
     overflow: hidden;
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      transparent 25%,
-      black 40%,
-      black 60%,
-      transparent 75%
-    );
-    mask-image: linear-gradient(
-      to bottom,
-      transparent 25%,
-      black 40%,
-      black 60%,
-      transparent 75%
-    );
   }
 
   .orbit-bullets-track {
@@ -144,6 +130,19 @@ const repeated = [...bullets, ...bullets, ...bullets];
       );
       margin-left: var(--left-padding-tablet);
       margin-right: var(--right-padding-tablet);
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .orbit-bullets-track p {
+      font-size: 1.1rem;
+      margin: 0.6rem 0;
+    }
+  }
+
+  @media (max-width: 1020px) {
+    .orbit-bullets-track p {
+      font-size: 0.95rem;
     }
   }
 

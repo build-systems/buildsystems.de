@@ -22,6 +22,9 @@ const items = Array.from(track.querySelectorAll("p"));
 let stopAngle = 0;
 let oneSetHeight = 0;
 let baseOffset = 0;
+let containerCenter = 0;
+let solidZone = 0; // px from center where opacity stays 1
+let fadeZone = 0; // px beyond solidZone where opacity goes 1 → 0
 
 function measure() {
   const isMobile = window.matchMedia("(max-width: 640px)").matches;
@@ -75,7 +78,17 @@ function measure() {
   const trackTop = track.getBoundingClientRect().top;
   const groupCenterInTrack = (groupTop + groupBottom) / 2 - trackTop;
   const containerH = container.clientHeight;
-  baseOffset = containerH / 2 - groupCenterInTrack - (isMobile ? 7 : 15);
+  const isTablet = !isMobile && window.matchMedia("(max-width: 1100px)").matches;
+  const nudge = isMobile ? 7 : isTablet ? 10 : 15;
+  baseOffset = containerH / 2 - groupCenterInTrack - nudge;
+
+  // Fade zones based on item spacing — stays consistent regardless of container size
+  const avgItemHeight = oneSetHeight / SET_SIZE;
+  // solidZone: items within this distance from center stay fully opaque
+  // 1.5 item-heights covers the 3 grouped items (center ± 1 item)
+  solidZone = avgItemHeight * 1.5;
+  // fadeZone: distance beyond solidZone over which opacity drops to 0
+  fadeZone = avgItemHeight * 2;
 }
 
 let elapsed = 0;
@@ -125,6 +138,18 @@ function render(angle: number) {
   // Scroll bullets in sync with orbit rotation
   const progress = (((angle / TAU) % 1) + 1) % 1;
   track.style.transform = `translateY(${baseOffset - progress * oneSetHeight}px)`;
+
+  // Per-bullet opacity based on distance from container center
+  const cRect = container.getBoundingClientRect();
+  const center = cRect.top + cRect.height / 2;
+  for (const p of items) {
+    const rect = p.getBoundingClientRect();
+    const itemCenter = rect.top + rect.height / 2;
+    const dist = Math.abs(itemCenter - center);
+    const t = dist <= solidZone ? 1 : Math.max(0, 1 - (dist - solidZone) / fadeZone);
+    const opacity = t * t;
+    p.style.opacity = opacity.toFixed(3);
+  }
 
   updateCursors();
 }
