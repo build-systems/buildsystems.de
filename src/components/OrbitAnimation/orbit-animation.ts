@@ -82,13 +82,15 @@ function measure() {
   const nudge = isMobile ? 7 : isTablet ? 10 : 15;
   baseOffset = containerH / 2 - groupCenterInTrack - nudge;
 
-  // Fade zones based on item spacing — stays consistent regardless of container size
-  const avgItemHeight = oneSetHeight / SET_SIZE;
-  // solidZone: items within this distance from center stay fully opaque
-  // 1.5 item-heights covers the 3 grouped items (center ± 1 item)
-  solidZone = avgItemHeight * 1.5;
+  // Fade zones based on actual group height — immune to between-group gap changes
+  const groupHeight =
+    items[SET_SIZE + 2].getBoundingClientRect().bottom -
+    items[SET_SIZE].getBoundingClientRect().top;
+  const avgItemInGroup = groupHeight / 3;
+  // solidZone: covers the 3 grouped items (center ± half group height)
+  solidZone = groupHeight / 2;
   // fadeZone: distance beyond solidZone over which opacity drops to 0
-  fadeZone = avgItemHeight * 2;
+  fadeZone = avgItemInGroup * 2;
 }
 
 let elapsed = 0;
@@ -121,7 +123,7 @@ function render(angle: number) {
     // Proximity to stop position: 1 = at stop, 0 = far away
     const n = ((a % TAU) + TAU) % TAU;
     const d = Math.min(n, TAU - n);
-    const t = Math.min(1, d / STEP);
+    const t = Math.min(1, d / (STEP * 0.35));
     const proximity = (1 + Math.cos(t * Math.PI)) / 2;
 
     // Interpolate circle fill: dark (#2a2a2a) → light (#d9d9d9)

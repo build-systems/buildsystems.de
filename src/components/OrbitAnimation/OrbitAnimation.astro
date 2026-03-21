@@ -26,19 +26,19 @@ const repeated = [...bullets, ...bullets, ...bullets];
         r="180"
         fill="none"
         stroke="rgba(255,255,255,0.15)"
-        stroke-width="1"
+        stroke-width="2"
         stroke-dasharray="8 6"></circle>
       <g data-topic="0" transform="translate(430,250)">
-        <circle r="58" stroke-width="1.5"></circle>
-        <text text-anchor="middle" dy="0.35em">STRATEGIE</text>
+        <circle r="58" stroke-width="2"></circle>
+        <text text-anchor="middle" dy="0.35em">Strategie</text>
       </g>
       <g data-topic="1" transform="translate(160,94)">
-        <circle r="58" stroke-width="1.5"></circle>
-        <text text-anchor="middle" dy="0.35em">PRAXIS</text>
+        <circle r="58" stroke-width="2"></circle>
+        <text text-anchor="middle" dy="0.35em">Praxis</text>
       </g>
       <g data-topic="2" transform="translate(160,406)">
-        <circle r="58" stroke-width="1.5"></circle>
-        <text text-anchor="middle" dy="0.35em">TRANSFER</text>
+        <circle r="58" stroke-width="2"></circle>
+        <text text-anchor="middle" dy="0.35em">Transfer</text>
       </g>
     </svg>
   </div>
@@ -54,6 +54,7 @@ const repeated = [...bullets, ...bullets, ...bullets];
     display: flex;
     align-items: center;
     gap: 2rem;
+    user-select: none;
     width: calc(
       100% - var(--left-padding-general) - var(--right-padding-general)
     );
@@ -107,6 +108,10 @@ const repeated = [...bullets, ...bullets, ...bullets];
     color: var(--text-main);
     margin: 1rem 0;
     white-space: nowrap;
+  }
+
+  .orbit-bullets-track p:nth-child(3n) {
+    margin-bottom: 2.5rem;
   }
 
   .orbit-bullets-track p::before {
