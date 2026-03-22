@@ -419,7 +419,7 @@ input[name="theme-toggle"] {
 
 .sticky-section-header h2 {
   margin-top: 0;
-  text-wrap: balance;
+  text-wrap: pretty;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;

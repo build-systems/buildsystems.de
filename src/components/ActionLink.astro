@@ -1,7 +1,6 @@
 ---
 interface Props {
-  text: string;
-  link: string;
+  href: string;
   downloadName?: string;
   openOnNewTab?: boolean;
   widthFitContent?: boolean;
@@ -11,8 +10,7 @@ interface Props {
 }
 
 const {
-  text,
-  link,
+  href,
   downloadName,
   openOnNewTab,
   widthFitContent,
@@ -28,7 +26,7 @@ if (openOnNewTab) {
 ---
 
 <a
-  href={link}
+  href={href}
   download={downloadName}
   target={target}
   aria-label={ariaLabel}
@@ -44,7 +42,7 @@ if (openOnNewTab) {
         <use xlink:href={"/assets/icons.svg#" + icon} />
       </svg>
     )
-  }{text}
+  }<slot />
 </a>
 <style>
   .widthFitContent {

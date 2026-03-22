@@ -89,7 +89,7 @@ const transferPosts = allPosts.filter((p) =>
         />
       </div>
       <div class="card-explanation">
-        <h3>UNSERE LEISTUNGEN</h3>
+        <h3>Unsere Leistungen</h3>
         <ul class="leistungen-list">
           <li>
             <span class="font-secondary text-brand-green"
@@ -113,11 +113,11 @@ const transferPosts = allPosts.filter((p) =>
         <div class="card-action">
           <ActionLink
             icon="redirect"
-            text="vereinbare ein Strategiegespräch"
             openOnNewTab={true}
-            link="mailto:mail@buildsystems.de"
+            href="mailto:mail@buildsystems.de"
             widthFitContent={true}
-          />
+            >Strategiegespräch vereinbaren</ActionLink
+          >
         </div>
       </div>
     </div>
@@ -134,9 +134,7 @@ const transferPosts = allPosts.filter((p) =>
       <h2>
         transformiert in der <span class="font-secondary text-brand-green"
           >Praxis</span
-        > Immobilien in ressourcenschonende und mehrwertstiftende Lebensräume, die
-        Förderfähigkeit, architektonische Qualität und die ambitionierte Umsetzung
-        zirkulärer, einfacher und nachhaltiger Gestaltungsansätze verfolgt.
+        > Immobilien in ressourcenschonende und mehrwertstiftende Lebensräume. Wir verbinden Förderfähigkeit, architektonische Qualität und die ambitionierte Umsetzung zirkulärer, einfacher und nachhaltiger Gestaltungsansätze.
       </h2>
       <ExpandableText id="praxis">
         <p>
@@ -163,7 +161,7 @@ const transferPosts = allPosts.filter((p) =>
         <Image class="card-svg" src={praxisCard} alt="Leistungskarte Praxis" />
       </div>
       <div class="card-explanation">
-        <h3>UNSERE LEISTUNGEN</h3>
+        <h3>Unsere Leistungen</h3>
         <ul class="leistungen-list">
           <li>
             <span class="font-secondary text-brand-green">Phase 0:</span> Klärung
@@ -196,11 +194,11 @@ const transferPosts = allPosts.filter((p) =>
         <div class="card-action">
           <ActionLink
             icon="redirect"
-            text="Projektanfragen hier"
             openOnNewTab={true}
-            link="mailto:mail@buildsystems.de"
+            href="mailto:mail@buildsystems.de"
             widthFitContent={true}
-          />
+            >Hier Projekt anfragen</ActionLink
+          >
         </div>
       </div>
     </div>
@@ -221,20 +219,10 @@ const transferPosts = allPosts.filter((p) =>
       </h2>
       <ExpandableText id="transfer">
         <p>
-          Nachhaltiges Bauen entscheidet sich in der konkreten Planung und
-          Umsetzung. Themen wie Bauen im Bestand, Energieeffizienz,
-          Zirkularität, der Einsatz nachwachsender Rohstoffe sowie Einfaches
-          Bauen erfordern integrierte Konzepte, die ökologisch wirksam und
-          wirtschaftlich tragfähig sind.
+          Nachhaltige Transformation ist kein Einzelprozess innerhalb von seperaten Projekten, sondern ein kollektiver Lern- und Erneuerungsprozess. Wir verknüpfen Praxis, Wissenschaft und Verwaltung, um Wissen nicht nur zu generieren, sondern wirksam in die Anwendung zu bringen und dort zu verankern.
         </p>
         <p>
-          BuildSystems bringt Nachhaltigkeit in die Praxis: Wir unterstützen
-          dabei, ambitionierte, aber realistische Ziele zu formulieren und diese
-          in umsetzbare Planungs- und Baukonzepte zu übersetzen – von der frühen
-          Projektphase bis zur Realisierung. Dabei werden Bauprojekte stets in
-          die strategische Ausrichtung von Unternehmen eingebettet. Architektur
-          und Raum verstehen wir als kommunikative Werkzeuge, um Identität,
-          Haltung und Marktpositionierung sichtbar und erlebbar zu machen.
+          Unsere Transferleistungen schaffen Strukturen, Dialogformate und Lernräume, in denen Zukunftstrends auf praxisrelevante Lösungen treffen und sektorübergreifende Innovationen entstehen. Wir begleiten Sie bei der Akquise von Fördermittel und der Abwicklung von geförderten Forschungs- und Entwicklungsprojekten (z.B. ZIM – Zentrales Innovationsprogramm Mittelstand). 
         </p>
       </ExpandableText>
     </StickySection>
@@ -248,7 +236,7 @@ const transferPosts = allPosts.filter((p) =>
         />
       </div>
       <div class="card-explanation">
-        <h3>UNSERE LEISTUNGEN</h3>
+        <h3>Unsere Leistungen</h3>
         <ul class="leistungen-list">
           <li>
             <span class="font-secondary text-brand-green"
@@ -282,11 +270,11 @@ const transferPosts = allPosts.filter((p) =>
         <div class="card-action">
           <ActionLink
             icon="redirect"
-            text="vernetze dich mit uns"
             openOnNewTab={true}
-            link="mailto:mail@buildsystems.de"
+            href="mailto:mail@buildsystems.de"
             widthFitContent={true}
-          />
+            >Hier vernetzen</ActionLink
+          >
         </div>
       </div>
     </div>
@@ -352,6 +340,7 @@ const transferPosts = allPosts.filter((p) =>
     border-radius: 0.5rem;
     justify-content: space-between;
     border: 1px solid white;
+    max-width: 42rem;
   }
 
   .card-explanation h3 {

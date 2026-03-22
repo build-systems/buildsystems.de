@@ -6,24 +6,23 @@ import ActionLink from "./ActionLink.astro";
 
 <div class="action">
   <h3>Sie haben weitere Fragen?</h3>
+  <ActionLink href="mailto:mail@buildsystems.de"
+    >Schreiben Sie uns eine Mail!</ActionLink
+  >
   <ActionLink
-    text="Schreiben Sie uns eine Mail!"
-    link="mailto:mail@buildsystems.de"
-  />
-  <ActionLink
-    text=" Download Leistungen"
-    link="/downloads/BuildSystems_Leistungen.pdf"
+    href="/downloads/BuildSystems_Leistungen.pdf"
     openOnNewTab={true}
     icon="download"
     ariaLabel="Download Leistungen PDF file."
-  />
+    >Download Leistungen</ActionLink
+  >
   <ActionLink
-    text=" Sneak Peek Roadmap"
-    link="/downloads/BuildSystems_SneakPeekSSR.pdf"
+    href="/downloads/BuildSystems_SneakPeekSSR.pdf"
     openOnNewTab={true}
     icon="download"
     ariaLabel="Download Sneak Peek of our Roadmap as a PDF file."
-  />
+    >Sneak Peek Roadmap</ActionLink
+  >
 </div>
 <Image
   class="hero-image"

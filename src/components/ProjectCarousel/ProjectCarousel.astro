@@ -41,9 +41,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             <div class="card">
               <div class="card-text">
                 <div class="category">
-                  {categoryLabel ||
-                    (useTag && post.Tags?.[0]?.name) ||
-                    post.Category}
+                  {post.Category}
                 </div>
                 <h3 class="title" transition:name={post.Slug + "-title"}>
                   {post.Title}
