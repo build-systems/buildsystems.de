@@ -130,7 +130,7 @@ function render(angle: number) {
     const cf = Math.round(42 + 175 * proximity);
     circles[i].style.fill = `rgb(${cf},${cf},${cf})`;
     circles[i].style.stroke =
-      `rgba(255,255,255,${((1 - proximity) * 0.3).toFixed(3)})`;
+      `rgba(255,255,255,${((1 - proximity)).toFixed(3)})`;
 
     // Interpolate text fill: light (#d9d9d9) → dark (#222)
     const tf = Math.round(217 - 183 * proximity);
