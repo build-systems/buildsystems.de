@@ -156,7 +156,7 @@ const transferPosts = allPosts.filter((p) =>
       </ExpandableText>
     </StickySection>
 
-    <div class="section-container card-section card-section-reversed">
+    <div class="section-container card-section">
       <div class="card-visual">
         <Image class="card-svg" src={praxisCard} alt="Leistungskarte Praxis" />
       </div>
@@ -307,18 +307,6 @@ const transferPosts = allPosts.filter((p) =>
     margin-bottom: 15rem;
   }
 
-  .card-section-reversed {
-    grid-template-columns: 1fr auto;
-  }
-
-  .card-section-reversed .card-visual {
-    order: 2;
-  }
-
-  .card-section-reversed .card-explanation {
-    order: 1;
-  }
-
   .card-visual {
     display: flex;
     justify-content: center;
@@ -380,15 +368,9 @@ const transferPosts = allPosts.filter((p) =>
   }
 
   @media (max-width: 1100px) {
-    .card-section,
-    .card-section-reversed {
+    .card-section {
       grid-template-columns: 1fr;
       gap: 2rem;
-    }
-
-    .card-section-reversed .card-visual,
-    .card-section-reversed .card-explanation {
-      order: unset;
     }
 
     .card-visual {
