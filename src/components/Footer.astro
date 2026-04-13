@@ -1,44 +1,47 @@
 ---
 import ActionLink from "./ActionLink.astro";
-import { Image } from "astro:assets";
-import logoDgnb from "../assets/logos/dgnb-logo.svg";
-import logoEnergieEffizienzExperten from "../assets/logos/energie-effizienz-experten-logo.svg";
-import logoLbiev from "../assets/logos/lbiev.svg";
-import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
+
 ---
 
-<div class="footer-container">
-  <footer>
-    <div
-      class="flex grow flex-wrap justify-between space-y-12 space-x-12 lg:space-x-24"
-    >
-      <div class="left-block-wrapper">
-        <div class="left-block">
-          <div class="address-nav">
+<div class="mt-[10svh] sm:mt-[20svh] relative flex flex-col items-center">
+  <footer
+    class="flex flex-col grow shrink-0 w-[calc(100%-(var(--left-padding-mobile)*2))] sm:w-[calc(100%-2rem)] bg-(--background-cards) mb-(--left-padding-mobile) sm:mb-4 p-8 rounded-[0.6rem] z-2"
+  >
+    <div class="flex grow justify-between items-center">
+      <div class="flex">
+        <div class="flex w-full flex-col">
+          <div class="flex justify-between">
             <section
-              class="address-contact"
+              class="relative flex flex-col text-left gap-4"
               aria-label="Kontakt, LinkedIn and Instagram"
             >
-              <div class="action">
-                <h3>Sie haben weitere Fragen?</h3>
+              <div class="flex flex-col w-fit gap-[0.3rem] z-3">
+                <h3 class="text-[1.4rem] text-white">
+                  Sie haben weitere Fragen?
+                </h3>
                 <ActionLink
                   href="mailto:mail@buildsystems.de"
                   justifyCenter={true}
                   >Schreiben Sie uns eine Mail!</ActionLink
                 >
               </div>
-              <div class="address-phrase">
+              <div class="leading-none text-balance py-4">
                 Wir freuen uns auf den Austausch mit Ihnen!
               </div>
-              <div class="links">
-                <address>
-                  <div class="social-links">
+              <div class="pb-4">
+                <address
+                  class="not-italic flex flex-col text-base leading-[120%] gap-2"
+                >
+                  <div class="flex gap-[0.5em]">
                     <a
                       href="https://www.linkedin.com/company/build-systems-de/"
                       target="_blank"
                       aria-label="Follow BuildSystems on LinkedIn"
+                      class="flex no-underline"
                     >
-                      <svg class="icon">
+                      <svg
+                        class="w-4 aspect-square fill-(--text-secondary)"
+                      >
                         <use xlink:href="/assets/icons.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -46,8 +49,10 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
                       href="https://www.instagram.com/buildsystems.de/"
                       target="_blank"
                       aria-label="Follow BuildSystems on Instagram"
+                      class="flex no-underline"
                     >
-                      <svg class="icon"
+                      <svg
+                        class="w-4 aspect-square fill-(--text-secondary)"
                         ><use xlink:href="/assets/icons.svg#instagram"
                         ></use></svg
                       >
@@ -55,208 +60,33 @@ import logoBBaukultur from "../assets/logos/bundesstiftungBaukultur.svg";
                   </div>
                 </address>
               </div>
-              <address>
+              <address
+                class="not-italic flex flex-col text-base leading-[120%] gap-2"
+              >
                 BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching
               </address>
             </section>
           </div>
         </div>
       </div>
-      <nav>
+      <nav
+        class="leading-[120%] text-base whitespace-pre-line text-right content-end [&>a]:flex [&>a]:no-underline [&>a]:justify-end"
+      >
         <a href="/"> Home</a>
         <a href="/leistungen"> Leistungen</a>
         <a href="/portfolio"> Portfolio</a>
         <a href="/team"> Team</a>
-        <a href="/impressum" class="impressum">
+        <a href="/impressum" class="w-min flex-wrap">
           Impressum Datenschutzerklärung</a
         >
       </nav>
-      <section
-        class="flex grow flex-col justify-between"
-        aria-label="Unsere Partner"
-      >
-        <h2>BuildSmart. BuildSustainable. BuildSystems!</h2>
-      </section>
     </div>
+    <section
+      class="flex grow flex-col justify-between"
+    >
+      <div class="flex justify-end mt-0 p-0 text-left text-[clamp(0.8rem,3.7svw,2.65rem)] font-medium">
+        BuildSmart. BuildSustainable. BuildSystems!
+      </div>
+    </section>
   </footer>
 </div>
-
-<style>
-  .footer-container {
-    margin-top: 20svh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image-container {
-    position: absolute;
-    flex: 1;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .hero-image {
-    min-height: 50%;
-    object-fit: cover;
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
-    );
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
-    z-index: 1;
-  }
-
-  .action {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    gap: 0.3rem;
-    z-index: 3;
-  }
-
-  .action h3 {
-    color: white;
-  }
-
-  footer {
-    display: flex;
-    flex: 1 0;
-    width: calc(100% - 2rem);
-    background: var(--background-cards);
-    margin-bottom: 1rem;
-    padding: 2rem 2rem;
-    border-radius: 0.6rem;
-    z-index: 2;
-  }
-
-  h2 {
-    font-size: 2.25rem;
-    margin-top: 0;
-    padding: 0;
-  }
-
-  h3 {
-    font-size: 1.4rem;
-  }
-
-  .address-phrase {
-    /* width: fit-content; */
-    line-height: 1;
-    text-wrap: balance;
-    padding: 1rem 0;
-  }
-
-  .address-contact {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 1rem;
-  }
-
-  address {
-    font-style: normal;
-    vertical-align: top;
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    line-height: 120%;
-    gap: 0.5rem;
-  }
-
-  a {
-    text-decoration: none;
-    display: flex;
-    margin-bottom: 0;
-  }
-
-  nav {
-    /* flex: 1; */
-    line-height: 120%;
-    min-width: min-content;
-    font-size: 1rem;
-    white-space: pre-line;
-    text-align: left;
-    align-content: end;
-  }
-
-  .impressum {
-    padding-top: 0.25rem;
-    width: min-content;
-  }
-
-  .links {
-    padding-bottom: 1rem;
-  }
-
-  .social-links {
-    display: flex;
-    gap: 0.5em;
-  }
-
-  .icon {
-    width: 1rem;
-    aspect-ratio: 1/1;
-    fill: var(--text-secondary);
-  }
-
-  .unsere-partner {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .left-block-wrapper {
-    display: flex;
-  }
-  .left-block {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .address-nav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  @media (max-width: 1024px) {
-    .logos-container {
-      column-gap: clamp(0.5rem, 2%, 4rem);
-      row-gap: clamp(0.5rem, 5%, 4rem);
-    }
-  }
-
-  @media (max-width: 640px) {
-    .footer-container {
-      margin-top: 10svh;
-    }
-
-    footer {
-      width: calc(100% - (var(--left-padding-mobile) * 2));
-      margin-bottom: var(--left-padding-mobile);
-    }
-
-    .logos-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      row-gap: 3rem;
-    }
-    .partner-logo {
-      width: auto;
-      min-width: auto;
-      flex: 0 1 150px;
-    }
-  }
-
-  @media (max-width: 420px) {
-    .logos-container {
-      justify-content: start;
-      row-gap: 2rem;
-    }
-  }
-</style>
