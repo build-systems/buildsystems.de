@@ -21,3 +21,15 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# browser automation artifacts
+.playwright-mcp/
+
+# bash crash dumps (Windows/Cygwin)
+*.stackdump
+
+# ad-hoc check/debug logs
+check*.log
+
+# ad-hoc screenshots
+leistungen-full.png
