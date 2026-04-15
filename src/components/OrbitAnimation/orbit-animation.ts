@@ -126,8 +126,8 @@ function render(angle: number) {
     const t = Math.min(1, d / (STEP * 0.35));
     const proximity = (1 + Math.cos(t * Math.PI)) / 2;
 
-    // Interpolate circle fill: dark (#2a2a2a) → light (#d9d9d9)
-    const cf = Math.round(42 + 175 * proximity);
+    // Interpolate circle fill: dark (#222, matches --background-body) → light (#d9d9d9)
+    const cf = Math.round(34 + 183 * proximity);
     circles[i].style.fill = `rgb(${cf},${cf},${cf})`;
     circles[i].style.stroke =
       `rgba(255,255,255,${((1 - proximity)).toFixed(3)})`;

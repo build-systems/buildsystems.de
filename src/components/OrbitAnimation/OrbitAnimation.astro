@@ -23,21 +23,21 @@ const repeated = [...bullets, ...bullets, ...bullets];
       <circle
         cx="250"
         cy="250"
-        r="180"
+        r="175"
         fill="none"
         stroke="rgba(255,255,255)"
         stroke-width="2"
         stroke-dasharray="8 6"></circle>
-      <g data-topic="0" transform="translate(430,250)">
-        <circle r="58" stroke-width="2"></circle>
+      <g data-topic="0" transform="translate(425,250)">
+        <circle r="70" stroke-width="2"></circle>
         <text text-anchor="middle" dy="0.35em">Strategie</text>
       </g>
-      <g data-topic="1" transform="translate(160,94)">
-        <circle r="58" stroke-width="2"></circle>
+      <g data-topic="1" transform="translate(163,98)">
+        <circle r="70" stroke-width="2"></circle>
         <text text-anchor="middle" dy="0.35em">Praxis</text>
       </g>
-      <g data-topic="2" transform="translate(160,406)">
-        <circle r="58" stroke-width="2"></circle>
+      <g data-topic="2" transform="translate(163,402)">
+        <circle r="70" stroke-width="2"></circle>
         <text text-anchor="middle" dy="0.35em">Transfer</text>
       </g>
     </svg>
@@ -82,7 +82,7 @@ const repeated = [...bullets, ...bullets, ...bullets];
   }
 
   .orbit-svg :global([data-topic] circle) {
-    fill: #2a2a2a;
+    fill: var(--background-body);
     stroke: rgba(255, 255, 255);
     stroke-width: 1.5;
   }
