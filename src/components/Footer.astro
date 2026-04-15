@@ -1,90 +1,74 @@
 ---
 import ActionLink from "./ActionLink.astro";
-
 ---
 
-<div class="mt-[10svh] sm:mt-[20svh] relative flex flex-col items-center">
+<div class="relative mt-[10svh] flex flex-col items-center sm:mt-[20svh]">
   <footer
-    class="flex flex-col grow shrink-0 w-[calc(100%-(var(--left-padding-mobile)*2))] sm:w-[calc(100%-2rem)] bg-(--background-cards) mb-(--left-padding-mobile) sm:mb-4 p-8 rounded-[0.6rem] z-2"
+    class="z-2 mb-(--left-padding-mobile) grid w-[calc(100%-(var(--left-padding-mobile)*2))] shrink-0 grow grid-cols-1 gap-8 rounded-[0.6rem] bg-(--background-cards) p-8 sm:mb-4 sm:w-[calc(100%-2rem)] sm:grid-cols-[max-content_1fr]"
   >
-    <div class="flex grow justify-between items-center">
-      <div class="flex">
-        <div class="flex w-full flex-col">
-          <div class="flex justify-between">
-            <section
-              class="relative flex flex-col text-left gap-4"
-              aria-label="Kontakt, LinkedIn and Instagram"
-            >
-              <div class="flex flex-col w-fit gap-[0.3rem] z-3">
-                <h3 class="text-[1.4rem] text-white">
-                  Sie haben weitere Fragen?
-                </h3>
-                <ActionLink
-                  href="mailto:mail@buildsystems.de"
-                  justifyCenter={true}
-                  >Schreiben Sie uns eine Mail!</ActionLink
-                >
-              </div>
-              <div class="leading-none text-balance py-4">
-                Wir freuen uns auf den Austausch mit Ihnen!
-              </div>
-              <div class="pb-4">
-                <address
-                  class="not-italic flex flex-col text-base leading-[120%] gap-2"
-                >
-                  <div class="flex gap-[0.5em]">
-                    <a
-                      href="https://www.linkedin.com/company/build-systems-de/"
-                      target="_blank"
-                      aria-label="Follow BuildSystems on LinkedIn"
-                      class="flex no-underline"
-                    >
-                      <svg
-                        class="w-4 aspect-square fill-(--text-secondary)"
-                      >
-                        <use xlink:href="/assets/icons.svg#linkedin"></use>
-                      </svg>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/buildsystems.de/"
-                      target="_blank"
-                      aria-label="Follow BuildSystems on Instagram"
-                      class="flex no-underline"
-                    >
-                      <svg
-                        class="w-4 aspect-square fill-(--text-secondary)"
-                        ><use xlink:href="/assets/icons.svg#instagram"
-                        ></use></svg
-                      >
-                    </a>
-                  </div>
-                </address>
-              </div>
-              <address
-                class="not-italic flex flex-col text-base leading-[120%] gap-2"
-              >
-                BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching
-              </address>
-            </section>
-          </div>
-        </div>
-      </div>
-      <nav
-        class="leading-[120%] text-base whitespace-pre-line text-right content-end [&>a]:flex [&>a]:no-underline [&>a]:justify-end"
-      >
-        <a href="/"> Home</a>
-        <a href="/leistungen"> Leistungen</a>
-        <a href="/portfolio"> Portfolio</a>
-        <a href="/team"> Team</a>
-        <a href="/impressum" class="w-min flex-wrap">
-          Impressum Datenschutzerklärung</a
+    <section
+      class="flex flex-col gap-4 text-left"
+      aria-label="Kontakt"
+    >
+      <div class="z-3 flex w-fit flex-col gap-[0.3rem]">
+        <h3 class="text-[1.4rem] text-white">Sie haben weitere Fragen?</h3>
+        <ActionLink href="mailto:mail@buildsystems.de" justifyCenter={true}
+          >Schreiben Sie uns eine Mail!</ActionLink
         >
-      </nav>
-    </div>
-    <section class="@container flex grow flex-col justify-between">
-      <div class="flex justify-end mt-0 p-0 text-left text-[clamp(0.8rem,5.045cqi,2.65rem)] font-medium">
-        BuildSmart. BuildSustainable. BuildSystems!
+      </div>
+      <div class="leading-none text-balance">
+        Wir freuen uns auf den Austausch mit Ihnen!
       </div>
     </section>
+
+    <nav
+      class="flex flex-col text-base leading-[120%] whitespace-pre-line max-sm:order-1 sm:items-end sm:text-right [&>a]:flex [&>a]:w-min [&>a]:justify-end [&>a]:no-underline"
+      aria-label="Footer-Navigation"
+    >
+      <a href="/"> Home</a>
+      <a href="/leistungen"> Leistungen</a>
+      <a href="/portfolio"> Portfolio</a>
+      <a href="/team"> Team</a>
+      <a href="/impressum" class="flex-wrap">
+        Impressum Datenschutzerklärung</a
+      >
+    </nav>
+
+    <section
+      class="flex flex-col gap-4 text-base leading-[120%]"
+      aria-label="Social Media und Adresse"
+    >
+      <address class="flex gap-[0.5em] not-italic">
+        <a
+          href="https://www.linkedin.com/company/build-systems-de/"
+          target="_blank"
+          aria-label="Follow BuildSystems on LinkedIn"
+          class="flex no-underline"
+        >
+          <svg class="aspect-square w-4 fill-(--text-secondary)">
+            <use xlink:href="/assets/icons.svg#linkedin"></use>
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/buildsystems.de/"
+          target="_blank"
+          aria-label="Follow BuildSystems on Instagram"
+          class="flex no-underline"
+        >
+          <svg class="aspect-square w-4 fill-(--text-secondary)"
+            ><use xlink:href="/assets/icons.svg#instagram"></use></svg
+          >
+        </a>
+      </address>
+      <address class="not-italic">
+        BuildSystems GmbH<br />Furtanger 4<br />D-82205 Gilching
+      </address>
+    </section>
+
+    <div class="@container flex items-end justify-end max-sm:order-2 sm:max-[800px]:col-span-2">
+      <span class="font-medium text-[clamp(1rem,5.045cqi,2.65rem)]">
+        BuildSmart. BuildSustainable. BuildSystems!
+      </span>
+    </div>
   </footer>
 </div>
