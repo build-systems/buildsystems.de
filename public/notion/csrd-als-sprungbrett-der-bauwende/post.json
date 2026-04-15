@@ -1,6 +1,6 @@
 {
-  "PageId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
-  "Title": "CSRD als Sprungbrett für die Bauwende",
+  "PageId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+  "Title": "CSRD als Sprungbrett für die Bauwende ",
   "Authors": [
     {
       "id": "gt`}",
@@ -14,15 +14,12 @@
     }
   ],
   "Category": "Facts & Figures",
-  "Icon": {
-    "Type": "external",
-    "Url": "https://www.notion.so/icons/feed_gray.svg"
-  },
+  "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=3a8290e54dc77cd43f70c354b1251544009dd806a139143f5c35171d4c30b192&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=8c7b69f80ba47d10c3d2e8c2c42348695e0981d9c2fb71e3bcec6154f174d9a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
-  "CoverAlt": "Unternehmen fit for Future",
+  "CoverAlt": "holzfassade-produktionsstätte-ansicht",
   "Slug": "csrd-als-sprungbrett-der-bauwende",
   "PublishDate": "2024-08-30",
   "Tags": [
@@ -39,10 +36,10 @@
   ],
   "blocks": [
     {
-      "Id": "231a4df7-c03b-4b5d-9904-01fa60ac0a31",
+      "Id": "311cc54c-ec6d-816c-aeb0-f6107e7ede6a",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading2": {
         "RichTexts": [
           {
@@ -66,10 +63,10 @@
       }
     },
     {
-      "Id": "0b799dda-0417-42b9-b04c-82ed7e1b37f4",
+      "Id": "311cc54c-ec6d-81e7-98b6-e5f06f5f031f",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -92,10 +89,10 @@
       }
     },
     {
-      "Id": "06c38373-de4e-4f69-929b-719a1c7b2377",
+      "Id": "311cc54c-ec6d-81ef-ba73-c487f77f025d",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -118,20 +115,20 @@
       }
     },
     {
-      "Id": "d4d609ba-877e-429c-90d7-37854038a972",
+      "Id": "311cc54c-ec6d-810c-9e7f-ca77fe4b6768",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "d0823bec-12a9-43fd-8db2-af99857dc6fc",
+      "Id": "311cc54c-ec6d-81a2-97cf-ce2df13c7930",
       "Type": "heading_3",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading3": {
         "RichTexts": [
           {
@@ -155,10 +152,10 @@
       }
     },
     {
-      "Id": "c8922916-2abd-42c3-b4c4-a3350579359a",
+      "Id": "311cc54c-ec6d-8195-ad89-cf4cb4556cb7",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -181,10 +178,10 @@
       }
     },
     {
-      "Id": "d85b2527-448a-4169-8d3d-7ba0e508febf",
+      "Id": "311cc54c-ec6d-81ee-af56-fa7b16238415",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -207,20 +204,20 @@
       }
     },
     {
-      "Id": "16413aca-3a1b-44b7-99d5-df8742cf1a1d",
+      "Id": "311cc54c-ec6d-8120-8b5d-fceedcdcbf9b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "baa68b2f-acf1-481c-ad92-75d692dbab35",
+      "Id": "311cc54c-ec6d-813f-afd4-cb46921f8103",
       "Type": "heading_3",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading3": {
         "RichTexts": [
           {
@@ -244,10 +241,10 @@
       }
     },
     {
-      "Id": "5ab7c817-f0cd-47c5-8b3d-8e8496d83c8b",
+      "Id": "311cc54c-ec6d-81ae-8c2d-f8d3ce51b2da",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -270,10 +267,10 @@
       }
     },
     {
-      "Id": "5c41bd91-a228-42cc-874f-3b4044df75cb",
+      "Id": "311cc54c-ec6d-818d-b536-ec80b8914acc",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -296,10 +293,10 @@
       }
     },
     {
-      "Id": "24d37a6b-14b8-4411-b0b3-d3768109c7b3",
+      "Id": "311cc54c-ec6d-8124-9e48-edad3a0a4a64",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -322,10 +319,10 @@
       }
     },
     {
-      "Id": "f2dafd96-8751-4778-8f60-ca24982e1b10",
+      "Id": "311cc54c-ec6d-8108-bbf4-fcc157d08069",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -348,10 +345,10 @@
       }
     },
     {
-      "Id": "33726d07-0339-4908-9bb7-095f606e5ab3",
+      "Id": "311cc54c-ec6d-8178-b63e-e0d572b0538e",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -374,10 +371,10 @@
       }
     },
     {
-      "Id": "c78fb17e-0e8a-4983-b9f1-b753bc8cb3a1",
+      "Id": "311cc54c-ec6d-81f7-9e11-d3a404acd1d6",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -400,10 +397,10 @@
       }
     },
     {
-      "Id": "af797c86-7824-4108-9608-7a47f61de73a",
+      "Id": "311cc54c-ec6d-81a3-903f-d11b95abbc5c",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -426,10 +423,10 @@
       }
     },
     {
-      "Id": "f7e5b109-b7cc-455f-aa66-9d4f649deef3",
+      "Id": "311cc54c-ec6d-816b-b3df-e7b865975e85",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -452,10 +449,10 @@
       }
     },
     {
-      "Id": "238f99cd-12ee-43e3-88f0-83ca8159de99",
+      "Id": "311cc54c-ec6d-8123-b073-cf39df0d764e",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -478,10 +475,10 @@
       }
     },
     {
-      "Id": "5f9c237c-5c4f-45e0-9523-203b260b0996",
+      "Id": "311cc54c-ec6d-81a8-9190-d5be3c63a24e",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -504,20 +501,20 @@
       }
     },
     {
-      "Id": "32439fa8-50d5-4fca-a610-3c0fc3f47876",
+      "Id": "311cc54c-ec6d-8192-83a6-eab7136881e1",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "b597ef38-9cd7-4290-be7a-edb9928f0b5c",
+      "Id": "311cc54c-ec6d-81b9-8303-f8741028e250",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading2": {
         "RichTexts": [
           {
@@ -541,10 +538,10 @@
       }
     },
     {
-      "Id": "8bb99d72-3b04-4881-b387-936d51b4b792",
+      "Id": "311cc54c-ec6d-8144-b701-f1a9c1a55736",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -567,10 +564,10 @@
       }
     },
     {
-      "Id": "d42a5d52-7706-4331-a88e-558999cf7021",
+      "Id": "311cc54c-ec6d-8123-a41c-c5d6299a165b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -698,10 +695,10 @@
       }
     },
     {
-      "Id": "d083456e-b1b5-464e-8d3d-bbf6a9f83b37",
+      "Id": "311cc54c-ec6d-816c-b8e5-e1602d256018",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Image": {
         "Caption": [
           {
@@ -723,16 +720,16 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZOS6BSC2%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIDbpyfw2esnG7y%2FqlOXBSSPXyS9f2vGxm6guKHLSs70YAiBzLmbPHS2KD9%2FBKowaDo7bjGIPtYpL%2FRJ5X2SQIZqQbiqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMqhjOYHgodP%2FEYrnIKtwDOjkokWNCKxKeeTPn%2BdZ%2FCMrgPzx8bcRLWXK30zTRsPA5e5g45m2LkHAug3IkMoNJuiOPUZtQx%2BD3QWQLEXh3rjgrUxmfaWm7wWTiLoZsC7reFCNnGt6OcLnIxQljxYprnMftHmgudmCUt6txYud1XG688aWO1WPp6zvpzNDefWyTqBw9gHQ4SZvrVsA3U8BoQy1TZUqc4wsekGP3aKD0TP%2B3nl2wLNmWGfO%2FDgSsbn8fGtPLTLZwGKaJf4pucquTVxLhBpKC8vvu%2FO1c2T92VODNx%2Bn63dEn6HtgDI1O8CSN%2B%2BqLiZ7BaadOyQgskHX9xGj%2BE9XDgU1sfuvJ%2BoRqNcPyot4BU%2BrcMn8GIVRC4KxmSp3py3LQ6jQHGXaPz8TbofYwgbg4R2EjDm%2BuhJ860QJ2CDp5arJLxqHc0DABc7xD%2FCvm4rSDmiM4TCL8lpb8l%2BDBsmAoU8jai0yGURXVgv8QXWvaYKv64W3ZDUJrWBfAc0q3ma4sLYztyvpkGqYAe4A47ACflg%2FWn6SXvtpn6Zq748sVyNIOE53PMTsxikvNHVz7qNWtgA3%2BVQ9c1neaWQDrhtrl1jkapipR9GJCtdHZXIGLgg6IVdzDkC%2FQxGfOBwCpF%2B8n3N20%2BuMwooGszQY6pgGkdHHkk5p3xFww0W85TZOY4GmO3d6thX%2FaZMSbI95jUHEqgYNgOoitPaRiz8To0xejYCigxWD5jm%2BDY9qECvVaj3QS8A%2F5wWSqtBsRakrGcRnFVhqbiUwr3CtT6f%2FBjQREYTiZ%2F6W%2FPhMDpRcXqGUWvNqBrO57DJoRyBXwNp%2BLRsRzR3xCmlgj4yBRf0ynN0lziu90WqWHqCx2JnHwqzXV5b3kxAnr&X-Amz-Signature=5f4984bad1c13e8796fc322986753015d09813502d3f1a4559dbf441e8811724&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:56.475Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YONMVBNO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063921Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFnJT0JkrLZqE0NaqMygqLKPtOOIhE%2Fxt69ZHjuyvSJYAiEAoX4fvIbz3vZ6ja13saq4Fynb2ykOxsR5vq3EubJfxLQq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDHjrpcsH3PqB8X02RCrcAwkle4eQxkgaF6JLpLSCFQ%2FyvI7hjmDawW9hrYqH2GdAjwHfkek5ry8gfNraXtUeAIth6Z9p0%2FLBLnJfKTSD2Omf5trXkd%2FLx%2Bi8hmt6Qp8moeSv%2BTX7c75RTV99CSJ3T%2Fk3c%2Ftnmv8pnZYLHjxgO07%2FIeRxDP4EuB68d2%2B0fvqrUsePvqZfgeVOGS8HAY6dzRnARfbEb%2B5DXyVn4RAcLTbaL9g44yL2rQXi4atx8o9atO7UQBKKBrnxWv2vMTgclk34iU3j1wBeLRIfWPGmP29uqkTQzNvF%2B7yRFjXtW4Fw5xq6EENrUInAZS5YxT4L7Qk7tpIauBKLQXnroMYFWKtZR9d%2F1W2vpa87tXxDzXbpW%2ByHYSQaCF882Za3SzIKc0%2FZtS2ClHPIgCTJl6KekboGQjQDhFy%2BO5iAcLOImNeG%2F%2FXYlvWlWCCh60g2aU64dTwFZxDIib5nJkL67ZC47YHLu9AgcsBPCRdhDI666yIDrJqweiO%2BRQcGac%2BQLovgW8QWBTh3p6za%2B%2BXmnJP9WlCZqeDXk9BR1aL5m2evPrpLqFyuHtJrrGMEXliMswEvwrurWKRPn9fHBoEv7WMZa2YhO7X6Q1f8eEmKW6Z0qY9woXERjCyKtc2Ad2jIMK%2BB8s4GOqUB8RcoC2itv4%2FYII6ZP5%2FvgU2H77T8JuzjQgob4ckPjAOATYiy8rq2EM%2BgjUXdiosGZcTJMqULlAMuDkJGxyEMk4NHS%2B1fUfAzGrPHFHFVYuI%2BOLbZNfGT3A0Xul%2FYCeA9fFStSlb2ZqNpTFa2qeWnt8%2BHD%2FDC%2BGRCvaKQYRvlBEJ9Sv8fsne44ITntfs2xvTFwFy%2Fupop66iPFkKnDAeoGOfpxCC8&X-Amz-Signature=bc7942ed13650797b83b569c9aa2dd00ab375ef8c1efd6c020cfdecd2549b07b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:21.929Z"
         }
       }
     },
     {
-      "Id": "ad2d4ec5-dad0-4220-9331-ddd72b75250f",
+      "Id": "311cc54c-ec6d-818f-a419-e8b20443736c",
       "Type": "heading_3",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading3": {
         "RichTexts": [
           {
@@ -756,10 +753,10 @@
       }
     },
     {
-      "Id": "9bc7c63a-b7a4-48e3-8761-e7614c268078",
+      "Id": "311cc54c-ec6d-81e7-bb8e-d01bf8d8b3b3",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -782,10 +779,10 @@
       }
     },
     {
-      "Id": "63f2d856-e778-45f9-9b0c-8a705e516eb1",
+      "Id": "311cc54c-ec6d-818b-ab3d-eeabfc261710",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -808,10 +805,10 @@
       }
     },
     {
-      "Id": "052c8622-b0e8-4513-92ab-5f84fd54f59f",
+      "Id": "311cc54c-ec6d-8137-9e2e-f4bcc7fc79db",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -834,10 +831,10 @@
       }
     },
     {
-      "Id": "44cd5f19-0575-4c51-8448-38e0efdd1db8",
+      "Id": "311cc54c-ec6d-81fd-89a1-e4d873a81f74",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -860,20 +857,20 @@
       }
     },
     {
-      "Id": "b3a918ec-31c5-4323-ae1d-eac3f12e4208",
+      "Id": "311cc54c-ec6d-81b3-915f-d90e09d3d298",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "027f831a-fc94-4d7d-af03-893ac66a8cb3",
+      "Id": "311cc54c-ec6d-8199-ae6a-e56df4eb6ced",
       "Type": "heading_3",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading3": {
         "RichTexts": [
           {
@@ -897,10 +894,10 @@
       }
     },
     {
-      "Id": "13b8e2ad-e70c-44bc-91fe-778bcf35becc",
+      "Id": "311cc54c-ec6d-8194-b34b-fdef4732e14e",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -923,10 +920,10 @@
       }
     },
     {
-      "Id": "7f55e90c-55fd-4062-81df-5b9b59e0ccea",
+      "Id": "311cc54c-ec6d-8122-9548-fcf80c7ede3f",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -964,10 +961,10 @@
       }
     },
     {
-      "Id": "c98a91d2-c2f8-42af-84ba-4559812c4e9a",
+      "Id": "311cc54c-ec6d-81c8-a34e-d3cb1260e602",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -1005,10 +1002,10 @@
       }
     },
     {
-      "Id": "76fa323a-11aa-45a2-98db-1303c91d4474",
+      "Id": "311cc54c-ec6d-812b-b499-cc006903585d",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -1046,10 +1043,10 @@
       }
     },
     {
-      "Id": "e4af4402-1c5f-4d74-a4cc-254fff5e246f",
+      "Id": "311cc54c-ec6d-81c4-bb7b-e6d187e717e6",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -1087,20 +1084,20 @@
       }
     },
     {
-      "Id": "f8c68e90-8f7b-4f6a-8227-c0c8dedeaecc",
+      "Id": "311cc54c-ec6d-8106-9d61-f66f0ad0bfd2",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "4aad7ca8-7a55-4640-9eea-531fcedb7bfd",
+      "Id": "311cc54c-ec6d-814f-bbf4-ee48bb18ea02",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Heading2": {
         "RichTexts": [
           {
@@ -1124,10 +1121,10 @@
       }
     },
     {
-      "Id": "45b51c5b-cdc0-4f9d-a6d3-c22813bf677e",
+      "Id": "311cc54c-ec6d-8127-adb4-effe2d7b5b58",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1150,10 +1147,10 @@
       }
     },
     {
-      "Id": "74c90d01-3003-4120-9cd6-72ab800fd84e",
+      "Id": "311cc54c-ec6d-81bd-9374-cb2313ce8fa0",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1176,30 +1173,186 @@
       }
     },
     {
-      "Id": "99d4a2b9-52f2-450a-b402-980431e114ff",
+      "Id": "312cc54c-ec6d-8084-9487-cf2bb522067b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "1a4bc58a-61d1-4443-a195-bf7978991592",
+      "Id": "311cc54c-ec6d-81f3-84ba-db64e6b0c55d",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Bereich CSRD erbringt BuildSystems folgende Leistungen:",
+            "Href": null,
+            "Text": {
+              "Content": "Im Bereich CSRD erbringt BuildSystems folgende Leistungen:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-80df-b830-dd799ea5b01b",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Doppelte Wesentlichkeitsanalyse: Durchführung einer doppelten Wesentlichkeitsanalyse zur Identifikation und Bewertung der wesentlichen Auswirkungen, Risiken und Chancen entlang der Wertschöpfungskette im Hinblick auf Umwelt-, Sozial- und Governance-Themen.",
+            "Href": null,
+            "Text": {
+              "Content": "Doppelte Wesentlichkeitsanalyse: Durchführung einer doppelten Wesentlichkeitsanalyse zur Identifikation und Bewertung der wesentlichen Auswirkungen, Risiken und Chancen entlang der Wertschöpfungskette im Hinblick auf Umwelt-, Sozial- und Governance-Themen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-800a-906c-e88562f02aae",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsstrategie: Entwicklung einer nachhaltigkeitsorientierten Unternehmensstrategie zur Integration von Klimarisiken, Dekarbonisierungspfaden und ESG-Zielen in Geschäftsmodell, Innovationsprozesse und langfristige Unternehmensentwicklung.",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsstrategie: Entwicklung einer nachhaltigkeitsorientierten Unternehmensstrategie zur Integration von Klimarisiken, Dekarbonisierungspfaden und ESG-Zielen in Geschäftsmodell, Innovationsprozesse und langfristige Unternehmensentwicklung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-8057-89ed-d11783d26de6",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unterstützung bei der Datenerhebung: Beratung bei der Auswahl geeigneter Tools und Software zur Datenerhebung sowie Unterstützung beim Aufbau unternehmensinterner Prozesse zur strukturierten Datensammlung und Qualitätssicherung.",
+            "Href": null,
+            "Text": {
+              "Content": "Unterstützung bei der Datenerhebung: Beratung bei der Auswahl geeigneter Tools und Software zur Datenerhebung sowie Unterstützung beim Aufbau unternehmensinterner Prozesse zur strukturierten Datensammlung und Qualitätssicherung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-803c-83d7-fc229d4de3bf",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltigkeitsreporting: Erstellung von CSRD- bzw. ESRS-konformen sowie repräsentativen Nachhaltigkeitsberichten einschließlich Strukturierung, Aufbereitung und Integration der erforderlichen ESG-Daten.",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltigkeitsreporting: Erstellung von CSRD- bzw. ESRS-konformen sowie repräsentativen Nachhaltigkeitsberichten einschließlich Strukturierung, Aufbereitung und Integration der erforderlichen ESG-Daten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-80ac-a7ed-ed40a36a7daa",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Verwertungsstrategie: Entwicklung einer strategischen Positionierung im Markt sowie eines klaren Narrativs zur wirksamen Kommunikation der Nachhaltigkeitsleistung des Unternehmens.",
+            "Href": null,
+            "Text": {
+              "Content": "Verwertungsstrategie: Entwicklung einer strategischen Positionierung im Markt sowie eines klaren Narrativs zur wirksamen Kommunikation der Nachhaltigkeitsleistung des Unternehmens."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-81f9-9e79-d940c835e80f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "7c5b3dc8-f7ca-4a9c-b80d-f4a4a9a10470",
+      "Id": "311cc54c-ec6d-814b-aed6-dcd01c264301",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "4b3c7891-db01-402b-a3e6-311bb6779e5c",
+      "ParentId": "311cc54c-ec6d-8019-9b95-e1264f3568f0",
       "Paragraph": {
         "RichTexts": [
           {

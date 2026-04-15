@@ -1,6 +1,6 @@
 {
-  "PageId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
-  "Title": "Nachweisführung zur Nachhaltigkeit: Prozessoptimierung, Ökobilanzierung, Zertifizierung",
+  "PageId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+  "Title": "Nachweisführung zur Nachhaltigkeit: Prozessoptimierung von Ökobilanzierung und Zertifizierung ",
   "Authors": [
     {
       "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
@@ -14,13 +14,10 @@
     }
   ],
   "Category": "Facts & Figures",
-  "Icon": {
-    "Type": "external",
-    "Url": "https://www.notion.so/icons/feed_gray.svg"
-  },
+  "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e740f442-3bb4-4634-b5df-b7ac518729fd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=6a5c997d4cac9421869e4d3720b5c576975b09ef84d32e1bc88ec1a1838c152a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e740f442-3bb4-4634-b5df-b7ac518729fd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=23fcbe1a06ae0c3c66f0b3fbde730807c7307c4de52c02cc32fad04b6e243961&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "dashboard-lca",
   "Slug": "nachweisführung-nachhaltigkeit",
@@ -40,10 +37,10 @@
   ],
   "blocks": [
     {
-      "Id": "b298a158-b495-482d-a86c-64322f0e888f",
+      "Id": "311cc54c-ec6d-812f-b47f-c5ba589dd2c8",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -55,10 +52,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel für den Neubau und die Sanierung von Gebäuden.",
+            "PlainText": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel bei Neubau und Sanierung von Gebäuden.",
             "Href": null,
             "Text": {
-              "Content": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel für den Neubau und die Sanierung von Gebäuden."
+              "Content": "In einer Zeit, in der Nachhaltigkeit zu einem zentralen Thema in allen Wirtschaftsbereichen geworden ist, steht die Bau- und Immobilienbranche vor besonderen Herausforderungen. Unternehmen, die sich als Vorreiter in Sachen Nachhaltigkeit positionieren möchten, müssen die Qualität ihrer Gebäude nicht nur verbessern, sondern auch bewerten und zertifizieren lassen. Das ist essenziell für den Erhalt von staatlichen Fördermittel bei Neubau und Sanierung von Gebäuden."
             }
           }
         ],
@@ -66,10 +63,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-80be-953c-ce3148d53a60",
+      "Id": "311cc54c-ec6d-81dd-af75-f92d4de81bee",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Heading2": {
         "RichTexts": [
           {
@@ -93,10 +90,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-8099-91c5-dfc9ba7e7a4b",
+      "Id": "311cc54c-ec6d-817b-ace2-e054e2a14521",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -119,10 +116,10 @@
       }
     },
     {
-      "Id": "8f6f6c61-aecf-4527-9a8a-5ab2da725db2",
+      "Id": "311cc54c-ec6d-8178-9466-efb71154cecf",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -145,10 +142,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-809c-a1a9-cd66ad1d735d",
+      "Id": "311cc54c-ec6d-81c0-83b2-cbf101f4b355",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -171,25 +168,25 @@
       }
     },
     {
-      "Id": "118cc54c-ec6d-80e7-8cee-e536ef8dd79a",
+      "Id": "311cc54c-ec6d-8119-bd99-ceb73dc50efa",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Image": {
         "Caption": [],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c498389-333d-467a-ad0b-6b5f601dc2cd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663XME2FMC%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDyJmiJb9dFGHabSXxCg%2F6aBaDabYzDiKiS%2FRy9fb3ePAIgIIou%2BxBZfkHz44tJh5kprni4njTMtT13TeahAzS9OM0qiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA82MV%2B361rMfU64VCrcAy6%2FrTzQLwQwM3%2BxmLXIfRZEz9di1xpbHVcTBo4xhrssUf9oyskMMcMFDdmWA604%2Bn6k6fH1kbkcswHW%2FFPLSZQ0LSJPL6lQDH2pd%2FDXVVEu12vRHM%2BwS2MYZ0P7Pmppn7hPgxZr07mbYC58%2BHkWmEyQ2MrQpAgSV4qT0zz5CeYexo%2BjNxM0bejBiITJvpu5dcmWTtRtcbyh84Hm8frjwDpG5%2FO9mixdXyN82hwZzgix4KuSFeNkBYbche%2BCw4s7UCypKfdY%2FbMHfnwBgTN185zud%2FckqyVprw1UDUYJ8lmNqFepA8nxPxZBXhyPESZu%2Fl8Gzfqx%2BYdGvsXHx%2BLugtTm1%2Bou8cRG0%2F49%2FRjmshr8NULwc%2FOBho4dNQvyuK%2Bc0LNBhtBL3DdJHBSLFJ2ZjLiH1d%2BnTcdeK8QGM2gykMW0ViMRpu55Sxj5bHL3oLS1lh1n3hP26bKMM9n%2FjvTrWDFaJdjl5HBKKa7nOox8xiAUIbXQZhXUVQ77q%2BhQJ%2BeYYvdYSyaEaf5ds6DW1F%2BEbREKL42GRYH7HAxijfmy5C0eO8j4e18Mw0g9Shq4To8piuSG6TzzvWKGSFW46YSQKYokJ1%2FgQPCUw5e9MCxbDfa0HtN%2Ba8Rq8zgUUTH2MPqArM0GOqUBBJZNotpvjhwfSVbb1uhnl1zhsFrCEDZpkqIr87GJ1HRQ%2FD45lZNdu7m4s%2FRmEu4rz7Csg8jh69IO2Muw%2BsfTknpWzaHfEJ3%2BXCvfXLvUrpT6zkGp9SqwVw31jA0Ufibw8X6UVzzMwSgqe05Of2i7psQlnRP61%2Fpr6Ax070Ez6XHoJ1vIVFBH7wqgJMd3FuJOSeWQQyKEAf40JHQglsyP2W7PbWsX&X-Amz-Signature=c6eaae2a314457f417fd8dfa6f63148f28c6a50be218a8fd863d05209320ec38&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.769Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7c498389-333d-467a-ad0b-6b5f601dc2cd/nachhaltigkeitsprozesse-optimieren_oekobilanzierung-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UHCXN3H5%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCp3PAxUFQOXKD%2F4gDDQd3Gp38sw7CY5Edb0ilJqTHgYQIgO1DuiB7ldnmdwp4uYfOLdM6gxK%2FFKWXP%2B9HebRKIouQq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDKK1UPM7nmyk%2Fs9HRircA8%2FTdtBWu56fESgUmErI4dBEJIKPrs1Da1tMlrUlRRQGiYBwpwbStgetre64tVQnJiNSXeOM%2F6MNd3n3BpmdD1bNgpTShNlPzobs%2FPKBWXd72Ah%2FFkfs%2BawS5dETCltvmKca4e06XhgpbZGLl42sY3iV7uMW1RCD7YHh3ByzEzK3IvimvdbLnv1hvkzPlZVpopLJy05y4IBm%2FYnzOju9NMIZrSYvFXOYrlZYujbdFc4wKHc0PtuYjZTSbS39ZdWjhi7hzFYDvfNH0qXd0t2%2BCjgWdWk2Annq2vQm%2F9lKfytGCcnGy0OMBVmXHSb4ZkOnyhltRkjycim%2B9F0Pwt2EPeDWDGK4QHQBsy91x867R4pLnN1eYLPRA0iYVBYHu8bnW4ZRdY09DNVQCR7PauiSCUn%2Fp63rfvVaRyaRjxneKazFXIoG1aMHVbxc2fmFlwJgZUUmGxAv0yNQ7iNmqtdN42Trya5APF0Zj9pGO7lKO7RYlM4ici9tg%2FXOh9dTG4mxGDCXDXZW6z1jsTVgWrb0LhnVaG8opBeJ5sdeGCXpdo00GJBUkIvK3nGvfIWoStvTQL9BTQn4bbupKQZT9%2B9NSlzm%2FocyL0D%2F0%2BThUvdRtWf2%2B97cQDxDjqqPRMw9MO6B8s4GOqUBruz%2FqB%2FkN7Vha2eeHb%2F51KvKOEyVpxqJ7DmWKpVINKm%2FMOh26mVuiMiB5dAPP8paXjMJ%2FA7ySsKJKDJqX3NxbZbE1GvZp4UQB6L7FjfVTHrAaM1%2F1jET7e7%2FcWPPES8rmoGW52jnZBi8yuPyUQUWKFQb8bmIZivMVCrgEOtvGvpFy6q%2BnMgWuEiW4Cgo7PH2R5tJ38csM9Ra9%2BVzKOPMRJFowBR5&X-Amz-Signature=dd7803a31e6ba847dbe087f6cface49d249ebab0776212e6bfc90a3c68b392be&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.488Z"
         }
       }
     },
     {
-      "Id": "106cc54c-ec6d-80d1-b25d-e28d2aed4b42",
+      "Id": "311cc54c-ec6d-81cb-b464-c9c1222faa18",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Heading2": {
         "RichTexts": [
           {
@@ -213,10 +210,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-8033-b21e-c2c490154ded",
+      "Id": "311cc54c-ec6d-818a-b818-d82389cedd07",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -228,10 +225,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditoren im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. ",
+            "PlainText": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditor:innen im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. ",
             "Href": null,
             "Text": {
-              "Content": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditoren im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. "
+              "Content": "Als Experten für Energieeffizienz und Ökobilanzierung sowie mit zertifizierten DGNB- und BiRN-Auditor:innen im Team unterstützt BuildSystems Unternehmen dabei, erforderliche Ökobilanzierungen und Zertifizierungen zielgerichtet abzuwickeln. Unsere Beratung geht jedoch darüber hinaus: Mit einem übergreifendem Ansatz begleiten wir Unternehmen dabei, sich kurz-, mittel- und langfristig zukunftsgerichtet aufzustellen um die Chancen, die sich im Nachhaltigkeitsbereich bieten, erfolgreich zu nutzen. Dafür integrieren wir Prozesse nahtlos in die bestehende Praxis und optimieren parallel zum Tagesgeschäft. "
             }
           }
         ],
@@ -239,10 +236,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-8066-895d-c396dc701a52",
+      "Id": "311cc54c-ec6d-81eb-afaa-c7e3f013f411",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Heading2": {
         "RichTexts": [
           {
@@ -266,10 +263,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-80f4-87b3-f592e9c20bd1",
+      "Id": "311cc54c-ec6d-81c0-b5ea-c5d10f5874d9",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -292,10 +289,10 @@
       }
     },
     {
-      "Id": "11bcc54c-ec6d-80a2-a8ad-e727bba82db1",
+      "Id": "311cc54c-ec6d-8171-9cc9-cddd1bcda986",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -333,10 +330,10 @@
       }
     },
     {
-      "Id": "11bcc54c-ec6d-8055-ba08-dcc14311f0c0",
+      "Id": "311cc54c-ec6d-8112-8b28-e041931e2ec8",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -374,10 +371,10 @@
       }
     },
     {
-      "Id": "11bcc54c-ec6d-80ad-a1e0-e89768120b38",
+      "Id": "311cc54c-ec6d-8101-a339-dfbf94d99556",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -415,10 +412,10 @@
       }
     },
     {
-      "Id": "11bcc54c-ec6d-8074-932a-faca0ba8aa78",
+      "Id": "311cc54c-ec6d-81c9-bb97-fed05ef7d127",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -441,45 +438,45 @@
       }
     },
     {
-      "Id": "118cc54c-ec6d-80a7-a7b9-d2ca640eac88",
+      "Id": "311cc54c-ec6d-8160-ab13-d67d5dd172b3",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "118cc54c-ec6d-8025-825f-d0e05c799b60",
+      "Id": "311cc54c-ec6d-8107-8797-f448c25419ee",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "118cc54c-ec6d-8073-95f1-d281382596de",
+      "Id": "311cc54c-ec6d-8106-915b-d4e886a1d083",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Image": {
         "Caption": [],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06ec013e-7376-444c-bf97-2f39786308d6/nachhaltigkeitsprozesse-optimieren_diagramm.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663XME2FMC%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDyJmiJb9dFGHabSXxCg%2F6aBaDabYzDiKiS%2FRy9fb3ePAIgIIou%2BxBZfkHz44tJh5kprni4njTMtT13TeahAzS9OM0qiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA82MV%2B361rMfU64VCrcAy6%2FrTzQLwQwM3%2BxmLXIfRZEz9di1xpbHVcTBo4xhrssUf9oyskMMcMFDdmWA604%2Bn6k6fH1kbkcswHW%2FFPLSZQ0LSJPL6lQDH2pd%2FDXVVEu12vRHM%2BwS2MYZ0P7Pmppn7hPgxZr07mbYC58%2BHkWmEyQ2MrQpAgSV4qT0zz5CeYexo%2BjNxM0bejBiITJvpu5dcmWTtRtcbyh84Hm8frjwDpG5%2FO9mixdXyN82hwZzgix4KuSFeNkBYbche%2BCw4s7UCypKfdY%2FbMHfnwBgTN185zud%2FckqyVprw1UDUYJ8lmNqFepA8nxPxZBXhyPESZu%2Fl8Gzfqx%2BYdGvsXHx%2BLugtTm1%2Bou8cRG0%2F49%2FRjmshr8NULwc%2FOBho4dNQvyuK%2Bc0LNBhtBL3DdJHBSLFJ2ZjLiH1d%2BnTcdeK8QGM2gykMW0ViMRpu55Sxj5bHL3oLS1lh1n3hP26bKMM9n%2FjvTrWDFaJdjl5HBKKa7nOox8xiAUIbXQZhXUVQ77q%2BhQJ%2BeYYvdYSyaEaf5ds6DW1F%2BEbREKL42GRYH7HAxijfmy5C0eO8j4e18Mw0g9Shq4To8piuSG6TzzvWKGSFW46YSQKYokJ1%2FgQPCUw5e9MCxbDfa0HtN%2Ba8Rq8zgUUTH2MPqArM0GOqUBBJZNotpvjhwfSVbb1uhnl1zhsFrCEDZpkqIr87GJ1HRQ%2FD45lZNdu7m4s%2FRmEu4rz7Csg8jh69IO2Muw%2BsfTknpWzaHfEJ3%2BXCvfXLvUrpT6zkGp9SqwVw31jA0Ufibw8X6UVzzMwSgqe05Of2i7psQlnRP61%2Fpr6Ax070Ez6XHoJ1vIVFBH7wqgJMd3FuJOSeWQQyKEAf40JHQglsyP2W7PbWsX&X-Amz-Signature=50762283c55258d119b2f90d5cc9250696b9c1434bacb026532a0a3fc5743dfa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.769Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/06ec013e-7376-444c-bf97-2f39786308d6/nachhaltigkeitsprozesse-optimieren_diagramm.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UHCXN3H5%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCp3PAxUFQOXKD%2F4gDDQd3Gp38sw7CY5Edb0ilJqTHgYQIgO1DuiB7ldnmdwp4uYfOLdM6gxK%2FFKWXP%2B9HebRKIouQq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDKK1UPM7nmyk%2Fs9HRircA8%2FTdtBWu56fESgUmErI4dBEJIKPrs1Da1tMlrUlRRQGiYBwpwbStgetre64tVQnJiNSXeOM%2F6MNd3n3BpmdD1bNgpTShNlPzobs%2FPKBWXd72Ah%2FFkfs%2BawS5dETCltvmKca4e06XhgpbZGLl42sY3iV7uMW1RCD7YHh3ByzEzK3IvimvdbLnv1hvkzPlZVpopLJy05y4IBm%2FYnzOju9NMIZrSYvFXOYrlZYujbdFc4wKHc0PtuYjZTSbS39ZdWjhi7hzFYDvfNH0qXd0t2%2BCjgWdWk2Annq2vQm%2F9lKfytGCcnGy0OMBVmXHSb4ZkOnyhltRkjycim%2B9F0Pwt2EPeDWDGK4QHQBsy91x867R4pLnN1eYLPRA0iYVBYHu8bnW4ZRdY09DNVQCR7PauiSCUn%2Fp63rfvVaRyaRjxneKazFXIoG1aMHVbxc2fmFlwJgZUUmGxAv0yNQ7iNmqtdN42Trya5APF0Zj9pGO7lKO7RYlM4ici9tg%2FXOh9dTG4mxGDCXDXZW6z1jsTVgWrb0LhnVaG8opBeJ5sdeGCXpdo00GJBUkIvK3nGvfIWoStvTQL9BTQn4bbupKQZT9%2B9NSlzm%2FocyL0D%2F0%2BThUvdRtWf2%2B97cQDxDjqqPRMw9MO6B8s4GOqUBruz%2FqB%2FkN7Vha2eeHb%2F51KvKOEyVpxqJ7DmWKpVINKm%2FMOh26mVuiMiB5dAPP8paXjMJ%2FA7ySsKJKDJqX3NxbZbE1GvZp4UQB6L7FjfVTHrAaM1%2F1jET7e7%2FcWPPES8rmoGW52jnZBi8yuPyUQUWKFQb8bmIZivMVCrgEOtvGvpFy6q%2BnMgWuEiW4Cgo7PH2R5tJ38csM9Ra9%2BVzKOPMRJFowBR5&X-Amz-Signature=17f19be2e51fb1a078f20ba5e8cbc53e38225533ab51fbd4e3d2fd6bd9f1a1b8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.485Z"
         }
       }
     },
     {
-      "Id": "4b99a4f2-f8a1-46c4-a195-01801cf76b20",
+      "Id": "311cc54c-ec6d-812d-82dc-d2ad9b61c742",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Heading2": {
         "RichTexts": [
           {
@@ -503,10 +500,10 @@
       }
     },
     {
-      "Id": "b8ff7de2-ea3f-471e-9b5e-8916ee8d0cbc",
+      "Id": "311cc54c-ec6d-812c-8ef5-c4b67bedf9af",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {
@@ -529,20 +526,264 @@
       }
     },
     {
-      "Id": "eaaeeb88-de58-4ebe-abdc-25031af7dfef",
+      "Id": "312cc54c-ec6d-80fa-a186-fafe3f06ab72",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "97537b20-bd19-4cc2-930a-26af78315e1f",
+      "Id": "312cc54c-ec6d-8037-9aa2-d5c4fcd02873",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "340e1098-3edb-4e5b-ad7c-c4b91b5c6954",
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Konkret haben wir für unseren Kunden folgende Leistungen erbracht:",
+            "Href": null,
+            "Text": {
+              "Content": "Konkret haben wir für unseren Kunden folgende Leistungen erbracht:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-8044-a6ce-dbb33297e32d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Strategie: ",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Strategie: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-80cb-b6db-cbc8599e6eb2",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zielfindung: Einbindung von Fachplanern, Auditoren und Softwareanbietern zur Formulierung einer klaren Zielsetzung",
+            "Href": null,
+            "Text": {
+              "Content": "Zielfindung: Einbindung von Fachplanern, Auditoren und Softwareanbietern zur Formulierung einer klaren Zielsetzung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-8073-b5b8-faea68b8a62d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsstrategie: Analyse bestehender Unternehmensprozesse und Identifikation von Optimierungszielen im Zertifizierungsablauf",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsstrategie: Analyse bestehender Unternehmensprozesse und Identifikation von Optimierungszielen im Zertifizierungsablauf"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-80f6-811a-c61c329d1e44",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsstrategie: Entwicklung effizienter Workflows zur Integration der Nachweisführung für Nachhaltigkeitskennzahlen in Planung und Ausführung",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsstrategie: Entwicklung effizienter Workflows zur Integration der Nachweisführung für Nachhaltigkeitskennzahlen in Planung und Ausführung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-8081-8ec6-ea09ae40dee1",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Projektmanagement: Abstimmung von Zieldefinition, Rollenverteilung und Prozessstruktur mit internen und externen Stakeholdern",
+            "Href": null,
+            "Text": {
+              "Content": "Projektmanagement: Abstimmung von Zieldefinition, Rollenverteilung und Prozessstruktur mit internen und externen Stakeholdern"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-8062-a374-fd59f7807efd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Praxis:",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Praxis:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-80fe-bec0-c5d0c2327d1f",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Energie- und Fördermittelberatung: Abstimmung von Zertifizierungsanforderungen mit KfW-Förderkriterien für Neubau und Sanierung",
+            "Href": null,
+            "Text": {
+              "Content": "Energie- und Fördermittelberatung: Abstimmung von Zertifizierungsanforderungen mit KfW-Förderkriterien für Neubau und Sanierung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-8021-8eb9-fffbd0555a27",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zertifizierungen (BiRN, DGNB): Strukturierte Begleitung von QNG- und Nachhaltigkeitszertifizierungen inklusive Ökobilanzierung und Nachweisführung",
+            "Href": null,
+            "Text": {
+              "Content": "Zertifizierungen (BiRN, DGNB): Strukturierte Begleitung von QNG- und Nachhaltigkeitszertifizierungen inklusive Ökobilanzierung und Nachweisführung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-812c-9c05-f7023a5df073",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8129-ba80-c54bb711c2b8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-80f4-8cdb-cdc31a19cc48",
       "Paragraph": {
         "RichTexts": [
           {

@@ -1,6 +1,6 @@
 {
-  "PageId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-  "Title": "CSRD und die Bauwende: Wesentlichkeitsanalyse by BuildSystems",
+  "PageId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+  "Title": "CSRD und die Bauwende: Wesentlichkeitsanalyse by BuildSystems ",
   "Authors": [
     {
       "id": "gt`}",
@@ -14,13 +14,10 @@
     }
   ],
   "Category": "Projekt",
-  "Icon": {
-    "Type": "external",
-    "Url": "https://www.notion.so/icons/feed_gray.svg"
-  },
+  "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/2e972fd7-afb3-4b94-a3eb-32e0337f43b0/wesentlichkeitsanalyse-buildsystems_trends.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=00528037b3dea9007d9997d87418e689512ca9930376f186a5f7e7dbc236fb17&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/2e972fd7-afb3-4b94-a3eb-32e0337f43b0/wesentlichkeitsanalyse-buildsystems_trends.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=b011d9b581b7218c54909d764d9fcc9f53b77c94151bf77d241b1b0cc9af5fa4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "workshop-wesentlichkeitsanalyse-BuildSystems",
   "Slug": "wesentlichkeitsanalyse-buildsystems",
@@ -35,15 +32,15 @@
   "Description": "BuildSystems entwickelt Methodik zur Wesentlichkeitsanalyse für Bau- und Immobilienunternehmen",
   "coverAsset": "wesentlichkeitsanalyse-buildsystems_trends.jpg",
   "blockAssets": [
-    "wesentlichkeitsanalyse-buildsystems_diagramm.jpg",
-    "wesentlichkeitsanalyse-buildsystems_5.jpg"
+    "wesentlichkeitsanalyse-buildsystems_5.jpg",
+    "wesentlichkeitsanalyse-buildsystems_diagramm.jpg"
   ],
   "blocks": [
     {
-      "Id": "106cc54c-ec6d-800f-b73d-d73101e28929",
+      "Id": "311cc54c-ec6d-8163-9563-fd6af7c82b50",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [
           {
@@ -66,10 +63,10 @@
       }
     },
     {
-      "Id": "10dcc54c-ec6d-80e3-80dd-c785c99e305d",
+      "Id": "311cc54c-ec6d-811d-a822-e3860cd3ff07",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [
           {
@@ -92,10 +89,10 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-8039-8636-f52e01916219",
+      "Id": "311cc54c-ec6d-81e8-aa2e-e70faf553954",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Heading2": {
         "RichTexts": [
           {
@@ -119,10 +116,10 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-809b-be65-da36b8351b41",
+      "Id": "311cc54c-ec6d-8153-8216-f27790b54e02",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [
           {
@@ -145,10 +142,51 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-8073-9073-ee85f2bbd2e0",
+      "Id": "31fcc54c-ec6d-8082-8460-cb854a06fcda",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-81a2-9598-d3381ee726e5",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell.",
+            "Href": null,
+            "Text": {
+              "Content": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c2f8acdc-bc68-4cd7-a0e2-f154caf342a1/wesentlichkeitsanalyse-buildsystems_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VYW3NE22%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCaXfrb5249msnoc3fO6bSI3dTfXoNDWZ9td3Lg4S9sAwIgCGIOESrxz5BkC3y%2FNEYPTktGH416IENCJD8kq4WoFM0q%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDBXcM83yAc0wJUC6mCrcA9EohLolTIH2E0M%2FzgnnrzclDvDscy5ISWjWaXNw5%2F8b3HvuFipkeayveYLIBBqqdzt%2BZ0KyxFkjCFIDYSu6AxZm2XrK%2B8y1huf2hNYPWpoaReFfN0wBreWrh9zC6vIki5M1GSYmZ6qcwq4gmVFsa%2FsiBckEenXPV%2FbAJ%2BSJUMGMhgB%2BRg1ihaoSbuXFKkXKcRtCotU0O22mu480WVqcZPMcbxeVtQc5KgmnXyXAxxgoVLB89iarRcBp4RTjFjxmCPuk8480HPnb%2F7KSPGvWK2pQOuc7PWEcwU3Ob1B4CdLC04qsqxMOVEokaR4%2BeohdeDKBWWRMZRzzYLtU28lx5OdGnD8b6lCqwaru4mvDkcSYvYK3mq%2F7B7AXsNjTlOSv8azBIDOH5EaZLrZJCclZIB54AdKWmAzYHUd6sp0bVqXqVixVl%2B6NgYLPt1OkaH9W52UnPBE38CX9bW6U5hC8vDESXndWLjRB0wCZm519oCKCe2u9JKCCb9BaX6fR9Tvi4U%2BPY7Z7JU%2FTLBvcDuOAAbp8zD6cTxBFYauskYNds4cRSZ6VAD2siNDreKtaSdSzuLQh%2FQnsHXEk4y71B4Uw5G6nlwwXXWXKZXBk99uaKBsHkuQrx475URiZY1m%2BMNKA8s4GOqUBwiP%2FG4KeawMBlJJEXjGbPvWXtXVr8IFV1kV%2FMxXQSQxA6OG2vSswWfOclz5bn%2BCf2eULMUdYGbpxab4twTwu1pw4nNew6LUJ2lrq3yvlcz%2BT5%2FwsKWQsiYwKCkbwBfd5mcAbnRBpJ%2FWqiUWmjpwIwQSMW5ELXkPXIfnbFTljUQUvz80oClEHClBRXjIn2dUDhPZivQ%2FfWJ9aNoC0GkMDWNVad2X3&X-Amz-Signature=6f06dbca171b297b1e17d9cd49952cb672885129acc34b2734b525280462969c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.782Z"
+        }
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8197-a272-e30b25753fb4",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Heading2": {
         "RichTexts": [
           {
@@ -172,10 +210,10 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-8077-8a44-e1ad8ccedf88",
+      "Id": "311cc54c-ec6d-81d1-b2fd-f1d2ac95c839",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [
           {
@@ -187,10 +225,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind.",
+            "PlainText": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind.\n",
             "Href": null,
             "Text": {
-              "Content": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind."
+              "Content": "Die Analyse relevanter Nachhaltigkeitsthemen erfordert eine strukturierte Vorgehensweise, um alle wichtigen Einflussfaktoren im Bau- und Immobiliensektor zu berücksichtigen. Von der Erhebung grundlegender Unternehmensdaten bis zur Auswertung durch Expert*innen wird jeder Schritt sorgfältig durchdacht. Dies ermöglicht eine zielgerichtete und belastbare Einschätzung der Themen, die für eine nachhaltige Ausrichtung des Unternehmens entscheidend sind.\n"
             }
           }
         ],
@@ -198,10 +236,10 @@
       }
     },
     {
-      "Id": "106cc54c-ec6d-8076-be77-ce63ea6748e2",
+      "Id": "311cc54c-ec6d-813a-8dc6-ce03e6efc853",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Image": {
         "Caption": [
           {
@@ -213,37 +251,53 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse.",
+            "PlainText": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse.\n",
             "Href": null,
             "Text": {
-              "Content": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse."
+              "Content": "Diagrammatische Übersicht der Schritte mit den Stakeholdern, der Methodik von BuildSystems, den daraus zu erarbeitenden Inhalten und die schrittweisen Ergebnisse.\n"
             }
           }
         ],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/23ff09f9-54b2-443a-a662-0366456994de/wesentlichkeitsanalyse-buildsystems_diagramm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VW2VGEME%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQDYY21QmVSB2cWSxJrALBRZq6pL9B9b0iZBYQMVJ4%2B7PQIhAOyAwsf%2BRXHWagcONcTlXCAXjvxSGbHCGsqNAgXb93BcKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2BwKjM8I9YYYV1r4sq3ANK6AywTg1gJV4xUqDQ9kkJiUtS18U7zXFlL1XyhXZ3h5AaRcgBw8mFEI2RHGzZJNhoj1y4j6aZekkwO7f7W9357ALb7MJSw2%2F45JGez8w%2FTfPmZKSFs%2FGLYS%2FWPz37Ycm9N38Jqnjat5qPDUA3kw7daKZYw%2FyFA%2FAg6T9T%2FlB0%2BpsR6vdOX4zGRtSp9%2BVGMavftOqOBg4OFDcE6VKU7nsNlVogowBIurGE8F6GphsCZ6wlc6yMNbMigqiaMHWL%2FB%2Fj650d7KPUaV%2B5xu3uiMDEJzA1FR6L71NFY7hpglTiIEFyDyQUZIrcMGTXUf37NuldAPSR9RwxHU9SCdKbN0BDB9ydr1rJxC8m2juU5zbYHZSb95L%2BDSdNtNOJpDwWBUvdabQOaDzl746OpEyPjkl9ihm6vLNBo8XFTeoCbHwu7UrPoSCEh5bclFKpHf%2FWFk1FTfz%2B%2FIJwiWblupnSrQfjtpXBpxm88AaxnkNvwYwA1dFquPY692SjRTT82Q9itASsp4iajYHwYMLk3YTIHVsHZEVeKo4h4xxTtENpXRPGGywG%2BYVGtaj8lGq4IrOvLKsPLr0YCptenuQNXEsmkkxgNtoodwFPFL94sxSrG5x%2BF8S3hSyV1HCCcY2B4jCZgazNBjqkAcs0mIn5Evt%2Fto81pDsQahHFSfPgYB3sbFcP7Jj1i2QFW8DpIeCZi69Wt0CJoWUkWpS8HfiXPXlElNNw3zFlIIuMIMBPhpaQUqrwgPjkX8yaJJbEIErGWrhvePx4YO5O4f13o%2BnfuWsGEXY83V9FNpretauD93560uvdw7XhXNs%2Fmm5XBzE2JlNwKnnSmLiCJRRQKIH4PeKRXEPRgEFzSVEbSV5M&X-Amz-Signature=a841344fdc23adee7818fd43b31c32e5c9247928a1bc58461e02ec3a6b5869a4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:56.257Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/23ff09f9-54b2-443a-a662-0366456994de/wesentlichkeitsanalyse-buildsystems_diagramm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VYW3NE22%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCaXfrb5249msnoc3fO6bSI3dTfXoNDWZ9td3Lg4S9sAwIgCGIOESrxz5BkC3y%2FNEYPTktGH416IENCJD8kq4WoFM0q%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDBXcM83yAc0wJUC6mCrcA9EohLolTIH2E0M%2FzgnnrzclDvDscy5ISWjWaXNw5%2F8b3HvuFipkeayveYLIBBqqdzt%2BZ0KyxFkjCFIDYSu6AxZm2XrK%2B8y1huf2hNYPWpoaReFfN0wBreWrh9zC6vIki5M1GSYmZ6qcwq4gmVFsa%2FsiBckEenXPV%2FbAJ%2BSJUMGMhgB%2BRg1ihaoSbuXFKkXKcRtCotU0O22mu480WVqcZPMcbxeVtQc5KgmnXyXAxxgoVLB89iarRcBp4RTjFjxmCPuk8480HPnb%2F7KSPGvWK2pQOuc7PWEcwU3Ob1B4CdLC04qsqxMOVEokaR4%2BeohdeDKBWWRMZRzzYLtU28lx5OdGnD8b6lCqwaru4mvDkcSYvYK3mq%2F7B7AXsNjTlOSv8azBIDOH5EaZLrZJCclZIB54AdKWmAzYHUd6sp0bVqXqVixVl%2B6NgYLPt1OkaH9W52UnPBE38CX9bW6U5hC8vDESXndWLjRB0wCZm519oCKCe2u9JKCCb9BaX6fR9Tvi4U%2BPY7Z7JU%2FTLBvcDuOAAbp8zD6cTxBFYauskYNds4cRSZ6VAD2siNDreKtaSdSzuLQh%2FQnsHXEk4y71B4Uw5G6nlwwXXWXKZXBk99uaKBsHkuQrx475URiZY1m%2BMNKA8s4GOqUBwiP%2FG4KeawMBlJJEXjGbPvWXtXVr8IFV1kV%2FMxXQSQxA6OG2vSswWfOclz5bn%2BCf2eULMUdYGbpxab4twTwu1pw4nNew6LUJ2lrq3yvlcz%2BT5%2FwsKWQsiYwKCkbwBfd5mcAbnRBpJ%2FWqiUWmjpwIwQSMW5ELXkPXIfnbFTljUQUvz80oClEHClBRXjIn2dUDhPZivQ%2FfWJ9aNoC0GkMDWNVad2X3&X-Amz-Signature=4db2e2bf11bdaabc482a20bafc081ad50b7f5b02160698b75499e8e85ea3440c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.792Z"
         }
       }
     },
     {
-      "Id": "77e5fb72-fb95-4bf1-82fb-8b3c260ab6de",
+      "Id": "312cc54c-ec6d-805c-a745-cc47eb29a5f7",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
-        "RichTexts": [],
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Folgende Leistungen erbringt BuildSystems im Bereich Wesentlichkeitsanalyse im Zuge des CSRD Reportings:",
+            "Href": null,
+            "Text": {
+              "Content": "Folgende Leistungen erbringt BuildSystems im Bereich Wesentlichkeitsanalyse im Zuge des CSRD Reportings:"
+            }
+          }
+        ],
         "Color": "default"
       }
     },
     {
-      "Id": "105cc54c-ec6d-804d-a2c7-e653ae625c9d",
-      "Type": "numbered_list_item",
+      "Id": "312cc54c-ec6d-80de-af4d-f883e4d77c19",
+      "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "NumberedListItem": {
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
@@ -280,11 +334,11 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-8015-8856-f29f0856f264",
-      "Type": "numbered_list_item",
+      "Id": "312cc54c-ec6d-80b8-9f50-c1af834b4b44",
+      "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "NumberedListItem": {
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
@@ -321,11 +375,11 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-804a-b36e-c6483678b25d",
-      "Type": "numbered_list_item",
+      "Id": "31fcc54c-ec6d-8074-b28c-f252b5d5e1ed",
+      "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "NumberedListItem": {
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
@@ -362,11 +416,11 @@
       }
     },
     {
-      "Id": "1d629026-d84e-48b5-bb6d-68c39a8f9394",
-      "Type": "numbered_list_item",
+      "Id": "31fcc54c-ec6d-800c-8768-cd8ec9304ad8",
+      "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "NumberedListItem": {
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
@@ -403,11 +457,11 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-80c9-979a-f9728c13471c",
-      "Type": "numbered_list_item",
+      "Id": "312cc54c-ec6d-8050-a0a6-e867993efa2e",
+      "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "NumberedListItem": {
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
+      "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
@@ -444,61 +498,20 @@
       }
     },
     {
-      "Id": "105cc54c-ec6d-80b3-87fa-f53866b6128c",
+      "Id": "31fcc54c-ec6d-8090-bffd-d53c35b67aba",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "b06a220a-4d55-4a1e-8442-6316a005b96a",
-      "Type": "image",
-      "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "Image": {
-        "Caption": [
-          {
-            "Annotation": {
-              "Bold": false,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell.",
-            "Href": null,
-            "Text": {
-              "Content": "Workshop-Formate sind für den dritten Schritt der Wesentlichkeitsanalyse, der Stakeholder-Befragung, essenziell."
-            }
-          }
-        ],
-        "Type": "file",
-        "File": {
-          "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c2f8acdc-bc68-4cd7-a0e2-f154caf342a1/wesentlichkeitsanalyse-buildsystems_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VW2VGEME%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQDYY21QmVSB2cWSxJrALBRZq6pL9B9b0iZBYQMVJ4%2B7PQIhAOyAwsf%2BRXHWagcONcTlXCAXjvxSGbHCGsqNAgXb93BcKogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx%2BwKjM8I9YYYV1r4sq3ANK6AywTg1gJV4xUqDQ9kkJiUtS18U7zXFlL1XyhXZ3h5AaRcgBw8mFEI2RHGzZJNhoj1y4j6aZekkwO7f7W9357ALb7MJSw2%2F45JGez8w%2FTfPmZKSFs%2FGLYS%2FWPz37Ycm9N38Jqnjat5qPDUA3kw7daKZYw%2FyFA%2FAg6T9T%2FlB0%2BpsR6vdOX4zGRtSp9%2BVGMavftOqOBg4OFDcE6VKU7nsNlVogowBIurGE8F6GphsCZ6wlc6yMNbMigqiaMHWL%2FB%2Fj650d7KPUaV%2B5xu3uiMDEJzA1FR6L71NFY7hpglTiIEFyDyQUZIrcMGTXUf37NuldAPSR9RwxHU9SCdKbN0BDB9ydr1rJxC8m2juU5zbYHZSb95L%2BDSdNtNOJpDwWBUvdabQOaDzl746OpEyPjkl9ihm6vLNBo8XFTeoCbHwu7UrPoSCEh5bclFKpHf%2FWFk1FTfz%2B%2FIJwiWblupnSrQfjtpXBpxm88AaxnkNvwYwA1dFquPY692SjRTT82Q9itASsp4iajYHwYMLk3YTIHVsHZEVeKo4h4xxTtENpXRPGGywG%2BYVGtaj8lGq4IrOvLKsPLr0YCptenuQNXEsmkkxgNtoodwFPFL94sxSrG5x%2BF8S3hSyV1HCCcY2B4jCZgazNBjqkAcs0mIn5Evt%2Fto81pDsQahHFSfPgYB3sbFcP7Jj1i2QFW8DpIeCZi69Wt0CJoWUkWpS8HfiXPXlElNNw3zFlIIuMIMBPhpaQUqrwgPjkX8yaJJbEIErGWrhvePx4YO5O4f13o%2BnfuWsGEXY83V9FNpretauD93560uvdw7XhXNs%2Fmm5XBzE2JlNwKnnSmLiCJRRQKIH4PeKRXEPRgEFzSVEbSV5M&X-Amz-Signature=68ed39ef69a40578f60f58280b462c81fa37ff7ddb07cc31b1ccfe8dfd396512&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:56.256Z"
-        }
-      }
-    },
-    {
-      "Id": "881f0ac2-1194-45c9-b8e7-6a7bb7bc9215",
+      "Id": "311cc54c-ec6d-8133-82fe-da80a45df38e",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "5d729213-57d6-4e87-8aff-267b927ccf66",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [
           {
@@ -536,10 +549,10 @@
       }
     },
     {
-      "Id": "9c2fb4f3-678c-4d20-9025-eea5a2358912",
+      "Id": "311cc54c-ec6d-81e3-aede-f84f4f556e0a",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "a2575340-caf2-411e-9ecc-cb1216dbbeec",
+      "ParentId": "311cc54c-ec6d-808b-84f4-f3ae4164576c",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"

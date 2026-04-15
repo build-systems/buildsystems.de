@@ -1,0 +1,316 @@
+{
+  "PageId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+  "Title": "Slow Hospitality meets Baustelle: Einblicke in den Prozess der Zirkularität",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "Work in Progress",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/3aa0483f-fee5-4837-ac2e-de20909a57af/prozess-der-zirkularitat_kellerstockl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=58480023b4d2d8ced116725635bb0a840558bcfd8da79504965de53f2cbd750d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "prozess-der-zirkularität-kellerstöckl",
+  "Slug": "prozess-der-zirkularität",
+  "PublishDate": "2025-10-20",
+  "Tags": [
+    {
+      "id": "beb85fcd-fc13-4348-b7ca-23c173fea654",
+      "name": "Praxis",
+      "color": "green"
+    }
+  ],
+  "Description": "Auf die Entwicklung eines ganzheitlichen Konzepts, das Weinbau, Tourismus und Architektur strategisch vereint, folgt nun die bauliche Umsetzung. In der Baustellenphase stehen das präzise Weiterbauen im Bestand, der achtsame Umgang mit Materialien und die zirkuläre Logik des Bauens im Mittelpunkt – als Ausdruck einer zeitgemäßen, regional verankerten Architekturpraxis. ",
+  "coverAsset": "prozess-der-zirkularitat_kellerstockl.jpg",
+  "blockAssets": [
+    "prozess-der-zirkularitat_baustelle_1.jpg",
+    "prozess-der-zirkularitat_baustelle_2.jpg",
+    "prozess-der-zirkularitat_baustelle_3.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "294cc54c-ec6d-80f3-bd25-df6597ed04c6",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Von der Entwicklungsstrategie zur Baustelle: Einblicke in den Prozess der Zirkularität",
+            "Href": null,
+            "Text": {
+              "Content": "Von der Entwicklungsstrategie zur Baustelle: Einblicke in den Prozess der Zirkularität"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8073-95c9-e9b343183ab6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der bestehende Baukörper des Bioweinhofs Locknbauer präsentiert sich als heterogene Agglomeration unterschiedlicher Konstruktionen, Anbauten und Dachformen, die über die Jahre gewachsen sind. Diese Schichtung aus funktionalen Ergänzungen und gestalterischen Brüchen bildet die Ausgangsbasis für den aktuellen Umbau.",
+            "Href": null,
+            "Text": {
+              "Content": "Der bestehende Baukörper des Bioweinhofs Locknbauer präsentiert sich als heterogene Agglomeration unterschiedlicher Konstruktionen, Anbauten und Dachformen, die über die Jahre gewachsen sind. Diese Schichtung aus funktionalen Ergänzungen und gestalterischen Brüchen bildet die Ausgangsbasis für den aktuellen Umbau."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8058-8aae-eab12d547e02",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge des nachhaltigen Rückbaus werden störende und unproportionierte Ergänzungen – darunter die Anbauten an der vorderen rechten Ecke, der Carport und der Eingangsbereich – sowie abgehängte Decken und gegebenenfalls Teile des bestehenden Dachs entfernt. Durch diese Maßnahmen wird die ursprüngliche Gebäudestruktur wieder lesbar und schafft Raum für eine neue, ökologisch durchdachte architektonische Ordnung.\n",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge des nachhaltigen Rückbaus werden störende und unproportionierte Ergänzungen – darunter die Anbauten an der vorderen rechten Ecke, der Carport und der Eingangsbereich – sowie abgehängte Decken und gegebenenfalls Teile des bestehenden Dachs entfernt. Durch diese Maßnahmen wird die ursprüngliche Gebäudestruktur wieder lesbar und schafft Raum für eine neue, ökologisch durchdachte architektonische Ordnung.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80df-be2a-fab3f129a6c6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "294cc54c-ec6d-8049-81cf-d4ed3e7cef6f",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "294cc54c-ec6d-805f-9afd-df2696b3b22c",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8050-961b-f9af11703453",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7dbb5b83-631f-4056-8338-450b19cb4e10/prozess-der-zirkularitat_baustelle_1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WVATYHDO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063925Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFbgD%2BS7qJUo%2Bz%2Fz6%2BFqZ%2FpftrY0ttvWUTH95ob4IVjoAiEA6U9tQOtcwCY3hWPzv27jZQmELiFZ1Wq1oMuHz4raPWsq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDKKmjVwUAozHt2q5%2FSrcA4WLaiMGZ38DujeGrE2krI2g%2BhtyCOfd97a1qR8XNKzYxTNvCgplSlMIu83pIjmd3RFv1GBCp4iZ0os9XJrcgbzu%2BHVIIu2hy5KICW4qeEmbqHv251ooCDtekeaItUx3VBpf7ZVMgx7Zn0yuvXnNZy91T4%2Bz0EInG3n1NdxZ0MMriEhaQECod%2FMZ1X7MfMhLLri6mfrJb2J1qmnutJQHgAG9%2FT7x6EVs9lYUdVc1gy%2BfBs2O3w0rLSFYA9C1KL%2FZZmpXvmy85URxIsUG7yJQ4pfxC1W7rdT0oYx2YnWZSe1j8GOAtfTUKix4OQwDrQW5QyZAwnlY9FFXIezArdp6IobWFn078bb4d95fftcpq1hYdVTZV6LuKOSXigLgIZgI46PXrqqkkTooMliWgSDEYArVOyH8x98PSTW%2FtgGPFAwpJdJpxcGxqZyVo3s1klJCW64ZKCxvJPmJbo5fzMdnGcJFqDKFR%2BJ%2FMiw9pf06ZAXChz%2FCGndVePlUWzaCpiueM1y4X1z7MNPHXXFgKE2Gj4SzJc8f%2B8be%2Btza%2FQAVVAI8ZqEugYwF4qHMVi0urdB2cKlwUxAh%2FjsmpHfYmybU2ShsmvLSEKq62IHRwCCaMjo0QwA5Bzjg7gjQWYhJMO6A8s4GOqUBE2klzcdOnxYtYHr3ah4lr6o%2Bdey0KwX5Q4ErJXxZrHlrBGYRlg72gbpf21CrjFIEZuMdwz77sTVsaMZNGFrDvt1x37Fl8BAH0sPIXGAdriMi0kPH5iMe8uFW2m%2Ft4we3dnGIk4CuZAHSb4f3LzTv%2BN7BQGUGTvEH7mO1aOzShYZmtZs1QI6LWt%2B8pW1mxQ%2BpcYLCKVoxaBu%2FU9C1Cz1htqQWV3QH&X-Amz-Signature=86e47e9ed7eb83688d79b87f9a364b014774b64d47b921bc2fd27f75646aed28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-04-13T07:39:25.448Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "294cc54c-ec6d-805b-b1eb-e4dca2a30646",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8048-8a00-e16f92475ccb",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/61acbd60-e88a-44df-bc8f-8cd5a8137a13/prozess-der-zirkularitat_baustelle_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y2AQIECU%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063925Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFZToKziVbpfccCt4nQ4oXrJ6eHUV7sZtuJDrvA9Fd5oAiEAqcnyylkREZfmo0D6sWTxF8%2B6dLYAi8rNmdplcMIS8r0q%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDDSqOo4Q%2BS%2Fwl2pkxyrcAyhb985yyqCdgsDPxGsG%2B1l7XgMDtyQQGzzsabZqMrb4%2FSvDVzuVYMGkyJro0ASZjWOB%2FPT7SVQO9INLuq%2FkwD3s2KdyEHZQtdmRPdOsUJTMQMul7WXFcY8zOkOSl1pWbWuDbiCNSr2vCoDDPNDETefVUNzg0SSFPn1Rf1jKUuO9wB3hErGZHAX%2BzDwSHZ0pxjdfExrdctE3RxLTfXRBRfXzwvJw5WD48gAnMYVUGD2%2BHJ1JMaakf%2FEYHKPWHJ3DuL%2FbVgUQzzqHwPLETVDcKtr1mWlFxieEDJru8Om5LbzFmgabSiTztGce0moPsnrtkXcJL2oYNN3Ucxo8mwla6d%2Bsj7QqSdfc7sH0aZqJ4hAwlPksYicSp90c4KVH51sBfxKKQ%2FjNg%2Bh2xgpY78GexmK1DQlGxDsOccXacyvWTC%2FvkeczcvkJb1Wz6a5FO1cQXilJr6RjmDkjxKpKMWEvEVnRwtdXa%2BWoNgYhvk%2FyC9vBEu%2F4wnpdgto1qSWaVUFczZekO1EU3r3fnhEwtOhrpKPjDovDRhsiIbzhmyvM7vNmCi6xpmtrkjRgpgGMfM9b%2F9ySRtcIt33NesZWaNc2g3v3EPeEWFAmi7fU78I3CH51Iwjym5cuN6tUPkRIMNKC8s4GOqUBt5AqLYIId7HToNqdk7YiIT7LewQX5l%2BUEMumd4nXFdnf6jcBfJJi%2FJ%2B5RMTAur8%2FPhqCb9xM2FKWyIOISRteJe%2B1WJEEDZ3xKV3wT%2BKYeK4E0yEBPjZx3N%2F7vBzyM1MY1oqoApWbFzquqVHYSE69Yh%2BoWqEs%2FPNB5dj5JSHn%2F2p3rdfcmNncBEqGACJZJvg%2BTFvTGgqYES0Qth%2BKdiRD%2BO%2BgcFzj&X-Amz-Signature=ea9778f08577f0209bdb091f85dd1103315e12af3f7a0745e8281aefb448840d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-04-13T07:39:25.445Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "29acc54c-ec6d-8025-b108-e0b4b38e0180",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "294cc54c-ec6d-8024-917d-defca5ff363a",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/934d131d-c65b-4e23-9e19-44843652134f/prozess-der-zirkularitat_baustelle_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UC3HWE77%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063925Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjnzP9lO%2FiXSWNke1z45%2FKt2WUk6xTSV6dTfPqthQchAIgbWQGHwsSkdUJD3g3S2MZLxV6KSwUJsaU%2BZdLGODsjEwq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDFOuHhTTpH%2F3ehaVAyrcA7Suox%2FD41eDIezTzK63bDu5mc9DqPrGLZlbTNE37zuYWWUkppSjDT5ape5HuoU9GheAm%2FrrNPaFeL6aN0aYPLqSC7esRxJ%2Bbnv3tzv3hnywnX2kC49G%2Bw3Hw8n%2FvRmNCTw%2BSUk9oTcjgHKN1PRnAanupgnEJWBQmyWUAL%2FR5hOO%2BC7K55DvPvj3s4doXWW3x27ak3K3JcB%2BKpgWOCmpNN0S5%2FF0JubWNVJeTJLYJzY3kRK474nFC1CPxT4d0oGnlVmCiomiwWDVKdY%2BIpzpVN6tIcd3Sx330Has%2BlZvKgVz%2Bm%2FesQWy7bTEhWRDwW14Ejpp4T%2FWCNkM4m%2F34AsAGp6C%2BzlH2O23LAS67P%2FzR8R7xfz1jBMx3hTkIfeXf%2Bsk7dlfQdl5DYe8LBUs0M0%2Byg9HEjWrZ9FoxbHaaAVBI20vbB%2FDSukgIeCG0wEyAi7GTZ5ahOXH91SMVt5ZYki1su3I1cE%2BiSfo9qAKbJAMQ3v8d8Fx1kb9c8k%2FV8pPreTCW5Med%2FmraR6278P%2FPcTloZYKzTN4GQaCsr98kCUuqVY4sxBMFJ5ZNdo42sqfgeK7hyHs%2BF%2FbMG0aC6UZEWuNnz%2FQgSkyGakBPgr5e%2BS%2FtdKb1hGPMzUvWMxGk93BMJaB8s4GOqUBnDMOWbL1Py%2FG5a6DMBceuAcQh1whUfelzx1%2FXGgrt0KT9CYQr1mSapJjE5bk542nsRE53lgCNLQpTd4E8x4dU%2F4biYL6h8OPYNZk1gMdqUefOAorEcxOPjA16ayE0WKOlSoRUL8oiAWQflr0SZacOi%2F4GMtN4j3tPfndfo%2Bj0qIvw7zYQVe3E5dtfgHVjlBqU7OGuBH6oN8PDBwP%2FhRvBuwjJCxF&X-Amz-Signature=de34e8ae376d6ad52618e3ef4073d2a5da0be6ce373cc3424e0a63d08e8ca583&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-04-13T07:39:25.718Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-804b-8245-c60eefa17743",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80b5-942e-c2eb65913b6a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die neuen Eingriffe fügen sich präzise in den Bestand ein: Eine neue Außentreppe, neue tragende Wände und Stützen sowie ein energetisch optimierter Dachstuhl bilden die Grundlage einer klaren architektonischen Neufassung. Ergänzend entstehen neue Terrassenflächen, die Innen- und Außenräume miteinander verweben und den Bezug zur umgebenden Landschaft stärken – ein wesentliches Element nachhaltiger Architektur. \n\nEin zentraler Aspekt des Projekts liegt im zirkulären Umgang mit Baumaterialien: Die beim Rückbau gewonnenen Ziegel werden gereinigt und direkt vor Ort wiederverwendet. Dadurch werden Materialkreisläufe geschlossen, die graue Energie reduziert und die Geschichte des Hauses im neuen architektonischen Gefüge weitergeschrieben. Diese Form des Upcyclings im Bauwesen zeigt, wie nachhaltige Sanierung und denkmalgerechtes Bauen ineinandergreifen können.",
+            "Href": null,
+            "Text": {
+              "Content": "Die neuen Eingriffe fügen sich präzise in den Bestand ein: Eine neue Außentreppe, neue tragende Wände und Stützen sowie ein energetisch optimierter Dachstuhl bilden die Grundlage einer klaren architektonischen Neufassung. Ergänzend entstehen neue Terrassenflächen, die Innen- und Außenräume miteinander verweben und den Bezug zur umgebenden Landschaft stärken – ein wesentliches Element nachhaltiger Architektur. \n\nEin zentraler Aspekt des Projekts liegt im zirkulären Umgang mit Baumaterialien: Die beim Rückbau gewonnenen Ziegel werden gereinigt und direkt vor Ort wiederverwendet. Dadurch werden Materialkreisläufe geschlossen, die graue Energie reduziert und die Geschichte des Hauses im neuen architektonischen Gefüge weitergeschrieben. Diese Form des Upcyclings im Bauwesen zeigt, wie nachhaltige Sanierung und denkmalgerechtes Bauen ineinandergreifen können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-8073-b187-ecde738bfadf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch im Innenraum erfolgen gezielte Anpassungen. Die Maßnahmen verfolgen das Ziel, den Bestand nicht nur funktional, sondern auch räumlich, atmosphärisch und energetisch zu erneuern – im Sinne eines kontinuierlichen Weiterbauens zwischen Tradition und zeitgemäßer Architektur. So entsteht ein Haus, das Vergangenheit und Zukunft, Baukultur und Nachhaltigkeit, harmonisch miteinander verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": "Auch im Innenraum erfolgen gezielte Anpassungen. Die Maßnahmen verfolgen das Ziel, den Bestand nicht nur funktional, sondern auch räumlich, atmosphärisch und energetisch zu erneuern – im Sinne eines kontinuierlichen Weiterbauens zwischen Tradition und zeitgemäßer Architektur. So entsteht ein Haus, das Vergangenheit und Zukunft, Baukultur und Nachhaltigkeit, harmonisch miteinander verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "29acc54c-ec6d-807c-97ea-fa2acf423018",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "\n©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-8014-b513-f5d4fb41bb2f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "294cc54c-ec6d-805a-8bf3-e4e832037cff",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

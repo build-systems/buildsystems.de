@@ -1,6 +1,6 @@
 {
-  "PageId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
-  "Title": "Plattform-E – Moderner Wissenstransfer für Einfaches Bauen",
+  "PageId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+  "Title": "Plattform-E – Moderner Wissenstransfer für Einfaches Bauen ",
   "Authors": [
     {
       "id": "082c4474-261b-44f9-9a8d-eff71fa4e217",
@@ -19,13 +19,10 @@
     }
   ],
   "Category": "Projekt",
-  "Icon": {
-    "Type": "external",
-    "Url": "https://www.notion.so/icons/feed_gray.svg"
-  },
+  "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c992e831-b628-47a0-8580-aef8471fc560/plattform-e-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=59edfee4efa93038bb9ddedb0e2385f8041593c2509486c690f7522ae7fd7959&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c992e831-b628-47a0-8580-aef8471fc560/plattform-e-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=5a6c2148bfe7397e1776e25b90808b361e389ff1849e891c7bd191658d9f51fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "plattform-e-logo",
   "Slug": "plattform-e",
@@ -46,10 +43,10 @@
   ],
   "blocks": [
     {
-      "Id": "224cc54c-ec6d-8070-ae0c-f1490fc93efc",
+      "Id": "311cc54c-ec6d-8100-9930-f2e1da051137",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Heading2": {
         "RichTexts": [
           {
@@ -73,10 +70,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-808e-9681-c3046cd0a6f1",
+      "Id": "311cc54c-ec6d-81da-80e4-e7f7fad1353f",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -99,10 +96,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8002-9597-fbaf73366aa1",
+      "Id": "311cc54c-ec6d-81a1-b9b0-fbf9c0830007",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -125,45 +122,45 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-807e-9800-d71bbab18e34",
+      "Id": "311cc54c-ec6d-8144-b3b5-c6db931b3ed8",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "225cc54c-ec6d-8097-94a8-d15219360f5f",
+      "Id": "311cc54c-ec6d-8109-87b5-e88422fd0113",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Image": {
         "Caption": [],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/bd686f52-03bb-4582-aec7-ad442f499ae7/plattform-e-landing-page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667QQU5PQS%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCICUgH7wdtmk3fizYX7lnWOP49QvwrKOExhjyw3Zr7gmdAiEAq2B1zqf9BhMCzX6kyHkSu%2By08i%2FBpcedpN73f%2BIQjToqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDC6u4hwBWduxjSNnfSrcA%2BhR7X2LhisYMfiqFLzi4%2FeZTG7neOfXT9%2FFO33s4HjEIkWuqs%2F6wz%2BENAVYDE9Rfue%2BDweZ0sdAOIS92If8EWQXg3E6uKpJSyQnyh%2BuS9hmWG1fuLUOhrQw2GMMTxcCWAetgef7vTDLGa2p5pOJGEJFJ1XOSbj1A0AgCPF115wzeeaD5A5bsArqK4Y48VRjV0IA1IR8FER%2B%2BdZYTd%2BX3b1Zk7vF2zKDKwHttvqlqP7PHbbIJcWIpjoqCZmSmHX5IloXoIPnMqq1b%2BfrlVSpPPOEwv9C4v1gTCSS7fZ9fjoHR2%2BeAYUt%2BFkG%2FyriCrrLmbVGkDqQc%2FecpoMuhzhlkGoFbvUZhWN1QfRs2K4jDREvckiq%2FVpi2CkTD82zoGgAhbM08cIO4vidWd3bPeVB%2BSDC2wHEzs7dFOUlyet7Vr2NjJvQ6D06RbZgfkxfZzeSsjWMcFwVE%2B9q7gLR44AEMHZLdpL49GPfZQWMjlJdOw6wz4wByhBquH9pl8PyzspaJr7XVH7jOGU5Z%2FsYmIYyQq193Lzrv3N6W2%2Fqf%2BjPbgahs3YvdIzAr7UaIEPzxhTdoOOl%2FHCWZQzcHsjLx4T1MFAPZmp0Sqcj2mRfCvIURHRxtjccCF%2FCQimPH4uHMPaArM0GOqUBEbdMHKNHzw2jU61zUfltmx%2BsZ8wOUy9Rz7%2F88J6CV38rWWcLkgxCs87vH%2BXXvKERmL5jGT34N0IwF1%2FjQrSBfsIUtBdIiI7t26SYf5ImWtmYYQZitrpPSQ1dR9tsE6CJFGWJEBigD5b4SY%2BDTraob0um18DKT8MNCzgM86v%2BuuwG4rw1BU0xEiZfnedfwexkS45beusWQn5NN0FCq8h5%2FWLf3buo&X-Amz-Signature=7ace4bd354cffea05c4ee1703299cd4b55809dfb1d1dab9aa05247330ada5b53&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.040Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/bd686f52-03bb-4582-aec7-ad442f499ae7/plattform-e-landing-page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UTLZGVRS%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDUqS76E8V%2BRYaNh1uwwcwAoG%2BV3U3SQvbYtUgDDtRPtAIgLs2VL%2FcWs6300Oq4OHfiY5BALkSzsyv%2FF9QA0Be0BWoq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDBXgLGY%2FxkvwFpQQWyrcAy32q01REU71UvJE%2BdWbRFZmTFiB6yrUYQh9zM6etqjF24svHHw%2BeEa2133JkR3rPYsUyEW54yCHHA4FVie0aNYTUP505mItqplajtKiUFkV%2BASODckh06P0%2BWFH5llbIqfAkr9MsMVP%2F4nuuVkxMOBe52ICtS4YvYjg1GN%2FilovH14FUovAJbDThbE45vxUv6jUIB7wshpe958WmA%2FMIU7dLFOiNQ%2FZP0ShpPpTniaRUcyK39kgCODwQJ06zo4eURsw1%2B4VmQlU9WcsQ2eQAbRxhvTv%2FpK4OpdWjqYNrbB1t8y5owlyiWTBJDEitVHN%2FdKMfd6u%2BH8z%2BRMX%2FzTHy%2BCXhe4K0HpTR%2BXFdY7jVgQJTzFO5Qt0ZBn%2BUownsO8EWn6v2NAwts4noBpQOJ2P2t591A58%2FpJyig2aR%2BDs%2BRlgW33jzpwXTFXtTvJn%2BPIdQ8%2FxXR0fxTzieGJQd3eU55cEPCrmGY8AdrHB2ddayaMkDnY8mFhruJwyo7hb%2BwRS%2FDQSRW6XTbOUtzhFKSTJd37iEYV0KaGE2UYVA1yx0ONCEdvbEOJlZtz2Rm3vTcKwHqJaKemwPhbMjBiIpjoOGJe%2F0AM%2BOhgYTPLwzaYkWjtnvkOHneP%2FDuQ7MwKXMPKB8s4GOqUBA%2B4FBcF4%2F%2Buv5FOhw8bcn%2FQgZAnguq4qKfsHntfcXkXsHEY8uitvab%2BO%2Fp9JMbUFZX2H2pq0KkX2PDqv47u%2B1cFBIuyEZ4XtARvBa%2BTgrtZ5leqHihNxyplwjF%2BVouPNxe4gayjxHKTrmT6KqMmM3oQSqnsuflYefIblPjPQJg%2FS8eDm7zd6RMkDYxdnzWcqlmXDI0Wqut5MjFqFbn567sHPvuVH&X-Amz-Signature=11ad939e073868efec484d69ddd39199acb570306d1659571b8188d63e306e78&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.027Z"
         }
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e8-a32d-d65582791eb2",
+      "Id": "311cc54c-ec6d-811c-bab8-cf415bde67f2",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-8024-9131-db70e79a803f",
+      "Id": "311cc54c-ec6d-815b-a819-f421a57a9cfb",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -186,10 +183,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e9-9f56-ce6f9ad2a726",
+      "Id": "311cc54c-ec6d-819d-81d4-d5c630369300",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -212,10 +209,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8039-a4a7-fd990b101dd6",
+      "Id": "311cc54c-ec6d-81dd-bd65-ca7d0e653fb3",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -238,20 +235,20 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8083-ac01-c5251266a1dd",
+      "Id": "311cc54c-ec6d-8180-9e46-f62634120ecd",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-8061-9eac-d501c6271272",
+      "Id": "311cc54c-ec6d-81ac-a3dd-e9ee0182a4e5",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -274,10 +271,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8015-9fd7-dc1ca7c17967",
+      "Id": "311cc54c-ec6d-81d9-b6c9-fbd854440b96",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -300,10 +297,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8044-a9e1-e586ec114e60",
+      "Id": "311cc54c-ec6d-81f4-b0b2-c88c778e2f4f",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -315,10 +312,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit – und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden.",
+            "PlainText": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden.",
             "Href": null,
             "Text": {
-              "Content": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit – und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden."
+              "Content": "Einfaches Bauen bietet hier einen konkreten Lösungsansatz: weniger Komplexität, mehr Klarheit und vor allem mehr Handlungsspielraum für innovative, ressourcenschonende Baukonzepte, die den sozialen und ökologischen Anforderungen unserer Zeit gerecht werden."
             }
           }
         ],
@@ -326,20 +323,20 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80f6-b8c4-ffa0ac1c88af",
+      "Id": "311cc54c-ec6d-818b-9174-c6703cd78874",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-80a7-9214-d046589928dc",
+      "Id": "311cc54c-ec6d-814e-82b2-ef4b2b0d04cf",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Image": {
         "Caption": [
           {
@@ -361,16 +358,16 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/82e57d96-5056-42f5-9447-1fa7c00904b8/plattform-e-landingpage-beispiel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667QQU5PQS%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCICUgH7wdtmk3fizYX7lnWOP49QvwrKOExhjyw3Zr7gmdAiEAq2B1zqf9BhMCzX6kyHkSu%2By08i%2FBpcedpN73f%2BIQjToqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDC6u4hwBWduxjSNnfSrcA%2BhR7X2LhisYMfiqFLzi4%2FeZTG7neOfXT9%2FFO33s4HjEIkWuqs%2F6wz%2BENAVYDE9Rfue%2BDweZ0sdAOIS92If8EWQXg3E6uKpJSyQnyh%2BuS9hmWG1fuLUOhrQw2GMMTxcCWAetgef7vTDLGa2p5pOJGEJFJ1XOSbj1A0AgCPF115wzeeaD5A5bsArqK4Y48VRjV0IA1IR8FER%2B%2BdZYTd%2BX3b1Zk7vF2zKDKwHttvqlqP7PHbbIJcWIpjoqCZmSmHX5IloXoIPnMqq1b%2BfrlVSpPPOEwv9C4v1gTCSS7fZ9fjoHR2%2BeAYUt%2BFkG%2FyriCrrLmbVGkDqQc%2FecpoMuhzhlkGoFbvUZhWN1QfRs2K4jDREvckiq%2FVpi2CkTD82zoGgAhbM08cIO4vidWd3bPeVB%2BSDC2wHEzs7dFOUlyet7Vr2NjJvQ6D06RbZgfkxfZzeSsjWMcFwVE%2B9q7gLR44AEMHZLdpL49GPfZQWMjlJdOw6wz4wByhBquH9pl8PyzspaJr7XVH7jOGU5Z%2FsYmIYyQq193Lzrv3N6W2%2Fqf%2BjPbgahs3YvdIzAr7UaIEPzxhTdoOOl%2FHCWZQzcHsjLx4T1MFAPZmp0Sqcj2mRfCvIURHRxtjccCF%2FCQimPH4uHMPaArM0GOqUBEbdMHKNHzw2jU61zUfltmx%2BsZ8wOUy9Rz7%2F88J6CV38rWWcLkgxCs87vH%2BXXvKERmL5jGT34N0IwF1%2FjQrSBfsIUtBdIiI7t26SYf5ImWtmYYQZitrpPSQ1dR9tsE6CJFGWJEBigD5b4SY%2BDTraob0um18DKT8MNCzgM86v%2BuuwG4rw1BU0xEiZfnedfwexkS45beusWQn5NN0FCq8h5%2FWLf3buo&X-Amz-Signature=f948cb178b97fa4a7887ba0d4a57d4278f0b0b672440d9d037ab7523d1e45b8c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.040Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/82e57d96-5056-42f5-9447-1fa7c00904b8/plattform-e-landingpage-beispiel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UTLZGVRS%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDUqS76E8V%2BRYaNh1uwwcwAoG%2BV3U3SQvbYtUgDDtRPtAIgLs2VL%2FcWs6300Oq4OHfiY5BALkSzsyv%2FF9QA0Be0BWoq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDBXgLGY%2FxkvwFpQQWyrcAy32q01REU71UvJE%2BdWbRFZmTFiB6yrUYQh9zM6etqjF24svHHw%2BeEa2133JkR3rPYsUyEW54yCHHA4FVie0aNYTUP505mItqplajtKiUFkV%2BASODckh06P0%2BWFH5llbIqfAkr9MsMVP%2F4nuuVkxMOBe52ICtS4YvYjg1GN%2FilovH14FUovAJbDThbE45vxUv6jUIB7wshpe958WmA%2FMIU7dLFOiNQ%2FZP0ShpPpTniaRUcyK39kgCODwQJ06zo4eURsw1%2B4VmQlU9WcsQ2eQAbRxhvTv%2FpK4OpdWjqYNrbB1t8y5owlyiWTBJDEitVHN%2FdKMfd6u%2BH8z%2BRMX%2FzTHy%2BCXhe4K0HpTR%2BXFdY7jVgQJTzFO5Qt0ZBn%2BUownsO8EWn6v2NAwts4noBpQOJ2P2t591A58%2FpJyig2aR%2BDs%2BRlgW33jzpwXTFXtTvJn%2BPIdQ8%2FxXR0fxTzieGJQd3eU55cEPCrmGY8AdrHB2ddayaMkDnY8mFhruJwyo7hb%2BwRS%2FDQSRW6XTbOUtzhFKSTJd37iEYV0KaGE2UYVA1yx0ONCEdvbEOJlZtz2Rm3vTcKwHqJaKemwPhbMjBiIpjoOGJe%2F0AM%2BOhgYTPLwzaYkWjtnvkOHneP%2FDuQ7MwKXMPKB8s4GOqUBA%2B4FBcF4%2F%2Buv5FOhw8bcn%2FQgZAnguq4qKfsHntfcXkXsHEY8uitvab%2BO%2Fp9JMbUFZX2H2pq0KkX2PDqv47u%2B1cFBIuyEZ4XtARvBa%2BTgrtZ5leqHihNxyplwjF%2BVouPNxe4gayjxHKTrmT6KqMmM3oQSqnsuflYefIblPjPQJg%2FS8eDm7zd6RMkDYxdnzWcqlmXDI0Wqut5MjFqFbn567sHPvuVH&X-Amz-Signature=5da6f44f9b8d81bb35bcf9d628dea0e4809ebc2dd777c0d43c3eacab7d0ccaf7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.027Z"
         }
       }
     },
     {
-      "Id": "225cc54c-ec6d-8086-8281-ff23f9aba36e",
+      "Id": "311cc54c-ec6d-814d-b154-d84c73fa8969",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -393,20 +390,20 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-80a1-b2a7-cf669808591c",
+      "Id": "311cc54c-ec6d-81f0-ab4b-e3fd0dd65071",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e2-a0f7-e9e7d81dd44d",
+      "Id": "311cc54c-ec6d-81c1-9b52-c0168cd9a38a",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Heading2": {
         "RichTexts": [
           {
@@ -430,10 +427,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e8-894c-e68f3c7bd53b",
+      "Id": "311cc54c-ec6d-81d1-983c-c1b9fe6235bd",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -445,10 +442,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Und richtet sich dabei gleichermaßen an Planenden und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen",
+            "PlainText": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Sie richtet sich dabei gleichermaßen an Planende und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen",
             "Href": null,
             "Text": {
-              "Content": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Und richtet sich dabei gleichermaßen an Planenden und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen"
+              "Content": "Die Plattform‑E begleitet den Wandel im Bauwesen mit einer klaren Mission: Komplexität abbauen, Wissen teilen und Handlungssicherheit schaffen. Sie richtet sich dabei gleichermaßen an Planende und Bauherren sowie Anwält:innen, Versicherungen und Stadtverwaltungen"
             }
           }
         ],
@@ -456,10 +453,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e0-be3d-e4f078c6a7f4",
+      "Id": "311cc54c-ec6d-81eb-b854-c2567051dc13",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -482,10 +479,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8047-8352-eb3daaabcc8b",
+      "Id": "311cc54c-ec6d-81cd-bf71-fe15184bd657",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -508,10 +505,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-800d-a84c-d21c92ca7357",
+      "Id": "311cc54c-ec6d-8108-9204-dff58cf3edc8",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -534,10 +531,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80d5-92be-efe3d22ca08d",
+      "Id": "311cc54c-ec6d-81a7-ac65-fa58ed378c24",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -560,10 +557,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-807e-a577-e9ee2f56ee5a",
+      "Id": "311cc54c-ec6d-81b4-a7a5-efe20db66e5e",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
           {
@@ -586,10 +583,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80ec-8c3f-ca108d59d6a4",
+      "Id": "311cc54c-ec6d-8147-bc11-eafddd2db146",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -612,30 +609,20 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-8020-9e91-c956ccbf0c60",
+      "Id": "311cc54c-ec6d-815c-a83d-d2a71b8dca11",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "225cc54c-ec6d-8000-8eef-eabc948a0ff6",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "224cc54c-ec6d-80dd-99f0-e189516f2cd6",
+      "Id": "311cc54c-ec6d-8142-9e5a-e5fe4299b82f",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Heading2": {
         "RichTexts": [
           {
@@ -659,10 +646,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80d8-99e8-dcbc21b7c871",
+      "Id": "311cc54c-ec6d-813a-8b86-eb2d4c71573f",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -784,10 +771,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80f7-bc55-c74cfad2f2ed",
+      "Id": "311cc54c-ec6d-814e-bd38-f03855ed700d",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -810,27 +797,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-806c-bdde-dd7fbbf3830c",
+      "Id": "311cc54c-ec6d-8119-9d64-e8ce09a7fc93",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Erfahrungsberichte schaffen Vertrauen:",
-            "Href": null,
-            "Text": {
-              "Content": "Erfahrungsberichte schaffen Vertrauen:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -840,10 +812,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz.",
+            "PlainText": "Erfahrungsberichte schaffen Vertrauen: Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz.",
             "Href": null,
             "Text": {
-              "Content": " Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz."
+              "Content": "Erfahrungsberichte schaffen Vertrauen: Persönliche Einblicke machen greifbar, dass einfaches Bauen keine Notlösung ist – sondern ein echter Qualitätsansatz."
             }
           }
         ],
@@ -851,27 +823,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-802e-a402-e83d1dc9ec7d",
+      "Id": "311cc54c-ec6d-8170-b787-dcd8a254d56d",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Referenzprojekte überzeugen Stakeholder:",
-            "Href": null,
-            "Text": {
-              "Content": "Referenzprojekte überzeugen Stakeholder:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -881,10 +838,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen.",
+            "PlainText": "Referenzprojekte überzeugen Stakeholder:innen: Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen.",
             "Href": null,
             "Text": {
-              "Content": " Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen."
+              "Content": "Referenzprojekte überzeugen Stakeholder:innen: Technisch und gestalterisch fundierte Beispiele helfen bei der Argumentation gegenüber Bauherr:innen, Behörden und Fördermittelgeber:innen."
             }
           }
         ],
@@ -892,27 +849,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-804a-8391-f2b3c1088ef9",
+      "Id": "311cc54c-ec6d-815b-9d35-e4db8cbfed24",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "KI-gestütztes Wissensmanagement:",
-            "Href": null,
-            "Text": {
-              "Content": "KI-gestütztes Wissensmanagement:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -922,10 +864,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung.",
+            "PlainText": "KI-gestütztes Wissensmanagement: Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung.",
             "Href": null,
             "Text": {
-              "Content": " Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung."
+              "Content": "KI-gestütztes Wissensmanagement: Individuelle Fragen können datenbasiert und zielgerichtet beantwortet werden – von Brandschutz über Versicherung bis Genehmigung."
             }
           }
         ],
@@ -933,55 +875,221 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-8052-bbd1-f668bf518965",
+      "Id": "31ecc54c-ec6d-80e6-a0c6-f8422dc7ac48",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-8055-8c01-efb9f9cf22f4",
+      "Id": "311cc54c-ec6d-8165-94b0-d9dda3b9f452",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge der Machbarkeitsphase erbringen wir folgende Leistungen:",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge der Machbarkeitsphase erbringen wir folgende Leistungen:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-80ed-9275-de8c5f7f5591",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsstrategie: Konzeption und strategische Entwicklung einer digitalen Plattform wie bsp. zur Skalierung des einfachen Bauens",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsstrategie: Konzeption und strategische Entwicklung einer digitalen Plattform wie bsp. zur Skalierung des einfachen Bauens"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-800c-9c1b-c4b84c55808d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Produktentwicklung: Durchführung von Expert.inneninterviews und Beteiligungsformaten zur strukturellen, wirtschaftlichen und inhaltlichen Validierung der Innovation",
+            "Href": null,
+            "Text": {
+              "Content": "Produktentwicklung: Durchführung von Expert.inneninterviews und Beteiligungsformaten zur strukturellen, wirtschaftlichen und inhaltlichen Validierung der Innovation"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-809f-9fe4-c2ea52ca512d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshops: Interaktive Formate zur Erarbeitung von Lösungsansätzen für den praxisorientierten Wissenstransfer im Bereich des einfachen Bauens ",
+            "Href": null,
+            "Text": {
+              "Content": "Workshops: Interaktive Formate zur Erarbeitung von Lösungsansätzen für den praxisorientierten Wissenstransfer im Bereich des einfachen Bauens "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-80b7-b926-ef00c358f9f1",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsnetzwerke: Aufbau und Pflege eines interdisziplinären Netzwerks aus Planung, Wissenschaft, Verwaltung, Recht und Projektentwicklung",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsnetzwerke: Aufbau und Pflege eines interdisziplinären Netzwerks aus Planung, Wissenschaft, Verwaltung, Recht und Projektentwicklung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31ecc54c-ec6d-802b-80f6-ddbdb5240f13",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Fördermittelakquise: Sicherstellung von weiteren Fördermitteln zur Umsetzung und Roll-Out der Plattform nach der Machbarkeitsphase. Die Finanzierung der Plattform soll sich perspektivisch aus dem Fund der Stiftung Built by Nature sowie dem europäischen Interreg Projekt SIMPLIFY zusammensetzen. ",
+            "Href": null,
+            "Text": {
+              "Content": "Fördermittelakquise: Sicherstellung von weiteren Fördermitteln zur Umsetzung und Roll-Out der Plattform nach der Machbarkeitsphase. Die Finanzierung der Plattform soll sich perspektivisch aus dem Fund der Stiftung Built by Nature sowie dem europäischen Interreg Projekt SIMPLIFY zusammensetzen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "312cc54c-ec6d-809e-855f-cf6ef1d8d31d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "225cc54c-ec6d-8048-a202-da796b451e2e",
+      "Id": "311cc54c-ec6d-81f6-8879-c442db66b851",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8157-ae96-fd9b0b756673",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Image": {
         "Caption": [],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0e3cc9b7-b74f-4b09-9326-41a5dc7b6b50/plattform-e-timeline.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667QQU5PQS%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCICUgH7wdtmk3fizYX7lnWOP49QvwrKOExhjyw3Zr7gmdAiEAq2B1zqf9BhMCzX6kyHkSu%2By08i%2FBpcedpN73f%2BIQjToqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDC6u4hwBWduxjSNnfSrcA%2BhR7X2LhisYMfiqFLzi4%2FeZTG7neOfXT9%2FFO33s4HjEIkWuqs%2F6wz%2BENAVYDE9Rfue%2BDweZ0sdAOIS92If8EWQXg3E6uKpJSyQnyh%2BuS9hmWG1fuLUOhrQw2GMMTxcCWAetgef7vTDLGa2p5pOJGEJFJ1XOSbj1A0AgCPF115wzeeaD5A5bsArqK4Y48VRjV0IA1IR8FER%2B%2BdZYTd%2BX3b1Zk7vF2zKDKwHttvqlqP7PHbbIJcWIpjoqCZmSmHX5IloXoIPnMqq1b%2BfrlVSpPPOEwv9C4v1gTCSS7fZ9fjoHR2%2BeAYUt%2BFkG%2FyriCrrLmbVGkDqQc%2FecpoMuhzhlkGoFbvUZhWN1QfRs2K4jDREvckiq%2FVpi2CkTD82zoGgAhbM08cIO4vidWd3bPeVB%2BSDC2wHEzs7dFOUlyet7Vr2NjJvQ6D06RbZgfkxfZzeSsjWMcFwVE%2B9q7gLR44AEMHZLdpL49GPfZQWMjlJdOw6wz4wByhBquH9pl8PyzspaJr7XVH7jOGU5Z%2FsYmIYyQq193Lzrv3N6W2%2Fqf%2BjPbgahs3YvdIzAr7UaIEPzxhTdoOOl%2FHCWZQzcHsjLx4T1MFAPZmp0Sqcj2mRfCvIURHRxtjccCF%2FCQimPH4uHMPaArM0GOqUBEbdMHKNHzw2jU61zUfltmx%2BsZ8wOUy9Rz7%2F88J6CV38rWWcLkgxCs87vH%2BXXvKERmL5jGT34N0IwF1%2FjQrSBfsIUtBdIiI7t26SYf5ImWtmYYQZitrpPSQ1dR9tsE6CJFGWJEBigD5b4SY%2BDTraob0um18DKT8MNCzgM86v%2BuuwG4rw1BU0xEiZfnedfwexkS45beusWQn5NN0FCq8h5%2FWLf3buo&X-Amz-Signature=cee74021d216375ca0da489a245af145a8be084ac25c2a1f38411c960699a9bd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.227Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0e3cc9b7-b74f-4b09-9326-41a5dc7b6b50/plattform-e-timeline.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UTLZGVRS%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDUqS76E8V%2BRYaNh1uwwcwAoG%2BV3U3SQvbYtUgDDtRPtAIgLs2VL%2FcWs6300Oq4OHfiY5BALkSzsyv%2FF9QA0Be0BWoq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDBXgLGY%2FxkvwFpQQWyrcAy32q01REU71UvJE%2BdWbRFZmTFiB6yrUYQh9zM6etqjF24svHHw%2BeEa2133JkR3rPYsUyEW54yCHHA4FVie0aNYTUP505mItqplajtKiUFkV%2BASODckh06P0%2BWFH5llbIqfAkr9MsMVP%2F4nuuVkxMOBe52ICtS4YvYjg1GN%2FilovH14FUovAJbDThbE45vxUv6jUIB7wshpe958WmA%2FMIU7dLFOiNQ%2FZP0ShpPpTniaRUcyK39kgCODwQJ06zo4eURsw1%2B4VmQlU9WcsQ2eQAbRxhvTv%2FpK4OpdWjqYNrbB1t8y5owlyiWTBJDEitVHN%2FdKMfd6u%2BH8z%2BRMX%2FzTHy%2BCXhe4K0HpTR%2BXFdY7jVgQJTzFO5Qt0ZBn%2BUownsO8EWn6v2NAwts4noBpQOJ2P2t591A58%2FpJyig2aR%2BDs%2BRlgW33jzpwXTFXtTvJn%2BPIdQ8%2FxXR0fxTzieGJQd3eU55cEPCrmGY8AdrHB2ddayaMkDnY8mFhruJwyo7hb%2BwRS%2FDQSRW6XTbOUtzhFKSTJd37iEYV0KaGE2UYVA1yx0ONCEdvbEOJlZtz2Rm3vTcKwHqJaKemwPhbMjBiIpjoOGJe%2F0AM%2BOhgYTPLwzaYkWjtnvkOHneP%2FDuQ7MwKXMPKB8s4GOqUBA%2B4FBcF4%2F%2Buv5FOhw8bcn%2FQgZAnguq4qKfsHntfcXkXsHEY8uitvab%2BO%2Fp9JMbUFZX2H2pq0KkX2PDqv47u%2B1cFBIuyEZ4XtARvBa%2BTgrtZ5leqHihNxyplwjF%2BVouPNxe4gayjxHKTrmT6KqMmM3oQSqnsuflYefIblPjPQJg%2FS8eDm7zd6RMkDYxdnzWcqlmXDI0Wqut5MjFqFbn567sHPvuVH&X-Amz-Signature=cac0cbdaaa442d7228ed7d154ab19967b74bf8edd4c10f674d6e88af641193f9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:20.251Z"
         }
       }
     },
     {
-      "Id": "225cc54c-ec6d-801d-87be-feb68e852480",
+      "Id": "311cc54c-ec6d-81cd-9f85-d49073af9399",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-800f-8be8-fd3f9fab0577",
+      "Id": "311cc54c-ec6d-812e-b832-ce180005d93a",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Heading2": {
         "RichTexts": [
           {
@@ -1005,10 +1113,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80ab-bbb6-c2dbbc6ff570",
+      "Id": "311cc54c-ec6d-81e8-a273-de5f192e4f2b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1031,10 +1139,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8059-b59d-cf0675669fc8",
+      "Id": "311cc54c-ec6d-8183-9a35-f01bb3ed18f0",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1057,10 +1165,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8065-bd2b-e0545206725f",
+      "Id": "311cc54c-ec6d-814b-98af-f891ec0fd316",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1083,10 +1191,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80ee-bd7a-c59d52704ea2",
+      "Id": "311cc54c-ec6d-8165-9f22-ff0add83180a",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1127,10 +1235,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80f5-80fd-cc2a44460a28",
+      "Id": "311cc54c-ec6d-8177-85a6-d441251eabb4",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {
@@ -1171,20 +1279,20 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8076-ba42-eb07336ff1eb",
+      "Id": "312cc54c-ec6d-80ec-8a88-e8b8948ef222",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-8062-b362-d476fa8d8a69",
+      "Id": "311cc54c-ec6d-81d5-8516-d3a3414a8099",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "1accc54c-ec6d-80d3-b4f8-d39231fbab3d",
+      "ParentId": "311cc54c-ec6d-803d-a2e6-f516d7136321",
       "Paragraph": {
         "RichTexts": [
           {

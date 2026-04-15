@@ -1,5 +1,5 @@
 {
-  "PageId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+  "PageId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
   "Title": "Runder Tisch Plattform-E ",
   "Authors": [
     {
@@ -18,11 +18,11 @@
       "color": "brown"
     }
   ],
-  "Category": "Projekt",
+  "Category": "Workshop",
   "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4e5fea7b-eca2-4ba5-a8f7-bd918319067c/plattform-e-runder-tisch-crew.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SSQQWEOE%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182554Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJGMEQCIAfiAPxMUwB18jzHCRo%2Fmu6JuEbIQ%2BLKQGH%2BHggCEZV%2BAiAYjmgBJ9gaGyUxUc5%2FGAG4GWky5peCaz68PGrnlj4kdCqIBAjq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMVoGzYGIy%2BsIwQQlDKtwD8f6%2BApLGuEhr6mn4UOPftEHmwNIc%2FNJ%2BcVrQIGR8ZnxydzN3eBGG5IsE8DFLJ4II0vBK4HaH0LegwP21SvyH6C7h6CrYw55RBtOlTBvn%2FL6wYQqy8S5%2B%2FY%2FnBNpEO42J7oe3FfykaLNDab7mGkOfgPryKRnPt4Jjj6KNVBntwHBOITqQ7YiNgv7XXEs9hivLs%2B7xlYszW1Dt9CdCmosXqppYHhuifbdMlw5QptZ67VSx0e7GJhYJypHtv1Z7T6vvxdI%2FC8%2BrRe5d3QrnpbTII0I0iYoXQD0H%2Fa4bjJGct7KAVMvj23sUIx%2F5u%2BprXulXtB1F0dnB4U%2Fs1yovLOKsJvjOKiCbG5%2FwRqdF5HVJY5vDDr7wGzrUpUlmNh8ES21yHHKBWN%2FNtxo3uW%2BMYPBljEQW%2FxC4aeXhZkUgoLBZ4VuJcq9ehtrkwvmDy7BqQV%2BSvQgVYSF46SdTHfY3hN6PXJui0V4%2FYp9S2%2BRCqgsd2jf2stzzbU49MkBiOiVeSQD5Eo0v7T7tZFWZpLqe33scBvWBsH4X1Vy4V7MdEZs1BPWyyCTu3T8acWC3c8XBrjIi42rI9xcUflukjo5Ls2AsjZT8%2BwI%2FCVe%2BC5SGsqoLV%2BTPQ3tZvLiAk0EqIvAw74eszQY6pgHi3MGMl4WiCpWKACQHYMGQ6UpDUjjx5aYSJveSkqnb60flyBzEfARkzeO4mCL6JpjVX8WAST2FvCrwjY9QAvaBvTesyc4f%2FDhBGxacwbKBPXYTZLjYaP%2FiR8PS7ZYHZeDbA2UX4jnsW0hbA3SCq6XpzPE0LD83gV47m1M96mcp1%2B3IRJQAAOgvso60iOIPVvpM1WAeMPmWTchF6b1x4OhmrLWzPvBr&X-Amz-Signature=797d5bb093264218ca79b837cbf7c60c061eaf14cda3c7de9c36e4cecec06d54&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/55fc5d3a-119b-4149-879e-fc465921d105/plattform-e-runder-tisch-teilnehmende.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=3e1306b92727f1227223cfdae8101301737e2956c8b2fa85ec222ce12139ee3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "plattform-e-runder-tisch-teilnehmende",
   "Slug": "plattform-e-runder-tisch",
@@ -35,7 +35,7 @@
     }
   ],
   "Description": "Der Runde Tisch von Plattform-E bringt Expert:innen aus Architektur, Planung, Verwaltung und Forschung zusammen, um erste Prototypen der Plattform gemeinsam zu evaluieren. Ziel ist es, Formate und Inhalte praxisnah weiterzuentwickeln – auf Basis realer Bedarfe und im offenen Dialog auf Augenhöhe.",
-  "coverAsset": "plattform-e-runder-tisch-crew.jpg",
+  "coverAsset": "plattform-e-runder-tisch-teilnehmende.jpg",
   "blockAssets": [
     "Plattform-E_BuildSystems_Diskussion.jpg",
     "4a91a94d-21c6-475c-a322-ff82806dbbe2.jpg",
@@ -45,10 +45,10 @@
   ],
   "blocks": [
     {
-      "Id": "223cc54c-ec6d-8001-9a51-ce4a51592002",
+      "Id": "311cc54c-ec6d-8179-a72b-ca43dec03ed8",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Heading2": {
         "RichTexts": [
           {
@@ -72,10 +72,10 @@
       }
     },
     {
-      "Id": "223cc54c-ec6d-80db-ae01-d2bc527eb1af",
+      "Id": "311cc54c-ec6d-81fc-b472-c63624d3d73e",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -87,10 +87,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Wie kann einfaches, ressourcenschonendes Bauen gelingen – und was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n",
+            "PlainText": "Wie kann einfaches, ressourcenschonendes Bauen gelingen? Was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n",
             "Href": null,
             "Text": {
-              "Content": "Wie kann einfaches, ressourcenschonendes Bauen gelingen – und was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n"
+              "Content": "Wie kann einfaches, ressourcenschonendes Bauen gelingen? Was braucht es, damit Praxiserfahrungen branchenweit Wirkung entfalten? Plattform‑E will diese Fragen nicht nur theoretisch behandeln, sondern konkret und praxisnah angehen – und setzt dafür von Beginn an auf offenen, interdisziplinären Dialog zwischen Planung, Baupraxis, Forschung und Verwaltung.\n\n"
             }
           }
         ],
@@ -98,10 +98,10 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-8093-b97e-e98b1be8cd4a",
+      "Id": "311cc54c-ec6d-81a9-94e8-c342bfde1e7b",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Image": {
         "Caption": [
           {
@@ -123,26 +123,26 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5c446e08-efef-4dba-b5cd-f0b45b4b12f8/Plattform-E_BuildSystems_Diskussion.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VQP7RES4%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDgt08aLmq4%2FOj5s7neUkE14r3KrT%2BZZD3%2BQ3Q1MlFORAIgSY67zbA%2BTO3%2Bvy9OJ5QBa0Ebox7LiTdYWuO3zlYGFAUqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGp2yrtCJNUVVVfjZircA2jfaY7paHmD2t6Ag3JOrazSL8HdbDnaEhRbWM4Ypffa%2BETnO2ddVboVSq3Y0IsIneOMr99OIpgjkoIpNJkM4vRbXDExScYPItmTF5DOa5yCEIx2rQuFO4s3MK2ZcFQ3e3A4XcSLI%2FASUK6yQAndhiCzVoBgbLfBpnGo95wukpG%2Fm8skJGMQdOt2hmJCdJgxKUorPgIXhP6gSOL%2BH6heJyn%2B8R7uc6QcyNr57Fp6MrLzKTSLIf0sj7wED9YszgmC50hkfnPO8%2Fgmh42F%2FWkfAqa0kv2ZFgIJKKbQwPlccbyxI%2FYw4ApAa81q6ouflHVe0esMgjn2qdYD2M%2FA%2F0E5zctXIlJ1P3eHcB2fGl9oQqDev3dJ4WhvpEBK9eiV3QbdojmomoF5pclWG057YS1%2B74CNqpN7rwR9E0Fi7zxulWM2022cyoQg%2FceGdxcZbqIQbiDlH%2F6wHzop6L9WzxnCalIdTvX7OLPeJ%2FNrJAKRtWn%2Fy44BwYboWcmnzHItpAhhQp4N2Sdw9v0cbb%2B0HL3fHh%2FmJjM%2FX8C9Q%2FrxVCoC5vNYubpYv07KExlccKmsanMDpOBcqktsX1wdPY2tk8T3D4vqSwvPmwZbXHrQDStenR8UUhOPGb4mirYSZNVsMLOBrM0GOqUB%2F8JSAG93hBvSlY9asg%2BYhFjwp1sS2XeAZGeoiy2ZAclyolZJ2p%2BXU8WogqlgNc8R4yeSo9tmX4hEBdz6c8Qr%2BTb2aMYochCb60jUDE1BwjDDMwcBvexDeQ5GnGhpKc0jztY4%2Bf2eYkfXWMTH9B8GbgbKfsja44uT45Vrv1QrUjOsv%2FBXqBwY%2B4%2Fr220AlNrDfhybw7m%2BwiQk8%2FucyJLrs4G5wYjE&X-Amz-Signature=447d6f70183a5e09ddec352a1a47bb33607c504d1e7ff090ee12b7c57cacbccf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.010Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5c446e08-efef-4dba-b5cd-f0b45b4b12f8/Plattform-E_BuildSystems_Diskussion.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SVFPFZKN%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAQpcpkbOxfunzVp4hcyybKIf4nVA9BBzgreBorZ0WA%2BAiB7%2BcdCimrfExLRGujDUZxkaTGB3C8nibkmx4MgcWZbFSr%2FAwhvEAAaDDYzNzQyMzE4MzgwNSIMS8U66iGAukH%2B5ojlKtwDMs22U1lBnMV4LVIkUVesQPp%2F2zs%2F8ZUbUnNcrphmYkLumHeNUPW1kSOWXZM0DK1tVIj3eut3CtNFgPAgvIj33m6PEyZEMGsssS0nuxtlGVB5Qq7%2Fvji1LSv%2BaEr7L5I9fum2qedtuOFQDzBojsCvhxcYVsF2FSKTOqcLIoERkp8IHe1j%2BgpNzq%2BU%2BTNcdZOyk2MTMcPlR6onZne%2BYt%2B7Qt12Oj32JoFF%2BWyAgWuTogYCq9VHwi7Edvi8S9JeM3CQf9Z7yqnBf1%2BrKXUH5StvzkXn2bcLdcnnib6VqAcjY95HivJKSKXBH91F5RJqloFO2tDx21bDcCclQ0Y1Lfo4IHmItmbDl354Yc3bzj3Dj1e4Sxx8FgA12NIFHOYXb9kC85Eap5ItZBML%2BPRTDK8usZI0dBxHvTMxNBJk0Tts5V6mE0Y90JVfsD6V6EwcdiT78OUiGiKie%2B8OZP%2BKltSLrYru4FybDBeb6QbMpAG7vkGYpGONu18qDi4%2BuvQc%2BcTx2Jc8Sd66eYS7WMsAZc32pRkKbKedykzqrdcZIwSG6m25gB8yDqagQzswpC5QhXWQDSmtZHykqXdrxpVOq87vEnxaJfwvKQOe0bB3vCzqwbbk3Vbztnjjn6FMdvEw64LyzgY6pgGjkf%2BzSfDgLcINcqJpTuIQxQN54Qn9mD6DsfEr732OYMvBmU00AhuuIFK%2BG7dBpokIgVAOOUcHPeTIvWPmZNhjMkqO%2FOAoTWs0wxbN%2B0wO0xPiRb9bwca0GUl7CCXq0GtF%2F8aeR7MhuYYZsJXPgu1apq5O6bJMZgr%2F7MtXlJ8vEpXyvgk7M1JBFDMwPSsOnT7CA6BcKKmrpK8canrNtwUHzbp5pqN5&X-Amz-Signature=59d02cb284a98d0b4f5b8d817906ee01b4ae3900f4f1bf5d04eed09055d047c7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:21.985Z"
         }
       }
     },
     {
-      "Id": "223cc54c-ec6d-80be-9b5e-cb3aae4b9980",
+      "Id": "311cc54c-ec6d-814f-9ebf-f9badb8208eb",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-803f-a1b5-de1eae86cb0f",
+      "Id": "311cc54c-ec6d-816f-88dd-caecfd3616b9",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -154,10 +154,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen zu schärfen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln.",
+            "PlainText": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen auzustellen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln.",
             "Href": null,
             "Text": {
-              "Content": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen zu schärfen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln."
+              "Content": "Im Vorfeld des geplanten Runden Tisches hat BuildSystems eine Reihe qualitativer Expert:innen-Interviews durchgeführt – mit Architekt:innen, Planer:innen, Bauherr:innen, Jurist:innen sowie Vertreter:innen aus Verwaltung, Forschung und Wirtschaft. Ziel war es, zentrale Herausforderungen im einfachen und innovativen Bauen besser zu verstehen, Hypothesen auzustellen und erste Formatideen für die Plattform-E entlang realer Bedarfe zu entwickeln."
             }
           }
         ],
@@ -165,10 +165,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80e9-a4b8-f0425277b951",
+      "Id": "311cc54c-ec6d-814f-be8f-ee811e80a32c",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -191,10 +191,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8043-a625-d0fe6da52826",
+      "Id": "311cc54c-ec6d-81e3-b790-d2d8c38c159d",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -206,10 +206,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, die echten Mehrwert für die Praxis schafft? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?",
+            "PlainText": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, um echten Mehrwert für die Praxis zu schaffen? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?",
             "Href": null,
             "Text": {
-              "Content": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, die echten Mehrwert für die Praxis schafft? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?"
+              "Content": "Welche Inhalte, Formate und Funktionen braucht eine Plattform, um echten Mehrwert für die Praxis zu schaffen? Und wie gelingt es, vorhandenes Wissen so aufzubereiten, dass es Mut macht, neue Wege im Bauen zu gehen?"
             }
           }
         ],
@@ -217,19 +217,19 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-803b-b9ff-d46707fe0fe4",
+      "Id": "311cc54c-ec6d-81e2-853e-d2c172fca587",
       "Type": "column_list",
       "HasChildren": true,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "ColumnList": {
         "Columns": [
           {
-            "Id": "224cc54c-ec6d-80ce-aea9-cad7ae1a3157",
+            "Id": "311cc54c-ec6d-81a3-9d86-f6a9436000ca",
             "Type": "column",
             "HasChildren": true,
             "Children": [
               {
-                "Id": "224cc54c-ec6d-8068-be93-d4a49d8ff63f",
+                "Id": "311cc54c-ec6d-8121-9567-f02bf48e93da",
                 "Type": "paragraph",
                 "HasChildren": false,
                 "Paragraph": {
@@ -238,7 +238,7 @@
                 }
               },
               {
-                "Id": "224cc54c-ec6d-80d9-805a-c8d551e8a1d9",
+                "Id": "311cc54c-ec6d-818c-a40f-f4cb14ce7468",
                 "Type": "image",
                 "HasChildren": false,
                 "Image": {
@@ -246,20 +246,20 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e0983198-9c93-43c3-b8ec-0cc16bd14bff/4a91a94d-21c6-475c-a322-ff82806dbbe2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662R42P735%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJIMEYCIQDGUWyEqbTsrXKk%2FjhSbHd5PpvARPxlCxEHvjw2AGPAmQIhAORTiUdGylC2qo9y9QgDNADtt2rDbh8f%2FkwhPZZukOm8KogECOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgznOxFQzweI6mCuviwq3AOF7eEA69NUf4sA281jeNOJj5qi%2Fb0%2FEvGTbIkbr6xjMwq1%2FzE9XEJFPSdwYYmIQ%2BDL%2BC5uX6jFtk53gJITEmyX2N5HbToGwmC0knu%2BW1YMvRkKkqp7jLeN%2Fne6r4i3RbmQ9fFfd32oZXBAI%2Fm0U7OCqYrMm9SbfrCKy6cZnLNtFte%2FyVecKW0Hldf6oLQ3VOB9423PTZyqlfDILX8eN8uz1Z9M2nzMN8DBhTJrCsS1wyOsJhjuxe6c6UkeNG6cdEP1X3hnSZlTzSm1%2FeF5JM3SRlH865T%2F%2BZAQVIojoelXWI9oAS8CiseAHpsySr13GK5xILrrb8WvKEy8MJpnKWWY80m%2BqRNnEy65DdYmw6CfUXrbqNcbdpsXb5G3MmT92iKs6AEido8culUnByG3jTWRIysBqUAd4wTOzNSsb0U8We8loKvstXi26o3Rs4XJqr6XX6NFjcjBjghbE47gsdsj9VUtNLWxtFnNXHeZSOFJVT9T1tioq2kbMX9yIChdVg78yyQig7iMzSOeT1JZ4ENuyuDB7GOUgyw2KUWBi3hFteVXBRyHkPhzY761r7ltcnlvhUlEeCgiIbA5OdK32V47xTf%2BL88GMS%2FRIMbBxa10uG43rFguAoCWV%2Fq5njDdgazNBjqkAXOMUrsC5UR%2FqgTUX7AbRFp2RuxK%2BOQtkfBzvKWbfoYlg4mW2%2FAi42YA3BR4m13MXzYBHaAdozpO6Ftx%2Fo7c42MfQXLf0e6wbyP9fhyZT4loIyS183HN%2Bu1t5gjWIP6%2Fs40hDfslW3tqWtOjyObaGt%2FAdeUxB75h6O5mD4CylZCdrOB138xclEsKcdJ7RmuAzKFwEijezqEJuix5sSbfz71g3T6x&X-Amz-Signature=c9ebb7bd6af18978a4582a0aa2d6ae3535faf72dea319ec964690c4e5aaaa35a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-03-06T19:25:55.704Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e0983198-9c93-43c3-b8ec-0cc16bd14bff/4a91a94d-21c6-475c-a322-ff82806dbbe2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667QM2LMYB%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063923Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAj7MOnSCOJHtTGLazfTnpcbYwY%2B08oqOBO29mxqzqG3AiEA4vOIplVFryLG%2FnmmB9Q0JQDwGKcLypIDNipQp4j%2FB5gq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDIy5t9SJR9USQN2WvCrcA2d%2B4OvZvIKLyFl8LFokJhltynuKLhCqkgpHflIiGRKRKLALvekxZ7b%2BcCu3aJHa%2BNQ5nYCIJq0WwT9Q%2FiYZ5jFRVcLGPF%2BguUD1sHJqph%2B1i6cIxWryEV8h8ACYHD2KLdhprJUwfx%2Fc7csH4057aeBbSz14YkR2f5uZEZh%2FhfSb8jIF1mrN810o7w5IH0a2jdRGWdfP%2BGkvovHgCYfl8zeU4S3erhGy4TYmHrH10D0JH0w8jXtuHM0HEBpAuyZJG6QRIdWpuzDWfgb0%2FKbsf7iIor44A%2BgiIANgadWw9Km%2FI92m8altp5PAPlgDTPR4U6un6lEGwq3yHiNPmFwxsf8qDwf6uhISb7t%2FGOSj8ouPN26I3wvQ%2Fw1SXDOgo0RAbgpSNb4Gao86%2FZbxfaTud782og%2FHeFqFllzxFb%2Bi7xQF03C4cOtVGaKI8qIn%2Bl3nKVBVGob6L94XqGRKE24OC2CrB2xKtvn%2FMIZtt0j0yCl%2FZUMsHt%2Fh%2F1lPIh1h0PJZtI3ryPIJ20W%2F7yxYd0w7dSKtO5ddDLoedRSHmiw8xwxPe7mhnkaHfjbe13wM82%2Fgi6vE6LHp0eFv7NrqVPAsutgcXsEIFAG0UMXJUsK1qfVxf0zYfkNZIzjBB6YcMIqC8s4GOqUBEAolwYd%2FjHwt3ggHvJ1S8liXHO9BJB4om9x1dM3z%2FcodyF1a%2BczEsRRN2fdhCbIUlQlvIjbNliBbiwnaoj2DJMUld7BZW609bdFuV%2FlyP%2FkgEWEhXzD8vqDYCHjvsyB7alaiuh%2Fy9trqO3AVOG6SnaOoWc63BOYCIkIElq5YJAz2KnDhyw9YXEabiHo20kez0I9bdBXVqIVeqeq%2BXM03Umz6Ecn0&X-Amz-Signature=eeeb1dc9558c5fb7c02c0d4f0367d053ef67d8347b870d8256df712aac7b8ece&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-04-13T07:39:23.327Z"
                   }
                 }
               }
             ]
           },
           {
-            "Id": "224cc54c-ec6d-801d-b6a9-cc17e6d16508",
+            "Id": "311cc54c-ec6d-8198-a272-f16904a92693",
             "Type": "column",
             "HasChildren": true,
             "Children": [
               {
-                "Id": "224cc54c-ec6d-807d-98ea-d6d1e4f928bc",
+                "Id": "311cc54c-ec6d-8187-a847-d2ead53d0fc4",
                 "Type": "paragraph",
                 "HasChildren": false,
                 "Paragraph": {
@@ -268,7 +268,7 @@
                 }
               },
               {
-                "Id": "224cc54c-ec6d-80cb-bd57-d3f80a0f30b4",
+                "Id": "311cc54c-ec6d-8102-8040-dff055e20f2d",
                 "Type": "image",
                 "HasChildren": false,
                 "Image": {
@@ -276,8 +276,8 @@
                   "Type": "file",
                   "File": {
                     "Type": "file",
-                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d1101463-b1b8-44b1-9f1c-b269b72a8b08/2427f7b4-2857-4d0c-9b7f-ae0740bedd9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665OL6USSU%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182556Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQCCNoM%2FiZZLVOGLH8L2dzhwj3Hni%2BDNT71Y5rttAoHL3AIgF%2FcO9cm92FoZDlXhQA0IxxiIJ6S9FEYFl7fbfJuBnlgqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGJ%2Blo5Vab7GRDOUpircA0AWZJpd4fGtXXoBvo5QejK6Yo0GiMpT8%2Frn8bscD3GoHPJ%2BomaghI4Li5n6glUp7Q5WSE3gMBla3S2cvaLMX7A9c6jXcZ0nVPH5b7LqqVdS8pLqjX4%2BezIq5k2DOG1m7ju0TxiYbNBsGOhNQgM1H%2FKbtkB%2BxFjvFYzYMIzgXcPIBpiXfjnqeK5JHwd36R8ar7v7q82n8HOkN5vCTIyo%2BrNo6Kof%2BX8ZLMKB8DGfgt073tHlSOppfA7zkQ4IRgvkjc8P8y0zSnAwNYTxuriC5sFjBAIJjsKX%2Fie4YOxGjjMvZ8yF7IL3hTrBBcbKunq9H1evtPbtlauFGJpY4bj0UKVJqcE0bkKv0WanTZ%2Fkc06AaXVKQnUAgxiP1U9f3L%2BXO9OHLkfftfQQ4mLXpyqN%2BLF7aTjsXeP6%2Fk8NLTI%2FAN0fiMfIwduCRuIuLHwbVmPCH8KFFtPq3Ec16ODhnIhz5f6Ev8SLdt1BMhhvOs2v3ProBwL4PiwOl%2Fhim%2BighLkLOwoy3ftrSstH7WImxmew7Fk9zLCQN2cKjMhPK8e1do4ZLv5F8vjZyWV%2FGXVhIunpNDmUlIqh01OVf%2FFslDS4JuOn9ZyYXU77HheKkbUDehM6kvv4jsAIxQGeg9UnML2BrM0GOqUBGCPSwKr%2F6U%2B4q9KuOw5A5r10UmhaUcP2H4D3%2FGX9UP4%2FrnNLd1eQsuCKOCvsb01X3GxjtlTKWdRVDSFNE%2BXN9ZIE69H4rZDUag8SKRPJdRHDHmP%2BKR%2FyT7DTpK1DeI%2Fw5yiPSDCybK8cyKTvgNiRyv4jXWEJQqUo9VhnF%2BQawsS46t08tck%2FU1GauLagfIr7buXrgBKnaEC6bte0LIyGIkhDNkYJ&X-Amz-Signature=3492d552f075abda77ce9351440ff39f2f5af0418fc93beb434122ea064a5668&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-                    "ExpiryTime": "2026-03-06T19:25:56.262Z"
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d1101463-b1b8-44b1-9f1c-b269b72a8b08/2427f7b4-2857-4d0c-9b7f-ae0740bedd9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WSIVQ6CE%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063923Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGKK1oBT%2B88AeAmWCDsD1LrEvP%2BjU8k8QhYBAp%2Fo%2FZQzAiBcbC1whBT8ilwnNrGB0RbRfAGaVLHU62eaGLKcwoTQZir%2FAwhvEAAaDDYzNzQyMzE4MzgwNSIMol9MirlCpgd8EqzKKtwDtB38FhoI25YTwbCbFtU0ahfp7%2BzyfXRspOi2P3QfOREAsLN8b9zDhmlkqLhLgAHOwGp3oiAN0IJKUgW6haNpFlV0mV2251j1JwDujMEC%2B0zihe%2BWtFjIYtEqDpeBs%2BRaevk9Wkhn%2BBsYWtlrD%2B86bcQzetkMEQ1U%2FWYH1NgZOf4nq2ZYzZgTNbk%2Bo8ULDEwbAchoupFzjZnT1z4%2Bea1SZwL6Yv%2FKEFZViLAa7qrYFOC3f722Gnod%2BmSNmnE4flKmCV8eNPa8R7y8LDgjdZTuEB7Plp04EBM1bhCL1cu98%2BunnYG%2BeL9%2FMNYUxMpCb%2FE7tNVsTYKvBpPHPDUt5ycQIY9ED2RQoZxBJ6mrlZ%2BnBgHweU%2Brlv5yhIolunZMz%2F5rnwM2CQXvsqQ7zV5Z87fDn9mUl149hu1gYv3WXSiTN7GY04Lx%2BwxMBCOgrPDq7JwD7EgYmzIxNOxwPSuviuvKEZB3bHWdr4%2BgeX1ekh%2BIfNdjfWkUSONzYVLTuyqPljyFS3bUVh7mjKndpEoElBDSwyAvpCiBfIR%2FfSoh79bO4UokfIt7Q94Kfm8j%2BeWz6az8GRjm8MAVwKtP5emr0YYK7sW2ezrpdhMqhpz4tktyiFjTdXo6Pw37jAaplOYwgYLyzgY6pgHJ6M1N4YpDSmSJMYo80zoDR%2B22Uww0Qk2vGAGeVFfdRhBFbQH9KilxBNxhnbtnaajuebzK8cSpC%2FAk7OumSZy8S2KAHM1%2FBV48p7qYXgu9IaMD6gZtKVb03pzv4hbWqhy9ZEj8C1zW2GtbDWszA%2B6RWYUlXFnRTUJRL%2BU%2F0l2D85KPz9XWZx6egDyP5MJj3%2BLeJnj2U1wqv8g4JKgyuj69JbRmm%2Fat&X-Amz-Signature=53caba8e939b22e347a7016acab632f66f96301c094feb6377323ed394cd29d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-04-13T07:39:23.201Z"
                   }
                 }
               }
@@ -287,10 +287,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-804b-8ba1-e009a3537444",
+      "Id": "311cc54c-ec6d-8128-bb3f-d267c9575ec5",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Heading2": {
         "RichTexts": [
           {
@@ -314,10 +314,10 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-80cd-abef-d927cb6b288a",
+      "Id": "311cc54c-ec6d-814c-8949-f6e40322e183",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -340,29 +340,14 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8054-aa7b-ed37ea40ec37",
+      "Id": "311cc54c-ec6d-81cd-ac25-eed54f0b13b5",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "BulletedListItem": {
         "RichTexts": [
           {
             "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Differenzierung sichtbar machen:",
-            "Href": null,
-            "Text": {
-              "Content": "Differenzierung sichtbar machen:"
-            }
-          },
-          {
-            "Annotation": {
               "Bold": false,
               "Italic": false,
               "Strikethrough": false,
@@ -370,40 +355,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Projektdarstellungen müssen auf den ersten Blick erkennen lassen, ",
+            "PlainText": "Differenzierung sichtbar machen: Projektdarstellungen müssen auf den ersten Blick erkennen lassen, was konkret anders gemacht wurde. Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern.",
             "Href": null,
             "Text": {
-              "Content": " Projektdarstellungen müssen auf den ersten Blick erkennen lassen, "
-            }
-          },
-          {
-            "Annotation": {
-              "Bold": false,
-              "Italic": true,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "was konkret anders gemacht wurde",
-            "Href": null,
-            "Text": {
-              "Content": "was konkret anders gemacht wurde"
-            }
-          },
-          {
-            "Annotation": {
-              "Bold": false,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": ". Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern.",
-            "Href": null,
-            "Text": {
-              "Content": ". Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern."
+              "Content": "Differenzierung sichtbar machen: Projektdarstellungen müssen auf den ersten Blick erkennen lassen, was konkret anders gemacht wurde. Ob reduzierte Technik, innovative Prozesse oder neue Partnerschaften – die Abweichung vom Standard sollte sofort erkennbar sein, um Diskussion und Wissenstransfer zu fördern."
             }
           }
         ],
@@ -411,27 +366,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-801a-a666-f5fbb857fb59",
+      "Id": "311cc54c-ec6d-8164-8cd9-cccc911f8245",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Vergleichbarkeit schaffen:",
-            "Href": null,
-            "Text": {
-              "Content": "Vergleichbarkeit schaffen:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -441,10 +381,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Es braucht quantitative Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz. Nur auf Basis solcher Vergleichswerte lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen.",
+            "PlainText": "Vergleichbarkeit schaffen: Nur auf Basis quantitativer Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen.",
             "Href": null,
             "Text": {
-              "Content": " Es braucht quantitative Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz. Nur auf Basis solcher Vergleichswerte lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen."
+              "Content": "Vergleichbarkeit schaffen: Nur auf Basis quantitativer Indikatoren wie CO₂-Emissionen, Bau- und Betriebskosten oder Flächeneffizienz lassen sich Projekte objektiv bewerten und nachvollziehbar einordnen."
             }
           }
         ],
@@ -452,27 +392,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8077-8e87-faebf395224c",
+      "Id": "311cc54c-ec6d-8183-850d-d8449ffa8452",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Internationale Perspektiven einbeziehen:",
-            "Href": null,
-            "Text": {
-              "Content": "Internationale Perspektiven einbeziehen:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -482,10 +407,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Der Blick über den Tellerrand – etwa auf europäische oder globale Beispiele – kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen.",
+            "PlainText": "Internationale Perspektiven einbeziehen: Der Blick über den Tellerrand, etwa auf europäische oder globale Beispiele, kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen.",
             "Href": null,
             "Text": {
-              "Content": " Der Blick über den Tellerrand – etwa auf europäische oder globale Beispiele – kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen."
+              "Content": "Internationale Perspektiven einbeziehen: Der Blick über den Tellerrand, etwa auf europäische oder globale Beispiele, kann wertvolle Impulse liefern, besonders im Hinblick auf Suffizienz, Einfachheit und kulturelle Vielfalt im Bauen."
             }
           }
         ],
@@ -493,27 +418,12 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-802d-8cff-d7435ecf3e57",
+      "Id": "311cc54c-ec6d-816b-b22f-f521fb04f8de",
       "Type": "bulleted_list_item",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "BulletedListItem": {
         "RichTexts": [
-          {
-            "Annotation": {
-              "Bold": true,
-              "Italic": false,
-              "Strikethrough": false,
-              "Underline": false,
-              "Code": false,
-              "Color": "default"
-            },
-            "PlainText": "Nutzerzentrierung stärken:",
-            "Href": null,
-            "Text": {
-              "Content": "Nutzerzentrierung stärken:"
-            }
-          },
           {
             "Annotation": {
               "Bold": false,
@@ -523,10 +433,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": " Projektdarstellungen sollten deutlicher zeigen, was",
+            "PlainText": "Nutzerzentrierung stärken: Projektdarstellungen sollten deutlicher zeigen, was",
             "Href": null,
             "Text": {
-              "Content": " Projektdarstellungen sollten deutlicher zeigen, was"
+              "Content": "Nutzerzentrierung stärken: Projektdarstellungen sollten deutlicher zeigen, was"
             }
           },
           {
@@ -564,45 +474,45 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8097-98f6-c7677d945e20",
+      "Id": "311cc54c-ec6d-819e-a6b5-ea0641ee779c",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "224cc54c-ec6d-8002-ac33-e865374ecd5f",
+      "Id": "311cc54c-ec6d-81b6-a10b-c3e34df23ddb",
       "Type": "image",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Image": {
         "Caption": [],
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/52143200-d1b9-4895-a485-4da97b0265b2/a0a63175-2362-48cb-ad97-a65db7320e69.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VQP7RES4%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDgt08aLmq4%2FOj5s7neUkE14r3KrT%2BZZD3%2BQ3Q1MlFORAIgSY67zbA%2BTO3%2Bvy9OJ5QBa0Ebox7LiTdYWuO3zlYGFAUqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGp2yrtCJNUVVVfjZircA2jfaY7paHmD2t6Ag3JOrazSL8HdbDnaEhRbWM4Ypffa%2BETnO2ddVboVSq3Y0IsIneOMr99OIpgjkoIpNJkM4vRbXDExScYPItmTF5DOa5yCEIx2rQuFO4s3MK2ZcFQ3e3A4XcSLI%2FASUK6yQAndhiCzVoBgbLfBpnGo95wukpG%2Fm8skJGMQdOt2hmJCdJgxKUorPgIXhP6gSOL%2BH6heJyn%2B8R7uc6QcyNr57Fp6MrLzKTSLIf0sj7wED9YszgmC50hkfnPO8%2Fgmh42F%2FWkfAqa0kv2ZFgIJKKbQwPlccbyxI%2FYw4ApAa81q6ouflHVe0esMgjn2qdYD2M%2FA%2F0E5zctXIlJ1P3eHcB2fGl9oQqDev3dJ4WhvpEBK9eiV3QbdojmomoF5pclWG057YS1%2B74CNqpN7rwR9E0Fi7zxulWM2022cyoQg%2FceGdxcZbqIQbiDlH%2F6wHzop6L9WzxnCalIdTvX7OLPeJ%2FNrJAKRtWn%2Fy44BwYboWcmnzHItpAhhQp4N2Sdw9v0cbb%2B0HL3fHh%2FmJjM%2FX8C9Q%2FrxVCoC5vNYubpYv07KExlccKmsanMDpOBcqktsX1wdPY2tk8T3D4vqSwvPmwZbXHrQDStenR8UUhOPGb4mirYSZNVsMLOBrM0GOqUB%2F8JSAG93hBvSlY9asg%2BYhFjwp1sS2XeAZGeoiy2ZAclyolZJ2p%2BXU8WogqlgNc8R4yeSo9tmX4hEBdz6c8Qr%2BTb2aMYochCb60jUDE1BwjDDMwcBvexDeQ5GnGhpKc0jztY4%2Bf2eYkfXWMTH9B8GbgbKfsja44uT45Vrv1QrUjOsv%2FBXqBwY%2B4%2Fr220AlNrDfhybw7m%2BwiQk8%2FucyJLrs4G5wYjE&X-Amz-Signature=e609d73dee1987ba692eb4759b7be7c785628d222794d8087e6d24a5b22a1afb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.010Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/52143200-d1b9-4895-a485-4da97b0265b2/a0a63175-2362-48cb-ad97-a65db7320e69.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SVFPFZKN%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAQpcpkbOxfunzVp4hcyybKIf4nVA9BBzgreBorZ0WA%2BAiB7%2BcdCimrfExLRGujDUZxkaTGB3C8nibkmx4MgcWZbFSr%2FAwhvEAAaDDYzNzQyMzE4MzgwNSIMS8U66iGAukH%2B5ojlKtwDMs22U1lBnMV4LVIkUVesQPp%2F2zs%2F8ZUbUnNcrphmYkLumHeNUPW1kSOWXZM0DK1tVIj3eut3CtNFgPAgvIj33m6PEyZEMGsssS0nuxtlGVB5Qq7%2Fvji1LSv%2BaEr7L5I9fum2qedtuOFQDzBojsCvhxcYVsF2FSKTOqcLIoERkp8IHe1j%2BgpNzq%2BU%2BTNcdZOyk2MTMcPlR6onZne%2BYt%2B7Qt12Oj32JoFF%2BWyAgWuTogYCq9VHwi7Edvi8S9JeM3CQf9Z7yqnBf1%2BrKXUH5StvzkXn2bcLdcnnib6VqAcjY95HivJKSKXBH91F5RJqloFO2tDx21bDcCclQ0Y1Lfo4IHmItmbDl354Yc3bzj3Dj1e4Sxx8FgA12NIFHOYXb9kC85Eap5ItZBML%2BPRTDK8usZI0dBxHvTMxNBJk0Tts5V6mE0Y90JVfsD6V6EwcdiT78OUiGiKie%2B8OZP%2BKltSLrYru4FybDBeb6QbMpAG7vkGYpGONu18qDi4%2BuvQc%2BcTx2Jc8Sd66eYS7WMsAZc32pRkKbKedykzqrdcZIwSG6m25gB8yDqagQzswpC5QhXWQDSmtZHykqXdrxpVOq87vEnxaJfwvKQOe0bB3vCzqwbbk3Vbztnjjn6FMdvEw64LyzgY6pgGjkf%2BzSfDgLcINcqJpTuIQxQN54Qn9mD6DsfEr732OYMvBmU00AhuuIFK%2BG7dBpokIgVAOOUcHPeTIvWPmZNhjMkqO%2FOAoTWs0wxbN%2B0wO0xPiRb9bwca0GUl7CCXq0GtF%2F8aeR7MhuYYZsJXPgu1apq5O6bJMZgr%2F7MtXlJ8vEpXyvgk7M1JBFDMwPSsOnT7CA6BcKKmrpK8canrNtwUHzbp5pqN5&X-Amz-Signature=21fc716b8b524b785541c76d797783be94b20182527d085c3a9974ce531fd3a8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:21.985Z"
         }
       }
     },
     {
-      "Id": "225cc54c-ec6d-80a7-936a-d60aafa7b73f",
+      "Id": "311cc54c-ec6d-8195-9c8f-f24c7b203284",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "223cc54c-ec6d-807a-aa58-d14cf01db14f",
+      "Id": "311cc54c-ec6d-819e-9d59-df373858c368",
       "Type": "heading_2",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Heading2": {
         "RichTexts": [
           {
@@ -626,10 +536,10 @@
       }
     },
     {
-      "Id": "223cc54c-ec6d-808b-9ec0-ca7937e15adb",
+      "Id": "311cc54c-ec6d-813d-abca-d6aa8ed3fc56",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -641,10 +551,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen – für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen.\n",
+            "PlainText": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen.",
             "Href": null,
             "Text": {
-              "Content": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen – für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen.\n"
+              "Content": "Plattform-E versteht sich als Wissensdrehscheibe für einfaches und nachhaltiges Bauen. Sie soll Erfahrungswissen sichtbar machen, Hürden abbauen und echte Praxislösungen zugänglich machen für alle, die Gebäude mutiger, normreduzierter und ressourcenschonender planen und umsetzen wollen."
             }
           }
         ],
@@ -652,10 +562,45 @@
       }
     },
     {
-      "Id": "224cc54c-ec6d-8090-b429-e1569a184eb0",
+      "Id": "311cc54c-ec6d-811a-8145-ecf0d315b86f",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8188-b695-e3a88ebcafd4",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d706dcf9-e5c8-41fa-91da-c182eced7f13/plattform-e-runder-tisch_ppl.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SVFPFZKN%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063922Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAQpcpkbOxfunzVp4hcyybKIf4nVA9BBzgreBorZ0WA%2BAiB7%2BcdCimrfExLRGujDUZxkaTGB3C8nibkmx4MgcWZbFSr%2FAwhvEAAaDDYzNzQyMzE4MzgwNSIMS8U66iGAukH%2B5ojlKtwDMs22U1lBnMV4LVIkUVesQPp%2F2zs%2F8ZUbUnNcrphmYkLumHeNUPW1kSOWXZM0DK1tVIj3eut3CtNFgPAgvIj33m6PEyZEMGsssS0nuxtlGVB5Qq7%2Fvji1LSv%2BaEr7L5I9fum2qedtuOFQDzBojsCvhxcYVsF2FSKTOqcLIoERkp8IHe1j%2BgpNzq%2BU%2BTNcdZOyk2MTMcPlR6onZne%2BYt%2B7Qt12Oj32JoFF%2BWyAgWuTogYCq9VHwi7Edvi8S9JeM3CQf9Z7yqnBf1%2BrKXUH5StvzkXn2bcLdcnnib6VqAcjY95HivJKSKXBH91F5RJqloFO2tDx21bDcCclQ0Y1Lfo4IHmItmbDl354Yc3bzj3Dj1e4Sxx8FgA12NIFHOYXb9kC85Eap5ItZBML%2BPRTDK8usZI0dBxHvTMxNBJk0Tts5V6mE0Y90JVfsD6V6EwcdiT78OUiGiKie%2B8OZP%2BKltSLrYru4FybDBeb6QbMpAG7vkGYpGONu18qDi4%2BuvQc%2BcTx2Jc8Sd66eYS7WMsAZc32pRkKbKedykzqrdcZIwSG6m25gB8yDqagQzswpC5QhXWQDSmtZHykqXdrxpVOq87vEnxaJfwvKQOe0bB3vCzqwbbk3Vbztnjjn6FMdvEw64LyzgY6pgGjkf%2BzSfDgLcINcqJpTuIQxQN54Qn9mD6DsfEr732OYMvBmU00AhuuIFK%2BG7dBpokIgVAOOUcHPeTIvWPmZNhjMkqO%2FOAoTWs0wxbN%2B0wO0xPiRb9bwca0GUl7CCXq0GtF%2F8aeR7MhuYYZsJXPgu1apq5O6bJMZgr%2F7MtXlJ8vEpXyvgk7M1JBFDMwPSsOnT7CA6BcKKmrpK8canrNtwUHzbp5pqN5&X-Amz-Signature=40847ad5286fb54b654a4b2bb813e347a4cafe22ffcb0f4481323010ece80f22&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-04-13T07:39:21.991Z"
+        }
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8177-b5f9-c64ca39381b2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-81ee-8226-e5bf3dbe1696",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -711,45 +656,10 @@
       }
     },
     {
-      "Id": "223cc54c-ec6d-8036-88d5-f3f1d55940dd",
+      "Id": "311cc54c-ec6d-812d-8fd1-c5475a6c202b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "224cc54c-ec6d-800d-9335-d691a01ee000",
-      "Type": "image",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
-      "Image": {
-        "Caption": [],
-        "Type": "file",
-        "File": {
-          "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d706dcf9-e5c8-41fa-91da-c182eced7f13/plattform-e-runder-tisch_ppl.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VQP7RES4%2F20260306%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260306T182555Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLXdlc3QtMiJHMEUCIQDgt08aLmq4%2FOj5s7neUkE14r3KrT%2BZZD3%2BQ3Q1MlFORAIgSY67zbA%2BTO3%2Bvy9OJ5QBa0Ebox7LiTdYWuO3zlYGFAUqiAQI6v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGp2yrtCJNUVVVfjZircA2jfaY7paHmD2t6Ag3JOrazSL8HdbDnaEhRbWM4Ypffa%2BETnO2ddVboVSq3Y0IsIneOMr99OIpgjkoIpNJkM4vRbXDExScYPItmTF5DOa5yCEIx2rQuFO4s3MK2ZcFQ3e3A4XcSLI%2FASUK6yQAndhiCzVoBgbLfBpnGo95wukpG%2Fm8skJGMQdOt2hmJCdJgxKUorPgIXhP6gSOL%2BH6heJyn%2B8R7uc6QcyNr57Fp6MrLzKTSLIf0sj7wED9YszgmC50hkfnPO8%2Fgmh42F%2FWkfAqa0kv2ZFgIJKKbQwPlccbyxI%2FYw4ApAa81q6ouflHVe0esMgjn2qdYD2M%2FA%2F0E5zctXIlJ1P3eHcB2fGl9oQqDev3dJ4WhvpEBK9eiV3QbdojmomoF5pclWG057YS1%2B74CNqpN7rwR9E0Fi7zxulWM2022cyoQg%2FceGdxcZbqIQbiDlH%2F6wHzop6L9WzxnCalIdTvX7OLPeJ%2FNrJAKRtWn%2Fy44BwYboWcmnzHItpAhhQp4N2Sdw9v0cbb%2B0HL3fHh%2FmJjM%2FX8C9Q%2FrxVCoC5vNYubpYv07KExlccKmsanMDpOBcqktsX1wdPY2tk8T3D4vqSwvPmwZbXHrQDStenR8UUhOPGb4mirYSZNVsMLOBrM0GOqUB%2F8JSAG93hBvSlY9asg%2BYhFjwp1sS2XeAZGeoiy2ZAclyolZJ2p%2BXU8WogqlgNc8R4yeSo9tmX4hEBdz6c8Qr%2BTb2aMYochCb60jUDE1BwjDDMwcBvexDeQ5GnGhpKc0jztY4%2Bf2eYkfXWMTH9B8GbgbKfsja44uT45Vrv1QrUjOsv%2FBXqBwY%2B4%2Fr220AlNrDfhybw7m%2BwiQk8%2FucyJLrs4G5wYjE&X-Amz-Signature=4144b0b7e6019555e2759dae555764b4b36df4ac1f4fd65c1e1f6fb46c35f95f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-03-06T19:25:55.016Z"
-        }
-      }
-    },
-    {
-      "Id": "224cc54c-ec6d-8041-b8ad-d3520432d7e0",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
-      "Paragraph": {
-        "RichTexts": [],
-        "Color": "default"
-      }
-    },
-    {
-      "Id": "224cc54c-ec6d-805a-81ec-f728f031a541",
-      "Type": "paragraph",
-      "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
@@ -790,20 +700,82 @@
       }
     },
     {
-      "Id": "225cc54c-ec6d-80e5-a6dc-c0b50b82d12c",
+      "Id": "31fcc54c-ec6d-80fa-8596-d724a7e0e94b",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [],
         "Color": "default"
       }
     },
     {
-      "Id": "225cc54c-ec6d-80ff-b6a1-dc5e97b318e8",
+      "Id": "311cc54c-ec6d-813b-bf43-dd099bd513f9",
       "Type": "paragraph",
       "HasChildren": false,
-      "ParentId": "21acc54c-ec6d-8048-a07b-fd13d2993ad0",
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "In diesem Zuge erbringt BuildSystems folgende Leistungen:",
+            "Href": null,
+            "Text": {
+              "Content": "In diesem Zuge erbringt BuildSystems folgende Leistungen:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31fcc54c-ec6d-8012-9eac-d2ac6728e850",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshops & Stakeholderbeteiligung ",
+            "Href": null,
+            "Text": {
+              "Content": "Workshops & Stakeholderbeteiligung "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "31fcc54c-ec6d-806b-b8cf-cebffea17afb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "311cc54c-ec6d-8161-bcef-ceddc7ca6318",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "311cc54c-ec6d-8005-a6e9-c78db71ef000",
       "Paragraph": {
         "RichTexts": [
           {
