@@ -1,0 +1,632 @@
+{
+  "PageId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+  "Title": "Einfach bauen heißt nicht, schlechter zu bauen",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    }
+  ],
+  "Category": "Engagement",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c79790db-d1ac-4daa-8a6f-966ea21e336a/einfach-bauen-heit-nicht-schlechter-bauen_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=17eeee2a469f2ac462d85666ed7d34d01ea0a1523867b41a8eb0658a8c8ee431&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "einfach-bauen-heißt-nicht-schlechter-bauen_cover",
+  "Slug": "einfach-bauen-heißt-nicht-schlechter-bauen",
+  "PublishDate": "2026-09-01",
+  "Tags": [
+    {
+      "id": "61f40fa6-24c1-4768-99b7-d696f68af570",
+      "name": "Sonstiges",
+      "color": "gray"
+    }
+  ],
+  "Description": "Im Interview mit dem Gebäudeforum klimaneutral erklärt BuildSystems, wie Gebäudetyp E und Einfaches Bauen Kosten, Ressourcen und Komplexität reduzieren können – und welche Rolle die Plattform-E beim Transfer in die Praxis spielt.",
+  "coverAsset": "einfach-bauen-heit-nicht-schlechter-bauen_cover.jpg",
+  "blockAssets": [
+    "3a47f241-78fb-46b2-a0f7-1804e8a82287.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "3cfcc54c-ec6d-8067-8908-e19d192e321e",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gebäudetyp E: Einfacher bauen, besser entscheiden",
+            "Href": null,
+            "Text": {
+              "Content": "Gebäudetyp E: Einfacher bauen, besser entscheiden"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80f3-b9b4-f593b2583494",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Newsletter des Gebäudeforums klimaneutral sprechen Julia Dorn und Martin Bittmann von BuildSystems darüber, welches Potenzial der Gebäudetyp E und Einfaches Bauen für eine kostengünstigere und klimafreundlichere Baupraxis bieten. Im Mittelpunkt steht die Frage, wie sich Standards und Anforderungen gezielt hinterfragen lassen, ohne Sicherheit und Qualität aufzugeben – und was es braucht, damit aus einzelnen Pilotprojekten eine neue Baupraxis entstehen kann.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Newsletter des Gebäudeforums klimaneutral sprechen Julia Dorn und Martin Bittmann von BuildSystems darüber, welches Potenzial der Gebäudetyp E und Einfaches Bauen für eine kostengünstigere und klimafreundlichere Baupraxis bieten. Im Mittelpunkt steht die Frage, wie sich Standards und Anforderungen gezielt hinterfragen lassen, ohne Sicherheit und Qualität aufzugeben – und was es braucht, damit aus einzelnen Pilotprojekten eine neue Baupraxis entstehen kann."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80bd-bb91-ce6367c8dd01",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit der von BuildSystems initiierten ",
+            "Href": null,
+            "Text": {
+              "Content": "Mit der von BuildSystems initiierten "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Plattform-E",
+            "Href": "https://www.plattform-e.org/projekte",
+            "Text": {
+              "Content": "Plattform-E",
+              "Link": {
+                "Url": "https://www.plattform-e.org/projekte"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " beschäftigen wir uns kontinuierlich mit genau diesen Fragen. Wir analysieren realisierte Projekte, dokumentieren Vereinfachungen und ihre planerischen, rechtlichen und bautechnischen Rahmenbedingungen und bringen Bauherrschaften, Planung, Wissenschaft, Verwaltung und weitere Akteure zusammen. So entsteht ein wachsendes Praxiswissen darüber, wo Einfaches Bauen bereits funktioniert, welche Hürden bestehen und wie erfolgreiche Ansätze auf weitere Projekte übertragen werden können.",
+            "Href": null,
+            "Text": {
+              "Content": " beschäftigen wir uns kontinuierlich mit genau diesen Fragen. Wir analysieren realisierte Projekte, dokumentieren Vereinfachungen und ihre planerischen, rechtlichen und bautechnischen Rahmenbedingungen und bringen Bauherrschaften, Planung, Wissenschaft, Verwaltung und weitere Akteure zusammen. So entsteht ein wachsendes Praxiswissen darüber, wo Einfaches Bauen bereits funktioniert, welche Hürden bestehen und wie erfolgreiche Ansätze auf weitere Projekte übertragen werden können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80dd-8085-eb27feee4b44",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einfach bauen heißt besser entscheiden",
+            "Href": null,
+            "Text": {
+              "Content": "Einfach bauen heißt besser entscheiden"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8035-b66f-d2d8526b3b2e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Einfaches Bauen beginnt nicht bei der Ausführung, sondern bei der Frage, was ein Gebäude tatsächlich leisten muss. Flächen, Komfortanforderungen und technische Systeme müssen nicht automatisch maximiert werden. Entscheidend ist, den tatsächlichen Bedarf frühzeitig zu bestimmen und daraus angemessene Lösungen zu entwickeln.",
+            "Href": null,
+            "Text": {
+              "Content": "Einfaches Bauen beginnt nicht bei der Ausführung, sondern bei der Frage, was ein Gebäude tatsächlich leisten muss. Flächen, Komfortanforderungen und technische Systeme müssen nicht automatisch maximiert werden. Entscheidend ist, den tatsächlichen Bedarf frühzeitig zu bestimmen und daraus angemessene Lösungen zu entwickeln."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80ac-b80a-fc3b303fd934",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gerade darin liegt das Potenzial des Gebäudetyps E: Weniger Material, Technik und Komplexität können nicht nur Baukosten reduzieren, sondern auch Energie- und Ressourcenverbrauch sowie Emissionen senken. Gleichzeitig können dadurch zirkuläre Konstruktionen und nachwachsende Baustoffe gegenüber konventionellen Lösungen wettbewerbsfähiger werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Gerade darin liegt das Potenzial des Gebäudetyps E: Weniger Material, Technik und Komplexität können nicht nur Baukosten reduzieren, sondern auch Energie- und Ressourcenverbrauch sowie Emissionen senken. Gleichzeitig können dadurch zirkuläre Konstruktionen und nachwachsende Baustoffe gegenüber konventionellen Lösungen wettbewerbsfähiger werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80dc-a5ee-f5ec5d60dedf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das bedeutet nicht, sicherheitsrelevante Anforderungen infrage zu stellen. Brand- und Standsicherheit bleiben unangetastet. Überprüft werden vielmehr Standards und Komfortanforderungen, bei denen es zu hinterfragen gilt, ob sie tatsächliche oder unverzichtbare Mehrwerte im Projekt schaffen, etwa bei Stellplätzen, Tiefgaragen, Schallschutz oder komplexer Gebäudetechnik.",
+            "Href": null,
+            "Text": {
+              "Content": "Das bedeutet nicht, sicherheitsrelevante Anforderungen infrage zu stellen. Brand- und Standsicherheit bleiben unangetastet. Überprüft werden vielmehr Standards und Komfortanforderungen, bei denen es zu hinterfragen gilt, ob sie tatsächliche oder unverzichtbare Mehrwerte im Projekt schaffen, etwa bei Stellplätzen, Tiefgaragen, Schallschutz oder komplexer Gebäudetechnik."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3b2cc54c-ec6d-80af-9846-d161ddc437f5",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Aktuelle Projektübersicht Plattform-E",
+            "Href": null,
+            "Text": {
+              "Content": "Aktuelle Projektübersicht Plattform-E"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/398fa799-4d24-4d7a-8e10-bb64b650f840/3a47f241-78fb-46b2-a0f7-1804e8a82287.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46655FTVF54%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080636Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQCZI5KnZ%2FheMjzxOGHIJeuT%2FIOgymix1JaaYnbeZiOaQQIhAIFlZ5PlV55w4myXcEzs2Fj4I%2BYGbk1tFXsiVuLn8a1RKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyCzJOw02s9DG%2FFOT0q3AOG1NZF7dG56oDv1mRbzLnVlBQ2qlMnHiPy8h9S3bgnld%2BjTZPQz1awiODE34keHVgyWWwZjDKnl1bFAkfElEWqvCwYihOirjkVCjsY0dQdYRSRIW3y1ncx6279%2FGPkYy6%2FtgGJODfA30YO8P%2FuC7ah0Z9xhht9AEL23howfRBU9qiLNsoTfX8KMj8Un4Q06FXHPTH7GlcVxrn6VtAI6CwocYWvjXfpk3ufMHx6vGIgSqsB3tQH7C%2Ff9jjrw0RaKtYGHuwLpq050ebBDtC6UeX%2F2DgaPtLC1rAMfx7xNEVUSjlmyZdgcFspud%2B9%2F2dmfsvQH6WmGEbP6cJJSfJ15oAgPOXkNkpDhTOGpmZjg84VZqMwuXWUL3tEpoS1EfsBGjwJaKIBt%2B8gA4Aw4vv%2FHyqYJTy4uxmNqUTy8w%2BnlU2VhpwJu1vku1N9VowWm4cGO4SqwK4OWI1zptR4%2BGu5g0f%2F4k3wFLZEckGhrb2mXHWKGpVaEI99wgUxHC0QEdwACMYtfGBzSM1Vh3DFCe95RY4faijirqFKZYDjykxxvq9bcRyloIUB8%2BOcECGyedS2UPkGGitQmjBggV2yO01QQCR2WfMwL7dcGOL3odcL%2FlJlBtPgJzhbM9H4Uixa4DCJj8LWBjqkASYXf9H1wmWOfiNhhz5MkX1PX1jj7SjG%2BA8ZvQzSGLSspsyg5uvb2H8WvjD3CNE%2FNcCgqLO4PVsFXdWwOH%2FxG1MgoDG2ycS9ONEo2x8FHBuPnroJKxop9qKkJN7S2V1lgM9ypjyQo2hys%2FTInDZN9EVg6aYtfczJiEgO8KXoxC27NyHgz%2BOFIqAf%2FWFgKKcp2XxX%2BdUH%2Fz4L1tMrpCrEd56Aw6Mo&X-Amz-Signature=bd69ed2f4715e0d177be94bc4389d1440c70bfa1800f339105ed484f3cf0734d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:36.871Z"
+        }
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80b6-b973-fd8d93d6aaf9",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vom Pilotprojekt zum New Normal",
+            "Href": null,
+            "Text": {
+              "Content": "Vom Pilotprojekt zum New Normal"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8097-8470-d26a8a3af667",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit Vereinfachung funktioniert, braucht es Transparenz und gemeinsame Verantwortung. Abweichungen müssen bewusst entschieden, nachvollziehbar dokumentiert und zwischen den Beteiligten vereinbart werden. Einfaches Bauen ist deshalb weniger eine einzelne technische Lösung als ein kooperativer Planungsprozess.",
+            "Href": null,
+            "Text": {
+              "Content": "Damit Vereinfachung funktioniert, braucht es Transparenz und gemeinsame Verantwortung. Abweichungen müssen bewusst entschieden, nachvollziehbar dokumentiert und zwischen den Beteiligten vereinbart werden. Einfaches Bauen ist deshalb weniger eine einzelne technische Lösung als ein kooperativer Planungsprozess."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80ce-bde3-e27752675e6a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Realisierte Projekte zeigen, wie Anforderungen anders gelöst werden können. Entscheidend ist nun, diese Erfahrungen systematisch auszuwerten und über einzelne Leuchttürme hinaus nutzbar zu machen. Gut dokumentierte Entscheidungen schaffen Referenzen, auf die Bauherrschaften, Planende und Behörden bei zukünftigen Projekten zurückgreifen können. So muss Einfaches Bauen nicht mit jedem Projekt wieder bei null beginnen.",
+            "Href": null,
+            "Text": {
+              "Content": "Realisierte Projekte zeigen, wie Anforderungen anders gelöst werden können. Entscheidend ist nun, diese Erfahrungen systematisch auszuwerten und über einzelne Leuchttürme hinaus nutzbar zu machen. Gut dokumentierte Entscheidungen schaffen Referenzen, auf die Bauherrschaften, Planende und Behörden bei zukünftigen Projekten zurückgreifen können. So muss Einfaches Bauen nicht mit jedem Projekt wieder bei null beginnen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-806c-a162-d630fecb5485",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Neue Spielräume für den Bestand",
+            "Href": null,
+            "Text": {
+              "Content": "Neue Spielräume für den Bestand"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80c3-9571-c7eb231f7a05",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Besonders relevant ist dieser Ansatz für das Bauen im Bestand. Sanierungen, Aufstockungen, Nachverdichtungen und Umnutzungen stoßen häufig an Grenzen, wenn Anforderungen des Neubaus unverändert auf bestehende Gebäude übertragen werden. Eine differenzierte Betrachtung dessen, was tatsächlich notwendig und angemessen ist, kann neue Möglichkeiten für die Weiterentwicklung vorhandener Gebäude eröffnen.",
+            "Href": null,
+            "Text": {
+              "Content": "Besonders relevant ist dieser Ansatz für das Bauen im Bestand. Sanierungen, Aufstockungen, Nachverdichtungen und Umnutzungen stoßen häufig an Grenzen, wenn Anforderungen des Neubaus unverändert auf bestehende Gebäude übertragen werden. Eine differenzierte Betrachtung dessen, was tatsächlich notwendig und angemessen ist, kann neue Möglichkeiten für die Weiterentwicklung vorhandener Gebäude eröffnen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8020-ac17-ce50950803a1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für BuildSystems ist Einfaches Bauen deshalb mehr als eine Antwort auf steigende Baukosten. Es ist ein wichtiger Baustein einer Bauwende, die Wirtschaftlichkeit, Ressourcenschonung und Qualität neu zusammendenkt.",
+            "Href": null,
+            "Text": {
+              "Content": "Für BuildSystems ist Einfaches Bauen deshalb mehr als eine Antwort auf steigende Baukosten. Es ist ein wichtiger Baustein einer Bauwende, die Wirtschaftlichkeit, Ressourcenschonung und Qualität neu zusammendenkt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-800b-858f-cab9feabaa41",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vielen Dank an das Gebäudeforum klimaneutral für das Gespräch und die Möglichkeit, unsere Erfahrungen aus der Plattform-E in den Diskurs einzubringen.",
+            "Href": null,
+            "Text": {
+              "Content": "Vielen Dank an das Gebäudeforum klimaneutral für das Gespräch und die Möglichkeit, unsere Erfahrungen aus der Plattform-E in den Diskurs einzubringen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8028-9650-f86b838db0bd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das vollständige Interview ",
+            "Href": null,
+            "Text": {
+              "Content": "Das vollständige Interview "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "„Einfach bauen heißt nicht, schlechter zu bauen“",
+            "Href": null,
+            "Text": {
+              "Content": "„Einfach bauen heißt nicht, schlechter zu bauen“"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " ist im Newsletter des Gebäudeforums klimaneutral erschienen.",
+            "Href": null,
+            "Text": {
+              "Content": " ist im Newsletter des Gebäudeforums klimaneutral erschienen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d0cc54c-ec6d-80af-9557-e60b74505205",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Interview beim Gebäudeforum klimaneutral lesen",
+            "Href": "https://www.gebaeudeforum.de/service/newsletter/ausgabe-05/2026/interview/?utm_source=chatgpt.com",
+            "Text": {
+              "Content": "Interview beim Gebäudeforum klimaneutral lesen",
+              "Link": {
+                "Url": "https://www.gebaeudeforum.de/service/newsletter/ausgabe-05/2026/interview/?utm_source=chatgpt.com"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ".\n",
+            "Href": null,
+            "Text": {
+              "Content": ".\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3b2cc54c-ec6d-803f-8858-feef427d3904",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3b2cc54c-ec6d-80db-9b7f-df962fb78fe2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3b2cc54c-ec6d-8010-bc47-f99e60365647",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3b2cc54c-ec6d-801f-bc23-dd8e00893d65",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

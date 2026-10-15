@@ -1,0 +1,919 @@
+{
+  "PageId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+  "Title": "Warum Architektur heute Innovation bedeutet",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/608d59f7-d26c-490b-b166-50c715e4bcbe/architektur-als-innovationstreiber-cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=41aebd373caea6a1494aa44121dd60a52f42c010d82e95c4197cb415167936f3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "architektur-als-innovationstreiber-cover",
+  "Slug": "architektur-als-innovationstreiber",
+  "PublishDate": "2026-07-15",
+  "Tags": [
+    {
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
+    }
+  ],
+  "Description": "Prof. Christos Chantzaras spricht im Deutschen Architekt:innenblatt über Unternehmensgeist, Innovationsprozesse und die Qualitäten von Architekt:innen als Entrepreneure und nennt BuildSystems als Best-Practice-Beispiel.",
+  "coverAsset": "architektur-als-innovationstreiber-cover.jpg",
+  "blockAssets": [
+    "architektur-als-innovationstreiber_cover.jpg",
+    "architektur-als-innovationstreiber_workshop.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "390cc54c-ec6d-803f-b48d-d26a12121c8f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bau- und Immobilienbranche befindet sich im größten Wandel der vergangenen Jahrzehnte. Klimaziele, ESG-Anforderungen, neue EU-Regulierungen, Digitalisierung und steigende Anforderungen an Ressourceneffizienz verändern die Art und Weise, wie Gebäude geplant, gebaut und betrieben werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bau- und Immobilienbranche befindet sich im größten Wandel der vergangenen Jahrzehnte. Klimaziele, ESG-Anforderungen, neue EU-Regulierungen, Digitalisierung und steigende Anforderungen an Ressourceneffizienz verändern die Art und Weise, wie Gebäude geplant, gebaut und betrieben werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-8015-af86-c106260d150c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit verändert sich auch das Berufsbild der Architektur.",
+            "Href": null,
+            "Text": {
+              "Content": "Damit verändert sich auch das Berufsbild der Architektur."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-809f-a4a6-c8a468bfa504",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Architektinnen und Architekten entwickeln heute nicht mehr ausschließlich Gebäude – sie gestalten Prozesse, analysieren Daten, vernetzen Disziplinen und schaffen die Grundlage für nachhaltige Entscheidungen. Genau diesen Wandel beschreibt Prof. Christos Chantzaras im aktuellen Beitrag „Architektur ist eine Innovationsdisziplin“ im Deutschen Architekt:innenblatt. BuildSystems wird dort als Best-Practice-Beispiel für Unternehmen genannt, die neue Wege zwischen Architektur, Technologie und Unternehmertum gehen.",
+            "Href": null,
+            "Text": {
+              "Content": "Architektinnen und Architekten entwickeln heute nicht mehr ausschließlich Gebäude – sie gestalten Prozesse, analysieren Daten, vernetzen Disziplinen und schaffen die Grundlage für nachhaltige Entscheidungen. Genau diesen Wandel beschreibt Prof. Christos Chantzaras im aktuellen Beitrag „Architektur ist eine Innovationsdisziplin“ im Deutschen Architekt:innenblatt. BuildSystems wird dort als Best-Practice-Beispiel für Unternehmen genannt, die neue Wege zwischen Architektur, Technologie und Unternehmertum gehen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-80d1-b911-f05345fbb12d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für uns ist diese Erwähnung mehr als eine bloße Einordnung. Sie bestätigt unseren Anspruch, Architektur als Treiber der nachhaltigen Transformation des Bauwesens zu verstehen.\n",
+            "Href": null,
+            "Text": {
+              "Content": "Für uns ist diese Erwähnung mehr als eine bloße Einordnung. Sie bestätigt unseren Anspruch, Architektur als Treiber der nachhaltigen Transformation des Bauwesens zu verstehen.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-8016-b017-de4b0da46637",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Skizze von Prof. Christos Chantzaras zu Unternehmen wie BuildSystems mit Gründer:innen aus der Architektur",
+            "Href": null,
+            "Text": {
+              "Content": "Skizze von Prof. Christos Chantzaras zu Unternehmen wie BuildSystems mit Gründer:innen aus der Architektur"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1543913d-dc98-47a7-a1f1-96342b5a3120/architektur-als-innovationstreiber_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664AHULECM%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIAEq%2B2dX75pa34wPYhMphgl7OMthLf19o0o%2BhcNh7ebMAiAQvE65a0IOx5yIK8k5wGLg7%2FRfTqSyshwdbuS19vMzVyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM4%2FePkUrI1WYw3ct%2BKtwDZgna8S6iYbZjR%2F%2FtqmZt5Bb4cgx3irb3Nvux1wEeNpXOEkE5uKpAPITRbxUWXub6QyQmAJ6umr4BY%2FHRfCKsshLr%2FmT%2BmLMPq9Mjac4Bsr0iiD9qJR%2F9MOWtKXaZzZPkMU7cdyGSk1ZZkRRTVRTE%2FRBpWrCi83KTIHtKgRSAyPz3t73m39RR8EVe%2FKaVpYj9eKTrZjC6tcLL07AG2IhtO0unFDbdHHtVUbp9S9MUDjZCKMxPchUHGc8FPz4fExaNjffxNNB4uySH4shcmtUTliAKK1OPEOBshxTcFWhU44Wn4CJcC6fW4QfEmmZ44UK3CQCJvc%2B9wQqqNBZKa48brJe1%2FCeSvQSQ3sThNlzXsNkPauBuiaRoL%2Bf6NpwfHWj%2FixuYuY8tgFPhshw0nUHQKirLrIUhrzw8z365MbBB1BjBWyNMvAGUpx5jtTOsTq%2B3n30SQ%2BG2PpcrqU2P85sqwPo2ayq8BgWyMvJ1wJ8XixKMI18HJfiSJJIHK2NKu9fhXyuZlCdPDrXrGq5dynKL92CuTrdaSV%2FbekiVEAAlru%2FEbbs9DyAR%2FPP9nUF4PROESi5e24Cy7yjOy5DfVvjrmG4zqP1JxtL%2FOmAxtoXVbZeTD37%2FFs6uQRP1bwAwl4%2FC1gY6pgF%2BxVbJObKem9kg1oZioyb7gNfyZzZBGxbidBSBym8jPCk2UNfwCd9sfXn%2FEkgY1zdHKBspj4yRbJUqPgL%2FfFBeo4MdOk%2BNWt3KTjO8uIXvinuPpEIFZ2Gi%2BR0AD3%2BrdEA27Uuwz6upsFZvfzNjtiDQTAf4Xd1ygJhQbNhjOTeYXIX2IRwXtRhEsm2Xp3agm1biScmhEuvGE2mUHFgOGyQUmi%2Bl8peC&X-Amz-Signature=3a6232fa2d9ea20996d2bdb0edbc89bc9a692e773d2b42b914fe86f155d07176&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:38.622Z"
+        }
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8032-8b88-e4d404682428",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Neue Herausforderungen für Architekturschaffende",
+            "Href": null,
+            "Text": {
+              "Content": "Neue Herausforderungen für Architekturschaffende"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8091-b312-eda8708172f6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die größten Potenziale für Klimaschutz entstehen nicht erst auf der Baustelle, sondern bereits in den frühen Planungsphasen. Damit verändern sich auch die Anforderungen an Architektinnen und Architekten. Neben der Transformation der baulichen Substanz braucht es einen strukturellen Wandel der Arbeitsweisen, Rollen und Leistungsbilder, um die nachhaltige Entwicklung der Bau- und Immobilienbranche voranzutreiben.",
+            "Href": null,
+            "Text": {
+              "Content": "Die größten Potenziale für Klimaschutz entstehen nicht erst auf der Baustelle, sondern bereits in den frühen Planungsphasen. Damit verändern sich auch die Anforderungen an Architektinnen und Architekten. Neben der Transformation der baulichen Substanz braucht es einen strukturellen Wandel der Arbeitsweisen, Rollen und Leistungsbilder, um die nachhaltige Entwicklung der Bau- und Immobilienbranche voranzutreiben."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8086-a1f1-ddfd3ba57b51",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Eine rein projektbezogene Planung aus der bisherigen Praxis heraus reicht dafür nicht mehr aus. Strategisches Denken, interdisziplinäre Zusammenarbeit und Wissenstransfer gewinnen zunehmend an Bedeutung. Architekturschaffende sind gefordert, nicht nur Gebäude zu entwerfen, sondern Veränderungsprozesse aktiv mitzugestalten.",
+            "Href": null,
+            "Text": {
+              "Content": "Eine rein projektbezogene Planung aus der bisherigen Praxis heraus reicht dafür nicht mehr aus. Strategisches Denken, interdisziplinäre Zusammenarbeit und Wissenstransfer gewinnen zunehmend an Bedeutung. Architekturschaffende sind gefordert, nicht nur Gebäude zu entwerfen, sondern Veränderungsprozesse aktiv mitzugestalten."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80cc-b5b5-faebfc8c1535",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Fragmentierte Prozesse und fehlende Vernetzung",
+            "Href": null,
+            "Text": {
+              "Content": "Fragmentierte Prozesse und fehlende Vernetzung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8081-8cb9-da0997012585",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bau- und Immobilienbranche ist stark arbeitsteilig organisiert. Planung, Ausführung, Nachhaltigkeit, Wirtschaftlichkeit und Betrieb werden häufig getrennt voneinander betrachtet. Informationen gehen an Schnittstellen verloren, Zielkonflikte werden spät erkannt und relevante Kompetenzen nicht von Beginn an eingebunden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bau- und Immobilienbranche ist stark arbeitsteilig organisiert. Planung, Ausführung, Nachhaltigkeit, Wirtschaftlichkeit und Betrieb werden häufig getrennt voneinander betrachtet. Informationen gehen an Schnittstellen verloren, Zielkonflikte werden spät erkannt und relevante Kompetenzen nicht von Beginn an eingebunden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80d6-ba9d-cebf180cd7b2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch innerhalb der Architektur erschweren begrenzte Formen des Austauschs und der gegenseitigen Unterstützung den Aufbau von Innovationsnetzwerken. Wissen bleibt in einzelnen Büros, Projekten oder Fachbereichen gebunden, anstatt gemeinsam weiterentwickelt und in die breite Anwendung übertragen zu werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Auch innerhalb der Architektur erschweren begrenzte Formen des Austauschs und der gegenseitigen Unterstützung den Aufbau von Innovationsnetzwerken. Wissen bleibt in einzelnen Büros, Projekten oder Fachbereichen gebunden, anstatt gemeinsam weiterentwickelt und in die breite Anwendung übertragen zu werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8094-8edc-e265cadee123",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Antwort darauf liegt nicht allein in besseren technischen Schnittstellen. Benötigt werden neue Formen der Zusammenarbeit: vernetzte Strukturen, gemeinsame Ziele, ein offener Wissenstransfer und interdisziplinäre Teams, die unterschiedliche Perspektiven von Anfang an zusammenbringen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Antwort darauf liegt nicht allein in besseren technischen Schnittstellen. Benötigt werden neue Formen der Zusammenarbeit: vernetzte Strukturen, gemeinsame Ziele, ein offener Wissenstransfer und interdisziplinäre Teams, die unterschiedliche Perspektiven von Anfang an zusammenbringen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8010-8818-cf97fee4a340",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltigkeit erfordert Systemgestaltung",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltigkeit erfordert Systemgestaltung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8021-9adb-ed9a74da11fd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zirkuläres und nachhaltiges Bauen verändert nicht nur die Auswahl einzelner Materialien oder Konstruktionen. Es betrifft die gesamte Wertschöpfungskette und den vollständigen Lebenszyklus eines Gebäudes, von der Entwicklung und Herstellung der Bauprodukte über Planung, Errichtung und Betrieb bis hin zu Umnutzung, Anpassung, Rückbau und Wiederverwendung.",
+            "Href": null,
+            "Text": {
+              "Content": "Zirkuläres und nachhaltiges Bauen verändert nicht nur die Auswahl einzelner Materialien oder Konstruktionen. Es betrifft die gesamte Wertschöpfungskette und den vollständigen Lebenszyklus eines Gebäudes, von der Entwicklung und Herstellung der Bauprodukte über Planung, Errichtung und Betrieb bis hin zu Umnutzung, Anpassung, Rückbau und Wiederverwendung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80e2-831d-ef48bb65f415",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Architekturbüros können in diesem Prozess eine zentrale Rolle übernehmen. Durch ihre verbindende Position zwischen Bauherrschaft, Fachplanung, Industrie, Ausführung, öffentlicher Hand und Gebäudenutzung können sie unterschiedliche Anforderungen zusammenführen und neue Lösungen initiieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Architekturbüros können in diesem Prozess eine zentrale Rolle übernehmen. Durch ihre verbindende Position zwischen Bauherrschaft, Fachplanung, Industrie, Ausführung, öffentlicher Hand und Gebäudenutzung können sie unterschiedliche Anforderungen zusammenführen und neue Lösungen initiieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8054-83a5-f9b85f3018a3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltigkeit ist damit keine zusätzliche Fachdisziplin und kein abschließender Nachweis. Sie wird zu einem integrierten Planungs-, Gestaltungs- und Innovationsprinzip, das ökologische, wirtschaftliche, soziale und technische Aspekte miteinander verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltigkeit ist damit keine zusätzliche Fachdisziplin und kein abschließender Nachweis. Sie wird zu einem integrierten Planungs-, Gestaltungs- und Innovationsprinzip, das ökologische, wirtschaftliche, soziale und technische Aspekte miteinander verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-804a-b8ba-d718aab16919",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovation braucht neue Leistungsbilder",
+            "Href": null,
+            "Text": {
+              "Content": "Innovation braucht neue Leistungsbilder"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80bc-a28a-e50b4dd7cb23",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsleistungen in der Architektur werden bislang häufig weder ausreichend sichtbar gemacht noch angemessen vergütet. Definieren sich Büros ausschließlich über klassische Planungsleistungen, Wettbewerbe und bestehende Honorarlogiken, lassen sich neue Beratungs-, Daten-, Forschungs- und Systemleistungen nur schwer vermitteln.",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsleistungen in der Architektur werden bislang häufig weder ausreichend sichtbar gemacht noch angemessen vergütet. Definieren sich Büros ausschließlich über klassische Planungsleistungen, Wettbewerbe und bestehende Honorarlogiken, lassen sich neue Beratungs-, Daten-, Forschungs- und Systemleistungen nur schwer vermitteln."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80b9-977b-d6e0d84346b7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für die Transformation der Branche reichen gute Ideen daher nicht aus. Innovationen müssen in verständliche und wirtschaftlich tragfähige Angebote übersetzt werden. Dafür braucht es neue Leistungsbilder, geeignete Geschäftsmodelle und strategische Partnerschaften.",
+            "Href": null,
+            "Text": {
+              "Content": "Für die Transformation der Branche reichen gute Ideen daher nicht aus. Innovationen müssen in verständliche und wirtschaftlich tragfähige Angebote übersetzt werden. Dafür braucht es neue Leistungsbilder, geeignete Geschäftsmodelle und strategische Partnerschaften."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80fb-b9a2-ecb3c8efceeb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Rolle von Architekturschaffenden erweitert sich dadurch: Sie sind nicht nur Planende und Gestaltende, sondern zunehmend auch Strategen, Moderatoren, Wissensvermittler und Systementwickler. Um diese Rolle ausfüllen zu können, benötigen sie neue Kompetenzen, kooperative Strukturen und Rahmenbedingungen, die Innovation und interdisziplinäre Zusammenarbeit ermöglichen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Rolle von Architekturschaffenden erweitert sich dadurch: Sie sind nicht nur Planende und Gestaltende, sondern zunehmend auch Strategen, Moderatoren, Wissensvermittler und Systementwickler. Um diese Rolle ausfüllen zu können, benötigen sie neue Kompetenzen, kooperative Strukturen und Rahmenbedingungen, die Innovation und interdisziplinäre Zusammenarbeit ermöglichen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-80fd-8d2c-e27c31b09551",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovation entsteht zwischen den Disziplinen",
+            "Href": null,
+            "Text": {
+              "Content": "Innovation entsteht zwischen den Disziplinen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80ac-82a3-d2c12d149c2e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltige Innovation entsteht dort, wo unterschiedliche Perspektiven zusammenkommen und strategisches Wissen in konkrete Lösungen übersetzt wird. BuildSystems verbindet dafür die drei Wirkungsfelder Strategie, Praxis und Transfer: Strategische Zielbilder und Roadmaps schaffen Orientierung, unsere Umsetzung in Planungs- und Bauprojekten liefert praktische Erfahrungen, und der strukturierte Wissenstransfer macht diese Erkenntnisse für weitere Akteure und Projekte nutzbar. Durch die Vernetzung von Architektur, Nachhaltigkeit, Wirtschaft, Wissenschaft, Verwaltung und Baupraxis entsteht ein kontinuierlicher Innovationsprozess, von der ersten Idee über die Erprobung bis zur breiten Anwendung. So werden Lösungen nicht isoliert entwickelt, sondern gemeinsam erarbeitet, praktisch überprüft und langfristig in der Bau- und Immobilienbranche verankert. ",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltige Innovation entsteht dort, wo unterschiedliche Perspektiven zusammenkommen und strategisches Wissen in konkrete Lösungen übersetzt wird. BuildSystems verbindet dafür die drei Wirkungsfelder Strategie, Praxis und Transfer: Strategische Zielbilder und Roadmaps schaffen Orientierung, unsere Umsetzung in Planungs- und Bauprojekten liefert praktische Erfahrungen, und der strukturierte Wissenstransfer macht diese Erkenntnisse für weitere Akteure und Projekte nutzbar. Durch die Vernetzung von Architektur, Nachhaltigkeit, Wirtschaft, Wissenschaft, Verwaltung und Baupraxis entsteht ein kontinuierlicher Innovationsprozess, von der ersten Idee über die Erprobung bis zur breiten Anwendung. So werden Lösungen nicht isoliert entwickelt, sondern gemeinsam erarbeitet, praktisch überprüft und langfristig in der Bau- und Immobilienbranche verankert. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3c7cc54c-ec6d-805d-8dab-fcd2729dd973",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8030-960d-c57c1902dd9d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems: Strategie Workshop",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems: Strategie Workshop"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c01b29b3-81e3-4cef-827c-4facc790c50c/architektur-als-innovationstreiber_workshop.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664AHULECM%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIAEq%2B2dX75pa34wPYhMphgl7OMthLf19o0o%2BhcNh7ebMAiAQvE65a0IOx5yIK8k5wGLg7%2FRfTqSyshwdbuS19vMzVyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM4%2FePkUrI1WYw3ct%2BKtwDZgna8S6iYbZjR%2F%2FtqmZt5Bb4cgx3irb3Nvux1wEeNpXOEkE5uKpAPITRbxUWXub6QyQmAJ6umr4BY%2FHRfCKsshLr%2FmT%2BmLMPq9Mjac4Bsr0iiD9qJR%2F9MOWtKXaZzZPkMU7cdyGSk1ZZkRRTVRTE%2FRBpWrCi83KTIHtKgRSAyPz3t73m39RR8EVe%2FKaVpYj9eKTrZjC6tcLL07AG2IhtO0unFDbdHHtVUbp9S9MUDjZCKMxPchUHGc8FPz4fExaNjffxNNB4uySH4shcmtUTliAKK1OPEOBshxTcFWhU44Wn4CJcC6fW4QfEmmZ44UK3CQCJvc%2B9wQqqNBZKa48brJe1%2FCeSvQSQ3sThNlzXsNkPauBuiaRoL%2Bf6NpwfHWj%2FixuYuY8tgFPhshw0nUHQKirLrIUhrzw8z365MbBB1BjBWyNMvAGUpx5jtTOsTq%2B3n30SQ%2BG2PpcrqU2P85sqwPo2ayq8BgWyMvJ1wJ8XixKMI18HJfiSJJIHK2NKu9fhXyuZlCdPDrXrGq5dynKL92CuTrdaSV%2FbekiVEAAlru%2FEbbs9DyAR%2FPP9nUF4PROESi5e24Cy7yjOy5DfVvjrmG4zqP1JxtL%2FOmAxtoXVbZeTD37%2FFs6uQRP1bwAwl4%2FC1gY6pgF%2BxVbJObKem9kg1oZioyb7gNfyZzZBGxbidBSBym8jPCk2UNfwCd9sfXn%2FEkgY1zdHKBspj4yRbJUqPgL%2FfFBeo4MdOk%2BNWt3KTjO8uIXvinuPpEIFZ2Gi%2BR0AD3%2BrdEA27Uuwz6upsFZvfzNjtiDQTAf4Xd1ygJhQbNhjOTeYXIX2IRwXtRhEsm2Xp3agm1biScmhEuvGE2mUHFgOGyQUmi%2Bl8peC&X-Amz-Signature=6147fcc0d3e553435d26492d0da2a1c5de4d9e05fcb24fcbb980b5e2acff3242&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:38.622Z"
+        }
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-801d-bea9-d033780c6cdb",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n”Enabling die Macher:innen von Morgen”",
+            "Href": null,
+            "Text": {
+              "Content": "\n”Enabling die Macher:innen von Morgen”"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-808e-a3a6-cb5d8eb99417",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Transformation des Bauwesens findet nicht allein im gebauten Raum statt. Sie entsteht dort, wo Menschen, Organisationen und Disziplinen gemeinsam ins Handeln kommen. Gefragt sind Akteur:innen entlang der gesamten Wertschöpfungskette, von Architektur, Planung, Bauwirtschaft und Industrie über Wissenschaft und Verwaltung bis hin zu Eigentümer:innen, Betreiber:innen und Nutzer:innen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Transformation des Bauwesens findet nicht allein im gebauten Raum statt. Sie entsteht dort, wo Menschen, Organisationen und Disziplinen gemeinsam ins Handeln kommen. Gefragt sind Akteur:innen entlang der gesamten Wertschöpfungskette, von Architektur, Planung, Bauwirtschaft und Industrie über Wissenschaft und Verwaltung bis hin zu Eigentümer:innen, Betreiber:innen und Nutzer:innen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-8091-902e-ece288a09dd8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein wirkungsvolles, interdisziplinäres Stakeholdermanagement schafft dafür die notwendigen Strukturen. Es bringt unterschiedliche Perspektiven, Kompetenzen, Interessen und Entscheidungsebenen frühzeitig zusammen, übersetzt gemeinsame Zielbilder in konkrete Handlungsschritte und klärt Rollen und Verantwortlichkeiten. ",
+            "Href": null,
+            "Text": {
+              "Content": "Ein wirkungsvolles, interdisziplinäres Stakeholdermanagement schafft dafür die notwendigen Strukturen. Es bringt unterschiedliche Perspektiven, Kompetenzen, Interessen und Entscheidungsebenen frühzeitig zusammen, übersetzt gemeinsame Zielbilder in konkrete Handlungsschritte und klärt Rollen und Verantwortlichkeiten. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-805d-b848-c1a339c9f97a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unser Ansatz „Pilot-to-Practice“ schlägt die Brücke von der Idee zur Umsetzung und vom Pilotprojekt in die breite Anwendung. Neue Lösungen werden gemeinsam entwickelt, unter realen Bedingungen erprobt und systematisch ausgewertet. Die gewonnenen Erkenntnisse werden anschließend in übertragbare Prozesse, Leistungsbilder, Standards und Geschäftsmodelle übersetzt. So wird aus einer Idee eine umsetzbare Lösung, aus einem einzelnen Projekt ein skalierbarer Ansatz und aus Beteiligten werden Multiplikator:innen, Entscheider:innen und Macher:innen von morgen.",
+            "Href": null,
+            "Text": {
+              "Content": "Unser Ansatz „Pilot-to-Practice“ schlägt die Brücke von der Idee zur Umsetzung und vom Pilotprojekt in die breite Anwendung. Neue Lösungen werden gemeinsam entwickelt, unter realen Bedingungen erprobt und systematisch ausgewertet. Die gewonnenen Erkenntnisse werden anschließend in übertragbare Prozesse, Leistungsbilder, Standards und Geschäftsmodelle übersetzt. So wird aus einer Idee eine umsetzbare Lösung, aus einem einzelnen Projekt ein skalierbarer Ansatz und aus Beteiligten werden Multiplikator:innen, Entscheider:innen und Macher:innen von morgen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "39ecc54c-ec6d-80a2-9265-fd9d7a317dbc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dass BuildSystems im Deutschen Architekt:innenblatt als einer der Akteur:innen genannt wird, die das klassische Architekturbüro neu aufstellen, freut uns sehr. Der Beitrag „Architektur ist eine Innovationsdisziplin“ hebt insbesondere die Fähigkeit von Architektinnen und Architekten hervor, Komplexität zu strukturieren, Systeme zu entwerfen und Innovation über den klassischen Gebäudeentwurf hinaus voranzutreiben. Genau darin sehen wir unsere Aufgabe: dieses Potenzial sichtbar zu machen und systemisches Entwerfen als Innovationskompetenz in der Bau- und Immobilienbranche zu verankern.",
+            "Href": null,
+            "Text": {
+              "Content": "Dass BuildSystems im Deutschen Architekt:innenblatt als einer der Akteur:innen genannt wird, die das klassische Architekturbüro neu aufstellen, freut uns sehr. Der Beitrag „Architektur ist eine Innovationsdisziplin“ hebt insbesondere die Fähigkeit von Architektinnen und Architekten hervor, Komplexität zu strukturieren, Systeme zu entwerfen und Innovation über den klassischen Gebäudeentwurf hinaus voranzutreiben. Genau darin sehen wir unsere Aufgabe: dieses Potenzial sichtbar zu machen und systemisches Entwerfen als Innovationskompetenz in der Bau- und Immobilienbranche zu verankern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-80dd-975c-c3542ee30435",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der vollständige Beitrag „Architektur ist eine Innovationsdisziplin“ ist im Deutschen Architektenblatt (DAB) erschienen und kann ",
+            "Href": null,
+            "Text": {
+              "Content": "Der vollständige Beitrag „Architektur ist eine Innovationsdisziplin“ ist im Deutschen Architektenblatt (DAB) erschienen und kann "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "hier",
+            "Href": "https://www.dabonline.de/berufspolitik/architektur-ist-eine-innovationsdisziplin",
+            "Text": {
+              "Content": "hier",
+              "Link": {
+                "Url": "https://www.dabonline.de/berufspolitik/architektur-ist-eine-innovationsdisziplin"
+              }
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " gelesen werden.",
+            "Href": null,
+            "Text": {
+              "Content": " gelesen werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-80f7-9b29-c9fa864c0a27",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-800f-9c6c-cd2a6f09d3bb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems und Christos Chantzaras ",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems und Christos Chantzaras "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "390cc54c-ec6d-80e2-a8fb-d0db0b2570ba",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "390cc54c-ec6d-80a6-8e0f-c287c3fc0ed2",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

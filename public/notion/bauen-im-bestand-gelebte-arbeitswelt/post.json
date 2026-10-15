@@ -1,0 +1,793 @@
+{
+  "PageId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+  "Title": "Bauen im Bestand: Vom Konzept zur gelebten Arbeitswelt",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/46695f30-d560-494a-b594-5d0fd5eeb627/bauen-im-bestand-gelebte-arbeitswelt-cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=e5976766d966f953def559da0b8b0c2b2ae9631b14b34f3d9d6bac171ceb964e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "bauen-im-bestand-gelebte-arbeitswelt-cover",
+  "Slug": "bauen-im-bestand-gelebte-arbeitswelt",
+  "PublishDate": "2026-06-16",
+  "Tags": [
+    {
+      "id": "beb85fcd-fc13-4348-b7ca-23c173fea654",
+      "name": "Praxis",
+      "color": "green"
+    }
+  ],
+  "Description": "Aufbauend auf den strategischen Grundlagen entstand eine Arbeitswelt, die die Identität und Haltung des Unternehmens räumlich erlebbar macht. Das Projekt zeigt, wie intelligente Sanierung bestehende Strukturen neu interpretiert und in eine zeitgemäße Büroumgebung überführt.",
+  "coverAsset": "bauen-im-bestand-gelebte-arbeitswelt-cover.jpg",
+  "blockAssets": [
+    "bauen-im-bestand-gelebte-arbeitswelt-3.jpg",
+    "bauen-im-bestand-gelebte-arbeitswelt-4.jpg",
+    "bauen-im-bestand-gelebte-arbeitswelt-5.jpg",
+    "bauen-im-bestand-gelebte-arbeitswelt-6.jpg",
+    "bauen-im-bestand-gelebte-arbeitswelt-7.jpg",
+    "bauen-im-bestand-gelebte-arbeitswelt-8.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "381cc54c-ec6d-809a-b7d3-e2a52e70d9f0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Was als strategische Übersetzung der Markenidentität begann, ist heute gebaute Realität: Mitten im Münchner Glockenbachviertel entstand für die Anwaltskanzlei PXR eine Arbeitsumgebung, die Haltung, Flexibilität und Atmosphäre miteinander verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": "Was als strategische Übersetzung der Markenidentität begann, ist heute gebaute Realität: Mitten im Münchner Glockenbachviertel entstand für die Anwaltskanzlei PXR eine Arbeitsumgebung, die Haltung, Flexibilität und Atmosphäre miteinander verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80e1-ae00-f7cf07010d73",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80ae-a4cd-ffb8af85e03d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/de94c8f9-cb36-40ce-b86f-c03de7043fd9/bauen-im-bestand-gelebte-arbeitswelt-3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YAKXERD7%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080648Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQDjLJQsUi7Kmco86r9B69nR8cNpCgXnup1pNueUJ6bPugIhAMCoDIyUamdiyxZvA5wIJxbaoUriJs7MFmqXBGuMRC1PKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgymtRb7A41KhhE7wFgq3APhoOBf%2BZf5uSmb%2FXWkP%2BPVtnsZKUNZRP6y%2Bfsx8Uwf%2B4rLN9Va803mH%2BW7L01HYVpuSeNbeMSBHmKFrCygaxM2kzvVxxP5hisAZ1JwMlI7lgRwcwiIxHeiZEMCPkEPdTK4DU1CTXwXBhQXUMCFrOecZGp3%2BYHc0HX1Y3aakzLu%2BZFzy0QNgcjS8YopZ8TC5M8fxOeWmlG0AnhVWSQ78JWzAxbXGKho2JlpzSCdiOzUwOw0r5ohT59hfkPIcmPENakcW4aXl8dYJc%2BvCpYIt%2FYBZfoFoqD7Q2n75via4HqUXLslmFSbmu9YFDTvPhMwL1j8yrXcFSy4zXZEbSq2tk%2F3mXfg2fuR5%2FwBzUBxCHzzKiXBIqDLd6SB6h%2FIw%2B8RmR118DYiXGn1HtgP4dZ7jCM%2BhSfl2ex%2F%2BxzGKKPRPb99QzcmrLu1MU%2FN0i5uhXP10KAqqgT0I4JenRc15D16UhgAanM%2FShFq0clGfYiJfvJwXQ1taLHFUlXVLl8XzrDloC9BtgDYSOSA1kuQMYlQHpbmujl2%2B66xjUEh%2BNslzB0WpGVzOIXO58uQVQ9ViCmc1EMnRrgFyCJ6Xwxzo%2FQL6cEEWNJsfl9nVtEA8N0Bv%2F05mACN8EfakZiz948LkDC6j8LWBjqkAftPZi%2BW%2FMi%2FhhCR96LP7C%2FZjZEBEPfRJnin5qlNWP2NAao7dHBjVAC91QBw0X%2BrbtbpfmAk0431bPQ1BATwwZsa1DD8X5Bt%2B0d2JkxzsvEYANY4NQ057rIHS26GUVO%2FkIMd0w%2FEUs0y7GKEfj9J%2BcmqcQ0hn1JY7UN9uypqUcjA7ss968st2zuGzRlCImvCaLk%2F4I7pk9XbBHom4c860EDjlOeJ&X-Amz-Signature=db15f56da209d66679bb7a4f6c78fcd72fe70e25daa8d2adc06ab9608697ad41&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:48.062Z"
+        }
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-800a-b07f-c5f409539464",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8011-9123-fbf92c5c4e55",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die zuvor entwickelte Entwurfsstrategie wurde konsequent in den Raum überführt. Präzise Eingriffe, reversible Einbauten sowie ein klarer Fokus auf Materialität, Nutzung und Aufenthaltsqualität prägten dabei die Umsetzung.",
+            "Href": null,
+            "Text": {
+              "Content": "Die zuvor entwickelte Entwurfsstrategie wurde konsequent in den Raum überführt. Präzise Eingriffe, reversible Einbauten sowie ein klarer Fokus auf Materialität, Nutzung und Aufenthaltsqualität prägten dabei die Umsetzung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8032-b93f-e2e8ba049104",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80dd-9425-d9cf1fe468ec",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "381cc54c-ec6d-80d4-9993-e1b23d6b2079",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "381cc54c-ec6d-8036-a02c-fb5c36e3c6cc",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/a0b22a60-c6e0-48e8-adcf-6bafbf87a348/bauen-im-bestand-gelebte-arbeitswelt-4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665NAVHBLW%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080648Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQCO8Jqtk2lADIJtwMt5MaD01tzLHI7xP%2F1VuPiUJAMHLQIhANW2uWaO999CDx5sI%2FNR8TONpg0rEC%2FoeAwZjclK4n6IKogECMj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxV4rTzYEm8mB81u1oq3AOtdiuVyg45HglH1R4QMm4MwVmmFDiq0SLJRTeONpti7%2FWSfIT2osulthicdt69AaFuMkNEK38YrrAvY5CSaPpYUdhZnoznn%2B66ABdS69T9Zyd4%2Fo8eoFkhJb1ZxjMVRF%2BcEYkwUiHYFVQqLvXTUGNtK%2BaLh4dugfFcsv17m7CRlEfVbQoUoZSUVEunPeqObERRKBShBWSUpqKZ95uv9BGewO1l33e1pBDGrZub%2FPgn63x63ORu7fxVFMIjvecM8JsTnbFqnQOHBHCkTDxpVhuOYowC4aI%2FTAN9GKagNoaUYEmRyXlW1KotlAa8Or3j8kcU5W9bj8O%2B2QRhQr8ItSkW8PLW2mqQgKW%2Bo1BC934v1Fn80Ai4982fScsqa9QuXWorPLJISj6blwdPF33ymhQyuIgeL6RYhhGcamLjjRIQFPTYaTGMog%2F%2BhRfsUmUzYW5cHSrZfhPzCNnAbxH2ZXqQm5BYmuzDnuDKESn%2FxOwBPH01RC7%2BZGtrtbN8CcPVfGTKxfUc%2FDy7I%2FWibiKUN0W6Gpeyst3s2maYgHyTJ5XA1rawmIpMQUEuYxqtS8U4mSP6ov5jQzc1qCR5eioWcWu7iBNaUoBbul%2B7y%2BZcpGR94X2cQxBP%2FptdaswNOzCZjcLWBjqkATbSHDOLQ%2Fer1n66x1NzQ5Cdx3vJbVmFsCW7sMexbFhFyL9zJR41cr9%2FVmm7S1i1JipvxSEPuB%2BUdmdwaGGqQwnt5RGIA%2FXuuEsKkoPwTpSd2E%2BCg8c%2FEvtE1GJU2w406r44VVNctQygBNArn2l8FMdj0SGT2V63EQ7FnIMzl%2FuvtkPOVVE0ghQ14XiAKYrCX1CYVB4b7HNmb1oXI%2BL82khufGGZ&X-Amz-Signature=a2f31869746686ab4242cba87955216497f5c4bb3bb829244b555a2dca1ee123&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:48.737Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "381cc54c-ec6d-8097-a80b-ec33c554e57a",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "381cc54c-ec6d-8089-b1bf-c464d295cdb2",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a1c1940-8c98-49e2-908b-1daf8fb930b9/bauen-im-bestand-gelebte-arbeitswelt-5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466643RE4GE%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080648Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIHeARbv1jwkcUWqoPkZsWBQg36kHFjZtjfPklKrJ0qF5AiEAnis7Yb9Dl7M4mYDPfxYJ9PLzzZWPm8nz4jX%2BOt8HHvQqiAQIyP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDE8HajT3PWhAZ5wA6yrcA00OXAyEhsbNsMImJEJxM%2FZaP3%2Bs2%2BGUgwdPt7grFJXXGcwJUuCZacA%2Fvguue3ItCACHdS7J5Cely80N1XmXNQxMJRccS%2FRtHE5fgjbEfR9HT7XA3qbfaISKaJj%2BwUy7PtsGRYDXvyVArBpznxwkFnoC6%2FiR3zjQCsW0sb0UGGT8Q77%2FG9iQsnzefPJ1N68QnJp5S0x3kaGh6kbuWGIcz77V5S7Zirtt9V7iNC9j44bIh9CVNZzqKyLmyHsdiMLbwtL8Sk2zXDo1EJl9GScdt%2FEkBoWYJPRJhdB7zr8OByS%2FBT%2F6L6qeraw%2FYbGJCLHP%2F3lqVXGsYp5wHXEqhv1r2tCrv6UVN%2BeIMfKZlruB%2F2XibB27b9fi4Pnf7ExwDTktLd6v8YxGR7KYaMycNWxCPOj9aGf%2FNFNUEVTOYdxgtUP4bvhd3hkvZv%2BHp3vLEjRZmxMLWOZcDJJwd1YZh6OVq0b2tfCcuAvXOQ6WTg4xu%2FisGb%2BdsaTp2e4lyHOFKFAQxPZLKTPdGhaG7MTkIVvSKSYz3bsUOntSYt45T1eBeYjuKdkkyeGl9HfItEyEenvR0yZOnbB9PZIZOVWvGBl0y1rKDV2cZaP%2BF%2Bj7JNbab1FDzqLNbgQ6Cf5VSXnWMKSNwtYGOqUBeqyYJSvV%2BqmI8%2FZLusj5vz533vwgp2TrjZRga6FBhlKkr7vEQn1nr%2FojeO10L1RP5whLWdvfUrU1%2B30CEqbsQmbKEjhuSy6PTeKn8rO6s461UFyQhpRebSRQdYh6eqvajFo5PHKXZS2%2BE1S2WSLQSmKyrSu12%2FfMx3D6lL8ZWE2hHZcUJaMrrSXKgl%2B5Kvl2ayrnDrCkJhdNRiUU1l3SW5s2mP4B&X-Amz-Signature=4882ebd6f4a2797455865e3517abe549f855755f4f49715a7a88ac76b4fadb12&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:48.726Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8005-8e41-d18d26063ecb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80b7-8c38-db7acf694b4c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dabei blieb der Bestand nicht nur erhalten, sondern wurde gezielt weitergedacht und in eine zeitgemäße Arbeitswelt transformiert. \n\nBesonders spannend: Sämtliche Eingriffe wurden bei laufendem Betrieb umgesetzt. Dabei ging es nicht nur darum, neue Arbeitsflächen zu schaffen, sondern die Haltung von PXR räumlich sichtbar zu machen. Als moderne Kanzlei setzt PXR auf Austausch, Flexibilität und zeitgemäße Arbeitsformen. Dieses Verständnis spiegelt sich im Raumkonzept wieder: mit flexiblen Zonierungen, wohnlich gestalteten Kommunikationsbereichen und Orten für konzentriertes Arbeiten ebenso wie für spontanen Austausch. Das Büro macht sichtbar wie PXR innovative Kanzleiarbeit versteht und lebt.",
+            "Href": null,
+            "Text": {
+              "Content": "Dabei blieb der Bestand nicht nur erhalten, sondern wurde gezielt weitergedacht und in eine zeitgemäße Arbeitswelt transformiert. \n\nBesonders spannend: Sämtliche Eingriffe wurden bei laufendem Betrieb umgesetzt. Dabei ging es nicht nur darum, neue Arbeitsflächen zu schaffen, sondern die Haltung von PXR räumlich sichtbar zu machen. Als moderne Kanzlei setzt PXR auf Austausch, Flexibilität und zeitgemäße Arbeitsformen. Dieses Verständnis spiegelt sich im Raumkonzept wieder: mit flexiblen Zonierungen, wohnlich gestalteten Kommunikationsbereichen und Orten für konzentriertes Arbeiten ebenso wie für spontanen Austausch. Das Büro macht sichtbar wie PXR innovative Kanzleiarbeit versteht und lebt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8041-9058-c625afbfb609",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n",
+            "Href": null,
+            "Text": {
+              "Content": "\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-803c-aad9-f770570e366d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/cbab0a14-fc84-41b1-bd3a-fa10abd9f755/bauen-im-bestand-gelebte-arbeitswelt-6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YAKXERD7%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080648Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQDjLJQsUi7Kmco86r9B69nR8cNpCgXnup1pNueUJ6bPugIhAMCoDIyUamdiyxZvA5wIJxbaoUriJs7MFmqXBGuMRC1PKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgymtRb7A41KhhE7wFgq3APhoOBf%2BZf5uSmb%2FXWkP%2BPVtnsZKUNZRP6y%2Bfsx8Uwf%2B4rLN9Va803mH%2BW7L01HYVpuSeNbeMSBHmKFrCygaxM2kzvVxxP5hisAZ1JwMlI7lgRwcwiIxHeiZEMCPkEPdTK4DU1CTXwXBhQXUMCFrOecZGp3%2BYHc0HX1Y3aakzLu%2BZFzy0QNgcjS8YopZ8TC5M8fxOeWmlG0AnhVWSQ78JWzAxbXGKho2JlpzSCdiOzUwOw0r5ohT59hfkPIcmPENakcW4aXl8dYJc%2BvCpYIt%2FYBZfoFoqD7Q2n75via4HqUXLslmFSbmu9YFDTvPhMwL1j8yrXcFSy4zXZEbSq2tk%2F3mXfg2fuR5%2FwBzUBxCHzzKiXBIqDLd6SB6h%2FIw%2B8RmR118DYiXGn1HtgP4dZ7jCM%2BhSfl2ex%2F%2BxzGKKPRPb99QzcmrLu1MU%2FN0i5uhXP10KAqqgT0I4JenRc15D16UhgAanM%2FShFq0clGfYiJfvJwXQ1taLHFUlXVLl8XzrDloC9BtgDYSOSA1kuQMYlQHpbmujl2%2B66xjUEh%2BNslzB0WpGVzOIXO58uQVQ9ViCmc1EMnRrgFyCJ6Xwxzo%2FQL6cEEWNJsfl9nVtEA8N0Bv%2F05mACN8EfakZiz948LkDC6j8LWBjqkAftPZi%2BW%2FMi%2FhhCR96LP7C%2FZjZEBEPfRJnin5qlNWP2NAao7dHBjVAC91QBw0X%2BrbtbpfmAk0431bPQ1BATwwZsa1DD8X5Bt%2B0d2JkxzsvEYANY4NQ057rIHS26GUVO%2FkIMd0w%2FEUs0y7GKEfj9J%2BcmqcQ0hn1JY7UN9uypqUcjA7ss968st2zuGzRlCImvCaLk%2F4I7pk9XbBHom4c860EDjlOeJ&X-Amz-Signature=5a8d258de1c3a048a058c7acd8314ba9bceb5e9d282b3f4e9b00a7aa422e4948&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:48.062Z"
+        }
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80b2-8fce-df597814a28b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8009-907b-ea5cac49e6a8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Ergebnis zeigt, wie aus strategischer Planung, intelligenter Sanierung und konsequenter Gestaltung ein identitätsstiftender Arbeitsort entstehen kann, der Funktionalität und Atmosphäre selbstverständlich verbindet.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Ergebnis zeigt, wie aus strategischer Planung, intelligenter Sanierung und konsequenter Gestaltung ein identitätsstiftender Arbeitsort entstehen kann, der Funktionalität und Atmosphäre selbstverständlich verbindet."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80de-a0b6-f434689ddf9a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-804d-a93e-c6b3cbce640a",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "381cc54c-ec6d-8089-ba0b-cea763c9e38a",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "381cc54c-ec6d-80ed-8700-dc76b6b48f4c",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8934fb0e-336e-4b28-97be-4e9357074758/bauen-im-bestand-gelebte-arbeitswelt-7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XOZB6IZV%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080649Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIE73J41N7EyhqA%2BFyY3Gq23kBrPgMO10WmtDBWuUg%2BTZAiEAm2ozIB5etGIddBA27LzPqQk6aTsdXGflKgVlPs8iQDUqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGzGuUQHNUqQIq4YPSrcAzWjdYr17DXYVUN4GLSF6V5qxLzLutV2nEUjfpm9xk1eO75IfYPOxtbBrWR9gL4Y%2BfU9wOmxREJlRFDm1FiHhV7hsmi%2BTIXkLmAv%2B%2FKmnrB4LfECQr4jORm0Gyc0WwJxfvtrKjVjb3nQ5s934A9qQYbOqkzEAuqjO2qliIiKZdFo%2BOEnBmWbk5e104%2FzL59%2BpSkpR%2BJ67VfeWqOrt2D7T4TllzlF837UbdpjZJLap%2FC6YlKFQZLRf9iZkr%2FGjc21OjRmZRALUEpu4xyed1A0Ah%2BqePxdyn3iQ5XpC6UXG1wBQXNYtve0YbpLy5U7CUx8e%2FY5JM5AzRRkSrCiZFqb4K6407vZInYrjI34OgS%2FkGJ4hStZaEnBxeosfyMSslJ3nYzpTBRCv5iHGmlEmktVDFkVH%2BoHRCDsuaCiyCrPYh0r3QJs81saRNiUZSAOu3riBfhyUOUxKsznn9n6%2B5ctmYCnXbWfMCms059ibJeJgF6FEhQjNPVsG9vIWkv6fHkQn%2FZc5ZESIVhAlHbqhQL%2FNguqr9kEngVKaeQr6DM%2BpgnIVDcH6De%2FxB1StditahhyVl3xPLfep2ytbjzjFaVyRvUErM4pJVPRcwq%2Fl%2BLHQa62tdQlStC8%2BCdPqR4sMJePwtYGOqUBkPUXxvK6f8hLjAmgkLsk9TGFcuj%2F4tryNrhVTNFmRK2TQ%2BBArVCTlKyiORcRQsd%2FW%2B3j6jrWkb%2BbKWzmUM6kWcK84jK8OgGUMrtAeT6%2FWUpRnanzAJKVWH87f3vrgtwcO%2BCpyCTvRLf3vPj2MCy9a%2BRkXLHAvkr7FhOqTELpVlPzQDYNsMJAz5U2AhwB14tgMf1G%2BFQgE%2FjB66mhF4I8Jtx0z065&X-Amz-Signature=aa5a51f2078ea2956f2ea7c8bfdb2073ed599cfd851f1943de207e75f3ef7a9d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:49.898Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "381cc54c-ec6d-80fd-928c-e639bc5a6b66",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "381cc54c-ec6d-80a7-a012-f68bc2f0574a",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/112c5f40-3b7a-4d3b-b396-66b58cdd18d6/bauen-im-bestand-gelebte-arbeitswelt-8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XHYJ6FEN%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080649Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIGsVcWKCGMDLcIcYKJ%2BnjOm%2FbB%2B5mqRDsKd7JNV4g3A4AiBpuWxzG3IW6x4ecd98VTQ9GBv9ZQhV%2BGs1lY5CLJ%2Bt1SqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMW4wCb5HJsoyU63NEKtwDknAU%2BEuBhJls2Xe09CI7zfyz0AaGydD8cpHZLzr9a5l%2FvmlQuGqCc9S2E8KGSuIdFw784iKYEdpeqWVnGTLJ4VwN%2Bk0BETjh657h25nfJCsqAd8CK0QjzBjUQQyEwDLJ%2Fxt38kgJP3uMtFS29cdjv2umhusOkuOGOS%2FGx1YFDqUi6xcHs1fhJq5qENX5dhdt4Zn94FOPuTOLF%2BEnYczgBx2cdoW4i1SLWERIpZUKBr%2BzvxJc2UgVuIPJjjdPc1yTL59y2vbNYhutQI95nWkcr8dbREjtEp7VHRmBs9Q%2BDFwfxEX875Zz2POwP1vPHCP8nQ6XmjqD8lRvyvXY1rlJJKYeTJtk%2FlPJm3mAVPWOmMLIFumDYZsO3d%2FUCKQFtAx4XMAs4A6HesiXi7rSuHq4bFgEXwqn0pBtuBOq0%2FIhS30TvzG0M25mueIjgizrnuIq%2BdHiTyZvA1H8DdGE69t6HW8MQ83zV8QAZfq5HjwDPA5IibTZgWmfYPvhaRBym2%2FYUQTZMoZ0wyWugKb55yF3YdYSXwx8Caq%2FLmLdvqU69VrOclN1M%2FzsRTOPt6frC45S9ns4%2FzWAc7MgdkAFIdoaWmsjp%2B2zEA7wRbTy2edblstAAgOeGn2SaPd1E9sw9ozC1gY6pgGh2VHJvxi76wi9AmWyvQ8zHd%2Bm7dypaAnYw6zW6EWhk1kQiQ90AtgrDce4MWRIxRrRI0gZLSDPr%2Ble1HFihmgH6Q53iqz0fob5ezbFtu7MrD8D1YUr8AtmeqZc7aVGIXzKaRCxc2DUUScoARRbdVs7YmM0swOGmRt%2B8hFXWCPUreDEj7goBO1g5LLK8fUC0y3PJgzKs0cwYqcfmOWMuxEtjt96YDL3&X-Amz-Signature=9295854b3ecaa80acc20af90c5d9893c1c803dce3918692e76d3cdee460d896d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:49.919Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80df-8424-e0b6323d2c36",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8039-a4f1-c06729ffb58b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\nKonkret haben wir für PXR folgende Leistungen erbracht:",
+            "Href": null,
+            "Text": {
+              "Content": "\nKonkret haben wir für PXR folgende Leistungen erbracht:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-801e-a13f-e53f0e0828d0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Strategie: ",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Strategie: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-807d-871a-efcc1adbb394",
+      "Type": "bulleted_list_item",
+      "HasChildren": true,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshop I: Strategie",
+            "Href": null,
+            "Text": {
+              "Content": "Workshop I: Strategie"
+            }
+          }
+        ],
+        "Color": "default",
+        "Children": [
+          {
+            "Id": "381cc54c-ec6d-80a1-bafe-c1975b367cc7",
+            "Type": "bulleted_list_item",
+            "HasChildren": false,
+            "BulletedListItem": {
+              "RichTexts": [
+                {
+                  "Annotation": {
+                    "Bold": false,
+                    "Italic": false,
+                    "Strikethrough": false,
+                    "Underline": false,
+                    "Code": false,
+                    "Color": "default"
+                  },
+                  "PlainText": "Überführung Corporate Identity in den gebauten Raum",
+                  "Href": null,
+                  "Text": {
+                    "Content": "Überführung Corporate Identity in den gebauten Raum"
+                  }
+                }
+              ],
+              "Color": "default"
+            }
+          },
+          {
+            "Id": "381cc54c-ec6d-8078-baf9-c54568c9bb1c",
+            "Type": "bulleted_list_item",
+            "HasChildren": false,
+            "BulletedListItem": {
+              "RichTexts": [
+                {
+                  "Annotation": {
+                    "Bold": false,
+                    "Italic": false,
+                    "Strikethrough": false,
+                    "Underline": false,
+                    "Code": false,
+                    "Color": "default"
+                  },
+                  "PlainText": "Entwicklung eins smarten Umbaukonzepts im laufenden Betrieb",
+                  "Href": null,
+                  "Text": {
+                    "Content": "Entwicklung eins smarten Umbaukonzepts im laufenden Betrieb"
+                  }
+                }
+              ],
+              "Color": "default"
+            }
+          },
+          {
+            "Id": "381cc54c-ec6d-80e8-a052-ff8d1fa72583",
+            "Type": "bulleted_list_item",
+            "HasChildren": false,
+            "BulletedListItem": {
+              "RichTexts": [
+                {
+                  "Annotation": {
+                    "Bold": false,
+                    "Italic": false,
+                    "Strikethrough": false,
+                    "Underline": false,
+                    "Code": false,
+                    "Color": "default"
+                  },
+                  "PlainText": "Entwicklung eines zirkulären Nutzungskonzept ",
+                  "Href": null,
+                  "Text": {
+                    "Content": "Entwicklung eines zirkulären Nutzungskonzept "
+                  }
+                }
+              ],
+              "Color": "default"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8050-b3ce-e9b9fc804129",
+      "Type": "bulleted_list_item",
+      "HasChildren": true,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Workshop II:  Gestaltung ",
+            "Href": null,
+            "Text": {
+              "Content": "Workshop II:  Gestaltung "
+            }
+          }
+        ],
+        "Color": "default",
+        "Children": [
+          {
+            "Id": "381cc54c-ec6d-80c1-ba9a-f8760b64655a",
+            "Type": "bulleted_list_item",
+            "HasChildren": false,
+            "BulletedListItem": {
+              "RichTexts": [
+                {
+                  "Annotation": {
+                    "Bold": false,
+                    "Italic": false,
+                    "Strikethrough": false,
+                    "Underline": false,
+                    "Code": false,
+                    "Color": "default"
+                  },
+                  "PlainText": "darunter Ermittlung der Zielvorstellungen und räumliche Übersetzung",
+                  "Href": null,
+                  "Text": {
+                    "Content": "darunter Ermittlung der Zielvorstellungen und räumliche Übersetzung"
+                  }
+                }
+              ],
+              "Color": "default"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8001-a687-e9e6031b901a",
+      "Type": "bulleted_list_item",
+      "HasChildren": true,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "strategische Kommunikation: ",
+            "Href": null,
+            "Text": {
+              "Content": "strategische Kommunikation: "
+            }
+          }
+        ],
+        "Color": "default",
+        "Children": [
+          {
+            "Id": "381cc54c-ec6d-807a-9c8c-f87172a99800",
+            "Type": "bulleted_list_item",
+            "HasChildren": false,
+            "BulletedListItem": {
+              "RichTexts": [
+                {
+                  "Annotation": {
+                    "Bold": false,
+                    "Italic": false,
+                    "Strikethrough": false,
+                    "Underline": false,
+                    "Code": false,
+                    "Color": "default"
+                  },
+                  "PlainText": "visuelles Narrativ zur konkreten Positionierung am Markt ",
+                  "Href": null,
+                  "Text": {
+                    "Content": "visuelles Narrativ zur konkreten Positionierung am Markt "
+                  }
+                }
+              ],
+              "Color": "default"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80ef-ad7f-efb94773aad9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Praxis:",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Praxis:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8075-a131-f582d877181d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Objektplanung: Leistungsphasen 1 - 8 ",
+            "Href": null,
+            "Text": {
+              "Content": "Objektplanung: Leistungsphasen 1 - 8 "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8001-899a-cf8001fab797",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "fotografische Dokumentation ",
+            "Href": null,
+            "Text": {
+              "Content": "fotografische Dokumentation "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8048-8924-c836e0a1fa84",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80f4-9b6a-c57ee24193e4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems ",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-8077-bb07-c96a625c1133",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "381cc54c-ec6d-80f8-992f-ec067d9e7609",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "381cc54c-ec6d-8069-813c-db5e2a69e3b4",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

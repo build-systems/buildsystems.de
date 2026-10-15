@@ -1,0 +1,356 @@
+{
+  "PageId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+  "Title": "BuildSystems nominiert als Frontrunner of the Year ",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8b16f2f0-c4cb-4460-985d-a2ba02b06e55/frontrunner-of-the-year-cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=b8b708fe351fbbb47ccdbc9a55e084244339a5b32c94e4895efc1b12a96bd77b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "frontrunner-of-the-year-cover",
+  "Slug": "frontrunner-of-the-year",
+  "PublishDate": "2026-09-10",
+  "Tags": [
+    {
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
+    }
+  ],
+  "Description": "BuildSystems wurde für den Built by Nature „Frontrunner of the Year Award 2026“ nominiert. Die Auszeichnung würdigt Organisationen, die die Transformation hin zu einer klimafreundlichen, holz- und biobasierten Bauwirtschaft nicht nur in einzelnen Projekten vorantreiben, sondern durch Wissenstransfer, Kooperation und aktive Netzwerkarbeit in die Breite tragen.",
+  "coverAsset": "frontrunner-of-the-year-cover.jpg",
+  "blockAssets": [],
+  "blocks": [
+    {
+      "Id": "3d7cc54c-ec6d-80d1-83e1-ccd493c1a223",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems wurde für den Built by Nature „Frontrunner of the Year Award 2026“ nominiert. Die Auszeichnung würdigt Organisationen, die die Transformation hin zu einer klimafreundlichen, holz- und biobasierten Bauwirtschaft nicht nur in einzelnen Projekten vorantreiben, sondern durch Wissenstransfer, Kooperation und aktive Netzwerkarbeit in die Breite tragen.",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems wurde für den Built by Nature „Frontrunner of the Year Award 2026“ nominiert. Die Auszeichnung würdigt Organisationen, die die Transformation hin zu einer klimafreundlichen, holz- und biobasierten Bauwirtschaft nicht nur in einzelnen Projekten vorantreiben, sondern durch Wissenstransfer, Kooperation und aktive Netzwerkarbeit in die Breite tragen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-8052-8689-c8d002af3922",
+      "Type": "heading_4",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228"
+    },
+    {
+      "Id": "3d7cc54c-ec6d-8088-8499-fbd5bdc42e1d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bauwende ist keine Aufgabe einzelner Disziplinen oder Organisationen. Neue Lösungen entstehen dort, wo Erfahrungen aus Planung und Umsetzung geteilt, unterschiedliche Perspektiven zusammengebracht und Erkenntnisse aus einzelnen Projekten für weitere Akteure nutzbar gemacht werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bauwende ist keine Aufgabe einzelner Disziplinen oder Organisationen. Neue Lösungen entstehen dort, wo Erfahrungen aus Planung und Umsetzung geteilt, unterschiedliche Perspektiven zusammengebracht und Erkenntnisse aus einzelnen Projekten für weitere Akteure nutzbar gemacht werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-80a1-baca-dc5df9929286",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Built by Nature bringt mit seinem Netzwerk Organisationen zusammen, die über die eigene Projektarbeit hinaus Verantwortung übernehmen. Die Frontrunner teilen ihr Fachwissen, arbeiten gemeinsam an Forschung und Wissensvermittlung und schaffen neue Kooperationen, um den Wandel hin zu einer regenerativen Bauweise voranzutreiben.",
+            "Href": null,
+            "Text": {
+              "Content": "Built by Nature bringt mit seinem Netzwerk Organisationen zusammen, die über die eigene Projektarbeit hinaus Verantwortung übernehmen. Die Frontrunner teilen ihr Fachwissen, arbeiten gemeinsam an Forschung und Wissensvermittlung und schaffen neue Kooperationen, um den Wandel hin zu einer regenerativen Bauweise voranzutreiben."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-802b-a87e-cc0369e4c4fe",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit werden Netzwerke zu einem entscheidenden Baustein der Transformation. Sie helfen dabei, übertragbare Ansätze zu entwickeln und Innovationen schneller in der Baupraxis zu verankern.",
+            "Href": null,
+            "Text": {
+              "Content": "Damit werden Netzwerke zu einem entscheidenden Baustein der Transformation. Sie helfen dabei, übertragbare Ansätze zu entwickeln und Innovationen schneller in der Baupraxis zu verankern."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-8035-ba7e-c1478f276661",
+      "Type": "heading_4",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228"
+    },
+    {
+      "Id": "3d7cc54c-ec6d-800b-bd07-d0e869d6cdf5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dieses Netzwerkdenken prägt unsere Arbeit grundsätzlich. Wir betrachten Projekte nicht isoliert, sondern versuchen, Wissen, Erfahrungen und Akteure projektübergreifend miteinander zu verbinden. Intern bringen wir unterschiedliche Kompetenzen und Erkenntnisse aus unseren Vorhaben zusammen, extern vernetzen wir Partner aus Planung, Forschung, Wirtschaft und öffentlicher Hand.",
+            "Href": null,
+            "Text": {
+              "Content": "Dieses Netzwerkdenken prägt unsere Arbeit grundsätzlich. Wir betrachten Projekte nicht isoliert, sondern versuchen, Wissen, Erfahrungen und Akteure projektübergreifend miteinander zu verbinden. Intern bringen wir unterschiedliche Kompetenzen und Erkenntnisse aus unseren Vorhaben zusammen, extern vernetzen wir Partner aus Planung, Forschung, Wirtschaft und öffentlicher Hand."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-8036-83cd-e4f0d4f3f7fd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "So können Erfahrungen aus einem Projekt neue Fragestellungen in einem anderen anstoßen, bestehende Ansätze weiterentwickelt und neue Kooperationen aufgebaut werden. Unser Ziel ist es, kontinuierlich Synergien zu schaffen und aus einzelnen Projekten einen gemeinsamen Lern- und Entwicklungsprozess entstehen zu lassen.",
+            "Href": null,
+            "Text": {
+              "Content": "So können Erfahrungen aus einem Projekt neue Fragestellungen in einem anderen anstoßen, bestehende Ansätze weiterentwickelt und neue Kooperationen aufgebaut werden. Unser Ziel ist es, kontinuierlich Synergien zu schaffen und aus einzelnen Projekten einen gemeinsamen Lern- und Entwicklungsprozess entstehen zu lassen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-80c6-b824-c14564e5ac75",
+      "Type": "heading_4",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228"
+    },
+    {
+      "Id": "3d7cc54c-ec6d-8033-bfba-f22aa7922ae5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Über unsere unterschiedlichen Wirkungsfelder Strategie, Praxis und Transfer verbinden wir dabei verschiedene Ebenen der Transformation miteinander: von der strategischen Entwicklung nachhaltiger Gebäude, Portfolios und Geschäftsmodelle über die konkrete Umsetzung in der gebauten Praxis, wie beispielsweise beim zirkulären Umbau der PXR Anwaltskanzlei in München, bis hin zu Forschungs- und Transferprojekten wie der Plattform-E, Standard-E oder SIMPLIFY.",
+            "Href": null,
+            "Text": {
+              "Content": "Über unsere unterschiedlichen Wirkungsfelder Strategie, Praxis und Transfer verbinden wir dabei verschiedene Ebenen der Transformation miteinander: von der strategischen Entwicklung nachhaltiger Gebäude, Portfolios und Geschäftsmodelle über die konkrete Umsetzung in der gebauten Praxis, wie beispielsweise beim zirkulären Umbau der PXR Anwaltskanzlei in München, bis hin zu Forschungs- und Transferprojekten wie der Plattform-E, Standard-E oder SIMPLIFY."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-80ba-b1dc-d903434de826",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Erfahrungen aus diesen Projekten fließen bewusst ineinander: Erkenntnisse aus der praktischen Umsetzung können neue strategische Fragestellungen anstoßen, Forschungsergebnisse in realen Projekten erprobt und erprobte Lösungen wiederum über Netzwerke und Transferformate für weitere Akteure zugänglich gemacht werden. So entstehen projektübergreifend Synergien und ein kontinuierlicher Austausch zwischen Strategie, Anwendung, Forschung und Wissenstransfer.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Erfahrungen aus diesen Projekten fließen bewusst ineinander: Erkenntnisse aus der praktischen Umsetzung können neue strategische Fragestellungen anstoßen, Forschungsergebnisse in realen Projekten erprobt und erprobte Lösungen wiederum über Netzwerke und Transferformate für weitere Akteure zugänglich gemacht werden. So entstehen projektübergreifend Synergien und ein kontinuierlicher Austausch zwischen Strategie, Anwendung, Forschung und Wissenstransfer."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-80f9-97e0-cd175d257cb7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unser Anspruch dabei: Lösungen nicht isoliert zu entwickeln, sondern Wissen, Projekte und Akteure miteinander zu verbinden und so aus einzelnen Impulsen langfristig wirksame Veränderungen für die Bau- und Immobilienbranche entstehen zu lassen.",
+            "Href": null,
+            "Text": {
+              "Content": "Unser Anspruch dabei: Lösungen nicht isoliert zu entwickeln, sondern Wissen, Projekte und Akteure miteinander zu verbinden und so aus einzelnen Impulsen langfristig wirksame Veränderungen für die Bau- und Immobilienbranche entstehen zu lassen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-801e-b96c-c922bd301c22",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Nominierung als Built by Nature Frontrunner of the Year 2026 verstehen wir deshalb auch als Anerkennung dieses Ansatzes und freuen uns, mit BuildSystems Teil eines Netzwerks zu sein, das neue Wege für eine ressourcenschonende und zukunftsfähige gebaute Umwelt gemeinsam vorantreibt.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Nominierung als Built by Nature Frontrunner of the Year 2026 verstehen wir deshalb auch als Anerkennung dieses Ansatzes und freuen uns, mit BuildSystems Teil eines Netzwerks zu sein, das neue Wege für eine ressourcenschonende und zukunftsfähige gebaute Umwelt gemeinsam vorantreibt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-80d2-8995-c50345e5316f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Frontrunner of the Year 2026 wird am 5. Oktober 2026 beim Built by Nature Annual Summit in Barcelona bekannt gegeben.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Frontrunner of the Year 2026 wird am 5. Oktober 2026 beim Built by Nature Annual Summit in Barcelona bekannt gegeben."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3d7cc54c-ec6d-808e-8aa5-ff6d32cd681f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3d7cc54c-ec6d-808b-b820-cf597315f228",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

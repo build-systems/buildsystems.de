@@ -1,0 +1,640 @@
+{
+  "PageId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+  "Title": "Von der Plattform zum Forschungsnetzwerk: Transfer by BuildSystems",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "News",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/48e9b22a-974e-444b-adf8-cc8e94afec45/forschungstransfer-bei-buildsystems_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=0bfc04821dadb599be54bf4f03bf456c3de9d8845e2ad5b74c9b3007d3702389&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "forschungstransfer-by-buildsystems_cover",
+  "Slug": "forschungstransfer-by-buildsystems",
+  "PublishDate": "2026-08-25",
+  "Tags": [
+    {
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
+    }
+  ],
+  "Description": "Rund um die Plattform-E baut BuildSystems ein internationales Forschungs- und Innovationsnetzwerk für Einfaches, zirkuläres und zukunftsfähiges Bauen auf. SIMPLIFY und Standard E gehen in umfänglichen Forschungs- und Innovationskonsortien aktiv voran. ",
+  "coverAsset": "forschungstransfer-bei-buildsystems_cover.jpg",
+  "blockAssets": [],
+  "blocks": [
+    {
+      "Id": "3cfcc54c-ec6d-8040-9ed7-d6fd9938d9ed",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wie BuildSystems die Bauwende vorantreibt",
+            "Href": null,
+            "Text": {
+              "Content": "Wie BuildSystems die Bauwende vorantreibt"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-808b-83b0-c11596ae59d3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Bauwende entsteht nicht in einzelnen Projekten. Neue Ansätze müssen erprobt, wissenschaftlich untersucht, zwischen Regionen übertragen und schließlich in Planung, Unternehmen und Regulierung verankert werden. Genau dafür baut BuildSystems rund um die Plattform-E ein wachsendes Netzwerk aus Forschungs- und Entwicklungsprojekten, Pilotvorhaben, Hochschulen, Unternehmen und öffentlichen Institutionen auf.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Bauwende entsteht nicht in einzelnen Projekten. Neue Ansätze müssen erprobt, wissenschaftlich untersucht, zwischen Regionen übertragen und schließlich in Planung, Unternehmen und Regulierung verankert werden. Genau dafür baut BuildSystems rund um die Plattform-E ein wachsendes Netzwerk aus Forschungs- und Entwicklungsprojekten, Pilotvorhaben, Hochschulen, Unternehmen und öffentlichen Institutionen auf."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80eb-b1a7-e735fdd7aacf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Was 2025 als Initiative für den Wissenstransfer zum Einfachen und Experimentellen Bauen begonnen hat, entwickelt sich damit zunehmend zu einer Infrastruktur für Innovation. Plattform-E verbindet gebaute Beispiele und ihre Akteur:innen mit Forschung, neuen Formaten und internationalen Projekten – mit dem Ziel, erfolgreiche Ansätze nicht bei einzelnen Leuchttürmen stehen zu lassen, sondern in die Breite zu bringen. Die Plattform selbst bündelt dafür Praxiserfahrungen, Projekte und Wissen und macht sie für unterschiedliche Akteur:innen der Branche zugänglich.",
+            "Href": null,
+            "Text": {
+              "Content": "Was 2025 als Initiative für den Wissenstransfer zum Einfachen und Experimentellen Bauen begonnen hat, entwickelt sich damit zunehmend zu einer Infrastruktur für Innovation. Plattform-E verbindet gebaute Beispiele und ihre Akteur:innen mit Forschung, neuen Formaten und internationalen Projekten – mit dem Ziel, erfolgreiche Ansätze nicht bei einzelnen Leuchttürmen stehen zu lassen, sondern in die Breite zu bringen. Die Plattform selbst bündelt dafür Praxiserfahrungen, Projekte und Wissen und macht sie für unterschiedliche Akteur:innen der Branche zugänglich."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-800f-bf13-dbe9bfd512db",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "SIMPLIFY: Zirkuläres Bauen braucht neue Spielräume",
+            "Href": null,
+            "Text": {
+              "Content": "SIMPLIFY: Zirkuläres Bauen braucht neue Spielräume"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8091-a2d9-cdbd769f19e6",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein wichtiger Baustein ist das europäische Forschungsprojekt SIMPLIFY – Building Outside Standards: Enabling Innovative Resource-Efficient Circular Construction in the Alps. In dem Interreg-Alpine-Space-Projekt arbeiten 13 Partner aus sechs Ländern – Deutschland, Österreich, Schweiz, Frankreich, Italien und Slowenien – zusammen, darunter Vertreter:innen der Bauindustrie, Innovations- und Nachhaltigkeitsagenturen sowie Forschungseinrichtungen.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein wichtiger Baustein ist das europäische Forschungsprojekt SIMPLIFY – Building Outside Standards: Enabling Innovative Resource-Efficient Circular Construction in the Alps. In dem Interreg-Alpine-Space-Projekt arbeiten 13 Partner aus sechs Ländern – Deutschland, Österreich, Schweiz, Frankreich, Italien und Slowenien – zusammen, darunter Vertreter:innen der Bauindustrie, Innovations- und Nachhaltigkeitsagenturen sowie Forschungseinrichtungen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-800d-8685-ec2cfe9b2705",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ausgangspunkt sind konkrete Pilotprojekte des Einfachen, Experimentellen und Zirkulären Bauens im Alpenraum. Gemeinsam mit regionalen Schlüsselakteuren werden regulatorische, technische, wirtschaftliche und organisatorische Hürden identifiziert und systematisch untersucht. Ziel von Interreg ist dabei ausdrücklich die regionale Entwicklung: Erkenntnisse aus den Piloten sollen nicht im einzelnen Projekt verbleiben, sondern genutzt werden, um übergreifende Hemmnisse abzubauen und bessere Rahmenbedingungen für ressourceneffiziente Lösungen zu schaffen.",
+            "Href": null,
+            "Text": {
+              "Content": "Ausgangspunkt sind konkrete Pilotprojekte des Einfachen, Experimentellen und Zirkulären Bauens im Alpenraum. Gemeinsam mit regionalen Schlüsselakteuren werden regulatorische, technische, wirtschaftliche und organisatorische Hürden identifiziert und systematisch untersucht. Ziel von Interreg ist dabei ausdrücklich die regionale Entwicklung: Erkenntnisse aus den Piloten sollen nicht im einzelnen Projekt verbleiben, sondern genutzt werden, um übergreifende Hemmnisse abzubauen und bessere Rahmenbedingungen für ressourceneffiziente Lösungen zu schaffen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-803d-8454-c8cf11fbe7e5",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems bringt insbesondere die Erfahrungen aus dem deutschen Diskurs zum Einfachen Bauen ein. Im Projekt sind wir für die Entwicklung übertragbarer „Copy-Paste-Lösungen“ verantwortlich: Wir übersetzen die Erkenntnisse aus den Pilotprojekten in anwendbare Ansätze, Werkzeuge und Handlungsempfehlungen, die auch in anderen Regionen und Projekten genutzt werden können. Damit liegt unser Fokus genau an der Schnittstelle zwischen Forschung, Anwendung und Skalierung.",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems bringt insbesondere die Erfahrungen aus dem deutschen Diskurs zum Einfachen Bauen ein. Im Projekt sind wir für die Entwicklung übertragbarer „Copy-Paste-Lösungen“ verantwortlich: Wir übersetzen die Erkenntnisse aus den Pilotprojekten in anwendbare Ansätze, Werkzeuge und Handlungsempfehlungen, die auch in anderen Regionen und Projekten genutzt werden können. Damit liegt unser Fokus genau an der Schnittstelle zwischen Forschung, Anwendung und Skalierung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-808a-8507-ec3f41f4673a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dass SIMPLIFY 2026 im Interreg-Alpine-Space-Programm bewilligt wurde, ist für BuildSystems ein wichtiger Meilenstein: Das Projekt schafft einen internationalen Rahmen, in dem wir bereits umgesetzte Innovationen gemeinsam mit starken europäischen Partnern in die Breite tragen können.",
+            "Href": null,
+            "Text": {
+              "Content": "Dass SIMPLIFY 2026 im Interreg-Alpine-Space-Programm bewilligt wurde, ist für BuildSystems ein wichtiger Meilenstein: Das Projekt schafft einen internationalen Rahmen, in dem wir bereits umgesetzte Innovationen gemeinsam mit starken europäischen Partnern in die Breite tragen können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8093-84b9-cc855f0ea881",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Standard-E: Einfaches Bauen gemeinsam in die Anwendung bringen",
+            "Href": null,
+            "Text": {
+              "Content": "Standard-E: Einfaches Bauen gemeinsam in die Anwendung bringen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80ff-a144-cfc0582a7032",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Parallel dazu bringt BuildSystems seine Expertise in das österreichische FFG-Leitprojekt Standard-E ein. Im Rahmen der Ausschreibung ",
+            "Href": null,
+            "Text": {
+              "Content": "Parallel dazu bringt BuildSystems seine Expertise in das österreichische FFG-Leitprojekt Standard-E ein. Im Rahmen der Ausschreibung "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": true,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "„Einfach Bauen mit innovativen Lösungen“",
+            "Href": null,
+            "Text": {
+              "Content": "„Einfach Bauen mit innovativen Lösungen“"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " werden technische, planerisch-funktionale und rechtliche Spielräume untersucht, mit denen Neu- und Umbauten kostengünstiger, ressourcenschonender und einfacher realisiert werden können. Für das Leitprojekt stellte die FFG insgesamt 2,89 Millionen Euro zur Verfügung. Im Zentrum stehen 15 reale Demonstratoren, anhand derer technische, planerische, rechtliche und normative Anforderungen überprüft und neue Lösungsansätze praktisch erprobt werden.",
+            "Href": null,
+            "Text": {
+              "Content": " werden technische, planerisch-funktionale und rechtliche Spielräume untersucht, mit denen Neu- und Umbauten kostengünstiger, ressourcenschonender und einfacher realisiert werden können. Für das Leitprojekt stellte die FFG insgesamt 2,89 Millionen Euro zur Verfügung. Im Zentrum stehen 15 reale Demonstratoren, anhand derer technische, planerische, rechtliche und normative Anforderungen überprüft und neue Lösungsansätze praktisch erprobt werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80b2-80eb-d6bf40c20749",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Konsortium wird maßgeblich durch die Berufsvertretungen von Architektur und Ingenieurwesen sowie Akteure der Bauindustrie getragen und vereint darüber hinaus Expert:innen aus Planungspraxis, Forschung und öffentlicher Hand. Damit werden die Projektergebnisse von Beginn an aus unterschiedlichen Perspektiven entwickelt und auf ihre praktische Anschlussfähigkeit geprüft.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Konsortium wird maßgeblich durch die Berufsvertretungen von Architektur und Ingenieurwesen sowie Akteure der Bauindustrie getragen und vereint darüber hinaus Expert:innen aus Planungspraxis, Forschung und öffentlicher Hand. Damit werden die Projektergebnisse von Beginn an aus unterschiedlichen Perspektiven entwickelt und auf ihre praktische Anschlussfähigkeit geprüft."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80a4-94f2-cd5bea39f250",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems bringt Erfahrungen aus Gebäudetyp E, Hamburg-Standard und Plattform-E in das Projekt ein und übernimmt eine zentrale Transferrolle. Wir sind für die Entwicklung der Wissensplattform und digitaler Transferwerkzeuge verantwortlich – und damit bereits während der Projektlaufzeit für die frühzeitige Kommunikation, Diskussion und Validierung der Ergebnisse. Wissenstransfer wird so nicht erst am Projektende gedacht, sondern als integraler Bestandteil des Forschungsprozesses.",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems bringt Erfahrungen aus Gebäudetyp E, Hamburg-Standard und Plattform-E in das Projekt ein und übernimmt eine zentrale Transferrolle. Wir sind für die Entwicklung der Wissensplattform und digitaler Transferwerkzeuge verantwortlich – und damit bereits während der Projektlaufzeit für die frühzeitige Kommunikation, Diskussion und Validierung der Ergebnisse. Wissenstransfer wird so nicht erst am Projektende gedacht, sondern als integraler Bestandteil des Forschungsprozesses."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-8026-8329-dc6977df1d56",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Standard-E ist damit für BuildSystems zugleich Forschungsprojekt und Reallabor für unseren Transferansatz: Erkenntnisse werden gemeinsam mit relevanten Akteur:innen entwickelt, kontinuierlich überprüft und so aufbereitet, dass sie anschließend tatsächlich in Planung, Bauwirtschaft und Regulierung Anwendung finden können.",
+            "Href": null,
+            "Text": {
+              "Content": "Standard-E ist damit für BuildSystems zugleich Forschungsprojekt und Reallabor für unseren Transferansatz: Erkenntnisse werden gemeinsam mit relevanten Akteur:innen entwickelt, kontinuierlich überprüft und so aufbereitet, dass sie anschließend tatsächlich in Planung, Bauwirtschaft und Regulierung Anwendung finden können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-800f-a77c-f565bea96439",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein Netzwerk",
+            "Href": null,
+            "Text": {
+              "Content": "Ein Netzwerk"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ", das über Forschungsprojekte hinausgeht",
+            "Href": null,
+            "Text": {
+              "Content": ", das über Forschungsprojekte hinausgeht"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80e5-93f4-e6942b3580c8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Forschungsprojekte sind dabei ein Teil des ",
+            "Href": null,
+            "Text": {
+              "Content": "Die Forschungsprojekte sind dabei ein Teil des "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Netzwerks",
+            "Href": null,
+            "Text": {
+              "Content": "Netzwerks"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": ". Rund um Plattform-E entstehen Runde Tische, Workshops, Exkursionen, Veranstaltungen und Innovationsnetzwerke, die unterschiedliche Ebenen der Bauwende miteinander verbinden.",
+            "Href": null,
+            "Text": {
+              "Content": ". Rund um Plattform-E entstehen Runde Tische, Workshops, Exkursionen, Veranstaltungen und Innovationsnetzwerke, die unterschiedliche Ebenen der Bauwende miteinander verbinden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80bb-a736-cd102cde6750",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dazu gehören Kooperationen und Austauschformate mit Akteur:innen wie Built by Nature und Bauhaus Erde, dem TUM Cluster Sustainable Real Estate, dem TUM Venture Lab Built Environment, IBA'27 sowie Pilotprojekten des Gebäudetyp E. Hinzu kommen Netzwerke von Bauproduktherstellern, Planenden, Wohnungsunternehmen und öffentlichen Stellen. Über Veranstaltungen wie die Climate Week Munich oder gemeinsame Besuche realisierter Projekte wird Forschung dabei bewusst mit persönlichem Austausch und gebauter Praxis verbunden.",
+            "Href": null,
+            "Text": {
+              "Content": "Dazu gehören Kooperationen und Austauschformate mit Akteur:innen wie Built by Nature und Bauhaus Erde, dem TUM Cluster Sustainable Real Estate, dem TUM Venture Lab Built Environment, IBA'27 sowie Pilotprojekten des Gebäudetyp E. Hinzu kommen Netzwerke von Bauproduktherstellern, Planenden, Wohnungsunternehmen und öffentlichen Stellen. Über Veranstaltungen wie die Climate Week Munich oder gemeinsame Besuche realisierter Projekte wird Forschung dabei bewusst mit persönlichem Austausch und gebauter Praxis verbunden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80e7-8f06-fed488ccd518",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "So entsteht kein lineares Forschungsprogramm, sondern ein Netzwerk aus Projekten, Menschen, Wissen und realen Anwendungen: Erkenntnisse aus einem Pilotprojekt können zur Forschungsfrage eines nächsten Vorhabens werden, internationale Erfahrungen in den Diskurs einfließen und Diskussionen mit Unternehmen oder Verwaltung wiederum neue Projekte anstoßen.",
+            "Href": null,
+            "Text": {
+              "Content": "So entsteht kein lineares Forschungsprogramm, sondern ein Netzwerk aus Projekten, Menschen, Wissen und realen Anwendungen: Erkenntnisse aus einem Pilotprojekt können zur Forschungsfrage eines nächsten Vorhabens werden, internationale Erfahrungen in den Diskurs einfließen und Diskussionen mit Unternehmen oder Verwaltung wiederum neue Projekte anstoßen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3cfcc54c-ec6d-80cd-ae98-c0d14417a63b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Darin sieht BuildSystems seine Rolle als Forschungs- und Entwicklungspartner. Wir entwickeln Konsortien, verbinden Praxis und Wissenschaft, mobilisieren Fördermittel und übersetzen Ergebnisse so, dass daraus Veränderung entsteht.",
+            "Href": null,
+            "Text": {
+              "Content": "Darin sieht BuildSystems seine Rolle als Forschungs- und Entwicklungspartner. Wir entwickeln Konsortien, verbinden Praxis und Wissenschaft, mobilisieren Fördermittel und übersetzen Ergebnisse so, dass daraus Veränderung entsteht."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3c7cc54c-ec6d-8046-b71a-d16b2ee263a2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3c6cc54c-ec6d-80ee-8b5c-d4fc6725f22b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "3c6cc54c-ec6d-80a3-8d05-e1000d55b54d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

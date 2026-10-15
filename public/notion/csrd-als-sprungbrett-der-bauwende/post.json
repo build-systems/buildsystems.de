@@ -17,7 +17,7 @@
   "Icon": null,
   "Cover": {
     "Type": "file",
-    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RB7MAWG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063919Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC5lqjkSBZzmpq7UNyiwQXbx5jbnq3jj2f8REu7ru1bNQIhAO1KgoriAJoX3I9TCQk5yRCkdQzkMLPiOZ%2BHtog1mu5CKv8DCG8QABoMNjM3NDIzMTgzODA1IgwlZQE2JINvDb2ZA9Mq3AMixsgUNWDwQnP%2BEvRsKIZz%2B%2FyZ8VRn%2BeLaExwrRqmkDiEGq6EeGsd9J2gQRWTBWlxZwt7haIG75CibwOR9atYaIyb9on%2FPCoefuS%2B1HnCfUa3YTONzecTtJcjFdyF%2BESa9XUytdmd77ZKRZ%2BOX0ooDICsv%2FqNvIbyZzdbkgmpcx1ZlTGqfZV2EcylaGJAtTKNtpqW8vgjYJtX9wmSgCmnUxA8iwKOTqc12un2wbfo%2FYvRFHwKRn4BHDa2hQMrBHf0DTKbCzGdM3oDsM9z4zXYwHJdSFswXOuhiLaW7yAIZY1uKzv6jOfPGIVpaaUntFcHrKsECCvWtuDl%2BNy%2FprHj0V4zrK9hFNNCDlYpyKN0WKZB1Jh31MitevSBy8qezeUUYWMh4QRLOZgHuBz1U56mChrbnj6zwleZMn5u4wEMrRXI0bS2AfRzgGK4KvFvfi1y3pW4RYB9STf7L2FDBUbw39A79ENjclYDZgZDpzxW%2FM3a3Qf3J6%2F4%2Fm8JsyP6m%2F2SRJ%2BttifljFhg9M1AAQXV0HEKv1pE83vzomWU6EPxvKLTI%2FaTyeKBGedcy%2F6UjeAikKdJrRKFWTeOgNl3Gsae4%2BLwVFo5yClLnerzCZ6%2Bop9vhHEujrH%2FnLbxjyDD7gPLOBjqkARMAEgVKU%2B5uG0mm8A95M%2BSwwN9ytFPPBxO%2FLOc6SFSW2UHXM9IFVfTAQAiab5E2odI4RVcigMmLP5grEAQID5MQC1ffvcFqexlNISVNhEEXbTWXZMV3ELIIAxdFsvauCuvS5j9b5lL8tZ7JAlnb1nG3G6lytBjWny7EhqQuEgNuXaLiQmRMRNgh5PvjUd688tfYsQP84w9ZYTEoY6Ad0zmurWeo&X-Amz-Signature=8c7b69f80ba47d10c3d2e8c2c42348695e0981d9c2fb71e3bcec6154f174d9a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7a760fbd-9604-4f6d-a447-6c2b24bf04e7/csrd-fuer-die-bauwende_titelbild.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=400b876ae7c52dab243c0376c225d085bde1ff725f132402b64d213a407d9c16&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
   },
   "CoverAlt": "holzfassade-produktionsstätte-ansicht",
   "Slug": "csrd-als-sprungbrett-der-bauwende",
@@ -51,10 +51,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "CSRD: Nachhaltigkeit in der Bau- und Immobilienbranche",
+            "PlainText": "Nachhaltigkeit in der Bau- und Immobilienbranche",
             "Href": null,
             "Text": {
-              "Content": "CSRD: Nachhaltigkeit in der Bau- und Immobilienbranche"
+              "Content": "Nachhaltigkeit in der Bau- und Immobilienbranche"
             }
           }
         ],
@@ -720,8 +720,8 @@
         "Type": "file",
         "File": {
           "Type": "file",
-          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YONMVBNO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T063921Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIFnJT0JkrLZqE0NaqMygqLKPtOOIhE%2Fxt69ZHjuyvSJYAiEAoX4fvIbz3vZ6ja13saq4Fynb2ykOxsR5vq3EubJfxLQq%2FwMIbxAAGgw2Mzc0MjMxODM4MDUiDHjrpcsH3PqB8X02RCrcAwkle4eQxkgaF6JLpLSCFQ%2FyvI7hjmDawW9hrYqH2GdAjwHfkek5ry8gfNraXtUeAIth6Z9p0%2FLBLnJfKTSD2Omf5trXkd%2FLx%2Bi8hmt6Qp8moeSv%2BTX7c75RTV99CSJ3T%2Fk3c%2Ftnmv8pnZYLHjxgO07%2FIeRxDP4EuB68d2%2B0fvqrUsePvqZfgeVOGS8HAY6dzRnARfbEb%2B5DXyVn4RAcLTbaL9g44yL2rQXi4atx8o9atO7UQBKKBrnxWv2vMTgclk34iU3j1wBeLRIfWPGmP29uqkTQzNvF%2B7yRFjXtW4Fw5xq6EENrUInAZS5YxT4L7Qk7tpIauBKLQXnroMYFWKtZR9d%2F1W2vpa87tXxDzXbpW%2ByHYSQaCF882Za3SzIKc0%2FZtS2ClHPIgCTJl6KekboGQjQDhFy%2BO5iAcLOImNeG%2F%2FXYlvWlWCCh60g2aU64dTwFZxDIib5nJkL67ZC47YHLu9AgcsBPCRdhDI666yIDrJqweiO%2BRQcGac%2BQLovgW8QWBTh3p6za%2B%2BXmnJP9WlCZqeDXk9BR1aL5m2evPrpLqFyuHtJrrGMEXliMswEvwrurWKRPn9fHBoEv7WMZa2YhO7X6Q1f8eEmKW6Z0qY9woXERjCyKtc2Ad2jIMK%2BB8s4GOqUB8RcoC2itv4%2FYII6ZP5%2FvgU2H77T8JuzjQgob4ckPjAOATYiy8rq2EM%2BgjUXdiosGZcTJMqULlAMuDkJGxyEMk4NHS%2B1fUfAzGrPHFHFVYuI%2BOLbZNfGT3A0Xul%2FYCeA9fFStSlb2ZqNpTFa2qeWnt8%2BHD%2FDC%2BGRCvaKQYRvlBEJ9Sv8fsne44ITntfs2xvTFwFy%2Fupop66iPFkKnDAeoGOfpxCC8&X-Amz-Signature=bc7942ed13650797b83b569c9aa2dd00ab375ef8c1efd6c020cfdecd2549b07b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "ExpiryTime": "2026-04-13T07:39:21.929Z"
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/7234d17b-75ba-45c4-a304-2c89987d2cb7/csrd-fuer-die-bauwende_esrs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466R4EZCS5U%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQD%2F92hPs1YVjBcxkDqyMfZ0DOWTmbaWH9Tgd32Zo5j6YwIgJ43XH1Uof4O4NwRbS%2FNm6Rrb7YlS61B%2BzWA5wbb8OwoqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAg27ely6Sl4lqshHircA5xMxCpv6LVvj2zNcj3SlN8tPR%2FV8Gkq%2FfBT5LSflwIWC1TyDeWPf6ZkrEHSbRP0fwXmCwpjmGHJ2qT950uZJ5x%2BCq1%2Fdw9Ctze72nsrWISjjXEIvlViJEbPUimWVhwlYxVcCv8ym42K08bD85VO3br18jGcihx1OIR44hZnVsUZh%2FeWuj1SnP2OlPHo5c7UK2WquMpeBo7DtXwdJB0ASR3LgRdZdsAPXWW0GP5DnAXZrmIaNLYR8iiL%2BpU0BsvwMmLfrFuljOGYLIzGcN24Rdv55c3vVN5wXVle01RIWogIy%2FtJilqDt9btIpy0xkJTFy2Ama0EDtrmnuZSpSQyiXPtGqEYmEbREC4X0ei0obJ7lrdPeS1roKeEuuwcQYx3CuP%2Fm%2B32An8jE1cHAUojzSrP3tPkUQrRpfn25ZYUIKQrhq8JgApvPsNH6a4ycJBUfPjBDtRiWaC8z2%2Bd%2BCPmHa97j0BWnGI9Ff0kuMhlc3S33%2Bac2aKWaaGyiYZEyNOTNV78BIM87Gza%2FSV2Ftv8bOACcqZIyI8xJR51SO%2BgGfWdRFOB3TZl5vcuh4fh08kyiwYzbG2njmlgISBUUKds5Htwzu8iVER8nyeQxjZKkcT47PmyDXd7OnaH8A5hMMqNwtYGOqUBeF6Rly3xKGLHzzBrV6uOpho8L7B%2B4z5LrECf%2BuzP4Ed%2FGtrsKj0viccD4WZFObqSYyG2cANZiLjYxm9jk8XvBaefYzF6mTEi0kyAdCoD%2BXJuhjP5FdXtqXqknqCLWGt%2FnvnB7u0VndyGEs09AwXyEenZV92z7%2Fmd%2BEyX6Xd4fZ9tDjfRYXgb7%2Fco21k4wfF%2Bc8PULqgezi%2FmuN3YOBzm8CeXMXrL&X-Amz-Signature=2f8c884849cd267190804b4244008537c1373357249d6eb27d1f4088d362e2ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:07:17.043Z"
         }
       }
     },
@@ -1379,10 +1379,10 @@
               "Code": false,
               "Color": "default"
             },
-            "PlainText": "Cover & Images: BuildSystems",
+            "PlainText": "Cover & Images: BuildSystems \nDas Cover wurde mit generativer KI erstellt, dient der Veranschaulichung und stellt kein tatsächlich realisiertes Projekt dar.",
             "Href": null,
             "Text": {
-              "Content": "Cover & Images: BuildSystems"
+              "Content": "Cover & Images: BuildSystems \nDas Cover wurde mit generativer KI erstellt, dient der Veranschaulichung und stellt kein tatsächlich realisiertes Projekt dar."
             }
           }
         ],

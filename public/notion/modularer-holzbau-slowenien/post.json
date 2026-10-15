@@ -1,0 +1,568 @@
+{
+  "PageId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+  "Title": "Modularer Holzbau als Teil einer Slow Hospitality Strategie",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "Work in Progress",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/d24299af-5bc7-4054-956d-4d5f1efb3100/weinhof-entwicklungsstrategie_modularer-holzbau-visualisierung.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=e24e81c0fe25f6f5c1a81b34e134c31009f6db2cbb8b2829b3c22e0a68125d99&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "modularer-holzbau-slowenien_cover",
+  "Slug": "modularer-holzbau-slowenien",
+  "PublishDate": "2025-07-18",
+  "Tags": [
+    {
+      "id": "beb85fcd-fc13-4348-b7ca-23c173fea654",
+      "name": "Praxis",
+      "color": "green"
+    }
+  ],
+  "Description": "Das modulare Gästehaus ergänzt die bestehende Strategie und verbindet nachhaltige Architektur mit ressourcenschonendem Bauen. Landschaftlich sensibel eingebettet, steht es für zukunftsfähigen Tourismus im Einklang mit Natur und Region.",
+  "coverAsset": "weinhof-entwicklungsstrategie_modularer-holzbau-visualisierung.jpg",
+  "blockAssets": [
+    "modularer-holzbau-slowenien_axo.jpg",
+    "modularer-holzbau-slowenien_visualisierung_1.jpg",
+    "modularer-holzbau-slowenien_visualisierung_2.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "230cc54c-ec6d-80e2-8f20-cf171d2d9421",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Architektur mit Weitblick: Modulares Gästehaus als neuer Baustein der Strategie eines Weinguts",
+            "Href": null,
+            "Text": {
+              "Content": "Architektur mit Weitblick: Modulares Gästehaus als neuer Baustein der Strategie eines Weinguts"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8088-a47a-e9507eabfd2a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit einem weiteren solitären Gästehaus erweitert das Weingut seine ganzheitliche Hospitality-Strategie um ein weiteres architektonisches Element. Im Rahmen des seriellen und modularen Baukonzepts ergänzt es die bestehenden Ferienwohnungen um ein innovatives Unterkunftsangebot, das buchbar ist und zugleich neue Maßstäbe für ökologisches Bauen im ländlichen Raum setzt.",
+            "Href": null,
+            "Text": {
+              "Content": "Mit einem weiteren solitären Gästehaus erweitert das Weingut seine ganzheitliche Hospitality-Strategie um ein weiteres architektonisches Element. Im Rahmen des seriellen und modularen Baukonzepts ergänzt es die bestehenden Ferienwohnungen um ein innovatives Unterkunftsangebot, das buchbar ist und zugleich neue Maßstäbe für ökologisches Bauen im ländlichen Raum setzt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80dd-86cb-c3fc0aec4eaf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Mittelpunkt steht erneut die Frage: Wie kann Tourismus zur treibenden Kraft für Bauwende, Regionalentwicklung und nachhaltige Landwirtschaft werden?",
+            "Href": null,
+            "Text": {
+              "Content": "Im Mittelpunkt steht erneut die Frage: Wie kann Tourismus zur treibenden Kraft für Bauwende, Regionalentwicklung und nachhaltige Landwirtschaft werden?"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80c4-af2d-de2f646c4f56",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Landschaftlich eingebettet - funktional durchdacht",
+            "Href": null,
+            "Text": {
+              "Content": "Landschaftlich eingebettet - funktional durchdacht"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8016-ba76-f2e0d6283ef8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Haus liegt inmitten sanfter Hänge mit Panoramablick über die Täler von Slowenien und Österreich. Der Standort ist geprägt von einem fast mediterranen Mikroklima und einer klaren, unverstellten Aussicht – ein Ort für Rückzug, Naturerleben und bewusste Aufenthalte. Eine natürliche Querlüftung sorgt für angenehmes Raumklima ohne zusätzliche technische Kühlung.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Haus liegt inmitten sanfter Hänge mit Panoramablick über die Täler von Slowenien und Österreich. Der Standort ist geprägt von einem fast mediterranen Mikroklima und einer klaren, unverstellten Aussicht – ein Ort für Rückzug, Naturerleben und bewusste Aufenthalte. Eine natürliche Querlüftung sorgt für angenehmes Raumklima ohne zusätzliche technische Kühlung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8092-a14c-c58221632b87",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Einbettung in die Landschaft erfolgt mit minimalen Eingriffen: Die Konstruktion ruht auf rückbaubaren Schraubfundamenten. Eine Lösung, die dauerhaft reversibel bleibt und die Bodenversiegelung vermeidet.\n\n",
+            "Href": null,
+            "Text": {
+              "Content": "Die Einbettung in die Landschaft erfolgt mit minimalen Eingriffen: Die Konstruktion ruht auf rückbaubaren Schraubfundamenten. Eine Lösung, die dauerhaft reversibel bleibt und die Bodenversiegelung vermeidet.\n\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80ab-8c06-de69edc1682f",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/179ccbec-1ef7-4692-83fa-2b66f89efcce/modularer-holzbau-slowenien_axo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UHFXDNHA%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080653Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCICkrbFvtiyrrfOo5bWSclmwwRVBzMlCsVgYKcqaSeZm1AiEAm91Fg4klCEIOgQDyzl9Abp%2FYiyTaRe7TQffoYMUjhk4qiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD8ENYzFiBHScYSpHyrcAxpkDHma1k4%2Bi0NXfzswBq81lHQlg8VxFW3U8YYne2MWT0I3bPFMbWYuojI%2FqdeqYe7q%2Fm%2FRmREGpt2tKJ5RORY9uWcf9tf2MIAbIKBgbB5Za%2FGizjE4gNnB2rjRoJZx8pViMYnB4DTAvtEapmtcqIQv7s6q%2F5cfyyLY96c2a6vtEkwU6TXxulx1dvh%2BtAVxb9E5KsBWptE2gygunX8u2uVhGCXg0aT64nzy1hvqwxGUlDSS6B%2FjDkzToc26vzLyIomY4Ht11SNDPD3IabTW4O88S09Q6jxUuqIkZ%2FLmkuLArTPfJJ5obckh1sfecM1En4ipXn3Vhn0k0civpnrzijJvwetbWQdgPvvRmvUUTp0zUYHcI2b6pHcBf31HtEhCnoXbNtKXBiY84kk%2BW3y1gva93lB7ofGvzaAQ2GjRgpssNi7T22OayJ6uRW36gJ5kyqCFctGYNtwPneq9dpdZm%2FJq7bJ6JksqF97bjEk3y2Pg2dQMt6lcpyn56NwiNVbCOURIXVh%2FDv8SDRwaHDzojhXwi9rD7d4r6OklqEKTB14GTlEvug3muVvRLTiNtGMMlPi%2FCcbWyXbnYv9M%2BBsqF8HthauAGr18OCVs7JtJoJNOZaXisI%2Fr3kjeDz%2FxMKuPwtYGOqUBpbUDUZIpbR0jR7wW9rrORrYa54Bo9kd3xpz7t7K7xhYqodLKEhCO%2FXBqsn3bbKmUE76D2Lf8JU92QiFB6cbRBze958fjgADkxkysvQCiCiPHvxwIkXHMuV3Ij%2B4NqAkhjZQI1e9hBJ9LR4J1OeIbKQwe5k9vIMh73Yryj7pz8zIGygA4csrV7qj6krLALaTBfx%2Bn2RghYZJctjcipz451Iyu%2FONv&X-Amz-Signature=2b2cc91b391b14aab4a215170e19498f97f89f6311aadb712d7534ed18aba1a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:53.618Z"
+        }
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8045-a7af-e63db597caf6",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\nRadikal einfach: Regionale Baustoffe, zirkuläre Strategie",
+            "Href": null,
+            "Text": {
+              "Content": "\nRadikal einfach: Regionale Baustoffe, zirkuläre Strategie"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80a3-86c9-e007ade0504d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wie schon beim ersten Gästehaus setzt das Projekt auf lokale, nachwachsende Rohstoffe und modulare Vorfertigung. Der ressourcenschonende Materialeinsatz ermöglicht nicht nur kurze Bauzeiten, sondern schafft auch flexible Raumstrukturen, die sich an verschiedene Nutzungsszenarien anpassen lassen.",
+            "Href": null,
+            "Text": {
+              "Content": "Wie schon beim ersten Gästehaus setzt das Projekt auf lokale, nachwachsende Rohstoffe und modulare Vorfertigung. Der ressourcenschonende Materialeinsatz ermöglicht nicht nur kurze Bauzeiten, sondern schafft auch flexible Raumstrukturen, die sich an verschiedene Nutzungsszenarien anpassen lassen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-804c-a5b3-e6962516bbdd",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Lokale Holzarten aus nachhaltiger Forstwirtschaft",
+            "Href": null,
+            "Text": {
+              "Content": "Lokale Holzarten aus nachhaltiger Forstwirtschaft"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-807b-8c20-d78f651d49cc",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Schraubfundamente als reversible Gründungsform",
+            "Href": null,
+            "Text": {
+              "Content": "Schraubfundamente als reversible Gründungsform"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80c7-b18e-ced716a09ebe",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Passiv klimatisiertes Raumkonzept durch Querlüftung",
+            "Href": null,
+            "Text": {
+              "Content": "Passiv klimatisiertes Raumkonzept durch Querlüftung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80ef-a548-e87c66228a6b",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vom Gebäude zum integrierten Systembaustein",
+            "Href": null,
+            "Text": {
+              "Content": "Vom Gebäude zum integrierten Systembaustein"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8011-8ee3-dc330dc83a0c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit dem neuen Haus entsteht nicht nur zusätzlicher Gästeraum, sondern ein weiteres Element in der langfristigen Entwicklungsstrategie des Betriebs. Architektur wird hier nicht als isoliertes Objekt, sondern als funktionaler Bestandteil eines integrierten Gesamtsystems verstanden im Zusammenspiel mit Landwirtschaft, Tourismus und ökologischer Baukultur.",
+            "Href": null,
+            "Text": {
+              "Content": "Mit dem neuen Haus entsteht nicht nur zusätzlicher Gästeraum, sondern ein weiteres Element in der langfristigen Entwicklungsstrategie des Betriebs. Architektur wird hier nicht als isoliertes Objekt, sondern als funktionaler Bestandteil eines integrierten Gesamtsystems verstanden im Zusammenspiel mit Landwirtschaft, Tourismus und ökologischer Baukultur."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-80e4-94f5-cc41bf02c06a",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "BuildSystems begleitet den Prozess sowohl auf planerischer als auch strategischer Ebene mit dem Ziel, ganzheitliche Konzepte in der Hospitality konkret umzusetzen. Die gestalterische Qualität ergibt sich nicht aus Inszenierung, sondern aus einem klaren Zusammenspiel von Funktion, Kontext und Haltung.",
+            "Href": null,
+            "Text": {
+              "Content": "BuildSystems begleitet den Prozess sowohl auf planerischer als auch strategischer Ebene mit dem Ziel, ganzheitliche Konzepte in der Hospitality konkret umzusetzen. Die gestalterische Qualität ergibt sich nicht aus Inszenierung, sondern aus einem klaren Zusammenspiel von Funktion, Kontext und Haltung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "22ccc54c-ec6d-8019-9f1c-f20892e0ffad",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "3b8cc54c-ec6d-80f3-9cdf-fdb8d24fe419",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "3b8cc54c-ec6d-80ad-a149-ea8bdaecd9d6",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "22ccc54c-ec6d-809a-9436-f70ff1f5177d",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/77ec768c-dee9-4069-93c1-c6899c83d48e/modularer-holzbau-slowenien_visualisierung_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XZMRO6MK%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080655Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCAy61xkczYawsP3YJLj55pJcpDdq3b3bZ8h6%2BeCv7NDQIgB%2BjeVsEyb3N4N0ofBCnanveUjLI7SKpthKnvkmGwqCgqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHFncauWPduNjhpoeSrcA1%2B16RN95bee2jF290AcfXSAOGvjihBCNiwlxb%2BFAJl0eKaiej0WKYPfvICdiVUe1Ud1w%2FiQZPrUH%2B%2FOfpLPaZX4xDqi7lsvfKPCykz%2B6q4Fjb2j1cTKrTHIBvx04cJwadUeATFgMCKbEk%2BY0fB2ZFOHigm8BRZ6P6URLIbB76%2B78XHGWpXnAaiTp2KGtAFQDCXefS%2FXrau7S5xfBzoWusPFv0Dl3g8qL2FJ%2BrXaMq4Vj58QODYR%2FV7RtETbNZUaY3yXHvCAkT%2F%2FBrhIqH8ESC4Curv8P1sUsFyRcVMFc%2BeF7an1aItvr8odsf6pjhpNTmyMIWc4KcLTxClxulKtr8mH3r4VjtoKrdEassxtF%2BYyEdDT1nsCpjeMaZhaaMuvgLgBtQMj%2FZzKQq%2BRBBu%2FYpRJIoRMf59vTowvqr%2FSBtSXPHJa5wBhtpzp6ODtoLMrwRs%2FBhXMBRxNYscmymArXsDkZbzsSCnwprQaBY%2BwP2hKC3ssSkZ0V5SxeEs7F6t%2BQY6xu4R4PgaegVrzWvTNTs0l5ZLd6ER%2B69ThyDY4vvpSBUO2z%2Ftswit1Uw7rlOqh5qIEAbrxdKROUB%2BzSt3Yubj%2FnbFtGvzriSJqE4YvuprtvX56TnXm4tz2wjPeMNSOwtYGOqUBn89SZkY83nBxactxqYrajXW26EHNmMnEEEY%2BfJBBkSVb3mRFGOT7EQj1IjTPHAQg5x9OpmJ5MacHCd7qk5VVBaRjOvX8do2TZad93FJdC6xZIJPL7mk3Sdox%2BsqQusnynfy5hw8UVKh36w6vAtKe%2BaVshdPOqLznUJH8c%2BgBa9cYe4Os8ePrF5IBW7bhUVY6JTCZeNFfDl6bwFQw%2BQcdiBknDEBs&X-Amz-Signature=a7e081e5a104e72d9cc369d3663d38af3682ce79c430aba40160253e4a228379&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:55.421Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "3b8cc54c-ec6d-807f-9ef1-ccade900bb47",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "3b8cc54c-ec6d-805b-a4fc-c9b9baf2567c",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/94088943-c757-4f2b-91fe-2d200dd514d7/modularer-holzbau-slowenien_visualisierung_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667YMO6Q56%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080655Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIHyF3VU9y%2BsF7q4YaQlcucjlqul0rMv7Qw5dwbVEJC5TAiEA2e98SGk%2Bvmu5ZtRPbUTYIKOrSzUjd%2FmhlBql6ONwL9QqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNlgO1HE6oZ9hUMdDyrcAzvVrn01DrJMj9%2B0Y1RMpi9r54kSph7HHIY3J1MrrafAJW15%2FLBerv%2FoRwnpXsHX06IOd3N0y1u0CUO6EptStMpaYSUhtMR1bCzIHOY8ysiTIT%2BbOfS1D3vn1pRhbloBUclnZqCvqEKzEfsA0EkVKA6kjlpb85GURmJto7tNvb2UdRj1CGO1yuPG5mwcOT6c2SgUWlSxU9vavkQS5xJRjW8i7mrTTT6mvFMAtDE%2B1307qTtgbzRAyjQpg5VJ%2FZ58VUyfsT7vd68i2rRXO0vFGx5gApdVPgfTIEGsj4RjPglC71bkougDKA%2BA1m6GvpLgKygbCdjsMZgU8TXLDf8x%2BffGzzCTz5mm6bvbqnSDZStdAnfDD1zN6BVIDPZpE8JRWBPCbaX1gk9%2BmbgQmB%2BWmuW%2BfksrCzH3ms5uEk7%2B%2F8lcClT0yEcSyVMnxZU3LB8d7Y4eK0ee4mQnsl4bJ1Icw5vdx41KEsezq0dRlT%2F%2FOs8xI0WHU3ScVLVMmAR5EPLmxHi0wwmOs3%2Bl3sBOHwZzQro7JB9rLLJR9P7wDcZailJfxLQpZkK1zSjQ%2BzH6gE5qBKZLu1M5nRY%2Fu6%2BHUXEcy10rYD3SlMm1xP83gQPeaHROf1R8zMg2D%2BNnH61UMJWPwtYGOqUBZ8NrUuqPlbjZ%2FyItMEdfQJbUGahPQuiuZoNoAOzYQC1XiwPkNQSVSq7BizAHddUz3tID5hg9sVOAVLzfd8YNJyw9YtOXJbyffNQKadpYEyZkDa31dz12A0JBBSttGME0BMQ1hjIfMPfYz3qnK4UHTYp9Y0D90TQvsggHYS6Wsg3sJA4TkM5Lc6moFgryB2WKMp227WyhUsVEwbUv%2FgkDOoC7zhkI&X-Amz-Signature=13ea522993b78fb9bf915cebd9f470cf1293a20247a8fbb12370aed68a226e10&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:55.556Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "22ccc54c-ec6d-80aa-8db9-c2ab1f0c9209",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "\n©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "230cc54c-ec6d-8048-8f4d-f0e6b3b58a10",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n",
+            "Href": null,
+            "Text": {
+              "Content": "\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "2c6cc54c-ec6d-800f-8c89-ce49209d3f6b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "22ccc54c-ec6d-8080-a789-ff531d30daae",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

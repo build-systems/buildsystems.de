@@ -1,0 +1,693 @@
+{
+  "PageId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+  "Title": "Bauen im Bestand: Smarte Sanierung für innovative Kanzlei",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    },
+    {
+      "id": "74868af1-dd95-4ca3-96a3-d6dc7f3ba576",
+      "name": "Ulrich Kneisl",
+      "color": "blue"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/51563af8-2836-4868-8ba0-950f25ef0433/bauen-im-bestsand-smarte-sanierung_visualisierung-2-%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=8e2f8b1034d6e66e5351dc24e7855e77581957b0acbd4154b77de1f5efb142e7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "bauen-im-bestsand-smarte-sanierung_visualisierung",
+  "Slug": "bauen-im-bestsand-smarte-sanierung",
+  "PublishDate": "2026-02-25",
+  "Tags": [
+    {
+      "id": "beb85fcd-fc13-4348-b7ca-23c173fea654",
+      "name": "Praxis",
+      "color": "green"
+    }
+  ],
+  "Description": "Im Münchner Glockenbachviertel wurde eine Bestandsfläche durch gezielte Eingriffe in eine hochwertige und flexible Arbeitsumgebung für PXR transformiert. Das Ergebnis ist ein charakterstarker Büroraum, der Effizienz, Identität und Aufenthaltsqualität vereint.",
+  "coverAsset": "bauen-im-bestsand-smarte-sanierung_visualisierung-2-(1).jpg",
+  "blockAssets": [
+    "bauen-im-bestsand-smarte-sanierung_trend-adoptionskurve.jpg",
+    "bauen-im-bestsand-smarte-sanierung_axonometrie-innenraumkonzept.jpg",
+    "bauen-im-bestsand-smarte-sanierung_bestand_1.jpg",
+    "bauen-im-bestsand-smarte-sanierung_bestand_2.jpg",
+    "bauen-im-bestsand-smarte-sanierung_visualisierung_1.jpg",
+    "bauen-im-bestsand-smarte-sanierung_visualisierung_2.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "33ccc54c-ec6d-8054-9b89-f47255b0dfde",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Für den neuen Standort der Anwaltskanzlei PXR im Glockenbachviertel München, wurde eine Bestandsfläche behutsam transformiert. Der von mangelhafter Akustik, veralteter Elektrik sowie kühlen - eher abweisenden Oberflächen geprägte Raum bot insgesamt nur geringe Aufenthaltsqualität. Durch gezielte Eingriffe entstand daraus eine hochwertige, warme und einladende Arbeitsumgebung.\n\nDie Entwurfsstrategie basiert auf dem bewussten Erhalt vorhandener Elemente kombiniert mit präzise gesetzten neuen Bausteinen. Ziel war es, mit minimalinvasiven Maßnahmen maximale räumliche Qualität zu schaffen. Denn gerade vor dem Hintergrund zunehmend knapper urbaner Flächen zeigt sich, wie wichtig eine smarte Sanierung und effiziente Nutzung bestehender Flächen ist.\n\nBesonders prägend war dabei die Umsetzung im laufenden Betrieb: Der Umbau erfolgte innerhalb weniger Monate im bereits bezogenen Bestand, eine Herausforderung, die hohe Anforderungen an Planung, Koordination und Ausführung stellte.\n\nEin interner Strategieworkshop bildete die Grundlage, um Anforderungen, Nutzungsszenarien und räumliche Potenziale systematisch zu übersetzen und eine passgenaue Lösung zu entwickeln. ",
+            "Href": null,
+            "Text": {
+              "Content": "Für den neuen Standort der Anwaltskanzlei PXR im Glockenbachviertel München, wurde eine Bestandsfläche behutsam transformiert. Der von mangelhafter Akustik, veralteter Elektrik sowie kühlen - eher abweisenden Oberflächen geprägte Raum bot insgesamt nur geringe Aufenthaltsqualität. Durch gezielte Eingriffe entstand daraus eine hochwertige, warme und einladende Arbeitsumgebung.\n\nDie Entwurfsstrategie basiert auf dem bewussten Erhalt vorhandener Elemente kombiniert mit präzise gesetzten neuen Bausteinen. Ziel war es, mit minimalinvasiven Maßnahmen maximale räumliche Qualität zu schaffen. Denn gerade vor dem Hintergrund zunehmend knapper urbaner Flächen zeigt sich, wie wichtig eine smarte Sanierung und effiziente Nutzung bestehender Flächen ist.\n\nBesonders prägend war dabei die Umsetzung im laufenden Betrieb: Der Umbau erfolgte innerhalb weniger Monate im bereits bezogenen Bestand, eine Herausforderung, die hohe Anforderungen an Planung, Koordination und Ausführung stellte.\n\nEin interner Strategieworkshop bildete die Grundlage, um Anforderungen, Nutzungsszenarien und räumliche Potenziale systematisch zu übersetzen und eine passgenaue Lösung zu entwickeln. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80c5-8641-f7e9ff273c1d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wo steht die Kanzlei im Markt? Eine Einordnung entlang der Trend-Adoptionskurve, als Leitlinie für die gestalterische Ausrichtung.",
+            "Href": null,
+            "Text": {
+              "Content": "Wo steht die Kanzlei im Markt? Eine Einordnung entlang der Trend-Adoptionskurve, als Leitlinie für die gestalterische Ausrichtung."
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/51769291-900e-4bf0-be30-9458905bd7f6/bauen-im-bestsand-smarte-sanierung_trend-adoptionskurve.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YY22HGU6%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080646Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIHGZ%2FBE3CMkmZvyVl4HqmLwj4lPnZ9esJEX0x8hf3%2BGOAiBrwNfcI56rMlhC0rBcePC90bx6v3HtO0yR2h02usS7WSqIBAjI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMzw7DHGKaIB5Z14wiKtwDaNdxTZvck1UAi7Z23xTrlPdp9XJ02QT7%2FqtaTTRgGoSRwWeazo%2Ft7PR53Twj6A%2BGy1lnaMt9%2BRGqnA%2B%2Flk2ZOe6TlXdW2TLgLvUret0jrlLEoM%2FprotcD0wT8xzvaIJsZiKc%2BXvbb%2B1NLc7kGU38NKAs2BETC4bVGgYtbYrq3Wuiw6ntEaRGE%2FKPbCtxozE5k8kkM1LayN%2Fxubme8MlxeLwSfU8Ob8KZ3mvPRuoOiBfJ4jrFJsvYP%2BFx5G2WGWg2GGhkLevPgF4idPbm%2FCODpnexiw7f3VsnXld4MYxpxoIeeODrP0fIB2yd4rq%2B8ebqVknM%2BfGQIeSWbEv6jjjhf8pDgrzpyNLX1R6KvpKUiVuITbkA8LtH6SQGHwRhC2BsqS9ibmfY0AbEoc8OXrjTpR953o%2Bw%2FxpYwe56DAYFA58CfsM%2Fau1CdruXxCmI0FDeN30xaNmdzwuCyX6WyKAPWdrHBdke3wVr1KVaTozO4%2Fug2x4sBAX4abK8ga65%2FjsWMV3Rpm3WGD9IpaWcc2%2BZHOcz2ONdZVD3zXTwwHFi5iQZPJ%2FPIZx%2FV26DNiRiU6jBQUTa771pFSePa8QUcLv70I0ejeEuUfjZnMaXk97Pas776o0vGmzhIh7iau0wiY3C1gY6pgGKtekYQLsilcs%2F0H7A47Y%2Fa34m5eSdF9CmYaiW%2FADJ983M1AG6L8EgFDrVr8nyeCIM9JNrt7SJnPuMFBCNRgbk6nlxdwsiMMxHbKfY%2BQtfmdwkPwhGeGdNDUcZcA%2Biokqp0SGS4n%2BNehVs4ZyuTnIIVvJnLw3JzvNqEeg8WTKeCVPrVxuYiorzz0wS0e%2FaC1mdgopHgmwEQ%2FVp50Rpbzks%2Fy02cIqH&X-Amz-Signature=99fdf028387e56c9937c1057e2d466328cd0f1489a5cfbc7a1dc1e12d6290857&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:46.954Z"
+        }
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-8096-8f3c-c76d7f5e9806",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "“Ist das ein neues Café oder die hippste Anwaltskanzlei Münchens?” ",
+            "Href": null,
+            "Text": {
+              "Content": "“Ist das ein neues Café oder die hippste Anwaltskanzlei Münchens?” "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80b8-b521-d8448ca34a6e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Zentraler Bestandteil des Konzepts ist ein flexibles Raumgefüge: Leichte Trennwände, inspiriert von japanischen Shoji-Elementen, ermöglichen unterschiedliche Nutzungsszenarien – vom konzentrierten Arbeitsalltag bis hin zu Veranstaltungen. Vorhänge und transluzente Flächen zonieren den Raum, ohne seine Offenheit zu verlieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Zentraler Bestandteil des Konzepts ist ein flexibles Raumgefüge: Leichte Trennwände, inspiriert von japanischen Shoji-Elementen, ermöglichen unterschiedliche Nutzungsszenarien – vom konzentrierten Arbeitsalltag bis hin zu Veranstaltungen. Vorhänge und transluzente Flächen zonieren den Raum, ohne seine Offenheit zu verlieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80c9-a839-d4e2f43239be",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein klar definierter Empfangsbereich mit integrierter Theke bildet den Ankerpunkt der Kanzlei. Ergänzt wird dieser durch kommunikative Zonen wie einen zentralen Stehtisch mit Kaffee-Mobil sowie eine bewusst wohnlich gestaltete Sofaecke, die eine informelle, entspannte Atmosphäre schafft.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein klar definierter Empfangsbereich mit integrierter Theke bildet den Ankerpunkt der Kanzlei. Ergänzt wird dieser durch kommunikative Zonen wie einen zentralen Stehtisch mit Kaffee-Mobil sowie eine bewusst wohnlich gestaltete Sofaecke, die eine informelle, entspannte Atmosphäre schafft."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "350cc54c-ec6d-80c0-9bdd-e5f8a59003c1",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Axonometrie vom Bestand mit additivem Innenraumkonzept ",
+            "Href": null,
+            "Text": {
+              "Content": "Axonometrie vom Bestand mit additivem Innenraumkonzept "
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/65a8d39b-c9f1-4dab-9610-b69ea4a542fa/bauen-im-bestsand-smarte-sanierung_axonometrie-innenraumkonzept.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YY22HGU6%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080646Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIHGZ%2FBE3CMkmZvyVl4HqmLwj4lPnZ9esJEX0x8hf3%2BGOAiBrwNfcI56rMlhC0rBcePC90bx6v3HtO0yR2h02usS7WSqIBAjI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMzw7DHGKaIB5Z14wiKtwDaNdxTZvck1UAi7Z23xTrlPdp9XJ02QT7%2FqtaTTRgGoSRwWeazo%2Ft7PR53Twj6A%2BGy1lnaMt9%2BRGqnA%2B%2Flk2ZOe6TlXdW2TLgLvUret0jrlLEoM%2FprotcD0wT8xzvaIJsZiKc%2BXvbb%2B1NLc7kGU38NKAs2BETC4bVGgYtbYrq3Wuiw6ntEaRGE%2FKPbCtxozE5k8kkM1LayN%2Fxubme8MlxeLwSfU8Ob8KZ3mvPRuoOiBfJ4jrFJsvYP%2BFx5G2WGWg2GGhkLevPgF4idPbm%2FCODpnexiw7f3VsnXld4MYxpxoIeeODrP0fIB2yd4rq%2B8ebqVknM%2BfGQIeSWbEv6jjjhf8pDgrzpyNLX1R6KvpKUiVuITbkA8LtH6SQGHwRhC2BsqS9ibmfY0AbEoc8OXrjTpR953o%2Bw%2FxpYwe56DAYFA58CfsM%2Fau1CdruXxCmI0FDeN30xaNmdzwuCyX6WyKAPWdrHBdke3wVr1KVaTozO4%2Fug2x4sBAX4abK8ga65%2FjsWMV3Rpm3WGD9IpaWcc2%2BZHOcz2ONdZVD3zXTwwHFi5iQZPJ%2FPIZx%2FV26DNiRiU6jBQUTa771pFSePa8QUcLv70I0ejeEuUfjZnMaXk97Pas776o0vGmzhIh7iau0wiY3C1gY6pgGKtekYQLsilcs%2F0H7A47Y%2Fa34m5eSdF9CmYaiW%2FADJ983M1AG6L8EgFDrVr8nyeCIM9JNrt7SJnPuMFBCNRgbk6nlxdwsiMMxHbKfY%2BQtfmdwkPwhGeGdNDUcZcA%2Biokqp0SGS4n%2BNehVs4ZyuTnIIVvJnLw3JzvNqEeg8WTKeCVPrVxuYiorzz0wS0e%2FaC1mdgopHgmwEQ%2FVp50Rpbzks%2Fy02cIqH&X-Amz-Signature=cc5e679b157e560f0e11dc70f3cc806da8830fd7d47fbc49761377d61e1df0bc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:46.954Z"
+        }
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8002-8038-e6ba241df51f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8004-ba0b-ff77e9428cab",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bestehende Trennwände wurden bewusst wiederverwendet und in das neue Raumkonzept integriert. Gleichzeitig sind neue Einbauten und Regale so konzipiert, dass sie einfach rückgebaut, sortenrein getrennt und wiederverwendet werden können. Dieses Prinzip der Reversibilität bildet einen zentralen Baustein des Entwurfs.",
+            "Href": null,
+            "Text": {
+              "Content": "Bestehende Trennwände wurden bewusst wiederverwendet und in das neue Raumkonzept integriert. Gleichzeitig sind neue Einbauten und Regale so konzipiert, dass sie einfach rückgebaut, sortenrein getrennt und wiederverwendet werden können. Dieses Prinzip der Reversibilität bildet einen zentralen Baustein des Entwurfs."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8009-ac07-ced5ada94b69",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch das Möblierungskonzept folgt dieser Logik: Elemente wie der zentrale Tisch, die Eingangstheke und das Kaffee-Mobil sind nicht nur flexibel im täglichen Einsatz, sondern so gestaltet, dass sie bei einem zukünftigen Standortwechsel problemlos mitgenommen und weiterverwendet werden können.\n\nMaterialität und Farbkonzept setzen auf warme, harmonische Oberflächen mit gezielten Akzenten, die an die Corporate Identity von PXR anknüpfen. Auch funktional wurde auf maximale Flexibilität geachtet: Mobile Elemente wie stapelbare Stühle und ein rollbarer Screen ermöglichen eine schnelle Transformation der Flächen für Vorträge und Meetings.\n\n",
+            "Href": null,
+            "Text": {
+              "Content": "Auch das Möblierungskonzept folgt dieser Logik: Elemente wie der zentrale Tisch, die Eingangstheke und das Kaffee-Mobil sind nicht nur flexibel im täglichen Einsatz, sondern so gestaltet, dass sie bei einem zukünftigen Standortwechsel problemlos mitgenommen und weiterverwendet werden können.\n\nMaterialität und Farbkonzept setzen auf warme, harmonische Oberflächen mit gezielten Akzenten, die an die Corporate Identity von PXR anknüpfen. Auch funktional wurde auf maximale Flexibilität geachtet: Mobile Elemente wie stapelbare Stühle und ein rollbarer Screen ermöglichen eine schnelle Transformation der Flächen für Vorträge und Meetings.\n\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Smart war in diesem Fall nicht nur der Umgang mit bestehenden Flächen und ein zirkuläres Raumkonzept, sondern auch die Lösung für die technische Infrastruktur: Eine bewusst einfach gehaltene Elektrik, die über eine App steuerbar ist, ermöglicht eine flexible Nutzung und bietet klare Vorteile in Betrieb, Anpassungsfähigkeit und Wartung.",
+            "Href": null,
+            "Text": {
+              "Content": "Smart war in diesem Fall nicht nur der Umgang mit bestehenden Flächen und ein zirkuläres Raumkonzept, sondern auch die Lösung für die technische Infrastruktur: Eine bewusst einfach gehaltene Elektrik, die über eine App steuerbar ist, ermöglicht eine flexible Nutzung und bietet klare Vorteile in Betrieb, Anpassungsfähigkeit und Wartung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80ad-8cb3-fd6bf5c966f1",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "33ccc54c-ec6d-8087-beb2-d0df2c162006",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "33ccc54c-ec6d-80ad-a3ed-ce303235aa8e",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Innenraum Bestand I",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Innenraum Bestand I"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/22de6350-e4a6-4cc7-9f45-983e6e35a266/bauen-im-bestsand-smarte-sanierung_bestand_1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XA64N47U%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQCHOWfOmIB0yhusXYZVFl%2Byjd2wd3dRWMVENGFf%2F2cDzAIhAK0apNvNpOdcP1ZmWurqwbhgbR07zGPqlyFuTe5CD9NXKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxZQv2Yt8HkhE2vPDUq3AMUzRbPj%2BuuXq0hDmB88jtFfKJJoTmlLRIbyF3I48RIMYEpo479NTV4y3%2F0g0eXs0sASU%2FR8aNJA7zwpp21o1nKqIpQcfDcF4oQ%2FLR54EmcXedKfInwYRkkR0C%2FXe0J4qK649bD2F8unfyG4IXnAiCxnVXyEpoNgq5uH8gATYyEfeeRc0F2qMoxSx%2BDVH6nI%2FXrNWpHBJtNFBmYshbGMoG2fXpunrayQvTY7Z8PLyrG5Q91r9tnipcK%2F3MLXBKM%2FcDSWOiQlQCjWJNoJMWKnAJ3lZBG5Grlw5HrBaYxrrDX5%2B1wk5vroPjsO0T571GWA36mru%2FfnK3VPK5FDX2TWnIlZuebLAf8g70GJPLzrWjeEQEP1K7xRU4leYaU0mleDpB3lNlFIZEB7rESARvLuscxScrqqDZXByNLIgqt4eFBjquxO6Bi9p4QFC5CqiBH5bvedCaYd08CdlF6b62HRfJpIe6ORrX4v%2FtCaYaEKZfB4RiepXeKhx4f47A72KNBNg4lLWmkZPFoosQlKjx6jxrwDLG4xiOReDijC2d0ssAavjpyMfMjDGAlf%2FcyD0Tt%2Bc9i10I3poPCothMvrykP6NEVCrP2C9XEg%2FfC0uaOJLxuRrvoOc%2FwPuG5jRGFTDfjsLWBjqkAcPe3pVEE%2B2YzHsI4GsitGmZzNJb%2BPKou%2Fx6i9WQp%2FUyGtrdjDfeMGg4Qq%2FWwYwg0Ng9GKbNEuojCCa20y7DkSlMvkaaur52VcNbnHeNNlT%2BCwRkNMH3%2BjkSeV%2F8lkSJfv4SjAjrnlgsJ3dKKfBRwUulvhvcU5qehS3%2Ffp1yXBNv1O5W7YNlaW8Z7POvDrSFCqiyi9HN2BhNE9XDXvOyYJOtColx&X-Amz-Signature=673c6298acf4786419ee569bbc3ab84f2fed5faa357e7bfb52c91790da40df75&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:47.722Z"
+                  }
+                }
+              },
+              {
+                "Id": "350cc54c-ec6d-806a-8b26-e97cc002e402",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              },
+              {
+                "Id": "33ccc54c-ec6d-80bc-b646-e6f3367d6da8",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Innenraum Bestand II",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Innenraum Bestand II"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/80ee9e9d-112c-4157-adb5-c076ecefd804/bauen-im-bestsand-smarte-sanierung_bestand_2.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XA64N47U%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQCHOWfOmIB0yhusXYZVFl%2Byjd2wd3dRWMVENGFf%2F2cDzAIhAK0apNvNpOdcP1ZmWurqwbhgbR07zGPqlyFuTe5CD9NXKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxZQv2Yt8HkhE2vPDUq3AMUzRbPj%2BuuXq0hDmB88jtFfKJJoTmlLRIbyF3I48RIMYEpo479NTV4y3%2F0g0eXs0sASU%2FR8aNJA7zwpp21o1nKqIpQcfDcF4oQ%2FLR54EmcXedKfInwYRkkR0C%2FXe0J4qK649bD2F8unfyG4IXnAiCxnVXyEpoNgq5uH8gATYyEfeeRc0F2qMoxSx%2BDVH6nI%2FXrNWpHBJtNFBmYshbGMoG2fXpunrayQvTY7Z8PLyrG5Q91r9tnipcK%2F3MLXBKM%2FcDSWOiQlQCjWJNoJMWKnAJ3lZBG5Grlw5HrBaYxrrDX5%2B1wk5vroPjsO0T571GWA36mru%2FfnK3VPK5FDX2TWnIlZuebLAf8g70GJPLzrWjeEQEP1K7xRU4leYaU0mleDpB3lNlFIZEB7rESARvLuscxScrqqDZXByNLIgqt4eFBjquxO6Bi9p4QFC5CqiBH5bvedCaYd08CdlF6b62HRfJpIe6ORrX4v%2FtCaYaEKZfB4RiepXeKhx4f47A72KNBNg4lLWmkZPFoosQlKjx6jxrwDLG4xiOReDijC2d0ssAavjpyMfMjDGAlf%2FcyD0Tt%2Bc9i10I3poPCothMvrykP6NEVCrP2C9XEg%2FfC0uaOJLxuRrvoOc%2FwPuG5jRGFTDfjsLWBjqkAcPe3pVEE%2B2YzHsI4GsitGmZzNJb%2BPKou%2Fx6i9WQp%2FUyGtrdjDfeMGg4Qq%2FWwYwg0Ng9GKbNEuojCCa20y7DkSlMvkaaur52VcNbnHeNNlT%2BCwRkNMH3%2BjkSeV%2F8lkSJfv4SjAjrnlgsJ3dKKfBRwUulvhvcU5qehS3%2Ffp1yXBNv1O5W7YNlaW8Z7POvDrSFCqiyi9HN2BhNE9XDXvOyYJOtColx&X-Amz-Signature=9078e23f9716df3cb24d4e94c0211b11a07d48a0042f175eb1f2ad5b2e65d292&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:47.722Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "33ccc54c-ec6d-802b-a320-e83179ff61e5",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "33ccc54c-ec6d-80e0-bbcd-ca7f1e1fe746",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Innenraum Visualisierung I",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Innenraum Visualisierung I"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/dde05982-93cc-4e78-9ae9-6f23890567ea/bauen-im-bestsand-smarte-sanierung_visualisierung_1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YY22HGU6%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIHGZ%2FBE3CMkmZvyVl4HqmLwj4lPnZ9esJEX0x8hf3%2BGOAiBrwNfcI56rMlhC0rBcePC90bx6v3HtO0yR2h02usS7WSqIBAjI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMzw7DHGKaIB5Z14wiKtwDaNdxTZvck1UAi7Z23xTrlPdp9XJ02QT7%2FqtaTTRgGoSRwWeazo%2Ft7PR53Twj6A%2BGy1lnaMt9%2BRGqnA%2B%2Flk2ZOe6TlXdW2TLgLvUret0jrlLEoM%2FprotcD0wT8xzvaIJsZiKc%2BXvbb%2B1NLc7kGU38NKAs2BETC4bVGgYtbYrq3Wuiw6ntEaRGE%2FKPbCtxozE5k8kkM1LayN%2Fxubme8MlxeLwSfU8Ob8KZ3mvPRuoOiBfJ4jrFJsvYP%2BFx5G2WGWg2GGhkLevPgF4idPbm%2FCODpnexiw7f3VsnXld4MYxpxoIeeODrP0fIB2yd4rq%2B8ebqVknM%2BfGQIeSWbEv6jjjhf8pDgrzpyNLX1R6KvpKUiVuITbkA8LtH6SQGHwRhC2BsqS9ibmfY0AbEoc8OXrjTpR953o%2Bw%2FxpYwe56DAYFA58CfsM%2Fau1CdruXxCmI0FDeN30xaNmdzwuCyX6WyKAPWdrHBdke3wVr1KVaTozO4%2Fug2x4sBAX4abK8ga65%2FjsWMV3Rpm3WGD9IpaWcc2%2BZHOcz2ONdZVD3zXTwwHFi5iQZPJ%2FPIZx%2FV26DNiRiU6jBQUTa771pFSePa8QUcLv70I0ejeEuUfjZnMaXk97Pas776o0vGmzhIh7iau0wiY3C1gY6pgGKtekYQLsilcs%2F0H7A47Y%2Fa34m5eSdF9CmYaiW%2FADJ983M1AG6L8EgFDrVr8nyeCIM9JNrt7SJnPuMFBCNRgbk6nlxdwsiMMxHbKfY%2BQtfmdwkPwhGeGdNDUcZcA%2Biokqp0SGS4n%2BNehVs4ZyuTnIIVvJnLw3JzvNqEeg8WTKeCVPrVxuYiorzz0wS0e%2FaC1mdgopHgmwEQ%2FVp50Rpbzks%2Fy02cIqH&X-Amz-Signature=bceb4338a2b345e5fe85ca08592f4ddbaedf1c6e2b6a61a403544ca100e26eb3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:47.750Z"
+                  }
+                }
+              },
+              {
+                "Id": "350cc54c-ec6d-80a2-ba45-c888a419743e",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              },
+              {
+                "Id": "33ccc54c-ec6d-8007-a59c-dabbb7c132b0",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [
+                    {
+                      "Annotation": {
+                        "Bold": false,
+                        "Italic": false,
+                        "Strikethrough": false,
+                        "Underline": false,
+                        "Code": false,
+                        "Color": "default"
+                      },
+                      "PlainText": "Innenraum Visualisierung II",
+                      "Href": null,
+                      "Text": {
+                        "Content": "Innenraum Visualisierung II"
+                      }
+                    }
+                  ],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/6641e1e9-4628-43c0-9475-bb09c212f524/bauen-im-bestsand-smarte-sanierung_visualisierung_2.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YY22HGU6%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIHGZ%2FBE3CMkmZvyVl4HqmLwj4lPnZ9esJEX0x8hf3%2BGOAiBrwNfcI56rMlhC0rBcePC90bx6v3HtO0yR2h02usS7WSqIBAjI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMzw7DHGKaIB5Z14wiKtwDaNdxTZvck1UAi7Z23xTrlPdp9XJ02QT7%2FqtaTTRgGoSRwWeazo%2Ft7PR53Twj6A%2BGy1lnaMt9%2BRGqnA%2B%2Flk2ZOe6TlXdW2TLgLvUret0jrlLEoM%2FprotcD0wT8xzvaIJsZiKc%2BXvbb%2B1NLc7kGU38NKAs2BETC4bVGgYtbYrq3Wuiw6ntEaRGE%2FKPbCtxozE5k8kkM1LayN%2Fxubme8MlxeLwSfU8Ob8KZ3mvPRuoOiBfJ4jrFJsvYP%2BFx5G2WGWg2GGhkLevPgF4idPbm%2FCODpnexiw7f3VsnXld4MYxpxoIeeODrP0fIB2yd4rq%2B8ebqVknM%2BfGQIeSWbEv6jjjhf8pDgrzpyNLX1R6KvpKUiVuITbkA8LtH6SQGHwRhC2BsqS9ibmfY0AbEoc8OXrjTpR953o%2Bw%2FxpYwe56DAYFA58CfsM%2Fau1CdruXxCmI0FDeN30xaNmdzwuCyX6WyKAPWdrHBdke3wVr1KVaTozO4%2Fug2x4sBAX4abK8ga65%2FjsWMV3Rpm3WGD9IpaWcc2%2BZHOcz2ONdZVD3zXTwwHFi5iQZPJ%2FPIZx%2FV26DNiRiU6jBQUTa771pFSePa8QUcLv70I0ejeEuUfjZnMaXk97Pas776o0vGmzhIh7iau0wiY3C1gY6pgGKtekYQLsilcs%2F0H7A47Y%2Fa34m5eSdF9CmYaiW%2FADJ983M1AG6L8EgFDrVr8nyeCIM9JNrt7SJnPuMFBCNRgbk6nlxdwsiMMxHbKfY%2BQtfmdwkPwhGeGdNDUcZcA%2Biokqp0SGS4n%2BNehVs4ZyuTnIIVvJnLw3JzvNqEeg8WTKeCVPrVxuYiorzz0wS0e%2FaC1mdgopHgmwEQ%2FVp50Rpbzks%2Fy02cIqH&X-Amz-Signature=da021b967b8d31a29eda3c499bb1ac51253100c28ad9eb36dcb5390e3aabbab1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:47.750Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80a0-b398-d98b20f5b848",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Ergebnis ist ein Büro, das Effizienz, Identität und Aufenthaltsqualität verbindet – und zeigt, wie aus einem unscheinbaren Bestand durch präzise Eingriffe ein charakterstarker Arbeitsort entstehen kann.\n",
+            "Href": null,
+            "Text": {
+              "Content": "Das Ergebnis ist ein Büro, das Effizienz, Identität und Aufenthaltsqualität verbindet – und zeigt, wie aus einem unscheinbaren Bestand durch präzise Eingriffe ein charakterstarker Arbeitsort entstehen kann.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80db-8cf1-ebb801babd9b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Konkret haben wir für unseren Kunden folgende Leistungen erbracht:",
+            "Href": null,
+            "Text": {
+              "Content": "Konkret haben wir für unseren Kunden folgende Leistungen erbracht:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-809b-9df8-d52676bd9a0d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Strategie: ",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Strategie: "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80e8-b706-e7b09f77e73d",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Projektmanagement: Abstimmung von Zieldefinition, Strategie-Workshop zur Gestaltung ",
+            "Href": null,
+            "Text": {
+              "Content": "Projektmanagement: Abstimmung von Zieldefinition, Strategie-Workshop zur Gestaltung "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-80a7-bb1a-efd8b5c14893",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Wirkungsfeld Praxis:",
+            "Href": null,
+            "Text": {
+              "Content": "Wirkungsfeld Praxis:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-806b-b99e-e250d7c6b695",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Phase 0: Rahmenbedingungen und Nachhaltigkeitsambitionen als belastbare Grundlage für Planung und Investitionsentscheidungen",
+            "Href": null,
+            "Text": {
+              "Content": "Phase 0: Rahmenbedingungen und Nachhaltigkeitsambitionen als belastbare Grundlage für Planung und Investitionsentscheidungen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8051-8bab-e79396644929",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Objektplanung (LPH 1–8): Entwicklung und Umsetzung integraler Planungskonzepte mit Fokus auf nachwachsende Rohstoffe, Energieeffizienz, Ressourcenschonung und zirkuläre, rückbaubare Systeme",
+            "Href": null,
+            "Text": {
+              "Content": "Objektplanung (LPH 1–8): Entwicklung und Umsetzung integraler Planungskonzepte mit Fokus auf nachwachsende Rohstoffe, Energieeffizienz, Ressourcenschonung und zirkuläre, rückbaubare Systeme"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80f7-b819-f7e671086be8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-8018-b096-f57be8b6da24",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "33ccc54c-ec6d-806d-bb1d-dedaec36e370",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "309cc54c-ec6d-8017-b581-d7c4bf00056d",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

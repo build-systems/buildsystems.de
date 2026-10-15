@@ -1,0 +1,1142 @@
+{
+  "PageId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+  "Title": "THG-Grenzwerte für klimaneutrales Bauen: Policy Lab mit Bauwende Allianz",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Engagement",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/6fa2b0fd-09ba-4736-9fa4-031996b817cd/BuildSystems_Policy_Lab_4.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=9b9aec9c05710c9005ad1ece113841bd9129dcd6db2d669c43e346dd66379f56&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "cover-thg-grenzwerte-bauwende-allianz",
+  "Slug": "policy-lab",
+  "PublishDate": "2025-04-15",
+  "Tags": [
+    {
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
+    }
+  ],
+  "Description": "Der Report „Treibhausgas-Grenzwerte im Lebenszyklus von Gebäuden“ zeigt, wie verbindliche THG-Grenzwerte zum entscheidenden Hebel für die Transformation des Bausektors werden können. BuildSystems war Teil des Policy Labs und hat den Report im Reviewprozess mitgestaltet – als Beitrag zu einer fundierten Grundlage für Politik, Kommunen und Praxis.",
+  "coverAsset": "BuildSystems_Policy_Lab_4.jpg",
+  "blockAssets": [
+    "thg-grenzwerte-bauwende-allianz1.jpg",
+    "thg-grenzwerte-bauwende-allianz2.jpg",
+    "5485cc2a-5511-4836-ad5a-27ca2bf6bc5e.jpg",
+    "thg-grenzwerte-bauwende-allianz3.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "303cc54c-ec6d-8048-887a-caee67f14f91",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein Meilenstein für die Transformation des Bauens",
+            "Href": null,
+            "Text": {
+              "Content": "Ein Meilenstein für die Transformation des Bauens"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-805b-98d9-f8d604768b14",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Dekarbonisierung des Bausektors ist keine Zukunftsaufgabe mehr – sie ist eine unmittelbare Notwendigkeit. Während sich politische Ziele zunehmend verschärfen, fehlt es in der Praxis oft noch an klaren, verbindlichen Rahmenbedingungen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Dekarbonisierung des Bausektors ist keine Zukunftsaufgabe mehr – sie ist eine unmittelbare Notwendigkeit. Während sich politische Ziele zunehmend verschärfen, fehlt es in der Praxis oft noch an klaren, verbindlichen Rahmenbedingungen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-803b-9e87-e10fb7557fd3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Genau hier setzt der Report ",
+            "Href": null,
+            "Text": {
+              "Content": "Genau hier setzt der Report "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": true,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "„Treibhausgas-Grenzwerte im Lebenszyklus von Gebäuden“",
+            "Href": null,
+            "Text": {
+              "Content": "„Treibhausgas-Grenzwerte im Lebenszyklus von Gebäuden“"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " von Bauhaus Erde und der Bauwende Allianz an: Er zeigt, wie verbindliche Grenzwerte über den gesamten Lebenszyklus von Gebäuden zum zentralen Hebel für klimaneutrales Bauen werden können – und formuliert damit einen konkreten Handlungsauftrag für Politik und Branche.",
+            "Href": null,
+            "Text": {
+              "Content": " von Bauhaus Erde und der Bauwende Allianz an: Er zeigt, wie verbindliche Grenzwerte über den gesamten Lebenszyklus von Gebäuden zum zentralen Hebel für klimaneutrales Bauen werden können – und formuliert damit einen konkreten Handlungsauftrag für Politik und Branche."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80bb-af02-e6f28adf7110",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der entscheidende Hebel: Emissionen über den gesamten Lebenszyklus",
+            "Href": null,
+            "Text": {
+              "Content": "Der entscheidende Hebel: Emissionen über den gesamten Lebenszyklus"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8081-97d6-e96b07abb8e4",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Gebäudesektor gehört zu den größten Emittenten von Treibhausgasen. Entscheidend ist dabei: Ein erheblicher Anteil dieser Emissionen entsteht nicht im Betrieb, sondern bereits vor der Nutzung – in der Herstellung von Baustoffen, im Bauprozess und in der Logistik.",
+            "Href": null,
+            "Text": {
+              "Content": "Der Gebäudesektor gehört zu den größten Emittenten von Treibhausgasen. Entscheidend ist dabei: Ein erheblicher Anteil dieser Emissionen entsteht nicht im Betrieb, sondern bereits vor der Nutzung – in der Herstellung von Baustoffen, im Bauprozess und in der Logistik."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8042-a781-e0eb1c21e7d1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diese sogenannten „grauen Emissionen“ wurden lange unterschätzt. Doch genau hier liegt einer der größten Hebel für wirksamen Klimaschutz im Bauwesen.",
+            "Href": null,
+            "Text": {
+              "Content": "Diese sogenannten „grauen Emissionen“ wurden lange unterschätzt. Doch genau hier liegt einer der größten Hebel für wirksamen Klimaschutz im Bauwesen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8041-9a26-fc40dbeae118",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit der europäischen Gebäuderichtlinie (EPBD) werden erstmals verbindliche Anforderungen an die Lebenszyklus-Emissionen von Gebäuden eingeführt. Ab 2030 müssen diese in allen EU-Mitgliedstaaten berücksichtigt werden. Damit verschiebt sich der Fokus grundlegend: Weg von einer reinen Betriebsoptimierung hin zu einer ganzheitlichen Betrachtung von Gebäuden.",
+            "Href": null,
+            "Text": {
+              "Content": "Mit der europäischen Gebäuderichtlinie (EPBD) werden erstmals verbindliche Anforderungen an die Lebenszyklus-Emissionen von Gebäuden eingeführt. Ab 2030 müssen diese in allen EU-Mitgliedstaaten berücksichtigt werden. Damit verschiebt sich der Fokus grundlegend: Weg von einer reinen Betriebsoptimierung hin zu einer ganzheitlichen Betrachtung von Gebäuden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-80bb-93e6-ebf4d37db898",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80b0-98ce-c13d1bdf72d9",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "34acc54c-ec6d-8008-8906-e066c551fae4",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "34acc54c-ec6d-807c-9779-cfd5563aeaea",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/30b2f077-3a77-4370-825c-6341bfd8cb68/thg-grenzwerte-bauwende-allianz1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46677ZYIHX5%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080719Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIGGrShCM%2BvqrpE8VPYfgPmdw4FkvCJXf7WvLw3vrCeJuAiEA7q9%2BLW%2Bi8l3mWHDvIaMXDR0cE9kE7CUEwUEHLEpOv3QqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAGbrzpUfqTqdXMRxyrcAx1Hp%2FppHWdpBbgwVL6ko2cmmuanhIirkvmo95HYkpSOxyDt3E78ANznUIwoe0Tim%2FYIFF6c3yKQM84Ya%2BYWin4U2xvt0vlnBwL9fUG9V4Z1oFHPXkFsRg8%2FDm9OFY%2BwnbZeOvdcIlRrzec2DBgu1Grv1Snl68TZeB8C10zVJZCmzONeEVHU5UVGp%2F%2BPriw5XN7ocgo6Tri4oP%2Bda7iZWEVHQmEvGjjoRC4WVnf%2FYhDIhr0HZvIoq1ogyPCWGKQoZdQtEap%2BVAzGxpN4DbX01k%2BgVWxlAfJAnjZ2kkG009Eh6B39yigjUwTYmKrxLseg2CdQZX%2Fc19AqNrWTNKKq9R3xUhNrPmdmcJi4qkwAKD5pIgPOg3F1zbF2otWGGEOLkjWTHP5Y12prK8lXt6VlHTmEaNNoxuBFZdYW2B817tyX9ejhYX6C758%2BVaAHn4ScdRspBjSlO71PtfELc85aMMF0mut7TIlMJmHMSBzWnqh5gq%2FTPx7AnOe0dUPWKnoJD6yJxcVCJM8OZGAQxRknLNhai01bNT%2BHQifMrw7TMbLXs8QML523jOEHUWrCA7a5eKegsSeVgLMoMT%2Fmn9GQUMCkZWLVivhSl4syKRmfu%2BaXxODiiO85LtuSNF8fML%2BOwtYGOqUBLMNYaoJ%2BZ5x53FZNq2a6uiJBVhKnvgdrKZe8mS8BkmdvGIZuYS2QPyBuV%2FHx6O%2B9%2FKwNAHxAwFf47ZFqr79bWkWFOy9m6T%2BNWU3FdMRF13vkK9ttwFKc6i2NtHV7b%2B49FRbGOZ7G4NU8GFe1hzB7PsjLldDR5X8GHfceSSTFNouiXfMEJPyccs9UyeSmNO7dWHe4BV0NPxVjo0sJnIYt2EpTp2QT&X-Amz-Signature=746ef80409516f8480ffa32fe42f496a9d6618014dfab2b451cde5aad431085f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:07:19.794Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "34acc54c-ec6d-8015-aad0-fc2f03dd65c0",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "34acc54c-ec6d-800d-924f-f828ea991658",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1808eb12-a54b-40be-b553-2ce189fdcc9d/thg-grenzwerte-bauwende-allianz2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663JWMBYQA%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQC6ut0Bduyn88X7TyDhghZGBBY3IC5A0IBgOsvVNrQkDgIhAJxVEeeLSvvkqna96GDNg9m3i%2FVODfa3ogG5T6WmqeMnKogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgynCKu0ROr%2BinYg7Lcq3AOT0UOeh0MzCF9r10Taj3hEfSP%2B4HweJJov0pk5fhUJYsPOtZFpJx%2BKjVZ1EamMFrWEHlPVHHt05zj9rQxi93R7hbLHYmRBoyVTu46kSq1ixiNBUDTWowDZXTbX7bU6U%2B5u3QARoufJe3QogSrHWjxbUtBpcHWU6p88uP%2Fk1VPUlnpAbZgD%2F8IxO8AmdZjSYgB6UI0YBu1187IzZtbcN25EY0czAwlAfREiVTyaiyIDeg3G0H2fARX16zGMcL5M1sffO8FuasXf1VqWhuywtArL1CgDXpBuVsIIbV8Ra6d6rMfSphX%2B7tOBWwKcxUR%2BP9yvPY9xu%2FFMeGQL%2FqlqUrIuo9FtqBQCcLRV7QoTo%2FIq3o75ui28lcx5CtX0Igjn2463LlMi%2FnYofN1h5nNQoA7gODxhTDPl1KHVe2Yu6QSKWpPuAfRRMBZ1LtzdQ4xqU%2BFdZf%2B6TJS87YgjrPCdTmyBSVZBBgg8Dzxt5%2FFVGZC75ncz7rtqG1JeE1%2Flzl0KL4MPKYNpE%2FTFp%2FeYMM73wTdxnGiFXmo8xkqef1uyY5QHnFZ0Ie0rEHoRzb0lnxbYN9kuQYcY35DafCZBRCBw%2FhaNGAYCoxwzUNgvAqfTe2B%2Fgic49hwMD81F8xItwDD1jMLWBjqkAcbqwgTeaF9vFBHGa9e4sZV33fDvxN1VjeKc9pQhlViia17YYTm3i44whw4QOSDchB60f8egliVixz6SJ8TNKCkK5JL8WY4jVpwlBX0X4xubl8CXDnRhBLeS%2FLSzWhDdgMXzqViBROLzI0Zt0dEM3gcWlQURDNN2kBeWVSG0Np1RUHxBxDb8193DaAVk43DRpom%2B5R9xU0oCrBVf9Cc%2FKVhNp3VW&X-Amz-Signature=798122fe6bca728d3f76943fa899860790cf0f5b493398a531ee4fb3e6a58604&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:07:20.121Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-8002-a544-c43ad37faf3b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80a6-87f0-ffee2aeae939",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Vom Ziel zur Umsetzung: Warum der Report jetzt entscheidend ist",
+            "Href": null,
+            "Text": {
+              "Content": "Vom Ziel zur Umsetzung: Warum der Report jetzt entscheidend ist"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80c7-9dc8-f783fcaab627",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Trotz klarer europäischer Vorgaben fehlt es vielerorts noch an konkreten Umsetzungsstrategien. Genau hier liefert der Report einen entscheidenden Beitrag: Er übersetzt politische Zielsetzungen in praxisnahe Ansätze und zeigt, wie THG-Grenzwerte realistisch eingeführt werden können.",
+            "Href": null,
+            "Text": {
+              "Content": "Trotz klarer europäischer Vorgaben fehlt es vielerorts noch an konkreten Umsetzungsstrategien. Genau hier liefert der Report einen entscheidenden Beitrag: Er übersetzt politische Zielsetzungen in praxisnahe Ansätze und zeigt, wie THG-Grenzwerte realistisch eingeführt werden können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-809a-80a5-dfde08e33bfe",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Rahmen eines Policy Labs wurden gemeinsam mit Expert:innen aus Praxis, Wissenschaft und Politik konkrete Grundlagen erarbeitet und anschließend im Reviewprozess weiter geschärft. BuildSystems war Teil dieses Prozesses und hat seine Praxiserfahrung gezielt eingebracht – mit dem Ziel, regulatorische Anforderungen und reale Umsetzbarkeit enger miteinander zu verzahnen.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Rahmen eines Policy Labs wurden gemeinsam mit Expert:innen aus Praxis, Wissenschaft und Politik konkrete Grundlagen erarbeitet und anschließend im Reviewprozess weiter geschärft. BuildSystems war Teil dieses Prozesses und hat seine Praxiserfahrung gezielt eingebracht – mit dem Ziel, regulatorische Anforderungen und reale Umsetzbarkeit enger miteinander zu verzahnen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80d6-bc69-f733f03d7a61",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-80d6-b04b-ea8ce99e5c2b",
+      "Type": "heading_3",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Heading3": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Transformation ist machbar: 12 Thesen",
+            "Href": null,
+            "Text": {
+              "Content": "Die Transformation ist machbar: 12 Thesen"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-802d-b088-f8fac9b1f6ba",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Report strukturiert seine Empfehlungen in 12 praxisnahe Thesen, die zeigen, wie ein klimaneutraler Gebäudesektor realisiert werden kann:",
+            "Href": null,
+            "Text": {
+              "Content": "Der Report strukturiert seine Empfehlungen in 12 praxisnahe Thesen, die zeigen, wie ein klimaneutraler Gebäudesektor realisiert werden kann:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-805e-93c7-c83b6299d4eb",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "THG-Grenzwerte schaffen Leitmärkte für klimafreundliche Baustoffe",
+            "Href": null,
+            "Text": {
+              "Content": "THG-Grenzwerte schaffen Leitmärkte für klimafreundliche Baustoffe"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-80e2-bc37-f4203d14f42e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Klimagerechtes Bauen kann über den Lebenszyklus ohne Mehrkosten funktionieren",
+            "Href": null,
+            "Text": {
+              "Content": "Klimagerechtes Bauen kann über den Lebenszyklus ohne Mehrkosten funktionieren"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-800f-a938-d365fd7e6292",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Regionale Wertschöpfungsketten werden gestärkt",
+            "Href": null,
+            "Text": {
+              "Content": "Regionale Wertschöpfungsketten werden gestärkt"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8078-8b7f-e845e25c6471",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Kommunale Klimaschutzpläne profitieren von klaren Vorgaben",
+            "Href": null,
+            "Text": {
+              "Content": "Kommunale Klimaschutzpläne profitieren von klaren Vorgaben"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-802d-a675-e9913cfad99e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Freiwillige Praxis-Initiativen zeigen bereits heute Umsetzbarkeit",
+            "Href": null,
+            "Text": {
+              "Content": "Freiwillige Praxis-Initiativen zeigen bereits heute Umsetzbarkeit"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8003-90ad-ee09de1894f3",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Daten und Erfahrungen ermöglichen belastbare Anforderungswerte",
+            "Href": null,
+            "Text": {
+              "Content": "Daten und Erfahrungen ermöglichen belastbare Anforderungswerte"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-80cb-9d54-f1873f7892af",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Aus- und Weiterbildung ist entscheidend für gute Ökobilanzen",
+            "Href": null,
+            "Text": {
+              "Content": "Aus- und Weiterbildung ist entscheidend für gute Ökobilanzen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8017-a7c2-e582d3f3674c",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "EU-weiter Erfahrungsaustausch ist Grundvoraussetzung",
+            "Href": null,
+            "Text": {
+              "Content": "EU-weiter Erfahrungsaustausch ist Grundvoraussetzung"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8059-958d-f95a52c974e4",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Anreize beschleunigen ambitioniertes Handeln",
+            "Href": null,
+            "Text": {
+              "Content": "Anreize beschleunigen ambitioniertes Handeln"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-80dd-bfec-df100d18b253",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Klare Indikatoren sichern Glaubwürdigkeit von Ökobilanzen",
+            "Href": null,
+            "Text": {
+              "Content": "Klare Indikatoren sichern Glaubwürdigkeit von Ökobilanzen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8041-b3cd-c78a1e14885f",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gute Praxisbeispiele müssen in Normen einfließen",
+            "Href": null,
+            "Text": {
+              "Content": "Gute Praxisbeispiele müssen in Normen einfließen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8083-93a6-df5bf91ec404",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dekarbonisierung ist eine sektorübergreifende Aufgabe\n",
+            "Href": null,
+            "Text": {
+              "Content": "Dekarbonisierung ist eine sektorübergreifende Aufgabe\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-80f6-9b9d-c8f2bf71a8d2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Diese Thesen bündeln Praxiswissen, wissenschaftliche Erkenntnisse und Beispiele aus Europa von Spanien über Dänemark bis Finnland – und zeigen: Die Ziele sind technisch möglich, wirtschaftlich sinnvoll und gesellschaftlich notwendig.\n\n",
+            "Href": null,
+            "Text": {
+              "Content": "Diese Thesen bündeln Praxiswissen, wissenschaftliche Erkenntnisse und Beispiele aus Europa von Spanien über Dänemark bis Finnland – und zeigen: Die Ziele sind technisch möglich, wirtschaftlich sinnvoll und gesellschaftlich notwendig.\n\n"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Report „Treibhausgas-Grenzwerte im Lebenszyklus von Gebäuden“ herunterladen",
+            "Href": "https://bauwende-allianz.org/wp-content/uploads/250923_THG-Report_Langversion.pdf",
+            "Text": {
+              "Content": "Report „Treibhausgas-Grenzwerte im Lebenszyklus von Gebäuden“ herunterladen",
+              "Link": {
+                "Url": "https://bauwende-allianz.org/wp-content/uploads/250923_THG-Report_Langversion.pdf"
+              }
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-80f8-b07c-cbdfe5203aa8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-80c4-9899-c3afebc5c969",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "34bcc54c-ec6d-80b2-8ea7-e2d89ff1e4a4",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "34bcc54c-ec6d-807a-96d0-d2b9e3d582bc",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1e77fbb3-7139-4751-abfd-c051c1e3cc49/5485cc2a-5511-4836-ad5a-27ca2bf6bc5e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664YBF5Z5S%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIAb9AEcPlJpYYxlB2KsX0ukgdDhIK0tnbomX2NuXIm1IAiAlDQtcF%2BukcdowuLfxMCFDO25zYbLzYRqIuYCKXQQ19iqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMzlwX7Lw9F%2BKWoaoZKtwDKdwYmM4Re7wArz5fg%2Bom0vct3X9JHJwf8iHalXlzN4SMqPsTqA1mSAtJofVPkZ9hZA6TlqL%2BPDJyIrNC0%2BEGR5XJb0JRQV6vsnsL5mtwpbmq9JlfxFKoPoBcMRA5lzNOAM1L%2FkgAVWSN1zjYyj6prItkrj%2BalsRWIWm%2F4%2FEbvkl3Anchn5J308pikaMwW13S54Polv9g6z7pUnPM3jeGEA23c%2BmHVMgGMMB9biqBy%2Fc1Sn1DfHVjwA%2B1INFwj9hJ%2ByPhOeVtrqzUW%2FnRbGPRfCC26uLxftOGAcrMYDgFdJHby7TqgVadcPbn77zIYbbClqR%2Bsy9WDGqQvh5oE4oO%2B0bCmpMhkTGyYBdSj%2FZOXucbYRv9HtYrQyOZt0XIGdHiGGubmlEjsEThiehyhXCXOmsGu%2BY%2Fj0VYwQjwmoBuCIHdrG7KIKr7UJNEdNsRUMSxTwwRFh051r7%2FXYAukFKRIhd6mg5pwsFeLI8kwPfZNl5zQgCCW%2FRnmy0AGOGdb9HT8i3pL95N8qc4vhYJTma%2FW5cfxlOSdbfs%2FQjBwb4%2FZEp5RepnROhtzwMAiz5YjDB4fco5XCUwHwbW8acrzZsuLUJoMcBWXfCun%2FgkXbnx26qfsPJx%2FSvxWBEPy40w44zC1gY6pgEQou%2Fnhh9H%2FW40Hc6Vpz1ch35%2FEe9lwYjqzojsrmIxD1N7wlZEOxcZ8qn%2FtcZxwaYWoWhlIf7%2B4N6fhSRHjCW2hyHDYR4oB1qXxtvvvmfL%2F0d8hU8ks6LvELUSGK8e3EL201nyNWQdFTgPOjf0kWdYypJZElg5B9Htg8qZIf3pZL2zLeQnrw8Mte%2FlefGuOjxB73DLttX9%2BnnB2rgH9A%2BKSpSrLy2G&X-Amz-Signature=68fa890f30b9b0b8f7457d869ab86fac786bc050cc8aff9cf9f5f946c5b96960&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:07:20.695Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "34bcc54c-ec6d-80bd-8ed4-f0a2a9b56f74",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "34acc54c-ec6d-8060-b998-c6e4210a88ec",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c6859988-a9dc-4b1c-8d7b-10c16016664f/thg-grenzwerte-bauwende-allianz3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666DXSHWXM%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080720Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCfPvlqCq0fkRMKNkorxXMtZV0evmncfFgwmi4zacJP%2BQIgDmLbUnHUqWyBBsyFKY3aecUAM4rjybywE9BGZl%2F%2Bxv0qiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDIt51sKyAT0Xh6LQ3yrcA5%2FxaU4beH3EEHMVBcHqQ4Wv9UvObDMTBccc5QwWQLIdxzzrVZBm96y7BNsMNJ68DiFmdcUJh5QrYdJoKgPILvepsbpw%2FRihkn5bW3dnz6StTzzH1irxvAR8C5pWxYMEwsvsMCjfD9jWBStweypo5pdFY2YvoLjhR21IGkYFIkZLxZRP3YpDQmuC95E5gh1peVpGD4tPk4hMkzOYl1%2FXz7gswRX%2FzB%2BU6VYj9%2FVkMHw3bHwDN80647rRoEGsrYlXWTnEdo8uanrI4odEDR6v07Z8vULNheAFZ7ao1nccsiAiG3VDIDvnrdfkm6VCDjMFB0SpVwhwCo5he%2BR1rvVdV2xgKnjKEbE6PMmC3aU4CtpqxO6uQ5wvLJP5eZ5%2FwTdyU1p5slHcs1xDp0z2hW6mm%2FfenqpAs8dXP20hKF8nFACzUq91H%2Bpe6A2FxqDcFxQWXMqbf8FMIdOoqUpcPaeIX%2BfKmPACXeH6oaELLTzPwAs3PjzKF18Z1dngO9NfIK3E7%2BePP9SpZwgfc1UXIELRcERJmchUBPSTKMIUYezPhOojGEgKHC2FM3kSbx9ysTLxQquiq9Bix%2FFCZvHDk13G4xfARTbBtcPgnENAbF7OCCk5NKlH6E1%2FXi%2FmX48aMIGNwtYGOqUBc0rDNwahck4GLmTr%2Fcx9C9bONvNzFap0suHZanqz40t%2BfXJdXqj6QXL1PgYjvsOMv4SH62x7aOUAfIqqBA2a57pAnmCPFxtfHFZmEvQw7LfGwd0Vu12%2Fw2Lufc0xGO5Ys8cqMYqs6CwmIetVqdCVU94P7EOYENpTft%2FNq%2FxdoKekRDebC7Zgn2XCrDFj85qh5pEUBl6%2B1e9NV7qgIbri5PHmAcDu&X-Amz-Signature=1fe79321f32af59206682309c2478bedb485f579e1925af4a8146ac782a474a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:07:20.712Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-8051-aab9-f2e1ce9bf0fc",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34bcc54c-ec6d-8061-aa2f-e9e08988d7d3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8020-b5a3-ec08f74e6143",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der Wandel im Bausektor gelingt nur gemeinsam",
+            "Href": null,
+            "Text": {
+              "Content": "Der Wandel im Bausektor gelingt nur gemeinsam"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-809e-9bb9-f1c32513000c",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bei BuildSystems sehen wir klimaneutrales Bauen als integralen Teil moderner Projekt- und Bauprozesse. Unsere Erfahrungen aus der Praxis bestätigen:",
+            "Href": null,
+            "Text": {
+              "Content": "Bei BuildSystems sehen wir klimaneutrales Bauen als integralen Teil moderner Projekt- und Bauprozesse. Unsere Erfahrungen aus der Praxis bestätigen:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-804e-83ca-d0e0c231730e",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltige Gebäude sind heute planbar und wirtschaftlich realisierbar",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltige Gebäude sind heute planbar und wirtschaftlich realisierbar"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-80bd-9e9e-ed3b5aaecfcf",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Verlässliche Daten und Ökobilanzen sind Voraussetzung für fundierte Entscheidungen",
+            "Href": null,
+            "Text": {
+              "Content": "Verlässliche Daten und Ökobilanzen sind Voraussetzung für fundierte Entscheidungen"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8054-bcce-ed60a3dea13b",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Fortschritt entsteht nur durch Zusammenarbeit über Disziplinen hinweg",
+            "Href": null,
+            "Text": {
+              "Content": "Fortschritt entsteht nur durch Zusammenarbeit über Disziplinen hinweg"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "34acc54c-ec6d-8063-82e0-d7d6be31b98e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die kommenden Jahre werden entscheidend sein: Es geht darum, regulatorische Vorgaben, Planungspraxis und Marktmechanismen so aufeinander abzustimmen, dass klimaneutrales Bauen zum neuen Standard wird.",
+            "Href": null,
+            "Text": {
+              "Content": "Die kommenden Jahre werden entscheidend sein: Es geht darum, regulatorische Vorgaben, Planungspraxis und Marktmechanismen so aufeinander abzustimmen, dass klimaneutrales Bauen zum neuen Standard wird."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-802d-a97b-fecba883e59b",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "320cc54c-ec6d-809c-ab14-ec19d135fcb3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems \nGraphic Recording: Sebastian Loerscher",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems \nGraphic Recording: Sebastian Loerscher"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "303cc54c-ec6d-8073-940d-c85bd632a9f9",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "21acc54c-ec6d-801e-8e99-e6ea1b75f593",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n",
+            "Href": null,
+            "Text": {
+              "Content": "\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "PageId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+  "Title": "VSME als strategisches Steuerungsinstrument\n",
+  "Authors": [
+    {
+      "id": "gt`}",
+      "name": "Julia Dorn",
+      "color": "default"
+    },
+    {
+      "id": "c20365d7-e215-4adc-8ae9-13d9d18c59ef",
+      "name": "Nikolina Popovic",
+      "color": "pink"
+    }
+  ],
+  "Category": "Projekt",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/0e587f41-2fe3-4893-8ce2-bbe6bf1bc146/vsme-niersberger_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=4f96c87b799985ed80f95fbfee59f4c5952957f9f28a2d349d007df2b05576f1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "vsme-strategie-vorfertigung",
+  "Slug": "vsme-niersberger",
+  "PublishDate": "2026-04-20",
+  "Tags": [
+    {
+      "id": "7a4412c6-56ff-48bf-a1a9-54f69512ed74",
+      "name": "Strategie",
+      "color": "yellow"
+    }
+  ],
+  "Description": "Gemeinsam mit BuildSystems entstand ein VSME-Bericht, der nachhaltige Innovationen, serielle Bauweisen und wirtschaftliche Zukunftsfähigkeit in einer klaren Unternehmensstrategie zusammenführt.",
+  "coverAsset": "vsme-niersberger_cover.jpg",
+  "blockAssets": [
+    "vsme-niersberger_booklet_I.jpg",
+    "vsme-niersberger_booklet_II.jpg",
+    "vsme-niersberger_visualisierung.jpg",
+    "vsme-niersberger_axo.jpg",
+    "vsme-niersberger_visualisierung_II.jpg",
+    "vsme-niersberger_axo_II.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "367cc54c-ec6d-80fe-8c3d-d04acc49bcdd",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Themen Nachhaltigkeit und serielles Bauen sind für die Niersberger Group weit mehr als nur ein Bestandteil des Leistungsportfolios – sie sind zentrale Bausteine der Unternehmensstrategie. Denn aus großen Zielen entsteht großes Potenzial. Die Erstellung eines Nachhaltigkeitsberichts dient dabei nicht nur der Dokumentation bestehender Maßnahmen, sondern als Leitfaden für die konsequente Verankerung nachhaltigen Handelns im Unternehmen, als Orientierung für heutige Entscheidungen und als Wegweiser für die Zukunft.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Themen Nachhaltigkeit und serielles Bauen sind für die Niersberger Group weit mehr als nur ein Bestandteil des Leistungsportfolios – sie sind zentrale Bausteine der Unternehmensstrategie. Denn aus großen Zielen entsteht großes Potenzial. Die Erstellung eines Nachhaltigkeitsberichts dient dabei nicht nur der Dokumentation bestehender Maßnahmen, sondern als Leitfaden für die konsequente Verankerung nachhaltigen Handelns im Unternehmen, als Orientierung für heutige Entscheidungen und als Wegweiser für die Zukunft."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8026-b160-f68d39f3e50f",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Niersberger Group ist ein mittelständisches Bauunternehmen, das sich auf die Schaffung von nachhaltigem und bezahlbarem Wohn- und Arbeitsraum spezialisiert hat. Im Fokus stehen wirtschaftliche, ressourcenschonende und zukunftsfähige Lösungen. Als umsetzungsstarker Partner entwickelt das Unternehmen gemeinsam mit seinen Kunden intelligente Konzepte für Neubau und Sanierung. Durch digitale und integrierte Planung sowie serielle Vorfertigung werden Projekte effizient umgesetzt und neue Maßstäbe im Bau gesetzt.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Niersberger Group ist ein mittelständisches Bauunternehmen, das sich auf die Schaffung von nachhaltigem und bezahlbarem Wohn- und Arbeitsraum spezialisiert hat. Im Fokus stehen wirtschaftliche, ressourcenschonende und zukunftsfähige Lösungen. Als umsetzungsstarker Partner entwickelt das Unternehmen gemeinsam mit seinen Kunden intelligente Konzepte für Neubau und Sanierung. Durch digitale und integrierte Planung sowie serielle Vorfertigung werden Projekte effizient umgesetzt und neue Maßstäbe im Bau gesetzt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80f5-9f1f-d9b5327495cf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "366cc54c-ec6d-805b-9cfe-daba4bf082ee",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "366cc54c-ec6d-80dc-887b-e8b8609d42f6",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "366cc54c-ec6d-80eb-be50-e40e5be9cf6c",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/514c036a-7e73-4653-a6a9-8174c755094b/vsme-niersberger_booklet_I.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SKP46XYG%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080643Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQDqPUG6y7zX2G0mmbwhy0QjXH9faNQbRkd6jT%2FQPDOTcgIhAK0%2FmXDjkaUqAndf6XF7dqL61DT%2BPa6pVzURCEWKZ0w5KogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgyxB7zGTgUyiK%2BZepIq3ANwEn59ud%2FpsRdJ93FbMrGafxhy2S9x8MDfANxmJ23JN2e95sY5UnMYwEzBZlmeVJANDH5L3aFFNjbgGhN21WSGkrKaDiII9ZpvqB08%2FxGmrYG%2FIfl3JbRX8K89R1YAnrsqkSiscXKgZewSWa7kQ04X0bdJWYKWngjzVbi%2BylGAaFs3xqRdVgdgVrCHwyMhu2Z2RFGeaCugUmhof9QiQ%2FT9DXDhwNInNihAPfhIyFNfcp1h4gqEnujPe2S1ifJe4hS2t3oCu543zaXoG%2BB%2FTBV%2FrSoqnUTq%2BrJ906ml%2FfDGiInUEAaofWv9zeDdfArM%2FEuw%2BozbHZG%2BS4yZAERuy0Cay5PaBAyF%2Bz24NYhj0lPLbbh10CyxA0cbXLhNlK9VriG21kSpSeWu8oqKPnUXMthiHbA6OAsl1OuKVkm5lGQeVpzeOsiiwnh3nBFjZILuVdOOG7w5eqd%2FkzhOnPYJ5jvP1paBIeqxWXvY3OqpWQRjRJs0vcVOnhS3HOQ%2FgIkxzsyTNI2xhY%2BdROybdFq9UxxJj2OdIRVsz7pA%2Fx4QIbhBdvEkTxCa4YbEQ%2FKyUPloOfoksw0OGxt2nRQ3DKiV%2BS9dRae%2Fds1ctYjCtBP9yT8dALdS%2FZI0tccGC9AeeDCWj8LWBjqkAXSeTaKXAwg3BvKmw1K9GEE1C8Hnl7TxuncPdiLfBNcpWW5Qp5jje4%2B1TebFvbm3gL5ZG1%2FVldNBjoSLho5l7JyNxGqXW2546Kj%2FArTfQipwS8BPkHQIwlZlpa0CLeFLmqTZ%2B7xOhZN3CeSobHBafZzJTWVJh9GM%2FEbPR98OSxgZEWWEyQc6jnImWQOojNe3LFmhECo0lH5nb7os4TrO6Z1g3fUF&X-Amz-Signature=1bccb2bea123ddbf7848ce2ab6ead44c8af2363e15005a5ecf54203767e215c8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:43.470Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "366cc54c-ec6d-8014-a3a7-c833558bf03c",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "366cc54c-ec6d-80ec-b651-d8b523435268",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/9895798c-d2a0-48f6-83c0-da3d3f057081/vsme-niersberger_booklet_II.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SCXJF3GG%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080643Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCNFkAqU1VK8%2FxD9d6lrwlJHECWy7KfZvzaRu6%2FTQbirQIgKwXGDZqeeRekrXRFn5ziDdv43BKO48btiDffWE%2F8MnwqiAQIyP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNHwU50Kul%2BXEwMUHSrcA9snZWQOpDgUV2wxl3dEHNiC8Bu94P2nUChFmheOgeu%2BY4SoN6UGwhZX4B4uazzXcn4WmDRcTR5VaqZCNbvIclT5eEuk6spiKaRt41SB5R2AInScmy1K47%2FLfyA7ps8H2L0nxO5Pg%2B3ZY44Te%2BNP82p0IOKyMxjqSUDroVcKgjBqnMeWAwP5yEBKhsL2s22BmIcV%2BJDBw8uE4F1Z8qi921%2B8qa47MJI4EZqF8QkHUjy0uT%2BQCLRiiMokWNLiHWYSkk7j%2Fl3ADKQ%2F6jEzL2umwDfwXTbjlm4NTBHh4aaezAnufaRVAMlUiy8inEHBTo8tcpIHcHufk6u2WLbR3Lkfxip2rgq%2F7qdcLr08wAuK41KcLEcW%2BLxRP6peEn3B6fn1u7wL6sXENPcOzsqdae3icEkd%2FRvuCk63MK7qCBx4d00CuVbBUc2b9xYswJQ7MONRHuhvn9D031dmc%2Fgu4ON2GjXgznC5jqWSXwUB2meVt2I3BUoC5nQJVzQtCgUvEcMLOVY6r3%2FRmAqBu6nKWuWEAVCge8tkAOTbPsd0WCKIA7O6oZ7SySuxnaQ2LQNViUluuslll8C2VzvtFJFREXc5A95XF4quZCjr1bZaztJ09klUGnjulsID7Y6neOeYMIeNwtYGOqUBAbb2phz6ieAZHIALFN9czWtVMJxriEeYHkHBO8FDpOtxTIm7OPZAo6H2NdOpig2SZxHN5s9%2Bg2W%2FvNN4%2F01iqAdOV8YteMYHowETYRlYKGP8C0dl2MRHfgEC47N6p0T4EIekB7AnHXel97LUfRT%2FGWnWZZlOwG3l301LU9NkeJmppZYMgjvwbbgVQftBk6BnwlOHqaqGaUFpInn1kObt7DK1xr%2BY&X-Amz-Signature=44b0ef87428732e6bf98975635ab07ef5c3669ffd68f13614731bdccd341f78c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:43.504Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-800d-8261-e724b3c7678b",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Warum ein VSME-Bericht strategisch sinnvoll ist",
+            "Href": null,
+            "Text": {
+              "Content": "Warum ein VSME-Bericht strategisch sinnvoll ist"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80a5-9bdd-ccc52580c2e0",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltigkeitsberichterstattung wird häufig ausschließlich mit regulatorischen Anforderungen oder ökologischen Fragestellungen verbunden. In der Praxis bietet ein strukturierter Bericht jedoch weitreichende strategische Vorteile – insbesondere für mittelständische Unternehmen der Bau- und Immobilienbranche.",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltigkeitsberichterstattung wird häufig ausschließlich mit regulatorischen Anforderungen oder ökologischen Fragestellungen verbunden. In der Praxis bietet ein strukturierter Bericht jedoch weitreichende strategische Vorteile – insbesondere für mittelständische Unternehmen der Bau- und Immobilienbranche."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-803e-8444-cc367c212e31",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Unternehmen der Niersberger Group waren bereits zahlreiche Nachhaltigkeits- und Innovationsbemühungen vorhanden. Das strukturierte Vorgehen nach VSME half dabei, diese Aktivitäten zu bündeln, klare Ambitionen zu formulieren und konkrete Ziele sowie Maßnahmen unternehmensweit zu verankern. Gleichzeitig schafft der Prozess Transparenz über bestehende Potenziale und unterstützt dabei, Einsparungsmöglichkeiten innerhalb des Unternehmens systematisch zu identifizieren.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Unternehmen der Niersberger Group waren bereits zahlreiche Nachhaltigkeits- und Innovationsbemühungen vorhanden. Das strukturierte Vorgehen nach VSME half dabei, diese Aktivitäten zu bündeln, klare Ambitionen zu formulieren und konkrete Ziele sowie Maßnahmen unternehmensweit zu verankern. Gleichzeitig schafft der Prozess Transparenz über bestehende Potenziale und unterstützt dabei, Einsparungsmöglichkeiten innerhalb des Unternehmens systematisch zu identifizieren."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8032-9b1f-ceee749d85cf",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Darüber hinaus adressiert der Bericht die Anforderungen, die Banken, Geschäftspartner, Kunden und potenzielle Fachkräfte heute und künftig an Unternehmen stellen. Nachhaltigkeit wird zunehmend zu einem relevanten Faktor bei Finanzierung, Vergabeentscheidungen und Arbeitgeberattraktivität. Der VSME-Bericht schafft hierfür eine belastbare Grundlage und unterstützt die strategische Positionierung des Unternehmens am Markt.",
+            "Href": null,
+            "Text": {
+              "Content": "Darüber hinaus adressiert der Bericht die Anforderungen, die Banken, Geschäftspartner, Kunden und potenzielle Fachkräfte heute und künftig an Unternehmen stellen. Nachhaltigkeit wird zunehmend zu einem relevanten Faktor bei Finanzierung, Vergabeentscheidungen und Arbeitgeberattraktivität. Der VSME-Bericht schafft hierfür eine belastbare Grundlage und unterstützt die strategische Positionierung des Unternehmens am Markt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8071-8670-c34837132a13",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "366cc54c-ec6d-8051-a76d-ff6138171d43",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "366cc54c-ec6d-8086-a451-c6b31283bb62",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "351cc54c-ec6d-80ca-89af-cdafa4372ce1",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/8b936e6e-d2c3-4e04-b4b0-e5b9fcdded55/vsme-niersberger_visualisierung.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U6EOLYIY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCICXnq6vtpHa7jXJbGnEFOT1yk6Ab%2B6VilsCeyFnW5gg%2FAiEAoJ4tKUILd4spSU%2BvclPsVFcGCg%2FVvZZ3ljW3hyqLNgcqiAQIyP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAQXiPehXHOlor8UESrcAwBbJuFkAc5Nu12CLOtT2aED%2FZlCp4AhFLE6mT7tq036EFdCROCRhOQuz2fWKf8ZhBpees4BKZE1VnwdU26LB%2FIedAVpPfbR1%2BWZLnNXw9Doa8TLucrwTZHBWDBt%2FxfZPwZADBW8%2Bv84FHHdVj4pUOO7CVEE55%2BvjViSVznGY4F7te1a1bPPcER44QeQJFJuEVZxi4c3eTW6Qa%2FGdt4Qj4FY%2FLgrgxNC%2FEZhsYMXh9VclE%2FYpRxJagWC43sZBa1D%2Fp5aOToTgRwy5xHz8vDfZ6wfeAv76y4LIv3NSloFZeN4pQ4u7Ba53Zz5VOblaXijV0zv7pizO2XVazLSecJW00RBIWnarSyhxPvszBy2xFu2mCJSgSRKohW7ufEDR9Fxd2YVMR0dDhTskGpkw%2F4J2p9jVItg4e1TDq2zKxPWJtvb%2Bo1Z0R1%2BeMJAuBn2VfoTChsAhUEjTXZ%2FjvEftjNHprvbnBvoigwxucWOBMIQDUFSTVxXsDzL9mhKOxEJMlnLIb9FcSJ2TYqf7jPFumUlJuoCArobYntlIpGOP4bY%2FYxL9hK4rcAa5r85a2ynMO1TqLF4AB35vmdACM2oXmNUI5gQJBXKXkUC9hhATsorrg64u0ssRNtXgJzsB9rfMLmPwtYGOqUBaAsdc5HUOFuESRHO5KphWYw%2FuT3aUQzg5EBD3EhSCoRH%2BaHKDphaaXHNlXzPAknFx02gZW6gM%2B%2BL2xtKZp25q5FNiQt8BCEJlu4ysSQuPUCqnRp5dxAzlXdmvJIbdHtbGjyrwTjzPjK61HXTJVqtBY01Fr%2Bgvdep7KJaLwBeVQj%2B2v5rFqNb10vVrq%2BpCBD0LQ3TTHNYh3FKqlF3MC7Uxdig3mSR&X-Amz-Signature=4ebbc5c339a3af46185ea821b26563c5f3e9efe322e3695c38d9770fe8591aad&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:44.872Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "366cc54c-ec6d-80f2-8b6e-ed90294d3308",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "351cc54c-ec6d-80cc-a7f0-ea65a5a957a5",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/e3c5230c-fa3a-4d20-bd85-f5816689a5c1/vsme-niersberger_axo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666N2FDYNI%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQD9N3RMfatcSfQSaQ1UMYkRDtlbrwWKSPtVxbTJHNlhgQIgc3oEdllR7DQbaHTqtOfi1DEYieB99HqUBFt298EyuFUqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLjU3M2gJ8qY6b%2FN0CrcA4YrUZ%2Bkr%2FzapsHt%2FgLLFyd0sg%2B7lS9il82RvzxuXlTWcjrHhYZjrEQgAztBonJoj3pH9VCaXqNjY%2BTgXfaq0psfWEK%2BrbsEnEktxLJriXoyXg%2BxgQAUILacrp3%2BXdwi05b9h2MQjQGQB54DxN5R8JXq55Cs5kzwAsV5%2FS%2BAfeYP3G6b5%2F604ZGLf6GJsFwswaIXpoF8NlzoxSWdc1S3BrykMvTSN7sTOgK%2F8celZyAcL%2FNMFZxoukf8qlG3sSNRKjyLexyzXEUACEHfdr7X8FQ%2BgFrUO1sDbcTN4Ytc4%2Bcf6mv73%2B5lN%2Fkj%2BuXyTsauVGrcbdRiSe%2B0QYYSZk9t6lfpdoeeXJ%2BEnR0DT67csqHpQCxkRRrQbZ1IjihgPKkW0uHYm549t7TMljnW4yEiOq1ka05KoAoUSng1hFqoqmxM5c8KMtQciyImBvfY%2BKXajD2bTbpZ6e9blSJqF8K03NeR03aj4HWznb4CO1%2BjHxCU45SRSO85LyU%2BW8c8SpuSAYy65jaUPgH4bGGUg16kP5EnS8ygRjO1eQRON4cXL%2F4ux2NzDSixQaoONjscE5TPKfFenYG3Je%2BUZvoqsngLVe7DL7sgrbrglBbGA8Woi1sPp0KHqmvwdkVUFPzSMMuNwtYGOqUBGPuVv76ERo2bJsjczOVPipP9zSt48MWHFC%2FIUVzMOVtPJqAQxrFIX93lmOGxurHrTg3wXe09UfzjuNFryW84TFkG8ZoQuZRLEC2%2FfDBzzOu6A9V1lhWYxDmIDSlmWe31izz1WDg6RHP51WvIBRkLYN%2FnhH5NzpRNIyPxeLL2tCMpq8wk8YJM2wJlQSJapDMNswpL6J5KIkLag0IAPmpU00oXxaPT&X-Amz-Signature=eee2beec3071a812381f2ec02761056de2280fab52a931200a7394cb5cb9d137&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:44.881Z"
+                  }
+                }
+              },
+              {
+                "Id": "366cc54c-ec6d-8059-a1d0-da990823f4a3",
+                "Type": "paragraph",
+                "HasChildren": false,
+                "Paragraph": {
+                  "RichTexts": [],
+                  "Color": "default"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-80f2-b3b3-cf80674deacd",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Seriell in die Zukunft: Nachhaltigkeit durch industrielle Holzvorfertigung",
+            "Href": null,
+            "Text": {
+              "Content": "Seriell in die Zukunft: Nachhaltigkeit durch industrielle Holzvorfertigung"
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80fe-b731-fcc42a3b0854",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Ein zentraler Bestandteil der Unternehmensstrategie der Niersberger Group ist die serielle Holzvorfertigung für Neubau und Sanierung. Diese Bauweise ermöglicht nicht nur schnellere und effizientere Bauzeiten, sondern verbessert gleichzeitig die Arbeitsbedingungen für die Mitarbeitenden durch witterungsgeschützte Prozesse in der Vorfertigungshalle. Zudem werden sowohl Emissionen in der Konstruktion als auch operative Emissionen im Gebäudebetrieb reduziert.",
+            "Href": null,
+            "Text": {
+              "Content": "Ein zentraler Bestandteil der Unternehmensstrategie der Niersberger Group ist die serielle Holzvorfertigung für Neubau und Sanierung. Diese Bauweise ermöglicht nicht nur schnellere und effizientere Bauzeiten, sondern verbessert gleichzeitig die Arbeitsbedingungen für die Mitarbeitenden durch witterungsgeschützte Prozesse in der Vorfertigungshalle. Zudem werden sowohl Emissionen in der Konstruktion als auch operative Emissionen im Gebäudebetrieb reduziert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80aa-b797-d14d6dbfae90",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Bei der seriellen Holzvorfertigung werden Bauteile industriell vorproduziert und anschließend auf der Baustelle montiert. Dadurch lassen sich Bauzeiten verkürzen sowie Effizienz und Präzision steigern. Gleichzeitig verbessert diese Bauweise die Qualitätssicherung und schafft sichere sowie ergonomische Arbeitsbedingungen.",
+            "Href": null,
+            "Text": {
+              "Content": "Bei der seriellen Holzvorfertigung werden Bauteile industriell vorproduziert und anschließend auf der Baustelle montiert. Dadurch lassen sich Bauzeiten verkürzen sowie Effizienz und Präzision steigern. Gleichzeitig verbessert diese Bauweise die Qualitätssicherung und schafft sichere sowie ergonomische Arbeitsbedingungen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8039-bbfb-dfe6af25db4e",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Zuge der strategischen und nachhaltigen Weiterentwicklung des Unternehmens entstand eine neue Fertigungsstätte, die die skalierbare Produktion serieller Holzbauelemente ermöglicht. Die Implementierung dieser Prozesse in Produktions- und Baustellenabläufe stellt nicht nur eine technologische Weiterentwicklung dar, sondern verbessert auch die Arbeitsbedingungen nachhaltig.",
+            "Href": null,
+            "Text": {
+              "Content": "Im Zuge der strategischen und nachhaltigen Weiterentwicklung des Unternehmens entstand eine neue Fertigungsstätte, die die skalierbare Produktion serieller Holzbauelemente ermöglicht. Die Implementierung dieser Prozesse in Produktions- und Baustellenabläufe stellt nicht nur eine technologische Weiterentwicklung dar, sondern verbessert auch die Arbeitsbedingungen nachhaltig."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-800e-8a5b-c504245775a8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Mit der eigenen Vorfertigungsanlage hat sich die Niersberger Group frühzeitig zukunftsfähig positioniert. Ein Beispiel hierfür ist das Projekt der GEWOBAU in Erlangen: Durch die energetische Sanierung der Gebäudehülle und die Umstellung der Wärmeversorgung auf erneuerbare Energien werden sowohl Primär- als auch Endenergiebedarf deutlich reduziert. Über die kommenden Jahrzehnte können dadurch erhebliche Mengen an Emissionen aus dem Gebäudebetrieb eingespart werden.",
+            "Href": null,
+            "Text": {
+              "Content": "Mit der eigenen Vorfertigungsanlage hat sich die Niersberger Group frühzeitig zukunftsfähig positioniert. Ein Beispiel hierfür ist das Projekt der GEWOBAU in Erlangen: Durch die energetische Sanierung der Gebäudehülle und die Umstellung der Wärmeversorgung auf erneuerbare Energien werden sowohl Primär- als auch Endenergiebedarf deutlich reduziert. Über die kommenden Jahrzehnte können dadurch erhebliche Mengen an Emissionen aus dem Gebäudebetrieb eingespart werden."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80ba-8a2b-ebd0f0e494ba",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Sanierung erfolgt nach dem Energiesprong-Prinzip mit industriell vorgefertigten Fassadenelementen, hocheffizienter Dämmung, neuen Fenstern und modernisierten Steigsträngen, die passgenau montiert werden. Ergänzt wird das Konzept durch eine Geothermieanlage sowie modulare Fertigbäder. Auf diese Weise werden die Gebäude auf den KfW-Standard 55EE gebracht.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Sanierung erfolgt nach dem Energiesprong-Prinzip mit industriell vorgefertigten Fassadenelementen, hocheffizienter Dämmung, neuen Fenstern und modernisierten Steigsträngen, die passgenau montiert werden. Ergänzt wird das Konzept durch eine Geothermieanlage sowie modulare Fertigbäder. Auf diese Weise werden die Gebäude auf den KfW-Standard 55EE gebracht."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-808a-ab5c-eca4f5bc0131",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80da-ad8c-f51af5f83791",
+      "Type": "column_list",
+      "HasChildren": true,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "ColumnList": {
+        "Columns": [
+          {
+            "Id": "367cc54c-ec6d-802a-9235-eb8308b8ffe3",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "351cc54c-ec6d-80ac-bc39-f6923a49a675",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/bc09eddb-9b49-456a-a14d-7578faabe8d8/vsme-niersberger_visualisierung_II.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YIJHXJMC%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080647Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCu%2BC2ba4Srhe6dKvTZzhmM10AW%2Fjfm4NDPqWRHJFxT8gIgGpxU2LOq2MWcfZTv3hD669ftstihjilHOZaeKXyJzFsqiAQIyP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNGQkf%2B3GdjxZHXBbyrcA0xoTTJpq2jkxGNt4IL%2FG9S8ViJOSfVW8C2J1KeCQdLJ%2BhJJzsEse9vWT2BhFuIbCsqT9mpMF4hhlY3d91qSv2Qc02am%2B8EqM5uHH8MhXNvR01cu43Tm66LOHhCkhcSjld3Lk8fv4qAye2NeZJn8x8iWuqhlgPcdxOmfaiuj8iBtF1k0Tlcm4lZtCjEcIZnNMhau7oCsKPMKsscKYNQNB4eM5yPGN%2Bb%2F3djNKabd8mwG%2FR3bIM%2F%2FEkuQLnQy8lxNOxmqUQ8WL5vOhTFFh4Eflvb%2B5WMbIBMZvsHO%2BTlyM75WnqKLlx0Se%2B3zhel4eDlvCZJ5XUZZvsoO%2BXvn4fLxKBTxmVDa4C5tdILsADuKGJmQOS4xYMTOAcTDZbcF0jJCBr7SHSH%2BYdFxoiOj3gO4LwEJtFWBiUZMvgoUN5uUWNCZqE%2FYASfxRUS%2F2Nv5%2BjSi4aISf9ZC8EPJtD%2F5GPna2gOrPLicyvXYXRjJYAVoNQniEQObY%2Bxi6MXm%2FSoThnZTuM1E6PtnU7koAt%2BPah%2BY%2F8fRtSlQPqGmThkOFD%2Fkr50XOT64RfoxnOytvHp%2BxaQbiobzWFhB2s7zFZI3amf8t5DVBjWLgJtFprItw1XA%2BHXStA2Chu%2B003GYPo7YMIuNwtYGOqUB6eomuk2%2BNjGAgbH60dOspkfjs4dboh82h90x5VVDawlxIPo9ZT9CFOGoZUm6yz7fN5TUQKnYrKfElhStr5bya0YvPgJj6ZmHzUeJPcx1L7FUw49AnpLGtwOkyiasR%2B1Ae6uz7RGJjB8nxfTGFKu7fQXNWsOrEwxK5ILyanwTHoFmvXSKO3AaGUh8%2BL5oS%2BOUjMSRC9Azqgh2DO7DXKuOAlWlX6CF&X-Amz-Signature=f3bf9f919a3fb8d82dc8f812c9597ce9234469de86d7cd879806dd71ec4f9a51&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:47.039Z"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Id": "367cc54c-ec6d-80f8-bc74-dbce1f4880a6",
+            "Type": "column",
+            "HasChildren": true,
+            "Children": [
+              {
+                "Id": "367cc54c-ec6d-80bb-aea6-f41aed45695f",
+                "Type": "image",
+                "HasChildren": false,
+                "Image": {
+                  "Caption": [],
+                  "Type": "file",
+                  "File": {
+                    "Type": "file",
+                    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/c9907b45-5b03-4658-a8a7-4bce149efa4f/vsme-niersberger_axo_II.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XZMRO6MK%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080646Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJHMEUCIQCAy61xkczYawsP3YJLj55pJcpDdq3b3bZ8h6%2BeCv7NDQIgB%2BjeVsEyb3N4N0ofBCnanveUjLI7SKpthKnvkmGwqCgqiAQIyf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHFncauWPduNjhpoeSrcA1%2B16RN95bee2jF290AcfXSAOGvjihBCNiwlxb%2BFAJl0eKaiej0WKYPfvICdiVUe1Ud1w%2FiQZPrUH%2B%2FOfpLPaZX4xDqi7lsvfKPCykz%2B6q4Fjb2j1cTKrTHIBvx04cJwadUeATFgMCKbEk%2BY0fB2ZFOHigm8BRZ6P6URLIbB76%2B78XHGWpXnAaiTp2KGtAFQDCXefS%2FXrau7S5xfBzoWusPFv0Dl3g8qL2FJ%2BrXaMq4Vj58QODYR%2FV7RtETbNZUaY3yXHvCAkT%2F%2FBrhIqH8ESC4Curv8P1sUsFyRcVMFc%2BeF7an1aItvr8odsf6pjhpNTmyMIWc4KcLTxClxulKtr8mH3r4VjtoKrdEassxtF%2BYyEdDT1nsCpjeMaZhaaMuvgLgBtQMj%2FZzKQq%2BRBBu%2FYpRJIoRMf59vTowvqr%2FSBtSXPHJa5wBhtpzp6ODtoLMrwRs%2FBhXMBRxNYscmymArXsDkZbzsSCnwprQaBY%2BwP2hKC3ssSkZ0V5SxeEs7F6t%2BQY6xu4R4PgaegVrzWvTNTs0l5ZLd6ER%2B69ThyDY4vvpSBUO2z%2Ftswit1Uw7rlOqh5qIEAbrxdKROUB%2BzSt3Yubj%2FnbFtGvzriSJqE4YvuprtvX56TnXm4tz2wjPeMNSOwtYGOqUBn89SZkY83nBxactxqYrajXW26EHNmMnEEEY%2BfJBBkSVb3mRFGOT7EQj1IjTPHAQg5x9OpmJ5MacHCd7qk5VVBaRjOvX8do2TZad93FJdC6xZIJPL7mk3Sdox%2BsqQusnynfy5hw8UVKh36w6vAtKe%2BaVshdPOqLznUJH8c%2BgBa9cYe4Os8ePrF5IBW7bhUVY6JTCZeNFfDl6bwFQw%2BQcdiBknDEBs&X-Amz-Signature=6a669efeba419bd73b8dcc4836641ef57ae14fd05d297dd2d7444ec468becc16&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+                    "ExpiryTime": "2026-10-15T09:06:46.052Z"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-80ec-bfb6-cccf07bfc6f3",
+      "Type": "heading_2",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Heading2": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "VSME und strukturiertes Vorgehen im Bereich der Nachhaltigkeit ",
+            "Href": null,
+            "Text": {
+              "Content": "VSME und strukturiertes Vorgehen im Bereich der Nachhaltigkeit "
+            }
+          }
+        ],
+        "Color": "default",
+        "IsToggleable": false
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80d5-ad13-c956db8e29f8",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Auch wenn sich der regulatorische Rahmen verändert hat und viele Unternehmen nicht mehr unter die umfassende CSRD-Berichtspflicht fallen, bleibt die Bedeutung strukturierter Nachhaltigkeitsberichterstattung bestehen.",
+            "Href": null,
+            "Text": {
+              "Content": "Auch wenn sich der regulatorische Rahmen verändert hat und viele Unternehmen nicht mehr unter die umfassende CSRD-Berichtspflicht fallen, bleibt die Bedeutung strukturierter Nachhaltigkeitsberichterstattung bestehen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-809f-8303-dfa01749a32d",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Der VSME-Bericht der Niersberger Group ist weit mehr als eine reine Dokumentation nachhaltiger Aktivitäten – er fungiert als strategisches Steuerungsinstrument für die Weiterentwicklung des Unternehmens. Er schafft Transparenz, macht Fortschritte messbar und unterstützt fundierte Entscheidungen an der Schnittstelle von Ökologie und Ökonomie.",
+            "Href": null,
+            "Text": {
+              "Content": "Der VSME-Bericht der Niersberger Group ist weit mehr als eine reine Dokumentation nachhaltiger Aktivitäten – er fungiert als strategisches Steuerungsinstrument für die Weiterentwicklung des Unternehmens. Er schafft Transparenz, macht Fortschritte messbar und unterstützt fundierte Entscheidungen an der Schnittstelle von Ökologie und Ökonomie."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80f6-bcc6-c1fcb9abbcb1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Damit wird Nachhaltigkeit nicht nur aus einem berichtenden Blickwinkel betrachtet, sondern aktiv in Prozesse, Projekte und Innovationen integriert. Gleichzeitig entstehen durch effizientere Bauweisen, geringeren Energieverbrauch und optimierte Abläufe langfristige wirtschaftliche Vorteile. Der VSME-Bericht wird so zum Leitfaden auf dem Weg zur Klimaneutralität und zur nachhaltigen Sicherung von wirtschaftlichem und gesellschaftlichem Mehrwert.",
+            "Href": null,
+            "Text": {
+              "Content": "Damit wird Nachhaltigkeit nicht nur aus einem berichtenden Blickwinkel betrachtet, sondern aktiv in Prozesse, Projekte und Innovationen integriert. Gleichzeitig entstehen durch effizientere Bauweisen, geringeren Energieverbrauch und optimierte Abläufe langfristige wirtschaftliche Vorteile. Der VSME-Bericht wird so zum Leitfaden auf dem Weg zur Klimaneutralität und zur nachhaltigen Sicherung von wirtschaftlichem und gesellschaftlichem Mehrwert."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-807f-9db1-cc56697a9882",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\nUnsere Leistungen im Projekt",
+            "Href": null,
+            "Text": {
+              "Content": "\nUnsere Leistungen im Projekt"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-8094-b19a-dcb1a584d9f1",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Doppelte Wesentlichkeitsanalyse: Durchführung einer doppelten Wesentlichkeitsanalyse zur Identifikation und Bewertung der wesentlichen Auswirkungen, Risiken und Chancen entlang der Wertschöpfungskette im Hinblick auf Umwelt-, Sozial- und Governance-Themen.",
+            "Href": null,
+            "Text": {
+              "Content": "Doppelte Wesentlichkeitsanalyse: Durchführung einer doppelten Wesentlichkeitsanalyse zur Identifikation und Bewertung der wesentlichen Auswirkungen, Risiken und Chancen entlang der Wertschöpfungskette im Hinblick auf Umwelt-, Sozial- und Governance-Themen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8048-b7c6-e8781ac8ea37",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Innovationsstrategie: Entwicklung einer nachhaltigkeitsorientierten Unternehmensstrategie zur Integration von Klimarisiken, Dekarbonisierungspfaden und ESG-Zielen in Geschäftsmodell, Innovationsprozessen und langfristige Unternehmensentwicklung.",
+            "Href": null,
+            "Text": {
+              "Content": "Innovationsstrategie: Entwicklung einer nachhaltigkeitsorientierten Unternehmensstrategie zur Integration von Klimarisiken, Dekarbonisierungspfaden und ESG-Zielen in Geschäftsmodell, Innovationsprozessen und langfristige Unternehmensentwicklung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-805a-a5c1-d92c3e3fa7bb",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unterstützung bei der Datenerhebung: Beratung bei der Auswahl geeigneter Tools und Software zur Datenerhebung sowie Unterstützung beim Aufbau unternehmensinterner Prozesse zur strukturierten Datensammlung und Qualitätssicherung.",
+            "Href": null,
+            "Text": {
+              "Content": "Unterstützung bei der Datenerhebung: Beratung bei der Auswahl geeigneter Tools und Software zur Datenerhebung sowie Unterstützung beim Aufbau unternehmensinterner Prozesse zur strukturierten Datensammlung und Qualitätssicherung."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8020-8a54-db57136f4286",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Nachhaltigkeitsreporting: Erstellung eines repräsentativen Nachhaltigkeitsberichts einschließlich Strukturierung, Aufbereitung und Integration der erforderlichen ESG-Daten. Der Bericht geht gleichermaßen auf die Anforderungen von Kunden, Geschäftspartnern und Banken ein. ",
+            "Href": null,
+            "Text": {
+              "Content": "Nachhaltigkeitsreporting: Erstellung eines repräsentativen Nachhaltigkeitsberichts einschließlich Strukturierung, Aufbereitung und Integration der erforderlichen ESG-Daten. Der Bericht geht gleichermaßen auf die Anforderungen von Kunden, Geschäftspartnern und Banken ein. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-809f-bb52-fb3445ead190",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Strategische Kommunikation: Entwicklung einer strategischen Positionierung im Markt sowie eines klaren Narrativs zur wirksamen Kommunikation der Nachhaltigkeitsleistung des Unternehmens.",
+            "Href": null,
+            "Text": {
+              "Content": "Strategische Kommunikation: Entwicklung einer strategischen Positionierung im Markt sowie eines klaren Narrativs zur wirksamen Kommunikation der Nachhaltigkeitsleistung des Unternehmens."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-8094-972a-c78aecd05ff3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "367cc54c-ec6d-80ec-a1d2-d7421578c209",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ Cover & Images: BuildSystems \nDie Visualisierungen wurden mit generativer KI bearbeitet. Sie dienen der Veranschaulichung, einzelne Bildelemente können von der tatsächlichen Darstellung abweichen. ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ Cover & Images: BuildSystems \nDie Visualisierungen wurden mit generativer KI bearbeitet. Sie dienen der Veranschaulichung, einzelne Bildelemente können von der tatsächlichen Darstellung abweichen. "
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "351cc54c-ec6d-8056-a59f-c2d41cd935f3",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "\n\n",
+            "Href": null,
+            "Text": {
+              "Content": "\n\n"
+            }
+          }
+        ],
+        "Color": "orange"
+      }
+    },
+    {
+      "Id": "356cc54c-ec6d-804c-95b7-c51126502922",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "304cc54c-ec6d-8093-95f1-deeaa87f06ec",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}

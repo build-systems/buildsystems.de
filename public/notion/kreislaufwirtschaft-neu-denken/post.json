@@ -1,0 +1,456 @@
+{
+  "PageId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+  "Title": "Kreislaufwirtschaft im Bauwesen neu denken",
+  "Authors": [
+    {
+      "id": "52892f86-d7a8-43c8-a3e2-5c40a49a6f18",
+      "name": "Martin Bittmann",
+      "color": "brown"
+    }
+  ],
+  "Category": "Teaching",
+  "Icon": null,
+  "Cover": {
+    "Type": "file",
+    "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/4185a4ca-1894-4140-9001-cedbdd0dc9d1/Cradle-to-Cradle-Cover_Va1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XICACRKY%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080634Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJGMEQCIDa0KdeuLgrsJ%2B7HmyzUSS%2F7ncyQmnKJ2wwkDCKlmchGAiBtC9MV3Um70oFtacOaud%2FU%2BsBWI0tCIq2i8lhh3fkRuyqIBAjJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM8MiXEFw1Y8UOO5dfKtwD0%2FMrNNbIjUBBFHEzJSL3WE6%2F%2B4wKf5445%2B4qgLleqQBMYrDgtdwXarKVscd2RURfj1BOyUX04YGOXj0KoBVDfx6YMtlB8MJCswA3PABH431wufNguZjuP8gNTRjTNvhd4DIRLKeM0B0d0eVgg6qb9Ec36%2BZbnP2yYxOxx9sogQBXy0riQ6%2BzHoy0iG1IEh8MLvfQCD7pOQO0zEKv9nKu3p3erlscuXWkW2JpcGcQv3gtfufI3OdrMC7Z2OppENTfS8aJ5C2t0eVL4xsbS4S9fGPSbA5onq5SC3LFhc5JK%2FRE8M32kSPtG5jeA6wafnHeVXxaRT2paMXRGQC1aHo58TQpu%2BBN%2FYuo77nWCjZN%2FC0zpgpr%2Ft9U5R7mDxVbb219AdeWpNyvNvBKCeumCLI4BE7O4ICWYj1AF5PVBDB9a7deFmAkY5TpiyAkU%2FtLmLSQxc%2Fp66l9aQPtofe2HVQSD2QIgnrL7qWf54j%2BAlp0uw3O98aNkoEryx8iCJkHZ9xG3PgtRLLWm2Wp%2FGCfVYrbMJnmLbff71u58ftZxaKOHrd%2BhR7BQhG565rBvQrICYX2k58Q1SeC7nLliLUOoXjH8lx%2BtxaRtEcWkvR4mD3Zmxw9pIQ24LZgHEnG36Aw9IzC1gY6pgHLCDuyJF6BCTMIpwRK0I%2Fr7GfBesCLncXJLFVd8TvW5TA0bxoZC%2FPhirJEEQbBEOmYSDMNr2Enu0v9GweEVDcXedbOREaZ6iy3MX8wswgs5gN6k5e42NV9KpsK6hiMz9%2F8ykO78fJJlA%2F7x5R6ZHVON772%2FYa446dYvTWNOBOTX%2FUTL6ckLTx9fUUbIYAs2%2BmREacKYql3FIFGkvYkLKugTZ%2BFcgTQ&X-Amz-Signature=7fe71ce647bd52f057c0e6b9ef60287fd503799c5f3503e6abfed19e6c65fb87&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+  },
+  "CoverAlt": "",
+  "Slug": "kreislaufwirtschaft-neu-denken",
+  "PublishDate": "2026-05-20",
+  "Tags": [
+    {
+      "id": "974deff9-d0b0-48b9-8812-5ac136386c9f",
+      "name": "Transfer",
+      "color": "blue"
+    }
+  ],
+  "Description": "Im Rahmen einer Gastveranstaltung an der HSWT stellte Martin Bittmann, als Berater der Bayerischen Architektenkammer (BEN), die Grundlagen und Potenziale der Kreislaufwirtschaft vor.",
+  "coverAsset": "Cradle-to-Cradle-Cover_Va1.jpg",
+  "blockAssets": [
+    "kreislaufwirtschaft-neu-denken_cover.jpg",
+    "kreislaufwirtschaft-neu-denken_kreis_grafik.jpg"
+  ],
+  "blocks": [
+    {
+      "Id": "374cc54c-ec6d-8005-b61e-cce120262204",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Endliche Ressourcen vertragen kein lineares Bauen. Daher rücken zirkuläre Baukonzepte und geschlossene Materialkreisläufe zunehmend in den Mittelpunkt einer nachhaltigen Bauwirtschaft.",
+            "Href": null,
+            "Text": {
+              "Content": "Endliche Ressourcen vertragen kein lineares Bauen. Daher rücken zirkuläre Baukonzepte und geschlossene Materialkreisläufe zunehmend in den Mittelpunkt einer nachhaltigen Bauwirtschaft."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-8081-b25c-e638e88802cb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Im Rahmen einer Gastveranstaltung an der Hochschule Weihenstepahn-Triesdorf stellte Martin Bittmann, als ",
+            "Href": null,
+            "Text": {
+              "Content": "Im Rahmen einer Gastveranstaltung an der Hochschule Weihenstepahn-Triesdorf stellte Martin Bittmann, als "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "freier ",
+            "Href": null,
+            "Text": {
+              "Content": "freier "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Berater der Bayerischen Architektenkammer (BEN), unter dem Titel “Zirkuläres Planen und Bauen als Mehrwert für Kommunen - Strategien und Umsetzung einer lokalen Kreislaufwirtschaft” die Grundlagen und Potenziale des zirkulären Bauens vor. \nIm Mittelpunkt stand die Frage, wie Gebäude künftig geplant werden können, damit die eingesetzten Materialien auch nach ihrer Nutzung als Ressourcen verfügbar bleiben und in neue Wertschöpfungskreisläufe zurückgeführt werden können.",
+            "Href": null,
+            "Text": {
+              "Content": "Berater der Bayerischen Architektenkammer (BEN), unter dem Titel “Zirkuläres Planen und Bauen als Mehrwert für Kommunen - Strategien und Umsetzung einer lokalen Kreislaufwirtschaft” die Grundlagen und Potenziale des zirkulären Bauens vor. \nIm Mittelpunkt stand die Frage, wie Gebäude künftig geplant werden können, damit die eingesetzten Materialien auch nach ihrer Nutzung als Ressourcen verfügbar bleiben und in neue Wertschöpfungskreisläufe zurückgeführt werden können."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "380cc54c-ec6d-8030-af81-efed399764f3",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Image": {
+        "Caption": [],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/5a6576c5-ece6-493f-9ee9-ff3dbee55d48/kreislaufwirtschaft-neu-denken_cover.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667J4C4LQP%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQDmdkPzhhdXZ7j143QS1Rx42VtLZEZx7d1f72DSupfoWAIhAI5fIuce5Vwe3Al0gJHVp7MDLExUlyqx%2Bf98Cm9CJ3H2KogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igyzwb7I0GWRzjzAkjIq3ANJPD3aQBKq%2FTOBn1fz8mpzWt%2FPWhx0%2Fq%2BmDmqNicNRG80c7wQtBnFOKJiZI6gDG8rYBz4qtLHhiy7V5cdArMzKvtebIQRao23WycyALvRR9r87iLuw5g9nOTgTZhgBnMRp2mkgG9QlEUG4qgVXEikMN51glgmnouCWXbYvF5iiPHmTlNXdh%2BWvtUhnXt3qiunnDJbq0ZIZZxb5Q7jJCVlqxUTMEy5gMG5app5yk7xLfuU7UVg0%2BaXVM8Blgsc0BCcFpBhlPvJ%2FNCFi5BZEBCz2RS7qjX4ybFUTHic38fgpY%2BxYNTj8auhR99gEiOvQ7sAkrzbxvhm4Hx0vlzwSpY5dPHW7JC7rCCYWIr9OCKEtZgMllkzdnYZgV%2BRquBKVOJgE8bQkcLGrpFXaoQa1tV%2FsrJdk6FSispi3TtH4KaDwMLF0RcWaoFZlJcu67TTmLM7yJy8wUHbaHgXeO6sd%2FDZTReKTlRC92PWUWh1%2B12X5q%2F4c2t6CkpKOCLH%2FdbNvrW6bpxev20Kdd0YGQ7nHqYYyrLRsbfoTb0vOmqtjWXltfQt7FEgq2%2FBN1EC4tNt0IzFN3gpazwUMEA8CGTN%2FoqiSFbgGhfK5WXbqKBquK0ZCyuaqHPCPtayGjhwthTC%2BjsLWBjqkAeRbfjMG0WoMQQ6p9V0mQPQvdv8%2Fz9H5BRTEoYV6Wg75tK9DU8IdBYR6pK8UyZPOSNHcjTcSNZvpU2LaBDwNrvPI7%2F7lRU57RJTzvcSj7gMjyyIlQk5FlLjqwNweSK6wsTvlFreMtFr3r8FUInoKx7tbokKqXSsSpEf86Kwa6goWgxSEP2109UAB6BzhtldK1%2BCb%2FsVHGb6qQ%2FkYetriez%2FOARZG&X-Amz-Signature=bfff9c517b38024826c00b81ba3c197a801d730cfd83888f896fe9fd24ac58ca&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:37.981Z"
+        }
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80d7-a5ca-cb4b2874a397",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Das Cradle-to-Cradle-Prinzip bildet die Grundlage für ein kreislauforientiertes Verständnis von Produkten und Materialien. Anders als das klassische lineare Modell aus Herstellung, Nutzung und Entsorgung betrachtet es Materialien als Teil geschlossener Kreisläufe. Ziel ist es, Rohstoffe möglichst lange nutzbar zu halten und bereits in der Planung die spätere Wiederverwendung mitzudenken.",
+            "Href": null,
+            "Text": {
+              "Content": "Das Cradle-to-Cradle-Prinzip bildet die Grundlage für ein kreislauforientiertes Verständnis von Produkten und Materialien. Anders als das klassische lineare Modell aus Herstellung, Nutzung und Entsorgung betrachtet es Materialien als Teil geschlossener Kreisläufe. Ziel ist es, Rohstoffe möglichst lange nutzbar zu halten und bereits in der Planung die spätere Wiederverwendung mitzudenken."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-8048-8729-c03ca539d4b2",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Dabei werden zwei Kreisläufe unterschieden:",
+            "Href": null,
+            "Text": {
+              "Content": "Dabei werden zwei Kreisläufe unterschieden:"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80e5-b102-fb3373d1ea13",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Biologischer Kreislauf:",
+            "Href": null,
+            "Text": {
+              "Content": "Biologischer Kreislauf:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Materialien können nach ihrer Nutzung sicher in natürliche Prozesse zurückgeführt werden und dienen dort als Nährstoffe für neue Ressourcen.",
+            "Href": null,
+            "Text": {
+              "Content": " Materialien können nach ihrer Nutzung sicher in natürliche Prozesse zurückgeführt werden und dienen dort als Nährstoffe für neue Ressourcen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80b0-96dd-ce3184c58d62",
+      "Type": "bulleted_list_item",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "BulletedListItem": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": true,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Technischer Kreislauf:",
+            "Href": null,
+            "Text": {
+              "Content": "Technischer Kreislauf:"
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": " Materialien bleiben sortenrein erhalten, werden zurückgebaut, aufbereitet und erneut eingesetzt.\n",
+            "Href": null,
+            "Text": {
+              "Content": " Materialien bleiben sortenrein erhalten, werden zurückgebaut, aufbereitet und erneut eingesetzt.\n"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "380cc54c-ec6d-80f6-8852-eb481f4aef8d",
+      "Type": "image",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Image": {
+        "Caption": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Quelle: Eigene Darstellung nach McDonough/Braungart (2008)\n",
+            "Href": null,
+            "Text": {
+              "Content": "Quelle: Eigene Darstellung nach McDonough/Braungart (2008)\n"
+            }
+          }
+        ],
+        "Type": "file",
+        "File": {
+          "Type": "file",
+          "Url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/03753020-4f11-4175-8523-330762c8abd9/1bdb0486-914e-4c19-89f9-b960e4b74ab1/kreislaufwirtschaft-neu-denken_kreis_grafik.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667J4C4LQP%2F20261015%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261015T080638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAAaCXVzLXdlc3QtMiJIMEYCIQDmdkPzhhdXZ7j143QS1Rx42VtLZEZx7d1f72DSupfoWAIhAI5fIuce5Vwe3Al0gJHVp7MDLExUlyqx%2Bf98Cm9CJ3H2KogECMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igyzwb7I0GWRzjzAkjIq3ANJPD3aQBKq%2FTOBn1fz8mpzWt%2FPWhx0%2Fq%2BmDmqNicNRG80c7wQtBnFOKJiZI6gDG8rYBz4qtLHhiy7V5cdArMzKvtebIQRao23WycyALvRR9r87iLuw5g9nOTgTZhgBnMRp2mkgG9QlEUG4qgVXEikMN51glgmnouCWXbYvF5iiPHmTlNXdh%2BWvtUhnXt3qiunnDJbq0ZIZZxb5Q7jJCVlqxUTMEy5gMG5app5yk7xLfuU7UVg0%2BaXVM8Blgsc0BCcFpBhlPvJ%2FNCFi5BZEBCz2RS7qjX4ybFUTHic38fgpY%2BxYNTj8auhR99gEiOvQ7sAkrzbxvhm4Hx0vlzwSpY5dPHW7JC7rCCYWIr9OCKEtZgMllkzdnYZgV%2BRquBKVOJgE8bQkcLGrpFXaoQa1tV%2FsrJdk6FSispi3TtH4KaDwMLF0RcWaoFZlJcu67TTmLM7yJy8wUHbaHgXeO6sd%2FDZTReKTlRC92PWUWh1%2B12X5q%2F4c2t6CkpKOCLH%2FdbNvrW6bpxev20Kdd0YGQ7nHqYYyrLRsbfoTb0vOmqtjWXltfQt7FEgq2%2FBN1EC4tNt0IzFN3gpazwUMEA8CGTN%2FoqiSFbgGhfK5WXbqKBquK0ZCyuaqHPCPtayGjhwthTC%2BjsLWBjqkAeRbfjMG0WoMQQ6p9V0mQPQvdv8%2Fz9H5BRTEoYV6Wg75tK9DU8IdBYR6pK8UyZPOSNHcjTcSNZvpU2LaBDwNrvPI7%2F7lRU57RJTzvcSj7gMjyyIlQk5FlLjqwNweSK6wsTvlFreMtFr3r8FUInoKx7tbokKqXSsSpEf86Kwa6goWgxSEP2109UAB6BzhtldK1%2BCb%2FsVHGb6qQ%2FkYetriez%2FOARZG&X-Amz-Signature=78ec5fca23089b9b9b9c721d478a34eeb6ab21d010378bff8c602a4a92bd7781&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "ExpiryTime": "2026-10-15T09:06:37.981Z"
+        }
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-809d-8869-ff72db6d86fb",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Gerade im Bauwesen eröffnet dieser Ansatz neue Perspektiven. Gebäude werden nicht länger ausschließlich als Bauwerke betrachtet, sondern auch als temporäre Materiallager. Voraussetzung dafür sind kreislauffähige Materialien, schadstoffarme Produkte sowie Konstruktionen, deren Bauteile sortenrein getrennt, demontiert und wiederverwendet werden können. Ebenso wichtig ist eine Planung, die den späteren Rückbau und die Wiederverwendung der eingesetzten Ressourcen von Anfang an berücksichtigt.",
+            "Href": null,
+            "Text": {
+              "Content": "Gerade im Bauwesen eröffnet dieser Ansatz neue Perspektiven. Gebäude werden nicht länger ausschließlich als Bauwerke betrachtet, sondern auch als temporäre Materiallager. Voraussetzung dafür sind kreislauffähige Materialien, schadstoffarme Produkte sowie Konstruktionen, deren Bauteile sortenrein getrennt, demontiert und wiederverwendet werden können. Ebenso wichtig ist eine Planung, die den späteren Rückbau und die Wiederverwendung der eingesetzten Ressourcen von Anfang an berücksichtigt."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80a2-b046-fd7ff56270f7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Die Veranstaltung zeigte eindrucksvoll, dass zirkuläres Bauen weit mehr ist als Recycling. Es geht um intelligentes Gestalten von Beginn an: mit dem Ziel, Ressourcen zu erhalten, Materialwerte zu sichern und nachhaltige Bauwerke zu schaffen.",
+            "Href": null,
+            "Text": {
+              "Content": "Die Veranstaltung zeigte eindrucksvoll, dass zirkuläres Bauen weit mehr ist als Recycling. Es geht um intelligentes Gestalten von Beginn an: mit dem Ziel, Ressourcen zu erhalten, Materialwerte zu sichern und nachhaltige Bauwerke zu schaffen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80fe-a2d4-c39c366db9ca",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Unser interdisziplinäres Team ermöglicht es uns, solche Themen aus unterschiedlichen Perspektiven zu betrachten und sowohl in Lehre, Praxis als auch Weiterbildung zu begleiten. \nDer Austausch mit Studierenden, Planenden und Unternehmen ist dabei ein wichtiger Schritt, um Kreislaufwirtschaft im Bauwesen verständlich, praxisnah und anwendbar zu machen.",
+            "Href": null,
+            "Text": {
+              "Content": "Unser interdisziplinäres Team ermöglicht es uns, solche Themen aus unterschiedlichen Perspektiven zu betrachten und sowohl in Lehre, Praxis als auch Weiterbildung zu begleiten. \nDer Austausch mit Studierenden, Planenden und Unternehmen ist dabei ein wichtiger Schritt, um Kreislaufwirtschaft im Bauwesen verständlich, praxisnah und anwendbar zu machen."
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "379cc54c-ec6d-80d6-8861-e4d360a7cf92",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-8090-a90c-c98cb35015a1",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "©️ ",
+            "Href": null,
+            "Text": {
+              "Content": "©️ "
+            }
+          },
+          {
+            "Annotation": {
+              "Bold": false,
+              "Italic": false,
+              "Strikethrough": false,
+              "Underline": false,
+              "Code": false,
+              "Color": "default"
+            },
+            "PlainText": "Cover & Images: BuildSystems",
+            "Href": null,
+            "Text": {
+              "Content": "Cover & Images: BuildSystems"
+            }
+          }
+        ],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-80c3-ad06-f63f23a150a7",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-8016-b472-fa3e69f3ed60",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    },
+    {
+      "Id": "374cc54c-ec6d-8099-876d-e8b9e5eb6888",
+      "Type": "paragraph",
+      "HasChildren": false,
+      "ParentId": "374cc54c-ec6d-8086-b1ff-c6ac8072f74c",
+      "Paragraph": {
+        "RichTexts": [],
+        "Color": "default"
+      }
+    }
+  ]
+}
