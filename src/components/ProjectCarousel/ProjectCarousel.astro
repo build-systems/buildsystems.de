@@ -118,14 +118,16 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     border-radius: 50%;
   }
 
-  .blog-carousel:hover .btn-prev,
-  .blog-carousel:hover .btn-next {
-    opacity: 0.5;
-  }
-
   .btn-prev:hover,
   .btn-next:hover {
     opacity: 1;
+  }
+
+  /* Disabled by blog-carousel.ts when the carousel can't scroll further */
+  .btn-prev:disabled,
+  .btn-next:disabled {
+    opacity: 0;
+    pointer-events: none;
   }
 
   .btn-prev {

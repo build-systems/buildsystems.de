@@ -290,10 +290,11 @@ const transferPosts = allPosts.filter((p) =>
   section {
     width: 100%;
     min-width: 0;
+    /* clip (not hidden) so the StickySection headers keep working */
+    overflow-x: clip;
   }
 
   section > :global(.container-blog-carousel) {
-    overflow: hidden;
     max-width: 100%;
   }
 

@@ -1,23 +1,43 @@
 // The function is wrapped on a function to work with Astro view transitions
 function init() {
-  const slider = document.querySelector(".blog-carousel") as HTMLElement;
+  document
+    .querySelectorAll<HTMLElement>(".container-blog-carousel")
+    .forEach(initCarousel);
+}
+
+// Each carousel is wired up separately so pages can hold several of them
+function initCarousel(container: HTMLElement) {
+  const slider = container.querySelector(".blog-carousel") as HTMLElement;
   if (slider) {
     const allLinks: NodeListOf<HTMLElement> =
-      document.querySelectorAll(".card-link");
+      slider.querySelectorAll(".card-link");
 
     // Previous
-    const buttonPrevious = document.querySelector(".btn-prev") as HTMLElement;
+    const buttonPrevious = container.querySelector(
+      ".btn-prev",
+    ) as HTMLButtonElement;
     const scrollLeftHandler = () => {
       slider.scrollBy(-400, 0);
     };
     buttonPrevious.addEventListener("click", scrollLeftHandler);
 
     // Next
-    const buttonNext = document.querySelector(".btn-next") as HTMLElement;
+    const buttonNext = container.querySelector(".btn-next") as HTMLButtonElement;
     const scrollRightHandler = () => {
       slider.scrollBy(400, 0);
     };
     buttonNext.addEventListener("click", scrollRightHandler);
+
+    // Hide the arrows when there is nothing more to scroll in that direction
+    // (1px tolerance for fractional scroll positions)
+    const updateButtons = () => {
+      const maxScroll = slider.scrollWidth - slider.clientWidth;
+      buttonPrevious.disabled = slider.scrollLeft <= 1;
+      buttonNext.disabled = slider.scrollLeft >= maxScroll - 1;
+    };
+    slider.addEventListener("scroll", updateButtons, { passive: true });
+    window.addEventListener("resize", updateButtons);
+    updateButtons();
 
     // Mouse click and drag to scroll
     // Variables to store mouse position
@@ -120,6 +140,8 @@ function init() {
       () => {
         buttonPrevious.removeEventListener("click", scrollLeftHandler);
         buttonNext.removeEventListener("click", scrollRightHandler);
+        slider.removeEventListener("scroll", updateButtons);
+        window.removeEventListener("resize", updateButtons);
         slider.removeEventListener("mouseenter", onMouseEnter);
         slider.removeEventListener("mouseleave", onMouseLeave);
         slider.removeEventListener("wheel", onWheelEvent);
