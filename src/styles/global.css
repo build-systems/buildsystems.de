@@ -18,6 +18,12 @@
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --layout-padding: 1rem;
   --card-border-radius: 0.5rem;
+  /* Layered so the hover shadow fades out softly instead of a hard edge.
+     Kept within ~6px sideways: carousel cards only have 0.5rem of room
+     before the scroll container clips them. */
+  --card-shadow-hover:
+    0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 6px -1px rgba(0, 0, 0, 0.16),
+    0 8px 12px -6px rgba(0, 0, 0, 0.24);
 
   --left-padding-general: 305px;
   --right-padding-general: 10%;
